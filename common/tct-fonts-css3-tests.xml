@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<test_definition>
+    <suite launcher="xwalk" name="00-common/E0-crosswalk">
+        <set name="common/crosswalk/commonapi/tct-fonts-css3-tests">
+            <testcase id="00-E0-00-0L-05-CSS3DF_font-family" name="05-CSS3DF_font-family" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="" purpose="Objective: Check if the element font-family exists - Description: Check if the element font-family exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the element font-family exists - Description: Check if the element font-family exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/CSS3DF_font-family.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-06-CSS3DF_font-kerning_normal" name="06-CSS3DF_font-kerning_normal" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="" purpose="Objective: Check if the font-kerning can be given normal value - Description: Check if the font-kerning can be given normal value">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the font-kerning can be given normal value - Description: Check if the font-kerning can be given normal value]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/CSS3DF_font-kerning_normal.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-07-CSS3DF_font-variant_normal" name="07-CSS3DF_font-variant_normal" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="" purpose="Objective: Check if the font-variant can be given normal value - Description: Check if the font-variant can be given normal value">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the font-variant can be given normal value - Description: Check if the font-variant can be given normal value]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/CSS3DF_font-variant_normal.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-08-CSS3DF_font-variant-ligatures_normal" name="08-CSS3DF_font-variant-ligatures_normal" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="" purpose="Objective: Check if the font-variant-ligatures can be given normal value - Description: Check if the font-variant-ligatures can be given normal value">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the font-variant-ligatures can be given normal value - Description: Check if the font-variant-ligatures can be given normal value]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/CSS3DF_font-variant-ligatures_normal.html</test_script_entry>
+                </description>
+            </testcase>
+        </set>
+    </suite>
+</test_definition>

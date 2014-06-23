@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<test_definition>
+    <suite launcher="xwalk" name="00-common/E0-crosswalk">
+        <set name="common/crosswalk/commonapi/tct-svg-html5-tests">
+            <testcase id="00-E0-00-17-04-foreign_content_ten_circle_rect_svg" name="04-foreign_content_ten_circle_rect_svg" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-svg-html5-tests" status="designed" type="" purpose="Objective: Check if SVG Self Closing tags (circle and rect in svg) is parsed properly - Description: Check if SVG Self Closing tags (circle and rect in svg) is parsed properly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if SVG Self Closing tags (circle and rect in svg) is parsed properly - Description: Check if SVG Self Closing tags (circle and rect in svg) is parsed properly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-svg-html5-tests/svg/w3c/foreign_content_010.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-17-08-foreign_content_nine_circle_in_rect_svg" name="08-foreign_content_nine_circle_in_rect_svg" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-svg-html5-tests" status="designed" type="" purpose="Objective: Check if SVG Self Closing tags (circle in rect in svg)  is parsed properly - Description: Check if SVG Self Closing tags (circle in rect in svg)  is parsed properly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if SVG Self Closing tags (circle in rect in svg)  is parsed properly - Description: Check if SVG Self Closing tags (circle in rect in svg)  is parsed properly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-svg-html5-tests/svg/w3c/foreign_content_009.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-17-0C-svg_support" name="0C-svg_support" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-svg-html5-tests" status="designed" type="" purpose="Objective: Check if SVG suppports - Description: Check if SVG suppports">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if SVG suppports - Description: Check if SVG suppports]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-svg-html5-tests/svg/svg_support.html</test_script_entry>
+                </description>
+            </testcase>
+        </set>
+    </suite>
+</test_definition>

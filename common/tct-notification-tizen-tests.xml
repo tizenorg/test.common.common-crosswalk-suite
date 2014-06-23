@@ -1,0 +1,736 @@
+<?xml version="1.0"?>
+<test_definition>
+    <suite launcher="xwalk" name="00-common/E0-crosswalk">
+        <set name="common/crosswalk/deviceapi/tct-notification-tizen-tests">
+            <testcase id="00-E0-01-0K-01-NotificationManager_post_exist" name="01-NotificationManager_post_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if method post which in NotificationManager interface exists. - Description: Check if method post which in NotificationManager interface exists.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if method post which in NotificationManager interface exists. - Description: Check if method post which in NotificationManager interface exists.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationManager_post_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-02-NotificationManager_update_exist" name="02-NotificationManager_update_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if method update which in NotificationManager interface exists. - Description: Check if method update which in NotificationManager interface exists.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if method update which in NotificationManager interface exists. - Description: Check if method update which in NotificationManager interface exists.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationManager_update_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-03-NotificationManager_remove_exist" name="03-NotificationManager_remove_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if method remove which in NotificationManager interface exists. - Description: Check if method remove which in NotificationManager interface exists.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if method remove which in NotificationManager interface exists. - Description: Check if method remove which in NotificationManager interface exists.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationManager_remove_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-04-NotificationManager_removeAll_exist" name="04-NotificationManager_removeAll_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if method removeAll which in NotificationManager interface exists. - Description: Check if method removeAll which in NotificationManager interface exists.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if method removeAll which in NotificationManager interface exists. - Description: Check if method removeAll which in NotificationManager interface exists.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationManager_removeAll_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-05-NotificationManager_get_exist" name="05-NotificationManager_get_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if method get which in NotificationManager interface exists. - Description: Check if method get which in NotificationManager interface exists.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if method get which in NotificationManager interface exists. - Description: Check if method get which in NotificationManager interface exists.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationManager_get_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-06-NotificationManager_getAll_exist" name="06-NotificationManager_getAll_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if method getAll which in NotificationManager interface exists. - Description: Check if method getAll which in NotificationManager interface exists.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if method getAll which in NotificationManager interface exists. - Description: Check if method getAll which in NotificationManager interface exists.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationManager_getAll_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-07-NotificationManager_get" name="07-NotificationManager_get" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if the parameter NotificationManager which in get method ok - Description: Check if the parameter NotificationManager which in get method ok">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the parameter NotificationManager which in get method ok - Description: Check if the parameter NotificationManager which in get method ok]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationManager_get.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-08-NotificationManager_remove" name="08-NotificationManager_remove" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if the parameter NotificationManager which in remove method ok - Description: Check if the parameter NotificationManager which in remove method ok">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the parameter NotificationManager which in remove method ok - Description: Check if the parameter NotificationManager which in remove method ok]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationManager_remove.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-09-NotificationManager_update" name="09-NotificationManager_update" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if the parameter NotificationManager which in update method ok - Description: Check if the parameter NotificationManager which in update method ok">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the parameter NotificationManager which in update method ok - Description: Check if the parameter NotificationManager which in update method ok]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationManager_update.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-0A-NotificationManager_in_tizen" name="0A-NotificationManager_in_tizen" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if the readonly attribute notification - Description: Check if the readonly attribute notification">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute notification - Description: Check if the readonly attribute notification]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationManager_in_tizen.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-0B-NotificationManager_update_notposted" name="0B-NotificationManager_update_notposted" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check whether calling update() method with notification not posted earlier throws an exception - Description: Check whether calling update() method with notification not posted earlier throws an exception">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check whether calling update() method with notification not posted earlier throws an exception - Description: Check whether calling update() method with notification not posted earlier throws an exception]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationManager_update_notposted.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-0C-StatusNotification_constructor_minargs" name="0C-StatusNotification_constructor_minargs" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if StatusNotification's constructor works with minimal arguments - Description: Check if StatusNotification's constructor works with minimal arguments">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if StatusNotification's constructor works with minimal arguments - Description: Check if StatusNotification's constructor works with minimal arguments]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_constructor_minargs.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-0D-StatusNotification_constructor_notificationInitDict_partial" name="0D-StatusNotification_constructor_notificationInitDict_partial" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if StatusNotification's constructor works with partial attributes in notificationInitDict - Description: Check if StatusNotification's constructor works with partial attributes in notificationInitDict">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if StatusNotification's constructor works with partial attributes in notificationInitDict - Description: Check if StatusNotification's constructor works with partial attributes in notificationInitDict]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_constructor_notificationInitDict_partial.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-0E-StatusNotification_constructor_notificationInitDict_partial_extra" name="0E-StatusNotification_constructor_notificationInitDict_partial_extra" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if StatusNotification's constructor works with additional attributes in notificationInitDict - Description: Check if StatusNotification's constructor works with additional attributes in notificationInitDict">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if StatusNotification's constructor works with additional attributes in notificationInitDict - Description: Check if StatusNotification's constructor works with additional attributes in notificationInitDict]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_constructor_notificationInitDict_partial_extra.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-0F-StatusNotification_appid_attribute" name="0F-StatusNotification_appid_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if attribute appid of StatusNotification exists, has appropriate type - Description: Check if attribute appid of StatusNotification exists, has appropriate type">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute appid of StatusNotification exists, has appropriate type - Description: Check if attribute appid of StatusNotification exists, has appropriate type]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_appid_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-0G-StatusNotification_appControl_attribute" name="0G-StatusNotification_appControl_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if attribute appControl of StatusNotification exists, has appropriate type - Description: Check if attribute appControl of StatusNotification exists, has appropriate type">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute appControl of StatusNotification exists, has appropriate type - Description: Check if attribute appControl of StatusNotification exists, has appropriate type]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_appControl_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-0H-StatusNotification_vibration_attribute" name="0H-StatusNotification_vibration_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if attribute vibration of StatusNotification exists, has appropriate type - Description: Check if attribute vibration of StatusNotification exists, has appropriate type">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute vibration of StatusNotification exists, has appropriate type - Description: Check if attribute vibration of StatusNotification exists, has appropriate type]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_vibration_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-0I-StatusNotification_iconPath_attribute" name="0I-StatusNotification_iconPath_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if attribute iconPath of StatusNotification exists, has appropriate type - Description: Check if attribute iconPath of StatusNotification exists, has appropriate type">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute iconPath of StatusNotification exists, has appropriate type - Description: Check if attribute iconPath of StatusNotification exists, has appropriate type]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_iconPath_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-0J-StatusNotification_soundPath_attribute" name="0J-StatusNotification_soundPath_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if attribute soundPath of StatusNotification exists, has appropriate type - Description: Check if attribute soundPath of StatusNotification exists, has appropriate type">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute soundPath of StatusNotification exists, has appropriate type - Description: Check if attribute soundPath of StatusNotification exists, has appropriate type]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_soundPath_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-0K-StatusNotification_statusType_attribute" name="0K-StatusNotification_statusType_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if attribute statusType of StatusNotification exists, has appropriate type - Description: Check if attribute statusType of StatusNotification exists, has appropriate type">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute statusType of StatusNotification exists, has appropriate type - Description: Check if attribute statusType of StatusNotification exists, has appropriate type]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_statusType_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-0L-Notification_content_attribute" name="0L-Notification_content_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if attribute content of Notification exists, has appropriate type - Description: Check if attribute content of Notification exists, has appropriate type">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute content of Notification exists, has appropriate type - Description: Check if attribute content of Notification exists, has appropriate type]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/Notification_content_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-0M-Notification_postedTime_attribute" name="0M-Notification_postedTime_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if attribute postedTime of Notification exists, has appropriate type - Description: Check if attribute postedTime of Notification exists, has appropriate type">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute postedTime of Notification exists, has appropriate type - Description: Check if attribute postedTime of Notification exists, has appropriate type]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/Notification_postedTime_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-0N-Notification_title_attribute" name="0N-Notification_title_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if attribute title of Notification exists, has appropriate type - Description: Check if attribute title of Notification exists, has appropriate type">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute title of Notification exists, has appropriate type - Description: Check if attribute title of Notification exists, has appropriate type]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/Notification_title_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-0O-Notification_id_attribute" name="0O-Notification_id_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if attribute id of Notification exists, has appropriate type - Description: Check if attribute id of Notification exists, has appropriate type">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute id of Notification exists, has appropriate type - Description: Check if attribute id of Notification exists, has appropriate type]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/Notification_id_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-0P-Notification_type_attribute" name="0P-Notification_type_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if attribute type of Notification exists, has appropriate type - Description: Check if attribute type of Notification exists, has appropriate type">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute type of Notification exists, has appropriate type - Description: Check if attribute type of Notification exists, has appropriate type]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/Notification_type_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-0Q-NotificationManager_post_ONGOING" name="0Q-NotificationManager_post_ONGOING" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if NotificationManager.post method works properly with ONGOING statusType - Description: Check if NotificationManager.post method works properly with ONGOING statusType">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NotificationManager.post method works properly with ONGOING statusType - Description: Check if NotificationManager.post method works properly with ONGOING statusType]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationManager_post_ONGOING.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-0R-NotificationManager_post_PROGRESS" name="0R-NotificationManager_post_PROGRESS" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if NotificationManager.post method works properly with PROGRESS statusType - Description: Check if NotificationManager.post method works properly with PROGRESS statusType">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NotificationManager.post method works properly with PROGRESS statusType - Description: Check if NotificationManager.post method works properly with PROGRESS statusType]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationManager_post_PROGRESS.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-0S-NotificationManager_post_SIMPLE" name="0S-NotificationManager_post_SIMPLE" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if NotificationManager.post method works properly with SIMPLE statusType - Description: Check if NotificationManager.post method works properly with SIMPLE statusType">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NotificationManager.post method works properly with SIMPLE statusType - Description: Check if NotificationManager.post method works properly with SIMPLE statusType]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationManager_post_SIMPLE.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-0T-NotificationManager_removeAll" name="0T-NotificationManager_removeAll" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if NotificationManager.removeAll works properly - Description: Check if NotificationManager.removeAll works properly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NotificationManager.removeAll works properly - Description: Check if NotificationManager.removeAll works properly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationManager_removeAll.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-0U-NotificationManager_getAll" name="0U-NotificationManager_getAll" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if NotificationManager.getAll method works - Description: Check if NotificationManager.getAll method works">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NotificationManager.getAll method works - Description: Check if NotificationManager.getAll method works]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationManager_getAll.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-0V-NotificationManager_notexist" name="0V-NotificationManager_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if NotificationManager does not exist - Description: Check if NotificationManager does not exist">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NotificationManager does not exist - Description: Check if NotificationManager does not exist]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationManager_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-0W-NotificationObject_notexist" name="0W-NotificationObject_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if NotificationObject does not exist - Description: Check if NotificationObject does not exist">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NotificationObject does not exist - Description: Check if NotificationObject does not exist]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationObject_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-0X-Notification_notexist" name="0X-Notification_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if Notification does not exist - Description: Check if Notification does not exist">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Notification does not exist - Description: Check if Notification does not exist]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/Notification_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-0Y-NotificationManager_extend" name="0Y-NotificationManager_extend" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if NotificationManager is extendable - Description: Check if NotificationManager is extendable">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NotificationManager is extendable - Description: Check if NotificationManager is extendable]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationManager_extend.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-0Z-StatusNotification_extend" name="0Z-StatusNotification_extend" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if StatusNotification is extendable - Description: Check if StatusNotification is extendable">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if StatusNotification is extendable - Description: Check if StatusNotification is extendable]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_extend.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-10-NotificationDetailInfo_exist" name="10-NotificationDetailInfo_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if NotificationDetailInfo exists - Description: Check if NotificationDetailInfo exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NotificationDetailInfo exists - Description: Check if NotificationDetailInfo exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationDetailInfo_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-11-StatusNotification_exist" name="11-StatusNotification_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if StatusNotification exists - Description: Check if StatusNotification exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if StatusNotification exists - Description: Check if StatusNotification exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-12-NotificationDetailInfo_extend" name="12-NotificationDetailInfo_extend" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if NotificationDetailInfo is extendable - Description: Check if NotificationDetailInfo is extendable">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NotificationDetailInfo is extendable - Description: Check if NotificationDetailInfo is extendable]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationDetailInfo_extend.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-13-NotificationDetailInfo_constructor" name="13-NotificationDetailInfo_constructor" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if NotificationDetailInfo's constructor works. - Description: Check if NotificationDetailInfo's constructor works.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NotificationDetailInfo's constructor works. - Description: Check if NotificationDetailInfo's constructor works.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationDetailInfo_constructor.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-14-NotificationDetailInfo_subText_attribute" name="14-NotificationDetailInfo_subText_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check for NotificationDetailInfo.subText attribute. - Description: Check for NotificationDetailInfo.subText attribute.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check for NotificationDetailInfo.subText attribute. - Description: Check for NotificationDetailInfo.subText attribute.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationDetailInfo_subText_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-15-NotificationDetailInfo_constructor_minargs" name="15-NotificationDetailInfo_constructor_minargs" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if NotificationDetailInfo's constructor works with non-optional arguments. - Description: Check if NotificationDetailInfo's constructor works with non-optional arguments.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NotificationDetailInfo's constructor works with non-optional arguments. - Description: Check if NotificationDetailInfo's constructor works with non-optional arguments.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationDetailInfo_constructor_minargs.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-16-NotificationDetailInfo_mainText_attribute" name="16-NotificationDetailInfo_mainText_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check for NotificationDetailInfo.mainText attribute. - Description: Check for NotificationDetailInfo.mainText attribute.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check for NotificationDetailInfo.mainText attribute. - Description: Check for NotificationDetailInfo.mainText attribute.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationDetailInfo_mainText_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-17-StatusNotification_constructor_ONGOING_BYTE" name="17-StatusNotification_constructor_ONGOING_BYTE" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if StatusNotification's constructor works for statusType=ONGOING and progressType=BYTE - Description: Check if StatusNotification's constructor works for statusType=ONGOING and progressType=BYTE">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if StatusNotification's constructor works for statusType=ONGOING and progressType=BYTE - Description: Check if StatusNotification's constructor works for statusType=ONGOING and progressType=BYTE]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_constructor_ONGOING_BYTE.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-18-StatusNotification_constructor_ONGOING_PERCENTAGE" name="18-StatusNotification_constructor_ONGOING_PERCENTAGE" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if StatusNotification's constructor works for statusType=ONGOING and progressType=PERCENTAGE - Description: Check if StatusNotification's constructor works for statusType=ONGOING and progressType=PERCENTAGE">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if StatusNotification's constructor works for statusType=ONGOING and progressType=PERCENTAGE - Description: Check if StatusNotification's constructor works for statusType=ONGOING and progressType=PERCENTAGE]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_constructor_ONGOING_PERCENTAGE.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-19-StatusNotification_constructor_PROGRESS_BYTE" name="19-StatusNotification_constructor_PROGRESS_BYTE" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if StatusNotification's constructor works for statusType=PROGRESS and progressType=BYTE - Description: Check if StatusNotification's constructor works for statusType=PROGRESS and progressType=BYTE">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if StatusNotification's constructor works for statusType=PROGRESS and progressType=BYTE - Description: Check if StatusNotification's constructor works for statusType=PROGRESS and progressType=BYTE]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_constructor_PROGRESS_BYTE.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-1A-StatusNotification_constructor_PROGRESS_PERCENTAGE" name="1A-StatusNotification_constructor_PROGRESS_PERCENTAGE" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if StatusNotification's constructor works for statusType=PROGRESS and progressType=PERCENTAGE - Description: Check if StatusNotification's constructor works for statusType=PROGRESS and progressType=PERCENTAGE">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if StatusNotification's constructor works for statusType=PROGRESS and progressType=PERCENTAGE - Description: Check if StatusNotification's constructor works for statusType=PROGRESS and progressType=PERCENTAGE]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_constructor_PROGRESS_PERCENTAGE.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-1B-StatusNotification_constructor_SIMPLE_BYTE" name="1B-StatusNotification_constructor_SIMPLE_BYTE" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if StatusNotification's constructor works for statusType=SIMPLE and progressType=BYTE - Description: Check if StatusNotification's constructor works for statusType=SIMPLE and progressType=BYTE">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if StatusNotification's constructor works for statusType=SIMPLE and progressType=BYTE - Description: Check if StatusNotification's constructor works for statusType=SIMPLE and progressType=BYTE]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_constructor_SIMPLE_BYTE.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-1C-StatusNotification_constructor_SIMPLE_PERCENTAGE" name="1C-StatusNotification_constructor_SIMPLE_PERCENTAGE" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if StatusNotification's constructor works for statusType=SIMPLE and progressType=PERCENTAGE - Description: Check if StatusNotification's constructor works for statusType=SIMPLE and progressType=PERCENTAGE">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if StatusNotification's constructor works for statusType=SIMPLE and progressType=PERCENTAGE - Description: Check if StatusNotification's constructor works for statusType=SIMPLE and progressType=PERCENTAGE]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_constructor_SIMPLE_PERCENTAGE.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-1D-StatusNotification_constructor_THUMBNAIL_BYTE" name="1D-StatusNotification_constructor_THUMBNAIL_BYTE" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if StatusNotification's constructor works for statusType=THUMBNAIL and progressType=BYTE - Description: Check if StatusNotification's constructor works for statusType=THUMBNAIL and progressType=BYTE">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if StatusNotification's constructor works for statusType=THUMBNAIL and progressType=BYTE - Description: Check if StatusNotification's constructor works for statusType=THUMBNAIL and progressType=BYTE]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_constructor_THUMBNAIL_BYTE.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-1E-StatusNotification_constructor_THUMBNAIL_PERCENTAGE" name="1E-StatusNotification_constructor_THUMBNAIL_PERCENTAGE" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if StatusNotification's constructor works for statusType=THUMBNAIL and progressType=PERCENTAGE - Description: Check if StatusNotification's constructor works for statusType=THUMBNAIL and progressType=PERCENTAGE">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if StatusNotification's constructor works for statusType=THUMBNAIL and progressType=PERCENTAGE - Description: Check if StatusNotification's constructor works for statusType=THUMBNAIL and progressType=PERCENTAGE]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_constructor_THUMBNAIL_PERCENTAGE.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-1F-StatusNotification_constructor_progessValue_-1_BYTE" name="1F-StatusNotification_constructor_progessValue_-1_BYTE" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if StatusNotification's constructor works for progressValue=-1 and progressType=BYTE - Description: Check if StatusNotification's constructor works for progressValue=-1 and progressType=BYTE">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if StatusNotification's constructor works for progressValue=-1 and progressType=BYTE - Description: Check if StatusNotification's constructor works for progressValue=-1 and progressType=BYTE]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_constructor_progessValue_-1_BYTE.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-1G-StatusNotification_constructor_progessValue_0_BYTE" name="1G-StatusNotification_constructor_progessValue_0_BYTE" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if StatusNotification's constructor works for progressValue=0 and progressType=BYTE - Description: Check if StatusNotification's constructor works for progressValue=0 and progressType=BYTE">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if StatusNotification's constructor works for progressValue=0 and progressType=BYTE - Description: Check if StatusNotification's constructor works for progressValue=0 and progressType=BYTE]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_constructor_progessValue_0_BYTE.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-1H-StatusNotification_constructor_progessValue_0_PERCENTAGE" name="1H-StatusNotification_constructor_progessValue_0_PERCENTAGE" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if StatusNotification's constructor works for progressValue=0 and progressType=PERCENTAGE - Description: Check if StatusNotification's constructor works for progressValue=0 and progressType=PERCENTAGE">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if StatusNotification's constructor works for progressValue=0 and progressType=PERCENTAGE - Description: Check if StatusNotification's constructor works for progressValue=0 and progressType=PERCENTAGE]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_constructor_progessValue_0_PERCENTAGE.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-1I-StatusNotification_constructor_progessValue_max_BYTE" name="1I-StatusNotification_constructor_progessValue_max_BYTE" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if StatusNotification's constructor works for progressValue=max and progressType=BYTE - Description: Check if StatusNotification's constructor works for progressValue=max and progressType=BYTE">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if StatusNotification's constructor works for progressValue=max and progressType=BYTE - Description: Check if StatusNotification's constructor works for progressValue=max and progressType=BYTE]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_constructor_progessValue_max_BYTE.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-1J-StatusNotification_constructor_invalid_backgroundImagePath" name="1J-StatusNotification_constructor_invalid_backgroundImagePath" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if constructor accepts incorrect backgroundImagePath - Description: Check if constructor accepts incorrect backgroundImagePath">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if constructor accepts incorrect backgroundImagePath - Description: Check if constructor accepts incorrect backgroundImagePath]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_constructor_invalid_backgroundImagePath.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-1K-StatusNotification_constructor_invalid_iconPath" name="1K-StatusNotification_constructor_invalid_iconPath" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if constructor accepts incorrect iconPath - Description: Check if constructor accepts incorrect iconPath">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if constructor accepts incorrect iconPath - Description: Check if constructor accepts incorrect iconPath]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_constructor_invalid_iconPath.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-1L-StatusNotification_constructor_invalid_soundPath" name="1L-StatusNotification_constructor_invalid_soundPath" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if constructor accepts incorrect soundPath - Description: Check if constructor accepts incorrect soundPath">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if constructor accepts incorrect soundPath - Description: Check if constructor accepts incorrect soundPath]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_constructor_invalid_soundPath.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-1M-StatusNotification_constructor_invalid_subIconPath" name="1M-StatusNotification_constructor_invalid_subIconPath" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if constructor accepts incorrect subIconPath - Description: Check if constructor accepts incorrect subIconPath">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if constructor accepts incorrect subIconPath - Description: Check if constructor accepts incorrect subIconPath]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_constructor_invalid_subIconPath.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-1N-StatusNotification_subIconPath_attribute" name="1N-StatusNotification_subIconPath_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if attribute subIconPath of StatusNotification exists, has appropriate type - Description: Check if attribute subIconPath of StatusNotification exists, has appropriate type">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute subIconPath of StatusNotification exists, has appropriate type - Description: Check if attribute subIconPath of StatusNotification exists, has appropriate type]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_subIconPath_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-1O-StatusNotification_constructor_invalid_thumbnails" name="1O-StatusNotification_constructor_invalid_thumbnails" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if constructor accepts incorrect thumbnails - Description: Check if constructor accepts incorrect thumbnails">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if constructor accepts incorrect thumbnails - Description: Check if constructor accepts incorrect thumbnails]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_constructor_invalid_thumbnails.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-1P-StatusNotification_detailInfo_attribute" name="1P-StatusNotification_detailInfo_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if attribute detailInfo of StatusNotification exists, has appropriate type - Description: Check if attribute detailInfo of StatusNotification exists, has appropriate type">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute detailInfo of StatusNotification exists, has appropriate type - Description: Check if attribute detailInfo of StatusNotification exists, has appropriate type]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_detailInfo_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-1Q-StatusNotification_number_attribute" name="1Q-StatusNotification_number_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if attribute number of StatusNotification exists, has appropriate type - Description: Check if attribute number of StatusNotification exists, has appropriate type">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute number of StatusNotification exists, has appropriate type - Description: Check if attribute number of StatusNotification exists, has appropriate type]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_number_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-1R-StatusNotification_backgroundImagePath_attribute" name="1R-StatusNotification_backgroundImagePath_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if attribute backgroundImagePath of StatusNotification exists, has appropriate type - Description: Check if attribute backgroundImagePath of StatusNotification exists, has appropriate type">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute backgroundImagePath of StatusNotification exists, has appropriate type - Description: Check if attribute backgroundImagePath of StatusNotification exists, has appropriate type]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_backgroundImagePath_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-1S-StatusNotification_thumbnails_attribute" name="1S-StatusNotification_thumbnails_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if attribute thumbnails of StatusNotification exists, has appropriate type - Description: Check if attribute thumbnails of StatusNotification exists, has appropriate type">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute thumbnails of StatusNotification exists, has appropriate type - Description: Check if attribute thumbnails of StatusNotification exists, has appropriate type]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_thumbnails_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-1T-StatusNotification_progressType_attribute" name="1T-StatusNotification_progressType_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if attribute progressType of StatusNotification exists, has appropriate type - Description: Check if attribute progressType of StatusNotification exists, has appropriate type">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute progressType of StatusNotification exists, has appropriate type - Description: Check if attribute progressType of StatusNotification exists, has appropriate type]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_progressType_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-1U-StatusNotification_progressValue_attribute_BYTE" name="1U-StatusNotification_progressValue_attribute_BYTE" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if attribute progressValue of StatusNotification exists, has appropriate type for BYTE progressType - Description: Check if attribute progressValue of StatusNotification exists, has appropriate type for BYTE progressType">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute progressValue of StatusNotification exists, has appropriate type for BYTE progressType - Description: Check if attribute progressValue of StatusNotification exists, has appropriate type for BYTE progressType]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_progressValue_attribute_BYTE.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-1V-StatusNotification_progressValue_attribute_PERCENTAGE" name="1V-StatusNotification_progressValue_attribute_PERCENTAGE" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if attribute progressValue of StatusNotification exists, has appropriate type for PERCENTAGE progressType - Description: Check if attribute progressValue of StatusNotification exists, has appropriate type for PERCENTAGE progressType">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute progressValue of StatusNotification exists, has appropriate type for PERCENTAGE progressType - Description: Check if attribute progressValue of StatusNotification exists, has appropriate type for PERCENTAGE progressType]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_progressValue_attribute_PERCENTAGE.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-1W-StatusNotification_constructor_progessValue_100_PERCENTAGE" name="1W-StatusNotification_constructor_progessValue_100_PERCENTAGE" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if StatusNotification's constructor works for progressValue=100 and progressType=PERCENTAGE - Description: Check if StatusNotification's constructor works for progressValue=100 and progressType=PERCENTAGE">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if StatusNotification's constructor works for progressValue=100 and progressType=PERCENTAGE - Description: Check if StatusNotification's constructor works for progressValue=100 and progressType=PERCENTAGE]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_constructor_progessValue_100_PERCENTAGE.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-1X-StatusNotification_constructor_number_max" name="1X-StatusNotification_constructor_number_max" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if constructor accepts max number. - Description: Check if constructor accepts max number.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if constructor accepts max number. - Description: Check if constructor accepts max number.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_constructor_number_max.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-1Y-StatusNotification_constructor_number_min" name="1Y-StatusNotification_constructor_number_min" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if constructor accepts min number. - Description: Check if constructor accepts min number.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if constructor accepts min number. - Description: Check if constructor accepts min number.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_constructor_number_min.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-1Z-NotificationManager_post_THUMBNAIL" name="1Z-NotificationManager_post_THUMBNAIL" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if NotificationManager.post method works properly with THUMBNAIL statusType - Description: Check if NotificationManager.post method works properly with THUMBNAIL statusType">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NotificationManager.post method works properly with THUMBNAIL statusType - Description: Check if NotificationManager.post method works properly with THUMBNAIL statusType]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationManager_post_THUMBNAIL.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-20-NotificationManager_post_misarg" name="20-NotificationManager_post_misarg" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check with missing non-optional argument - NotificationManager.post - Description: Check with missing non-optional argument - NotificationManager.post">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check with missing non-optional argument - NotificationManager.post - Description: Check with missing non-optional argument - NotificationManager.post]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationManager_post_misarg.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-21-NotificationManager_post_notification_TypeMismatch" name="21-NotificationManager_post_notification_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check type conversions for notification argument of NotificationManager.post method - Description: Check type conversions for notification argument of NotificationManager.post method">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check type conversions for notification argument of NotificationManager.post method - Description: Check type conversions for notification argument of NotificationManager.post method]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationManager_post_notification_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-22-NotificationManager_update_misarg" name="22-NotificationManager_update_misarg" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if update method is not accepting invocation without argument - Description: Check if update method is not accepting invocation without argument">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if update method is not accepting invocation without argument - Description: Check if update method is not accepting invocation without argument]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationManager_update_misarg.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-23-NotificationManager_update_notification_TypeMismatch" name="23-NotificationManager_update_notification_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if update throws exception when argument is incorrect - Description: Check if update throws exception when argument is incorrect">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if update throws exception when argument is incorrect - Description: Check if update throws exception when argument is incorrect]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationManager_update_notification_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-24-NotificationManager_getAll_extra_argument" name="24-NotificationManager_getAll_extra_argument" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if method getAll of NotificationManager accepts extra argument - Description: Check if method getAll of NotificationManager accepts extra argument">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if method getAll of NotificationManager accepts extra argument - Description: Check if method getAll of NotificationManager accepts extra argument]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationManager_getAll_extra_argument.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-25-NotificationManager_removeAll_extra_argument" name="25-NotificationManager_removeAll_extra_argument" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if method removeAll of NotificationManager accepts extra argument - Description: Check if method removeAll of NotificationManager accepts extra argument">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if method removeAll of NotificationManager accepts extra argument - Description: Check if method removeAll of NotificationManager accepts extra argument]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationManager_removeAll_extra_argument.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-26-StatusNotification_ledColor_attribute" name="26-StatusNotification_ledColor_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if attribute ledColor of StatusNotification exists, has appropriate type - Description: Check if attribute ledColor of StatusNotification exists, has appropriate type">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute ledColor of StatusNotification exists, has appropriate type - Description: Check if attribute ledColor of StatusNotification exists, has appropriate type]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_ledColor_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-27-StatusNotification_ledOffPeriod_attribute" name="27-StatusNotification_ledOffPeriod_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if attribute ledOffPeriod of StatusNotification exists, has appropriate type - Description: Check if attribute ledOffPeriod of StatusNotification exists, has appropriate type">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute ledOffPeriod of StatusNotification exists, has appropriate type - Description: Check if attribute ledOffPeriod of StatusNotification exists, has appropriate type]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_ledOffPeriod_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-28-StatusNotification_ledOnPeriod_attribute" name="28-StatusNotification_ledOnPeriod_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if attribute ledOnPeriod of StatusNotification exists, has appropriate type - Description: Check if attribute ledOnPeriod of StatusNotification exists, has appropriate type">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute ledOnPeriod of StatusNotification exists, has appropriate type - Description: Check if attribute ledOnPeriod of StatusNotification exists, has appropriate type]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_ledOnPeriod_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0K-29-Notification_extend" name="29-Notification_extend" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-notification-tizen-tests" status="designed" type="" purpose="Objective: Check if Notification can be extended - Description: Check if Notification can be extended">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Notification can be extended - Description: Check if Notification can be extended]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-notification-tizen-tests/notification/Notification_extend.html</test_script_entry>
+                </description>
+            </testcase>
+        </set>
+    </suite>
+</test_definition>

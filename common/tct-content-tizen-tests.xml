@@ -1,0 +1,1222 @@
+<?xml version="1.0"?>
+<test_definition>
+    <suite launcher="xwalk" name="00-common/E0-crosswalk">
+        <set name="common/crosswalk/deviceapi/tct-content-tizen-tests">
+            <testcase id="00-E0-01-08-01-ContentManagerObject_content_exist" name="01-ContentManagerObject_content_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if content attribute exists - Description: Check if content attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if content attribute exists - Description: Check if content attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManagerObject_content_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-02-ContentManager_updateBatch_exist" name="02-ContentManager_updateBatch_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if updateBatch exists - Description: Check if updateBatch exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if updateBatch exists - Description: Check if updateBatch exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_updateBatch_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-03-ContentManager_update_exist" name="03-ContentManager_update_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if update exists - Description: Check if update exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if update exists - Description: Check if update exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_update_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-04-ContentManager_getDirectories_exist" name="04-ContentManager_getDirectories_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if getDirectories method exists - Description: Check if getDirectories method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if getDirectories method exists - Description: Check if getDirectories method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_getDirectories_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-05-ContentManager_find_exist" name="05-ContentManager_find_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if find exists - Description: Check if find exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if find exists - Description: Check if find exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_find_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-06-ContentManager_find" name="06-ContentManager_find" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if ContentManager find method with optional error callback is invoked properly - Description: Check if ContentManager find method with optional error callback is invoked properly" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ContentManager find method with optional error callback is invoked properly - Description: Check if ContentManager find method with optional error callback is invoked properly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_find.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-07-ContentManager_getDirectories" name="07-ContentManager_getDirectories" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if ContentManager getDirectories method with only non-optional arguments is invoked properly - Description: Check if ContentManager getDirectories method with only non-optional arguments is invoked properly" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ContentManager getDirectories method with only non-optional arguments is invoked properly - Description: Check if ContentManager getDirectories method with only non-optional arguments is invoked properly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_getDirectories.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-08-ContentManager_update" name="08-ContentManager_update" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if update() method works properly - Description: Check if update() method works properly" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if update() method works properly - Description: Check if update() method works properly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_update.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-09-ContentManager_updateBatch" name="09-ContentManager_updateBatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if updateBatch() method works properly - Description: Check if updateBatch() method works properly" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if updateBatch() method works properly - Description: Check if updateBatch() method works properly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_updateBatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-0A-Content_type_AUDIO" name="0A-Content_type_AUDIO" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if Content type value is AUDIO for find method with filter AUDIO - Description: Check if Content type value is AUDIO for find method with filter AUDIO" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Content type value is AUDIO for find method with filter AUDIO - Description: Check if Content type value is AUDIO for find method with filter AUDIO]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/Content_type_AUDIO.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-0B-ContentManager_update_description" name="0B-ContentManager_update_description" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if update() properly updates description attribute of first found item - Description: Check if update() properly updates description attribute of first found item" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if update() properly updates description attribute of first found item - Description: Check if update() properly updates description attribute of first found item]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_update_description.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-0C-ContentManager_updateBatch_description" name="0C-ContentManager_updateBatch_description" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if updateBatch() method updates properly description of found content - Description: Check if updateBatch() method updates properly description of found content" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if updateBatch() method updates properly description of found content - Description: Check if updateBatch() method updates properly description of found content]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_updateBatch_description.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-0D-Content_type_IMAGE" name="0D-Content_type_IMAGE" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if Content type value is IMAGE for find method with filter IMAGE - Description: Check if Content type value is IMAGE for find method with filter IMAGE" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Content type value is IMAGE for find method with filter IMAGE - Description: Check if Content type value is IMAGE for find method with filter IMAGE]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/Content_type_IMAGE.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-0E-Content_type_VIDEO" name="0E-Content_type_VIDEO" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if Content type value is VIDEO for find method with filter VIDEO - Description: Check if Content type value is VIDEO for find method with filter VIDEO" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Content type value is VIDEO for find method with filter VIDEO - Description: Check if Content type value is VIDEO for find method with filter VIDEO]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/Content_type_VIDEO.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-0F-ContentManager_find_nullableArgs" name="0F-ContentManager_find_nullableArgs" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if Content find method performs successCallback when all optional arguments are null - Description: Check if Content find method performs successCallback when all optional arguments are null" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Content find method performs successCallback when all optional arguments are null - Description: Check if Content find method performs successCallback when all optional arguments are null]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_find_nullableArgs.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-0G-VideoContent_notexist" name="0G-VideoContent_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if VideoContent cannot be called in new expression and as a function or in new expression - Description: Check if VideoContent cannot be called in new expression and as a function or in new expression">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if VideoContent cannot be called in new expression and as a function or in new expression - Description: Check if VideoContent cannot be called in new expression and as a function or in new expression]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/VideoContent_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-0H-Content_notexist" name="0H-Content_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if Content cannot be called in new expression and as a function or in new expression - Description: Check if Content cannot be called in new expression and as a function or in new expression">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Content cannot be called in new expression and as a function or in new expression - Description: Check if Content cannot be called in new expression and as a function or in new expression]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/Content_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-0I-ImageContent_notexist" name="0I-ImageContent_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if ImageContent cannot be called in new expression and as a function or in new expression - Description: Check if ImageContent cannot be called in new expression and as a function or in new expression">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ImageContent cannot be called in new expression and as a function or in new expression - Description: Check if ImageContent cannot be called in new expression and as a function or in new expression]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ImageContent_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-0J-ContentDirectoryArraySuccessCallback_notexist" name="0J-ContentDirectoryArraySuccessCallback_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if ContentDirectoryArraySuccessCallback cannot be called in new expression and as a function or in new expression - Description: Check if ContentDirectoryArraySuccessCallback cannot be called in new expression and as a function or in new expression">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ContentDirectoryArraySuccessCallback cannot be called in new expression and as a function or in new expression - Description: Check if ContentDirectoryArraySuccessCallback cannot be called in new expression and as a function or in new expression]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentDirectoryArraySuccessCallback_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-0K-ContentScanSuccessCallback_notexist" name="0K-ContentScanSuccessCallback_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if ContentScanSuccessCallback cannot be called in new expression and as a function or in new expression - Description: Check if ContentScanSuccessCallback cannot be called in new expression and as a function or in new expression">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ContentScanSuccessCallback cannot be called in new expression and as a function or in new expression - Description: Check if ContentScanSuccessCallback cannot be called in new expression and as a function or in new expression]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentScanSuccessCallback_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-0L-ContentManager_notexist" name="0L-ContentManager_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if ContentManager cannot be called in new expression and as a function or in new expression - Description: Check if ContentManager cannot be called in new expression and as a function or in new expression">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ContentManager cannot be called in new expression and as a function or in new expression - Description: Check if ContentManager cannot be called in new expression and as a function or in new expression]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-0M-ContentManager_extend" name="0M-ContentManager_extend" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if content object can have new properties added - Description: Check if content object can have new properties added">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if content object can have new properties added - Description: Check if content object can have new properties added]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_extend.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-0N-ContentManager_update_missarg" name="0N-ContentManager_update_missarg" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if update method called with missing non-optional argument throws an exception - Description: Check if update method called with missing non-optional argument throws an exception">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if update method called with missing non-optional argument throws an exception - Description: Check if update method called with missing non-optional argument throws an exception]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_update_missarg.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-0O-ContentManager_update_content_TypeMismatch" name="0O-ContentManager_update_content_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if update throws exception when content is incorrect - Description: Check if update throws exception when content is incorrect" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if update throws exception when content is incorrect - Description: Check if update throws exception when content is incorrect]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_update_content_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-0P-ContentManager_updateBatch_missarg" name="0P-ContentManager_updateBatch_missarg" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if updateBatch method called with missing non-optional argument throws an exception - Description: Check if updateBatch method called with missing non-optional argument throws an exception">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if updateBatch method called with missing non-optional argument throws an exception - Description: Check if updateBatch method called with missing non-optional argument throws an exception]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_updateBatch_missarg.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-0Q-ContentManager_updateBatch_contents_TypeMismatch" name="0Q-ContentManager_updateBatch_contents_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if updateBatch throws exception when contents is incorrect - Description: Check if updateBatch throws exception when contents is incorrect" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if updateBatch throws exception when contents is incorrect - Description: Check if updateBatch throws exception when contents is incorrect]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_updateBatch_contents_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-0R-ContentManager_updateBatch_successCallback_TypeMismatch" name="0R-ContentManager_updateBatch_successCallback_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if updateBatch throws exception when successCallback is incorrect - Description: Check if updateBatch throws exception when successCallback is incorrect" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if updateBatch throws exception when successCallback is incorrect - Description: Check if updateBatch throws exception when successCallback is incorrect]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_updateBatch_successCallback_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-0S-ContentManager_updateBatch_successCallback_invalid_cb" name="0S-ContentManager_updateBatch_successCallback_invalid_cb" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if updateBatch throws exception when success callback is invalid - Description: Check if updateBatch throws exception when success callback is invalid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if updateBatch throws exception when success callback is invalid - Description: Check if updateBatch throws exception when success callback is invalid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_updateBatch_successCallback_invalid_cb.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-0T-ContentManager_updateBatch_errorCallback_TypeMismatch" name="0T-ContentManager_updateBatch_errorCallback_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if updateBatch throws exception when errorCallback is incorrect - Description: Check if updateBatch throws exception when errorCallback is incorrect" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if updateBatch throws exception when errorCallback is incorrect - Description: Check if updateBatch throws exception when errorCallback is incorrect]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_updateBatch_errorCallback_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-0U-ContentManager_updateBatch_errorCallback_invalid_cb" name="0U-ContentManager_updateBatch_errorCallback_invalid_cb" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if updateBatch throws exception when errorCallback is invalid - Description: Check if updateBatch throws exception when errorCallback is invalid" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if updateBatch throws exception when errorCallback is invalid - Description: Check if updateBatch throws exception when errorCallback is invalid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_updateBatch_errorCallback_invalid_cb.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-0V-ContentManager_getDirectories_missarg" name="0V-ContentManager_getDirectories_missarg" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if getDirectories method called with missing non-optional argument throws an exception - Description: Check if getDirectories method called with missing non-optional argument throws an exception">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if getDirectories method called with missing non-optional argument throws an exception - Description: Check if getDirectories method called with missing non-optional argument throws an exception]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_getDirectories_missarg.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-0W-ContentManager_getDirectories_successCallback_invalid_cb" name="0W-ContentManager_getDirectories_successCallback_invalid_cb" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if getDirectories throws exception when success callback is incorrect - Description: Check if getDirectories throws exception when success callback is incorrect">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if getDirectories throws exception when success callback is incorrect - Description: Check if getDirectories throws exception when success callback is incorrect]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_getDirectories_successCallback_invalid_cb.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-0X-ContentManager_getDirectories_successCallback_TypeMismatch" name="0X-ContentManager_getDirectories_successCallback_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if getDirectories throws exception when successCallback is invalid - Description: Check if getDirectories throws exception when successCallback is invalid" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if getDirectories throws exception when successCallback is invalid - Description: Check if getDirectories throws exception when successCallback is invalid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_getDirectories_successCallback_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-0Y-ContentManager_getDirectories_errorCallback_TypeMismatch" name="0Y-ContentManager_getDirectories_errorCallback_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if getDirectories throws exception when errorCallback is incorrect - Description: Check if getDirectories throws exception when errorCallback is incorrect" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if getDirectories throws exception when errorCallback is incorrect - Description: Check if getDirectories throws exception when errorCallback is incorrect]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_getDirectories_errorCallback_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-0Z-ContentManager_getDirectories_errorCallback_invalid_cb" name="0Z-ContentManager_getDirectories_errorCallback_invalid_cb" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if getDirectories throws exception when errorCallback is invalid - Description: Check if getDirectories throws exception when errorCallback is invalid" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if getDirectories throws exception when errorCallback is invalid - Description: Check if getDirectories throws exception when errorCallback is invalid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_getDirectories_errorCallback_invalid_cb.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-10-ContentManager_find_missarg" name="10-ContentManager_find_missarg" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if find method called with missing non-optional argument throws an exception - Description: Check if find method called with missing non-optional argument throws an exception">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if find method called with missing non-optional argument throws an exception - Description: Check if find method called with missing non-optional argument throws an exception]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_find_missarg.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-11-ContentManager_find_successCallback_TypeMismatch" name="11-ContentManager_find_successCallback_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if find throws exception when successCallback is incorrect - Description: Check if find throws exception when successCallback is incorrect" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if find throws exception when successCallback is incorrect - Description: Check if find throws exception when successCallback is incorrect]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_find_successCallback_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-12-ContentManager_find_successCallback_invalid_cb" name="12-ContentManager_find_successCallback_invalid_cb" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if find throws exception when success callback is invalid - Description: Check if find throws exception when success callback is invalid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if find throws exception when success callback is invalid - Description: Check if find throws exception when success callback is invalid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_find_successCallback_invalid_cb.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-13-ContentManager_find_errorCallback_TypeMismatch" name="13-ContentManager_find_errorCallback_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if find throws exception when errorCallback is incorrect - Description: Check if find throws exception when errorCallback is incorrect" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if find throws exception when errorCallback is incorrect - Description: Check if find throws exception when errorCallback is incorrect]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_find_errorCallback_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-14-ContentManager_find_errorCallback_invalid_cb" name="14-ContentManager_find_errorCallback_invalid_cb" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if find throws exception when errorCallback is invalid - Description: Check if find throws exception when errorCallback is invalid" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if find throws exception when errorCallback is invalid - Description: Check if find throws exception when errorCallback is invalid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_find_errorCallback_invalid_cb.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-15-ContentManager_scanFile_exist" name="15-ContentManager_scanFile_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if scanFile method exists - Description: Check if scanFile method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if scanFile method exists - Description: Check if scanFile method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_scanFile_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-16-ContentManager_scanFile_successCallback_TypeMismatch" name="16-ContentManager_scanFile_successCallback_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if scanFile throws exception when successCallback is invalid - Description: Check if scanFile throws exception when successCallback is invalid" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if scanFile throws exception when successCallback is invalid - Description: Check if scanFile throws exception when successCallback is invalid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_scanFile_successCallback_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-17-ContentManager_scanFile_successCallback_invalid_cb" name="17-ContentManager_scanFile_successCallback_invalid_cb" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if scanFile throws exception when success callback is incorrect - Description: Check if scanFile throws exception when success callback is incorrect">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if scanFile throws exception when success callback is incorrect - Description: Check if scanFile throws exception when success callback is incorrect]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_scanFile_successCallback_invalid_cb.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-18-ContentManager_scanFile_errorCallback_TypeMismatch" name="18-ContentManager_scanFile_errorCallback_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if scanFile throws exception when errorCallback is invalid - Description: Check if scanFile throws exception when errorCallback is invalid" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if scanFile throws exception when errorCallback is invalid - Description: Check if scanFile throws exception when errorCallback is invalid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_scanFile_errorCallback_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-19-ContentManager_scanFile_errorCallback_invalid_cb" name="19-ContentManager_scanFile_errorCallback_invalid_cb" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if scanFile throws exception when errorCallback is incorrect - Description: Check if scanFile throws exception when errorCallback is incorrect" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if scanFile throws exception when errorCallback is incorrect - Description: Check if scanFile throws exception when errorCallback is incorrect]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_scanFile_errorCallback_invalid_cb.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-1A-ContentManager_setChangeListener_exist" name="1A-ContentManager_setChangeListener_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if setChangeListener exists - Description: Check if setChangeListener exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if setChangeListener exists - Description: Check if setChangeListener exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_setChangeListener_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-1B-ContentArraySuccessCallback_notexist" name="1B-ContentArraySuccessCallback_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if ContentArraySuccessCallback cannot be called in new expression and as a function or in new expression - Description: Check if ContentArraySuccessCallback cannot be called in new expression and as a function or in new expression">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ContentArraySuccessCallback cannot be called in new expression and as a function or in new expression - Description: Check if ContentArraySuccessCallback cannot be called in new expression and as a function or in new expression]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentArraySuccessCallback_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-1C-ContentDirectory_notexist" name="1C-ContentDirectory_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if ContentDirectory cannot be called in new expression and as a function or in new expression - Description: Check if ContentDirectory cannot be called in new expression and as a function or in new expression">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ContentDirectory cannot be called in new expression and as a function or in new expression - Description: Check if ContentDirectory cannot be called in new expression and as a function or in new expression]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentDirectory_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-1D-ContentChangeCallback_notexist" name="1D-ContentChangeCallback_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if ContentChangeCallback cannot be called in new expression and as a function or in new expression - Description: Check if ContentChangeCallback cannot be called in new expression and as a function or in new expression">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ContentChangeCallback cannot be called in new expression and as a function or in new expression - Description: Check if ContentChangeCallback cannot be called in new expression and as a function or in new expression]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentChangeCallback_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-1E-AudioContentLyrics_notexist" name="1E-AudioContentLyrics_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if AudioContentLyrics cannot be called in new expression and as a function or in new expression - Description: Check if AudioContentLyrics cannot be called in new expression and as a function or in new expression">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if AudioContentLyrics cannot be called in new expression and as a function or in new expression - Description: Check if AudioContentLyrics cannot be called in new expression and as a function or in new expression]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/AudioContentLyrics_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-1F-AudioContent_notexist" name="1F-AudioContent_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if AudioContent cannot be called in new expression and as a function or in new expression - Description: Check if AudioContent cannot be called in new expression and as a function or in new expression">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if AudioContent cannot be called in new expression and as a function or in new expression - Description: Check if AudioContent cannot be called in new expression and as a function or in new expression]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/AudioContent_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-1G-ContentManager_setChangeListener_missarg" name="1G-ContentManager_setChangeListener_missarg" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if setChangeListener method called with missing non-optional argument throws an exception - Description: Check if setChangeListener method called with missing non-optional argument throws an exception">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if setChangeListener method called with missing non-optional argument throws an exception - Description: Check if setChangeListener method called with missing non-optional argument throws an exception]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_setChangeListener_missarg.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-1H-ContentManager_setChangeListener_changeCallback_TypeMismatch" name="1H-ContentManager_setChangeListener_changeCallback_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if setChangeListener throws exception when changeCallback is incorrect - Description: Check if setChangeListener throws exception when changeCallback is incorrect" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if setChangeListener throws exception when changeCallback is incorrect - Description: Check if setChangeListener throws exception when changeCallback is incorrect]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_setChangeListener_changeCallback_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-1I-ContentManager_setChangeListener_changeCallback_invalid_cb" name="1I-ContentManager_setChangeListener_changeCallback_invalid_cb" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if setChangeListener throws exception when changeCallback is invalid listener - Description: Check if setChangeListener throws exception when changeCallback is invalid listener" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if setChangeListener throws exception when changeCallback is invalid listener - Description: Check if setChangeListener throws exception when changeCallback is invalid listener]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_setChangeListener_changeCallback_invalid_cb.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-1J-ContentManager_unsetChangeListener_exist" name="1J-ContentManager_unsetChangeListener_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if unsetChangeListener exists - Description: Check if unsetChangeListener exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if unsetChangeListener exists - Description: Check if unsetChangeListener exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_unsetChangeListener_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-1K-ImageContent_extend" name="1K-ImageContent_extend" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if ImageContent can have new properties added - Description: Check if ImageContent can have new properties added" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ImageContent can have new properties added - Description: Check if ImageContent can have new properties added]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ImageContent_extend.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-1L-ImageContent_geolocation_attribute" name="1L-ImageContent_geolocation_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if ImageContent have geolocation attribute with proper type and is writeable - Description: Check if ImageContent have geolocation attribute with proper type and is writeable" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ImageContent have geolocation attribute with proper type and is writeable - Description: Check if ImageContent have geolocation attribute with proper type and is writeable]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ImageContent_geolocation_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-1M-ImageContent_width_attribute" name="1M-ImageContent_width_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if ImageContent have width attribute with proper type, and is readonly - Description: Check if ImageContent have width attribute with proper type, and is readonly" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ImageContent have width attribute with proper type, and is readonly - Description: Check if ImageContent have width attribute with proper type, and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ImageContent_width_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-1N-ImageContent_height_attribute" name="1N-ImageContent_height_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if ImageContent have height attribute with proper type and is readonly - Description: Check if ImageContent have height attribute with proper type and is readonly" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ImageContent have height attribute with proper type and is readonly - Description: Check if ImageContent have height attribute with proper type and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ImageContent_height_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-1O-ImageContent_orientation_attribute" name="1O-ImageContent_orientation_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if ImageContent have orientation attribute with proper type is writeable and not nullable - Description: Check if ImageContent have orientation attribute with proper type is writeable and not nullable" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ImageContent have orientation attribute with proper type is writeable and not nullable - Description: Check if ImageContent have orientation attribute with proper type is writeable and not nullable]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ImageContent_orientation_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-1P-ContentDirectoryArraySuccessCallback_onsuccess" name="1P-ContentDirectoryArraySuccessCallback_onsuccess" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if ContentDirectoryArraySuccessCallback onsuccess is called and if its arguments have proper type - Description: Check if ContentDirectoryArraySuccessCallback onsuccess is called and if its arguments have proper type" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ContentDirectoryArraySuccessCallback onsuccess is called and if its arguments have proper type - Description: Check if ContentDirectoryArraySuccessCallback onsuccess is called and if its arguments have proper type]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentDirectoryArraySuccessCallback_onsuccess.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-1Q-ContentScanSuccessCallback_onsuccess" name="1Q-ContentScanSuccessCallback_onsuccess" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if ContentScanSuccessCallback onsuccess is called and if its arguments have proper type - Description: Check if ContentScanSuccessCallback onsuccess is called and if its arguments have proper type" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ContentScanSuccessCallback onsuccess is called and if its arguments have proper type - Description: Check if ContentScanSuccessCallback onsuccess is called and if its arguments have proper type]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentScanSuccessCallback_onsuccess.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-1R-Content_extend" name="1R-Content_extend" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if Content can have new properties added - Description: Check if Content can have new properties added" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Content can have new properties added - Description: Check if Content can have new properties added]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/Content_extend.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-1S-Content_editableAttributes_attribute" name="1S-Content_editableAttributes_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if Content have editableAttributes attribute with proper type and is readonly - Description: Check if Content have editableAttributes attribute with proper type and is readonly" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Content have editableAttributes attribute with proper type and is readonly - Description: Check if Content have editableAttributes attribute with proper type and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/Content_editableAttributes_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-1T-Content_id_attribute" name="1T-Content_id_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if Content have id attribute with proper type, and is readonly - Description: Check if Content have id attribute with proper type, and is readonly" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Content have id attribute with proper type, and is readonly - Description: Check if Content have id attribute with proper type, and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/Content_id_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-1U-Content_name_attribute" name="1U-Content_name_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if Content have name attribute with proper type is writeable and not nullable - Description: Check if Content have name attribute with proper type is writeable and not nullable" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Content have name attribute with proper type is writeable and not nullable - Description: Check if Content have name attribute with proper type is writeable and not nullable]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/Content_name_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-1V-Content_type_attribute" name="1V-Content_type_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if Content have type attribute with proper type and is readonly - Description: Check if Content have type attribute with proper type and is readonly" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Content have type attribute with proper type and is readonly - Description: Check if Content have type attribute with proper type and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/Content_type_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-1W-Content_mimeType_attribute" name="1W-Content_mimeType_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if Content have mimeType attribute with proper mimeType, and is readonly - Description: Check if Content have mimeType attribute with proper mimeType, and is readonly" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Content have mimeType attribute with proper mimeType, and is readonly - Description: Check if Content have mimeType attribute with proper mimeType, and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/Content_mimeType_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-1X-Content_title_attribute" name="1X-Content_title_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if Content have title attribute with proper type and is readonly - Description: Check if Content have title attribute with proper type and is readonly" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Content have title attribute with proper type and is readonly - Description: Check if Content have title attribute with proper type and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/Content_title_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-1Y-Content_contentURI_attribute" name="1Y-Content_contentURI_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if Content have contentURI attribute with proper contentURI and is readonly - Description: Check if Content have contentURI attribute with proper contentURI and is readonly" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Content have contentURI attribute with proper contentURI and is readonly - Description: Check if Content have contentURI attribute with proper contentURI and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/Content_contentURI_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-1Z-Content_thumbnailURIs_attribute" name="1Z-Content_thumbnailURIs_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if Content have thumbnailURIs attribute with proper type and is readonly - Description: Check if Content have thumbnailURIs attribute with proper type and is readonly" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Content have thumbnailURIs attribute with proper type and is readonly - Description: Check if Content have thumbnailURIs attribute with proper type and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/Content_thumbnailURIs_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-20-Content_releaseDate_attribute" name="20-Content_releaseDate_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if Content have releaseDate attribute with proper type and is readonly - Description: Check if Content have releaseDate attribute with proper type and is readonly" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Content have releaseDate attribute with proper type and is readonly - Description: Check if Content have releaseDate attribute with proper type and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/Content_releaseDate_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-21-Content_modifiedDate_attribute" name="21-Content_modifiedDate_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if Content have modifiedDate attribute with proper type and is readolny - Description: Check if Content have modifiedDate attribute with proper type and is readolny" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Content have modifiedDate attribute with proper type and is readolny - Description: Check if Content have modifiedDate attribute with proper type and is readolny]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/Content_modifiedDate_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-22-Content_size_attribute" name="22-Content_size_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if Content have size attribute with proper type and is readonly - Description: Check if Content have size attribute with proper type and is readonly" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Content have size attribute with proper type and is readonly - Description: Check if Content have size attribute with proper type and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/Content_size_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-23-Content_description_attribute" name="23-Content_description_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if Content have description attribute with proper type and is writeable - Description: Check if Content have description attribute with proper type and is writeable" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Content have description attribute with proper type and is writeable - Description: Check if Content have description attribute with proper type and is writeable]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/Content_description_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-24-Content_rating_attribute" name="24-Content_rating_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if Content have rating attribute with proper type, range, is writeable and not nullable - Description: Check if Content have rating attribute with proper type, range, is writeable and not nullable" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Content have rating attribute with proper type, range, is writeable and not nullable - Description: Check if Content have rating attribute with proper type, range, is writeable and not nullable]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/Content_rating_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-25-ContentManager_find_with_errorCallback" name="25-ContentManager_find_with_errorCallback" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if find called with optional errorCallback is properly invoked - Description: Check if find called with optional errorCallback is properly invoked" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if find called with optional errorCallback is properly invoked - Description: Check if find called with optional errorCallback is properly invoked]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_find_with_errorCallback.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-26-ContentManager_find_with_directoryId" name="26-ContentManager_find_with_directoryId" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if find called with optional directoryId is properly invoked - Description: Check if find called with optional directoryId is properly invoked" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if find called with optional directoryId is properly invoked - Description: Check if find called with optional directoryId is properly invoked]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_find_with_directoryId.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-27-ContentManager_find_with_filter" name="27-ContentManager_find_with_filter" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if find called with optional filter is properly invoked - Description: Check if find called with optional filter is properly invoked" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if find called with optional filter is properly invoked - Description: Check if find called with optional filter is properly invoked]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_find_with_filter.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-28-ContentManager_find_with_sortMode" name="28-ContentManager_find_with_sortMode" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if find called with optional sortMode is properly invoked - Description: Check if find called with optional sortMode is properly invoked" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if find called with optional sortMode is properly invoked - Description: Check if find called with optional sortMode is properly invoked]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_find_with_sortMode.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-29-ContentManager_find_with_count" name="29-ContentManager_find_with_count" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if find called with optional count is properly invoked - Description: Check if find called with optional count is properly invoked" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if find called with optional count is properly invoked - Description: Check if find called with optional count is properly invoked]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_find_with_count.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-2A-ContentManager_find_with_offset" name="2A-ContentManager_find_with_offset" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if find called with optional offset is properly invoked - Description: Check if find called with optional offset is properly invoked" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if find called with optional offset is properly invoked - Description: Check if find called with optional offset is properly invoked]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_find_with_offset.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-2B-ContentManager_getDirectories_with_errorCallback" name="2B-ContentManager_getDirectories_with_errorCallback" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if getDirectories called with optional errorCallback is invoked properly - Description: Check if getDirectories called with optional errorCallback is invoked properly" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if getDirectories called with optional errorCallback is invoked properly - Description: Check if getDirectories called with optional errorCallback is invoked properly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_getDirectories_with_errorCallback.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-2C-ContentManager_find_filter_TypeMismatch" name="2C-ContentManager_find_filter_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if find throws exception when filter is incorrect - Description: Check if find throws exception when filter is incorrect" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if find throws exception when filter is incorrect - Description: Check if find throws exception when filter is incorrect]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_find_filter_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-2D-ContentManager_find_sortMode_TypeMismatch" name="2D-ContentManager_find_sortMode_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if find throws exception when sortMode is incorrect - Description: Check if find throws exception when sortMode is incorrect" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if find throws exception when sortMode is incorrect - Description: Check if find throws exception when sortMode is incorrect]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_find_sortMode_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-2E-ContentManager_find_sortMode_invalid_obj" name="2E-ContentManager_find_sortMode_invalid_obj" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if find throws exception when sortMode is a simple object - Description: Check if find throws exception when sortMode is a simple object" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if find throws exception when sortMode is a simple object - Description: Check if find throws exception when sortMode is a simple object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_find_sortMode_invalid_obj.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-2F-ContentManager_unsetChangeListener_extra_argument" name="2F-ContentManager_unsetChangeListener_extra_argument" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if unsetChangeListener method can be invoked with extra argument - Description: Check if unsetChangeListener method can be invoked with extra argument">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if unsetChangeListener method can be invoked with extra argument - Description: Check if unsetChangeListener method can be invoked with extra argument]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_unsetChangeListener_extra_argument.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-2G-ContentArraySuccessCallback_onsuccess" name="2G-ContentArraySuccessCallback_onsuccess" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if ContentArraySuccessCallback onsuccess is called and if its arguments have proper type - Description: Check if ContentArraySuccessCallback onsuccess is called and if its arguments have proper type" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ContentArraySuccessCallback onsuccess is called and if its arguments have proper type - Description: Check if ContentArraySuccessCallback onsuccess is called and if its arguments have proper type]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentArraySuccessCallback_onsuccess.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-2H-ContentManager_scanFile" name="2H-ContentManager_scanFile" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if scanFile methods works properly - Description: Check if scanFile methods works properly" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if scanFile methods works properly - Description: Check if scanFile methods works properly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_scanFile.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-2I-ContentManager_scanFile_with_errorCallback" name="2I-ContentManager_scanFile_with_errorCallback" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if scanFile called with optional errorCallback is invoked properly - Description: Check if scanFile called with optional errorCallback is invoked properly" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if scanFile called with optional errorCallback is invoked properly - Description: Check if scanFile called with optional errorCallback is invoked properly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_scanFile_with_errorCallback.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-2J-ContentManager_scanFile_with_successCallback" name="2J-ContentManager_scanFile_with_successCallback" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if scanFile called with optional successCallback is invoked properly - Description: Check if scanFile called with optional successCallback is invoked properly" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if scanFile called with optional successCallback is invoked properly - Description: Check if scanFile called with optional successCallback is invoked properly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_scanFile_with_successCallback.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-2K-ContentManager_unsetChangeListener" name="2K-ContentManager_unsetChangeListener" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if unsetChangeListener method called with non-optional arguments does what it should - Description: Check if unsetChangeListener method called with non-optional arguments does what it should" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if unsetChangeListener method called with non-optional arguments does what it should - Description: Check if unsetChangeListener method called with non-optional arguments does what it should]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_unsetChangeListener.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-2L-VideoContent_extend" name="2L-VideoContent_extend" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if VideoContent can have new properties added - Description: Check if VideoContent can have new properties added" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if VideoContent can have new properties added - Description: Check if VideoContent can have new properties added]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/VideoContent_extend.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-2M-VideoContent_geolocation_attribute" name="2M-VideoContent_geolocation_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if VideoContent have geolocation attribute with proper type and is writeable - Description: Check if VideoContent have geolocation attribute with proper type and is writeable" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if VideoContent have geolocation attribute with proper type and is writeable - Description: Check if VideoContent have geolocation attribute with proper type and is writeable]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/VideoContent_geolocation_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-2N-VideoContent_height_attribute" name="2N-VideoContent_height_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if VideoContent have height attribute with proper type and is readonly - Description: Check if VideoContent have height attribute with proper type and is readonly" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if VideoContent have height attribute with proper type and is readonly - Description: Check if VideoContent have height attribute with proper type and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/VideoContent_height_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-2O-VideoContent_width_attribute" name="2O-VideoContent_width_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if VideoContent have width attribute with proper type and is readonly - Description: Check if VideoContent have width attribute with proper type and is readonly" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if VideoContent have width attribute with proper type and is readonly - Description: Check if VideoContent have width attribute with proper type and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/VideoContent_width_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-2P-VideoContent_duration_attribute" name="2P-VideoContent_duration_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if VideoContent have duration attribute with proper type and is readonly - Description: Check if VideoContent have duration attribute with proper type and is readonly" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if VideoContent have duration attribute with proper type and is readonly - Description: Check if VideoContent have duration attribute with proper type and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/VideoContent_duration_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-2Q-VideoContent_album_attribute" name="2Q-VideoContent_album_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if VideoContent have album attribute with proper type and is readonly - Description: Check if VideoContent have album attribute with proper type and is readonly" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if VideoContent have album attribute with proper type and is readonly - Description: Check if VideoContent have album attribute with proper type and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/VideoContent_album_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-2R-VideoContent_artists_attribute" name="2R-VideoContent_artists_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if VideoContent have artists attribute with proper type and is readonly - Description: Check if VideoContent have artists attribute with proper type and is readonly" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if VideoContent have artists attribute with proper type and is readonly - Description: Check if VideoContent have artists attribute with proper type and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/VideoContent_artists_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-2S-ContentChangeCallback_oncontentadded" name="2S-ContentChangeCallback_oncontentadded" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if ContentChangeCallback oncontentadded is called and if its arguments have proper type - Description: Check if ContentChangeCallback oncontentadded is called and if its arguments have proper type" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ContentChangeCallback oncontentadded is called and if its arguments have proper type - Description: Check if ContentChangeCallback oncontentadded is called and if its arguments have proper type]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentChangeCallback_oncontentadded.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-2T-ContentChangeCallback_oncontentremoved" name="2T-ContentChangeCallback_oncontentremoved" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if ContentChangeCallback oncontentremoved is called and if its arguments have proper type - Description: Check if ContentChangeCallback oncontentremoved is called and if its arguments have proper type" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ContentChangeCallback oncontentremoved is called and if its arguments have proper type - Description: Check if ContentChangeCallback oncontentremoved is called and if its arguments have proper type]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentChangeCallback_oncontentremoved.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-2U-ContentChangeCallback_oncontentupdated" name="2U-ContentChangeCallback_oncontentupdated" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if ContentChangeCallback oncontentupdated is called and if its arguments have proper type - Description: Check if ContentChangeCallback oncontentupdated is called and if its arguments have proper type" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ContentChangeCallback oncontentupdated is called and if its arguments have proper type - Description: Check if ContentChangeCallback oncontentupdated is called and if its arguments have proper type]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentChangeCallback_oncontentupdated.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-2V-ContentManager_updateBatch_with_errorCallback" name="2V-ContentManager_updateBatch_with_errorCallback" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if updateBatch called with optional errorCallback is invoked properly - Description: Check if updateBatch called with optional errorCallback is invoked properly" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if updateBatch called with optional errorCallback is invoked properly - Description: Check if updateBatch called with optional errorCallback is invoked properly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_updateBatch_with_errorCallback.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-2W-ContentManager_updateBatch_with_successCallback" name="2W-ContentManager_updateBatch_with_successCallback" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if updateBatch called with optional successCallback is invoked properly - Description: Check if updateBatch called with optional successCallback is invoked properly" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if updateBatch called with optional successCallback is invoked properly - Description: Check if updateBatch called with optional successCallback is invoked properly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_updateBatch_with_successCallback.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-2X-AudioContent_album_attribute" name="2X-AudioContent_album_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if AudioContent have album attribute with proper type and is readonly - Description: Check if AudioContent have album attribute with proper type and is readonly" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if AudioContent have album attribute with proper type and is readonly - Description: Check if AudioContent have album attribute with proper type and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/AudioContent_album_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-2Y-AudioContent_artists_attribute" name="2Y-AudioContent_artists_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if AudioContent have artists attribute with proper type and is readonly - Description: Check if AudioContent have artists attribute with proper type and is readonly" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if AudioContent have artists attribute with proper type and is readonly - Description: Check if AudioContent have artists attribute with proper type and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/AudioContent_artists_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-2Z-AudioContent_bitrate_attribute" name="2Z-AudioContent_bitrate_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if AudioContent have bitrate attribute with proper type, readonly - Description: Check if AudioContent have bitrate attribute with proper type, readonly" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if AudioContent have bitrate attribute with proper type, readonly - Description: Check if AudioContent have bitrate attribute with proper type, readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/AudioContent_bitrate_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-30-AudioContent_duration_attribute" name="30-AudioContent_duration_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if AudioContent have duration attribute with proper type and is readonly - Description: Check if AudioContent have duration attribute with proper type and is readonly" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if AudioContent have duration attribute with proper type and is readonly - Description: Check if AudioContent have duration attribute with proper type and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/AudioContent_duration_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-31-AudioContent_extend" name="31-AudioContent_extend" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if AudioContent can have new properties added - Description: Check if AudioContent can have new properties added" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if AudioContent can have new properties added - Description: Check if AudioContent can have new properties added]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/AudioContent_extend.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-32-AudioContent_trackNumber_attribute" name="32-AudioContent_trackNumber_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if AudioContent have trackNumber attribute with proper type, readonly, nullable - Description: Check if AudioContent have trackNumber attribute with proper type, readonly, nullable" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if AudioContent have trackNumber attribute with proper type, readonly, nullable - Description: Check if AudioContent have trackNumber attribute with proper type, readonly, nullable]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/AudioContent_trackNumber_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-33-AudioContent_genres_attribute" name="33-AudioContent_genres_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if AudioContent have genres attribute with proper type, readonly - Description: Check if AudioContent have genres attribute with proper type, readonly" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if AudioContent have genres attribute with proper type, readonly - Description: Check if AudioContent have genres attribute with proper type, readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/AudioContent_genres_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-34-AudioContent_composers_attribute" name="34-AudioContent_composers_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if AudioContent have composers attribute with proper type and is readonly - Description: Check if AudioContent have composers attribute with proper type and is readonly" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if AudioContent have composers attribute with proper type and is readonly - Description: Check if AudioContent have composers attribute with proper type and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/AudioContent_composers_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-35-AudioContent_copyright_attribute" name="35-AudioContent_copyright_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if AudioContent have copyright attribute with proper type and is readonly - Description: Check if AudioContent have copyright attribute with proper type and is readonly" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if AudioContent have copyright attribute with proper type and is readonly - Description: Check if AudioContent have copyright attribute with proper type and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/AudioContent_copyright_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-36-AudioContent_lyrics_attribute" name="36-AudioContent_lyrics_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if AudioContent have lyrics attribute with proper type and is readonly - Description: Check if AudioContent have lyrics attribute with proper type and is readonly" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if AudioContent have lyrics attribute with proper type and is readonly - Description: Check if AudioContent have lyrics attribute with proper type and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/AudioContent_lyrics_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-37-AudioContentLyrics_extend" name="37-AudioContentLyrics_extend" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if AudioContentLyrics can have new properties added - Description: Check if AudioContentLyrics can have new properties added" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if AudioContentLyrics can have new properties added - Description: Check if AudioContentLyrics can have new properties added]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/AudioContentLyrics_extend.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-38-AudioContentLyrics_type_attribute" name="38-AudioContentLyrics_type_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if AudioContentLyrics have type attribute with proper type and is readonly - Description: Check if AudioContentLyrics have type attribute with proper type and is readonly" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if AudioContentLyrics have type attribute with proper type and is readonly - Description: Check if AudioContentLyrics have type attribute with proper type and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/AudioContentLyrics_type_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-39-AudioContentLyrics_timestamps_attribute" name="39-AudioContentLyrics_timestamps_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if AudioContentLyrics have timestamps attribute with proper type and is readonly - Description: Check if AudioContentLyrics have timestamps attribute with proper type and is readonly" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if AudioContentLyrics have timestamps attribute with proper type and is readonly - Description: Check if AudioContentLyrics have timestamps attribute with proper type and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/AudioContentLyrics_timestamps_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-3A-AudioContentLyrics_texts_attribute" name="3A-AudioContentLyrics_texts_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if AudioContentLyrics have texts attribute with proper type and is readonly - Description: Check if AudioContentLyrics have texts attribute with proper type and is readonly" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if AudioContentLyrics have texts attribute with proper type and is readonly - Description: Check if AudioContentLyrics have texts attribute with proper type and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/AudioContentLyrics_texts_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-3B-ContentDirectory_extend" name="3B-ContentDirectory_extend" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if ContentDirectory can have new properties added - Description: Check if ContentDirectory can have new properties added" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ContentDirectory can have new properties added - Description: Check if ContentDirectory can have new properties added]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentDirectory_extend.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-3C-ContentDirectory_id_attribute" name="3C-ContentDirectory_id_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if ContentDirectory have id attribute with proper type, and is readonly - Description: Check if ContentDirectory have id attribute with proper type, and is readonly" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ContentDirectory have id attribute with proper type, and is readonly - Description: Check if ContentDirectory have id attribute with proper type, and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentDirectory_id_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-3D-ContentDirectory_directoryURI_attribute" name="3D-ContentDirectory_directoryURI_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if ContentDirectory have directoryURI attribute with proper type and is readonly - Description: Check if ContentDirectory have directoryURI attribute with proper type and is readonly" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ContentDirectory have directoryURI attribute with proper type and is readonly - Description: Check if ContentDirectory have directoryURI attribute with proper type and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentDirectory_directoryURI_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-3E-ContentDirectory_title_attribute" name="3E-ContentDirectory_title_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if ContentDirectory have title attribute with proper type, readonly, not null - Description: Check if ContentDirectory have title attribute with proper type, readonly, not null" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ContentDirectory have title attribute with proper type, readonly, not null - Description: Check if ContentDirectory have title attribute with proper type, readonly, not null]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentDirectory_title_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-3F-ContentDirectory_modifiedDate_attribute" name="3F-ContentDirectory_modifiedDate_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if ContentDirectory have modifiedDate attribute with proper type and is readonly - Description: Check if ContentDirectory have modifiedDate attribute with proper type and is readonly" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ContentDirectory have modifiedDate attribute with proper type and is readonly - Description: Check if ContentDirectory have modifiedDate attribute with proper type and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentDirectory_modifiedDate_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-3G-ContentDirectory_storageType_attribute" name="3G-ContentDirectory_storageType_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if ContentDirectory have storageType attribute with proper type, readonly, not null - Description: Check if ContentDirectory have storageType attribute with proper type, readonly, not null" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ContentDirectory have storageType attribute with proper type, readonly, not null - Description: Check if ContentDirectory have storageType attribute with proper type, readonly, not null]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentDirectory_storageType_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-3H-ContentManager_update_name" name="3H-ContentManager_update_name" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if update() properly updates name attribute of first found item - Description: Check if update() properly updates name attribute of first found item" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if update() properly updates name attribute of first found item - Description: Check if update() properly updates name attribute of first found item]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_update_name.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-3I-ContentManager_update_video_geolocation" name="3I-ContentManager_update_video_geolocation" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if update() properly updates geolocation attribute of first found video item - Description: Check if update() properly updates geolocation attribute of first found video item" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if update() properly updates geolocation attribute of first found video item - Description: Check if update() properly updates geolocation attribute of first found video item]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_update_video_geolocation.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-3J-ContentManager_update_image_geolocation" name="3J-ContentManager_update_image_geolocation" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if update() properly updates geolocation attribute of first found image item - Description: Check if update() properly updates geolocation attribute of first found image item" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if update() properly updates geolocation attribute of first found image item - Description: Check if update() properly updates geolocation attribute of first found image item]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_update_image_geolocation.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-3K-ContentManager_update_image_orientation" name="3K-ContentManager_update_image_orientation" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if update() properly updates orientation attribute of first found image item - Description: Check if update() properly updates orientation attribute of first found image item" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if update() properly updates orientation attribute of first found image item - Description: Check if update() properly updates orientation attribute of first found image item]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_update_image_orientation.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-3L-ContentManager_updateBatch_name" name="3L-ContentManager_updateBatch_name" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if updateBatch() properly updates name attributes of multiple image items - Description: Check if updateBatch() properly updates name attributes of multiple image items" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if updateBatch() properly updates name attributes of multiple image items - Description: Check if updateBatch() properly updates name attributes of multiple image items]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_updateBatch_name.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-3M-ContentManager_updateBatch_video_geolocation" name="3M-ContentManager_updateBatch_video_geolocation" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if updateBatch() properly updates name attributes of multiple video items - Description: Check if updateBatch() properly updates name attributes of multiple video items" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if updateBatch() properly updates name attributes of multiple video items - Description: Check if updateBatch() properly updates name attributes of multiple video items]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_updateBatch_video_geolocation.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-3N-ContentManager_updateBatch_image_geolocation" name="3N-ContentManager_updateBatch_image_geolocation" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if updateBatch() properly updates geolocation attributes of multiple image items - Description: Check if updateBatch() properly updates geolocation attributes of multiple image items" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if updateBatch() properly updates geolocation attributes of multiple image items - Description: Check if updateBatch() properly updates geolocation attributes of multiple image items]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_updateBatch_image_geolocation.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-3O-ContentManager_updateBatch_image_orientation" name="3O-ContentManager_updateBatch_image_orientation" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if updateBatch() properly updates orientation attributes of multiple image items - Description: Check if updateBatch() properly updates orientation attributes of multiple image items" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if updateBatch() properly updates orientation attributes of multiple image items - Description: Check if updateBatch() properly updates orientation attributes of multiple image items]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_updateBatch_image_orientation.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-3P-ContentManager_setChangeListener" name="3P-ContentManager_setChangeListener" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if setChangeListener method works properly - Description: Check if setChangeListener method works properly" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if setChangeListener method works properly - Description: Check if setChangeListener method works properly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_setChangeListener.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-3Q-ContentManager_updateBatch_without_callback" name="3Q-ContentManager_updateBatch_without_callback" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if updateBatch called without callback is invoked properly - Description: Check if updateBatch called without callback is invoked properly" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if updateBatch called without callback is invoked properly - Description: Check if updateBatch called without callback is invoked properly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_updateBatch_without_callback.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-08-3R-ContentManagerObject_notexist" name="3R-ContentManagerObject_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-content-tizen-tests" status="designed" type="" purpose="Objective: Check if ContentManagerObject cannot be called in new expression - Description: Check if ContentManagerObject cannot be called in new expression">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ContentManagerObject cannot be called in new expression - Description: Check if ContentManagerObject cannot be called in new expression]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManagerObject_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+        </set>
+    </suite>
+</test_definition>

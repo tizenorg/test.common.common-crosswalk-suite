@@ -1,0 +1,214 @@
+<?xml version="1.0"?>
+<test_definition>
+    <suite launcher="xwalk" name="00-common/E0-crosswalk">
+        <set name="common/crosswalk/commonapi/tct-animations-css3-tests">
+            <testcase id="00-E0-00-02-01-CSS3Animations_animation-duration_exists" name="01-CSS3Animations_animation-duration_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-animations-css3-tests" status="designed" type="" purpose="Objective: Check if Animations.animation-duration attribute exists - Description: Check if Animations.animation-duration attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Animations.animation-duration attribute exists - Description: Check if Animations.animation-duration attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-animations-css3-tests/animations/CSS3Animations_animation-duration_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-02-02-CSS3Animations_animation-iteration-count_exists" name="02-CSS3Animations_animation-iteration-count_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-animations-css3-tests" status="designed" type="" purpose="Objective: Check if Animations.animation-iteration-count attribute exists - Description: Check if Animations.animation-iteration-count attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Animations.animation-iteration-count attribute exists - Description: Check if Animations.animation-iteration-count attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-animations-css3-tests/animations/CSS3Animations_animation-iteration-count_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-02-03-CSS3Animations_animation-direction_exists" name="03-CSS3Animations_animation-direction_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-animations-css3-tests" status="designed" type="" purpose="Objective: Check if Animations.animation-direction attribute exists - Description: Check if Animations.animation-direction attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Animations.animation-direction attribute exists - Description: Check if Animations.animation-direction attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-animations-css3-tests/animations/CSS3Animations_animation-direction_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-02-04-CSS3Animations_animation-delay_exists" name="04-CSS3Animations_animation-delay_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-animations-css3-tests" status="designed" type="" purpose="Objective: Check if Animations.animation-delay attribute exists - Description: Check if Animations.animation-delay attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Animations.animation-delay attribute exists - Description: Check if Animations.animation-delay attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-animations-css3-tests/animations/CSS3Animations_animation-delay_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-02-05-CSS3Animations_animation_exists" name="05-CSS3Animations_animation_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-animations-css3-tests" status="designed" type="" purpose="Objective: Check if animation attribute exists - Description: Check if animation attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if animation attribute exists - Description: Check if animation attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-animations-css3-tests/animations/CSS3Animations_animation_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-02-06-CSS3Animations_animationstart" name="06-CSS3Animations_animationstart" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-animations-css3-tests" status="designed" type="" purpose="Objective: Check if animationstart event exists - Description: Check if animationstart event exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if animationstart event exists - Description: Check if animationstart event exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-animations-css3-tests/animations/CSS3Animations_animationstart.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-02-07-CSS3Animations_animationend" name="07-CSS3Animations_animationend" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-animations-css3-tests" status="designed" type="" purpose="Objective: Check if animationend event exists - Description: Check if animationend event exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if animationend event exists - Description: Check if animationend event exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-animations-css3-tests/animations/CSS3Animations_animationend.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-02-08-CSS3Animations_animationiteration" name="08-CSS3Animations_animationiteration" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-animations-css3-tests" status="designed" type="" purpose="Objective: Check if animationiteration event exists - Description: Check if animationiteration event exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if animationiteration event exists - Description: Check if animationiteration event exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-animations-css3-tests/animations/CSS3Animations_animationiteration.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-02-09-Animations_animation-play-state" name="09-Animations_animation-play-state" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-animations-css3-tests" status="designed" type="" purpose="Objective: Check if Animations.animation-play-state attribute exists - Description: Check if Animations.animation-play-state attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Animations.animation-play-state attribute exists - Description: Check if Animations.animation-play-state attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-animations-css3-tests/animations/CSS3Animations_animation-play-state_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-02-0A-CSS3Animations_animation-fill-mode_exist" name="0A-CSS3Animations_animation-fill-mode_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-animations-css3-tests" status="designed" type="" purpose="Objective: Check if Animations.animation-fill-mode attribute exists - Description: Check if Animations.animation-fill-mode attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Animations.animation-fill-mode attribute exists - Description: Check if Animations.animation-fill-mode attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-animations-css3-tests/animations/CSS3Animations_animation-fill-mode_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-02-0B-CSS3Animations_animation-delay_initial_value" name="0B-CSS3Animations_animation-delay_initial_value" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-animations-css3-tests" status="designed" type="" purpose="Objective: Check if Animations.animation-delay initial value is 0s - Description: Check if Animations.animation-delay initial value is 0s">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Animations.animation-delay initial value is 0s - Description: Check if Animations.animation-delay initial value is 0s]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-animations-css3-tests/animations/CSS3Animations_animation-delay_initial_value.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-02-0C-CSS3Animations_animation-direction_alternate-reverse" name="0C-CSS3Animations_animation-direction_alternate-reverse" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-animations-css3-tests" status="designed" type="" purpose="Objective: Check if Animations.animation-direction has value alternate-reverse - Description: Check if Animations.animation-direction has value alternate-reverse">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Animations.animation-direction has value alternate-reverse - Description: Check if Animations.animation-direction has value alternate-reverse]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-animations-css3-tests/animations/CSS3Animations_animation-direction_alternate-reverse.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-02-0D-CSS3Animations_animation-direction_reverse" name="0D-CSS3Animations_animation-direction_reverse" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-animations-css3-tests" status="designed" type="" purpose="Objective: Check if Animations.animation-direction has value reverse - Description: Check if Animations.animation-direction has value reverse">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Animations.animation-direction has value reverse - Description: Check if Animations.animation-direction has value reverse]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-animations-css3-tests/animations/CSS3Animations_animation-direction_reverse.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-02-0E-CSS3Animations_animation-duration_initial_value" name="0E-CSS3Animations_animation-duration_initial_value" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-animations-css3-tests" status="designed" type="" purpose="Objective: Check if Animations.animation-duration initial value is 0s - Description: Check if Animations.animation-duration initial value is 0s">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Animations.animation-duration initial value is 0s - Description: Check if Animations.animation-duration initial value is 0s]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-animations-css3-tests/animations/CSS3Animations_animation-duration_initial_value.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-02-0F-CSS3Animations_animation_shorthand" name="0F-CSS3Animations_animation_shorthand" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-animations-css3-tests" status="designed" type="" purpose="Objective: Check if animation shorthand property combines six of the animation properties into a single property - Description: Check if animation shorthand property combines six of the animation properties into a single property">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if animation shorthand property combines six of the animation properties into a single property - Description: Check if animation shorthand property combines six of the animation properties into a single property]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-animations-css3-tests/animations/CSS3Animations_animation_shorthand.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-02-0G-CSS3Animations_animation-fill-mode_backwards" name="0G-CSS3Animations_animation-fill-mode_backwards" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-animations-css3-tests" status="designed" type="" purpose="Objective: Check if Animations.animation-fill-mode has value backwards - Description: Check if Animations.animation-fill-mode has value backwards">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Animations.animation-fill-mode has value backwards - Description: Check if Animations.animation-fill-mode has value backwards]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-animations-css3-tests/animations/CSS3Animations_animation-fill-mode_backwards.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-02-0H-CSS3Animations_animation-fill-mode_both" name="0H-CSS3Animations_animation-fill-mode_both" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-animations-css3-tests" status="designed" type="" purpose="Objective: Check if Animations.animation-fill-mode has value both - Description: Check if Animations.animation-fill-mode has value both">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Animations.animation-fill-mode has value both - Description: Check if Animations.animation-fill-mode has value both]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-animations-css3-tests/animations/CSS3Animations_animation-fill-mode_both.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-02-0I-CSS3Animations_animation-fill-mode_forwards" name="0I-CSS3Animations_animation-fill-mode_forwards" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-animations-css3-tests" status="designed" type="" purpose="Objective: Check if Animations.animation-fill-mode has value forwards - Description: Check if Animations.animation-fill-mode has value forwards">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Animations.animation-fill-mode has value forwards - Description: Check if Animations.animation-fill-mode has value forwards]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-animations-css3-tests/animations/CSS3Animations_animation-fill-mode_forwards.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-02-0J-CSS3Animations_animation-fill-mode_initial_value" name="0J-CSS3Animations_animation-fill-mode_initial_value" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-animations-css3-tests" status="designed" type="" purpose="Objective: Check if Animations.animation-fill-mode initial value is none - Description: Check if Animations.animation-fill-mode initial value is none">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Animations.animation-fill-mode initial value is none - Description: Check if Animations.animation-fill-mode initial value is none]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-animations-css3-tests/animations/CSS3Animations_animation-fill-mode_initial_value.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-02-0K-CSS3Animations_animation-timing-function_step-end" name="0K-CSS3Animations_animation-timing-function_step-end" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-animations-css3-tests" status="designed" type="" purpose="Objective: Check if Animations.animation-timing-function attribute has value step-end - Description: Check if Animations.animation-timing-function attribute has value step-end">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Animations.animation-timing-function attribute has value step-end - Description: Check if Animations.animation-timing-function attribute has value step-end]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-animations-css3-tests/animations/CSS3Animations_animation-timing-function_step-end.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-02-0L-CSS3Animations_animation-timing-function_step-start" name="0L-CSS3Animations_animation-timing-function_step-start" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-animations-css3-tests" status="designed" type="" purpose="Objective: Check if Animations.animation-timing-function attribute has value step-start - Description: Check if Animations.animation-timing-function attribute has value step-start">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Animations.animation-timing-function attribute has value step-start - Description: Check if Animations.animation-timing-function attribute has value step-start]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-animations-css3-tests/animations/CSS3Animations_animation-timing-function_step-start.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-02-0M-CSS3Animations_animation-timing-function_steps_end" name="0M-CSS3Animations_animation-timing-function_steps_end" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-animations-css3-tests" status="designed" type="" purpose="Objective: Check if Animations.animation-timing-function attribute has value steps(end) - Description: Check if Animations.animation-timing-function attribute has value steps(end)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Animations.animation-timing-function attribute has value steps(end) - Description: Check if Animations.animation-timing-function attribute has value steps(end)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-animations-css3-tests/animations/CSS3Animations_animation-timing-function_steps_end.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-02-0N-CSS3Animations_animation-timing-function_steps_number" name="0N-CSS3Animations_animation-timing-function_steps_number" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-animations-css3-tests" status="designed" type="" purpose="Objective: Check if Animations.animation-timing-function attribute has value steps(number) - Description: Check if Animations.animation-timing-function attribute has value steps(number)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Animations.animation-timing-function attribute has value steps(number) - Description: Check if Animations.animation-timing-function attribute has value steps(number)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-animations-css3-tests/animations/CSS3Animations_animation-timing-function_steps_number.html</test_script_entry>
+                </description>
+            </testcase>
+        </set>
+    </suite>
+</test_definition>

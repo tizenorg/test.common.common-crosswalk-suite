@@ -1,0 +1,772 @@
+<?xml version="1.0"?>
+<test_definition>
+    <suite launcher="xwalk" name="00-common/E0-crosswalk">
+        <set name="common/crosswalk/commonapi/tct-workers-w3c-tests">
+            <testcase id="00-E0-00-1R-01-WebWorker_WorkerLocation_pathname_decompose" name="01-WebWorker_WorkerLocation_pathname_decompose" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if SharedWorkerLocation URL can decompose IDL attribute: pathname. - Description: Check if SharedWorkerLocation URL can decompose IDL attribute: pathname.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if SharedWorkerLocation URL can decompose IDL attribute: pathname. - Description: Check if SharedWorkerLocation URL can decompose IDL attribute: pathname.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/WebWorker_WorkerLocation_pathname_decompose.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-02-WebWorker_DedicatedWorkerGlobalScope_postMessage_binary" name="02-WebWorker_DedicatedWorkerGlobalScope_postMessage_binary" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if WorkerGlobalScope method: postMessage can send binary data. - Description: Check if WorkerGlobalScope method: postMessage can send binary data.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if WorkerGlobalScope method: postMessage can send binary data. - Description: Check if WorkerGlobalScope method: postMessage can send binary data.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/WebWorker_DedicatedWorkerGlobalScope_postMessage_binary.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-03-WebWorker_DedicatedWorkerGlobalScope_postMessage_structure" name="03-WebWorker_DedicatedWorkerGlobalScope_postMessage_structure" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if WorkerGlobalScope method: postMessage can send structured data. - Description: Check if WorkerGlobalScope method: postMessage can send structured data.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if WorkerGlobalScope method: postMessage can send structured data. - Description: Check if WorkerGlobalScope method: postMessage can send structured data.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/WebWorker_DedicatedWorkerGlobalScope_postMessage_structure.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-04-WebWorker_DedicatedWorkerGlobalScope_onMessage_binary" name="04-WebWorker_DedicatedWorkerGlobalScope_onMessage_binary" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if WorkerGlobalScope method: onMessage can receive binary data. - Description: Check if WorkerGlobalScope method: onMessage can receive binary data.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if WorkerGlobalScope method: onMessage can receive binary data. - Description: Check if WorkerGlobalScope method: onMessage can receive binary data.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/WebWorker_DedicatedWorkerGlobalScope_onMessage_binary.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-05-WebWorker_DedicatedWorkerGlobalScope_onMessage_structure" name="05-WebWorker_DedicatedWorkerGlobalScope_onMessage_structure" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if WorkerGlobalScope method: onMessage can receive structure data. - Description: Check if WorkerGlobalScope method: onMessage can receive structure data.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if WorkerGlobalScope method: onMessage can receive structure data. - Description: Check if WorkerGlobalScope method: onMessage can receive structure data.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/WebWorker_DedicatedWorkerGlobalScope_onMessage_structure.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-06-WebWorker_WorkerGlobalScope_importScripts_unsupport" name="06-WebWorker_WorkerGlobalScope_importScripts_unsupport" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if WorkerGlobalScope API: importScripts() can throw exception when importing an existent but unsupported format file. - Description: Check if WorkerGlobalScope API: importScripts() can throw exception when importing an existent but unsupported format file.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if WorkerGlobalScope API: importScripts() can throw exception when importing an existent but unsupported format file. - Description: Check if WorkerGlobalScope API: importScripts() can throw exception when importing an existent but unsupported format file.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/WebWorker_WorkerGlobalScope_importScripts_unsupport.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-07-WebWorker_SharedWorker_constructor_name" name="07-WebWorker_SharedWorker_constructor_name" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if shared worker object can be constructed with name. - Description: Check if shared worker object can be constructed with name.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if shared worker object can be constructed with name. - Description: Check if shared worker object can be constructed with name.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/WebWorker_SharedWorker_constructor_name.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-08-WebWorker_SharedWorker_constructor_invalidURL" name="08-WebWorker_SharedWorker_constructor_invalidURL" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if shared worker can throw exception when constructing object with an invalid URL. - Description: Check if shared worker can throw exception when constructing object with an invalid URL.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if shared worker can throw exception when constructing object with an invalid URL. - Description: Check if shared worker can throw exception when constructing object with an invalid URL.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/WebWorker_SharedWorker_constructor_invalidURL.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-09-WorkerNavigator_platform" name="09-WorkerNavigator_platform" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if WorkerNavigator.platform can return the name of the platform. - Description: Check if WorkerNavigator.platform can return the name of the platform.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if WorkerNavigator.platform can return the name of the platform. - Description: Check if WorkerNavigator.platform can return the name of the platform.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/w3c/WorkerNavigator_platform.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-0A-SharedWorkerLocation_search" name="0A-SharedWorkerLocation_search" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if SharedWorkerLocation URL can decomposition IDL attribute: search. - Description: Check if SharedWorkerLocation URL can decomposition IDL attribute: search.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if SharedWorkerLocation URL can decomposition IDL attribute: search. - Description: Check if SharedWorkerLocation URL can decomposition IDL attribute: search.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/SharedWorkerLocation_search.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-0B-SharedWorkerNavigator_appName" name="0B-SharedWorkerNavigator_appName" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if SharedWorkerNavigator appName can return the name of the browser. - Description: Check if SharedWorkerNavigator appName can return the name of the browser.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if SharedWorkerNavigator appName can return the name of the browser. - Description: Check if SharedWorkerNavigator appName can return the name of the browser.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/SharedWorkerNavigator_appName.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-0C-SharedWorkerNavigator_platform" name="0C-SharedWorkerNavigator_platform" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if SharedWorkerNavigator.platform can return the name of the platform. - Description: Check if SharedWorkerNavigator.platform can return the name of the platform.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if SharedWorkerNavigator.platform can return the name of the platform. - Description: Check if SharedWorkerNavigator.platform can return the name of the platform.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/SharedWorkerNavigator_platform.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-0D-SharedWorkerLoadError" name="0D-SharedWorkerLoadError" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if onerror method of shared worker can be invoked when the JS file that is used to construct the shared worker object doesn't exist. - Description: Check if onerror method of shared worker can be invoked when the JS file that is used to construct the shared worker object doesn't exist.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if onerror method of shared worker can be invoked when the JS file that is used to construct the shared worker object doesn't exist. - Description: Check if onerror method of shared worker can be invoked when the JS file that is used to construct the shared worker object doesn't exist.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/SharedWorkerLoadError.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-0E-WorkerGlobalScope_importScripts" name="0E-WorkerGlobalScope_importScripts" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if WorkerGlobalScope API: importScripts() can work correctly. - Description: Check if WorkerGlobalScope API: importScripts() can work correctly.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if WorkerGlobalScope API: importScripts() can work correctly. - Description: Check if WorkerGlobalScope API: importScripts() can work correctly.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/w3c/WorkerGlobalScope_importScripts.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-0F-WorkerLocation_hash" name="0F-WorkerLocation_hash" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if WorkerLocation URL can decompose IDL attribute: hash. - Description: Check if WorkerLocation URL can decompose IDL attribute: hash.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if WorkerLocation URL can decompose IDL attribute: hash. - Description: Check if WorkerLocation URL can decompose IDL attribute: hash.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/w3c/WorkerLocation_hash.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-0G-SharedWorkerLocation_hostname" name="0G-SharedWorkerLocation_hostname" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if SharedWorkerLocation URL can decompose IDL attribute: hostname. - Description: Check if SharedWorkerLocation URL can decompose IDL attribute: hostname.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if SharedWorkerLocation URL can decompose IDL attribute: hostname. - Description: Check if SharedWorkerLocation URL can decompose IDL attribute: hostname.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/SharedWorkerLocation_hostname.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-0H-SharedWorkerEventListener" name="0H-SharedWorkerEventListener" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if addEventListener method of shared worker can work correctly. - Description: Check if addEventListener method of shared worker can work correctly.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if addEventListener method of shared worker can work correctly. - Description: Check if addEventListener method of shared worker can work correctly.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/SharedWorkerEventListener.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-0I-postMessage_target_source" name="0I-postMessage_target_source" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if the postMessage() method can work correctly when the target port is entangled with source port. - Description: Check if the postMessage() method can work correctly when the target port is entangled with source port.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the postMessage() method can work correctly when the target port is entangled with source port. - Description: Check if the postMessage() method can work correctly when the target port is entangled with source port.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/w3c/postMessage_target_source.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-0J-SharedWorkerSimple" name="0J-SharedWorkerSimple" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if shared worker can work correctly. - Description: Check if shared worker can work correctly.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if shared worker can work correctly. - Description: Check if shared worker can work correctly.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/SharedWorkerSimple.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-0K-postMessage_ports_readonly_array" name="0K-postMessage_ports_readonly_array" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if ports is read-only. - Description: Check if ports is read-only.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ports is read-only. - Description: Check if ports is read-only.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/w3c/postMessage_ports_readonly_array.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-0L-SharedWorkerLocation" name="0L-SharedWorkerLocation" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if SharedWorkerLocation object can return the absolute URL set when it is created. - Description: Check if SharedWorkerLocation object can return the absolute URL set when it is created.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if SharedWorkerLocation object can return the absolute URL set when it is created. - Description: Check if SharedWorkerLocation object can return the absolute URL set when it is created.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/SharedWorkerLocation.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-0M-SharedWorkerShared_distinct" name="0M-SharedWorkerShared_distinct" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if shared worker objects created by different names are distinct instances. - Description: Check if shared worker objects created by different names are distinct instances.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if shared worker objects created by different names are distinct instances. - Description: Check if shared worker objects created by different names are distinct instances.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/SharedWorkerShared_distinct.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-0N-WorkerLocation_protocol" name="0N-WorkerLocation_protocol" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if WorkerLocation URL can decompose IDL attribute: protocol. - Description: Check if WorkerLocation URL can decompose IDL attribute: protocol.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if WorkerLocation URL can decompose IDL attribute: protocol. - Description: Check if WorkerLocation URL can decompose IDL attribute: protocol.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/w3c/WorkerLocation_protocol.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-0O-WorkerGlobalScope_setInterval" name="0O-WorkerGlobalScope_setInterval" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if WorkerGlobalScope API: setInterval() can work correctly. - Description: Check if WorkerGlobalScope API: setInterval() can work correctly.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if WorkerGlobalScope API: setInterval() can work correctly. - Description: Check if WorkerGlobalScope API: setInterval() can work correctly.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/w3c/WorkerGlobalScope_setInterval.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-0P-Worker_script_mimetype" name="0P-Worker_script_mimetype" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if Worker always assumes the resource file to be JavaScript, regardless of the MIME type. - Description: Check if Worker always assumes the resource file to be JavaScript, regardless of the MIME type.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Worker always assumes the resource file to be JavaScript, regardless of the MIME type. - Description: Check if Worker always assumes the resource file to be JavaScript, regardless of the MIME type.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/w3c/Worker_script_mimetype.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-0Q-WorkerLocation_port" name="0Q-WorkerLocation_port" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if WorkerLocation URL can decompose IDL attribute: port. - Description: Check if WorkerLocation URL can decompose IDL attribute: port.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if WorkerLocation URL can decompose IDL attribute: port. - Description: Check if WorkerLocation URL can decompose IDL attribute: port.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/w3c/WorkerLocation_port.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-0R-Worker_terminate_event_queue" name="0R-Worker_terminate_event_queue" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if AbstractWorker terminate() can clear the event queue. - Description: Check if AbstractWorker terminate() can clear the event queue.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if AbstractWorker terminate() can clear the event queue. - Description: Check if AbstractWorker terminate() can clear the event queue.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/w3c/Worker_terminate_event_queue.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-0S-SharedWorkerLocation_href" name="0S-SharedWorkerLocation_href" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if SharedWorkerLocation href attribute can return the absolute URL that the WorkerLocation object represents. - Description: Check if SharedWorkerLocation href attribute can return the absolute URL that the WorkerLocation object represents.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if SharedWorkerLocation href attribute can return the absolute URL that the WorkerLocation object represents. - Description: Check if SharedWorkerLocation href attribute can return the absolute URL that the WorkerLocation object represents.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/SharedWorkerLocation_href.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-0T-Worker_ErrorEvent_message" name="0T-Worker_ErrorEvent_message" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if ErrorEvent message attribute can represent the error message. - Description: Check if ErrorEvent message attribute can represent the error message.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ErrorEvent message attribute can represent the error message. - Description: Check if ErrorEvent message attribute can represent the error message.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/w3c/Worker_ErrorEvent_message.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-0U-Worker_ErrorEvent_type" name="0U-Worker_ErrorEvent_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if AbstractWorker ErrorEvent.type can represent the error type. - Description: Check if AbstractWorker ErrorEvent.type can represent the error type.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if AbstractWorker ErrorEvent.type can represent the error type. - Description: Check if AbstractWorker ErrorEvent.type can represent the error type.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/w3c/Worker_ErrorEvent_type.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-0V-SharedWorkerLocation_hash" name="0V-SharedWorkerLocation_hash" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if SharedWorkerLocation URL can decompose IDL attribute: hash. - Description: Check if SharedWorkerLocation URL can decompose IDL attribute: hash.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if SharedWorkerLocation URL can decompose IDL attribute: hash. - Description: Check if SharedWorkerLocation URL can decompose IDL attribute: hash.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/SharedWorkerLocation_hash.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-0W-WorkerNavigator_appName" name="0W-WorkerNavigator_appName" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if WorkerNavigator appName can return the name of the browser. - Description: Check if WorkerNavigator appName can return the name of the browser.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if WorkerNavigator appName can return the name of the browser. - Description: Check if WorkerNavigator appName can return the name of the browser.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/w3c/WorkerNavigator_appName.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-0X-WorkerLocation_search" name="0X-WorkerLocation_search" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if WorkerLocation URL can decompose IDL attribute: search. - Description: Check if WorkerLocation URL can decompose IDL attribute: search.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if WorkerLocation URL can decompose IDL attribute: search. - Description: Check if WorkerLocation URL can decompose IDL attribute: search.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/w3c/WorkerLocation_search.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-0Y-SharedWorkerNavigator_userAgent" name="0Y-SharedWorkerNavigator_userAgent" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if SharedWorkerNavigator.userAgent can return the complete User-Agent header. - Description: Check if SharedWorkerNavigator.userAgent can return the complete User-Agent header.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if SharedWorkerNavigator.userAgent can return the complete User-Agent header. - Description: Check if SharedWorkerNavigator.userAgent can return the complete User-Agent header.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/SharedWorkerNavigator_userAgent.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-0Z-WorkerLocation_search_empty" name="0Z-WorkerLocation_search_empty" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if WorkerLocation.search can work correctly with empty fragment. - Description: Check if WorkerLocation.search can work correctly with empty fragment.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if WorkerLocation.search can work correctly with empty fragment. - Description: Check if WorkerLocation.search can work correctly with empty fragment.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/w3c/WorkerLocation_search_empty.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-10-SharedWorkerLocation_search_fragment" name="10-SharedWorkerLocation_search_fragment" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if SharedWorkerLocation.search can work correctly with fragment. - Description: Check if SharedWorkerLocation.search can work correctly with fragment.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if SharedWorkerLocation.search can work correctly with fragment. - Description: Check if SharedWorkerLocation.search can work correctly with fragment.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/SharedWorkerLocation_search_fragment.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-11-WorkerLocation_hostname" name="11-WorkerLocation_hostname" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if WorkerLocation URL can decompose IDL attribute: hostname. - Description: Check if WorkerLocation URL can decompose IDL attribute: hostname.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if WorkerLocation URL can decompose IDL attribute: hostname. - Description: Check if WorkerLocation URL can decompose IDL attribute: hostname.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/w3c/WorkerLocation_hostname.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-12-postMessage_clone_port" name="12-postMessage_clone_port" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if postMessage(): clone can clone a port correctly. - Description: Check if postMessage(): clone can clone a port correctly.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if postMessage(): clone can clone a port correctly. - Description: Check if postMessage(): clone can clone a port correctly.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/w3c/postMessage_clone_port.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-13-SharedWorkerConstructor" name="13-SharedWorkerConstructor" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if shared worker object can be constructed correctly. - Description: Check if shared worker object can be constructed correctly.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if shared worker object can be constructed correctly. - Description: Check if shared worker object can be constructed correctly.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/SharedWorkerConstructor.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-14-WorkerLocation_search_nonexist" name="14-WorkerLocation_search_nonexist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if WorkerLocation.search can work correctly with no query component. - Description: Check if WorkerLocation.search can work correctly with no query component.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if WorkerLocation.search can work correctly with no query component. - Description: Check if WorkerLocation.search can work correctly with no query component.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/w3c/WorkerLocation_search_nonexist.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-15-WorkerNavigator_userAgent" name="15-WorkerNavigator_userAgent" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if WorkerNavigator.userAgent can return the complete User-Agent header. - Description: Check if WorkerNavigator.userAgent can return the complete User-Agent header.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if WorkerNavigator.userAgent can return the complete User-Agent header. - Description: Check if WorkerNavigator.userAgent can return the complete User-Agent header.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/w3c/WorkerNavigator_userAgent.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-16-WorkerNavigator_onLine" name="16-WorkerNavigator_onLine" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if WorkerNavigator.onLine can represent whether the browser is online. - Description: Check if WorkerNavigator.onLine can represent whether the browser is online.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if WorkerNavigator.onLine can represent whether the browser is online. - Description: Check if WorkerNavigator.onLine can represent whether the browser is online.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/w3c/WorkerNavigator_onLine.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-17-WorkerLocation_host" name="17-WorkerLocation_host" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if WorkerLocation URL can decompose IDL attribute: host. - Description: Check if WorkerLocation URL can decompose IDL attribute: host.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if WorkerLocation URL can decompose IDL attribute: host. - Description: Check if WorkerLocation URL can decompose IDL attribute: host.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/w3c/WorkerLocation_host.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-18-SharedWorkerNavigator_appVersion" name="18-SharedWorkerNavigator_appVersion" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if SharedWorkerNavigator appVersion can return the version of the browser. - Description: Check if SharedWorkerNavigator appVersion can return the version of the browser.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if SharedWorkerNavigator appVersion can return the version of the browser. - Description: Check if SharedWorkerNavigator appVersion can return the version of the browser.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/SharedWorkerNavigator_appVersion.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-19-WorkerLocation_href" name="19-WorkerLocation_href" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if WorkerLocation href attribute can return the absolute URL that the WorkerLocation object represents. - Description: Check if WorkerLocation href attribute can return the absolute URL that the WorkerLocation object represents.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if WorkerLocation href attribute can return the absolute URL that the WorkerLocation object represents. - Description: Check if WorkerLocation href attribute can return the absolute URL that the WorkerLocation object represents.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/w3c/WorkerLocation_href.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-1A-SharedWorkerLocation_host" name="1A-SharedWorkerLocation_host" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if SharedWorkerLocation URL can decompose IDL attribute: host. - Description: Check if SharedWorkerLocation URL can decompose IDL attribute: host.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if SharedWorkerLocation URL can decompose IDL attribute: host. - Description: Check if SharedWorkerLocation URL can decompose IDL attribute: host.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/SharedWorkerLocation_host.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-1B-WorkerLocation_search_fragment" name="1B-WorkerLocation_search_fragment" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if WorkerLocation.search can work correctly with fragment. - Description: Check if WorkerLocation.search can work correctly with fragment.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if WorkerLocation.search can work correctly with fragment. - Description: Check if WorkerLocation.search can work correctly with fragment.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/w3c/WorkerLocation_search_fragment.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-1C-WorkerLocation_hash_nonexist" name="1C-WorkerLocation_hash_nonexist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if WorkerLocation.hash can work correctly with no fragment. - Description: Check if WorkerLocation.hash can work correctly with no fragment.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if WorkerLocation.hash can work correctly with no fragment. - Description: Check if WorkerLocation.hash can work correctly with no fragment.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/w3c/WorkerLocation_hash_nonexist.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-1D-WorkerGlobalScope_ErrorEvent_message" name="1D-WorkerGlobalScope_ErrorEvent_message" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if WorkerGlobalScope ErrorEvent.message can work correctly. - Description: Check if WorkerGlobalScope ErrorEvent.message can work correctly.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if WorkerGlobalScope ErrorEvent.message can work correctly. - Description: Check if WorkerGlobalScope ErrorEvent.message can work correctly.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/w3c/WorkerGlobalScope_ErrorEvent_message.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-1E-SharedWorkerLocation_hash_nonexist" name="1E-SharedWorkerLocation_hash_nonexist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if SharedWorkerLocation.hash can work correctly with no fragment. - Description: Check if SharedWorkerLocation.hash can work correctly with no fragment.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if SharedWorkerLocation.hash can work correctly with no fragment. - Description: Check if SharedWorkerLocation.hash can work correctly with no fragment.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/SharedWorkerLocation_hash_nonexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-1F-SharedWorkerNavigator_online" name="1F-SharedWorkerNavigator_online" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if SharedWorkerNavigator.onLine can work correctly. - Description: Check if SharedWorkerNavigator.onLine can work correctly.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if SharedWorkerNavigator.onLine can work correctly. - Description: Check if SharedWorkerNavigator.onLine can work correctly.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/SharedWorkerNavigator_online.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-1G-SharedWorkerLocation_hash_encoding" name="1G-SharedWorkerLocation_hash_encoding" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if SharedWorkerLocation.hash can work correctly with url encoding string. - Description: Check if SharedWorkerLocation.hash can work correctly with url encoding string.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if SharedWorkerLocation.hash can work correctly with url encoding string. - Description: Check if SharedWorkerLocation.hash can work correctly with url encoding string.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/SharedWorkerLocation_hash_encoding.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-1H-SharedWorkerLocation_portocol" name="1H-SharedWorkerLocation_portocol" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if SharedWorkerLocation URL can decompose IDL attribute: protocol. - Description: Check if SharedWorkerLocation URL can decompose IDL attribute: protocol.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if SharedWorkerLocation URL can decompose IDL attribute: protocol. - Description: Check if SharedWorkerLocation URL can decompose IDL attribute: protocol.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/SharedWorkerLocation_portocol.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-1I-Worker_basic" name="1I-Worker_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if basic function of Web Workers can work correctly. - Description: Check if basic function of Web Workers can work correctly.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if basic function of Web Workers can work correctly. - Description: Check if basic function of Web Workers can work correctly.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/w3c/Worker_basic.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-1J-SharedWorkerName" name="1J-SharedWorkerName" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if basic usage of worker name can work correctly. - Description: Check if basic usage of worker name can work correctly.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if basic usage of worker name can work correctly. - Description: Check if basic usage of worker name can work correctly.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/SharedWorkerName.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-1K-postMessage_event_properties" name="1K-postMessage_event_properties" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if postMessage MessageEvent can work correctly. - Description: Check if postMessage MessageEvent can work correctly.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if postMessage MessageEvent can work correctly. - Description: Check if postMessage MessageEvent can work correctly.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/w3c/postMessage_event_properties.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-1L-WorkerLocation_pathname" name="1L-WorkerLocation_pathname" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if WorkerLocation URL can decompose IDL attribute: pathname. - Description: Check if WorkerLocation URL can decompose IDL attribute: pathname.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if WorkerLocation URL can decompose IDL attribute: pathname. - Description: Check if WorkerLocation URL can decompose IDL attribute: pathname.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/w3c/WorkerLocation_pathname.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-1M-SharedWorkerLocation_search_nonexist" name="1M-SharedWorkerLocation_search_nonexist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if SharedWorkerLocation.search can work correctly with no component. - Description: Check if SharedWorkerLocation.search can work correctly with no component.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if SharedWorkerLocation.search can work correctly with no component. - Description: Check if SharedWorkerLocation.search can work correctly with no component.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/SharedWorkerLocation_search_nonexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-1N-WorkerLocation_hash_encoding" name="1N-WorkerLocation_hash_encoding" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if WorkerLocation.hash can work correctly with url encoding string. - Description: Check if WorkerLocation.hash can work correctly with url encoding string.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if WorkerLocation.hash can work correctly with url encoding string. - Description: Check if WorkerLocation.hash can work correctly with url encoding string.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/w3c/WorkerLocation_hash_encoding.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-1O-SharedWorkerLocation_port" name="1O-SharedWorkerLocation_port" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if SharedWorkerLocation URL can decompose IDL attribute: port. - Description: Check if SharedWorkerLocation URL can decompose IDL attribute: port.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if SharedWorkerLocation URL can decompose IDL attribute: port. - Description: Check if SharedWorkerLocation URL can decompose IDL attribute: port.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/SharedWorkerLocation_port.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-1P-WorkerGlobalScope_close" name="1P-WorkerGlobalScope_close" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if WorkerGlobalScope Close() can clear events queue. - Description: Check if WorkerGlobalScope Close() can clear events queue.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if WorkerGlobalScope Close() can clear events queue. - Description: Check if WorkerGlobalScope Close() can clear events queue.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/w3c/WorkerGlobalScope_close.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-1Q-WorkerNavigator_appVersion" name="1Q-WorkerNavigator_appVersion" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if WorkerNavigator appVersion can return the version of the browser. - Description: Check if WorkerNavigator appVersion can return the version of the browser.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if WorkerNavigator appVersion can return the version of the browser. - Description: Check if WorkerNavigator appVersion can return the version of the browser.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/w3c/WorkerNavigator_appVersion.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-1R-WorkerGlobalScope_setTimeout" name="1R-WorkerGlobalScope_setTimeout" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if WorkerGlobalScope_setTimeout can work correctly. - Description: Check if WorkerGlobalScope_setTimeout can work correctly.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if WorkerGlobalScope_setTimeout can work correctly. - Description: Check if WorkerGlobalScope_setTimeout can work correctly.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/w3c/WorkerGlobalScope_setTimeout.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-1S-WorkerGlobalScope_navigator" name="1S-WorkerGlobalScope_navigator" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if WorkerGlobalScope attribute navigator can work correctly. - Description: Check if WorkerGlobalScope attribute navigator can work correctly.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if WorkerGlobalScope attribute navigator can work correctly. - Description: Check if WorkerGlobalScope attribute navigator can work correctly.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/WorkerGlobalScope_navigator.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-1T-Worker_constructor" name="1T-Worker_constructor" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if Worker constructor can work correctly. - Description: Check if Worker constructor can work correctly.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Worker constructor can work correctly. - Description: Check if Worker constructor can work correctly.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/Worker_constructor.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-1U-WorkerGlobalScope_onMessage" name="1U-WorkerGlobalScope_onMessage" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if WorkerGlobalScope method: onmessage can work correctly. - Description: Check if WorkerGlobalScope method: onmessage can work correctly.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if WorkerGlobalScope method: onmessage can work correctly. - Description: Check if WorkerGlobalScope method: onmessage can work correctly.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/WorkerGlobalScope_onMessage.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-1V-WorkerGlobalScope_postMessage" name="1V-WorkerGlobalScope_postMessage" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if WorkerGlobalScope method: postMessage can work correctly. - Description: Check if WorkerGlobalScope method: postMessage can work correctly.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if WorkerGlobalScope method: postMessage can work correctly. - Description: Check if WorkerGlobalScope method: postMessage can work correctly.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/WorkerGlobalScope_postMessage.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-1W-SharedWorkerGlobalScope_name" name="1W-SharedWorkerGlobalScope_name" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if SharedWorkerGlobalScope attribute: name can return the worker name. - Description: Check if SharedWorkerGlobalScope attribute: name can return the worker name.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if SharedWorkerGlobalScope attribute: name can return the worker name. - Description: Check if SharedWorkerGlobalScope attribute: name can return the worker name.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/SharedWorkerGlobalScope_name.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-1X-WorkerGlobalScope_self" name="1X-WorkerGlobalScope_self" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if WorkerGlobalScope attribute: self can return WorkerGlobalScope object itself. - Description: Check if WorkerGlobalScope attribute: self can return WorkerGlobalScope object itself.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if WorkerGlobalScope attribute: self can return WorkerGlobalScope object itself. - Description: Check if WorkerGlobalScope attribute: self can return WorkerGlobalScope object itself.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/WorkerGlobalScope_self.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-1Y-SharedWorkerGlobalScope_onconnect" name="1Y-SharedWorkerGlobalScope_onconnect" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if SharedWorkerGlobalScope method: onconnect can work correctly. - Description: Check if SharedWorkerGlobalScope method: onconnect can work correctly.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if SharedWorkerGlobalScope method: onconnect can work correctly. - Description: Check if SharedWorkerGlobalScope method: onconnect can work correctly.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/SharedWorkerGlobalScope_onconnect.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-1Z-WebWorker_Blob_url_support" name="1Z-WebWorker_Blob_url_support" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: Check if Web Worker support Blob url - Description: Check if Web Worker support Blob url">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Web Worker support Blob url - Description: Check if Web Worker support Blob url]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/WebWorker_Blob_url_support.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-20-SharedWorkerShared_name_except" name="20-SharedWorkerShared_name_except" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: check if throw exception when creating SharedWorker with different URLs but same name - Description: check if throw exception when creating SharedWorker with different URLs but same name">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: check if throw exception when creating SharedWorker with different URLs but same name - Description: check if throw exception when creating SharedWorker with different URLs but same name]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/SharedWorkerShared_name_except.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-21-WorkerGlobalScope_XMLHttpRequest" name="21-WorkerGlobalScope_XMLHttpRequest" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: check if WorkerGlobalScope XMLHttpRequest support - Description: check if WorkerGlobalScope XMLHttpRequest support">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: check if WorkerGlobalScope XMLHttpRequest support - Description: check if WorkerGlobalScope XMLHttpRequest support]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/w3c/WorkerGlobalScope_XMLHttpRequest.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-22-postMessage_DataCloneErr" name="22-postMessage_DataCloneErr" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: check if postMessage() with WorkerNavigator raises DATA_CLONE_ERR - Description: check if postMessage() with WorkerNavigator raises DATA_CLONE_ERR">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: check if postMessage() with WorkerNavigator raises DATA_CLONE_ERR - Description: check if postMessage() with WorkerNavigator raises DATA_CLONE_ERR]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/w3c/postMessage_DataCloneErr.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-23-SharedWorkerShared_simultaneously" name="23-SharedWorkerShared_simultaneously" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: check if Access simultaneously-loaded instance of shared worker. - Description: check if Access simultaneously-loaded instance of shared worker.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: check if Access simultaneously-loaded instance of shared worker. - Description: check if Access simultaneously-loaded instance of shared worker.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/SharedWorkerShared_simultaneously.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-24-MessagePort_onmessage_start" name="24-MessagePort_onmessage_start" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: check if MessageChannel port.onmessage enables message queue - Description: check if MessageChannel port.onmessage enables message queue">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: check if MessageChannel port.onmessage enables message queue - Description: check if MessageChannel port.onmessage enables message queue]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/w3c/MessagePort_onmessage_start.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-25-SharedWorkerException" name="25-SharedWorkerException" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: check if shared worker exception Tests - Description: check if shared worker exception Tests">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: check if shared worker exception Tests - Description: check if shared worker exception Tests]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/SharedWorkerException.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-27-WorkerLocation" name="27-WorkerLocation" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: check if WorkerLocation object - Description: check if WorkerLocation object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: check if WorkerLocation object - Description: check if WorkerLocation object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/w3c/WorkerLocation.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-28-SharedWorkerScriptError" name="28-SharedWorkerScriptError" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: check if shared worker script error Tests - Description: check if shared worker script error Tests">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: check if shared worker script error Tests - Description: check if shared worker script error Tests]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/SharedWorkerScriptError.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-29-WorkerGlobalScope_EventTarget" name="29-WorkerGlobalScope_EventTarget" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: check if WorkerGlobalScope implements EventTarget - Description: check if WorkerGlobalScope implements EventTarget">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: check if WorkerGlobalScope implements EventTarget - Description: check if WorkerGlobalScope implements EventTarget]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/w3c/WorkerGlobalScope_EventTarget.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-2A-WorkerGlobalScope_importScripts_NetworkErr" name="2A-WorkerGlobalScope_importScripts_NetworkErr" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: check if importScripts() with non-existent script file raises NETWORK_ERR - Description: check if importScripts() with non-existent script file raises NETWORK_ERR">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: check if importScripts() with non-existent script file raises NETWORK_ERR - Description: check if importScripts() with non-existent script file raises NETWORK_ERR]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/w3c/WorkerGlobalScope_importScripts_NetworkErr.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-2B-SharedWorkerShared_loaded" name="2B-SharedWorkerShared_loaded" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: check if shared worker shared Tests - Description: check if shared worker shared Tests">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: check if shared worker shared Tests - Description: check if shared worker shared Tests]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/SharedWorkerShared_loaded.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-2C-MessagePort_initial_disabled" name="2C-MessagePort_initial_disabled" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: check if MessageChannel: port message queue is initially disabled - Description: check if MessageChannel: port message queue is initially disabled">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: check if MessageChannel: port message queue is initially disabled - Description: check if MessageChannel: port message queue is initially disabled]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/w3c/MessagePort_initial_disabled.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-2D-WorkerGlobalScope_removeEventListener" name="2D-WorkerGlobalScope_removeEventListener" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: check if WorkerGlobalScope API: removeEventListener() - Description: check if WorkerGlobalScope API: removeEventListener()">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: check if WorkerGlobalScope API: removeEventListener() - Description: check if WorkerGlobalScope API: removeEventListener()]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/w3c/WorkerGlobalScope_removeEventListener.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1R-2E-WorkerGlobalScope_addEventListener" name="2E-WorkerGlobalScope_addEventListener" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-workers-w3c-tests" status="designed" type="" purpose="Objective: check if WorkerGlobalScope API: addEventListener() - Description: check if WorkerGlobalScope API: addEventListener()">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: check if WorkerGlobalScope API: addEventListener() - Description: check if WorkerGlobalScope API: addEventListener()]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-workers-w3c-tests/workers/w3c/WorkerGlobalScope_addEventListener.htm</test_script_entry>
+                </description>
+            </testcase>
+        </set>
+    </suite>
+</test_definition>

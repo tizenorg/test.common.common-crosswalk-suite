@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<test_definition>
+    <suite launcher="xwalk" name="00-common/E0-crosswalk">
+        <set name="common/crosswalk/commonapi/tct-vibration-w3c-tests">
+            <testcase id="00-E0-00-1E-01-api-is-present" name="01-api-is-present" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-vibration-w3c-tests" status="designed" type="" purpose="Objective: Check that the vibrate() method is present - Description: Check that the vibrate() method is present">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check that the vibrate() method is present - Description: Check that the vibrate() method is present]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-vibration-w3c-tests/vibration/w3c/api-is-present.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1E-09-silent-ignore" name="09-silent-ignore" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-vibration-w3c-tests" status="designed" type="" purpose="Objective: If the device does not provide a vibration mechanism, or it is disabled, the user agent must silently ignore any invocations of the vibrate() method - Description: If the device does not provide a vibration mechanism, or it is disabled, the user agent must silently ignore any invocations of the vibrate() method">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: If the device does not provide a vibration mechanism, or it is disabled, the user agent must silently ignore any invocations of the vibrate() method - Description: If the device does not provide a vibration mechanism, or it is disabled, the user agent must silently ignore any invocations of the vibrate() method]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-vibration-w3c-tests/vibration/w3c/silent-ignore.html</test_script_entry>
+                </description>
+            </testcase>
+        </set>
+    </suite>
+</test_definition>

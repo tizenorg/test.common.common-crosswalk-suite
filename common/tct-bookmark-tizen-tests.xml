@@ -1,0 +1,331 @@
+<?xml version="1.0"?>
+<test_definition>
+    <suite launcher="xwalk" name="00-common/E0-crosswalk">
+        <set name="common/crosswalk/deviceapi/tct-bookmark-tizen-tests">
+            <testcase id="00-E0-01-04-01-BookmarkFolder_exist" name="01-BookmarkFolder_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-bookmark-tizen-tests" status="designed" type="" purpose="Objective: Check if BookmarkFolder exists - Description: Check if BookmarkFolder exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if BookmarkFolder exists - Description: Check if BookmarkFolder exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkFolder_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-04-02-BookmarkFolder_parent_attribute" name="02-BookmarkFolder_parent_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-bookmark-tizen-tests" status="designed" type="" purpose="Objective: Check if attribute parent of BookmarkFolder exists, has type BookmarkFolder and is readonly - Description: Check if attribute parent of BookmarkFolder exists, has type BookmarkFolder and is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute parent of BookmarkFolder exists, has type BookmarkFolder and is readonly - Description: Check if attribute parent of BookmarkFolder exists, has type BookmarkFolder and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkFolder_parent_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-04-03-BookmarkFolder_title_attribute" name="03-BookmarkFolder_title_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-bookmark-tizen-tests" status="designed" type="" purpose="Objective: Check if attribute title of BookmarkFolder exists, has type DOMString and is readonly - Description: Check if attribute title of BookmarkFolder exists, has type DOMString and is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute title of BookmarkFolder exists, has type DOMString and is readonly - Description: Check if attribute title of BookmarkFolder exists, has type DOMString and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkFolder_title_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-04-04-BookmarkItem_exist" name="04-BookmarkItem_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-bookmark-tizen-tests" status="designed" type="" purpose="Objective: Check if BookmarkItem exists - Description: Check if BookmarkItem exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if BookmarkItem exists - Description: Check if BookmarkItem exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkItem_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-04-05-BookmarkItem_parent_attribute" name="05-BookmarkItem_parent_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-bookmark-tizen-tests" status="designed" type="" purpose="Objective: Check if attribute parent of BookmarkItem exists, has type BookmarkFolder and is readonly - Description: Check if attribute parent of BookmarkItem exists, has type BookmarkFolder and is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute parent of BookmarkItem exists, has type BookmarkFolder and is readonly - Description: Check if attribute parent of BookmarkItem exists, has type BookmarkFolder and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkItem_parent_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-04-06-BookmarkItem_title_attribute" name="06-BookmarkItem_title_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-bookmark-tizen-tests" status="designed" type="" purpose="Objective: Check if attribute title of BookmarkItem exists, has type DOMString and is readonly - Description: Check if attribute title of BookmarkItem exists, has type DOMString and is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute title of BookmarkItem exists, has type DOMString and is readonly - Description: Check if attribute title of BookmarkItem exists, has type DOMString and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkItem_title_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-04-07-BookmarkItem_url_attribute" name="07-BookmarkItem_url_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-bookmark-tizen-tests" status="designed" type="" purpose="Objective: Check if attribute url of BookmarkItem exists, has type DOMString and is readonly - Description: Check if attribute url of BookmarkItem exists, has type DOMString and is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute url of BookmarkItem exists, has type DOMString and is readonly - Description: Check if attribute url of BookmarkItem exists, has type DOMString and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkItem_url_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-04-08-BookmarkManagerObject_notexist" name="08-BookmarkManagerObject_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-bookmark-tizen-tests" status="designed" type="" purpose="Objective: Check if interface BookmarkManagerObject exists, it should not - Description: Check if interface BookmarkManagerObject exists, it should not">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if interface BookmarkManagerObject exists, it should not - Description: Check if interface BookmarkManagerObject exists, it should not]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkManagerObject_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-04-09-BookmarkManager_add_exist" name="09-BookmarkManager_add_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-bookmark-tizen-tests" status="designed" type="" purpose="Objective: Check if method add of BookmarkManager exists - Description: Check if method add of BookmarkManager exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if method add of BookmarkManager exists - Description: Check if method add of BookmarkManager exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkManager_add_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-04-0A-BookmarkManager_get_exist" name="0A-BookmarkManager_get_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-bookmark-tizen-tests" status="designed" type="" purpose="Objective: Check if method get of BookmarkManager exists - Description: Check if method get of BookmarkManager exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if method get of BookmarkManager exists - Description: Check if method get of BookmarkManager exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkManager_get_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-04-0B-BookmarkManager_notexist" name="0B-BookmarkManager_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-bookmark-tizen-tests" status="designed" type="" purpose="Objective: Check if interface BookmarkManager exists, it should not - Description: Check if interface BookmarkManager exists, it should not">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if interface BookmarkManager exists, it should not - Description: Check if interface BookmarkManager exists, it should not]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkManager_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-04-0C-BookmarkManager_remove_exist" name="0C-BookmarkManager_remove_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-bookmark-tizen-tests" status="designed" type="" purpose="Objective: Check if method remove of BookmarkManager exists - Description: Check if method remove of BookmarkManager exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if method remove of BookmarkManager exists - Description: Check if method remove of BookmarkManager exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkManager_remove_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-04-0D-Tizen_bookmark_exist" name="0D-Tizen_bookmark_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-bookmark-tizen-tests" status="designed" type="" purpose="Objective: Check if Tizen implements interface BookmarkManagerObject and has attribute bookmark - Description: Check if Tizen implements interface BookmarkManagerObject and has attribute bookmark">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Tizen implements interface BookmarkManagerObject and has attribute bookmark - Description: Check if Tizen implements interface BookmarkManagerObject and has attribute bookmark]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/Tizen_bookmark_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-04-0E-BookmarkManager_get" name="0E-BookmarkManager_get" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-bookmark-tizen-tests" status="designed" type="" purpose="Objective: Check if BookmarkManager get method works properly - Description: Check if BookmarkManager get method works properly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if BookmarkManager get method works properly - Description: Check if BookmarkManager get method works properly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkManager_get.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-04-0F-BookmarkManager_add" name="0F-BookmarkManager_add" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-bookmark-tizen-tests" status="designed" type="" purpose="Objective: Check if BookmarkManager add method works properly - Description: Check if BookmarkManager add method works properly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if BookmarkManager add method works properly - Description: Check if BookmarkManager add method works properly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkManager_add.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-04-0G-BookmarkManager_remove" name="0G-BookmarkManager_remove" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-bookmark-tizen-tests" status="designed" type="" purpose="Objective: Check if BookmarkManager remove method works properly - Description: Check if BookmarkManager remove method works properly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if BookmarkManager remove method works properly - Description: Check if BookmarkManager remove method works properly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkManager_remove.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-04-0H-BookmarkManager_add_missarg" name="0H-BookmarkManager_add_missarg" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-bookmark-tizen-tests" status="designed" type="" purpose="Objective: Check if add method with missing non-optional argument works - Description: Check if add method with missing non-optional argument works">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if add method with missing non-optional argument works - Description: Check if add method with missing non-optional argument works]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkManager_add_missarg.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-04-0I-BookmarkManager_add_with_parentFolder" name="0I-BookmarkManager_add_with_parentFolder" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-bookmark-tizen-tests" status="designed" type="" purpose="Objective: Check if BookmarkManager add method with optional parentFolder attribute works properly - Description: Check if BookmarkManager add method with optional parentFolder attribute works properly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if BookmarkManager add method with optional parentFolder attribute works properly - Description: Check if BookmarkManager add method with optional parentFolder attribute works properly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkManager_add_with_parentFolder.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-04-0J-BookmarkManager_get_with_parentFolder" name="0J-BookmarkManager_get_with_parentFolder" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-bookmark-tizen-tests" status="designed" type="" purpose="Objective: Check if BookmarkManager get method with optional parentFolder argument works properly - Description: Check if BookmarkManager get method with optional parentFolder argument works properly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if BookmarkManager get method with optional parentFolder argument works properly - Description: Check if BookmarkManager get method with optional parentFolder argument works properly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkManager_get_with_parentFolder.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-04-0K-BookmarkManager_get_with_recursive" name="0K-BookmarkManager_get_with_recursive" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-bookmark-tizen-tests" status="designed" type="" purpose="Objective: Check if BookmarkManager get method with optional recursive argument works properly - Description: Check if BookmarkManager get method with optional recursive argument works properly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if BookmarkManager get method with optional recursive argument works properly - Description: Check if BookmarkManager get method with optional recursive argument works properly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkManager_get_with_recursive.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-04-0L-BookmarkManager_get_parentFolder_TypeMismatch" name="0L-BookmarkManager_get_parentFolder_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-bookmark-tizen-tests" status="designed" type="" purpose="Objective: Check argument parentFolder conversions exception - Description: Check argument parentFolder conversions exception">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check argument parentFolder conversions exception - Description: Check argument parentFolder conversions exception]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkManager_get_parentFolder_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-04-0M-BookmarkManager_get_parentFolder_invalid_obj" name="0M-BookmarkManager_get_parentFolder_invalid_obj" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-bookmark-tizen-tests" status="designed" type="" purpose="Objective: Check if the parameter parentFolder which is in get method is invalid - Description: Check if the parameter parentFolder which is in get method is invalid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the parameter parentFolder which is in get method is invalid - Description: Check if the parameter parentFolder which is in get method is invalid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkManager_get_parentFolder_invalid_obj.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-04-0N-BookmarkManager_add_bookmark_TypeMismatch" name="0N-BookmarkManager_add_bookmark_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-bookmark-tizen-tests" status="designed" type="" purpose="Objective: Check argument bookmark conversions exception in add method - Description: Check argument bookmark conversions exception in add method">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check argument bookmark conversions exception in add method - Description: Check argument bookmark conversions exception in add method]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkManager_add_bookmark_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-04-0O-BookmarkManager_add_parentFolder_TypeMismatch" name="0O-BookmarkManager_add_parentFolder_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-bookmark-tizen-tests" status="designed" type="" purpose="Objective: Check argument parentFolder conversions exception in add method - Description: Check argument parentFolder conversions exception in add method">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check argument parentFolder conversions exception in add method - Description: Check argument parentFolder conversions exception in add method]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkManager_add_parentFolder_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-04-0P-BookmarkManager_add_parentFolder_invalid_obj" name="0P-BookmarkManager_add_parentFolder_invalid_obj" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-bookmark-tizen-tests" status="designed" type="" purpose="Objective: Check if the parameter parentFolder which is in add method is invalid - Description: Check if the parameter parentFolder which is in add method is invalid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the parameter parentFolder which is in add method is invalid - Description: Check if the parameter parentFolder which is in add method is invalid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkManager_add_parentFolder_invalid_obj.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-04-0Q-BookmarkManager_remove_with_bookmark" name="0Q-BookmarkManager_remove_with_bookmark" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-bookmark-tizen-tests" status="designed" type="" purpose="Objective: Check if BookmarkManager remove method with optional bookmark attribute works properly - Description: Check if BookmarkManager remove method with optional bookmark attribute works properly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if BookmarkManager remove method with optional bookmark attribute works properly - Description: Check if BookmarkManager remove method with optional bookmark attribute works properly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkManager_remove_with_bookmark.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-04-0R-BookmarkManager_remove_bookmark_TypeMismatch" name="0R-BookmarkManager_remove_bookmark_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-bookmark-tizen-tests" status="designed" type="" purpose="Objective: Check argument bookmark conversions exception in remove method - Description: Check argument bookmark conversions exception in remove method">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check argument bookmark conversions exception in remove method - Description: Check argument bookmark conversions exception in remove method]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkManager_remove_bookmark_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-04-0S-BookmarkManager_in_tizen" name="0S-BookmarkManager_in_tizen" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-bookmark-tizen-tests" status="designed" type="" purpose="Objective: Check if bookmark exists in tizen - Description: Check if bookmark exists in tizen">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if bookmark exists in tizen - Description: Check if bookmark exists in tizen]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkManager_in_tizen.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-04-0T-BookmarkManager_extend" name="0T-BookmarkManager_extend" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-bookmark-tizen-tests" status="designed" type="" purpose="Objective: Test whether the BookmarkManager object can have new attribute added - Description: Test whether the BookmarkManager object can have new attribute added">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test whether the BookmarkManager object can have new attribute added - Description: Test whether the BookmarkManager object can have new attribute added]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkManager_extend.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-04-0U-BookmarkItem_constructor" name="0U-BookmarkItem_constructor" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-bookmark-tizen-tests" status="designed" type="" purpose="Objective: Check if the values of the attributes are equal to the arguments passed - Description: Check if the values of the attributes are equal to the arguments passed">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the values of the attributes are equal to the arguments passed - Description: Check if the values of the attributes are equal to the arguments passed]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkItem_constructor.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-04-0V-BookmarkFolder_constructor" name="0V-BookmarkFolder_constructor" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-bookmark-tizen-tests" status="designed" type="" purpose="Objective: Check if the values of the attributes are equal to the arguments passed for BookmarkFolder - Description: Check if the values of the attributes are equal to the arguments passed for BookmarkFolder">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the values of the attributes are equal to the arguments passed for BookmarkFolder - Description: Check if the values of the attributes are equal to the arguments passed for BookmarkFolder]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkFolder_constructor.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-04-0W-BookmarkItem_extend" name="0W-BookmarkItem_extend" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-bookmark-tizen-tests" status="designed" type="" purpose="Objective: Test whether the BookmarkItem object can have new attribute added - Description: Test whether the BookmarkItem object can have new attribute added">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test whether the BookmarkItem object can have new attribute added - Description: Test whether the BookmarkItem object can have new attribute added]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkItem_extend.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-04-0X-BookmarkFolder_extend" name="0X-BookmarkFolder_extend" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-bookmark-tizen-tests" status="designed" type="" purpose="Objective: Test whether the BookmarkFolder object can have new attribute added - Description: Test whether the BookmarkFolder object can have new attribute added">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test whether the BookmarkFolder object can have new attribute added - Description: Test whether the BookmarkFolder object can have new attribute added]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkFolder_extend.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-04-0Y-BookmarkManager_add_invalid" name="0Y-BookmarkManager_add_invalid" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-bookmark-tizen-tests" status="designed" type="" purpose="Objective: Check if BookmarkManager add method reports error given wrong bookmarks - Description: Check if BookmarkManager add method reports error given wrong bookmarks">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if BookmarkManager add method reports error given wrong bookmarks - Description: Check if BookmarkManager add method reports error given wrong bookmarks]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkManager_add_invalid.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-04-0Z-BookmarkManager_get_parentFolder_NotFound" name="0Z-BookmarkManager_get_parentFolder_NotFound" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-bookmark-tizen-tests" status="designed" type="" purpose="Objective: Check if BookmarkManager::get() method throws exception when called with non-existing folder - Description: Check if BookmarkManager::get() method throws exception when called with non-existing folder">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if BookmarkManager::get() method throws exception when called with non-existing folder - Description: Check if BookmarkManager::get() method throws exception when called with non-existing folder]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkManager_get_parentFolder_NotFound.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-04-10-BookmarkManager_remove_bookmarkFolder" name="10-BookmarkManager_remove_bookmarkFolder" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-bookmark-tizen-tests" status="designed" type="" purpose="Objective: Check if BookmarkManager::remove() method throws InvalidValuesError and NotFoundError - Description: Check if BookmarkManager::remove() method throws InvalidValuesError and NotFoundError">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if BookmarkManager::remove() method throws InvalidValuesError and NotFoundError - Description: Check if BookmarkManager::remove() method throws InvalidValuesError and NotFoundError]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkManager_remove_bookmarkFolder.html</test_script_entry>
+                </description>
+            </testcase>
+        </set>
+    </suite>
+</test_definition>

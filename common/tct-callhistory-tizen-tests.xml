@@ -1,0 +1,718 @@
+<?xml version="1.0"?>
+<test_definition>
+    <suite launcher="xwalk" name="00-common/E0-crosswalk">
+        <set name="common/crosswalk/deviceapi/tct-callhistory-tizen-tests">
+            <testcase id="00-E0-01-06-01-CallHistory_find_exist" name="01-CallHistory_find_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check if find method exists - Description: Check if find method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if find method exists - Description: Check if find method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_find_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-03-CallHistory_remove_exist" name="03-CallHistory_remove_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check if remove method exists - Description: Check if remove method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if remove method exists - Description: Check if remove method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_remove_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-05-CallHistory_removeBatch_exist" name="05-CallHistory_removeBatch_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check if removeBatch method exists - Description: Check if removeBatch method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if removeBatch method exists - Description: Check if removeBatch method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_removeBatch_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-07-CallHistory_removeAll_exist" name="07-CallHistory_removeAll_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check if removeAll method exists - Description: Check if removeAll method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if removeAll method exists - Description: Check if removeAll method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_removeAll_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-08-CallHistory_removeAll" name="08-CallHistory_removeAll" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check if removeAll called without arguments works - Description: Check if removeAll called without arguments works">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if removeAll called without arguments works - Description: Check if removeAll called without arguments works]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_removeAll.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-09-CallHistory_addChangeListener_exist" name="09-CallHistory_addChangeListener_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check if addChangeListener method exists - Description: Check if addChangeListener method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if addChangeListener method exists - Description: Check if addChangeListener method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_addChangeListener_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-0A-CallHistory_addChangeListener" name="0A-CallHistory_addChangeListener" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check if addChangeListener method works properly - Description: Check if addChangeListener method works properly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if addChangeListener method works properly - Description: Check if addChangeListener method works properly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_addChangeListener.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-0B-CallHistory_removeChangeListener_exist" name="0B-CallHistory_removeChangeListener_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check if removeChangeListener method exists - Description: Check if removeChangeListener method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if removeChangeListener method exists - Description: Check if removeChangeListener method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_removeChangeListener_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-0C-CallHistory_removeChangeListener" name="0C-CallHistory_removeChangeListener" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check if unregister a previously registered listener - Description: Check if unregister a previously registered listener">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if unregister a previously registered listener - Description: Check if unregister a previously registered listener]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_removeChangeListener.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-0D-CallHistory_find_limit_0" name="0D-CallHistory_find_limit_0" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check if no limit the query result - Description: Check if no limit the query result" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if no limit the query result - Description: Check if no limit the query result]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_find_limit_0.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-0P-CallHistory_find_nullableArgs_null" name="0P-CallHistory_find_nullableArgs_null" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check if callhistory.find performs successCallback when all optional arguments are null - Description: Check if callhistory.find performs successCallback when all optional arguments are null" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if callhistory.find performs successCallback when all optional arguments are null - Description: Check if callhistory.find performs successCallback when all optional arguments are null]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_find_nullableArgs_null.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-0Q-CallHistory_addChangeListener_observer_onadded_null" name="0Q-CallHistory_addChangeListener_observer_onadded_null" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check whether addChangeListener() registers listener with null onadded argument - Description: Check whether addChangeListener() registers listener with null onadded argument" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check whether addChangeListener() registers listener with null onadded argument - Description: Check whether addChangeListener() registers listener with null onadded argument]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_addChangeListener_observer_onadded_null.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-0R-CallHistory_addChangeListener_observer_onadded_undefined" name="0R-CallHistory_addChangeListener_observer_onadded_undefined" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check whether addChangeListener() registers listener with undefined onadded argument - Description: Check whether addChangeListener() registers listener with undefined onadded argument" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check whether addChangeListener() registers listener with undefined onadded argument - Description: Check whether addChangeListener() registers listener with undefined onadded argument]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_addChangeListener_observer_onadded_undefined.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-0S-CallHistory_addChangeListener_observer_onchanged_null" name="0S-CallHistory_addChangeListener_observer_onchanged_null" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check whether addChangeListener() registers listener with null onchanged argument - Description: Check whether addChangeListener() registers listener with null onchanged argument" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check whether addChangeListener() registers listener with null onchanged argument - Description: Check whether addChangeListener() registers listener with null onchanged argument]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_addChangeListener_observer_onchanged_null.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-0T-CallHistory_addChangeListener_observer_onchanged_undefined" name="0T-CallHistory_addChangeListener_observer_onchanged_undefined" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check whether addChangeListener() registers listener with undefined onchanged argument - Description: Check whether addChangeListener() registers listener with undefined onchanged argument" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check whether addChangeListener() registers listener with undefined onchanged argument - Description: Check whether addChangeListener() registers listener with undefined onchanged argument]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_addChangeListener_observer_onchanged_undefined.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-0U-CallHistory_find_errorCallback_null" name="0U-CallHistory_find_errorCallback_null" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check whether find() method called with null errorCallback lists CallHistory items - Description: Check whether find() method called with null errorCallback lists CallHistory items" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check whether find() method called with null errorCallback lists CallHistory items - Description: Check whether find() method called with null errorCallback lists CallHistory items]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_find_errorCallback_null.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-0V-CallHistory_find_filter_null" name="0V-CallHistory_find_filter_null" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check whether find() method called with null filter lists CallHistory items - Description: Check whether find() method called with null filter lists CallHistory items" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check whether find() method called with null filter lists CallHistory items - Description: Check whether find() method called with null filter lists CallHistory items]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_find_filter_null.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-0W-CallHistory_find_sortMode_null" name="0W-CallHistory_find_sortMode_null" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check whether find() method called with null filter and sortMode lists CallHistory items - Description: Check whether find() method called with null filter and sortMode lists CallHistory items" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check whether find() method called with null filter and sortMode lists CallHistory items - Description: Check whether find() method called with null filter and sortMode lists CallHistory items]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_find_sortMode_null.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-0X-CallHistory_find_limit_null" name="0X-CallHistory_find_limit_null" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check whether find() method called with null filter, sortMode and limit lists CallHistory items - Description: Check whether find() method called with null filter, sortMode and limit lists CallHistory items" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check whether find() method called with null filter, sortMode and limit lists CallHistory items - Description: Check whether find() method called with null filter, sortMode and limit lists CallHistory items]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_find_limit_null.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-0Y-CallHistory_find_offset_null" name="0Y-CallHistory_find_offset_null" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check whether find() method called with null filter, sortMode, limit and offset lists CallHistory items - Description: Check whether find() method called with null filter, sortMode, limit and offset lists CallHistory items" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check whether find() method called with null filter, sortMode, limit and offset lists CallHistory items - Description: Check whether find() method called with null filter, sortMode, limit and offset lists CallHistory items]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_find_offset_null.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-11-CallHistory_find_missarg" name="11-CallHistory_find_missarg" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check if method called with missing non-optional argument throws an exception - Description: Check if method called with missing non-optional argument throws an exception">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if method called with missing non-optional argument throws an exception - Description: Check if method called with missing non-optional argument throws an exception]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_find_missarg.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-12-CallHistory_find_with_errorCallback" name="12-CallHistory_find_with_errorCallback" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check if find called with optional errorCallback works as expected - Description: Check if find called with optional errorCallback works as expected" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if find called with optional errorCallback works as expected - Description: Check if find called with optional errorCallback works as expected]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_find_with_errorCallback.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-13-CallHistory_find_with_filter" name="13-CallHistory_find_with_filter" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check if find called with optional filter works as expected - Description: Check if find called with optional filter works as expected" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if find called with optional filter works as expected - Description: Check if find called with optional filter works as expected]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_find_with_filter.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-14-CallHistory_find_with_sortMode" name="14-CallHistory_find_with_sortMode" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check if find called with optional sortMode works as expected - Description: Check if find called with optional sortMode works as expected" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if find called with optional sortMode works as expected - Description: Check if find called with optional sortMode works as expected]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_find_with_sortMode.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-15-CallHistory_find_with_limit" name="15-CallHistory_find_with_limit" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check if find called with optional limit works as expected - Description: Check if find called with optional limit works as expected" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if find called with optional limit works as expected - Description: Check if find called with optional limit works as expected]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_find_with_limit.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-16-CallHistory_find_with_offset" name="16-CallHistory_find_with_offset" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check if find called with optional offset works as expected - Description: Check if find called with optional offset works as expected" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if find called with optional offset works as expected - Description: Check if find called with optional offset works as expected]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_find_with_offset.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-17-CallHistory_find_errorCallback_invalid_cb" name="17-CallHistory_find_errorCallback_invalid_cb" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check if find throws exception when error callback is incorrect - Description: Check if find throws exception when error callback is incorrect" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if find throws exception when error callback is incorrect - Description: Check if find throws exception when error callback is incorrect]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_find_errorCallback_invalid_cb.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-18-CallHistory_find_errorCallback_TypeMismatch" name="18-CallHistory_find_errorCallback_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check if find throws exception when errorCallback is incorrect - Description: Check if find throws exception when errorCallback is incorrect" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if find throws exception when errorCallback is incorrect - Description: Check if find throws exception when errorCallback is incorrect]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_find_errorCallback_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-19-CallHistory_find_successCallback_TypeMismatch" name="19-CallHistory_find_successCallback_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check if find throws exception when successCallback is incorrect - Description: Check if find throws exception when successCallback is incorrect" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if find throws exception when successCallback is incorrect - Description: Check if find throws exception when successCallback is incorrect]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_find_successCallback_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-1A-CallHistory_find_successCallback_invalid_cb" name="1A-CallHistory_find_successCallback_invalid_cb" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check if find throws exception when success callback is incorrect - Description: Check if find throws exception when success callback is incorrect">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if find throws exception when success callback is incorrect - Description: Check if find throws exception when success callback is incorrect]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_find_successCallback_invalid_cb.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-1B-CallHistory_find_filter_TypeMismatch" name="1B-CallHistory_find_filter_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check if find throws exception when filter is incorrect - Description: Check if find throws exception when filter is incorrect" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if find throws exception when filter is incorrect - Description: Check if find throws exception when filter is incorrect]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_find_filter_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-1C-CallHistory_find_sortMode_TypeMismatch" name="1C-CallHistory_find_sortMode_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check if find throws exception when sortMode is incorrect - Description: Check if find throws exception when sortMode is incorrect" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if find throws exception when sortMode is incorrect - Description: Check if find throws exception when sortMode is incorrect]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_find_sortMode_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-1D-CallHistory_find_filter_invalid_obj" name="1D-CallHistory_find_filter_invalid_obj" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check if find throws exception when filter is a simple object - Description: Check if find throws exception when filter is a simple object" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if find throws exception when filter is a simple object - Description: Check if find throws exception when filter is a simple object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_find_filter_invalid_obj.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-1E-CallHistory_find_sortMode_invalid_obj" name="1E-CallHistory_find_sortMode_invalid_obj" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check if find throws exception when sortMode is a simple object - Description: Check if find throws exception when sortMode is a simple object" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if find throws exception when sortMode is a simple object - Description: Check if find throws exception when sortMode is a simple object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_find_sortMode_invalid_obj.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-1F-CallHistory_remove_missarg" name="1F-CallHistory_remove_missarg" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check if remove called with missing non-optional argument throws an exception - Description: Check if remove called with missing non-optional argument throws an exception">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if remove called with missing non-optional argument throws an exception - Description: Check if remove called with missing non-optional argument throws an exception]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_remove_missarg.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-1G-CallHistory_remove_entry_TypeMismatch" name="1G-CallHistory_remove_entry_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check if remove throws exception when entry is incorrect - Description: Check if remove throws exception when entry is incorrect">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if remove throws exception when entry is incorrect - Description: Check if remove throws exception when entry is incorrect]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_remove_entry_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-1H-CallHistory_removeBatch_missarg" name="1H-CallHistory_removeBatch_missarg" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check if removeBatch called with missing non-optional argument throws an exception - Description: Check if removeBatch called with missing non-optional argument throws an exception">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if removeBatch called with missing non-optional argument throws an exception - Description: Check if removeBatch called with missing non-optional argument throws an exception]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_removeBatch_missarg.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-1I-CallHistory_notexist" name="1I-CallHistory_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check if CallHistory cannot be called in new expression and as a function or in new expression - Description: Check if CallHistory cannot be called in new expression and as a function or in new expression">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if CallHistory cannot be called in new expression and as a function or in new expression - Description: Check if CallHistory cannot be called in new expression and as a function or in new expression]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-1J-CallHistory_extend" name="1J-CallHistory_extend" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check if callhistory object can have new properties added - Description: Check if callhistory object can have new properties added">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if callhistory object can have new properties added - Description: Check if callhistory object can have new properties added]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_extend.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-1M-CallHistory_removeBatch_entries_TypeMismatch" name="1M-CallHistory_removeBatch_entries_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check if removeBatch throws exception when entries is incorrect - Description: Check if removeBatch throws exception when entries is incorrect">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if removeBatch throws exception when entries is incorrect - Description: Check if removeBatch throws exception when entries is incorrect]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_removeBatch_entries_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-1N-CallHistory_removeBatch_successCallback_invalid_cb" name="1N-CallHistory_removeBatch_successCallback_invalid_cb" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check if removeBatch throws exception when success callback is incorrect - Description: Check if removeBatch throws exception when success callback is incorrect">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if removeBatch throws exception when success callback is incorrect - Description: Check if removeBatch throws exception when success callback is incorrect]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_removeBatch_successCallback_invalid_cb.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-1O-CallHistory_removeBatch_errorCallback_invalid_cb" name="1O-CallHistory_removeBatch_errorCallback_invalid_cb" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check if removeBatch throws exception when error callback is incorrect - Description: Check if removeBatch throws exception when error callback is incorrect">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if removeBatch throws exception when error callback is incorrect - Description: Check if removeBatch throws exception when error callback is incorrect]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_removeBatch_errorCallback_invalid_cb.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-1P-CallHistory_removeBatch_successCallback_TypeMismatch" name="1P-CallHistory_removeBatch_successCallback_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check if removeBatch throws exception when successCallback is invalid - Description: Check if removeBatch throws exception when successCallback is invalid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if removeBatch throws exception when successCallback is invalid - Description: Check if removeBatch throws exception when successCallback is invalid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_removeBatch_successCallback_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-1Q-CallHistory_removeBatch_errorCallback_TypeMismatch" name="1Q-CallHistory_removeBatch_errorCallback_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check if removeBatch throws exception when errorCallback is invalid - Description: Check if removeBatch throws exception when errorCallback is invalid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if removeBatch throws exception when errorCallback is invalid - Description: Check if removeBatch throws exception when errorCallback is invalid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_removeBatch_errorCallback_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-1S-CallHistory_removeAll_with_errorCallback" name="1S-CallHistory_removeAll_with_errorCallback" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check if removeAll called with optional errorCallback works as expected - Description: Check if removeAll called with optional errorCallback works as expected" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if removeAll called with optional errorCallback works as expected - Description: Check if removeAll called with optional errorCallback works as expected]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_removeAll_with_errorCallback.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-1T-CallHistory_removeAll_successCallback_TypeMismatch" name="1T-CallHistory_removeAll_successCallback_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check if removeAll throws exception when successCallback is incorrect - Description: Check if removeAll throws exception when successCallback is incorrect">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if removeAll throws exception when successCallback is incorrect - Description: Check if removeAll throws exception when successCallback is incorrect]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_removeAll_successCallback_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-1U-CallHistory_removeAll_errorCallback_TypeMismatch" name="1U-CallHistory_removeAll_errorCallback_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check if removeAll throws exception when errorCallback is incorrect - Description: Check if removeAll throws exception when errorCallback is incorrect">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if removeAll throws exception when errorCallback is incorrect - Description: Check if removeAll throws exception when errorCallback is incorrect]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_removeAll_errorCallback_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-1V-CallHistory_removeAll_successCallback_invalid_cb" name="1V-CallHistory_removeAll_successCallback_invalid_cb" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check if removeAll throws exception when successCallback is invalid - Description: Check if removeAll throws exception when successCallback is invalid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if removeAll throws exception when successCallback is invalid - Description: Check if removeAll throws exception when successCallback is invalid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_removeAll_successCallback_invalid_cb.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-1W-CallHistory_removeAll_errorCallback_invalid_cb" name="1W-CallHistory_removeAll_errorCallback_invalid_cb" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check if removeAll throws exception when errorCallback is invalid - Description: Check if removeAll throws exception when errorCallback is invalid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if removeAll throws exception when errorCallback is invalid - Description: Check if removeAll throws exception when errorCallback is invalid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_removeAll_errorCallback_invalid_cb.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-1X-CallHistoryChangeCallback_notexist" name="1X-CallHistoryChangeCallback_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check if CallHistoryChangeCallback cannot be called in new expression and as a function - Description: Check if CallHistoryChangeCallback cannot be called in new expression and as a function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if CallHistoryChangeCallback cannot be called in new expression and as a function - Description: Check if CallHistoryChangeCallback cannot be called in new expression and as a function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistoryChangeCallback_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-22-CallHistoryEntry_notexist" name="22-CallHistoryEntry_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check if CallHistoryEntry cannot be called in new expression and as a function or in new expression - Description: Check if CallHistoryEntry cannot be called in new expression and as a function or in new expression">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if CallHistoryEntry cannot be called in new expression and as a function or in new expression - Description: Check if CallHistoryEntry cannot be called in new expression and as a function or in new expression]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistoryEntry_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-23-RemoteParty_notexist" name="23-RemoteParty_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check if RemoteParty cannot be called in new expression and as a function or in new expression - Description: Check if RemoteParty cannot be called in new expression and as a function or in new expression">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if RemoteParty cannot be called in new expression and as a function or in new expression - Description: Check if RemoteParty cannot be called in new expression and as a function or in new expression]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/RemoteParty_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-24-CallHistory_in_tizen" name="24-CallHistory_in_tizen" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check if CallHistory exists and implements methods - Description: Check if CallHistory exists and implements methods">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if CallHistory exists and implements methods - Description: Check if CallHistory exists and implements methods]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_in_tizen.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-25-CallHistoryEntryArraySuccessCallback_notexist" name="25-CallHistoryEntryArraySuccessCallback_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check if CallHistoryEntryArraySuccessCallback cannot be called in new expression and as a function - Description: Check if CallHistoryEntryArraySuccessCallback cannot be called in new expression and as a function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if CallHistoryEntryArraySuccessCallback cannot be called in new expression and as a function - Description: Check if CallHistoryEntryArraySuccessCallback cannot be called in new expression and as a function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistoryEntryArraySuccessCallback_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-26-CallHistory_addChangeListener_missarg" name="26-CallHistory_addChangeListener_missarg" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check if addChangeListener called with missing non-optional argument throws an exception - Description: Check if addChangeListener called with missing non-optional argument throws an exception">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if addChangeListener called with missing non-optional argument throws an exception - Description: Check if addChangeListener called with missing non-optional argument throws an exception]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_addChangeListener_missarg.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-27-CallHistory_addChangeListener_observer_TypeMismatch" name="27-CallHistory_addChangeListener_observer_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check if addChangeListener throws exception when observer is incorrect - Description: Check if addChangeListener throws exception when observer is incorrect">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if addChangeListener throws exception when observer is incorrect - Description: Check if addChangeListener throws exception when observer is incorrect]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_addChangeListener_observer_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-28-CallHistory_addChangeListener_observer_invalid_cb" name="28-CallHistory_addChangeListener_observer_invalid_cb" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check if addChangeListener throws exception when observer is invalid - Description: Check if addChangeListener throws exception when observer is invalid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if addChangeListener throws exception when observer is invalid - Description: Check if addChangeListener throws exception when observer is invalid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_addChangeListener_observer_invalid_cb.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-29-CallHistory_find_errorCallback_undefined" name="29-CallHistory_find_errorCallback_undefined" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check whether find() method called with undefined errorCallback lists CallHistory items - Description: Check whether find() method called with undefined errorCallback lists CallHistory items" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check whether find() method called with undefined errorCallback lists CallHistory items - Description: Check whether find() method called with undefined errorCallback lists CallHistory items]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_find_errorCallback_undefined.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-2C-CallHistory_find_sortMode_undefined" name="2C-CallHistory_find_sortMode_undefined" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check whether find() method called with null filter and undefined sortMode lists CallHistory items - Description: Check whether find() method called with null filter and undefined sortMode lists CallHistory items" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check whether find() method called with null filter and undefined sortMode lists CallHistory items - Description: Check whether find() method called with null filter and undefined sortMode lists CallHistory items]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_find_sortMode_undefined.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-2D-CallHistory_find_filter_undefined" name="2D-CallHistory_find_filter_undefined" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check whether find() method called with undefined filter lists CallHistory items - Description: Check whether find() method called with undefined filter lists CallHistory items" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check whether find() method called with undefined filter lists CallHistory items - Description: Check whether find() method called with undefined filter lists CallHistory items]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_find_filter_undefined.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-2F-CallHistory_find_without_errorCallback" name="2F-CallHistory_find_without_errorCallback" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check if find() method calls successCallback function properly - Description: Check if find() method calls successCallback function properly" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if find() method calls successCallback function properly - Description: Check if find() method calls successCallback function properly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_find_without_errorCallback.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-2G-CallHistory_find_filter" name="2G-CallHistory_find_filter" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check if CallHistory items matching the supplied filter are found properly - Description: Check if CallHistory items matching the supplied filter are found properly" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if CallHistory items matching the supplied filter are found properly - Description: Check if CallHistory items matching the supplied filter are found properly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_find_filter.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-2H-CallHistory_find_sortMode" name="2H-CallHistory_find_sortMode" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check whether find() method called with successCallback, errorCallback, filter and sortMode lists CallHistory items - Description: Check whether find() method called with successCallback, errorCallback, filter and sortMode lists CallHistory items" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check whether find() method called with successCallback, errorCallback, filter and sortMode lists CallHistory items - Description: Check whether find() method called with successCallback, errorCallback, filter and sortMode lists CallHistory items]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_find_sortMode.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-2I-CallHistory_find_limit" name="2I-CallHistory_find_limit" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check whether find() method called with successCallback, errorCallback, filter, sortMode and limit lists CallHistory items - Description: Check whether find() method called with successCallback, errorCallback, filter, sortMode and limit lists CallHistory items" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check whether find() method called with successCallback, errorCallback, filter, sortMode and limit lists CallHistory items - Description: Check whether find() method called with successCallback, errorCallback, filter, sortMode and limit lists CallHistory items]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_find_limit.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-2J-CallHistory_find_offset" name="2J-CallHistory_find_offset" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check whether find() method called with successCallback, errorCallback, filter, sortMode limit and offset lists CallHistory items - Description: Check whether find() method called with successCallback, errorCallback, filter, sortMode limit and offset lists CallHistory items" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check whether find() method called with successCallback, errorCallback, filter, sortMode limit and offset lists CallHistory items - Description: Check whether find() method called with successCallback, errorCallback, filter, sortMode limit and offset lists CallHistory items]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_find_offset.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-2K-CallHistory_find_offset_0" name="2K-CallHistory_find_offset_0" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check if find() method calls successCallback function properly for offset equal 0 - Description: Check if find() method calls successCallback function properly for offset equal 0" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if find() method calls successCallback function properly for offset equal 0 - Description: Check if find() method calls successCallback function properly for offset equal 0]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_find_offset_0.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-2L-CallHistory_find_errorCallback_null_filter" name="2L-CallHistory_find_errorCallback_null_filter" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check whether find() method called with null errorCallback and specified filter lists CallHistory items - Description: Check whether find() method called with null errorCallback and specified filter lists CallHistory items" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check whether find() method called with null errorCallback and specified filter lists CallHistory items - Description: Check whether find() method called with null errorCallback and specified filter lists CallHistory items]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_find_errorCallback_null_filter.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-2M-CallHistory_find_filter_null_sortMode" name="2M-CallHistory_find_filter_null_sortMode" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check whether find() method called with null filter and specified sortMode lists CallHistory items - Description: Check whether find() method called with null filter and specified sortMode lists CallHistory items" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check whether find() method called with null filter and specified sortMode lists CallHistory items - Description: Check whether find() method called with null filter and specified sortMode lists CallHistory items]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_find_filter_null_sortMode.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-2N-CallHistory_find_filter_sortMode_null" name="2N-CallHistory_find_filter_sortMode_null" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check whether find() method called with null filter, null sortMode and specified limit lists CallHistory items - Description: Check whether find() method called with null filter, null sortMode and specified limit lists CallHistory items" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check whether find() method called with null filter, null sortMode and specified limit lists CallHistory items - Description: Check whether find() method called with null filter, null sortMode and specified limit lists CallHistory items]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_find_filter_sortMode_null.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-2O-CallHistory_find_filter_compositeFilters" name="2O-CallHistory_find_filter_compositeFilters" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check whether find() method lists CallHistory items for various composite filters - Description: Check whether find() method lists CallHistory items for various composite filters" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check whether find() method lists CallHistory items for various composite filters - Description: Check whether find() method lists CallHistory items for various composite filters]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_find_filter_compositeFilters.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-2P-CallHistory_find_filter_rangeFilters" name="2P-CallHistory_find_filter_rangeFilters" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check whether find() method lists CallHistory items for various range filters - Description: Check whether find() method lists CallHistory items for various range filters" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check whether find() method lists CallHistory items for various range filters - Description: Check whether find() method lists CallHistory items for various range filters]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_find_filter_rangeFilters.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-2Q-CallHistory_find_filter_sortMode_limit_null_offset" name="2Q-CallHistory_find_filter_sortMode_limit_null_offset" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check whether find() method called with null filter, sortMode, limit and specified offset lists CallHistory items - Description: Check whether find() method called with null filter, sortMode, limit and specified offset lists CallHistory items" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check whether find() method called with null filter, sortMode, limit and specified offset lists CallHistory items - Description: Check whether find() method called with null filter, sortMode, limit and specified offset lists CallHistory items]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_find_filter_sortMode_limit_null_offset.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-2R-CallHistory_find_filter_various" name="2R-CallHistory_find_filter_various" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check whether find() method lists CallHistory items for various filters - Description: Check whether find() method lists CallHistory items for various filters" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check whether find() method lists CallHistory items for various filters - Description: Check whether find() method lists CallHistory items for various filters]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_find_filter_various.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-2S-CallHistory_find_limit_1" name="2S-CallHistory_find_limit_1" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check whether find() method called with additional arguments lists CallHistory items - Description: Check whether find() method called with additional arguments lists CallHistory items" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check whether find() method called with additional arguments lists CallHistory items - Description: Check whether find() method called with additional arguments lists CallHistory items]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_find_limit_1.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-2T-CallHistory_addChangeListener_onadded" name="2T-CallHistory_addChangeListener_onadded" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check whether addChangeListener() registers listener with onadded argument - Description: Check whether addChangeListener() registers listener with onadded argument">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check whether addChangeListener() registers listener with onadded argument - Description: Check whether addChangeListener() registers listener with onadded argument]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_addChangeListener_onadded.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-2U-CallHistory_addChangeListener_onchanged" name="2U-CallHistory_addChangeListener_onchanged" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check whether addChangeListener() registers listener with onchanged argument - Description: Check whether addChangeListener() registers listener with onchanged argument">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check whether addChangeListener() registers listener with onchanged argument - Description: Check whether addChangeListener() registers listener with onchanged argument]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_addChangeListener_onchanged.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-2V-CallHistory_addChangeListener_observer_onadded_invalid" name="2V-CallHistory_addChangeListener_observer_onadded_invalid" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check whether invoking 'addChangeListener' method with incorect onadded argument throws exception properly - Description: Check whether invoking 'addChangeListener' method with incorect onadded argument throws exception properly" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check whether invoking 'addChangeListener' method with incorect onadded argument throws exception properly - Description: Check whether invoking 'addChangeListener' method with incorect onadded argument throws exception properly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_addChangeListener_observer_onadded_invalid.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-2W-CallHistory_addChangeListener_observer_onchanged_invalid" name="2W-CallHistory_addChangeListener_observer_onchanged_invalid" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check whether invoking 'addChangeListener' method with incorect onchanged argument throws exception properly - Description: Check whether invoking 'addChangeListener' method with incorect onchanged argument throws exception properly" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check whether invoking 'addChangeListener' method with incorect onchanged argument throws exception properly - Description: Check whether invoking 'addChangeListener' method with incorect onchanged argument throws exception properly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistory_addChangeListener_observer_onchanged_invalid.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-06-2X-CallHistoryObject_notexist" name="2X-CallHistoryObject_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-callhistory-tizen-tests" status="designed" type="" purpose="Objective: Check if CallHistoryObject not exist - Description: Check if CallHistoryObject not exist">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if CallHistoryObject not exist - Description: Check if CallHistoryObject not exist]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-callhistory-tizen-tests/callhistory/CallHistoryObject_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+        </set>
+    </suite>
+</test_definition>

@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<test_definition>
+    <suite launcher="xwalk" name="00-common/E0-crosswalk">
+        <set name="common/crosswalk/commonapi/tct-dnd-html5-tests">
+            <testcase id="00-E0-00-0F-01-dragdrop_dropzone" name="01-dragdrop_dropzone" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-dnd-html5-tests" status="designed" type="" purpose="Objective: Check if the dropzone attribute exists - Description: Check if the dropzone attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the dropzone attribute exists - Description: Check if the dropzone attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-dnd-html5-tests/dnd/dragdrop_dropzone.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0F-02-dragdrop_007" name="02-dragdrop_007" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-dnd-html5-tests" status="designed" type="" purpose="Objective: Check false state of draggable attribute - Description: Check false state of draggable attribute">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check false state of draggable attribute - Description: Check false state of draggable attribute]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-dnd-html5-tests/dnd/w3c/dragdrop_007.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0F-03-dragdrop_008" name="03-dragdrop_008" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-dnd-html5-tests" status="designed" type="" purpose="Objective: Check true state of draggable attribute - Description: Check true state of draggable attribute">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check true state of draggable attribute - Description: Check true state of draggable attribute]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-dnd-html5-tests/dnd/w3c/dragdrop_008.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0F-04-dragdrop_004" name="04-dragdrop_004" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-dnd-html5-tests" status="designed" type="" purpose="Objective: Check auto state of draggable attribute for 'a' element - Description: Check auto state of draggable attribute for 'a' element">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check auto state of draggable attribute for 'a' element - Description: Check auto state of draggable attribute for 'a' element]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-dnd-html5-tests/dnd/w3c/dragdrop_004.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0F-05-dragdrop_005" name="05-dragdrop_005" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-dnd-html5-tests" status="designed" type="" purpose="Objective: Check auto state of draggable attribute for div element - Description: Check auto state of draggable attribute for div element">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check auto state of draggable attribute for div element - Description: Check auto state of draggable attribute for div element]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-dnd-html5-tests/dnd/w3c/dragdrop_005.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0F-06-dragdrop_006" name="06-dragdrop_006" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-dnd-html5-tests" status="designed" type="" purpose="Objective: Check auto state of draggable attribute for img element - Description: Check auto state of draggable attribute for img element">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check auto state of draggable attribute for img element - Description: Check auto state of draggable attribute for img element]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-dnd-html5-tests/dnd/w3c/dragdrop_006.htm</test_script_entry>
+                </description>
+            </testcase>
+        </set>
+    </suite>
+</test_definition>
