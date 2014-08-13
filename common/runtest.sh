@@ -27,7 +27,7 @@ resfile=$resdir/testkit.result.xml
 
 
 function get_widgetid () {
-    sqlite3 $widgetsdb "select x_slp_appid from app_info where name=\"$1\"" | awk -F. '{ print $2}'
+    sqlite3 $widgetsdb "select x_slp_appid from app_info where name=\"$1\""
 }
 
 function launch_testkit_stub () {
