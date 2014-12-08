@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<test_definition>
+    <suite launcher="xwalk" name="00-common/E0-crosswalk">
+        <set name="common/crosswalk/commonapi/tct-batterystatus-w3c-tests">
+            <testcase id="00-E0-00-07-01-Navigator_getBattery" name="01-Navigator_getBattery" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-batterystatus-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the Navigator.getBattery exists and return BatteryManager object - Description: Check if the Navigator.getBattery exists and return BatteryManager object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the Navigator.getBattery exists and return BatteryManager object - Description: Check if the Navigator.getBattery exists and return BatteryManager object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-batterystatus-w3c-tests/batterystatus/Navigator_getBattery.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-07-02-BatteryManager_charging" name="02-BatteryManager_charging" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-batterystatus-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the BatteryManager.charging attribute exists, readonly and typeof boolean - Description: Check if the BatteryManager.charging attribute exists, readonly and typeof boolean">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the BatteryManager.charging attribute exists, readonly and typeof boolean - Description: Check if the BatteryManager.charging attribute exists, readonly and typeof boolean]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-batterystatus-w3c-tests/batterystatus/BatteryManager_charging.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-07-03-BatteryManager_chargingTime" name="03-BatteryManager_chargingTime" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-batterystatus-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the BatteryManager.chargingTime attribute exists, readonly and typeof number - Description: Check if the BatteryManager.chargingTime attribute exists, readonly and typeof number">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the BatteryManager.chargingTime attribute exists, readonly and typeof number - Description: Check if the BatteryManager.chargingTime attribute exists, readonly and typeof number]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-batterystatus-w3c-tests/batterystatus/BatteryManager_chargingTime.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-07-04-BatteryManager_dischargingTime" name="04-BatteryManager_dischargingTime" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-batterystatus-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the BatteryManager.dischargingTime attribute exists, readonly and typeof number - Description: Check if the BatteryManager.dischargingTime attribute exists, readonly and typeof number">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the BatteryManager.dischargingTime attribute exists, readonly and typeof number - Description: Check if the BatteryManager.dischargingTime attribute exists, readonly and typeof number]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-batterystatus-w3c-tests/batterystatus/BatteryManager_dischargingTime.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-07-05-BatteryManager_level" name="05-BatteryManager_level" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-batterystatus-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the BatteryManager.level attribute exists, readonly and typeof number - Description: Check if the BatteryManager.level attribute exists, readonly and typeof number">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the BatteryManager.level attribute exists, readonly and typeof number - Description: Check if the BatteryManager.level attribute exists, readonly and typeof number]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-batterystatus-w3c-tests/batterystatus/BatteryManager_level.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-07-06-BatteryManager_onchargingchange" name="06-BatteryManager_onchargingchange" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-batterystatus-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the BatteryManager.onchargingchange attribute exists and typeof object - Description: Check if the BatteryManager.onchargingchange attribute exists and typeof object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the BatteryManager.onchargingchange attribute exists and typeof object - Description: Check if the BatteryManager.onchargingchange attribute exists and typeof object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-batterystatus-w3c-tests/batterystatus/BatteryManager_onchargingchange.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-07-07-BatteryManager_onchargingtimechange" name="07-BatteryManager_onchargingtimechange" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-batterystatus-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the BatteryManager.onchargingtimechange attribute exists and typeof object - Description: Check if the BatteryManager.onchargingtimechange attribute exists and typeof object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the BatteryManager.onchargingtimechange attribute exists and typeof object - Description: Check if the BatteryManager.onchargingtimechange attribute exists and typeof object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-batterystatus-w3c-tests/batterystatus/BatteryManager_onchargingtimechange.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-07-08-BatteryManager_ondischargingtimechange" name="08-BatteryManager_ondischargingtimechange" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-batterystatus-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the BatteryManager.ondischargingtimechange attribute exists and typeof object - Description: Check if the BatteryManager.ondischargingtimechange attribute exists and typeof object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the BatteryManager.ondischargingtimechange attribute exists and typeof object - Description: Check if the BatteryManager.ondischargingtimechange attribute exists and typeof object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-batterystatus-w3c-tests/batterystatus/BatteryManager_ondischargingtimechange.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-07-09-BatteryManager_onlevelchange" name="09-BatteryManager_onlevelchange" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-batterystatus-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the BatteryManager.onlevelchange attribute exists and typeof object - Description: Check if the BatteryManager.onlevelchange attribute exists and typeof object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the BatteryManager.onlevelchange attribute exists and typeof object - Description: Check if the BatteryManager.onlevelchange attribute exists and typeof object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-batterystatus-w3c-tests/batterystatus/BatteryManager_onlevelchange.html</test_script_entry>
+                </description>
+            </testcase>
+        </set>
+    </suite>
+</test_definition>

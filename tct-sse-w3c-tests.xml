@@ -1,0 +1,610 @@
+<?xml version="1.0"?>
+<test_definition>
+    <suite launcher="xwalk" name="00-common/E0-crosswalk">
+        <set name="common/crosswalk/commonapi/tct-sse-w3c-tests">
+            <testcase id="00-E0-00-16-01-sse_EventSource_url_exists" name="01-sse_EventSource_url_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if EventSource.url attribute exists - Description: Check if EventSource.url attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if EventSource.url attribute exists - Description: Check if EventSource.url attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/sse_EventSource_url_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-02-sse_EventSource_CONNECTING_default_value" name="02-sse_EventSource_CONNECTING_default_value" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if EventSource.CONNECTING is default value - Description: Check if EventSource.CONNECTING is default value">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if EventSource.CONNECTING is default value - Description: Check if EventSource.CONNECTING is default value]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/sse_EventSource_CONNECTING_default_value.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-03-sse_EventSource_OPEN_default_value" name="03-sse_EventSource_OPEN_default_value" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if EventSource.OPEN is default value - Description: Check if EventSource.OPEN is default value">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if EventSource.OPEN is default value - Description: Check if EventSource.OPEN is default value]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/sse_EventSource_OPEN_default_value.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-04-sse_EventSource_CLOSED_default_value" name="04-sse_EventSource_CLOSED_default_value" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if EventSource.CLOSED is default value - Description: Check if EventSource.CLOSED is default value">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if EventSource.CLOSED is default value - Description: Check if EventSource.CLOSED is default value]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/sse_EventSource_CLOSED_default_value.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-05-sse_EventSource_readyState_exists" name="05-sse_EventSource_readyState_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if EventSource.readyState arrtibute exists - Description: Check if EventSource.readyState arrtibute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if EventSource.readyState arrtibute exists - Description: Check if EventSource.readyState arrtibute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/sse_EventSource_readyState_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-06-sse_EventSource_onopen_exists" name="06-sse_EventSource_onopen_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if EventSource onopen event exists - Description: Check if EventSource onopen event exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if EventSource onopen event exists - Description: Check if EventSource onopen event exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/sse_EventSource_onopen_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-07-sse_EventSource_onmessage_exists" name="07-sse_EventSource_onmessage_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if EventSource onmessage event exists - Description: Check if EventSource onmessage event exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if EventSource onmessage event exists - Description: Check if EventSource onmessage event exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/sse_EventSource_onmessage_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-08-sse_EventSource_onerror_exists" name="08-sse_EventSource_onerror_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if EventSource onerror event exists - Description: Check if EventSource onerror event exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if EventSource onerror event exists - Description: Check if EventSource onerror event exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/sse_EventSource_onerror_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-09-sse_EventSource_close_exists" name="09-sse_EventSource_close_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if EventSource.close event exists - Description: Check if EventSource.close event exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if EventSource.close event exists - Description: Check if EventSource.close event exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/sse_EventSource_close_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-0A-eventsource-close" name="0A-eventsource-close" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check the method close() - Description: Check the method close()">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check the method close() - Description: Check the method close()]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/w3c/eventsource-close.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-0B-eventsource-constructor-document-domain" name="0B-eventsource-constructor-document-domain" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check the constructor of EventSource when set the document domain correct value - Description: Check the constructor of EventSource when set the document domain correct value">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check the constructor of EventSource when set the document domain correct value - Description: Check the constructor of EventSource when set the document domain correct value]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/w3c/eventsource-constructor-document-domain.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-0C-Eventsource-constructor-stringify_1" name="0C-Eventsource-constructor-stringify_1" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the stringify argument of EventSource is set to object - Description: Check if the stringify argument of EventSource is set to object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the stringify argument of EventSource is set to object - Description: Check if the stringify argument of EventSource is set to object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/w3c/eventsource-constructor-stringify.htm?total_num=4&amp;locator_key=id&amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-0D-Eventsource-constructor-stringify_2" name="0D-Eventsource-constructor-stringify_2" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the stringify argument of EventSource is set to 1 - Description: Check if the stringify argument of EventSource is set to 1">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the stringify argument of EventSource is set to 1 - Description: Check if the stringify argument of EventSource is set to 1]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/w3c/eventsource-constructor-stringify.htm?total_num=4&amp;locator_key=id&amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-0E-Eventsource-constructor-stringify_3" name="0E-Eventsource-constructor-stringify_3" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the stringify argument of EventSource is set to null - Description: Check if the stringify argument of EventSource is set to null">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the stringify argument of EventSource is set to null - Description: Check if the stringify argument of EventSource is set to null]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/w3c/eventsource-constructor-stringify.htm?total_num=4&amp;locator_key=id&amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-0F-Eventsource-constructor-stringify_4" name="0F-Eventsource-constructor-stringify_4" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the stringify argument of EventSource is set to undefined - Description: Check if the stringify argument of EventSource is set to undefined">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the stringify argument of EventSource is set to undefined - Description: Check if the stringify argument of EventSource is set to undefined]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/w3c/eventsource-constructor-stringify.htm?total_num=4&amp;locator_key=id&amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-0G-eventsource-constructor-url-bogus" name="0G-eventsource-constructor-url-bogus" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the parameter of EventSource method is invalid - Description: Check if the parameter of EventSource method is invalid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the parameter of EventSource method is invalid - Description: Check if the parameter of EventSource method is invalid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/w3c/eventsource-constructor-url-bogus.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-0H-eventsource-constructor-url-multi-window" name="0H-eventsource-constructor-url-multi-window" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check that resolve URLs correctly - Description: Check that resolve URLs correctly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check that resolve URLs correctly - Description: Check that resolve URLs correctly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/w3c/eventsource-constructor-url-multi-window.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-0I-eventsource-prototype" name="0I-eventsource-prototype" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the EventSource exists - Description: Check if the EventSource exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the EventSource exists - Description: Check if the EventSource exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/w3c/eventsource-prototype.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-0J-eventsource-eventtarget" name="0J-eventsource-eventtarget" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if can add message event listener and receive the message - Description: Check if can add message event listener and receive the message">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if can add message event listener and receive the message - Description: Check if can add message event listener and receive the message]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/w3c/eventsource-eventtarget.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-0K-eventsource-reconnect" name="0K-eventsource-reconnect" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the event of a reconnection can be got - Description: Check if the event of a reconnection can be got">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the event of a reconnection can be got - Description: Check if the event of a reconnection can be got]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/w3c/eventsource-reconnect.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-0L-eventsource-url" name="0L-eventsource-url" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the value of EventSource.url is correct - Description: Check if the value of EventSource.url is correct">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the value of EventSource.url is correct - Description: Check if the value of EventSource.url is correct]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/w3c/eventsource-url.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-0M-format-data-before-final-empty-line" name="0M-format-data-before-final-empty-line" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the file ends in the middle of an event, before the final empty line, the incomplete event is not dispatched - Description: Check if the file ends in the middle of an event, before the final empty line, the incomplete event is not dispatched">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the file ends in the middle of an event, before the final empty line, the incomplete event is not dispatched - Description: Check if the file ends in the middle of an event, before the final empty line, the incomplete event is not dispatched]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/w3c/format-data-before-final-empty-line.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-0N-format-field-data" name="0N-format-field-data" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check the data field parsing - Description: Check the data field parsing">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check the data field parsing - Description: Check the data field parsing]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/w3c/format-field-data.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-0O-format-null-character" name="0O-format-null-character" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check null character in response - Description: Check null character in response">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check null character in response - Description: Check null character in response]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/w3c/format-null-character.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-0P-format-bom-2" name="0P-format-bom-2" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check the format of double bom - Description: Check the format of double bom">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check the format of double bom - Description: Check the format of double bom]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/w3c/format-bom-2.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-0Q-format-bom" name="0Q-format-bom" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check the format of bom - Description: Check the format of bom">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check the format of bom - Description: Check the format of bom]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/w3c/format-bom.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-0R-format-field-event-empty" name="0R-format-field-event-empty" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check the format of empty  event  field - Description: Check the format of empty  event  field">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check the format of empty  event  field - Description: Check the format of empty  event  field]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/w3c/format-field-event-empty.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-0S-format-field-event" name="0S-format-field-event" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check the format of event field when the event name is custom - Description: Check the format of event field when the event name is custom">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check the format of event field when the event name is custom - Description: Check the format of event field when the event name is custom]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/w3c/format-field-event.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-0T-format-field-id-2" name="0T-format-field-id-2" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check the format of multiple las event id  field - Description: Check the format of multiple las event id  field">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check the format of multiple las event id  field - Description: Check the format of multiple las event id  field]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/w3c/format-field-id-2.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-0U-format-field-id" name="0U-format-field-id" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check the format of las event id  field - Description: Check the format of las event id  field">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check the format of las event id  field - Description: Check the format of las event id  field]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/w3c/format-field-id.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-0V-format-field-retry-empty" name="0V-format-field-retry-empty" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check the format of empty retry field - Description: Check the format of empty retry field">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check the format of empty retry field - Description: Check the format of empty retry field]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/w3c/format-field-retry-empty.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-0W-format-field-unknown" name="0W-format-field-unknown" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check the format of unknown field - Description: Check the format of unknown field">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check the format of unknown field - Description: Check the format of unknown field]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/w3c/format-field-unknown.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-0X-format-leading-space" name="0X-format-leading-space" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check event stream format with a single leading space character - Description: Check event stream format with a single leading space character">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check event stream format with a single leading space character - Description: Check event stream format with a single leading space character]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/w3c/format-leading-space.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-0Y-format-mime-bogus" name="0Y-format-mime-bogus" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check bogus MIME type of event stream format - Description: Check bogus MIME type of event stream format">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check bogus MIME type of event stream format - Description: Check bogus MIME type of event stream format]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/w3c/format-mime-bogus.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-0Z-format-mime-trailing-semicolon" name="0Z-format-mime-trailing-semicolon" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check MIME type with trailing semicolon of event stream format - Description: Check MIME type with trailing semicolon of event stream format">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check MIME type with trailing semicolon of event stream format - Description: Check MIME type with trailing semicolon of event stream format]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/w3c/format-mime-trailing-semicolon.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-10-format-mime-valid-bogus" name="10-format-mime-valid-bogus" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check incorrect valid MIME type of event stream format - Description: Check incorrect valid MIME type of event stream format">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check incorrect valid MIME type of event stream format - Description: Check incorrect valid MIME type of event stream format]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/w3c/format-mime-valid-bogus.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-11-format-newlines" name="11-format-newlines" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check newline fest of event stream format - Description: Check newline fest of event stream format">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check newline fest of event stream format - Description: Check newline fest of event stream format]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/w3c/format-newlines.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-12-request-accept" name="12-request-accept" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if  'text/event-stream' must be one of accept header for HTTP connections - Description: Check if  'text/event-stream' must be one of accept header for HTTP connections">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if  'text/event-stream' must be one of accept header for HTTP connections - Description: Check if  'text/event-stream' must be one of accept header for HTTP connections]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/w3c/request-accept.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-13-request-redirect" name="13-request-redirect" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check request redirects of EventSource - Description: Check request redirects of EventSource">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check request redirects of EventSource - Description: Check request redirects of EventSource]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/w3c/request-redirect.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-14-request-status-error" name="14-request-status-error" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if set incorrect HTTP status code, that onerror event will be invoked - Description: Check if set incorrect HTTP status code, that onerror event will be invoked">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if set incorrect HTTP status code, that onerror event will be invoked - Description: Check if set incorrect HTTP status code, that onerror event will be invoked]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/w3c/request-status-error.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-15-eventsource-onmessage" name="15-eventsource-onmessage" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if trigger EventSource.onmessage event when get the data form a server - Description: Check if trigger EventSource.onmessage event when get the data form a server">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if trigger EventSource.onmessage event when get the data form a server - Description: Check if trigger EventSource.onmessage event when get the data form a server]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/w3c/eventsource-onmessage.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-16-eventsource-onopen" name="16-eventsource-onopen" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if trigger EventSource.onopen event when the user agent has an open connection - Description: Check if trigger EventSource.onopen event when the user agent has an open connection">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if trigger EventSource.onopen event when the user agent has an open connection - Description: Check if trigger EventSource.onopen event when the user agent has an open connection]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/w3c/eventsource-onopen.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-17-eventsource-close-dedicated-worker" name="17-eventsource-close-dedicated-worker" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check close() of EventSource with dedicated worker - Description: Check close() of EventSource with dedicated worker">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check close() of EventSource with dedicated worker - Description: Check close() of EventSource with dedicated worker]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/w3c/dedicated-worker/eventsource-close.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-18-eventsource-constructor-url-bogus-dedicated-worker" name="18-eventsource-constructor-url-bogus-dedicated-worker" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check constructor (invalid URL) of EventSource with dedicated worker - Description: Check constructor (invalid URL) of EventSource with dedicated worker">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check constructor (invalid URL) of EventSource with dedicated worker - Description: Check constructor (invalid URL) of EventSource with dedicated worker]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/w3c/dedicated-worker/eventsource-constructor-url-bogus.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-19-eventsource-eventtarget-dedicated-worker" name="19-eventsource-eventtarget-dedicated-worker" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check addEventListener() of EventSource with dedicated worker - Description: Check addEventListener() of EventSource with dedicated worker">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check addEventListener() of EventSource with dedicated worker - Description: Check addEventListener() of EventSource with dedicated worker]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/w3c/dedicated-worker/eventsource-eventtarget.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-1A-eventsource-onmesage-dedicated-worker" name="1A-eventsource-onmesage-dedicated-worker" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check onmessage of EventSource with dedicated worker - Description: Check onmessage of EventSource with dedicated worker">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check onmessage of EventSource with dedicated worker - Description: Check onmessage of EventSource with dedicated worker]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/w3c/dedicated-worker/eventsource-onmesage.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-1B-eventsource-onopen-dedicated-worker" name="1B-eventsource-onopen-dedicated-worker" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check onopen (announcing the connection) of EventSource with dedicated worker - Description: Check onopen (announcing the connection) of EventSource with dedicated worker">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check onopen (announcing the connection) of EventSource with dedicated worker - Description: Check onopen (announcing the connection) of EventSource with dedicated worker]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/w3c/dedicated-worker/eventsource-onopen.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-1C-eventsource-prototype-dedicated-worker" name="1C-eventsource-prototype-dedicated-worker" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check prototype et al of EventSource with dedicated worker - Description: Check prototype et al of EventSource with dedicated worker">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check prototype et al of EventSource with dedicated worker - Description: Check prototype et al of EventSource with dedicated worker]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/w3c/dedicated-worker/eventsource-prototype.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-1D-eventsource-url-dedicated-worker" name="1D-eventsource-url-dedicated-worker" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check url of EventSource with dedicated worker - Description: Check url of EventSource with dedicated worker">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check url of EventSource with dedicated worker - Description: Check url of EventSource with dedicated worker]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/w3c/dedicated-worker/eventsource-url.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-1E-eventsource-close-shared-worker" name="1E-eventsource-close-shared-worker" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check close() of EventSource with shared worker - Description: Check close() of EventSource with shared worker">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check close() of EventSource with shared worker - Description: Check close() of EventSource with shared worker]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/w3c/shared-worker/eventsource-close.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-1F-eventsource-constructor-url-bogus-shared-worker" name="1F-eventsource-constructor-url-bogus-shared-worker" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check constructor (invalid URL) of EventSource with shared worker - Description: Check constructor (invalid URL) of EventSource with shared worker">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check constructor (invalid URL) of EventSource with shared worker - Description: Check constructor (invalid URL) of EventSource with shared worker]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/w3c/shared-worker/eventsource-constructor-url-bogus.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-1G-eventsource-eventtarget-shared-worker" name="1G-eventsource-eventtarget-shared-worker" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check addEventListener() of EventSource with shared worker - Description: Check addEventListener() of EventSource with shared worker">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check addEventListener() of EventSource with shared worker - Description: Check addEventListener() of EventSource with shared worker]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/w3c/shared-worker/eventsource-eventtarget.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-1H-eventsource-onmesage-shared-worker" name="1H-eventsource-onmesage-shared-worker" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check onmessage of EventSource with shared worker - Description: Check onmessage of EventSource with shared worker">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check onmessage of EventSource with shared worker - Description: Check onmessage of EventSource with shared worker]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/w3c/shared-worker/eventsource-onmesage.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-1I-eventsource-onopen-shared-worker" name="1I-eventsource-onopen-shared-worker" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check onopen (announcing the connection) of EventSource with shared worker - Description: Check onopen (announcing the connection) of EventSource with shared worker">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check onopen (announcing the connection) of EventSource with shared worker - Description: Check onopen (announcing the connection) of EventSource with shared worker]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/w3c/shared-worker/eventsource-onopen.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-1J-eventsource-prototype-shared-worker" name="1J-eventsource-prototype-shared-worker" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check prototype et al of EventSource with shared worker - Description: Check prototype et al of EventSource with shared worker">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check prototype et al of EventSource with shared worker - Description: Check prototype et al of EventSource with shared worker]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/w3c/shared-worker/eventsource-prototype.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-1K-eventsource-url-shared-worker" name="1K-eventsource-url-shared-worker" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check url of EventSource with shared worker - Description: Check url of EventSource with shared worker">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check url of EventSource with shared worker - Description: Check url of EventSource with shared worker]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/w3c/shared-worker/eventsource-url.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-1L-sse_EventSource_CLOSED" name="1L-sse_EventSource_CLOSED" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if EventSource.CLOSED attribute exists and typeof number - Description: Check if EventSource.CLOSED attribute exists and typeof number">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if EventSource.CLOSED attribute exists and typeof number - Description: Check if EventSource.CLOSED attribute exists and typeof number]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/sse_EventSource_CLOSED.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-1M-sse_EventSource_CONNECTING" name="1M-sse_EventSource_CONNECTING" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if EventSource.CONNECTING attribute exists and typeof number - Description: Check if EventSource.CONNECTING attribute exists and typeof number">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if EventSource.CONNECTING attribute exists and typeof number - Description: Check if EventSource.CONNECTING attribute exists and typeof number]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/sse_EventSource_CONNECTING.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-1N-sse_EventSource_onerror_base" name="1N-sse_EventSource_onerror_base" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if trigger EventSource.onerror event when connection happens an error - Description: Check if trigger EventSource.onerror event when connection happens an error">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if trigger EventSource.onerror event when connection happens an error - Description: Check if trigger EventSource.onerror event when connection happens an error]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/sse_EventSource_onerror_base.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-1O-sse_EventSource_OPEN" name="1O-sse_EventSource_OPEN" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if EventSource.OPEN attribute exists and typeof number - Description: Check if EventSource.OPEN attribute exists and typeof number">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if EventSource.OPEN attribute exists and typeof number - Description: Check if EventSource.OPEN attribute exists and typeof number]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/sse_EventSource_OPEN.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-1P-sse_EventSource_readyState_type" name="1P-sse_EventSource_readyState_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the type of ServerSentEvent.readyState is number - Description: Check if the type of ServerSentEvent.readyState is number" onload_delay="12">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the type of ServerSentEvent.readyState is number - Description: Check if the type of ServerSentEvent.readyState is number]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/sse_EventSource_readyState.html?total_num=5&amp;locator_key=id&amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-1Q-sse_EventSource_readyState_readonly" name="1Q-sse_EventSource_readyState_readonly" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if EventSource.readyState attribute is readonly - Description: Check if EventSource.readyState attribute is readonly" onload_delay="12">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if EventSource.readyState attribute is readonly - Description: Check if EventSource.readyState attribute is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/sse_EventSource_readyState.html?total_num=5&amp;locator_key=id&amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-1R-sse_EventSource_readyState_CONNECTING" name="1R-sse_EventSource_readyState_CONNECTING" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if EventSource.readyState is CONNECTING when the eventsource is created - Description: Check if EventSource.readyState is CONNECTING when the eventsource is created" onload_delay="12">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if EventSource.readyState is CONNECTING when the eventsource is created - Description: Check if EventSource.readyState is CONNECTING when the eventsource is created]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/sse_EventSource_readyState.html?total_num=5&amp;locator_key=id&amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-1S-sse_EventSource_readyState_CLOSED" name="1S-sse_EventSource_readyState_CLOSED" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if EventSource.readyState is CLOSED when the eventsource is closed - Description: Check if EventSource.readyState is CLOSED when the eventsource is closed" onload_delay="12">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if EventSource.readyState is CLOSED when the eventsource is closed - Description: Check if EventSource.readyState is CLOSED when the eventsource is closed]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/sse_EventSource_readyState.html?total_num=5&amp;locator_key=id&amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-1T-sse_EventSource_url_readonly" name="1T-sse_EventSource_url_readonly" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if EventSource.url attribute is readonly - Description: Check if EventSource.url attribute is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if EventSource.url attribute is readonly - Description: Check if EventSource.url attribute is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/sse_EventSource_url_readonly.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-1U-sse_EventSource_url_type" name="1U-sse_EventSource_url_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the type of ServerSentEvent.url is string - Description: Check if the type of ServerSentEvent.url is string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the type of ServerSentEvent.url is string - Description: Check if the type of ServerSentEvent.url is string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/sse_EventSource_url_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-16-1V-sse_EventSource_WorkerUtils_exists" name="1V-sse_EventSource_WorkerUtils_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sse-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if ServerSentEvent.EventSource() implement the WorkerUtils interface - Description: Check if ServerSentEvent.EventSource() implement the WorkerUtils interface">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ServerSentEvent.EventSource() implement the WorkerUtils interface - Description: Check if ServerSentEvent.EventSource() implement the WorkerUtils interface]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sse-w3c-tests/sse/sse_EventSource_WorkerUtils_exists.html</test_script_entry>
+                </description>
+            </testcase>
+        </set>
+    </suite>
+</test_definition>

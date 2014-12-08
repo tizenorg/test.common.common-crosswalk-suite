@@ -1,0 +1,349 @@
+<?xml version="1.0"?>
+<test_definition>
+    <suite launcher="xwalk" name="00-common/E0-crosswalk">
+        <set name="common/crosswalk/deviceapi/tct-push-tizen-tests">
+            <testcase id="00-E0-01-0O-01-PushManager_registerService" name="01-PushManager_registerService" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-push-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if method registerService of PushManager works properly - Description: Check if method registerService of PushManager works properly" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if method registerService of PushManager works properly - Description: Check if method registerService of PushManager works properly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-push-tizen-tests/push/PushManager_registerService.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0O-02-PushManager_registerService_without_errorCallback" name="02-PushManager_registerService_without_errorCallback" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-push-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if method registerService of PushManager works properly without errorCallback - Description: Check if method registerService of PushManager works properly without errorCallback" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if method registerService of PushManager works properly without errorCallback - Description: Check if method registerService of PushManager works properly without errorCallback]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-push-tizen-tests/push/PushManager_registerService_without_errorCallback.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0O-03-PushManagerObject_notexist" name="03-PushManagerObject_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-push-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if interface PushManagerObject exists, it should not - Description: Check if interface PushManagerObject exists, it should not">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if interface PushManagerObject exists, it should not - Description: Check if interface PushManagerObject exists, it should not]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-push-tizen-tests/push/PushManagerObject_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0O-04-PushManager_connectService_exist" name="04-PushManager_connectService_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-push-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if method connectService of PushManager exists - Description: Check if method connectService of PushManager exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if method connectService of PushManager exists - Description: Check if method connectService of PushManager exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-push-tizen-tests/push/PushManager_connectService_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0O-05-PushManager_disconnectService_exist" name="05-PushManager_disconnectService_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-push-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if method disconnectService of PushManager exists - Description: Check if method disconnectService of PushManager exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if method disconnectService of PushManager exists - Description: Check if method disconnectService of PushManager exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-push-tizen-tests/push/PushManager_disconnectService_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0O-06-PushManager_disconnectService_extra_argument" name="06-PushManager_disconnectService_extra_argument" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-push-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if method disconnectService of PushManager accepts extra argument - Description: Check if method disconnectService of PushManager accepts extra argument">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if method disconnectService of PushManager accepts extra argument - Description: Check if method disconnectService of PushManager accepts extra argument]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-push-tizen-tests/push/PushManager_disconnectService_extra_argument.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0O-07-PushManager_extend" name="07-PushManager_extend" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-push-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if PushManager is extendable - Description: Check if PushManager is extendable">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if PushManager is extendable - Description: Check if PushManager is extendable]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-push-tizen-tests/push/PushManager_extend.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0O-08-PushManager_getRegistrationId_exist" name="08-PushManager_getRegistrationId_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-push-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if method getRegistrationId of PushManager exists - Description: Check if method getRegistrationId of PushManager exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if method getRegistrationId of PushManager exists - Description: Check if method getRegistrationId of PushManager exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-push-tizen-tests/push/PushManager_getRegistrationId_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0O-09-PushManager_getRegistrationId_extra_argument" name="09-PushManager_getRegistrationId_extra_argument" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-push-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if method getRegistrationId of PushManager accepts extra argument - Description: Check if method getRegistrationId of PushManager accepts extra argument">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if method getRegistrationId of PushManager accepts extra argument - Description: Check if method getRegistrationId of PushManager accepts extra argument]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-push-tizen-tests/push/PushManager_getRegistrationId_extra_argument.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0O-0A-PushManager_getRegistrationId_notRegistered" name="0A-PushManager_getRegistrationId_notRegistered" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-push-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if method getRegistrationId of PushManager returns default value - Description: Check if method getRegistrationId of PushManager returns default value" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if method getRegistrationId of PushManager returns default value - Description: Check if method getRegistrationId of PushManager returns default value]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-push-tizen-tests/push/PushManager_getRegistrationId_notRegistered.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0O-0B-PushManager_in_tizen" name="0B-PushManager_in_tizen" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-push-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if push exists in tizen - Description: Check if push exists in tizen">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if push exists in tizen - Description: Check if push exists in tizen]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-push-tizen-tests/push/PushManager_in_tizen.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0O-0C-PushManager_notexist" name="0C-PushManager_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-push-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if interface PushManager exists, it should not - Description: Check if interface PushManager exists, it should not">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if interface PushManager exists, it should not - Description: Check if interface PushManager exists, it should not]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-push-tizen-tests/push/PushManager_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0O-0D-PushManager_registerService_appControl_TypeMismatch" name="0D-PushManager_registerService_appControl_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-push-tizen-tests" status="designed" type="compliance" purpose="Objective: Check type conversions for appControl argument of PushManager.registerService method - Description: Check type conversions for appControl argument of PushManager.registerService method" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check type conversions for appControl argument of PushManager.registerService method - Description: Check type conversions for appControl argument of PushManager.registerService method]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-push-tizen-tests/push/PushManager_registerService_appControl_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0O-0E-PushManager_registerService_appControl_invalid_obj" name="0E-PushManager_registerService_appControl_invalid_obj" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-push-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if PushManager.registerService method throws exception when appControl is invalid - Description: Check if PushManager.registerService method throws exception when appControl is invalid" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if PushManager.registerService method throws exception when appControl is invalid - Description: Check if PushManager.registerService method throws exception when appControl is invalid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-push-tizen-tests/push/PushManager_registerService_appControl_invalid_obj.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0O-0F-PushManager_registerService_misargs" name="0F-PushManager_registerService_misargs" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-push-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if method registerService throws exception when non-optional argument is missing - Description: Check if method registerService throws exception when non-optional argument is missing">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if method registerService throws exception when non-optional argument is missing - Description: Check if method registerService throws exception when non-optional argument is missing]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-push-tizen-tests/push/PushManager_registerService_misargs.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0O-0G-PushManager_registerService_exist" name="0G-PushManager_registerService_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-push-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if method registerService of PushManager exists - Description: Check if method registerService of PushManager exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if method registerService of PushManager exists - Description: Check if method registerService of PushManager exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-push-tizen-tests/push/PushManager_registerService_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0O-0H-PushManager_registerService_successCallback_TypeMismatch" name="0H-PushManager_registerService_successCallback_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-push-tizen-tests" status="designed" type="compliance" purpose="Objective: Check type conversions for successCallback argument of PushManager.registerService method - Description: Check type conversions for successCallback argument of PushManager.registerService method" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check type conversions for successCallback argument of PushManager.registerService method - Description: Check type conversions for successCallback argument of PushManager.registerService method]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-push-tizen-tests/push/PushManager_registerService_successCallback_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0O-0I-PushManager_registerService_successCallback_invalid_cb" name="0I-PushManager_registerService_successCallback_invalid_cb" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-push-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if PushManager.registerService method throws exception when successCallback is invalid - Description: Check if PushManager.registerService method throws exception when successCallback is invalid" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if PushManager.registerService method throws exception when successCallback is invalid - Description: Check if PushManager.registerService method throws exception when successCallback is invalid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-push-tizen-tests/push/PushManager_registerService_successCallback_invalid_cb.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0O-0J-PushManager_unregisterService_exist" name="0J-PushManager_unregisterService_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-push-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if method unregisterService of PushManager exists - Description: Check if method unregisterService of PushManager exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if method unregisterService of PushManager exists - Description: Check if method unregisterService of PushManager exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-push-tizen-tests/push/PushManager_unregisterService_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0O-0K-PushMessage_notexist" name="0K-PushMessage_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-push-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if interface PushMessage exists, it should not - Description: Check if interface PushMessage exists, it should not">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if interface PushMessage exists, it should not - Description: Check if interface PushMessage exists, it should not]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-push-tizen-tests/push/PushMessage_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0O-0L-PushNotificationCallback_notexist" name="0L-PushNotificationCallback_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-push-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if interface PushNotificationCallback exists, it should not - Description: Check if interface PushNotificationCallback exists, it should not">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if interface PushNotificationCallback exists, it should not - Description: Check if interface PushNotificationCallback exists, it should not]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-push-tizen-tests/push/PushNotificationCallback_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0O-0M-PushManager_unregisterService_errorCallback_TypeMismatch" name="0M-PushManager_unregisterService_errorCallback_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-push-tizen-tests" status="designed" type="compliance" purpose="Objective: Check type conversions for errorCallback argument of PushManager.unregisterService method - Description: Check type conversions for errorCallback argument of PushManager.unregisterService method" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check type conversions for errorCallback argument of PushManager.unregisterService method - Description: Check type conversions for errorCallback argument of PushManager.unregisterService method]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-push-tizen-tests/push/PushManager_unregisterService_errorCallback_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0O-0N-PushManager_unregisterService_errorCallback_invalid_cb" name="0N-PushManager_unregisterService_errorCallback_invalid_cb" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-push-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if PushManager.unregisterService method throws exception when errorCallback is invalid - Description: Check if PushManager.unregisterService method throws exception when errorCallback is invalid" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if PushManager.unregisterService method throws exception when errorCallback is invalid - Description: Check if PushManager.unregisterService method throws exception when errorCallback is invalid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-push-tizen-tests/push/PushManager_unregisterService_errorCallback_invalid_cb.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0O-0O-PushManager_registerService_errorCallback_TypeMismatch" name="0O-PushManager_registerService_errorCallback_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-push-tizen-tests" status="designed" type="compliance" purpose="Objective: Check type conversions for errorCallback argument of PushManager.registerService method - Description: Check type conversions for errorCallback argument of PushManager.registerService method" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check type conversions for errorCallback argument of PushManager.registerService method - Description: Check type conversions for errorCallback argument of PushManager.registerService method]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-push-tizen-tests/push/PushManager_registerService_errorCallback_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0O-0P-PushManager_registerService_errorCallback_invalid_cb" name="0P-PushManager_registerService_errorCallback_invalid_cb" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-push-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if PushManager.registerService method throws exception when errorCallback is invalid - Description: Check if PushManager.registerService method throws exception when errorCallback is invalid" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if PushManager.registerService method throws exception when errorCallback is invalid - Description: Check if PushManager.registerService method throws exception when errorCallback is invalid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-push-tizen-tests/push/PushManager_registerService_errorCallback_invalid_cb.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0O-0Q-PushManager_unregisterService_successCallback_TypeMismatch" name="0Q-PushManager_unregisterService_successCallback_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-push-tizen-tests" status="designed" type="compliance" purpose="Objective: Check type conversions for successCallback argument of PushManager.unregisterService method - Description: Check type conversions for successCallback argument of PushManager.unregisterService method" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check type conversions for successCallback argument of PushManager.unregisterService method - Description: Check type conversions for successCallback argument of PushManager.unregisterService method]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-push-tizen-tests/push/PushManager_unregisterService_successCallback_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0O-0R-PushManager_unregisterService_successCallback_invalid_cb" name="0R-PushManager_unregisterService_successCallback_invalid_cb" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-push-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if PushManager.unregisterService method throws exception when successCallback is invalid - Description: Check if PushManager.unregisterService method throws exception when successCallback is invalid" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if PushManager.unregisterService method throws exception when successCallback is invalid - Description: Check if PushManager.unregisterService method throws exception when successCallback is invalid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-push-tizen-tests/push/PushManager_unregisterService_successCallback_invalid_cb.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0O-0S-PushManager_connectService_notificationCallback_TypeMismatch" name="0S-PushManager_connectService_notificationCallback_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-push-tizen-tests" status="designed" type="compliance" purpose="Objective: Check type conversions for notificationCallback argument of PushManager.connectService method - Description: Check type conversions for notificationCallback argument of PushManager.connectService method">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check type conversions for notificationCallback argument of PushManager.connectService method - Description: Check type conversions for notificationCallback argument of PushManager.connectService method]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-push-tizen-tests/push/PushManager_connectService_notificationCallback_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0O-0T-PushManager_connectService_notificationCallback_invalid_cb" name="0T-PushManager_connectService_notificationCallback_invalid_cb" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-push-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if PushManager.connectService method throws exception when notificationCallback is invalid - Description: Check if PushManager.connectService method throws exception when notificationCallback is invalid" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if PushManager.connectService method throws exception when notificationCallback is invalid - Description: Check if PushManager.connectService method throws exception when notificationCallback is invalid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-push-tizen-tests/push/PushManager_connectService_notificationCallback_invalid_cb.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0O-0U-PushManager_getRegistrationId" name="0U-PushManager_getRegistrationId" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-push-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if method getRegistrationId of PushManager works correctly - Description: Check if method getRegistrationId of PushManager works correctly" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if method getRegistrationId of PushManager works correctly - Description: Check if method getRegistrationId of PushManager works correctly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-push-tizen-tests/push/PushManager_getRegistrationId.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0O-0V-PushManager_connectService" name="0V-PushManager_connectService" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-push-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if connectService method works correctly - Description: Check if connectService method works correctly" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if connectService method works correctly - Description: Check if connectService method works correctly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-push-tizen-tests/push/PushManager_connectService.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0O-0W-PushManager_connectService_missarg" name="0W-PushManager_connectService_missarg" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-push-tizen-tests" status="designed" type="compliance" purpose="Objective: Check with missing non-optional argument - PushManager.connectService method - Description: Check with missing non-optional argument - PushManager.connectService method" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check with missing non-optional argument - PushManager.connectService method - Description: Check with missing non-optional argument - PushManager.connectService method]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-push-tizen-tests/push/PushManager_connectService_missarg.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0O-0X-PushManager_disconnectService" name="0X-PushManager_disconnectService" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-push-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if disconnectService method works correctly - Description: Check if disconnectService method works correctly" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if disconnectService method works correctly - Description: Check if disconnectService method works correctly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-push-tizen-tests/push/PushManager_disconnectService.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0O-0Y-PushManager_unregisterService" name="0Y-PushManager_unregisterService" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-push-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if unregisterService works correctly - Description: Check if unregisterService works correctly" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if unregisterService works correctly - Description: Check if unregisterService works correctly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-push-tizen-tests/push/PushManager_unregisterService.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0O-0Z-PushManager_unregisterService_without_errorCallback" name="0Z-PushManager_unregisterService_without_errorCallback" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-push-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if unregisterService method works without errorCallback - Description: Check if unregisterService method works without errorCallback" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if unregisterService method works without errorCallback - Description: Check if unregisterService method works without errorCallback]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-push-tizen-tests/push/PushManager_unregisterService_without_errorCallback.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0O-10-PushManager_unregisterService_without_successCallback" name="10-PushManager_unregisterService_without_successCallback" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-push-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if unregisterService method works without successCallback - Description: Check if unregisterService method works without successCallback" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if unregisterService method works without successCallback - Description: Check if unregisterService method works without successCallback]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-push-tizen-tests/push/PushManager_unregisterService_without_successCallback.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0O-11-PushRegisterSuccessCallback_onsuccess" name="11-PushRegisterSuccessCallback_onsuccess" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-push-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if PushRegisterSuccessCallback works - Description: Check if PushRegisterSuccessCallback works" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if PushRegisterSuccessCallback works - Description: Check if PushRegisterSuccessCallback works]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-push-tizen-tests/push/PushRegisterSuccessCallback_onsuccess.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0O-12-PushRegisterSuccessCallback_notexist" name="12-PushRegisterSuccessCallback_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-push-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if interface PushRegisterSuccessCallback exists, it should not - Description: Check if interface PushRegisterSuccessCallback exists, it should not">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if interface PushRegisterSuccessCallback exists, it should not - Description: Check if interface PushRegisterSuccessCallback exists, it should not]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-push-tizen-tests/push/PushRegisterSuccessCallback_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+        </set>
+    </suite>
+</test_definition>

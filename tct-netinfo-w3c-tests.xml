@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<test_definition>
+    <suite launcher="xwalk" name="00-common/E0-crosswalk">
+        <set name="common/crosswalk/commonapi/tct-netinfo-w3c-tests">
+            <testcase id="00-E0-00-0X-01-Navigator_connection" name="01-Navigator_connection" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-netinfo-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the navigator.connection attribute exists, readonly and type of NetworkInformation - Description: Check if the navigator.connection attribute exists, readonly and type of NetworkInformation">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the navigator.connection attribute exists, readonly and type of NetworkInformation - Description: Check if the navigator.connection attribute exists, readonly and type of NetworkInformation]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-netinfo-w3c-tests/netinfo/Navigator_connection.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0X-02-NetworkInformation_type" name="02-NetworkInformation_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-netinfo-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the NetworkInformation.type attribute exists, readonly and type of string - Description: Check if the NetworkInformation.type attribute exists, readonly and type of string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the NetworkInformation.type attribute exists, readonly and type of string - Description: Check if the NetworkInformation.type attribute exists, readonly and type of string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-netinfo-w3c-tests/netinfo/NetworkInformation_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0X-03-NetworkInformation_onchange" name="03-NetworkInformation_onchange" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-netinfo-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the NetworkInformation.onchange attribute exists, readonly and type of object - Description: Check if the NetworkInformation.onchange attribute exists, readonly and type of object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the NetworkInformation.onchange attribute exists, readonly and type of object - Description: Check if the NetworkInformation.onchange attribute exists, readonly and type of object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-netinfo-w3c-tests/netinfo/NetworkInformation_onchange.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0X-04-NetworkInformation_downlinkMax" name="04-NetworkInformation_downlinkMax" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-netinfo-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the NetworkInformation.downlinkMax attribute exists, readonly and type of number - Description: Check if the NetworkInformation.downlinkMax attribute exists, readonly and type of number">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the NetworkInformation.downlinkMax attribute exists, readonly and type of number - Description: Check if the NetworkInformation.downlinkMax attribute exists, readonly and type of number]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-netinfo-w3c-tests/netinfo/NetworkInformation_downlinkMax.html</test_script_entry>
+                </description>
+            </testcase>
+        </set>
+    </suite>
+</test_definition>

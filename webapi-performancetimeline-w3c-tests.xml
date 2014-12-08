@@ -1,0 +1,187 @@
+<?xml version="1.0"?>
+<test_definition>
+    <suite launcher="xwalk" name="00-common/E0-crosswalk">
+        <set name="common/crosswalk/commonapi/webapi-performancetimeline-w3c-tests">
+            <testcase id="00-E0-00-27-01-PerformanceEntry_name" name="01-PerformanceEntry_name" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-performancetimeline-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if readonly PerformanceEntry.name exists and type of string - Description: Check if readonly PerformanceEntry.name exists and type of string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if readonly PerformanceEntry.name exists and type of string - Description: Check if readonly PerformanceEntry.name exists and type of string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-performancetimeline-w3c-tests/performancetimeline/PerformanceEntry.html?total_num=8&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-27-02-PerformanceEntry_name_basic" name="02-PerformanceEntry_name_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-performancetimeline-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the PerformanceEntry.name is valid - Description: Check if the PerformanceEntry.name is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the PerformanceEntry.name is valid - Description: Check if the PerformanceEntry.name is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-performancetimeline-w3c-tests/performancetimeline/PerformanceEntry.html?total_num=8&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-27-03-PerformanceEntry_entryType" name="03-PerformanceEntry_entryType" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-performancetimeline-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if readonly PerformanceEntry.entryType exists and type of string - Description: Check if readonly PerformanceEntry.entryType exists and type of string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if readonly PerformanceEntry.entryType exists and type of string - Description: Check if readonly PerformanceEntry.entryType exists and type of string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-performancetimeline-w3c-tests/performancetimeline/PerformanceEntry.html?total_num=8&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-27-04-PerformanceEntry_entryType_basic" name="04-PerformanceEntry_entryType_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-performancetimeline-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the PerformanceEntry.entryType is valid - Description: Check if the PerformanceEntry.entryType is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the PerformanceEntry.entryType is valid - Description: Check if the PerformanceEntry.entryType is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-performancetimeline-w3c-tests/performancetimeline/PerformanceEntry.html?total_num=8&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-27-05-PerformanceEntry_startTime" name="05-PerformanceEntry_startTime" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-performancetimeline-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if readonly PerformanceEntry.startTime exists and type of string - Description: Check if readonly PerformanceEntry.startTime exists and type of string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if readonly PerformanceEntry.startTime exists and type of string - Description: Check if readonly PerformanceEntry.startTime exists and type of string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-performancetimeline-w3c-tests/performancetimeline/PerformanceEntry.html?total_num=8&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-27-06-PerformanceEntry_startTime_basic" name="06-PerformanceEntry_startTime_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-performancetimeline-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the PerformanceEntry.startTime is valid - Description: Check if the PerformanceEntry.startTime is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the PerformanceEntry.startTime is valid - Description: Check if the PerformanceEntry.startTime is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-performancetimeline-w3c-tests/performancetimeline/PerformanceEntry.html?total_num=8&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-27-07-PerformanceEntry_duration" name="07-PerformanceEntry_duration" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-performancetimeline-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if readonly PerformanceEntry.duration exists and type of string - Description: Check if readonly PerformanceEntry.duration exists and type of string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if readonly PerformanceEntry.duration exists and type of string - Description: Check if readonly PerformanceEntry.duration exists and type of string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-performancetimeline-w3c-tests/performancetimeline/PerformanceEntry.html?total_num=8&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-27-08-PerformanceEntry_duration_basic" name="08-PerformanceEntry_duration_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-performancetimeline-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the PerformanceEntry.duration is valid - Description: Check if the PerformanceEntry.duration is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the PerformanceEntry.duration is valid - Description: Check if the PerformanceEntry.duration is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-performancetimeline-w3c-tests/performancetimeline/PerformanceEntry.html?total_num=8&amp;amp;locator_key=id&amp;amp;value=8</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-27-09-Performance_getEntries" name="09-Performance_getEntries" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-performancetimeline-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if Performance.getEntries exists and type of function - Description: Check if Performance.getEntries exists and type of function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Performance.getEntries exists and type of function - Description: Check if Performance.getEntries exists and type of function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-performancetimeline-w3c-tests/performancetimeline/Performance.html?total_num=12&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-27-0A-Performance_getEntriesByType" name="0A-Performance_getEntriesByType" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-performancetimeline-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if Performance.getEntriesByType exists and type of function - Description: Check if Performance.getEntriesByType exists and type of function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Performance.getEntriesByType exists and type of function - Description: Check if Performance.getEntriesByType exists and type of function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-performancetimeline-w3c-tests/performancetimeline/Performance.html?total_num=12&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-27-0B-Performance_getEntriesByName" name="0B-Performance_getEntriesByName" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-performancetimeline-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if Performance.getEntriesByName exists and type of function - Description: Check if Performance.getEntriesByName exists and type of function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Performance.getEntriesByName exists and type of function - Description: Check if Performance.getEntriesByName exists and type of function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-performancetimeline-w3c-tests/performancetimeline/Performance.html?total_num=12&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-27-0C-Performance_getEntries_basic" name="0C-Performance_getEntries_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-performancetimeline-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the Performance.getEntries() is valid - Description: Check if the Performance.getEntries() is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the Performance.getEntries() is valid - Description: Check if the Performance.getEntries() is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-performancetimeline-w3c-tests/performancetimeline/Performance.html?total_num=12&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-27-0D-Performance_getEntriesByType_basic" name="0D-Performance_getEntriesByType_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-performancetimeline-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if PerformanceEntry.getEntriesByType is valid when entryType does not exist - Description: Check if PerformanceEntry.getEntriesByType is valid when entryType does not exist">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if PerformanceEntry.getEntriesByType is valid when entryType does not exist - Description: Check if PerformanceEntry.getEntriesByType is valid when entryType does not exist]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-performancetimeline-w3c-tests/performancetimeline/Performance.html?total_num=12&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-27-0E-Performance_getEntriesByName_basic" name="0E-Performance_getEntriesByName_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-performancetimeline-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if PerformanceEntry.getEntriesByName is valid when name does not exist - Description: Check if PerformanceEntry.getEntriesByName is valid when name does not exist">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if PerformanceEntry.getEntriesByName is valid when name does not exist - Description: Check if PerformanceEntry.getEntriesByName is valid when name does not exist]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-performancetimeline-w3c-tests/performancetimeline/Performance.html?total_num=12&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-27-0F-Performance_getEntriesByName_basic_1" name="0F-Performance_getEntriesByName_basic_1" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-performancetimeline-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if PerformanceEntry.getEntriesByName is valid when name does not exist and entryType exists - Description: Check if PerformanceEntry.getEntriesByName is valid when name does not exist and entryType exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if PerformanceEntry.getEntriesByName is valid when name does not exist and entryType exists - Description: Check if PerformanceEntry.getEntriesByName is valid when name does not exist and entryType exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-performancetimeline-w3c-tests/performancetimeline/Performance.html?total_num=12&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-27-0G-Performance_getEntriesByName_basic_2" name="0G-Performance_getEntriesByName_basic_2" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-performancetimeline-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if PerformanceEntry.getEntriesByName is valid when name exists and entryType does not exist - Description: Check if PerformanceEntry.getEntriesByName is valid when name exists and entryType does not exist">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if PerformanceEntry.getEntriesByName is valid when name exists and entryType does not exist - Description: Check if PerformanceEntry.getEntriesByName is valid when name exists and entryType does not exist]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-performancetimeline-w3c-tests/performancetimeline/Performance.html?total_num=12&amp;amp;locator_key=id&amp;amp;value=8</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-27-0H-Performance_getEntriesByName_basic_3" name="0H-Performance_getEntriesByName_basic_3" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-performancetimeline-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if PerformanceEntry.getEntriesByName is valid when name and entryType do not exist - Description: Check if PerformanceEntry.getEntriesByName is valid when name and entryType do not exist">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if PerformanceEntry.getEntriesByName is valid when name and entryType do not exist - Description: Check if PerformanceEntry.getEntriesByName is valid when name and entryType do not exist]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-performancetimeline-w3c-tests/performancetimeline/Performance.html?total_num=12&amp;amp;locator_key=id&amp;amp;value=9</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-27-0I-Performance_getEntriesByType_basic_1" name="0I-Performance_getEntriesByType_basic_1" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-performancetimeline-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if PerformanceEntry.getEntriesByType is valid when entryType exists - Description: Check if PerformanceEntry.getEntriesByType is valid when entryType exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if PerformanceEntry.getEntriesByType is valid when entryType exists - Description: Check if PerformanceEntry.getEntriesByType is valid when entryType exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-performancetimeline-w3c-tests/performancetimeline/Performance.html?total_num=12&amp;amp;locator_key=id&amp;amp;value=10</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-27-0J-Performance_getEntriesByName_basic_4" name="0J-Performance_getEntriesByName_basic_4" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-performancetimeline-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if PerformanceEntry.getEntriesByName is valid when name exists - Description: Check if PerformanceEntry.getEntriesByName is valid when name exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if PerformanceEntry.getEntriesByName is valid when name exists - Description: Check if PerformanceEntry.getEntriesByName is valid when name exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-performancetimeline-w3c-tests/performancetimeline/Performance.html?total_num=12&amp;amp;locator_key=id&amp;amp;value=11</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-27-0K-Performance_getEntriesByName_basic_5" name="0K-Performance_getEntriesByName_basic_5" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-performancetimeline-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if PerformanceEntry.getEntriesByName is valid when name and entryType exist - Description: Check if PerformanceEntry.getEntriesByName is valid when name and entryType exist">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if PerformanceEntry.getEntriesByName is valid when name and entryType exist - Description: Check if PerformanceEntry.getEntriesByName is valid when name and entryType exist]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-performancetimeline-w3c-tests/performancetimeline/Performance.html?total_num=12&amp;amp;locator_key=id&amp;amp;value=12</test_script_entry>
+                </description>
+            </testcase>
+        </set>
+    </suite>
+</test_definition>

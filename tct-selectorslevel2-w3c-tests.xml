@@ -1,0 +1,772 @@
+<?xml version="1.0"?>
+<test_definition>
+    <suite launcher="xwalk" name="00-common/E0-crosswalk">
+        <set name="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests">
+            <testcase id="00-E0-00-14-01-selectors2_documentfragment_queryselectorall_exists" name="01-selectors2_documentfragment_queryselectorall_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if NodeSelector DocumentFragment.querySelectorAll() method exists - Description: Check if NodeSelector DocumentFragment.querySelectorAll() method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NodeSelector DocumentFragment.querySelectorAll() method exists - Description: Check if NodeSelector DocumentFragment.querySelectorAll() method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/selectors2_documentfragment_queryselectorall_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-02-selectors2_documentfragment_queryselector_exists" name="02-selectors2_documentfragment_queryselector_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if NodeSelector DocumentFragment.querySelector() method exists - Description: Check if NodeSelector DocumentFragment.querySelector() method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NodeSelector DocumentFragment.querySelector() method exists - Description: Check if NodeSelector DocumentFragment.querySelector() method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/selectors2_documentfragment_queryselector_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-03-selectors2_document_queryselectorall_exists" name="03-selectors2_document_queryselectorall_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if NodeSelector document.querySelectorAll() method exists - Description: Check if NodeSelector document.querySelectorAll() method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NodeSelector document.querySelectorAll() method exists - Description: Check if NodeSelector document.querySelectorAll() method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/selectors2_document_queryselectorall_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-04-selectors2_document_queryselector_exists" name="04-selectors2_document_queryselector_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if NodeSelector document.querySelector() method exists - Description: Check if NodeSelector document.querySelector() method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NodeSelector document.querySelector() method exists - Description: Check if NodeSelector document.querySelector() method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/selectors2_document_queryselector_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-05-selectors2_element_matches_exists" name="05-selectors2_element_matches_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if element.matches() method exists - Description: Check if element.matches() method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.matches() method exists - Description: Check if element.matches() method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/selectors2_element_matches_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-06-selectors2_element_queryselectorall_exists" name="06-selectors2_element_queryselectorall_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if NodeSelector element.querySelectorAll() method exists - Description: Check if NodeSelector element.querySelectorAll() method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NodeSelector element.querySelectorAll() method exists - Description: Check if NodeSelector element.querySelectorAll() method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/selectors2_element_queryselectorall_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-07-selectors2_element_queryselector_exists" name="07-selectors2_element_queryselector_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the type of NodeSelector element.querySelector() is 'unction' - Description: Check if the type of NodeSelector element.querySelector() is 'unction'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the type of NodeSelector element.querySelector() is 'unction' - Description: Check if the type of NodeSelector element.querySelector() is 'unction']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/selectors2_element_queryselector_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-08-selectors2_element_matches_body_gt_div" name="08-selectors2_element_matches_body_gt_div" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the return value of matches('div', 'body > div') is true - Description: Check if the return value of matches('div', 'body > div') is true">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the return value of matches('div', 'body &gt; div') is true - Description: Check if the return value of matches('div', 'body &gt; div') is true]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/selectors2_element_matches_body_gt_div.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-09-selectors2_element_matches_body_div" name="09-selectors2_element_matches_body_div" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the return value of matches('div', 'body div') is true - Description: Check if the return value of matches('div', 'body div') is true">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the return value of matches('div', 'body div') is true - Description: Check if the return value of matches('div', 'body div') is true]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/selectors2_element_matches_body_div.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-0A-selectors2_body_nodeType" name="0A-selectors2_body_nodeType" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the querySelector('body') returns an element with nodeType == 1 - Description: Check if the querySelector('body') returns an element with nodeType == 1">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the querySelector('body') returns an element with nodeType == 1 - Description: Check if the querySelector('body') returns an element with nodeType == 1]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/selectors2_body_nodeType.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-0B-selectors2_matches_type" name="0B-selectors2_matches_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the type of element.matches is 'function' - Description: Check if the type of element.matches is 'function'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the type of element.matches is 'function' - Description: Check if the type of element.matches is 'function']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/selectors2_method_type.html?total_num=3&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-0C-selectors2_querySelector_type" name="0C-selectors2_querySelector_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the type of document.querySelector is 'function' - Description: Check if the type of document.querySelector is 'function'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the type of document.querySelector is 'function' - Description: Check if the type of document.querySelector is 'function']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/selectors2_method_type.html?total_num=3&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-0D-selectors2_querySelectorAll_type" name="0D-selectors2_querySelectorAll_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the type of document.querySelectorAll is 'function' - Description: Check if the type of document.querySelectorAll is 'function'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the type of document.querySelectorAll is 'function' - Description: Check if the type of document.querySelectorAll is 'function']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/selectors2_method_type.html?total_num=3&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-0E-selectors2_document_queryselector_argument_string" name="0E-selectors2_document_queryselector_argument_string" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if NodeSelector document.querySelector() method with argument of string that must return the first matching Element node - Description: Check if NodeSelector document.querySelector() method with argument of string that must return the first matching Element node">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NodeSelector document.querySelector() method with argument of string that must return the first matching Element node - Description: Check if NodeSelector document.querySelector() method with argument of string that must return the first matching Element node]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/selectors2_document_queryselector_argument_string.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-0F-selectors2_document_queryselectorall_argument_string" name="0F-selectors2_document_queryselectorall_argument_string" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if NodeSelector document.querySelectorAll() method with argument of string that must return a NodeList containing all of the matching Element nodes - Description: Check if NodeSelector document.querySelectorAll() method with argument of string that must return a NodeList containing all of the matching Element nodes">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NodeSelector document.querySelectorAll() method with argument of string that must return a NodeList containing all of the matching Element nodes - Description: Check if NodeSelector document.querySelectorAll() method with argument of string that must return a NodeList containing all of the matching Element nodes]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/selectors2_document_queryselectorall_argument_string.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-0G-selectors2_document_queryselectorall_return_nodelist" name="0G-selectors2_document_queryselectorall_return_nodelist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if NodeSelector document.querySelectorAll() method must return a NodeList if there are matching Element nodes within the subtrees of the context node - Description: Check if NodeSelector document.querySelectorAll() method must return a NodeList if there are matching Element nodes within the subtrees of the context node">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NodeSelector document.querySelectorAll() method must return a NodeList if there are matching Element nodes within the subtrees of the context node - Description: Check if NodeSelector document.querySelectorAll() method must return a NodeList if there are matching Element nodes within the subtrees of the context node]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/selectors2_document_queryselectorall_return_nodelist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-0H-selectors2_element_matches_argument_string" name="0H-selectors2_element_matches_argument_string" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if element.matches() method with arguments of string that return true - Description: Check if element.matches() method with arguments of string that return true">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.matches() method with arguments of string that return true - Description: Check if element.matches() method with arguments of string that return true]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/selectors2_element_matches_argument_string.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-0I-selectors2_level1_baseline" name="0I-selectors2_level1_baseline" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the NodeSelector interface implements in Document node, In-document Element node, Detached Element node and Document Fragment node - Description: Check if the NodeSelector interface implements in Document node, In-document Element node, Detached Element node and Document Fragment node" onload_delay="15">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the NodeSelector interface implements in Document node, In-document Element node, Detached Element node and Document Fragment node - Description: Check if the NodeSelector interface implements in Document node, In-document Element node, Detached Element node and Document Fragment node]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/w3c/level1-baseline.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-0J-selectors2_document_find_support" name="0J-selectors2_document_find_support" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if document supports find method - Description: Check if document supports find method">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if document supports find method - Description: Check if document supports find method]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/w3c/submissions/Opera/level2-baseline.html?total_num=1515&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-0K-selectors2_document_findAll_support" name="0K-selectors2_document_findAll_support" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if document supports findAll method - Description: Check if document supports findAll method">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if document supports findAll method - Description: Check if document supports findAll method]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/w3c/submissions/Opera/level2-baseline.html?total_num=1515&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-0L-selectors2_documentfragment_find_support" name="0L-selectors2_documentfragment_find_support" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if DocumentFragment supports find method - Description: Check if DocumentFragment supports find method">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DocumentFragment supports find method - Description: Check if DocumentFragment supports find method]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/w3c/submissions/Opera/level2-baseline.html?total_num=1515&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-0M-selectors2_documentfragment_findAll_support" name="0M-selectors2_documentfragment_findAll_support" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if DocumentFragment supports findAll method - Description: Check if DocumentFragment supports findAll method">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DocumentFragment supports findAll method - Description: Check if DocumentFragment supports findAll method]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/w3c/submissions/Opera/level2-baseline.html?total_num=1515&amp;amp;locator_key=id&amp;amp;value=8</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-0N-selectors2_element_find_support" name="0N-selectors2_element_find_support" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if element supports find method - Description: Check if element supports find method">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element supports find method - Description: Check if element supports find method]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/w3c/submissions/Opera/level2-baseline.html?total_num=1515&amp;amp;locator_key=id&amp;amp;value=9</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-0O-selectors2_element_findAll_support" name="0O-selectors2_element_findAll_support" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if element supports findAll method - Description: Check if element supports findAll method">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element supports findAll method - Description: Check if element supports findAll method]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/w3c/submissions/Opera/level2-baseline.html?total_num=1515&amp;amp;locator_key=id&amp;amp;value=10</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-0P-selectors2_document_findAll_null" name="0P-selectors2_document_findAll_null" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the return value is null when the parameter of document.findAll() is null - Description: Check if the return value is null when the parameter of document.findAll() is null">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the return value is null when the parameter of document.findAll() is null - Description: Check if the return value is null when the parameter of document.findAll() is null]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/w3c/submissions/Opera/level2-baseline.html?total_num=1515&amp;amp;locator_key=id&amp;amp;value=13</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-0Q-selectors2_document_findAll_undefined" name="0Q-selectors2_document_findAll_undefined" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the return value is undefined when the parameter of document.findAll() is undefined - Description: Check if the return value is undefined when the parameter of document.findAll() is undefined">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the return value is undefined when the parameter of document.findAll() is undefined - Description: Check if the return value is undefined when the parameter of document.findAll() is undefined]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/w3c/submissions/Opera/level2-baseline.html?total_num=1515&amp;amp;locator_key=id&amp;amp;value=14</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-0R-selectors2_document_findAll_no_paramenter" name="0R-selectors2_document_findAll_no_paramenter" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if this should throw a TypeError when the document.findAll() is no parameter - Description: Check if this should throw a TypeError when the document.findAll() is no parameter">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if this should throw a TypeError when the document.findAll() is no parameter - Description: Check if this should throw a TypeError when the document.findAll() is no parameter]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/w3c/submissions/Opera/level2-baseline.html?total_num=1515&amp;amp;locator_key=id&amp;amp;value=15</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-0S-selectors2_document_find_null" name="0S-selectors2_document_find_null" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the return value is null when the parameter of document.find() is null - Description: Check if the return value is null when the parameter of document.find() is null">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the return value is null when the parameter of document.find() is null - Description: Check if the return value is null when the parameter of document.find() is null]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/w3c/submissions/Opera/level2-baseline.html?total_num=1515&amp;amp;locator_key=id&amp;amp;value=16</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-0T-selectors2_document_find_undefined" name="0T-selectors2_document_find_undefined" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the return value is undefined when the parameter of document.find() is undefined - Description: Check if the return value is undefined when the parameter of document.find() is undefined">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the return value is undefined when the parameter of document.find() is undefined - Description: Check if the return value is undefined when the parameter of document.find() is undefined]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/w3c/submissions/Opera/level2-baseline.html?total_num=1515&amp;amp;locator_key=id&amp;amp;value=17</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-0U-selectors2_document_find_no_paramenter" name="0U-selectors2_document_find_no_paramenter" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if this should throw a TypeError when the document.find() is no parameter - Description: Check if this should throw a TypeError when the document.find() is no parameter">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if this should throw a TypeError when the document.find() is no parameter - Description: Check if this should throw a TypeError when the document.find() is no parameter]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/w3c/submissions/Opera/level2-baseline.html?total_num=1515&amp;amp;locator_key=id&amp;amp;value=18</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-0V-selectors2_documentfragment_findAll_null" name="0V-selectors2_documentfragment_findAll_null" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the return value is null when the parameter of documentfragment.findAll() is null - Description: Check if the return value is null when the parameter of documentfragment.findAll() is null">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the return value is null when the parameter of documentfragment.findAll() is null - Description: Check if the return value is null when the parameter of documentfragment.findAll() is null]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/w3c/submissions/Opera/level2-baseline.html?total_num=1515&amp;amp;locator_key=id&amp;amp;value=27</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-0W-selectors2_documentfragment_findAll_undefined" name="0W-selectors2_documentfragment_findAll_undefined" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the return value is undefined when the parameter of documentfragment.findAll() is undefined - Description: Check if the return value is undefined when the parameter of documentfragment.findAll() is undefined">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the return value is undefined when the parameter of documentfragment.findAll() is undefined - Description: Check if the return value is undefined when the parameter of documentfragment.findAll() is undefined]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/w3c/submissions/Opera/level2-baseline.html?total_num=1515&amp;amp;locator_key=id&amp;amp;value=28</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-0X-selectors2_documentfragment_findAll_no_paramenter" name="0X-selectors2_documentfragment_findAll_no_paramenter" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if this should throw a TypeError when the documentfragment.findAll() is no parameter - Description: Check if this should throw a TypeError when the documentfragment.findAll() is no parameter">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if this should throw a TypeError when the documentfragment.findAll() is no parameter - Description: Check if this should throw a TypeError when the documentfragment.findAll() is no parameter]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/w3c/submissions/Opera/level2-baseline.html?total_num=1515&amp;amp;locator_key=id&amp;amp;value=29</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-0Y-selectors2_documentfragment_find_null" name="0Y-selectors2_documentfragment_find_null" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the return value is null when the parameter of documentfragment.find() is null - Description: Check if the return value is null when the parameter of documentfragment.find() is null">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the return value is null when the parameter of documentfragment.find() is null - Description: Check if the return value is null when the parameter of documentfragment.find() is null]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/w3c/submissions/Opera/level2-baseline.html?total_num=1515&amp;amp;locator_key=id&amp;amp;value=30</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-0Z-selectors2_documentfragment_find_undefined" name="0Z-selectors2_documentfragment_find_undefined" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the return value is undefined when the parameter of documentfragment.find() is undefined - Description: Check if the return value is undefined when the parameter of documentfragment.find() is undefined">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the return value is undefined when the parameter of documentfragment.find() is undefined - Description: Check if the return value is undefined when the parameter of documentfragment.find() is undefined]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/w3c/submissions/Opera/level2-baseline.html?total_num=1515&amp;amp;locator_key=id&amp;amp;value=31</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-10-selectors2_documentfragment_find_no_paramenter" name="10-selectors2_documentfragment_find_no_paramenter" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if this should throw a TypeError when the documentfragment.find() is no parameter - Description: Check if this should throw a TypeError when the documentfragment.find() is no parameter">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if this should throw a TypeError when the documentfragment.find() is no parameter - Description: Check if this should throw a TypeError when the documentfragment.find() is no parameter]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/w3c/submissions/Opera/level2-baseline.html?total_num=1515&amp;amp;locator_key=id&amp;amp;value=32</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-11-selectors2_element_findAll_null" name="11-selectors2_element_findAll_null" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the return value is null when the parameter of element.findAll() is null - Description: Check if the return value is null when the parameter of element.findAll() is null">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the return value is null when the parameter of element.findAll() is null - Description: Check if the return value is null when the parameter of element.findAll() is null]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/w3c/submissions/Opera/level2-baseline.html?total_num=1515&amp;amp;locator_key=id&amp;amp;value=34</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-12-selectors2_element_findAll_undefined" name="12-selectors2_element_findAll_undefined" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the return value is undefined when the parameter of element.findAll() is undefined - Description: Check if the return value is undefined when the parameter of element.findAll() is undefined">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the return value is undefined when the parameter of element.findAll() is undefined - Description: Check if the return value is undefined when the parameter of element.findAll() is undefined]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/w3c/submissions/Opera/level2-baseline.html?total_num=1515&amp;amp;locator_key=id&amp;amp;value=35</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-13-selectors2_element_findAll_no_paramenter" name="13-selectors2_element_findAll_no_paramenter" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if this should throw a TypeError when the element.findAll() is no parameter - Description: Check if this should throw a TypeError when the element.findAll() is no parameter">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if this should throw a TypeError when the element.findAll() is no parameter - Description: Check if this should throw a TypeError when the element.findAll() is no parameter]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/w3c/submissions/Opera/level2-baseline.html?total_num=1515&amp;amp;locator_key=id&amp;amp;value=36</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-14-selectors2_element_find_null" name="14-selectors2_element_find_null" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the return value is null when the parameter of element.find() is null - Description: Check if the return value is null when the parameter of element.find() is null">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the return value is null when the parameter of element.find() is null - Description: Check if the return value is null when the parameter of element.find() is null]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/w3c/submissions/Opera/level2-baseline.html?total_num=1515&amp;amp;locator_key=id&amp;amp;value=37</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-15-selectors2_element_find_undefined" name="15-selectors2_element_find_undefined" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the return value is undefined when the parameter of element.find() is undefined - Description: Check if the return value is undefined when the parameter of element.find() is undefined">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the return value is undefined when the parameter of element.find() is undefined - Description: Check if the return value is undefined when the parameter of element.find() is undefined]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/w3c/submissions/Opera/level2-baseline.html?total_num=1515&amp;amp;locator_key=id&amp;amp;value=38</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-16-selectors2_element_find_no_paramenter" name="16-selectors2_element_find_no_paramenter" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if this should throw a TypeError when the element.find() is no parameter - Description: Check if this should throw a TypeError when the element.find() is no parameter">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if this should throw a TypeError when the element.find() is no parameter - Description: Check if this should throw a TypeError when the element.find() is no parameter]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/w3c/submissions/Opera/level2-baseline.html?total_num=1515&amp;amp;locator_key=id&amp;amp;value=39</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-17-selectors2_document_find_empry_string" name="17-selectors2_document_find_empry_string" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if this should throw a SyntaxError when the parameter of document.find() is empty string - Description: Check if this should throw a SyntaxError when the parameter of document.find() is empty string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if this should throw a SyntaxError when the parameter of document.find() is empty string - Description: Check if this should throw a SyntaxError when the parameter of document.find() is empty string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/w3c/submissions/Opera/level2-baseline.html?total_num=1515&amp;amp;locator_key=id&amp;amp;value=58</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-18-selectors2_document_findAll_empry_string" name="18-selectors2_document_findAll_empry_string" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if this should throw a SyntaxError when the parameter of document.findAll() is empty string - Description: Check if this should throw a SyntaxError when the parameter of document.findAll() is empty string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if this should throw a SyntaxError when the parameter of document.findAll() is empty string - Description: Check if this should throw a SyntaxError when the parameter of document.findAll() is empty string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/w3c/submissions/Opera/level2-baseline.html?total_num=1515&amp;amp;locator_key=id&amp;amp;value=59</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-19-selectors2_document_find_invalid_id" name="19-selectors2_document_find_invalid_id" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if this should throw a SyntaxError when the parameter of document.find() is invalid id - Description: Check if this should throw a SyntaxError when the parameter of document.find() is invalid id">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if this should throw a SyntaxError when the parameter of document.find() is invalid id - Description: Check if this should throw a SyntaxError when the parameter of document.find() is invalid id]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/w3c/submissions/Opera/level2-baseline.html?total_num=1515&amp;amp;locator_key=id&amp;amp;value=76</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-1A-selectors2_document_findAll_invalid_id" name="1A-selectors2_document_findAll_invalid_id" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if this should throw a SyntaxError when the parameter of document.findAll() is invalid id - Description: Check if this should throw a SyntaxError when the parameter of document.findAll() is invalid id">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if this should throw a SyntaxError when the parameter of document.findAll() is invalid id - Description: Check if this should throw a SyntaxError when the parameter of document.findAll() is invalid id]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/w3c/submissions/Opera/level2-baseline.html?total_num=1515&amp;amp;locator_key=id&amp;amp;value=77</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-1B-selectors2_document_find_invalid_class" name="1B-selectors2_document_find_invalid_class" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if this should throw a SyntaxError when the parameter of document.find() is invalid class - Description: Check if this should throw a SyntaxError when the parameter of document.find() is invalid class">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if this should throw a SyntaxError when the parameter of document.find() is invalid class - Description: Check if this should throw a SyntaxError when the parameter of document.find() is invalid class]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/w3c/submissions/Opera/level2-baseline.html?total_num=1515&amp;amp;locator_key=id&amp;amp;value=80</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-1C-selectors2_document_findAll_invalid_class" name="1C-selectors2_document_findAll_invalid_class" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if this should throw a SyntaxError when the parameter of document.findAll() is invalid class - Description: Check if this should throw a SyntaxError when the parameter of document.findAll() is invalid class">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if this should throw a SyntaxError when the parameter of document.findAll() is invalid class - Description: Check if this should throw a SyntaxError when the parameter of document.findAll() is invalid class]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/w3c/submissions/Opera/level2-baseline.html?total_num=1515&amp;amp;locator_key=id&amp;amp;value=81</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-1D-selectors2_document_find_invalid_namespace" name="1D-selectors2_document_find_invalid_namespace" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if this should throw a SyntaxError when the parameter of document.find() is invalid namespace - Description: Check if this should throw a SyntaxError when the parameter of document.find() is invalid namespace">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if this should throw a SyntaxError when the parameter of document.find() is invalid namespace - Description: Check if this should throw a SyntaxError when the parameter of document.find() is invalid namespace]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/w3c/submissions/Opera/level2-baseline.html?total_num=1515&amp;amp;locator_key=id&amp;amp;value=118</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-1E-selectors2_document_findAll_invalid_namespace" name="1E-selectors2_document_findAll_invalid_namespace" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if this should throw a SyntaxError when the parameter of document.findAll() is invalid namespace - Description: Check if this should throw a SyntaxError when the parameter of document.findAll() is invalid namespace">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if this should throw a SyntaxError when the parameter of document.findAll() is invalid namespace - Description: Check if this should throw a SyntaxError when the parameter of document.findAll() is invalid namespace]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/w3c/submissions/Opera/level2-baseline.html?total_num=1515&amp;amp;locator_key=id&amp;amp;value=119</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-1F-selectors2_documentfragment_find_empry_string" name="1F-selectors2_documentfragment_find_empry_string" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if this should throw a SyntaxError when the parameter of documentfragment.find() is empty string - Description: Check if this should throw a SyntaxError when the parameter of documentfragment.find() is empty string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if this should throw a SyntaxError when the parameter of documentfragment.find() is empty string - Description: Check if this should throw a SyntaxError when the parameter of documentfragment.find() is empty string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/w3c/submissions/Opera/level2-baseline.html?total_num=1515&amp;amp;locator_key=id&amp;amp;value=218</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-1G-selectors2_documentfragment_findAll_empry_string" name="1G-selectors2_documentfragment_findAll_empry_string" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if this should throw a SyntaxError when the parameter of documentfragment.findAll() is empty string - Description: Check if this should throw a SyntaxError when the parameter of documentfragment.findAll() is empty string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if this should throw a SyntaxError when the parameter of documentfragment.findAll() is empty string - Description: Check if this should throw a SyntaxError when the parameter of documentfragment.findAll() is empty string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/w3c/submissions/Opera/level2-baseline.html?total_num=1515&amp;amp;locator_key=id&amp;amp;value=219</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-1H-selectors2_documentfragment_find_invalid_id" name="1H-selectors2_documentfragment_find_invalid_id" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if this should throw a SyntaxError when the parameter of documentfragment.find() is invalid id - Description: Check if this should throw a SyntaxError when the parameter of documentfragment.find() is invalid id">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if this should throw a SyntaxError when the parameter of documentfragment.find() is invalid id - Description: Check if this should throw a SyntaxError when the parameter of documentfragment.find() is invalid id]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/w3c/submissions/Opera/level2-baseline.html?total_num=1515&amp;amp;locator_key=id&amp;amp;value=236</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-1I-selectors2_documentfragment_findAll_invalid_id" name="1I-selectors2_documentfragment_findAll_invalid_id" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if this should throw a SyntaxError when the parameter of documentfragment.findAll() is invalid id - Description: Check if this should throw a SyntaxError when the parameter of documentfragment.findAll() is invalid id">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if this should throw a SyntaxError when the parameter of documentfragment.findAll() is invalid id - Description: Check if this should throw a SyntaxError when the parameter of documentfragment.findAll() is invalid id]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/w3c/submissions/Opera/level2-baseline.html?total_num=1515&amp;amp;locator_key=id&amp;amp;value=237</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-1J-selectors2_documentfragment_find_invalid_class" name="1J-selectors2_documentfragment_find_invalid_class" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if this should throw a SyntaxError when the parameter of documentfragment.find() is invalid class - Description: Check if this should throw a SyntaxError when the parameter of documentfragment.find() is invalid class">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if this should throw a SyntaxError when the parameter of documentfragment.find() is invalid class - Description: Check if this should throw a SyntaxError when the parameter of documentfragment.find() is invalid class]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/w3c/submissions/Opera/level2-baseline.html?total_num=1515&amp;amp;locator_key=id&amp;amp;value=240</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-1K-selectors2_documentfragment_findAll_invalid_class" name="1K-selectors2_documentfragment_findAll_invalid_class" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if this should throw a SyntaxError when the parameter of documentfragment.findAll() is invalid class - Description: Check if this should throw a SyntaxError when the parameter of documentfragment.findAll() is invalid class">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if this should throw a SyntaxError when the parameter of documentfragment.findAll() is invalid class - Description: Check if this should throw a SyntaxError when the parameter of documentfragment.findAll() is invalid class]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/w3c/submissions/Opera/level2-baseline.html?total_num=1515&amp;amp;locator_key=id&amp;amp;value=241</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-1L-selectors2_documentfragment_find_invalid_namespace" name="1L-selectors2_documentfragment_find_invalid_namespace" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if this should throw a SyntaxError when the parameter of documentfragment.find() is invalid namespace - Description: Check if this should throw a SyntaxError when the parameter of documentfragment.find() is invalid namespace">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if this should throw a SyntaxError when the parameter of documentfragment.find() is invalid namespace - Description: Check if this should throw a SyntaxError when the parameter of documentfragment.find() is invalid namespace]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/w3c/submissions/Opera/level2-baseline.html?total_num=1515&amp;amp;locator_key=id&amp;amp;value=278</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-1M-selectors2_documentfragment_findAll_invalid_namespace" name="1M-selectors2_documentfragment_findAll_invalid_namespace" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if this should throw a SyntaxError when the parameter of documentfragment.findAll() is invalid namespace - Description: Check if this should throw a SyntaxError when the parameter of documentfragment.findAll() is invalid namespace">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if this should throw a SyntaxError when the parameter of documentfragment.findAll() is invalid namespace - Description: Check if this should throw a SyntaxError when the parameter of documentfragment.findAll() is invalid namespace]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/w3c/submissions/Opera/level2-baseline.html?total_num=1515&amp;amp;locator_key=id&amp;amp;value=279</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-1N-selectors2_element_find_empry_string" name="1N-selectors2_element_find_empry_string" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if this should throw a SyntaxError when the parameter of element.find() is empty string - Description: Check if this should throw a SyntaxError when the parameter of element.find() is empty string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if this should throw a SyntaxError when the parameter of element.find() is empty string - Description: Check if this should throw a SyntaxError when the parameter of element.find() is empty string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/w3c/submissions/Opera/level2-baseline.html?total_num=1515&amp;amp;locator_key=id&amp;amp;value=282</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-1O-selectors2_element_findAll_empry_string" name="1O-selectors2_element_findAll_empry_string" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if this should throw a SyntaxError when the parameter of element.findAll() is empty string - Description: Check if this should throw a SyntaxError when the parameter of element.findAll() is empty string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if this should throw a SyntaxError when the parameter of element.findAll() is empty string - Description: Check if this should throw a SyntaxError when the parameter of element.findAll() is empty string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/w3c/submissions/Opera/level2-baseline.html?total_num=1515&amp;amp;locator_key=id&amp;amp;value=283</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-1P-selectors2_element_find_invalid_id" name="1P-selectors2_element_find_invalid_id" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if this should throw a SyntaxError when the parameter of element.find() is invalid id - Description: Check if this should throw a SyntaxError when the parameter of element.find() is invalid id">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if this should throw a SyntaxError when the parameter of element.find() is invalid id - Description: Check if this should throw a SyntaxError when the parameter of element.find() is invalid id]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/w3c/submissions/Opera/level2-baseline.html?total_num=1515&amp;amp;locator_key=id&amp;amp;value=309</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-1Q-selectors2_element_findAll_invalid_id" name="1Q-selectors2_element_findAll_invalid_id" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if this should throw a SyntaxError when the parameter of element.findAll() is invalid id - Description: Check if this should throw a SyntaxError when the parameter of element.findAll() is invalid id">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if this should throw a SyntaxError when the parameter of element.findAll() is invalid id - Description: Check if this should throw a SyntaxError when the parameter of element.findAll() is invalid id]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/w3c/submissions/Opera/level2-baseline.html?total_num=1515&amp;amp;locator_key=id&amp;amp;value=310</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-1R-selectors2_element_find_invalid_class" name="1R-selectors2_element_find_invalid_class" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if this should throw a SyntaxError when the parameter of element.find() is invalid class - Description: Check if this should throw a SyntaxError when the parameter of element.find() is invalid class">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if this should throw a SyntaxError when the parameter of element.find() is invalid class - Description: Check if this should throw a SyntaxError when the parameter of element.find() is invalid class]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/w3c/submissions/Opera/level2-baseline.html?total_num=1515&amp;amp;locator_key=id&amp;amp;value=315</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-1S-selectors2_element_findAll_invalid_class" name="1S-selectors2_element_findAll_invalid_class" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if this should throw a SyntaxError when the parameter of element.findAll() is invalid class - Description: Check if this should throw a SyntaxError when the parameter of element.findAll() is invalid class">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if this should throw a SyntaxError when the parameter of element.findAll() is invalid class - Description: Check if this should throw a SyntaxError when the parameter of element.findAll() is invalid class]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/w3c/submissions/Opera/level2-baseline.html?total_num=1515&amp;amp;locator_key=id&amp;amp;value=316</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-1T-selectors2_element_find_invalid_namespace" name="1T-selectors2_element_find_invalid_namespace" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if this should throw a SyntaxError when the parameter of element.find() is invalid namespace - Description: Check if this should throw a SyntaxError when the parameter of element.find() is invalid namespace">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if this should throw a SyntaxError when the parameter of element.find() is invalid namespace - Description: Check if this should throw a SyntaxError when the parameter of element.find() is invalid namespace]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/w3c/submissions/Opera/level2-baseline.html?total_num=1515&amp;amp;locator_key=id&amp;amp;value=372</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-1U-selectors2_element_findAll_invalid_namespace" name="1U-selectors2_element_findAll_invalid_namespace" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if this should throw a SyntaxError when the parameter of element.findAll() is invalid namespace - Description: Check if this should throw a SyntaxError when the parameter of element.findAll() is invalid namespace">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if this should throw a SyntaxError when the parameter of element.findAll() is invalid namespace - Description: Check if this should throw a SyntaxError when the parameter of element.findAll() is invalid namespace]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/w3c/submissions/Opera/level2-baseline.html?total_num=1515&amp;amp;locator_key=id&amp;amp;value=373</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-1V-selectors2_document_findAll_mandatory" name="1V-selectors2_document_findAll_mandatory" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the document.findAll() with no refNodes matches all children of the specified reference element - Description: Check if the document.findAll() with no refNodes matches all children of the specified reference element">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the document.findAll() with no refNodes matches all children of the specified reference element - Description: Check if the document.findAll() with no refNodes matches all children of the specified reference element]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/w3c/submissions/Opera/level2-baseline.html?total_num=1515&amp;amp;locator_key=id&amp;amp;value=948</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-1W-selectors2_document_find_mandatory" name="1W-selectors2_document_find_mandatory" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the document.find() with no refNodes matches all children of the specified reference element - Description: Check if the document.find() with no refNodes matches all children of the specified reference element">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the document.find() with no refNodes matches all children of the specified reference element - Description: Check if the document.find() with no refNodes matches all children of the specified reference element]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/w3c/submissions/Opera/level2-baseline.html?total_num=1515&amp;amp;locator_key=id&amp;amp;value=949</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-1X-selectors2_document_findAll_base" name="1X-selectors2_document_findAll_base" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the document.findAll() with refNode Element matches all children of the specified reference element - Description: Check if the document.findAll() with refNode Element matches all children of the specified reference element">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the document.findAll() with refNode Element matches all children of the specified reference element - Description: Check if the document.findAll() with refNode Element matches all children of the specified reference element]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/w3c/submissions/Opera/level2-baseline.html?total_num=1515&amp;amp;locator_key=id&amp;amp;value=950</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-1Y-selectors2_document_find_base" name="1Y-selectors2_document_find_base" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the document.find() with refNode Element matches all children of the specified reference element - Description: Check if the document.find() with refNode Element matches all children of the specified reference element">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the document.find() with refNode Element matches all children of the specified reference element - Description: Check if the document.find() with refNode Element matches all children of the specified reference element]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/w3c/submissions/Opera/level2-baseline.html?total_num=1515&amp;amp;locator_key=id&amp;amp;value=951</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-1Z-selectors2_document_findAll_valid_class" name="1Z-selectors2_document_findAll_valid_class" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the document.findAll('class') matches element with specified class - Description: Check if the document.findAll('class') matches element with specified class">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the document.findAll('class') matches element with specified class - Description: Check if the document.findAll('class') matches element with specified class]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/w3c/submissions/Opera/level2-baseline.html?total_num=1515&amp;amp;locator_key=id&amp;amp;value=1378</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-20-selectors2_document_find_valid_class" name="20-selectors2_document_find_valid_class" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the document.find('class') matches element with specified class - Description: Check if the document.find('class') matches element with specified class">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the document.find('class') matches element with specified class - Description: Check if the document.find('class') matches element with specified class]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/w3c/submissions/Opera/level2-baseline.html?total_num=1515&amp;amp;locator_key=id&amp;amp;value=1379</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-21-selectors2_document_findAll_valid_id" name="21-selectors2_document_findAll_valid_id" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the document.findAll('id') matches element with specified id - Description: Check if the document.findAll('id') matches element with specified id">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the document.findAll('id') matches element with specified id - Description: Check if the document.findAll('id') matches element with specified id]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/w3c/submissions/Opera/level2-baseline.html?total_num=1515&amp;amp;locator_key=id&amp;amp;value=1394</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-22-selectors2_document_find_valid_id" name="22-selectors2_document_find_valid_id" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the document.find('id') matches element with specified id - Description: Check if the document.find('id') matches element with specified id">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the document.find('id') matches element with specified id - Description: Check if the document.find('id') matches element with specified id]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/w3c/submissions/Opera/level2-baseline.html?total_num=1515&amp;amp;locator_key=id&amp;amp;value=1395</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-23-selectors2_documentfragment_queryselectorall_refNodes_document" name="23-selectors2_documentfragment_queryselectorall_refNodes_document" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the DocumentFragment.querySelectorAll() method with two parameters that the second is document executes well - Description: Check if the DocumentFragment.querySelectorAll() method with two parameters that the second is document executes well">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the DocumentFragment.querySelectorAll() method with two parameters that the second is document executes well - Description: Check if the DocumentFragment.querySelectorAll() method with two parameters that the second is document executes well]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/selectors2_documentfragment_queryselectorall_refNodes_document.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-24-selectors2_documentfragment_queryselectorall_refNodes_element" name="24-selectors2_documentfragment_queryselectorall_refNodes_element" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the DocumentFragment.querySelectorAll() method with two parameters that the second is element executes well - Description: Check if the DocumentFragment.querySelectorAll() method with two parameters that the second is element executes well">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the DocumentFragment.querySelectorAll() method with two parameters that the second is element executes well - Description: Check if the DocumentFragment.querySelectorAll() method with two parameters that the second is element executes well]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/selectors2_documentfragment_queryselectorall_refNodes_element.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-25-selectors2_documentfragment_queryselector_refNodes_document" name="25-selectors2_documentfragment_queryselector_refNodes_document" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the DocumentFragment.querySelector() method with two parameters that the second is document executes well - Description: Check if the DocumentFragment.querySelector() method with two parameters that the second is document executes well">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the DocumentFragment.querySelector() method with two parameters that the second is document executes well - Description: Check if the DocumentFragment.querySelector() method with two parameters that the second is document executes well]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/selectors2_documentfragment_queryselector_refNodes_document.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-26-selectors2_documentfragment_queryselector_refNodes_element" name="26-selectors2_documentfragment_queryselector_refNodes_element" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the DocumentFragment.querySelector() method with two parameters that the second is element executes well - Description: Check if the DocumentFragment.querySelector() method with two parameters that the second is element executes well">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the DocumentFragment.querySelector() method with two parameters that the second is element executes well - Description: Check if the DocumentFragment.querySelector() method with two parameters that the second is element executes well]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/selectors2_documentfragment_queryselector_refNodes_element.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-27-selectors2_document_queryselectorall_refNodes_document" name="27-selectors2_document_queryselectorall_refNodes_document" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: CCheck if the document.querySelectorAll() method with two parameters that the second is document executes well - Description: CCheck if the document.querySelectorAll() method with two parameters that the second is document executes well">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: CCheck if the document.querySelectorAll() method with two parameters that the second is document executes well - Description: CCheck if the document.querySelectorAll() method with two parameters that the second is document executes well]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/selectors2_document_queryselectorall_refNodes_document.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-28-selectors2_document_queryselectorall_refNodes_element" name="28-selectors2_document_queryselectorall_refNodes_element" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the document.querySelectorAll() method with two parameters that the second is element executes well - Description: Check if the document.querySelectorAll() method with two parameters that the second is element executes well">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the document.querySelectorAll() method with two parameters that the second is element executes well - Description: Check if the document.querySelectorAll() method with two parameters that the second is element executes well]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/selectors2_document_queryselectorall_refNodes_element.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-29-selectors2_document_queryselector_refNodes_document" name="29-selectors2_document_queryselector_refNodes_document" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the document.querySelector() method with two parameters that the second is document executes well - Description: Check if the document.querySelector() method with two parameters that the second is document executes well">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the document.querySelector() method with two parameters that the second is document executes well - Description: Check if the document.querySelector() method with two parameters that the second is document executes well]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/selectors2_document_queryselector_refNodes_document.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-2A-selectors2_element_queryselectorall_refNodes_document" name="2A-selectors2_element_queryselectorall_refNodes_document" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the element.querySelectorAll() method with two parameters that the second is document executes well - Description: Check if the element.querySelectorAll() method with two parameters that the second is document executes well">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the element.querySelectorAll() method with two parameters that the second is document executes well - Description: Check if the element.querySelectorAll() method with two parameters that the second is document executes well]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/selectors2_element_queryselectorall_refNodes_document.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-2B-selectors2_element_queryselectorall_refNodes_element" name="2B-selectors2_element_queryselectorall_refNodes_element" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the element.querySelectorAll() method with two parameters that the second is element executes well - Description: Check if the element.querySelectorAll() method with two parameters that the second is element executes well">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the element.querySelectorAll() method with two parameters that the second is element executes well - Description: Check if the element.querySelectorAll() method with two parameters that the second is element executes well]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/selectors2_element_queryselectorall_refNodes_element.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-2C-selectors2_element_queryselector_refNodes_document" name="2C-selectors2_element_queryselector_refNodes_document" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the element.querySelector() method with two parameters that the second is document executes well - Description: Check if the element.querySelector() method with two parameters that the second is document executes well">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the element.querySelector() method with two parameters that the second is document executes well - Description: Check if the element.querySelector() method with two parameters that the second is document executes well]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/selectors2_element_queryselector_refNodes_document.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-14-2D-selectors2_element_queryselector_refNodes_element" name="2D-selectors2_element_queryselector_refNodes_element" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel2-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the element.querySelector() method with two parameters that the second is element executes well - Description: Check if the element.querySelector() method with two parameters that the second is element executes well">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the element.querySelector() method with two parameters that the second is element executes well - Description: Check if the element.querySelector() method with two parameters that the second is element executes well]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel2-w3c-tests/selectorslevel2/selectors2_element_queryselector_refNodes_element.html</test_script_entry>
+                </description>
+            </testcase>
+        </set>
+    </suite>
+</test_definition>

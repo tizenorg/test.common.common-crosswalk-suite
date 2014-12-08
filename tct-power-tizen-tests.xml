@@ -1,0 +1,439 @@
+<?xml version="1.0"?>
+<test_definition>
+    <suite launcher="xwalk" name="00-common/E0-crosswalk">
+        <set name="common/crosswalk/deviceapi/tct-power-tizen-tests">
+            <testcase id="00-E0-01-0M-01-PowerManager_turnScreenOn_method_exists" name="01-PowerManager_turnScreenOn_method_exists" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-power-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if turnScreenOn method exists - Description: Check if turnScreenOn method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if turnScreenOn method exists - Description: Check if turnScreenOn method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-power-tizen-tests/power/PowerManager_turnScreenOn_method_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0M-02-PowerManager_request_missarg" name="02-PowerManager_request_missarg" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-power-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if request() method called without all obligatory arguments throws an exception - Description: Check if request() method called without all obligatory arguments throws an exception">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if request() method called without all obligatory arguments throws an exception - Description: Check if request() method called without all obligatory arguments throws an exception]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-power-tizen-tests/power/PowerManager_request_missarg.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0M-03-PowerManagerObject_notexist" name="03-PowerManagerObject_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-power-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if interface PowerManagerObject exists, it should not - Description: Check if interface PowerManagerObject exists, it should not">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if interface PowerManagerObject exists, it should not - Description: Check if interface PowerManagerObject exists, it should not]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-power-tizen-tests/power/PowerManagerObject_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0M-04-PowerManager_notexist" name="04-PowerManager_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-power-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if interface PowerManager exists, it should not - Description: Check if interface PowerManager exists, it should not">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if interface PowerManager exists, it should not - Description: Check if interface PowerManager exists, it should not]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-power-tizen-tests/power/PowerManager_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0M-05-ScreenStateChangeCallback_notexist" name="05-ScreenStateChangeCallback_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-power-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if interface ScreenStateChangeCallback exists, it should not - Description: Check if interface ScreenStateChangeCallback exists, it should not">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if interface ScreenStateChangeCallback exists, it should not - Description: Check if interface ScreenStateChangeCallback exists, it should not]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-power-tizen-tests/power/ScreenStateChangeCallback_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0M-06-PowerManager_extend" name="06-PowerManager_extend" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-power-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if tizen.power can have new properties added, it should not - Description: Check if tizen.power can have new properties added, it should not">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if tizen.power can have new properties added, it should not - Description: Check if tizen.power can have new properties added, it should not]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-power-tizen-tests/power/PowerManager_extend.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0M-07-PowerManager_in_tizen" name="07-PowerManager_in_tizen" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-power-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if Tizen implements interface PowerManagerObject and has attribute power - Description: Check if Tizen implements interface PowerManagerObject and has attribute power">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Tizen implements interface PowerManagerObject and has attribute power - Description: Check if Tizen implements interface PowerManagerObject and has attribute power]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-power-tizen-tests/power/PowerManager_in_tizen.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0M-08-PowerManager_request_exist" name="08-PowerManager_request_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-power-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if method request of PowerManager exists - Description: Check if method request of PowerManager exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if method request of PowerManager exists - Description: Check if method request of PowerManager exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-power-tizen-tests/power/PowerManager_request_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0M-09-PowerManager_request_CPU_AWAKE" name="09-PowerManager_request_CPU_AWAKE" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-power-tizen-tests" status="designed" type="compliance" purpose="Objective: Check whether request() method with CPU resource and CPU_AWAKE state does not throw exception - Description: Check whether request() method with CPU resource and CPU_AWAKE state does not throw exception">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check whether request() method with CPU resource and CPU_AWAKE state does not throw exception - Description: Check whether request() method with CPU resource and CPU_AWAKE state does not throw exception]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-power-tizen-tests/power/PowerManager_request_CPU_AWAKE.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0M-0A-PowerManager_request_SCREEN_DIM" name="0A-PowerManager_request_SCREEN_DIM" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-power-tizen-tests" status="designed" type="compliance" purpose="Objective: Check whether request() method with SCREEN resource and SCREEN_DIM state does not throw exception - Description: Check whether request() method with SCREEN resource and SCREEN_DIM state does not throw exception">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check whether request() method with SCREEN resource and SCREEN_DIM state does not throw exception - Description: Check whether request() method with SCREEN resource and SCREEN_DIM state does not throw exception]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-power-tizen-tests/power/PowerManager_request_SCREEN_DIM.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0M-0B-PowerManager_request_SCREEN_NORMAL" name="0B-PowerManager_request_SCREEN_NORMAL" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-power-tizen-tests" status="designed" type="compliance" purpose="Objective: Check whether request() method with SCREEN resource and SCREEN_NORMAL state does not throw exception - Description: Check whether request() method with SCREEN resource and SCREEN_NORMAL state does not throw exception">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check whether request() method with SCREEN resource and SCREEN_NORMAL state does not throw exception - Description: Check whether request() method with SCREEN resource and SCREEN_NORMAL state does not throw exception]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-power-tizen-tests/power/PowerManager_request_SCREEN_NORMAL.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0M-0C-PowerManager_request_resource_TypeMismatch" name="0C-PowerManager_request_resource_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-power-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if request() method throws TypeMismatchException when incorrect resource given - Description: Check if request() method throws TypeMismatchException when incorrect resource given">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if request() method throws TypeMismatchException when incorrect resource given - Description: Check if request() method throws TypeMismatchException when incorrect resource given]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-power-tizen-tests/power/PowerManager_request_resource_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0M-0D-PowerManager_request_state_TypeMismatch" name="0D-PowerManager_request_state_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-power-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if request() method throws TypeMismatchException when incorrect state given - Description: Check if request() method throws TypeMismatchException when incorrect state given">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if request() method throws TypeMismatchException when incorrect state given - Description: Check if request() method throws TypeMismatchException when incorrect state given]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-power-tizen-tests/power/PowerManager_request_state_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0M-0E-PowerManager_release" name="0E-PowerManager_release" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-power-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if release() method called with proper argument does not throw exceptions - Description: Check if release() method called with proper argument does not throw exceptions">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if release() method called with proper argument does not throw exceptions - Description: Check if release() method called with proper argument does not throw exceptions]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-power-tizen-tests/power/PowerManager_release.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0M-0F-PowerManager_release_exist" name="0F-PowerManager_release_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-power-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if method release of PowerManager exists - Description: Check if method release of PowerManager exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if method release of PowerManager exists - Description: Check if method release of PowerManager exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-power-tizen-tests/power/PowerManager_release_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0M-0G-PowerManager_release_missarg" name="0G-PowerManager_release_missarg" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-power-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if release() method called without all obligatory arguments throws an exception - Description: Check if release() method called without all obligatory arguments throws an exception">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if release() method called without all obligatory arguments throws an exception - Description: Check if release() method called without all obligatory arguments throws an exception]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-power-tizen-tests/power/PowerManager_release_missarg.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0M-0H-PowerManager_release_resource_TypeMismatch" name="0H-PowerManager_release_resource_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-power-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if release() method throws TypeMismatchException when incorrect resource given - Description: Check if release() method throws TypeMismatchException when incorrect resource given">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if release() method throws TypeMismatchException when incorrect resource given - Description: Check if release() method throws TypeMismatchException when incorrect resource given]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-power-tizen-tests/power/PowerManager_release_resource_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0M-0I-PowerManager_getScreenBrightness" name="0I-PowerManager_getScreenBrightness" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-power-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if getScreenBrightness method called with non-optional arguments does what it should - Description: Check if getScreenBrightness method called with non-optional arguments does what it should">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if getScreenBrightness method called with non-optional arguments does what it should - Description: Check if getScreenBrightness method called with non-optional arguments does what it should]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-power-tizen-tests/power/PowerManager_getScreenBrightness.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0M-0J-PowerManager_getScreenBrightness_exist" name="0J-PowerManager_getScreenBrightness_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-power-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if getScreenBrightness exists - Description: Check if getScreenBrightness exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if getScreenBrightness exists - Description: Check if getScreenBrightness exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-power-tizen-tests/power/PowerManager_getScreenBrightness_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0M-0K-PowerManager_getScreenBrightness_extra_argument" name="0K-PowerManager_getScreenBrightness_extra_argument" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-power-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if getScreenBrightness method can be invoked with extra argument - Description: Check if getScreenBrightness method can be invoked with extra argument">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if getScreenBrightness method can be invoked with extra argument - Description: Check if getScreenBrightness method can be invoked with extra argument]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-power-tizen-tests/power/PowerManager_getScreenBrightness_extra_argument.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0M-0L-PowerManager_isScreenOn" name="0L-PowerManager_isScreenOn" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-power-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if isScreenOn method called with non-optional arguments does what it should - Description: Check if isScreenOn method called with non-optional arguments does what it should">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if isScreenOn method called with non-optional arguments does what it should - Description: Check if isScreenOn method called with non-optional arguments does what it should]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-power-tizen-tests/power/PowerManager_isScreenOn.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0M-0M-PowerManager_isScreenOn_exist" name="0M-PowerManager_isScreenOn_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-power-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if isScreenOn exists - Description: Check if isScreenOn exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if isScreenOn exists - Description: Check if isScreenOn exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-power-tizen-tests/power/PowerManager_isScreenOn_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0M-0N-PowerManager_isScreenOn_extra_argument" name="0N-PowerManager_isScreenOn_extra_argument" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-power-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if isScreenOn method can be invoked with extra argument - Description: Check if isScreenOn method can be invoked with extra argument">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if isScreenOn method can be invoked with extra argument - Description: Check if isScreenOn method can be invoked with extra argument]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-power-tizen-tests/power/PowerManager_isScreenOn_extra_argument.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0M-0O-PowerManager_restoreScreenBrightness" name="0O-PowerManager_restoreScreenBrightness" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-power-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if restoreScreenBrightness method called with non-optional arguments does what it should - Description: Check if restoreScreenBrightness method called with non-optional arguments does what it should">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if restoreScreenBrightness method called with non-optional arguments does what it should - Description: Check if restoreScreenBrightness method called with non-optional arguments does what it should]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-power-tizen-tests/power/PowerManager_restoreScreenBrightness.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0M-0P-PowerManager_restoreScreenBrightness_exist" name="0P-PowerManager_restoreScreenBrightness_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-power-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if restoreScreenBrightness exists - Description: Check if restoreScreenBrightness exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if restoreScreenBrightness exists - Description: Check if restoreScreenBrightness exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-power-tizen-tests/power/PowerManager_restoreScreenBrightness_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0M-0Q-PowerManager_restoreScreenBrightness_extra_argument" name="0Q-PowerManager_restoreScreenBrightness_extra_argument" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-power-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if restoreScreenBrightness method can be invoked with extra argument - Description: Check if restoreScreenBrightness method can be invoked with extra argument">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if restoreScreenBrightness method can be invoked with extra argument - Description: Check if restoreScreenBrightness method can be invoked with extra argument]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-power-tizen-tests/power/PowerManager_restoreScreenBrightness_extra_argument.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0M-0R-PowerManager_setScreenBrightness" name="0R-PowerManager_setScreenBrightness" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-power-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if setScreenBrightness method called with non-optional arguments does what it should - Description: Check if setScreenBrightness method called with non-optional arguments does what it should">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if setScreenBrightness method called with non-optional arguments does what it should - Description: Check if setScreenBrightness method called with non-optional arguments does what it should]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-power-tizen-tests/power/PowerManager_setScreenBrightness.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0M-0S-PowerManager_setScreenBrightness_brightness_TypeMismatch" name="0S-PowerManager_setScreenBrightness_brightness_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-power-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if setScreenBrightness throws exception when brightness is incorrect - Description: Check if setScreenBrightness throws exception when brightness is incorrect">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if setScreenBrightness throws exception when brightness is incorrect - Description: Check if setScreenBrightness throws exception when brightness is incorrect]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-power-tizen-tests/power/PowerManager_setScreenBrightness_brightness_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0M-0T-PowerManager_setScreenBrightness_exist" name="0T-PowerManager_setScreenBrightness_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-power-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if setScreenBrightness exists - Description: Check if setScreenBrightness exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if setScreenBrightness exists - Description: Check if setScreenBrightness exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-power-tizen-tests/power/PowerManager_setScreenBrightness_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0M-0U-PowerManager_setScreenBrightness_missarg" name="0U-PowerManager_setScreenBrightness_missarg" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-power-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if setScreenBrightness method called with missing non-optional argument throws an exception - Description: Check if setScreenBrightness method called with missing non-optional argument throws an exception">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if setScreenBrightness method called with missing non-optional argument throws an exception - Description: Check if setScreenBrightness method called with missing non-optional argument throws an exception]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-power-tizen-tests/power/PowerManager_setScreenBrightness_missarg.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0M-0V-PowerManager_setScreenStateChangeListener" name="0V-PowerManager_setScreenStateChangeListener" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-power-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if setScreenStateChangeListener method called with non-optional arguments does what it should - Description: Check if setScreenStateChangeListener method called with non-optional arguments does what it should" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if setScreenStateChangeListener method called with non-optional arguments does what it should - Description: Check if setScreenStateChangeListener method called with non-optional arguments does what it should]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-power-tizen-tests/power/PowerManager_setScreenStateChangeListener.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0M-0W-PowerManager_setScreenStateChangeListener_exist" name="0W-PowerManager_setScreenStateChangeListener_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-power-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if setScreenStateChangeListener exists - Description: Check if setScreenStateChangeListener exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if setScreenStateChangeListener exists - Description: Check if setScreenStateChangeListener exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-power-tizen-tests/power/PowerManager_setScreenStateChangeListener_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0M-0X-PowerManager_setScreenStateChangeListener_listener_TypeMismatch" name="0X-PowerManager_setScreenStateChangeListener_listener_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-power-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if setScreenStateChangeListener throws exception when listener is incorrect - Description: Check if setScreenStateChangeListener throws exception when listener is incorrect">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if setScreenStateChangeListener throws exception when listener is incorrect - Description: Check if setScreenStateChangeListener throws exception when listener is incorrect]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-power-tizen-tests/power/PowerManager_setScreenStateChangeListener_listener_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0M-0Y-PowerManager_setScreenStateChangeListener_listener_invalid_cb" name="0Y-PowerManager_setScreenStateChangeListener_listener_invalid_cb" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-power-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if setScreenStateChangeListener throws exception when success callback is incorrect - Description: Check if setScreenStateChangeListener throws exception when success callback is incorrect" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if setScreenStateChangeListener throws exception when success callback is incorrect - Description: Check if setScreenStateChangeListener throws exception when success callback is incorrect]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-power-tizen-tests/power/PowerManager_setScreenStateChangeListener_listener_invalid_cb.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0M-0Z-PowerManager_setScreenStateChangeListener_missarg" name="0Z-PowerManager_setScreenStateChangeListener_missarg" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-power-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if setScreenStateChangeListener method called with missing non-optional argument throws an exception - Description: Check if setScreenStateChangeListener method called with missing non-optional argument throws an exception">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if setScreenStateChangeListener method called with missing non-optional argument throws an exception - Description: Check if setScreenStateChangeListener method called with missing non-optional argument throws an exception]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-power-tizen-tests/power/PowerManager_setScreenStateChangeListener_missarg.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0M-10-PowerManager_turnScreenOff" name="10-PowerManager_turnScreenOff" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-power-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if turnScreenOff method called with non-optional arguments does what it should - Description: Check if turnScreenOff method called with non-optional arguments does what it should">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if turnScreenOff method called with non-optional arguments does what it should - Description: Check if turnScreenOff method called with non-optional arguments does what it should]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-power-tizen-tests/power/PowerManager_turnScreenOff.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0M-11-PowerManager_turnScreenOff_exist" name="11-PowerManager_turnScreenOff_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-power-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if turnScreenOff exists - Description: Check if turnScreenOff exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if turnScreenOff exists - Description: Check if turnScreenOff exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-power-tizen-tests/power/PowerManager_turnScreenOff_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0M-12-PowerManager_turnScreenOff_extra_argument" name="12-PowerManager_turnScreenOff_extra_argument" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-power-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if turnScreenOff method can be invoked with extra argument - Description: Check if turnScreenOff method can be invoked with extra argument">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if turnScreenOff method can be invoked with extra argument - Description: Check if turnScreenOff method can be invoked with extra argument]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-power-tizen-tests/power/PowerManager_turnScreenOff_extra_argument.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0M-13-PowerManager_turnScreenOn" name="13-PowerManager_turnScreenOn" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-power-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if turnScreenOn method called with non-optional arguments does what it should - Description: Check if turnScreenOn method called with non-optional arguments does what it should">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if turnScreenOn method called with non-optional arguments does what it should - Description: Check if turnScreenOn method called with non-optional arguments does what it should]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-power-tizen-tests/power/PowerManager_turnScreenOn.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0M-14-PowerManager_turnScreenOn_exist" name="14-PowerManager_turnScreenOn_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-power-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if turnScreenOn exists - Description: Check if turnScreenOn exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if turnScreenOn exists - Description: Check if turnScreenOn exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-power-tizen-tests/power/PowerManager_turnScreenOn_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0M-15-PowerManager_turnScreenOn_extra_argument" name="15-PowerManager_turnScreenOn_extra_argument" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-power-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if turnScreenOn method can be invoked with extra argument - Description: Check if turnScreenOn method can be invoked with extra argument">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if turnScreenOn method can be invoked with extra argument - Description: Check if turnScreenOn method can be invoked with extra argument]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-power-tizen-tests/power/PowerManager_turnScreenOn_extra_argument.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0M-16-PowerManager_unsetScreenStateChangeListener" name="16-PowerManager_unsetScreenStateChangeListener" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-power-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if unsetScreenStateChangeListener method called with non-optional arguments does what it should - Description: Check if unsetScreenStateChangeListener method called with non-optional arguments does what it should">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if unsetScreenStateChangeListener method called with non-optional arguments does what it should - Description: Check if unsetScreenStateChangeListener method called with non-optional arguments does what it should]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-power-tizen-tests/power/PowerManager_unsetScreenStateChangeListener.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0M-17-PowerManager_unsetScreenStateChangeListener_exist" name="17-PowerManager_unsetScreenStateChangeListener_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-power-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if unsetScreenStateChangeListener exists - Description: Check if unsetScreenStateChangeListener exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if unsetScreenStateChangeListener exists - Description: Check if unsetScreenStateChangeListener exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-power-tizen-tests/power/PowerManager_unsetScreenStateChangeListener_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0M-18-PowerManager_unsetScreenStateChangeListener_extra_argument" name="18-PowerManager_unsetScreenStateChangeListener_extra_argument" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-power-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if unsetScreenStateChangeListener method can be invoked with extra argument - Description: Check if unsetScreenStateChangeListener method can be invoked with extra argument">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if unsetScreenStateChangeListener method can be invoked with extra argument - Description: Check if unsetScreenStateChangeListener method can be invoked with extra argument]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-power-tizen-tests/power/PowerManager_unsetScreenStateChangeListener_extra_argument.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0M-19-ScreenStateChangeCallback_onchanged" name="19-ScreenStateChangeCallback_onchanged" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-power-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if ContentScanSuccessCallback onchanged is called and if its arguments have proper type - Description: Check if ContentScanSuccessCallback onchanged is called and if its arguments have proper type" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ContentScanSuccessCallback onchanged is called and if its arguments have proper type - Description: Check if ContentScanSuccessCallback onchanged is called and if its arguments have proper type]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-power-tizen-tests/power/ScreenStateChangeCallback_onchanged.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0M-1A-PowerManager_setScreenBrightness_brightness_invalid_val" name="1A-PowerManager_setScreenBrightness_brightness_invalid_val" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-power-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if setScreenBrightness() method doesn't set out of range screen brightness - Description: Check if setScreenBrightness() method doesn't set out of range screen brightness">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if setScreenBrightness() method doesn't set out of range screen brightness - Description: Check if setScreenBrightness() method doesn't set out of range screen brightness]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-power-tizen-tests/power/PowerManager_setScreenBrightness_brightness_invalid_val.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0M-1B-PowerManager_getScreenBrightness_check_change" name="1B-PowerManager_getScreenBrightness_check_change" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-power-tizen-tests" status="designed" type="compliance" purpose="Objective: Check whether getScreenBrightness() method gets the screen brightness level correctly - Description: Check whether getScreenBrightness() method gets the screen brightness level correctly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check whether getScreenBrightness() method gets the screen brightness level correctly - Description: Check whether getScreenBrightness() method gets the screen brightness level correctly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-power-tizen-tests/power/PowerManager_getScreenBrightness_check_change.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0M-1C-PowerManager_isScreenOn_check_change" name="1C-PowerManager_isScreenOn_check_change" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-power-tizen-tests" status="designed" type="compliance" purpose="Objective: Check whether isScreenOn() method gets the screen state correctly - Description: Check whether isScreenOn() method gets the screen state correctly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check whether isScreenOn() method gets the screen state correctly - Description: Check whether isScreenOn() method gets the screen state correctly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-power-tizen-tests/power/PowerManager_isScreenOn_check_change.html</test_script_entry>
+                </description>
+            </testcase>
+        </set>
+    </suite>
+</test_definition>

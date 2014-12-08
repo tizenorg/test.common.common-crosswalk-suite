@@ -1,0 +1,205 @@
+<?xml version="1.0"?>
+<test_definition>
+    <suite launcher="xwalk" name="00-common/E0-crosswalk">
+        <set name="common/crosswalk/deviceapi/tct-websetting-tizen-tests">
+            <testcase id="00-E0-01-0U-01-WebSettingObject_notexist" name="01-WebSettingObject_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-websetting-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if WebSetting object notexist - Description: Check if WebSetting object notexist">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if WebSetting object notexist - Description: Check if WebSetting object notexist]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-websetting-tizen-tests/websetting/WebSettingObject_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0U-02-WebSettingManager_in_tizen" name="02-WebSettingManager_in_tizen" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-websetting-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if WebsettingManager exists in Tizen - Description: Check if WebsettingManager exists in Tizen">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if WebsettingManager exists in Tizen - Description: Check if WebsettingManager exists in Tizen]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-websetting-tizen-tests/websetting/WebSettingManager_in_tizen.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0U-03-WebSettingManager_extend" name="03-WebSettingManager_extend" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-websetting-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if instance of interface WebsettingManager can be extended with new property - Description: Check if instance of interface WebsettingManager can be extended with new property">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if instance of interface WebsettingManager can be extended with new property - Description: Check if instance of interface WebsettingManager can be extended with new property]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-websetting-tizen-tests/websetting/WebSettingManager_extend.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0U-04-WebSettingManager_notexist" name="04-WebSettingManager_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-websetting-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if WebSettingManager notexist - Description: Check if WebSettingManager notexist">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if WebSettingManager notexist - Description: Check if WebSettingManager notexist]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-websetting-tizen-tests/websetting/WebSettingManager_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0U-05-WebSettingManager_setUserAgentString_exist" name="05-WebSettingManager_setUserAgentString_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-websetting-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if setUserAgentString method exists in WebSettingManager - Description: Check if setUserAgentString method exists in WebSettingManager">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if setUserAgentString method exists in WebSettingManager - Description: Check if setUserAgentString method exists in WebSettingManager]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-websetting-tizen-tests/websetting/WebSettingManager_setUserAgentString_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0U-06-WebSettingManager_setUserAgentString" name="06-WebSettingManager_setUserAgentString" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-websetting-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if WebsettingManager setAgentString method works properly - Description: Check if WebsettingManager setAgentString method works properly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if WebsettingManager setAgentString method works properly - Description: Check if WebsettingManager setAgentString method works properly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-websetting-tizen-tests/websetting/WebSettingManager_setUserAgentString.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0U-07-WebSettingManager_setUserAgentString_nullableargs" name="07-WebSettingManager_setUserAgentString_nullableargs" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-websetting-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if setAgentString method with optional null arguments works properly - Description: Check if setAgentString method with optional null arguments works properly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if setAgentString method with optional null arguments works properly - Description: Check if setAgentString method with optional null arguments works properly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-websetting-tizen-tests/websetting/WebSettingManager_setUserAgentString_nullableargs.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0U-08-WebSettingManager_setUserAgentString_with_successCallback" name="08-WebSettingManager_setUserAgentString_with_successCallback" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-websetting-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if WebsettingManager setAgentString method with successCallback works properly - Description: Check if WebsettingManager setAgentString method with successCallback works properly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if WebsettingManager setAgentString method with successCallback works properly - Description: Check if WebsettingManager setAgentString method with successCallback works properly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-websetting-tizen-tests/websetting/WebSettingManager_setUserAgentString_with_successCallback.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0U-09-WebSettingManager_setUserAgentString_successCallback_invalid_cb" name="09-WebSettingManager_setUserAgentString_successCallback_invalid_cb" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-websetting-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if setUserAgentString throws exception when invalid success callback is given - Description: Check if setUserAgentString throws exception when invalid success callback is given">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if setUserAgentString throws exception when invalid success callback is given - Description: Check if setUserAgentString throws exception when invalid success callback is given]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-websetting-tizen-tests/websetting/WebSettingManager_setUserAgentString_successCallback_invalid_cb.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0U-0A-WebSettingManager_setUserAgentString_successCallback_TypeMismatch" name="0A-WebSettingManager_setUserAgentString_successCallback_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-websetting-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if setUserAgentString throws exception when success callback is incorrect - Description: Check if setUserAgentString throws exception when success callback is incorrect">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if setUserAgentString throws exception when success callback is incorrect - Description: Check if setUserAgentString throws exception when success callback is incorrect]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-websetting-tizen-tests/websetting/WebSettingManager_setUserAgentString_successCallback_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0U-0B-WebSettingManager_setUserAgentString_errorCallback_invalid_cb" name="0B-WebSettingManager_setUserAgentString_errorCallback_invalid_cb" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-websetting-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if setUserAgentString throws exception when invalid error callback is given - Description: Check if setUserAgentString throws exception when invalid error callback is given">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if setUserAgentString throws exception when invalid error callback is given - Description: Check if setUserAgentString throws exception when invalid error callback is given]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-websetting-tizen-tests/websetting/WebSettingManager_setUserAgentString_errorCallback_invalid_cb.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0U-0C-WebSettingManager_setUserAgentString_with_errorCallback" name="0C-WebSettingManager_setUserAgentString_with_errorCallback" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-websetting-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if WebsettingManager setAgentString method with errorCallback works properly - Description: Check if WebsettingManager setAgentString method with errorCallback works properly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if WebsettingManager setAgentString method with errorCallback works properly - Description: Check if WebsettingManager setAgentString method with errorCallback works properly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-websetting-tizen-tests/websetting/WebSettingManager_setUserAgentString_with_errorCallback.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0U-0D-WebSettingManager_setUserAgentString_errorCallback_TypeMismatch" name="0D-WebSettingManager_setUserAgentString_errorCallback_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-websetting-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if setUserAgentString throws exception when error callback is incorrect - Description: Check if setUserAgentString throws exception when error callback is incorrect">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if setUserAgentString throws exception when error callback is incorrect - Description: Check if setUserAgentString throws exception when error callback is incorrect]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-websetting-tizen-tests/websetting/WebSettingManager_setUserAgentString_errorCallback_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0U-0E-WebSettingManager_removeAllCookies_exist" name="0E-WebSettingManager_removeAllCookies_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-websetting-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if removeAllCookies method exists in WebSettingManager - Description: Check if removeAllCookies method exists in WebSettingManager">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if removeAllCookies method exists in WebSettingManager - Description: Check if removeAllCookies method exists in WebSettingManager]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-websetting-tizen-tests/websetting/WebSettingManager_removeAllCookies_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0U-0F-WebSettingManager_removeAllCookies" name="0F-WebSettingManager_removeAllCookies" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-websetting-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if removeAllCookies method works properly - Description: Check if removeAllCookies method works properly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if removeAllCookies method works properly - Description: Check if removeAllCookies method works properly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-websetting-tizen-tests/websetting/WebSettingManager_removeAllCookies.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0U-0G-WebSettingManager_removeAllCookies_nullableargs" name="0G-WebSettingManager_removeAllCookies_nullableargs" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-websetting-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if removeAllCookies method with null arguments works properly - Description: Check if removeAllCookies method with null arguments works properly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if removeAllCookies method with null arguments works properly - Description: Check if removeAllCookies method with null arguments works properly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-websetting-tizen-tests/websetting/WebSettingManager_removeAllCookies_nullableargs.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0U-0H-WebSettingManager_removeAllCookies_with_successCallback" name="0H-WebSettingManager_removeAllCookies_with_successCallback" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-websetting-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if removeAllCookies method with success callback works properly - Description: Check if removeAllCookies method with success callback works properly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if removeAllCookies method with success callback works properly - Description: Check if removeAllCookies method with success callback works properly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-websetting-tizen-tests/websetting/WebSettingManager_removeAllCookies_with_successCallback.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0U-0I-WebSettingManager_removeAllCookies_successCallback_invalid_cb" name="0I-WebSettingManager_removeAllCookies_successCallback_invalid_cb" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-websetting-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if removeAllCookies throws exception when invalid success callback is given - Description: Check if removeAllCookies throws exception when invalid success callback is given">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if removeAllCookies throws exception when invalid success callback is given - Description: Check if removeAllCookies throws exception when invalid success callback is given]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-websetting-tizen-tests/websetting/WebSettingManager_removeAllCookies_successCallback_invalid_cb.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0U-0J-WebSettingManager_removeAllCookies_successCallback_TypeMismatch" name="0J-WebSettingManager_removeAllCookies_successCallback_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-websetting-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if removeAllCookies throws exception when success callback is incorrect - Description: Check if removeAllCookies throws exception when success callback is incorrect">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if removeAllCookies throws exception when success callback is incorrect - Description: Check if removeAllCookies throws exception when success callback is incorrect]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-websetting-tizen-tests/websetting/WebSettingManager_removeAllCookies_successCallback_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0U-0K-WebSettingManager_removeAllCookies_with_errorCallback" name="0K-WebSettingManager_removeAllCookies_with_errorCallback" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-websetting-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if removeAllCookies method with error callback works properly - Description: Check if removeAllCookies method with error callback works properly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if removeAllCookies method with error callback works properly - Description: Check if removeAllCookies method with error callback works properly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-websetting-tizen-tests/websetting/WebSettingManager_removeAllCookies_with_errorCallback.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0U-0L-WebSettingManager_removeAllCookies_errorCallback_invalid_cb" name="0L-WebSettingManager_removeAllCookies_errorCallback_invalid_cb" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-websetting-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if removeAllCookies throws exception when invalid error callback is given - Description: Check if removeAllCookies throws exception when invalid error callback is given">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if removeAllCookies throws exception when invalid error callback is given - Description: Check if removeAllCookies throws exception when invalid error callback is given]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-websetting-tizen-tests/websetting/WebSettingManager_removeAllCookies_errorCallback_invalid_cb.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0U-0M-WebSettingManager_removeAllCookies_errorCallback_TypeMismatch" name="0M-WebSettingManager_removeAllCookies_errorCallback_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-websetting-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if removeAllCookies throws exception when error callback is incorrect - Description: Check if removeAllCookies throws exception when error callback is incorrect">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if removeAllCookies throws exception when error callback is incorrect - Description: Check if removeAllCookies throws exception when error callback is incorrect]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-websetting-tizen-tests/websetting/WebSettingManager_removeAllCookies_errorCallback_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+        </set>
+    </suite>
+</test_definition>

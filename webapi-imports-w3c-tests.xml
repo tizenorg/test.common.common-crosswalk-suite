@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<test_definition>
+    <suite launcher="xwalk" name="00-common/E0-crosswalk">
+        <set name="common/crosswalk/commonapi/webapi-imports-w3c-tests">
+            <testcase id="00-E0-00-21-01-LinkImport_import_not_import" name="01-LinkImport_import_not_import" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-imports-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the import attribute must return null when the link does not represent an import - Description: Check if the import attribute must return null when the link does not represent an import">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the import attribute must return null when the link does not represent an import - Description: Check if the import attribute must return null when the link does not represent an import]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-imports-w3c-tests/imports/LinkImport_import_not_import.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-21-02-LinkImport_import_not_in_document" name="02-LinkImport_import_not_in_document" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-imports-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the import attribute must return null when the link element is not in a Document - Description: Check if the import attribute must return null when the link element is not in a Document">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the import attribute must return null when the link element is not in a Document - Description: Check if the import attribute must return null when the link element is not in a Document]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-imports-w3c-tests/imports/LinkImport_import_not_in_document.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-21-03-LinkImport_import_set_removed_flag" name="03-LinkImport_import_set_removed_flag" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-imports-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the import attribute must return null when the element removed flag of the import is set - Description: Check if the import attribute must return null when the element removed flag of the import is set">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the import attribute must return null when the element removed flag of the import is set - Description: Check if the import attribute must return null when the element removed flag of the import is set]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-imports-w3c-tests/imports/LinkImport_import_set_removed_flag.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-21-04-LinkImport_import_valid" name="04-LinkImport_import_valid" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-imports-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the import attribute must return the imported document for the import - Description: Check if the import attribute must return the imported document for the import">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the import attribute must return the imported document for the import - Description: Check if the import attribute must return the imported document for the import]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-imports-w3c-tests/imports/LinkImport_import_valid.html</test_script_entry>
+                </description>
+            </testcase>
+        </set>
+    </suite>
+</test_definition>

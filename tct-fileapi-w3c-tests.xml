@@ -1,0 +1,988 @@
+<?xml version="1.0"?>
+<test_definition>
+    <suite launcher="xwalk" name="00-common/E0-crosswalk">
+        <set name="common/crosswalk/commonapi/tct-fileapi-w3c-tests">
+            <testcase id="00-E0-00-0H-01-FileReader_readAsArrayBuffer_exist" name="01-FileReader_readAsArrayBuffer_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileReader.readAsArrayBuffer exists - Description: Check if FileReader.readAsArrayBuffer exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileReader.readAsArrayBuffer exists - Description: Check if FileReader.readAsArrayBuffer exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReader_readAsArrayBuffer_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-02-FileReader_readAsText_exist" name="02-FileReader_readAsText_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileReader.readAsText exists - Description: Check if FileReader.readAsText exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileReader.readAsText exists - Description: Check if FileReader.readAsText exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReader_readAsText_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-03-FileReader_readAsDataURL_exist" name="03-FileReader_readAsDataURL_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileReader.readAsDataURL exists - Description: Check if FileReader.readAsDataURL exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileReader.readAsDataURL exists - Description: Check if FileReader.readAsDataURL exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReader_readAsDataURL_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-04-FileReader_abort_exist" name="04-FileReader_abort_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileReader.abort exists - Description: Check if FileReader.abort exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileReader.abort exists - Description: Check if FileReader.abort exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReader_abort_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-05-FileReader_EMPTY_exist" name="05-FileReader_EMPTY_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the constant FileReader.EMPTY exists - Description: Check if the constant FileReader.EMPTY exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the constant FileReader.EMPTY exists - Description: Check if the constant FileReader.EMPTY exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReader_EMPTY_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-06-FileReader_LOADING_exist" name="06-FileReader_LOADING_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the constant FileReader.LOADING exists - Description: Check if the constant FileReader.LOADING exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the constant FileReader.LOADING exists - Description: Check if the constant FileReader.LOADING exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReader_LOADING_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-07-FileReader_DONE_exist" name="07-FileReader_DONE_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the constant FileReader.DONE exists - Description: Check if the constant FileReader.DONE exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the constant FileReader.DONE exists - Description: Check if the constant FileReader.DONE exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReader_DONE_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-08-FileReaderSync_readAsArrayBuffer_exist" name="08-FileReaderSync_readAsArrayBuffer_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileReaderSync.readAsArrayBuffer exists - Description: Check if FileReaderSync.readAsArrayBuffer exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileReaderSync.readAsArrayBuffer exists - Description: Check if FileReaderSync.readAsArrayBuffer exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReaderSync_readAsArrayBuffer_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-09-FileReaderSync_readAsText_exist" name="09-FileReaderSync_readAsText_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileReaderSync.readAsText exists - Description: Check if FileReaderSync.readAsText exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileReaderSync.readAsText exists - Description: Check if FileReaderSync.readAsText exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReaderSync_readAsText_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-0A-FileReaderSync_readAsDataURL_exist" name="0A-FileReaderSync_readAsDataURL_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileReaderSync.readAsDataURL exists - Description: Check if FileReaderSync.readAsDataURL exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileReaderSync.readAsDataURL exists - Description: Check if FileReaderSync.readAsDataURL exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReaderSync_readAsDataURL_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-0B-URL_createObjectURL_exist" name="0B-URL_createObjectURL_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if URL.createObjectURL exists - Description: Check if URL.createObjectURL exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if URL.createObjectURL exists - Description: Check if URL.createObjectURL exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/URL_createObjectURL_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-0C-URL_revokeObjectURL_exist" name="0C-URL_revokeObjectURL_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if URL.revokeObjectURL exists - Description: Check if URL.revokeObjectURL exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if URL.revokeObjectURL exists - Description: Check if URL.revokeObjectURL exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/URL_revokeObjectURL_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-0D-FileList_item_exist" name="0D-FileList_item_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileList.item attribute exists - Description: Check if FileList.item attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileList.item attribute exists - Description: Check if FileList.item attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileList_item_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-0E-FileList_length_exist" name="0E-FileList_length_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileList.length attribute exists - Description: Check if FileList.length attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileList.length attribute exists - Description: Check if FileList.length attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileList_length_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-0F-FileReader_error_exist" name="0F-FileReader_error_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileReader.error method exists - Description: Check if FileReader.error method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileReader.error method exists - Description: Check if FileReader.error method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReader_error_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-0G-FileReader_onabort_exist" name="0G-FileReader_onabort_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileReader.onabort method exists - Description: Check if FileReader.onabort method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileReader.onabort method exists - Description: Check if FileReader.onabort method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReader_onabort_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-0H-FileReader_onerror_exist" name="0H-FileReader_onerror_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileReader.onerror method exists - Description: Check if FileReader.onerror method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileReader.onerror method exists - Description: Check if FileReader.onerror method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReader_onerror_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-0I-FileReader_onloadend_exist" name="0I-FileReader_onloadend_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileReader.onloadend method exists - Description: Check if FileReader.onloadend method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileReader.onloadend method exists - Description: Check if FileReader.onloadend method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReader_onloadend_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-0J-FileReader_onloadstart_exist" name="0J-FileReader_onloadstart_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileReader.onloadstart method exists - Description: Check if FileReader.onloadstart method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileReader.onloadstart method exists - Description: Check if FileReader.onloadstart method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReader_onloadstart_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-0K-FileReader_onload_exist" name="0K-FileReader_onload_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileReader.onload method exists - Description: Check if FileReader.onload method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileReader.onload method exists - Description: Check if FileReader.onload method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReader_onload_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-0L-FileReader_onprogress_exist" name="0L-FileReader_onprogress_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileReader.onprogress method exists - Description: Check if FileReader.onprogress method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileReader.onprogress method exists - Description: Check if FileReader.onprogress method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReader_onprogress_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-0M-FileReader_readyState_exist" name="0M-FileReader_readyState_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileReader.readyState method exists - Description: Check if FileReader.readyState method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileReader.readyState method exists - Description: Check if FileReader.readyState method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReader_readyState_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-0N-Blob_slice_overflow" name="0N-Blob_slice_overflow" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check the value of Blob.slice when processing the slice call with user agent normalized from 1998 to 2999 - Description: Check the value of Blob.slice when processing the slice call with user agent normalized from 1998 to 2999">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check the value of Blob.slice when processing the slice call with user agent normalized from 1998 to 2999 - Description: Check the value of Blob.slice when processing the slice call with user agent normalized from 1998 to 2999]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/Blob_slice_overflow.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-0O-Blob_size_normal" name="0O-Blob_size_normal" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the attribute of the interface Blob size is not null - Description: Check if the attribute of the interface Blob size is not null">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the attribute of the interface Blob size is not null - Description: Check if the attribute of the interface Blob size is not null]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/Blob_size_normal.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-0P-FileReader_constructor_base" name="0P-FileReader_constructor_base" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the user agent must return a new FileReader object when the FileReader() constructor is invoked - Description: Check if the user agent must return a new FileReader object when the FileReader() constructor is invoked">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the user agent must return a new FileReader object when the FileReader() constructor is invoked - Description: Check if the user agent must return a new FileReader object when the FileReader() constructor is invoked]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReader_constructor_base.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-0Q-FileReader_DONE_type" name="0Q-FileReader_DONE_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the constant FileReader.DONE is of type number - Description: Check if the constant FileReader.DONE is of type number">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the constant FileReader.DONE is of type number - Description: Check if the constant FileReader.DONE is of type number]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReader_DONE_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-0R-FileReader_EMPTY_type" name="0R-FileReader_EMPTY_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the constant FileReader.EMPTY is of type number - Description: Check if the constant FileReader.EMPTY is of type number">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the constant FileReader.EMPTY is of type number - Description: Check if the constant FileReader.EMPTY is of type number]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReader_EMPTY_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-0S-FileReader_error_readonly" name="0S-FileReader_error_readonly" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileReader.error is readonly - Description: Check if FileReader.error is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileReader.error is readonly - Description: Check if FileReader.error is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReader_error_readonly.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-0T-FileReader_LOADING_type" name="0T-FileReader_LOADING_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the constant FileReader.LOADING is of type number - Description: Check if the constant FileReader.LOADING is of type number">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the constant FileReader.LOADING is of type number - Description: Check if the constant FileReader.LOADING is of type number]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReader_LOADING_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-0U-FileReader_readyState_type" name="0U-FileReader_readyState_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileReader.readyState is of type number - Description: Check if FileReader.readyState is of type number">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileReader.readyState is of type number - Description: Check if FileReader.readyState is of type number]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReader_readyState_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-0V-FileReader_result_readonly" name="0V-FileReader_result_readonly" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileReader.result is readonly - Description: Check if FileReader.result is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileReader.result is readonly - Description: Check if FileReader.result is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReader_result_readonly.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-0W-filelist_1" name="0W-filelist_1" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if window has a FileList property - Description: Check if window has a FileList property">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if window has a FileList property - Description: Check if window has a FileList property]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/w3c/filelist-section/filelist.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-0X-filelist_2" name="0X-filelist_2" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the FileList length default is 0 - Description: Check if the FileList length default is 0">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the FileList length default is 0 - Description: Check if the FileList length default is 0]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/w3c/filelist-section/filelist.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-0Y-filelist_3" name="0Y-filelist_3" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if item is a instanceof Function - Description: Check if item is a instanceof Function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if item is a instanceof Function - Description: Check if item is a instanceof Function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/w3c/filelist-section/filelist.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-0Z-filelist_4" name="0Z-filelist_4" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if item is a method of fileList - Description: Check if item is a method of fileList">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if item is a method of fileList - Description: Check if item is a method of fileList]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/w3c/filelist-section/filelist.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-10-filelist_5" name="10-filelist_5" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the item method returns null when no file selected - Description: Check if the item method returns null when no file selected">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the item method returns null when no file selected - Description: Check if the item method returns null when no file selected]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/w3c/filelist-section/filelist.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-11-filelist_7" name="11-filelist_7" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the fileList length is 0 when no file selected - Description: Check if the fileList length is 0 when no file selected">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the fileList length is 0 when no file selected - Description: Check if the fileList length is 0 when no file selected]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/w3c/filelist-section/filelist.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-12-Blob-constructor_44" name="12-Blob-constructor_44" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if Blob method slice 3 strings(foo bar baz) as blobParts slice(0,9) get foobarbaz - Description: Check if Blob method slice 3 strings(foo bar baz) as blobParts slice(0,9) get foobarbaz">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Blob method slice 3 strings(foo bar baz) as blobParts slice(0,9) get foobarbaz - Description: Check if Blob method slice 3 strings(foo bar baz) as blobParts slice(0,9) get foobarbaz]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/w3c/Blob-constructor.html?total_num=110&amp;amp;locator_key=id&amp;amp;value=44</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-13-Blob-constructor_46" name="13-Blob-constructor_46" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if Blob method slice 3 strings(foo bar baz) as blobParts slice(0,3) get foo - Description: Check if Blob method slice 3 strings(foo bar baz) as blobParts slice(0,3) get foo">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Blob method slice 3 strings(foo bar baz) as blobParts slice(0,3) get foo - Description: Check if Blob method slice 3 strings(foo bar baz) as blobParts slice(0,3) get foo]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/w3c/Blob-constructor.html?total_num=110&amp;amp;locator_key=id&amp;amp;value=46</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-14-Blob-constructor_56" name="14-Blob-constructor_56" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if Blob method slice 3 strings(foo bar baz) as blobParts slice(0,11) get foobarbaz - Description: Check if Blob method slice 3 strings(foo bar baz) as blobParts slice(0,11) get foobarbaz">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Blob method slice 3 strings(foo bar baz) as blobParts slice(0,11) get foobarbaz - Description: Check if Blob method slice 3 strings(foo bar baz) as blobParts slice(0,11) get foobarbaz]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/w3c/Blob-constructor.html?total_num=110&amp;amp;locator_key=id&amp;amp;value=56</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-15-Blob-constructor_58" name="15-Blob-constructor_58" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if Blob method slice 3 strings(foo bar baz) as blobParts slice(10,5) get null - Description: Check if Blob method slice 3 strings(foo bar baz) as blobParts slice(10,5) get null">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Blob method slice 3 strings(foo bar baz) as blobParts slice(10,5) get null - Description: Check if Blob method slice 3 strings(foo bar baz) as blobParts slice(10,5) get null]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/w3c/Blob-constructor.html?total_num=110&amp;amp;locator_key=id&amp;amp;value=58</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-16-Blob-constructor_62" name="16-Blob-constructor_62" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if Blob method slice string(foo), Blob(squiggle), string(baz) as blobParts slice from(3,8) get squiggle - Description: Check if Blob method slice string(foo), Blob(squiggle), string(baz) as blobParts slice from(3,8) get squiggle">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Blob method slice string(foo), Blob(squiggle), string(baz) as blobParts slice from(3,8) get squiggle - Description: Check if Blob method slice string(foo), Blob(squiggle), string(baz) as blobParts slice from(3,8) get squiggle]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/w3c/Blob-constructor.html?total_num=110&amp;amp;locator_key=id&amp;amp;value=62</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-17-Blob-constructor_64" name="17-Blob-constructor_64" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if Blob method slice string(foo), Blob(squiggle), string(baz) as blobParts slice from(2,2) get os - Description: Check if Blob method slice string(foo), Blob(squiggle), string(baz) as blobParts slice from(2,2) get os">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Blob method slice string(foo), Blob(squiggle), string(baz) as blobParts slice from(2,2) get os - Description: Check if Blob method slice string(foo), Blob(squiggle), string(baz) as blobParts slice from(2,2) get os]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/w3c/Blob-constructor.html?total_num=110&amp;amp;locator_key=id&amp;amp;value=64</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-18-Blob-constructor_92" name="18-Blob-constructor_92" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if Blob method slice ArrayBufferView(A-P), Blob(squiggle), string(foo) as blobParts slice(8,10) get IJKLMNOPsq - Description: Check if Blob method slice ArrayBufferView(A-P), Blob(squiggle), string(foo) as blobParts slice(8,10) get IJKLMNOPsq">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Blob method slice ArrayBufferView(A-P), Blob(squiggle), string(foo) as blobParts slice(8,10) get IJKLMNOPsq - Description: Check if Blob method slice ArrayBufferView(A-P), Blob(squiggle), string(foo) as blobParts slice(8,10) get IJKLMNOPsq]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/w3c/Blob-constructor.html?total_num=110&amp;amp;locator_key=id&amp;amp;value=92</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-19-Blob-constructor_98" name="19-Blob-constructor_98" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if Blob method slice partial [ArrayBufferView(A-P),3,5], blob(squiggle), string(foo) as blobParts slice(0,8) get DEFGHsqu - Description: Check if Blob method slice partial [ArrayBufferView(A-P),3,5], blob(squiggle), string(foo) as blobParts slice(0,8) get DEFGHsqu">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Blob method slice partial [ArrayBufferView(A-P),3,5], blob(squiggle), string(foo) as blobParts slice(0,8) get DEFGHsqu - Description: Check if Blob method slice partial [ArrayBufferView(A-P),3,5], blob(squiggle), string(foo) as blobParts slice(0,8) get DEFGHsqu]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/w3c/Blob-constructor.html?total_num=110&amp;amp;locator_key=id&amp;amp;value=98</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-1A-Blob-constructor_100" name="1A-Blob-constructor_100" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if Blob method slice partial [ArrayBufferView(A-P),3,5], blob(squiggle), string(foo) as blobParts slice(8,10) get igglefoo - Description: Check if Blob method slice partial [ArrayBufferView(A-P),3,5], blob(squiggle), string(foo) as blobParts slice(8,10) get igglefoo">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Blob method slice partial [ArrayBufferView(A-P),3,5], blob(squiggle), string(foo) as blobParts slice(8,10) get igglefoo - Description: Check if Blob method slice partial [ArrayBufferView(A-P),3,5], blob(squiggle), string(foo) as blobParts slice(8,10) get igglefoo]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/w3c/Blob-constructor.html?total_num=110&amp;amp;locator_key=id&amp;amp;value=100</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-1B-Blob-constructor_102" name="1B-Blob-constructor_102" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if Blob method slice partial [ArrayBufferView(A-P),3,5], blob(squiggle), string(foo) as blobParts slice(4,8) get Hsquiggl - Description: Check if Blob method slice partial [ArrayBufferView(A-P),3,5], blob(squiggle), string(foo) as blobParts slice(4,8) get Hsquiggl">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Blob method slice partial [ArrayBufferView(A-P),3,5], blob(squiggle), string(foo) as blobParts slice(4,8) get Hsquiggl - Description: Check if Blob method slice partial [ArrayBufferView(A-P),3,5], blob(squiggle), string(foo) as blobParts slice(4,8) get Hsquiggl]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/w3c/Blob-constructor.html?total_num=110&amp;amp;locator_key=id&amp;amp;value=102</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-1C-Blob-constructor_104" name="1C-Blob-constructor_104" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if Blob method slice 3, int8View(A-P), string(foo) as blobParts slice(0,8) get 3ABCDEFG - Description: Check if Blob method slice 3, int8View(A-P), string(foo) as blobParts slice(0,8) get 3ABCDEFG">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Blob method slice 3, int8View(A-P), string(foo) as blobParts slice(0,8) get 3ABCDEFG - Description: Check if Blob method slice 3, int8View(A-P), string(foo) as blobParts slice(0,8) get 3ABCDEFG]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/w3c/Blob-constructor.html?total_num=110&amp;amp;locator_key=id&amp;amp;value=104</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-1D-Blob-constructor_106" name="1D-Blob-constructor_106" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if Blob method slice 3, int8View(A-P), string(foo) as blobParts slice(8,10) get HIJKLMNOPf - Description: Check if Blob method slice 3, int8View(A-P), string(foo) as blobParts slice(8,10) get HIJKLMNOPf">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Blob method slice 3, int8View(A-P), string(foo) as blobParts slice(8,10) get HIJKLMNOPf - Description: Check if Blob method slice 3, int8View(A-P), string(foo) as blobParts slice(8,10) get HIJKLMNOPf]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/w3c/Blob-constructor.html?total_num=110&amp;amp;locator_key=id&amp;amp;value=106</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-1E-Blob-constructor_108" name="1E-Blob-constructor_108" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if Blob method slice 3, int8View(A-P), string(foo) as blobParts slice(17,4) get foo - Description: Check if Blob method slice 3, int8View(A-P), string(foo) as blobParts slice(17,4) get foo">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Blob method slice 3, int8View(A-P), string(foo) as blobParts slice(17,4) get foo - Description: Check if Blob method slice 3, int8View(A-P), string(foo) as blobParts slice(17,4) get foo]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/w3c/Blob-constructor.html?total_num=110&amp;amp;locator_key=id&amp;amp;value=108</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-1F-Blob-constructor_110" name="1F-Blob-constructor_110" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if Blob method slice 3, int8View(A-P), string(foo) as blobParts slice(4,8) get foo - Description: Check if Blob method slice 3, int8View(A-P), string(foo) as blobParts slice(4,8) get foo">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Blob method slice 3, int8View(A-P), string(foo) as blobParts slice(4,8) get foo - Description: Check if Blob method slice 3, int8View(A-P), string(foo) as blobParts slice(4,8) get foo]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/w3c/Blob-constructor.html?total_num=110&amp;amp;locator_key=id&amp;amp;value=110</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-1G-Blob_slice_two_five" name="1G-Blob_slice_two_five" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the method slice value of interface Blob,when processing the slice call,user agents must normalize start to 2 and end to 5 - Description: Check if the method slice value of interface Blob,when processing the slice call,user agents must normalize start to 2 and end to 5">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the method slice value of interface Blob,when processing the slice call,user agents must normalize start to 2 and end to 5 - Description: Check if the method slice value of interface Blob,when processing the slice call,user agents must normalize start to 2 and end to 5]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/w3c/Blob-slice.html?total_num=124&amp;amp;locator_key=id&amp;amp;value=13</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-1H-Blob_slice_zero" name="1H-Blob_slice_zero" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the method slice value of interface Blob, when processing the slice call, user agents must normalize start to 0 and end to 10 - Description: Check if the method slice value of interface Blob, when processing the slice call, user agents must normalize start to 0 and end to 10">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the method slice value of interface Blob, when processing the slice call, user agents must normalize start to 0 and end to 10 - Description: Check if the method slice value of interface Blob, when processing the slice call, user agents must normalize start to 0 and end to 10]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/w3c/Blob-slice.html?total_num=124&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-1I-Blob_slice_zero_five" name="1I-Blob_slice_zero_five" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the method slice value of interface Blob,when processing the slice call,user agents must normalize start to 0 and end to 5 - Description: Check if the method slice value of interface Blob,when processing the slice call,user agents must normalize start to 0 and end to 5">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the method slice value of interface Blob,when processing the slice call,user agents must normalize start to 0 and end to 5 - Description: Check if the method slice value of interface Blob,when processing the slice call,user agents must normalize start to 0 and end to 5]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/w3c/Blob-slice.html?total_num=124&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-1J-Blob_slice_zero_size" name="1J-Blob_slice_zero_size" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the method slice value of interface Blob, when processing the slice call, user agents must normalize start to 0 and end to size - Description: Check if the method slice value of interface Blob, when processing the slice call, user agents must normalize start to 0 and end to size">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the method slice value of interface Blob, when processing the slice call, user agents must normalize start to 0 and end to size - Description: Check if the method slice value of interface Blob, when processing the slice call, user agents must normalize start to 0 and end to size]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/w3c/Blob-slice.html?total_num=124&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-1K-FileReaderSync_readAsArrayBuffer_base" name="1K-FileReaderSync_readAsArrayBuffer_base" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if obtain an ArrayBuffer object using the readAsArrayBuffer method by FileReaderSync interface - Description: Check if obtain an ArrayBuffer object using the readAsArrayBuffer method by FileReaderSync interface">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if obtain an ArrayBuffer object using the readAsArrayBuffer method by FileReaderSync interface - Description: Check if obtain an ArrayBuffer object using the readAsArrayBuffer method by FileReaderSync interface]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReaderSync_readAsArrayBuffer_base.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-1L-FileReaderSync_readAsArrayBuffer_Blob_invalid" name="1L-FileReaderSync_readAsArrayBuffer_Blob_invalid" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileReaderSync.readAsArrayBuffer throws an exception when the argument is invalid - Description: Check if FileReaderSync.readAsArrayBuffer throws an exception when the argument is invalid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileReaderSync.readAsArrayBuffer throws an exception when the argument is invalid - Description: Check if FileReaderSync.readAsArrayBuffer throws an exception when the argument is invalid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReaderSync_readAsArrayBuffer_Blob_invalid.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-1M-FileReaderSync_readAsArrayBuffer_empty_string" name="1M-FileReaderSync_readAsArrayBuffer_empty_string" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileReaderSync.readAsArrayBuffer throws an exception when the argument is empty string - Description: Check if FileReaderSync.readAsArrayBuffer throws an exception when the argument is empty string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileReaderSync.readAsArrayBuffer throws an exception when the argument is empty string - Description: Check if FileReaderSync.readAsArrayBuffer throws an exception when the argument is empty string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReaderSync_readAsArrayBuffer_empty_string.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-1N-FileReaderSync_readAsArrayBuffer_no_argument" name="1N-FileReaderSync_readAsArrayBuffer_no_argument" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileReaderSync.readAsArrayBuffer has no argument that expecting an exception is to be thrown - Description: Check if FileReaderSync.readAsArrayBuffer has no argument that expecting an exception is to be thrown">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileReaderSync.readAsArrayBuffer has no argument that expecting an exception is to be thrown - Description: Check if FileReaderSync.readAsArrayBuffer has no argument that expecting an exception is to be thrown]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReaderSync_readAsArrayBuffer_no_argument.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-1O-FileReaderSync_readAsArrayBuffer_return_arraybuffer" name="1O-FileReaderSync_readAsArrayBuffer_return_arraybuffer" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileReaderSync.readAsArrayBuffer has a valid argument that expecting the data contents of blob as an ArrayBuffer is to be returned - Description: Check if FileReaderSync.readAsArrayBuffer has a valid argument that expecting the data contents of blob as an ArrayBuffer is to be returned">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileReaderSync.readAsArrayBuffer has a valid argument that expecting the data contents of blob as an ArrayBuffer is to be returned - Description: Check if FileReaderSync.readAsArrayBuffer has a valid argument that expecting the data contents of blob as an ArrayBuffer is to be returned]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReaderSync_readAsArrayBuffer_return_arraybuffer.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-1P-FileReaderSync_readAsArrayBuffer_return_type" name="1P-FileReaderSync_readAsArrayBuffer_return_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the return value of FileReaderSync.readAsArrayBuffer is of ArrayBuffer object type - Description: Check if the return value of FileReaderSync.readAsArrayBuffer is of ArrayBuffer object type">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the return value of FileReaderSync.readAsArrayBuffer is of ArrayBuffer object type - Description: Check if the return value of FileReaderSync.readAsArrayBuffer is of ArrayBuffer object type]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReaderSync_readAsArrayBuffer_return_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-1Q-FileReaderSync_readAsArrayBuffer_set_null" name="1Q-FileReaderSync_readAsArrayBuffer_set_null" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileReaderSync.readAsArrayBuffer throws an exception when the argument is null - Description: Check if FileReaderSync.readAsArrayBuffer throws an exception when the argument is null">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileReaderSync.readAsArrayBuffer throws an exception when the argument is null - Description: Check if FileReaderSync.readAsArrayBuffer throws an exception when the argument is null]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReaderSync_readAsArrayBuffer_set_null.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-1R-FileReaderSync_readAsBinaryString_base" name="1R-FileReaderSync_readAsBinaryString_base" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if read a blob text using readAsBinaryString method by FileReaderSync interface - Description: Check if read a blob text using readAsBinaryString method by FileReaderSync interface">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if read a blob text using readAsBinaryString method by FileReaderSync interface - Description: Check if read a blob text using readAsBinaryString method by FileReaderSync interface]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReaderSync_readAsBinaryString_base.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-1S-FileReaderSync_readAsBinaryString_Blob_invalid" name="1S-FileReaderSync_readAsBinaryString_Blob_invalid" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileReaderSync.readAsBinaryString has a invalid argument that expecting an exception is to be thrown - Description: Check if FileReaderSync.readAsBinaryString has a invalid argument that expecting an exception is to be thrown">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileReaderSync.readAsBinaryString has a invalid argument that expecting an exception is to be thrown - Description: Check if FileReaderSync.readAsBinaryString has a invalid argument that expecting an exception is to be thrown]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReaderSync_readAsBinaryString_Blob_invalid.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-1T-FileReaderSync_readAsBinaryString_empty_string" name="1T-FileReaderSync_readAsBinaryString_empty_string" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileReaderSync.readAsBinaryString throws an exception when the argument is empty string - Description: Check if FileReaderSync.readAsBinaryString throws an exception when the argument is empty string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileReaderSync.readAsBinaryString throws an exception when the argument is empty string - Description: Check if FileReaderSync.readAsBinaryString throws an exception when the argument is empty string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReaderSync_readAsBinaryString_empty_string.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-1U-FileReaderSync_readAsBinaryString_no_argument" name="1U-FileReaderSync_readAsBinaryString_no_argument" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileReaderSync.readAsBinaryString has no argument that expecting an exception is to be thrown - Description: Check if FileReaderSync.readAsBinaryString has no argument that expecting an exception is to be thrown">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileReaderSync.readAsBinaryString has no argument that expecting an exception is to be thrown - Description: Check if FileReaderSync.readAsBinaryString has no argument that expecting an exception is to be thrown]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReaderSync_readAsBinaryString_no_argument.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-1V-FileReaderSync_readAsBinaryString_return_string" name="1V-FileReaderSync_readAsBinaryString_return_string" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileReaderSync.readAsBinaryString has a valid argument that expecting the data contents of blob as an binary string is to be returned - Description: Check if FileReaderSync.readAsBinaryString has a valid argument that expecting the data contents of blob as an binary string is to be returned">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileReaderSync.readAsBinaryString has a valid argument that expecting the data contents of blob as an binary string is to be returned - Description: Check if FileReaderSync.readAsBinaryString has a valid argument that expecting the data contents of blob as an binary string is to be returned]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReaderSync_readAsBinaryString_return_string.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-1W-FileReaderSync_readAsBinaryString_return_type" name="1W-FileReaderSync_readAsBinaryString_return_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the return value of FileReaderSync.readAsBinaryString is of type string - Description: Check if the return value of FileReaderSync.readAsBinaryString is of type string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the return value of FileReaderSync.readAsBinaryString is of type string - Description: Check if the return value of FileReaderSync.readAsBinaryString is of type string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReaderSync_readAsBinaryString_return_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-1X-FileReaderSync_readAsBinaryString_set_null" name="1X-FileReaderSync_readAsBinaryString_set_null" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileReaderSync.readAsBinaryString throws an exception when the argument is null - Description: Check if FileReaderSync.readAsBinaryString throws an exception when the argument is null">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileReaderSync.readAsBinaryString throws an exception when the argument is null - Description: Check if FileReaderSync.readAsBinaryString throws an exception when the argument is null]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReaderSync_readAsBinaryString_set_null.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-1Y-FileReaderSync_readAsDataURL_base" name="1Y-FileReaderSync_readAsDataURL_base" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if returns the data of blob as a Data URL by FileReaderSync interface - Description: Check if returns the data of blob as a Data URL by FileReaderSync interface">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if returns the data of blob as a Data URL by FileReaderSync interface - Description: Check if returns the data of blob as a Data URL by FileReaderSync interface]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReaderSync_readAsDataURL_base.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-1Z-FileReaderSync_readAsDataURL_Blob_invalid" name="1Z-FileReaderSync_readAsDataURL_Blob_invalid" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileReaderSync.readAsDataURL throws an exception when the argument is invalid - Description: Check if FileReaderSync.readAsDataURL throws an exception when the argument is invalid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileReaderSync.readAsDataURL throws an exception when the argument is invalid - Description: Check if FileReaderSync.readAsDataURL throws an exception when the argument is invalid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReaderSync_readAsDataURL_Blob_invalid.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-20-FileReaderSync_readAsDataURL_empty_string" name="20-FileReaderSync_readAsDataURL_empty_string" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileReaderSync.readAsDataURL throws an exception when the argument is empty string - Description: Check if FileReaderSync.readAsDataURL throws an exception when the argument is empty string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileReaderSync.readAsDataURL throws an exception when the argument is empty string - Description: Check if FileReaderSync.readAsDataURL throws an exception when the argument is empty string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReaderSync_readAsDataURL_empty_string.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-21-FileReaderSync_readAsDataURL_no_argument" name="21-FileReaderSync_readAsDataURL_no_argument" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileReaderSync.readAsDataURL has no argument that expecting an exception is to be thrown - Description: Check if FileReaderSync.readAsDataURL has no argument that expecting an exception is to be thrown">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileReaderSync.readAsDataURL has no argument that expecting an exception is to be thrown - Description: Check if FileReaderSync.readAsDataURL has no argument that expecting an exception is to be thrown]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReaderSync_readAsDataURL_no_argument.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-22-FileReaderSync_readAsDataURL_return_string" name="22-FileReaderSync_readAsDataURL_return_string" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileReaderSync.readAsDataURL has a valid argument that expecting the data contents of blob as a Data URL is to be returned - Description: Check if FileReaderSync.readAsDataURL has a valid argument that expecting the data contents of blob as a Data URL is to be returned">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileReaderSync.readAsDataURL has a valid argument that expecting the data contents of blob as a Data URL is to be returned - Description: Check if FileReaderSync.readAsDataURL has a valid argument that expecting the data contents of blob as a Data URL is to be returned]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReaderSync_readAsDataURL_return_string.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-23-FileReaderSync_readAsDataURL_return_type" name="23-FileReaderSync_readAsDataURL_return_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the return value of FileReaderSync.readAsDataURL is of type string - Description: Check if the return value of FileReaderSync.readAsDataURL is of type string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the return value of FileReaderSync.readAsDataURL is of type string - Description: Check if the return value of FileReaderSync.readAsDataURL is of type string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReaderSync_readAsDataURL_return_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-24-FileReaderSync_readAsDataURL_set_null" name="24-FileReaderSync_readAsDataURL_set_null" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileReaderSync.readAsDataURL throws an exception when the argument is null - Description: Check if FileReaderSync.readAsDataURL throws an exception when the argument is null">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileReaderSync.readAsDataURL throws an exception when the argument is null - Description: Check if FileReaderSync.readAsDataURL throws an exception when the argument is null]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReaderSync_readAsDataURL_set_null.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-25-FileReaderSync_readAsText_base" name="25-FileReaderSync_readAsText_base" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if read a blob text using readAsText by FileReaderSync interface - Description: Check if read a blob text using readAsText by FileReaderSync interface">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if read a blob text using readAsText by FileReaderSync interface - Description: Check if read a blob text using readAsText by FileReaderSync interface]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReaderSync_readAsText_base.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-26-FileReaderSync_readAsText_Blob_invalid" name="26-FileReaderSync_readAsText_Blob_invalid" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileReaderSync.readAsText throws an exception when the argument is invalid - Description: Check if FileReaderSync.readAsText throws an exception when the argument is invalid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileReaderSync.readAsText throws an exception when the argument is invalid - Description: Check if FileReaderSync.readAsText throws an exception when the argument is invalid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReaderSync_readAsText_Blob_invalid.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-27-FileReaderSync_readAsText_empty_string" name="27-FileReaderSync_readAsText_empty_string" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileReaderSync.readAsText throws an exception when the argument is empty string - Description: Check if FileReaderSync.readAsText throws an exception when the argument is empty string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileReaderSync.readAsText throws an exception when the argument is empty string - Description: Check if FileReaderSync.readAsText throws an exception when the argument is empty string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReaderSync_readAsText_empty_string.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-28-FileReaderSync_readAsText_no_argument" name="28-FileReaderSync_readAsText_no_argument" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileReaderSync.readAsText has no argument that expecting an exception is to be thrown - Description: Check if FileReaderSync.readAsText has no argument that expecting an exception is to be thrown">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileReaderSync.readAsText has no argument that expecting an exception is to be thrown - Description: Check if FileReaderSync.readAsText has no argument that expecting an exception is to be thrown]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReaderSync_readAsText_no_argument.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-29-FileReaderSync_readAsText_return_string" name="29-FileReaderSync_readAsText_return_string" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileReaderSync.readAsText has a valid argument that expecting the data contents of blob using the encoding determination algorithm is to be returned - Description: Check if FileReaderSync.readAsText has a valid argument that expecting the data contents of blob using the encoding determination algorithm is to be returned">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileReaderSync.readAsText has a valid argument that expecting the data contents of blob using the encoding determination algorithm is to be returned - Description: Check if FileReaderSync.readAsText has a valid argument that expecting the data contents of blob using the encoding determination algorithm is to be returned]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReaderSync_readAsText_return_string.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-2A-FileReaderSync_readAsText_return_type" name="2A-FileReaderSync_readAsText_return_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the return value of FileReaderSync.readAsText is of type string - Description: Check if the return value of FileReaderSync.readAsText is of type string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the return value of FileReaderSync.readAsText is of type string - Description: Check if the return value of FileReaderSync.readAsText is of type string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReaderSync_readAsText_return_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-2B-FileReaderSync_readAsText_set_null" name="2B-FileReaderSync_readAsText_set_null" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileReaderSync.readAsText throws an exception when the argument is null - Description: Check if FileReaderSync.readAsText throws an exception when the argument is null">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileReaderSync.readAsText throws an exception when the argument is null - Description: Check if FileReaderSync.readAsText throws an exception when the argument is null]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReaderSync_readAsText_set_null.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-2C-FileList_length_zero" name="2C-FileList_length_zero" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the attribute length value of interface FileList return 0 - Description: Check if the attribute length value of interface FileList return 0">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the attribute length value of interface FileList return 0 - Description: Check if the attribute length value of interface FileList return 0]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileList_length_zero.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-2D-FileReader_construct" name="2D-FileReader_construct" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the construct of the interface FileReader - Description: Check if the construct of the interface FileReader">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the construct of the interface FileReader - Description: Check if the construct of the interface FileReader]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReader_construct.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-2E-FileReader_constructor_in_worker" name="2E-FileReader_constructor_in_worker" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileReader's constructor must be available when in environments where the global object is represented by a WorkerGlobalScope object - Description: Check if FileReader's constructor must be available when in environments where the global object is represented by a WorkerGlobalScope object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileReader's constructor must be available when in environments where the global object is represented by a WorkerGlobalScope object - Description: Check if FileReader's constructor must be available when in environments where the global object is represented by a WorkerGlobalScope object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReader_constructor_in_worker.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-2F-FileReader_DONE_value" name="2F-FileReader_DONE_value" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the value of constant FileReader.DONE is 2 - Description: Check if the value of constant FileReader.DONE is 2">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the value of constant FileReader.DONE is 2 - Description: Check if the value of constant FileReader.DONE is 2]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReader_DONE_value.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-2G-FileReader_EMPTY_value" name="2G-FileReader_EMPTY_value" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the value of constant FileReader.EMPTY is 0 - Description: Check if the value of constant FileReader.EMPTY is 0">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the value of constant FileReader.EMPTY is 0 - Description: Check if the value of constant FileReader.EMPTY is 0]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReader_EMPTY_value.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-2H-FileReader_LOADING_value" name="2H-FileReader_LOADING_value" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the value of constant FileReader.EMPTY is 1 - Description: Check if the value of constant FileReader.EMPTY is 1">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the value of constant FileReader.EMPTY is 1 - Description: Check if the value of constant FileReader.EMPTY is 1]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReader_LOADING_value.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-2I-FileReader_readAsArrayBuffer_Blob_invalid" name="2I-FileReader_readAsArrayBuffer_Blob_invalid" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the method readAsArrayBuffer value of FileReader interface set invalid value blo has error - Description: Check if the method readAsArrayBuffer value of FileReader interface set invalid value blo has error">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the method readAsArrayBuffer value of FileReader interface set invalid value blo has error - Description: Check if the method readAsArrayBuffer value of FileReader interface set invalid value blo has error]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReader_readAsArrayBuffer_Blob_invalid.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-2J-FileReader_readAsArrayBuffer_empty_string" name="2J-FileReader_readAsArrayBuffer_empty_string" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the method readAsArrayBuffer value of FileReader interface set empty string will Normal execution - Description: Check if the method readAsArrayBuffer value of FileReader interface set empty string will Normal execution">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the method readAsArrayBuffer value of FileReader interface set empty string will Normal execution - Description: Check if the method readAsArrayBuffer value of FileReader interface set empty string will Normal execution]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReader_readAsArrayBuffer_empty_string.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-2K-FileReader_readAsArrayBuffer_no_argument" name="2K-FileReader_readAsArrayBuffer_no_argument" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the method readAsArrayBuffer value of FileReader interface is not Parameter - Description: Check if the method readAsArrayBuffer value of FileReader interface is not Parameter">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the method readAsArrayBuffer value of FileReader interface is not Parameter - Description: Check if the method readAsArrayBuffer value of FileReader interface is not Parameter]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReader_readAsArrayBuffer_no_argument.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-2L-FileReader_readAsBinaryString_Blob_invalid" name="2L-FileReader_readAsBinaryString_Blob_invalid" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the method readAsBinaryString value of FileReader interface set blo - Description: Check if the method readAsBinaryString value of FileReader interface set blo">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the method readAsBinaryString value of FileReader interface set blo - Description: Check if the method readAsBinaryString value of FileReader interface set blo]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReader_readAsBinaryString_Blob_invalid.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-2M-FileReader_readAsBinaryString_empty_string" name="2M-FileReader_readAsBinaryString_empty_string" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the method readAsBinaryString value of FileReader interface set empty string will Normal execution - Description: Check if the method readAsBinaryString value of FileReader interface set empty string will Normal execution">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the method readAsBinaryString value of FileReader interface set empty string will Normal execution - Description: Check if the method readAsBinaryString value of FileReader interface set empty string will Normal execution]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReader_readAsBinaryString_empty_string.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-2N-FileReader_readAsBinaryString_no_argument" name="2N-FileReader_readAsBinaryString_no_argument" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: To check the method readAsBinaryString value of FileReader interface is not Parameter - Description: To check the method readAsBinaryString value of FileReader interface is not Parameter">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: To check the method readAsBinaryString value of FileReader interface is not Parameter - Description: To check the method readAsBinaryString value of FileReader interface is not Parameter]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReader_readAsBinaryString_no_argument.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-2O-FileReader_readAsDataURL_Blob_invalid" name="2O-FileReader_readAsDataURL_Blob_invalid" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the method readAsDataURL value of FileReader interface set blo - Description: Check if the method readAsDataURL value of FileReader interface set blo">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the method readAsDataURL value of FileReader interface set blo - Description: Check if the method readAsDataURL value of FileReader interface set blo]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReader_readAsDataURL_Blob_invalid.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-2P-FileReader_readAsDataURL_empty_string" name="2P-FileReader_readAsDataURL_empty_string" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the method readAsDataURL value of FileReader interface set empty string will Normal execution - Description: Check if the method readAsDataURL value of FileReader interface set empty string will Normal execution">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the method readAsDataURL value of FileReader interface set empty string will Normal execution - Description: Check if the method readAsDataURL value of FileReader interface set empty string will Normal execution]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReader_readAsDataURL_empty_string.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-2Q-FileReader_readAsDataURL_no_argument" name="2Q-FileReader_readAsDataURL_no_argument" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the method readAsDataURL of FileReader interface is not parameter - Description: Check if the method readAsDataURL of FileReader interface is not parameter">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the method readAsDataURL of FileReader interface is not parameter - Description: Check if the method readAsDataURL of FileReader interface is not parameter]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReader_readAsDataURL_no_argument.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-2R-FileReader_readAsText_Blob_invalid" name="2R-FileReader_readAsText_Blob_invalid" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the method readAsText value of FileReader interface set blo - Description: Check if the method readAsText value of FileReader interface set blo">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the method readAsText value of FileReader interface set blo - Description: Check if the method readAsText value of FileReader interface set blo]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReader_readAsText_Blob_invalid.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-2S-FileReader_readAsText_empty_string" name="2S-FileReader_readAsText_empty_string" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the method readAsText value of FileReader interface set empty string will Normal execution - Description: Check if the method readAsText value of FileReader interface set empty string will Normal execution">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the method readAsText value of FileReader interface set empty string will Normal execution - Description: Check if the method readAsText value of FileReader interface set empty string will Normal execution]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReader_readAsText_empty_string.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-2T-FileReader_readAsText_no_argument" name="2T-FileReader_readAsText_no_argument" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the method readAsText value of FileReader interface is not parameter - Description: Check if the method readAsText value of FileReader interface is not parameter">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the method readAsText value of FileReader interface is not parameter - Description: Check if the method readAsText value of FileReader interface is not parameter]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReader_readAsText_no_argument.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-2U-FileReader_readyState_readonly" name="2U-FileReader_readyState_readonly" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileReader.readyState is readonly - Description: Check if FileReader.readyState is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileReader.readyState is readonly - Description: Check if FileReader.readyState is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReader_readyState_readonly.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-2V-FileReader_result_default_value" name="2V-FileReader_result_default_value" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the default value of FileReader.result is null - Description: Check if the default value of FileReader.result is null">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the default value of FileReader.result is null - Description: Check if the default value of FileReader.result is null]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReader_result_default_value.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-2W-FileReader_result_when_readyState_zero" name="2W-FileReader_result_when_readyState_zero" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the value of result is null when the readState is EMPTY - Description: Check if the value of result is null when the readState is EMPTY">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the value of result is null when the readState is EMPTY - Description: Check if the value of result is null when the readState is EMPTY]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/FileReader_result_when_readyState_zero.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-2X-URL_createObjectURL_blob_invalid" name="2X-URL_createObjectURL_blob_invalid" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if URL.createObjectURL returns null when this method is called with a Blob argument that is NOT valid - Description: Check if URL.createObjectURL returns null when this method is called with a Blob argument that is NOT valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if URL.createObjectURL returns null when this method is called with a Blob argument that is NOT valid - Description: Check if URL.createObjectURL returns null when this method is called with a Blob argument that is NOT valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/URL_createObjectURL_blob_invalid.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-2Y-URL_createObjectURL_no_argument" name="2Y-URL_createObjectURL_no_argument" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if URL.createObjectURL has no argument that expecting a exception is to be thrown - Description: Check if URL.createObjectURL has no argument that expecting a exception is to be thrown">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if URL.createObjectURL has no argument that expecting a exception is to be thrown - Description: Check if URL.createObjectURL has no argument that expecting a exception is to be thrown]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/URL_createObjectURL_no_argument.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-2Z-URL_revokeObjectURL_no_argument" name="2Z-URL_revokeObjectURL_no_argument" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if URL.revokeObjectURL has no argument that expecting a exception is to be thrown - Description: Check if URL.revokeObjectURL has no argument that expecting a exception is to be thrown">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if URL.revokeObjectURL has no argument that expecting a exception is to be thrown - Description: Check if URL.revokeObjectURL has no argument that expecting a exception is to be thrown]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/URL_revokeObjectURL_no_argument.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-30-URL_revokeObjectURL_url_invalid" name="30-URL_revokeObjectURL_url_invalid" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if URL.revokeObjectURL call does nothing and user agents MAY display a message on the error console when the url refers to a Blob that is NOT valid - Description: Check if URL.revokeObjectURL call does nothing and user agents MAY display a message on the error console when the url refers to a Blob that is NOT valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if URL.revokeObjectURL call does nothing and user agents MAY display a message on the error console when the url refers to a Blob that is NOT valid - Description: Check if URL.revokeObjectURL call does nothing and user agents MAY display a message on the error console when the url refers to a Blob that is NOT valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/URL_revokeObjectURL_url_invalid.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0H-31-URL_in_webworker" name="31-URL_in_webworker" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fileapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if WorkerUtils implements URL - Description: Check if WorkerUtils implements URL">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if WorkerUtils implements URL - Description: Check if WorkerUtils implements URL]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fileapi-w3c-tests/fileapi/URL_in_webworker.html</test_script_entry>
+                </description>
+            </testcase>
+        </set>
+    </suite>
+</test_definition>

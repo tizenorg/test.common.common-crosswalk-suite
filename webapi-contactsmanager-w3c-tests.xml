@@ -1,0 +1,1303 @@
+<?xml version="1.0"?>
+<test_definition>
+    <suite launcher="xwalk" name="00-common/E0-crosswalk">
+        <set name="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests">
+            <testcase id="00-E0-00-1V-01-Contact_id" name="01-Contact_id" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the Contact id attribute is null before save - Description: Check if the Contact id attribute is null before save">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the Contact id attribute is null before save - Description: Check if the Contact id attribute is null before save]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/Contact.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-02-Contact_lastUpdated" name="02-Contact_lastUpdated" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the Contact lastUpdated is null before save - Description: Check if the Contact lastUpdated is null before save">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the Contact lastUpdated is null before save - Description: Check if the Contact lastUpdated is null before save]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/Contact.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-03-Contact_name" name="03-Contact_name" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of Contact name attribute is valid - Description: Check if the implementation of Contact name attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of Contact name attribute is valid - Description: Check if the implementation of Contact name attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/Contact.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-04-Contact_emails" name="04-Contact_emails" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of Contact emails attribute is valid - Description: Check if the implementation of Contact emails attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of Contact emails attribute is valid - Description: Check if the implementation of Contact emails attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/Contact.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-05-Contact_photos" name="05-Contact_photos" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of Contact photos attribute is valid - Description: Check if the implementation of Contact photos attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of Contact photos attribute is valid - Description: Check if the implementation of Contact photos attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/Contact.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-06-Contact_urls" name="06-Contact_urls" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of Contact urls attribute is valid - Description: Check if the implementation of Contact urls attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of Contact urls attribute is valid - Description: Check if the implementation of Contact urls attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/Contact.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-07-Contact_categories" name="07-Contact_categories" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of Contact categories attribute is valid - Description: Check if the implementation of Contact categories attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of Contact categories attribute is valid - Description: Check if the implementation of Contact categories attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/Contact.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-08-Contact_addresses" name="08-Contact_addresses" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of Contact addresses attribute is valid - Description: Check if the implementation of Contact addresses attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of Contact addresses attribute is valid - Description: Check if the implementation of Contact addresses attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/Contact.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=8</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-09-Contact_phoneNumbers" name="09-Contact_phoneNumbers" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of Contact phoneNumbers attribute is valid - Description: Check if the implementation of Contact phoneNumbers attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of Contact phoneNumbers attribute is valid - Description: Check if the implementation of Contact phoneNumbers attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/Contact.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=9</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-0A-Contact_organizations" name="0A-Contact_organizations" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of Contact organizations attribute is valid - Description: Check if the implementation of Contact organizations attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of Contact organizations attribute is valid - Description: Check if the implementation of Contact organizations attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/Contact.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=10</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-0B-Contact_jobTitles" name="0B-Contact_jobTitles" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of Contact jobTitles attribute is valid - Description: Check if the implementation of Contact jobTitles attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of Contact jobTitles attribute is valid - Description: Check if the implementation of Contact jobTitles attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/Contact.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=11</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-0C-Contact_birthday" name="0C-Contact_birthday" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of Contact birthday attribute is valid - Description: Check if the implementation of Contact birthday attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of Contact birthday attribute is valid - Description: Check if the implementation of Contact birthday attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/Contact.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=12</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-0D-Contact_notes" name="0D-Contact_notes" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of Contact notes attribute is valid - Description: Check if the implementation of Contact notes attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of Contact notes attribute is valid - Description: Check if the implementation of Contact notes attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/Contact.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=13</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-0E-Contact_impp" name="0E-Contact_impp" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of Contact impp attribute is valid - Description: Check if the implementation of Contact impp attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of Contact impp attribute is valid - Description: Check if the implementation of Contact impp attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/Contact.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=14</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-0F-Contact_anniversary" name="0F-Contact_anniversary" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of Contact anniversary attribute is valid - Description: Check if the implementation of Contact anniversary attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of Contact anniversary attribute is valid - Description: Check if the implementation of Contact anniversary attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/Contact.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=15</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-0G-Contact_gender" name="0G-Contact_gender" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of Contact gender attribute is valid - Description: Check if the implementation of Contact gender attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of Contact gender attribute is valid - Description: Check if the implementation of Contact gender attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/Contact.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=16</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-0H-ContactAddress_types" name="0H-ContactAddress_types" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of ContactAddress types attribute is valid - Description: Check if the implementation of ContactAddress types attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of ContactAddress types attribute is valid - Description: Check if the implementation of ContactAddress types attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactAddress.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-0I-ContactAddress_preferred" name="0I-ContactAddress_preferred" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of ContactAddress preferred attribute is valid - Description: Check if the implementation of ContactAddress preferred attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of ContactAddress preferred attribute is valid - Description: Check if the implementation of ContactAddress preferred attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactAddress.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-0J-ContactAddress_streetAddress" name="0J-ContactAddress_streetAddress" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of ContactAddress streetAddress attribute is valid - Description: Check if the implementation of ContactAddress streetAddress attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of ContactAddress streetAddress attribute is valid - Description: Check if the implementation of ContactAddress streetAddress attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactAddress.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-0K-ContactAddress_locality" name="0K-ContactAddress_locality" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of ContactAddress locality attribute is valid - Description: Check if the implementation of ContactAddress locality attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of ContactAddress locality attribute is valid - Description: Check if the implementation of ContactAddress locality attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactAddress.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-0L-ContactAddress_region" name="0L-ContactAddress_region" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of ContactAddress region attribute is valid - Description: Check if the implementation of ContactAddress region attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of ContactAddress region attribute is valid - Description: Check if the implementation of ContactAddress region attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactAddress.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-0M-ContactAddress_postalCode" name="0M-ContactAddress_postalCode" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of ContactAddress postalCode attribute is valid - Description: Check if the implementation of ContactAddress postalCode attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of ContactAddress postalCode attribute is valid - Description: Check if the implementation of ContactAddress postalCode attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactAddress.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-0N-ContactAddress_countryName" name="0N-ContactAddress_countryName" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of ContactAddress countryName attribute is valid - Description: Check if the implementation of ContactAddress countryName attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of ContactAddress countryName attribute is valid - Description: Check if the implementation of ContactAddress countryName attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactAddress.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-0O-ContactAddress_types_multiple" name="0O-ContactAddress_types_multiple" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the ContactAddress can be initialized with two types - Description: Check if the ContactAddress can be initialized with two types">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the ContactAddress can be initialized with two types - Description: Check if the ContactAddress can be initialized with two types]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactAddress_types_multiple.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-0P-ContactAddress_partset" name="0P-ContactAddress_partset" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the ContactAddress can be initialized with part set - Description: Check if the ContactAddress can be initialized with part set">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the ContactAddress can be initialized with part set - Description: Check if the ContactAddress can be initialized with part set]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactAddress_partset.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-0Q-ContactField_types" name="0Q-ContactField_types" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of ContactField types attribute is valid - Description: Check if the implementation of ContactField types attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of ContactField types attribute is valid - Description: Check if the implementation of ContactField types attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactField.html?total_num=3&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-0R-ContactField_preferred" name="0R-ContactField_preferred" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of ContactField preferred attribute is valid - Description: Check if the implementation of ContactField preferred attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of ContactField preferred attribute is valid - Description: Check if the implementation of ContactField preferred attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactField.html?total_num=3&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-0S-ContactField_value" name="0S-ContactField_value" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of ContactField value attribute is valid - Description: Check if the implementation of ContactField value attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of ContactField value attribute is valid - Description: Check if the implementation of ContactField value attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactField.html?total_num=3&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-0T-ContactField_types_multiple" name="0T-ContactField_types_multiple" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the ContactField can be initialized with two types - Description: Check if the ContactField can be initialized with two types">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the ContactField can be initialized with two types - Description: Check if the ContactField can be initialized with two types]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactField_types_multiple.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-0U-ContactField_partset" name="0U-ContactField_partset" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the ContactField can be initialized with part set - Description: Check if the ContactField can be initialized with part set">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the ContactField can be initialized with part set - Description: Check if the ContactField can be initialized with part set]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactField_partset.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-0V-ContactName_displayName" name="0V-ContactName_displayName" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of ContactName displayName attribute is valid - Description: Check if the implementation of ContactName displayName attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of ContactName displayName attribute is valid - Description: Check if the implementation of ContactName displayName attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactName.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-0W-ContactName_honorificPrefixes" name="0W-ContactName_honorificPrefixes" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of ContactName honorificPrefixes attribute is valid - Description: Check if the implementation of ContactName honorificPrefixes attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of ContactName honorificPrefixes attribute is valid - Description: Check if the implementation of ContactName honorificPrefixes attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactName.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-0X-ContactName_givenNames" name="0X-ContactName_givenNames" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of ContactName givenNames attribute is valid - Description: Check if the implementation of ContactName givenNames attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of ContactName givenNames attribute is valid - Description: Check if the implementation of ContactName givenNames attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactName.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-0Y-ContactName_additionalNames" name="0Y-ContactName_additionalNames" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of ContactName additionalNames attribute is valid - Description: Check if the implementation of ContactName additionalNames attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of ContactName additionalNames attribute is valid - Description: Check if the implementation of ContactName additionalNames attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactName.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-0Z-ContactName_familyNames" name="0Z-ContactName_familyNames" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of ContactName familyNames attribute is valid - Description: Check if the implementation of ContactName familyNames attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of ContactName familyNames attribute is valid - Description: Check if the implementation of ContactName familyNames attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactName.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-10-ContactName_honorificSuffixes" name="10-ContactName_honorificSuffixes" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of ContactName honorificSuffixes attribute is valid - Description: Check if the implementation of ContactName honorificSuffixes attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of ContactName honorificSuffixes attribute is valid - Description: Check if the implementation of ContactName honorificSuffixes attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactName.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-11-ContactName_nicknames" name="11-ContactName_nicknames" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of ContactName nicknames attribute is valid - Description: Check if the implementation of ContactName nicknames attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of ContactName nicknames attribute is valid - Description: Check if the implementation of ContactName nicknames attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactName.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-12-ContactName_additionalNames_multiple" name="12-ContactName_additionalNames_multiple" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the ContactName can be initialized with two additionalNames - Description: Check if the ContactName can be initialized with two additionalNames">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the ContactName can be initialized with two additionalNames - Description: Check if the ContactName can be initialized with two additionalNames]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactName_additionalNames_multiple.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-13-ContactName_attribute_fullmultiple" name="13-ContactName_attribute_fullmultiple" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the ContactName can be initialized with all attributes full multiple - Description: Check if the ContactName can be initialized with all attributes full multiple">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the ContactName can be initialized with all attributes full multiple - Description: Check if the ContactName can be initialized with all attributes full multiple]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactName_attribute_fullmultiple.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-14-ContactName_familyNames_multiple" name="14-ContactName_familyNames_multiple" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the ContactName can be initialized with two familyNames - Description: Check if the ContactName can be initialized with two familyNames">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the ContactName can be initialized with two familyNames - Description: Check if the ContactName can be initialized with two familyNames]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactName_familyNames_multiple.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-15-ContactName_givenNames_multiple" name="15-ContactName_givenNames_multiple" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the ContactName can be initialized with two givenNames - Description: Check if the ContactName can be initialized with two givenNames">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the ContactName can be initialized with two givenNames - Description: Check if the ContactName can be initialized with two givenNames]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactName_givenNames_multiple.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-16-ContactName_honorificPrefixes_multiple" name="16-ContactName_honorificPrefixes_multiple" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the ContactName can be initialized with two honorificPrefixes - Description: Check if the ContactName can be initialized with two honorificPrefixes">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the ContactName can be initialized with two honorificPrefixes - Description: Check if the ContactName can be initialized with two honorificPrefixes]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactName_honorificPrefixes_multiple.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-17-ContactName_honorificSuffixes_multiple" name="17-ContactName_honorificSuffixes_multiple" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the ContactName can be initialized with two honorificSuffixes - Description: Check if the ContactName can be initialized with two honorificSuffixes">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the ContactName can be initialized with two honorificSuffixes - Description: Check if the ContactName can be initialized with two honorificSuffixes]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactName_honorificSuffixes_multiple.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-18-ContactName_nicknames_multiple" name="18-ContactName_nicknames_multiple" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the ContactName can be initialized with two nicknames - Description: Check if the ContactName can be initialized with two nicknames">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the ContactName can be initialized with two nicknames - Description: Check if the ContactName can be initialized with two nicknames]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactName_nicknames_multiple.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-19-ContactName_partset" name="19-ContactName_partset" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the ContactName can be initialized with part set - Description: Check if the ContactName can be initialized with part set">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the ContactName can be initialized with part set - Description: Check if the ContactName can be initialized with part set]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactName_partset.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-1A-ContactTelField_carrier" name="1A-ContactTelField_carrier" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of ContactTelField carrier attribute is valid - Description: Check if the implementation of ContactTelField carrier attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of ContactTelField carrier attribute is valid - Description: Check if the implementation of ContactTelField carrier attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactTelField.html?total_num=4&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-1B-ContactTelField_types" name="1B-ContactTelField_types" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of ContactTelField types attribute is valid - Description: Check if the implementation of ContactTelField types attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of ContactTelField types attribute is valid - Description: Check if the implementation of ContactTelField types attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactTelField.html?total_num=4&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-1C-ContactTelField_preferred" name="1C-ContactTelField_preferred" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of ContactTelField preferred attribute is valid - Description: Check if the implementation of ContactTelField preferred attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of ContactTelField preferred attribute is valid - Description: Check if the implementation of ContactTelField preferred attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactTelField.html?total_num=4&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-1D-ContactTelField_value" name="1D-ContactTelField_value" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of ContactTelField value attribute is valid - Description: Check if the implementation of ContactTelField value attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of ContactTelField value attribute is valid - Description: Check if the implementation of ContactTelField value attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactTelField.html?total_num=4&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-1E-ContactTelField_types_multiple" name="1E-ContactTelField_types_multiple" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the ContactTelField can be initialized with two types - Description: Check if the ContactTelField can be initialized with two types">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the ContactTelField can be initialized with two types - Description: Check if the ContactTelField can be initialized with two types]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactTelField_types_multiple.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-1F-ContactTelField_partset" name="1F-ContactTelField_partset" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the ContactTelField can be initialized with part set - Description: Check if the ContactTelField can be initialized with part set">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the ContactTelField can be initialized with part set - Description: Check if the ContactTelField can be initialized with part set]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactTelField_partset.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-1G-Navigator_contacts" name="1G-Navigator_contacts" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the Navigator contacts attribute must not be null - Description: Check if the Navigator contacts attribute must not be null">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the Navigator contacts attribute must not be null - Description: Check if the Navigator contacts attribute must not be null]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/Navigator_contacts.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-1H-ContactsManager_clear" name="1H-ContactsManager_clear" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if clear method of ContactsManager can work properly - Description: Check if clear method of ContactsManager can work properly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if clear method of ContactsManager can work properly - Description: Check if clear method of ContactsManager can work properly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsManager_clear.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-1I-ContactsManager_find" name="1I-ContactsManager_find" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if find method of ContactsManager can work properly - Description: Check if find method of ContactsManager can work properly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if find method of ContactsManager can work properly - Description: Check if find method of ContactsManager can work properly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsManager_find.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-1J-ContactsManager_find_fields_multiple" name="1J-ContactsManager_find_fields_multiple" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if find method of ContactsManager can work properly with two fields - Description: Check if find method of ContactsManager can work properly with two fields">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if find method of ContactsManager can work properly with two fields - Description: Check if find method of ContactsManager can work properly with two fields]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsManager_find_fields_multiple.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-1K-ContactsManager_find_operator_contains" name="1K-ContactsManager_find_operator_contains" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if find method of ContactsManager can work properly with contains operator - Description: Check if find method of ContactsManager can work properly with contains operator">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if find method of ContactsManager can work properly with contains operator - Description: Check if find method of ContactsManager can work properly with contains operator]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsManager_find_operator_contains.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-1L-ContactsManager_find_operator_is" name="1L-ContactsManager_find_operator_is" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if find method of ContactsManager can work properly with is operator - Description: Check if find method of ContactsManager can work properly with is operator">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if find method of ContactsManager can work properly with is operator - Description: Check if find method of ContactsManager can work properly with is operator]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsManager_find_operator_is.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-1M-ContactsManager_find_optional_full" name="1M-ContactsManager_find_optional_full" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if find method of ContactsManager can work properly with full optional parameters - Description: Check if find method of ContactsManager can work properly with full optional parameters">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if find method of ContactsManager can work properly with full optional parameters - Description: Check if find method of ContactsManager can work properly with full optional parameters]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsManager_find_optional_full.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-1N-ContactsManager_find_resultsLimit" name="1N-ContactsManager_find_resultsLimit" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if find method of ContactsManager can work properly with resultsLimit - Description: Check if find method of ContactsManager can work properly with resultsLimit">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if find method of ContactsManager can work properly with resultsLimit - Description: Check if find method of ContactsManager can work properly with resultsLimit]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsManager_find_resultsLimit.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-1O-ContactsManager_find_sortBy_multiple" name="1O-ContactsManager_find_sortBy_multiple" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if find method of ContactsManager can work properly with two sortBy - Description: Check if find method of ContactsManager can work properly with two sortBy">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if find method of ContactsManager can work properly with two sortBy - Description: Check if find method of ContactsManager can work properly with two sortBy]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsManager_find_sortBy_multiple.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-1P-ContactsManager_find_sortOrder_ascending" name="1P-ContactsManager_find_sortOrder_ascending" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if find method of ContactsManager can work properly with sortOrder ascending - Description: Check if find method of ContactsManager can work properly with sortOrder ascending">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if find method of ContactsManager can work properly with sortOrder ascending - Description: Check if find method of ContactsManager can work properly with sortOrder ascending]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsManager_find_sortOrder_ascending.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-1Q-ContactsManager_find_sortOrder_descending" name="1Q-ContactsManager_find_sortOrder_descending" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if find method of ContactsManager can work properly with sortOrder descending - Description: Check if find method of ContactsManager can work properly with sortOrder descending">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if find method of ContactsManager can work properly with sortOrder descending - Description: Check if find method of ContactsManager can work properly with sortOrder descending]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsManager_find_sortOrder_descending.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-1R-ContactsManager_remove" name="1R-ContactsManager_remove" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if remove method of ContactsManager can work properly - Description: Check if remove method of ContactsManager can work properly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if remove method of ContactsManager can work properly - Description: Check if remove method of ContactsManager can work properly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsManager_remove.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-1S-ContactsManager_save" name="1S-ContactsManager_save" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if save method of ContactsManager can work properly - Description: Check if save method of ContactsManager can work properly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if save method of ContactsManager can work properly - Description: Check if save method of ContactsManager can work properly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsManager_save.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-1T-ContactsManager_save_addresses_fullset" name="1T-ContactsManager_save_addresses_fullset" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if save method of ContactsManager can work properly with addresses full set - Description: Check if save method of ContactsManager can work properly with addresses full set">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if save method of ContactsManager can work properly with addresses full set - Description: Check if save method of ContactsManager can work properly with addresses full set]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsManager_save_addresses_fullset.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-1U-ContactsManager_save_addresses_multiple" name="1U-ContactsManager_save_addresses_multiple" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if save method of ContactsManager can work properly with two addresses - Description: Check if save method of ContactsManager can work properly with two addresses">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if save method of ContactsManager can work properly with two addresses - Description: Check if save method of ContactsManager can work properly with two addresses]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsManager_save_addresses_multiple.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-1V-ContactsManager_save_addresses_partset" name="1V-ContactsManager_save_addresses_partset" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if save method of ContactsManager can work properly with addresses part set - Description: Check if save method of ContactsManager can work properly with addresses part set">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if save method of ContactsManager can work properly with addresses part set - Description: Check if save method of ContactsManager can work properly with addresses part set]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsManager_save_addresses_partset.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-1W-ContactsManager_save_Contact_fullset" name="1W-ContactsManager_save_Contact_fullset" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if save method of ContactsManager can work properly with contact full set - Description: Check if save method of ContactsManager can work properly with contact full set">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if save method of ContactsManager can work properly with contact full set - Description: Check if save method of ContactsManager can work properly with contact full set]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsManager_save_Contact_fullset.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-1X-ContactsManager_save_emails_fullset" name="1X-ContactsManager_save_emails_fullset" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if save method of ContactsManager can work properly with emails full set - Description: Check if save method of ContactsManager can work properly with emails full set">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if save method of ContactsManager can work properly with emails full set - Description: Check if save method of ContactsManager can work properly with emails full set]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsManager_save_emails_fullset.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-1Y-ContactsManager_save_emails_multiple" name="1Y-ContactsManager_save_emails_multiple" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if save method of ContactsManager can work properly with two emails - Description: Check if save method of ContactsManager can work properly with two emails">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if save method of ContactsManager can work properly with two emails - Description: Check if save method of ContactsManager can work properly with two emails]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsManager_save_emails_multiple.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-1Z-ContactsManager_save_emails_partset" name="1Z-ContactsManager_save_emails_partset" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if save method of ContactsManager can work properly with emails part set - Description: Check if save method of ContactsManager can work properly with emails part set">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if save method of ContactsManager can work properly with emails part set - Description: Check if save method of ContactsManager can work properly with emails part set]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsManager_save_emails_partset.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-20-ContactsManager_save_get_remove" name="20-ContactsManager_save_get_remove" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if remove method of ContactsManager can work properly after save and get - Description: Check if remove method of ContactsManager can work properly after save and get">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if remove method of ContactsManager can work properly after save and get - Description: Check if remove method of ContactsManager can work properly after save and get]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsManager_save_get_remove.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-21-ContactsManager_save_impp_fullset" name="21-ContactsManager_save_impp_fullset" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if save method of ContactsManager can work properly with impp full set - Description: Check if save method of ContactsManager can work properly with impp full set">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if save method of ContactsManager can work properly with impp full set - Description: Check if save method of ContactsManager can work properly with impp full set]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsManager_save_impp_fullset.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-22-ContactsManager_save_impp_multiple" name="22-ContactsManager_save_impp_multiple" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if save method of ContactsManager can work properly with two impp - Description: Check if save method of ContactsManager can work properly with two impp">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if save method of ContactsManager can work properly with two impp - Description: Check if save method of ContactsManager can work properly with two impp]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsManager_save_impp_multiple.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-23-ContactsManager_save_impp_partset" name="23-ContactsManager_save_impp_partset" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if save method of ContactsManager can work properly with impp part set - Description: Check if save method of ContactsManager can work properly with impp part set">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if save method of ContactsManager can work properly with impp part set - Description: Check if save method of ContactsManager can work properly with impp part set]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsManager_save_impp_partset.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-24-ContactsManager_save_name_fullset" name="24-ContactsManager_save_name_fullset" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if save method of ContactsManager can work properly with name full set - Description: Check if save method of ContactsManager can work properly with name full set">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if save method of ContactsManager can work properly with name full set - Description: Check if save method of ContactsManager can work properly with name full set]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsManager_save_name_fullset.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-25-ContactsManager_save_name_partset" name="25-ContactsManager_save_name_partset" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if save method of ContactsManager can work properly with name part set - Description: Check if save method of ContactsManager can work properly with name part set">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if save method of ContactsManager can work properly with name part set - Description: Check if save method of ContactsManager can work properly with name part set]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsManager_save_name_partset.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-26-ContactsManager_save_phoneNumbers_fullset" name="26-ContactsManager_save_phoneNumbers_fullset" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if save method of ContactsManager can work properly with phoneNumbers full set - Description: Check if save method of ContactsManager can work properly with phoneNumbers full set">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if save method of ContactsManager can work properly with phoneNumbers full set - Description: Check if save method of ContactsManager can work properly with phoneNumbers full set]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsManager_save_phoneNumbers_fullset.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-27-ContactsManager_save_phoneNumbers_multiple" name="27-ContactsManager_save_phoneNumbers_multiple" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if save method of ContactsManager can work properly with two phoneNumbers - Description: Check if save method of ContactsManager can work properly with two phoneNumbers">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if save method of ContactsManager can work properly with two phoneNumbers - Description: Check if save method of ContactsManager can work properly with two phoneNumbers]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsManager_save_phoneNumbers_multiple.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-28-ContactsManager_save_phoneNumbers_partset" name="28-ContactsManager_save_phoneNumbers_partset" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if save method of ContactsManager can work properly with phoneNumbers part set - Description: Check if save method of ContactsManager can work properly with phoneNumbers part set">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if save method of ContactsManager can work properly with phoneNumbers part set - Description: Check if save method of ContactsManager can work properly with phoneNumbers part set]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsManager_save_phoneNumbers_partset.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-29-ContactsManager_save_urls_fullset" name="29-ContactsManager_save_urls_fullset" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if save method of ContactsManager can work properly with urls full set - Description: Check if save method of ContactsManager can work properly with urls full set">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if save method of ContactsManager can work properly with urls full set - Description: Check if save method of ContactsManager can work properly with urls full set]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsManager_save_urls_fullset.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-2A-ContactsManager_save_urls_multiple" name="2A-ContactsManager_save_urls_multiple" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if save method of ContactsManager can work properly with two urls - Description: Check if save method of ContactsManager can work properly with two urls">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if save method of ContactsManager can work properly with two urls - Description: Check if save method of ContactsManager can work properly with two urls]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsManager_save_urls_multiple.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-2B-ContactsManager_save_urls_partset" name="2B-ContactsManager_save_urls_partset" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if save method of ContactsManager can work properly with urls part set - Description: Check if save method of ContactsManager can work properly with urls part set">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if save method of ContactsManager can work properly with urls part set - Description: Check if save method of ContactsManager can work properly with urls part set]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsManager_save_urls_partset.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-2C-ContactsChangeEvent_added" name="2C-ContactsChangeEvent_added" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of ContactsChangeEvent added attribute is valid - Description: Check if the implementation of ContactsChangeEvent added attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of ContactsChangeEvent added attribute is valid - Description: Check if the implementation of ContactsChangeEvent added attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsChangeEvent_added.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-2D-ContactsChangeEvent_modified" name="2D-ContactsChangeEvent_modified" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of ContactsChangeEvent modified attribute is valid - Description: Check if the implementation of ContactsChangeEvent modified attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of ContactsChangeEvent modified attribute is valid - Description: Check if the implementation of ContactsChangeEvent modified attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsChangeEvent_modified.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-2E-ContactsChangeEvent_removed" name="2E-ContactsChangeEvent_removed" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of ContactsChangeEvent removed attribute is valid - Description: Check if the implementation of ContactsChangeEvent removed attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of ContactsChangeEvent removed attribute is valid - Description: Check if the implementation of ContactsChangeEvent removed attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsChangeEvent_removed.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-2F-ContactsManager_oncontactschange" name="2F-ContactsManager_oncontactschange" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of ContactsManager oncontactschange event is valid - Description: Check if the implementation of ContactsManager oncontactschange event is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of ContactsManager oncontactschange event is valid - Description: Check if the implementation of ContactsManager oncontactschange event is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsManager_oncontactschange.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-2G-ContactAddress_countryName_only" name="2G-ContactAddress_countryName_only" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the ContactAddress can be initialized with one attribute - Description: Check if the ContactAddress can be initialized with one attribute">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the ContactAddress can be initialized with one attribute - Description: Check if the ContactAddress can be initialized with one attribute]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactAddress_countryName_only.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-2H-ContactField_value_only" name="2H-ContactField_value_only" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the ContactField can be initialized with one attribute - Description: Check if the ContactField can be initialized with one attribute">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the ContactField can be initialized with one attribute - Description: Check if the ContactField can be initialized with one attribute]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactField_value_only.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-2I-ContactName_displayName_only" name="2I-ContactName_displayName_only" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the ContactName can be initialized with one attribute - Description: Check if the ContactName can be initialized with one attribute">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the ContactName can be initialized with one attribute - Description: Check if the ContactName can be initialized with one attribute]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactName_displayName_only.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-2J-ContactTelField_value_only" name="2J-ContactTelField_value_only" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the ContactTelField can be initialized with one attribute - Description: Check if the ContactTelField can be initialized with one attribute">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the ContactTelField can be initialized with one attribute - Description: Check if the ContactTelField can be initialized with one attribute]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactTelField_value_only.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-2K-ContactsManager_clear_empty" name="2K-ContactsManager_clear_empty" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if clear method of ContactsManager can work properly with no contact - Description: Check if clear method of ContactsManager can work properly with no contact">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if clear method of ContactsManager can work properly with no contact - Description: Check if clear method of ContactsManager can work properly with no contact]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsManager_clear_empty.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-2L-ContactsManager_clear_multiple" name="2L-ContactsManager_clear_multiple" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if clear method of ContactsManager can work properly with multiple contacts - Description: Check if clear method of ContactsManager can work properly with multiple contacts">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if clear method of ContactsManager can work properly with multiple contacts - Description: Check if clear method of ContactsManager can work properly with multiple contacts]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsManager_clear_multiple.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-2M-ContactsManager_find_all_multiple" name="2M-ContactsManager_find_all_multiple" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if find method of ContactsManager can work properly with all attributes multiple - Description: Check if find method of ContactsManager can work properly with all attributes multiple">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if find method of ContactsManager can work properly with all attributes multiple - Description: Check if find method of ContactsManager can work properly with all attributes multiple]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsManager_find_all_multiple.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-2N-ContactsManager_remove_no_found" name="2N-ContactsManager_remove_no_found" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if remove method of ContactsManager can work properly with no contact found - Description: Check if remove method of ContactsManager can work properly with no contact found">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if remove method of ContactsManager can work properly with no contact found - Description: Check if remove method of ContactsManager can work properly with no contact found]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsManager_remove_no_found.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-2O-ContactsManager_save_categories_multiple" name="2O-ContactsManager_save_categories_multiple" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if save method of ContactsManager can work properly with multiple categories - Description: Check if save method of ContactsManager can work properly with multiple categories">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if save method of ContactsManager can work properly with multiple categories - Description: Check if save method of ContactsManager can work properly with multiple categories]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsManager_save_categories_multiple.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-2P-ContactsManager_save_jobTitles_multiple" name="2P-ContactsManager_save_jobTitles_multiple" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if save method of ContactsManager can work properly with multiple jobTitles - Description: Check if save method of ContactsManager can work properly with multiple jobTitles">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if save method of ContactsManager can work properly with multiple jobTitles - Description: Check if save method of ContactsManager can work properly with multiple jobTitles]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsManager_save_jobTitles_multiple.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-2Q-ContactsManager_save_notes_multiple" name="2Q-ContactsManager_save_notes_multiple" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if save method of ContactsManager can work properly with multiple notes - Description: Check if save method of ContactsManager can work properly with multiple notes">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if save method of ContactsManager can work properly with multiple notes - Description: Check if save method of ContactsManager can work properly with multiple notes]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsManager_save_notes_multiple.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-2R-ContactsManager_save_organizations_multiple" name="2R-ContactsManager_save_organizations_multiple" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if save method of ContactsManager can work properly with multiple organizations - Description: Check if save method of ContactsManager can work properly with multiple organizations">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if save method of ContactsManager can work properly with multiple organizations - Description: Check if save method of ContactsManager can work properly with multiple organizations]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsManager_save_organizations_multiple.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-2S-ContactsManager_save_photos_multiple" name="2S-ContactsManager_save_photos_multiple" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if save method of ContactsManager can work properly with multiple photos - Description: Check if save method of ContactsManager can work properly with multiple photos">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if save method of ContactsManager can work properly with multiple photos - Description: Check if save method of ContactsManager can work properly with multiple photos]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsManager_save_photos_multiple.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-2T-ContactsManager_save_update" name="2T-ContactsManager_save_update" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if save method of ContactsManager can work properly with update operation - Description: Check if save method of ContactsManager can work properly with update operation">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if save method of ContactsManager can work properly with update operation - Description: Check if save method of ContactsManager can work properly with update operation]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsManager_save_update.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-2U-ContactsManager_oncontactschange_clear" name="2U-ContactsManager_oncontactschange_clear" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if ContactsManager oncontactschange event is fired when clear contact - Description: Check if ContactsManager oncontactschange event is fired when clear contact">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ContactsManager oncontactschange event is fired when clear contact - Description: Check if ContactsManager oncontactschange event is fired when clear contact]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsManager_oncontactschange_clear.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-2V-ContactsManager_oncontactschange_remove" name="2V-ContactsManager_oncontactschange_remove" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if ContactsManager oncontactschange event is fired when remove contact - Description: Check if ContactsManager oncontactschange event is fired when remove contact">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ContactsManager oncontactschange event is fired when remove contact - Description: Check if ContactsManager oncontactschange event is fired when remove contact]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsManager_oncontactschange_remove.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-2W-ContactsManager_oncontactschange_update" name="2W-ContactsManager_oncontactschange_update" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if ContactsManager oncontactschange event is fired when update contact - Description: Check if ContactsManager oncontactschange event is fired when update contact">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ContactsManager oncontactschange event is fired when update contact - Description: Check if ContactsManager oncontactschange event is fired when update contact]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsManager_oncontactschange_update.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-2X-Navigator_contacts_attribute" name="2X-Navigator_contacts_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute Navigator.contacts exists and typeof object - Description: Check if the readonly attribute Navigator.contacts exists and typeof object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute Navigator.contacts exists and typeof object - Description: Check if the readonly attribute Navigator.contacts exists and typeof object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/Navigator_contacts_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-2Y-ContactsManager_find_method" name="2Y-ContactsManager_find_method" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the ContactsManager.find exists and typeof function - Description: Check if the ContactsManager.find exists and typeof function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the ContactsManager.find exists and typeof function - Description: Check if the ContactsManager.find exists and typeof function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsManager_methods.html?total_num=4&amp;locator_key=id&amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-2Z-ContactsManager_clear_method" name="2Z-ContactsManager_clear_method" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the ContactsManager.clear exists and typeof function - Description: Check if the ContactsManager.clear exists and typeof function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the ContactsManager.clear exists and typeof function - Description: Check if the ContactsManager.clear exists and typeof function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsManager_methods.html?total_num=4&amp;locator_key=id&amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-30-ContactsManager_save_method" name="30-ContactsManager_save_method" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the ContactsManager.save exists and typeof function - Description: Check if the ContactsManager.save exists and typeof function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the ContactsManager.save exists and typeof function - Description: Check if the ContactsManager.save exists and typeof function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsManager_methods.html?total_num=4&amp;locator_key=id&amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-31-ContactsManager_remove_method" name="31-ContactsManager_remove_method" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the ContactsManager.remove exists and typeof function - Description: Check if the ContactsManager.remove exists and typeof function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the ContactsManager.remove exists and typeof function - Description: Check if the ContactsManager.remove exists and typeof function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsManager_methods.html?total_num=4&amp;locator_key=id&amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-32-ContactField_types_attribute" name="32-ContactField_types_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the attribute ContactField.types exists and typeof object - Description: Check if the attribute ContactField.types exists and typeof object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the attribute ContactField.types exists and typeof object - Description: Check if the attribute ContactField.types exists and typeof object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactField_attributes.html?total_num=3&amp;locator_key=id&amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-33-ContactField_preferred_attribute" name="33-ContactField_preferred_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the attribute ContactField.preferred exists and typeof boolean - Description: Check if the attribute ContactField.preferred exists and typeof boolean">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the attribute ContactField.preferred exists and typeof boolean - Description: Check if the attribute ContactField.preferred exists and typeof boolean]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactField_attributes.html?total_num=3&amp;locator_key=id&amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-34-ContactField_value_attribute" name="34-ContactField_value_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the attribute ContactField.value exists and typeof string - Description: Check if the attribute ContactField.value exists and typeof string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the attribute ContactField.value exists and typeof string - Description: Check if the attribute ContactField.value exists and typeof string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactField_attributes.html?total_num=3&amp;locator_key=id&amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-35-ContactTelField_attributes" name="35-ContactTelField_attributes" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the attribute ContactTelField.carrier exists and typeof string - Description: Check if the attribute ContactTelField.carrier exists and typeof string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the attribute ContactTelField.carrier exists and typeof string - Description: Check if the attribute ContactTelField.carrier exists and typeof string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactTelField_attributes.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-36-ContactAddress_types_attribute" name="36-ContactAddress_types_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the attribute ContactAddress.types exists and typeof object - Description: Check if the attribute ContactAddress.types exists and typeof object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the attribute ContactAddress.types exists and typeof object - Description: Check if the attribute ContactAddress.types exists and typeof object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactAddress_attributes.html?total_num=7&amp;locator_key=id&amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-37-ContactAddress_preferred_attribute" name="37-ContactAddress_preferred_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the attribute ContactAddress.preferred exists and typeof boolean - Description: Check if the attribute ContactAddress.preferred exists and typeof boolean">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the attribute ContactAddress.preferred exists and typeof boolean - Description: Check if the attribute ContactAddress.preferred exists and typeof boolean]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactAddress_attributes.html?total_num=7&amp;locator_key=id&amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-38-ContactAddress_streetAddress_attribute" name="38-ContactAddress_streetAddress_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the attribute ContactAddress.streetAddress exists and typeof string - Description: Check if the attribute ContactAddress.streetAddress exists and typeof string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the attribute ContactAddress.streetAddress exists and typeof string - Description: Check if the attribute ContactAddress.streetAddress exists and typeof string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactAddress_attributes.html?total_num=7&amp;locator_key=id&amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-39-ContactAddress_locality_attribute" name="39-ContactAddress_locality_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the attribute ContactAddress.locality exists and typeof string - Description: Check if the attribute ContactAddress.locality exists and typeof string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the attribute ContactAddress.locality exists and typeof string - Description: Check if the attribute ContactAddress.locality exists and typeof string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactAddress_attributes.html?total_num=7&amp;locator_key=id&amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-3A-ContactAddress_region_attribute" name="3A-ContactAddress_region_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the attribute ContactAddress.region exists and typeof strin - Description: Check if the attribute ContactAddress.region exists and typeof strin">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the attribute ContactAddress.region exists and typeof strin - Description: Check if the attribute ContactAddress.region exists and typeof strin]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactAddress_attributes.html?total_num=7&amp;locator_key=id&amp;value=5</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-3B-ContactAddress_postalCode_attribute" name="3B-ContactAddress_postalCode_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the attribute ContactAddress.postalCode exists and typeof string - Description: Check if the attribute ContactAddress.postalCode exists and typeof string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the attribute ContactAddress.postalCode exists and typeof string - Description: Check if the attribute ContactAddress.postalCode exists and typeof string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactAddress_attributes.html?total_num=7&amp;locator_key=id&amp;value=6</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-3C-ContactAddress_countryName_attribute" name="3C-ContactAddress_countryName_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the attribute ContactAddress.countryName exists and typeof string - Description: Check if the attribute ContactAddress.countryName exists and typeof string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the attribute ContactAddress.countryName exists and typeof string - Description: Check if the attribute ContactAddress.countryName exists and typeof string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactAddress_attributes.html?total_num=7&amp;locator_key=id&amp;value=7</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-3D-ContactName_displayName_attribute" name="3D-ContactName_displayName_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the attribute ContactName.displayName exists and typeof string - Description: Check if the attribute ContactName.displayName exists and typeof string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the attribute ContactName.displayName exists and typeof string - Description: Check if the attribute ContactName.displayName exists and typeof string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactName_attributes.html?total_num=7&amp;locator_key=id&amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-3E-ContactName_honorificPrefixes_attribute" name="3E-ContactName_honorificPrefixes_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the attribute ContactName.honorificPrefixes exists and typeof object - Description: Check if the attribute ContactName.honorificPrefixes exists and typeof object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the attribute ContactName.honorificPrefixes exists and typeof object - Description: Check if the attribute ContactName.honorificPrefixes exists and typeof object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactName_attributes.html?total_num=7&amp;locator_key=id&amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-3F-ContactName_givenNames_attribute" name="3F-ContactName_givenNames_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the attribute ContactName.givenNames exists and typeof object - Description: Check if the attribute ContactName.givenNames exists and typeof object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the attribute ContactName.givenNames exists and typeof object - Description: Check if the attribute ContactName.givenNames exists and typeof object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactName_attributes.html?total_num=7&amp;locator_key=id&amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-3G-ContactName_additionalNames_attribute" name="3G-ContactName_additionalNames_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the attribute ContactName.additionalNames exists and typeof object - Description: Check if the attribute ContactName.additionalNames exists and typeof object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the attribute ContactName.additionalNames exists and typeof object - Description: Check if the attribute ContactName.additionalNames exists and typeof object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactName_attributes.html?total_num=7&amp;locator_key=id&amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-3H-ContactName_familyNames_attribute" name="3H-ContactName_familyNames_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the attribute ContactName.familyNames exists and typeof object - Description: Check if the attribute ContactName.familyNames exists and typeof object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the attribute ContactName.familyNames exists and typeof object - Description: Check if the attribute ContactName.familyNames exists and typeof object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactName_attributes.html?total_num=7&amp;locator_key=id&amp;value=5</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-3I-ContactName_honorificSuffixes_attribute" name="3I-ContactName_honorificSuffixes_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the attribute ContactName.honorificSuffixes exists and typeof object - Description: Check if the attribute ContactName.honorificSuffixes exists and typeof object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the attribute ContactName.honorificSuffixes exists and typeof object - Description: Check if the attribute ContactName.honorificSuffixes exists and typeof object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactName_attributes.html?total_num=7&amp;locator_key=id&amp;value=6</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-3J-ContactName_nicknames_attribute" name="3J-ContactName_nicknames_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the attribute ContactName.nicknames exists and typeof object - Description: Check if the attribute ContactName.nicknames exists and typeof object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the attribute ContactName.nicknames exists and typeof object - Description: Check if the attribute ContactName.nicknames exists and typeof object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactName_attributes.html?total_num=7&amp;locator_key=id&amp;value=7</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-3K-Contact_name_attribute" name="3K-Contact_name_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the attribute Contact.name exists and typeof object - Description: Check if the attribute Contact.name exists and typeof object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the attribute Contact.name exists and typeof object - Description: Check if the attribute Contact.name exists and typeof object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/Contact_attributes.html?total_num=14&amp;locator_key=id&amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-3L-Contact_phoneNumbers_attribute" name="3L-Contact_phoneNumbers_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the attribute Contact.phoneNumbers exists and typeof object - Description: Check if the attribute Contact.phoneNumbers exists and typeof object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the attribute Contact.phoneNumbers exists and typeof object - Description: Check if the attribute Contact.phoneNumbers exists and typeof object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/Contact_attributes.html?total_num=14&amp;locator_key=id&amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-3M-Contact_urls_attribute" name="3M-Contact_urls_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the attribute Contact.urls exists and typeof object - Description: Check if the attribute Contact.urls exists and typeof object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the attribute Contact.urls exists and typeof object - Description: Check if the attribute Contact.urls exists and typeof object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/Contact_attributes.html?total_num=14&amp;locator_key=id&amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-3N-Contact_emails_attribute" name="3N-Contact_emails_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the attribute Contact.emails exists and typeof object - Description: Check if the attribute Contact.emails exists and typeof object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the attribute Contact.emails exists and typeof object - Description: Check if the attribute Contact.emails exists and typeof object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/Contact_attributes.html?total_num=14&amp;locator_key=id&amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-3O-Contact_photos_attribute" name="3O-Contact_photos_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the attribute Contact.photos exists and typeof object - Description: Check if the attribute Contact.photos exists and typeof object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the attribute Contact.photos exists and typeof object - Description: Check if the attribute Contact.photos exists and typeof object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/Contact_attributes.html?total_num=14&amp;locator_key=id&amp;value=5</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-3P-Contact_categories_attribute" name="3P-Contact_categories_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the attribute Contact.categories exists and typeof object - Description: Check if the attribute Contact.categories exists and typeof object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the attribute Contact.categories exists and typeof object - Description: Check if the attribute Contact.categories exists and typeof object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/Contact_attributes.html?total_num=14&amp;locator_key=id&amp;value=6</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-3Q-Contact_addresses_attribute" name="3Q-Contact_addresses_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the attribute Contact.addresses exists and typeof object - Description: Check if the attribute Contact.addresses exists and typeof object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the attribute Contact.addresses exists and typeof object - Description: Check if the attribute Contact.addresses exists and typeof object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/Contact_attributes.html?total_num=14&amp;locator_key=id&amp;value=7</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-3R-Contact_organizations_attribute" name="3R-Contact_organizations_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the attribute Contact.organizations exists and typeof object - Description: Check if the attribute Contact.organizations exists and typeof object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the attribute Contact.organizations exists and typeof object - Description: Check if the attribute Contact.organizations exists and typeof object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/Contact_attributes.html?total_num=14&amp;locator_key=id&amp;value=8</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-3S-Contact_jobTitles_attribute" name="3S-Contact_jobTitles_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the attribute Contact.jobTitles exists and typeof object - Description: Check if the attribute Contact.jobTitles exists and typeof object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the attribute Contact.jobTitles exists and typeof object - Description: Check if the attribute Contact.jobTitles exists and typeof object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/Contact_attributes.html?total_num=14&amp;locator_key=id&amp;value=9</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-3T-Contact_birthday_attribute" name="3T-Contact_birthday_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the attribute Contact.birthday exists and typeof object - Description: Check if the attribute Contact.birthday exists and typeof object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the attribute Contact.birthday exists and typeof object - Description: Check if the attribute Contact.birthday exists and typeof object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/Contact_attributes.html?total_num=14&amp;locator_key=id&amp;value=10</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-3U-Contact_notes_attribute" name="3U-Contact_notes_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the attribute Contact.notes exists and typeof object - Description: Check if the attribute Contact.notes exists and typeof object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the attribute Contact.notes exists and typeof object - Description: Check if the attribute Contact.notes exists and typeof object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/Contact_attributes.html?total_num=14&amp;locator_key=id&amp;value=11</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-3V-Contact_impp_attribute" name="3V-Contact_impp_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the attribute Contact.impp exists and typeof object - Description: Check if the attribute Contact.impp exists and typeof object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the attribute Contact.impp exists and typeof object - Description: Check if the attribute Contact.impp exists and typeof object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/Contact_attributes.html?total_num=14&amp;locator_key=id&amp;value=12</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-3W-Contact_anniversary_attribute" name="3W-Contact_anniversary_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the attribute Contact.anniversary exists and typeof object - Description: Check if the attribute Contact.anniversary exists and typeof object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the attribute Contact.anniversary exists and typeof object - Description: Check if the attribute Contact.anniversary exists and typeof object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/Contact_attributes.html?total_num=14&amp;locator_key=id&amp;value=13</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-3X-Contact_gender_attribute" name="3X-Contact_gender_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the attribute Contact.gender exists and typeof object - Description: Check if the attribute Contact.gender exists and typeof object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the attribute Contact.gender exists and typeof object - Description: Check if the attribute Contact.gender exists and typeof object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/Contact_attributes.html?total_num=14&amp;locator_key=id&amp;value=14</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-3Y-ContactsChangeEvent_added_attribute" name="3Y-ContactsChangeEvent_added_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute ContactsChangeEvent.added exists and typeof object - Description: Check if the readonly attribute ContactsChangeEvent.added exists and typeof object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute ContactsChangeEvent.added exists and typeof object - Description: Check if the readonly attribute ContactsChangeEvent.added exists and typeof object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsChangeEvent_added_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-3Z-ContactsChangeEvent_modified_attribute" name="3Z-ContactsChangeEvent_modified_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute ContactsChangeEvent.modified exists and typeof object - Description: Check if the readonly attribute ContactsChangeEvent.modified exists and typeof object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute ContactsChangeEvent.modified exists and typeof object - Description: Check if the readonly attribute ContactsChangeEvent.modified exists and typeof object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsChangeEvent_modified_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1V-40-ContactsChangeEvent_removed_attribute" name="40-ContactsChangeEvent_removed_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-contactsmanager-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute ContactsChangeEvent.removed exists and typeof object - Description: Check if the readonly attribute ContactsChangeEvent.removed exists and typeof object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute ContactsChangeEvent.removed exists and typeof object - Description: Check if the readonly attribute ContactsChangeEvent.removed exists and typeof object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsChangeEvent_removed_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+        </set>
+    </suite>
+</test_definition>

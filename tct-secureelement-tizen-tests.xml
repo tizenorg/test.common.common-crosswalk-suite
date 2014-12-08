@@ -1,0 +1,295 @@
+<?xml version="1.0"?>
+<test_definition>
+    <suite launcher="xwalk" name="00-common/E0-crosswalk">
+        <set name="common/crosswalk/deviceapi/tct-secureelement-tizen-tests">
+            <testcase id="00-E0-01-0P-01-Channel_notexist" name="01-Channel_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-secureelement-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if interface Channel exists, it should not - Description: Check if interface Channel exists, it should not">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if interface Channel exists, it should not - Description: Check if interface Channel exists, it should not]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-secureelement-tizen-tests/secureelement/Channel_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0P-02-ReaderArraySuccessCallback_notexist" name="02-ReaderArraySuccessCallback_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-secureelement-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if interface ReaderArraySuccessCallback exists, it should not - Description: Check if interface ReaderArraySuccessCallback exists, it should not">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if interface ReaderArraySuccessCallback exists, it should not - Description: Check if interface ReaderArraySuccessCallback exists, it should not]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-secureelement-tizen-tests/secureelement/ReaderArraySuccessCallback_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0P-03-Reader_notexist" name="03-Reader_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-secureelement-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if interface Reader exists, it should not - Description: Check if interface Reader exists, it should not">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if interface Reader exists, it should not - Description: Check if interface Reader exists, it should not]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-secureelement-tizen-tests/secureelement/Reader_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0P-04-SEChangeListener_notexist" name="04-SEChangeListener_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-secureelement-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if interface SEChangeListener exists, it should not - Description: Check if interface SEChangeListener exists, it should not">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if interface SEChangeListener exists, it should not - Description: Check if interface SEChangeListener exists, it should not]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-secureelement-tizen-tests/secureelement/SEChangeListener_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0P-05-SEServiceManagerObject_notexist" name="05-SEServiceManagerObject_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-secureelement-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if interface SEServiceManagerObject exists, it should not - Description: Check if interface SEServiceManagerObject exists, it should not">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if interface SEServiceManagerObject exists, it should not - Description: Check if interface SEServiceManagerObject exists, it should not]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-secureelement-tizen-tests/secureelement/SEServiceManagerObject_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0P-06-SEService_notexist" name="06-SEService_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-secureelement-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if interface SEService exists, it should not - Description: Check if interface SEService exists, it should not">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if interface SEService exists, it should not - Description: Check if interface SEService exists, it should not]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-secureelement-tizen-tests/secureelement/SEService_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0P-07-SessionSuccessCallback_notexist" name="07-SessionSuccessCallback_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-secureelement-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if interface SessionSuccessCallback exists, it should not - Description: Check if interface SessionSuccessCallback exists, it should not">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if interface SessionSuccessCallback exists, it should not - Description: Check if interface SessionSuccessCallback exists, it should not]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-secureelement-tizen-tests/secureelement/SessionSuccessCallback_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0P-08-Session_notexist" name="08-Session_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-secureelement-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if interface Session exists, it should not - Description: Check if interface Session exists, it should not">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if interface Session exists, it should not - Description: Check if interface Session exists, it should not]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-secureelement-tizen-tests/secureelement/Session_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0P-09-Tizen_seService_exist" name="09-Tizen_seService_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-secureelement-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if Tizen implements interface SEServiceManagerObject and has attribute seService - Description: Check if Tizen implements interface SEServiceManagerObject and has attribute seService">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Tizen implements interface SEServiceManagerObject and has attribute seService - Description: Check if Tizen implements interface SEServiceManagerObject and has attribute seService]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-secureelement-tizen-tests/secureelement/Tizen_seService_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0P-0A-TransmitSuccessCallback_notexist" name="0A-TransmitSuccessCallback_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-secureelement-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if interface TransmitSuccessCallback exists, it should not - Description: Check if interface TransmitSuccessCallback exists, it should not">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if interface TransmitSuccessCallback exists, it should not - Description: Check if interface TransmitSuccessCallback exists, it should not]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-secureelement-tizen-tests/secureelement/TransmitSuccessCallback_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0P-0B-SEService_extend" name="0B-SEService_extend" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-secureelement-tizen-tests" status="designed" type="compliance" purpose="Objective: Test whether the SEServiceManager object can have new attribute added - Description: Test whether the SEServiceManager object can have new attribute added">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test whether the SEServiceManager object can have new attribute added - Description: Test whether the SEServiceManager object can have new attribute added]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-secureelement-tizen-tests/secureelement/SEService_extend.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0P-0C-SEService_getReaders_exist" name="0C-SEService_getReaders_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-secureelement-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if getReaders method exists in SEServiceManager - Description: Check if getReaders method exists in SEServiceManager">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if getReaders method exists in SEServiceManager - Description: Check if getReaders method exists in SEServiceManager]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-secureelement-tizen-tests/secureelement/SEService_getReaders_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0P-0D-SEService_registerSEListener_exist" name="0D-SEService_registerSEListener_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-secureelement-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if registerSEListener method exists in SEServiceManager - Description: Check if registerSEListener method exists in SEServiceManager">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if registerSEListener method exists in SEServiceManager - Description: Check if registerSEListener method exists in SEServiceManager]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-secureelement-tizen-tests/secureelement/SEService_registerSEListener_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0P-0E-SEService_unregisterSEListener_exist" name="0E-SEService_unregisterSEListener_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-secureelement-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if unregisterSEListener method exists in SEServiceManager - Description: Check if unregisterSEListener method exists in SEServiceManager">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if unregisterSEListener method exists in SEServiceManager - Description: Check if unregisterSEListener method exists in SEServiceManager]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-secureelement-tizen-tests/secureelement/SEService_unregisterSEListener_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0P-0F-SEService_shutdown_exist" name="0F-SEService_shutdown_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-secureelement-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if shutdown method exists in SEServiceManager - Description: Check if shutdown method exists in SEServiceManager">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if shutdown method exists in SEServiceManager - Description: Check if shutdown method exists in SEServiceManager]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-secureelement-tizen-tests/secureelement/SEService_shutdown_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0P-0G-SEService_getReaders" name="0G-SEService_getReaders" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-secureelement-tizen-tests" status="designed" type="compliance" purpose="Objective: Check without optional arguments getReaders(getReadersSuccessCallback) - Description: Check without optional arguments getReaders(getReadersSuccessCallback)" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check without optional arguments getReaders(getReadersSuccessCallback) - Description: Check without optional arguments getReaders(getReadersSuccessCallback)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-secureelement-tizen-tests/secureelement/SEService_getReaders.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0P-0H-SEService_registerSEListener" name="0H-SEService_registerSEListener" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-secureelement-tizen-tests" status="designed" type="compliance" purpose="Objective: Check with non-optional arguments registerSEListener - Description: Check with non-optional arguments registerSEListener" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check with non-optional arguments registerSEListener - Description: Check with non-optional arguments registerSEListener]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-secureelement-tizen-tests/secureelement/SEService_registerSEListener.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0P-0I-SEService_unregisterSEListener" name="0I-SEService_unregisterSEListener" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-secureelement-tizen-tests" status="designed" type="compliance" purpose="Objective: Check with non-optional arguments unregisterSEListener - Description: Check with non-optional arguments unregisterSEListener" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check with non-optional arguments unregisterSEListener - Description: Check with non-optional arguments unregisterSEListener]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-secureelement-tizen-tests/secureelement/SEService_unregisterSEListener.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0P-0J-SEService_shutdown" name="0J-SEService_shutdown" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-secureelement-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if shutdown method works properly - Description: Check if shutdown method works properly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if shutdown method works properly - Description: Check if shutdown method works properly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-secureelement-tizen-tests/secureelement/SEService_shutdown.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0P-0K-ReaderArraySuccessCallback_onsuccess" name="0K-ReaderArraySuccessCallback_onsuccess" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-secureelement-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if onsuccess method of ReaderArraySuccessCallback works - Description: Check if onsuccess method of ReaderArraySuccessCallback works" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if onsuccess method of ReaderArraySuccessCallback works - Description: Check if onsuccess method of ReaderArraySuccessCallback works]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-secureelement-tizen-tests/secureelement/ReaderArraySuccessCallback_onsuccess.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0P-0L-SEService_getReaders_missarg" name="0L-SEService_getReaders_missarg" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-secureelement-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if getReaders method called with missing non-optional argument throws an exception - Description: Check if getReaders method called with missing non-optional argument throws an exception">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if getReaders method called with missing non-optional argument throws an exception - Description: Check if getReaders method called with missing non-optional argument throws an exception]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-secureelement-tizen-tests/secureelement/SEService_getReaders_missarg.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0P-0M-SEService_getReaders_successCallback_TypeMismatch" name="0M-SEService_getReaders_successCallback_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-secureelement-tizen-tests" status="designed" type="compliance" purpose="Objective: Check argument successCallback conversions exception - Description: Check argument successCallback conversions exception" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check argument successCallback conversions exception - Description: Check argument successCallback conversions exception]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-secureelement-tizen-tests/secureelement/SEService_getReaders_successCallback_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0P-0N-SEService_getReaders_successCallback_invalid_cb" name="0N-SEService_getReaders_successCallback_invalid_cb" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-secureelement-tizen-tests" status="designed" type="compliance" purpose="Objective: GetReaders - check argument successCallback validation - use {onsuccess: function (){}} - Description: GetReaders - check argument successCallback validation - use {onsuccess: function (){}}" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: GetReaders - check argument successCallback validation - use {onsuccess: function (){}} - Description: GetReaders - check argument successCallback validation - use {onsuccess: function (){}}]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-secureelement-tizen-tests/secureelement/SEService_getReaders_successCallback_invalid_cb.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0P-0O-SEService_getReaders_with_errorCallback" name="0O-SEService_getReaders_with_errorCallback" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-secureelement-tizen-tests" status="designed" type="compliance" purpose="Objective: Check method getReaders of SEService with errorCallback - Description: Check method getReaders of SEService with errorCallback" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check method getReaders of SEService with errorCallback - Description: Check method getReaders of SEService with errorCallback]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-secureelement-tizen-tests/secureelement/SEService_getReaders_with_errorCallback.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0P-0P-SEService_registerSEListener_listener_TypeMismatch" name="0P-SEService_registerSEListener_listener_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-secureelement-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if registerSEListener of SEService throws exception when argument is incorrect - Description: Check if registerSEListener of SEService throws exception when argument is incorrect" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if registerSEListener of SEService throws exception when argument is incorrect - Description: Check if registerSEListener of SEService throws exception when argument is incorrect]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-secureelement-tizen-tests/secureelement/SEService_registerSEListener_listener_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0P-0Q-SEService_registerSEListener_listener_invalid_cb" name="0Q-SEService_registerSEListener_listener_invalid_cb" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-secureelement-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if registerSEListener of SEService throws exception when listener is invalid - Description: Check if registerSEListener of SEService throws exception when listener is invalid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if registerSEListener of SEService throws exception when listener is invalid - Description: Check if registerSEListener of SEService throws exception when listener is invalid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-secureelement-tizen-tests/secureelement/SEService_registerSEListener_listener_invalid_cb.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0P-0R-SEService_registerSEListener_missarg" name="0R-SEService_registerSEListener_missarg" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-secureelement-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if registerSEListener method of SEService called with missing non-optional argument throws an exception - Description: Check if registerSEListener method of SEService called with missing non-optional argument throws an exception">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if registerSEListener method of SEService called with missing non-optional argument throws an exception - Description: Check if registerSEListener method of SEService called with missing non-optional argument throws an exception]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-secureelement-tizen-tests/secureelement/SEService_registerSEListener_missarg.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0P-0S-SEService_shutdown_extra_argument" name="0S-SEService_shutdown_extra_argument" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-secureelement-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if SEService.shutdown works with extra argument - Description: Check if SEService.shutdown works with extra argument">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if SEService.shutdown works with extra argument - Description: Check if SEService.shutdown works with extra argument]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-secureelement-tizen-tests/secureelement/SEService_shutdown_extra_argument.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0P-0T-ChannelSuccessCallback_notexist" name="0T-ChannelSuccessCallback_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-secureelement-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if interface ChannelSuccessCallback exists, it should not - Description: Check if interface ChannelSuccessCallback exists, it should not">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if interface ChannelSuccessCallback exists, it should not - Description: Check if interface ChannelSuccessCallback exists, it should not]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-secureelement-tizen-tests/secureelement/ChannelSuccessCallback_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0P-0U-SEService_getReaders_errorCallback_invalid_cb" name="0U-SEService_getReaders_errorCallback_invalid_cb" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-secureelement-tizen-tests" status="designed" type="compliance" purpose="Objective: GetReaders - check argument errorCallback validation - use {onerror: function (){}} - Description: GetReaders - check argument errorCallback validation - use {onerror: function (){}}" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: GetReaders - check argument errorCallback validation - use {onerror: function (){}} - Description: GetReaders - check argument errorCallback validation - use {onerror: function (){}}]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-secureelement-tizen-tests/secureelement/SEService_getReaders_errorCallback_invalid_cb.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0P-0V-SEService_getReaders_errorCallback_TypeMismatch" name="0V-SEService_getReaders_errorCallback_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-secureelement-tizen-tests" status="designed" type="compliance" purpose="Objective: Check argument errorCallback conversions exception - Description: Check argument errorCallback conversions exception" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check argument errorCallback conversions exception - Description: Check argument errorCallback conversions exception]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-secureelement-tizen-tests/secureelement/SEService_getReaders_errorCallback_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0P-0W-SEService_registerSEListener_listener_empty" name="0W-SEService_registerSEListener_listener_empty" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-secureelement-tizen-tests" status="designed" type="compliance" purpose="Objective: Check with empty argument of registerSEListener - Description: Check with empty argument of registerSEListener">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check with empty argument of registerSEListener - Description: Check with empty argument of registerSEListener]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-secureelement-tizen-tests/secureelement/SEService_registerSEListener_listener_empty.html</test_script_entry>
+                </description>
+            </testcase>
+        </set>
+    </suite>
+</test_definition>

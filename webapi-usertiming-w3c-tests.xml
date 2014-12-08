@@ -1,0 +1,205 @@
+<?xml version="1.0"?>
+<test_definition>
+    <suite launcher="xwalk" name="00-common/E0-crosswalk">
+        <set name="common/crosswalk/commonapi/webapi-usertiming-w3c-tests">
+            <testcase id="00-E0-00-2F-01-test_user_timing_clear_marks_003" name="01-test_user_timing_clear_marks_003" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-usertiming-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the performance.clearMarks() is called with a non-existent mark which shouldn't change the state of the Performance Timeline - Description: Check if the performance.clearMarks() is called with a non-existent mark which shouldn't change the state of the Performance Timeline">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the performance.clearMarks() is called with a non-existent mark which shouldn't change the state of the Performance Timeline - Description: Check if the performance.clearMarks() is called with a non-existent mark which shouldn't change the state of the Performance Timeline]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-usertiming-w3c-tests/usertiming/w3c/test_user_timing_clear_marks.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2F-02-test_user_timing_clear_marks_005" name="02-test_user_timing_clear_marks_005" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-usertiming-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the performance.clearMarks() is called with a existed mark which should no longer be present in the Performance Timeline - Description: Check if the performance.clearMarks() is called with a existed mark which should no longer be present in the Performance Timeline">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the performance.clearMarks() is called with a existed mark which should no longer be present in the Performance Timeline - Description: Check if the performance.clearMarks() is called with a existed mark which should no longer be present in the Performance Timeline]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-usertiming-w3c-tests/usertiming/w3c/test_user_timing_clear_marks.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2F-03-test_user_timing_clear_marks_007" name="03-test_user_timing_clear_marks_007" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-usertiming-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the performance.clearMarks() is called that clear all marks then window.performance.getEntriesByType('mark') returns an empty object - Description: Check if the performance.clearMarks() is called that clear all marks then window.performance.getEntriesByType('mark') returns an empty object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the performance.clearMarks() is called that clear all marks then window.performance.getEntriesByType('mark') returns an empty object - Description: Check if the performance.clearMarks() is called that clear all marks then window.performance.getEntriesByType('mark') returns an empty object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-usertiming-w3c-tests/usertiming/w3c/test_user_timing_clear_marks.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2F-04-test_user_timing_clear_measures_003" name="04-test_user_timing_clear_measures_003" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-usertiming-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the performance.clearMeasures() is called with a non-existent measure which shouldn't change the state of the Performance Timeline - Description: Check if the performance.clearMeasures() is called with a non-existent measure which shouldn't change the state of the Performance Timeline">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the performance.clearMeasures() is called with a non-existent measure which shouldn't change the state of the Performance Timeline - Description: Check if the performance.clearMeasures() is called with a non-existent measure which shouldn't change the state of the Performance Timeline]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-usertiming-w3c-tests/usertiming/w3c/test_user_timing_clear_measures.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2F-05-test_user_timing_clear_measures_005" name="05-test_user_timing_clear_measures_005" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-usertiming-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the performance.clearMeasures() is called with a existed measure which should no longer be present in the Performance Timeline - Description: Check if the performance.clearMeasures() is called with a existed measure which should no longer be present in the Performance Timeline">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the performance.clearMeasures() is called with a existed measure which should no longer be present in the Performance Timeline - Description: Check if the performance.clearMeasures() is called with a existed measure which should no longer be present in the Performance Timeline]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-usertiming-w3c-tests/usertiming/w3c/test_user_timing_clear_measures.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2F-06-test_user_timing_clear_measures_007" name="06-test_user_timing_clear_measures_007" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-usertiming-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the performance.clearMeasures() is called that clear all measures then window.performance.getEntriesByType('measure') returns an empty object - Description: Check if the performance.clearMeasures() is called that clear all measures then window.performance.getEntriesByType('measure') returns an empty object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the performance.clearMeasures() is called that clear all measures then window.performance.getEntriesByType('measure') returns an empty object - Description: Check if the performance.clearMeasures() is called that clear all measures then window.performance.getEntriesByType('measure') returns an empty object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-usertiming-w3c-tests/usertiming/w3c/test_user_timing_clear_measures.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2F-07-test_user_timing_mark" name="07-test_user_timing_mark" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-usertiming-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if this test validates that the performance.mark() method is working properly - Description: Check if this test validates that the performance.mark() method is working properly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if this test validates that the performance.mark() method is working properly - Description: Check if this test validates that the performance.mark() method is working properly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-usertiming-w3c-tests/usertiming/w3c/test_user_timing_mark.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2F-08-usertiming_mark_without_parameter" name="08-usertiming_mark_without_parameter" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-usertiming-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the window.performance.mark() threw a TYPE_ERR exception when invoke without a parameter - Description: Check if the window.performance.mark() threw a TYPE_ERR exception when invoke without a parameter">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the window.performance.mark() threw a TYPE_ERR exception when invoke without a parameter - Description: Check if the window.performance.mark() threw a TYPE_ERR exception when invoke without a parameter]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-usertiming-w3c-tests/usertiming/w3c/test_user_timing_mark_and_measure_exception_when_invoke_without_parameter.html?total_num=5&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2F-09-usertiming_measure_without_parameter" name="09-usertiming_measure_without_parameter" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-usertiming-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the window.performance.measure() threw a TYPE_ERR exception when invoke without a parameter - Description: Check if the window.performance.measure() threw a TYPE_ERR exception when invoke without a parameter">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the window.performance.measure() threw a TYPE_ERR exception when invoke without a parameter - Description: Check if the window.performance.measure() threw a TYPE_ERR exception when invoke without a parameter]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-usertiming-w3c-tests/usertiming/w3c/test_user_timing_mark_and_measure_exception_when_invoke_without_parameter.html?total_num=5&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2F-0A-test_user_timing_mark_exceptions" name="0A-test_user_timing_mark_exceptions" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-usertiming-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if throws a SYNTAX_ERR exception if the markName argument is the same name as an attribute in the PerformanceTiming interface - Description: Check if throws a SYNTAX_ERR exception if the markName argument is the same name as an attribute in the PerformanceTiming interface">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if throws a SYNTAX_ERR exception if the markName argument is the same name as an attribute in the PerformanceTiming interface - Description: Check if throws a SYNTAX_ERR exception if the markName argument is the same name as an attribute in the PerformanceTiming interface]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-usertiming-w3c-tests/usertiming/w3c/test_user_timing_mark_exceptions.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2F-0B-usertiming_mark_with_name_optional_attribute" name="0B-usertiming_mark_with_name_optional_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-usertiming-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if this test validates exception scenarios of invoking performance.mark() with param of 'secureConnectionStart' - Description: Check if this test validates exception scenarios of invoking performance.mark() with param of 'secureConnectionStart'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if this test validates exception scenarios of invoking performance.mark() with param of 'secureConnectionStart' - Description: Check if this test validates exception scenarios of invoking performance.mark() with param of 'secureConnectionStart']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-usertiming-w3c-tests/usertiming/w3c/test_user_timing_mark_with_name_of_navigation_timing_optional_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2F-0C-test_user_timing_measure" name="0C-test_user_timing_measure" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-usertiming-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if this test validates that the performance.measure() method is working properly - Description: Check if this test validates that the performance.measure() method is working properly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if this test validates that the performance.measure() method is working properly - Description: Check if this test validates that the performance.measure() method is working properly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-usertiming-w3c-tests/usertiming/w3c/test_user_timing_measure.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2F-0D-test_user_timing_measure_exceptions_003" name="0D-test_user_timing_measure_exceptions_003" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-usertiming-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the window.performance.measure() throws a SYNTAX_ERR exception whenever a non-existent mark is provided as the startMark or endMark - Description: Check if the window.performance.measure() throws a SYNTAX_ERR exception whenever a non-existent mark is provided as the startMark or endMark">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the window.performance.measure() throws a SYNTAX_ERR exception whenever a non-existent mark is provided as the startMark or endMark - Description: Check if the window.performance.measure() throws a SYNTAX_ERR exception whenever a non-existent mark is provided as the startMark or endMark]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-usertiming-w3c-tests/usertiming/w3c/test_user_timing_measure_exceptions.html?total_num=17&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2F-0E-test_user_timing_measure_exceptions_005" name="0E-test_user_timing_measure_exceptions_005" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-usertiming-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the window.performance.measure() throws a SYNTAX_ERR exception whenever a non-existent mark is provided as the startMark - Description: Check if the window.performance.measure() throws a SYNTAX_ERR exception whenever a non-existent mark is provided as the startMark">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the window.performance.measure() throws a SYNTAX_ERR exception whenever a non-existent mark is provided as the startMark - Description: Check if the window.performance.measure() throws a SYNTAX_ERR exception whenever a non-existent mark is provided as the startMark]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-usertiming-w3c-tests/usertiming/w3c/test_user_timing_measure_exceptions.html?total_num=17&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2F-0F-test_user_timing_measure_exceptions_007" name="0F-test_user_timing_measure_exceptions_007" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-usertiming-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the window.performance.measure() throws a SYNTAX_ERR exception whenever a non-existent mark is provided as the endMark - Description: Check if the window.performance.measure() throws a SYNTAX_ERR exception whenever a non-existent mark is provided as the endMark">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the window.performance.measure() throws a SYNTAX_ERR exception whenever a non-existent mark is provided as the endMark - Description: Check if the window.performance.measure() throws a SYNTAX_ERR exception whenever a non-existent mark is provided as the endMark]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-usertiming-w3c-tests/usertiming/w3c/test_user_timing_measure_exceptions.html?total_num=17&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2F-0G-test_user_timing_measure_exceptions_009" name="0G-test_user_timing_measure_exceptions_009" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-usertiming-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the window.performance.measure() throws a SYNTAX_ERR exception whenever a non-existent marks are provided as the startMark and endMark - Description: Check if the window.performance.measure() throws a SYNTAX_ERR exception whenever a non-existent marks are provided as the startMark and endMark">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the window.performance.measure() throws a SYNTAX_ERR exception whenever a non-existent marks are provided as the startMark and endMark - Description: Check if the window.performance.measure() throws a SYNTAX_ERR exception whenever a non-existent marks are provided as the startMark and endMark]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-usertiming-w3c-tests/usertiming/w3c/test_user_timing_measure_exceptions.html?total_num=17&amp;amp;locator_key=id&amp;amp;value=9</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2F-0H-test_user_timing_measure_exceptions_011" name="0H-test_user_timing_measure_exceptions_011" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-usertiming-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the window.performance.measure() throws a INVALID_ACCESS_ERR whenever a navigation timing attribute with a value of zero is provided as the startMark or endMark - Description: Check if the window.performance.measure() throws a INVALID_ACCESS_ERR whenever a navigation timing attribute with a value of zero is provided as the startMark or endMark">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the window.performance.measure() throws a INVALID_ACCESS_ERR whenever a navigation timing attribute with a value of zero is provided as the startMark or endMark - Description: Check if the window.performance.measure() throws a INVALID_ACCESS_ERR whenever a navigation timing attribute with a value of zero is provided as the startMark or endMark]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-usertiming-w3c-tests/usertiming/w3c/test_user_timing_measure_exceptions.html?total_num=17&amp;amp;locator_key=id&amp;amp;value=11</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2F-0I-test_user_timing_measure_exceptions_013" name="0I-test_user_timing_measure_exceptions_013" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-usertiming-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the window.performance.measure() throws a INVALID_ACCESS_ERR whenever a navigation timing attribute with a value of zero is provided as the startMark - Description: Check if the window.performance.measure() throws a INVALID_ACCESS_ERR whenever a navigation timing attribute with a value of zero is provided as the startMark">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the window.performance.measure() throws a INVALID_ACCESS_ERR whenever a navigation timing attribute with a value of zero is provided as the startMark - Description: Check if the window.performance.measure() throws a INVALID_ACCESS_ERR whenever a navigation timing attribute with a value of zero is provided as the startMark]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-usertiming-w3c-tests/usertiming/w3c/test_user_timing_measure_exceptions.html?total_num=17&amp;amp;locator_key=id&amp;amp;value=13</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2F-0J-test_user_timing_measure_exceptions_015" name="0J-test_user_timing_measure_exceptions_015" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-usertiming-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the window.performance.measure() throws a INVALID_ACCESS_ERR whenever a navigation timing attribute with a value of zero is provided as the endMark - Description: Check if the window.performance.measure() throws a INVALID_ACCESS_ERR whenever a navigation timing attribute with a value of zero is provided as the endMark">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the window.performance.measure() throws a INVALID_ACCESS_ERR whenever a navigation timing attribute with a value of zero is provided as the endMark - Description: Check if the window.performance.measure() throws a INVALID_ACCESS_ERR whenever a navigation timing attribute with a value of zero is provided as the endMark]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-usertiming-w3c-tests/usertiming/w3c/test_user_timing_measure_exceptions.html?total_num=17&amp;amp;locator_key=id&amp;amp;value=15</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2F-0K-test_user_timing_measure_exceptions_017" name="0K-test_user_timing_measure_exceptions_017" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-usertiming-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the window.performance.measure() throws a INVALID_ACCESS_ERR whenever a navigation timing attribute with a value of zero is provided as the startMark and endMark - Description: Check if the window.performance.measure() throws a INVALID_ACCESS_ERR whenever a navigation timing attribute with a value of zero is provided as the startMark and endMark">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the window.performance.measure() throws a INVALID_ACCESS_ERR whenever a navigation timing attribute with a value of zero is provided as the startMark and endMark - Description: Check if the window.performance.measure() throws a INVALID_ACCESS_ERR whenever a navigation timing attribute with a value of zero is provided as the startMark and endMark]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-usertiming-w3c-tests/usertiming/w3c/test_user_timing_measure_exceptions.html?total_num=17&amp;amp;locator_key=id&amp;amp;value=17</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2F-0L-test_user_timing_measure_navigation_timing" name="0L-test_user_timing_measure_navigation_timing" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-usertiming-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the performance.measure() method is working properly when navigation timing attributes are used in place of mark names - Description: Check if the performance.measure() method is working properly when navigation timing attributes are used in place of mark names">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the performance.measure() method is working properly when navigation timing attributes are used in place of mark names - Description: Check if the performance.measure() method is working properly when navigation timing attributes are used in place of mark names]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-usertiming-w3c-tests/usertiming/w3c/test_user_timing_measure_navigation_timing.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2F-0M-user_timing_idlharness" name="0M-user_timing_idlharness" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-usertiming-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the user timing idlharness tests - Description: Check if the user timing idlharness tests">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the user timing idlharness tests - Description: Check if the user timing idlharness tests]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-usertiming-w3c-tests/usertiming/w3c/idlharness.html</test_script_entry>
+                </description>
+            </testcase>
+        </set>
+    </suite>
+</test_definition>

@@ -1,0 +1,538 @@
+<?xml version="1.0"?>
+<test_definition>
+    <suite launcher="xwalk" name="00-common/E0-crosswalk">
+        <set name="common/crosswalk/commonapi/tct-sandbox-html5-tests">
+            <testcase id="00-E0-00-10-01-attri_default_block_child_contents" name="01-attri_default_block_child_contents" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: Check that block the parent content to access the child iframe content of sandbox if sandbox attribute exists - Description: Check that block the parent content to access the child iframe content of sandbox if sandbox attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check that block the parent content to access the child iframe content of sandbox if sandbox attribute exists - Description: Check that block the parent content to access the child iframe content of sandbox if sandbox attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/w3c/sandbox_030.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-02-attri_allow-script_script_exec" name="02-attri_allow-script_script_exec" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: Check that allow script to exec inside iframe with sandbox attribute if sandbox='allow-scripts' - Description: Check that allow script to exec inside iframe with sandbox attribute if sandbox='allow-scripts'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check that allow script to exec inside iframe with sandbox attribute if sandbox='allow-scripts' - Description: Check that allow script to exec inside iframe with sandbox attribute if sandbox='allow-scripts']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/w3c/sandbox_001.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-03-attri_allow-script_video_play" name="03-attri_allow-script_video_play" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: Check that allow to auto play HTML5 Video inside iframe with sandbox attribute if sandbox='allow-scripts' - Description: Check that allow to auto play HTML5 Video inside iframe with sandbox attribute if sandbox='allow-scripts'" onload_delay="15">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check that allow to auto play HTML5 Video inside iframe with sandbox attribute if sandbox='allow-scripts' - Description: Check that allow to auto play HTML5 Video inside iframe with sandbox attribute if sandbox='allow-scripts']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/w3c/sandbox_002.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-04-attri_allow-same-origin_content" name="04-attri_allow-same-origin_content" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: Check that allow sandbox iframe to access other content from the same origin if sandbox='allow-same-origin' - Description: Check that allow sandbox iframe to access other content from the same origin if sandbox='allow-same-origin'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check that allow sandbox iframe to access other content from the same origin if sandbox='allow-same-origin' - Description: Check that allow sandbox iframe to access other content from the same origin if sandbox='allow-same-origin']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/w3c/sandbox_023.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-05-attri_format_space_4tab" name="05-attri_format_space_4tab" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the value of sandbox attribute must be an unordered set of unique space-separated tokens - Description: Check if the value of sandbox attribute must be an unordered set of unique space-separated tokens">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the value of sandbox attribute must be an unordered set of unique space-separated tokens - Description: Check if the value of sandbox attribute must be an unordered set of unique space-separated tokens]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/w3c/sandbox_012.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-06-iframe_contentWindow_attribute_exists" name="06-iframe_contentWindow_attribute_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the iframe.contentWindow attribute exists - Description: Check if the iframe.contentWindow attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the iframe.contentWindow attribute exists - Description: Check if the iframe.contentWindow attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/iframe_contentWindow_attribute_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-07-iframe_height_attribute_exists" name="07-iframe_height_attribute_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the iframe.height attribute exists - Description: Check if the iframe.height attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the iframe.height attribute exists - Description: Check if the iframe.height attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/iframe_height_attribute_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-08-iframe_name_attribute_exists" name="08-iframe_name_attribute_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the iframe.name attribute exists - Description: Check if the iframe.name attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the iframe.name attribute exists - Description: Check if the iframe.name attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/iframe_name_attribute_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-09-iframe_sandbox_attribute_exists" name="09-iframe_sandbox_attribute_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the iframe.sandbox attribute exists - Description: Check if the iframe.sandbox attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the iframe.sandbox attribute exists - Description: Check if the iframe.sandbox attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/iframe_sandbox_attribute_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-0A-iframe_srcdoc_attribute_exists" name="0A-iframe_srcdoc_attribute_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the iframe.srcdoc attribute exists - Description: Check if the iframe.srcdoc attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the iframe.srcdoc attribute exists - Description: Check if the iframe.srcdoc attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/iframe_srcdoc_attribute_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-0B-iframe_src_attribute_exists" name="0B-iframe_src_attribute_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the iframe.src attribute exists - Description: Check if the iframe.src attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the iframe.src attribute exists - Description: Check if the iframe.src attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/iframe_src_attribute_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-0C-iframe_width_attribute_exists" name="0C-iframe_width_attribute_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the iframe.width attribute exists - Description: Check if the iframe.width attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the iframe.width attribute exists - Description: Check if the iframe.width attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/iframe_width_attribute_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-0D-iframe_contentWindow_return_window" name="0D-iframe_contentWindow_return_window" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the iframe.contentWindow attribute must return the WindowProxy object of the object element's nested browsing context, if it has one - Description: Check if the iframe.contentWindow attribute must return the WindowProxy object of the object element's nested browsing context, if it has one">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the iframe.contentWindow attribute must return the WindowProxy object of the object element's nested browsing context, if it has one - Description: Check if the iframe.contentWindow attribute must return the WindowProxy object of the object element's nested browsing context, if it has one]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/iframe_contentWindow_return_window.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-0E-iframe_contentDocument_attribute_exsits" name="0E-iframe_contentDocument_attribute_exsits" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the iframe.contentDocument attribute exists - Description: Check if the iframe.contentDocument attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the iframe.contentDocument attribute exists - Description: Check if the iframe.contentDocument attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/iframe_contentDocument_attribute_exsits.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-0F-iframe_contentDocument_return_document" name="0F-iframe_contentDocument_return_document" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the iframe.contentDocument attribute must return the Document object of the active document of the iframe element's nested browsing context - Description: Check if the iframe.contentDocument attribute must return the Document object of the active document of the iframe element's nested browsing context">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the iframe.contentDocument attribute must return the Document object of the active document of the iframe element's nested browsing context - Description: Check if the iframe.contentDocument attribute must return the Document object of the active document of the iframe element's nested browsing context]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/iframe_contentDocument_return_document.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-0G-iframe_height_attribute_type" name="0G-iframe_height_attribute_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the iframe.height attribute is of type DOMString - Description: Check if the iframe.height attribute is of type DOMString">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the iframe.height attribute is of type DOMString - Description: Check if the iframe.height attribute is of type DOMString]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/iframe_height_attribute_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-0H-iframe_height_basic" name="0H-iframe_height_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the iframe.height attribute must reflect the respective content attributes of the same name - Description: Check if the iframe.height attribute must reflect the respective content attributes of the same name">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the iframe.height attribute must reflect the respective content attributes of the same name - Description: Check if the iframe.height attribute must reflect the respective content attributes of the same name]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/iframe_height_basic.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-0I-iframe_height_value_empty_string" name="0I-iframe_height_value_empty_string" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the iframe.height attribute return empty string that it been set empty string - Description: Check if the iframe.height attribute return empty string that it been set empty string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the iframe.height attribute return empty string that it been set empty string - Description: Check if the iframe.height attribute return empty string that it been set empty string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/iframe_height_value_empty_string.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-0J-iframe_name_attribute_type" name="0J-iframe_name_attribute_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the iframe.name attribute is of type DOMString - Description: Check if the iframe.name attribute is of type DOMString">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the iframe.name attribute is of type DOMString - Description: Check if the iframe.name attribute is of type DOMString]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/iframe_name_attribute_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-0K-iframe_name_value_empty_string" name="0K-iframe_name_value_empty_string" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the iframe.name attribute must reflect the respective content attributes of the same name,the value is empty string - Description: Check if the iframe.name attribute must reflect the respective content attributes of the same name,the value is empty string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the iframe.name attribute must reflect the respective content attributes of the same name,the value is empty string - Description: Check if the iframe.name attribute must reflect the respective content attributes of the same name,the value is empty string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/iframe_name_value_empty_string.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-0L-iframe_name_default_value" name="0L-iframe_name_default_value" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: Check if iframe.name default value is empty string - Description: Check if iframe.name default value is empty string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if iframe.name default value is empty string - Description: Check if iframe.name default value is empty string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/iframe_name_default_value.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-0M-iframe_name_value_string" name="0M-iframe_name_value_string" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the iframe.name attribute must reflect the respective content attributes of the same name - Description: Check if the iframe.name attribute must reflect the respective content attributes of the same name">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the iframe.name attribute must reflect the respective content attributes of the same name - Description: Check if the iframe.name attribute must reflect the respective content attributes of the same name]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/iframe_name_value_string.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-0N-iframe_src_attribute_present" name="0N-iframe_src_attribute_present" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the iframe.src attribute must be a valid non-empty URL potentially surrounded by spaces if the attribute present - Description: Check if the iframe.src attribute must be a valid non-empty URL potentially surrounded by spaces if the attribute present">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the iframe.src attribute must be a valid non-empty URL potentially surrounded by spaces if the attribute present - Description: Check if the iframe.src attribute must be a valid non-empty URL potentially surrounded by spaces if the attribute present]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/iframe_src_attribute_present.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-0O-iframe_src_attribute_type" name="0O-iframe_src_attribute_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the iframe.src attribute is of type DOMString - Description: Check if the iframe.src attribute is of type DOMString">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the iframe.src attribute is of type DOMString - Description: Check if the iframe.src attribute is of type DOMString]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/iframe_src_attribute_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-0P-iframe_srcdoc_attribute_type" name="0P-iframe_srcdoc_attribute_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the iframe.srcdoc attribute is of type DOMString - Description: Check if the iframe.srcdoc attribute is of type DOMString">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the iframe.srcdoc attribute is of type DOMString - Description: Check if the iframe.srcdoc attribute is of type DOMString]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/iframe_srcdoc_attribute_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-0Q-iframe_srcdoc_default_value" name="0Q-iframe_srcdoc_default_value" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the srcdoc attribute default value is empty string - Description: Check if the srcdoc attribute default value is empty string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the srcdoc attribute default value is empty string - Description: Check if the srcdoc attribute default value is empty string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/iframe_srcdoc_default_value.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-0R-iframe_srcdoc_value_empty_string" name="0R-iframe_srcdoc_value_empty_string" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the iframe.srcdoc attribute return empty string if it been set empty string - Description: Check if the iframe.srcdoc attribute return empty string if it been set empty string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the iframe.srcdoc attribute return empty string if it been set empty string - Description: Check if the iframe.srcdoc attribute return empty string if it been set empty string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/iframe_srcdoc_value_empty_string.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-0S-iframe_srcdoc_value_string" name="0S-iframe_srcdoc_value_string" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the iframe.srcdoc attribute must reflect the respective content attributes of the same name - Description: Check if the iframe.srcdoc attribute must reflect the respective content attributes of the same name">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the iframe.srcdoc attribute must reflect the respective content attributes of the same name - Description: Check if the iframe.srcdoc attribute must reflect the respective content attributes of the same name]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/iframe_srcdoc_value_string.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-0T-iframe_width_attribute_type" name="0T-iframe_width_attribute_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the iframe.width attribute is of type DOMString - Description: Check if the iframe.width attribute is of type DOMString">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the iframe.width attribute is of type DOMString - Description: Check if the iframe.width attribute is of type DOMString]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/iframe_width_attribute_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-0U-iframe_width_value_default" name="0U-iframe_width_value_default" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: Test checks that iframe.width attribute default value is empty string - Description: Test checks that iframe.width attribute default value is empty string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test checks that iframe.width attribute default value is empty string - Description: Test checks that iframe.width attribute default value is empty string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/iframe_width_value_default.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-0V-iframe_width_value_empty_string" name="0V-iframe_width_value_empty_string" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the iframe.width attribute return null if it been set empty string - Description: Check if the iframe.width attribute return null if it been set empty string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the iframe.width attribute return null if it been set empty string - Description: Check if the iframe.width attribute return null if it been set empty string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/iframe_width_value_empty_string.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-0W-iframe_width_value_string" name="0W-iframe_width_value_string" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the iframe.width attribute must reflect the respective content attributes of the same name - Description: Check if the iframe.width attribute must reflect the respective content attributes of the same name">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the iframe.width attribute must reflect the respective content attributes of the same name - Description: Check if the iframe.width attribute must reflect the respective content attributes of the same name]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/iframe_width_value_string.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-0X-iframe_sandbox_example_default_value" name="0X-iframe_sandbox_example_default_value" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the iframe.sandbox attribute default value is empty string - Description: Check if the iframe.sandbox attribute default value is empty string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the iframe.sandbox attribute default value is empty string - Description: Check if the iframe.sandbox attribute default value is empty string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/iframe_sandbox_example_default_value.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-0Y-iframe_contentWindow_document_value" name="0Y-iframe_contentWindow_document_value" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the iframe.contentWindow.document attribute return the Document object of the active document - Description: Check if the iframe.contentWindow.document attribute return the Document object of the active document">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the iframe.contentWindow.document attribute return the Document object of the active document - Description: Check if the iframe.contentWindow.document attribute return the Document object of the active document]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/iframe_contentWindow_document_value.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-0Z-iframe_height_value_float" name="0Z-iframe_height_value_float" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the iframe.height attribute been set float integers value that it clientHeight is valid non-negative integers - Description: Check if the iframe.height attribute been set float integers value that it clientHeight is valid non-negative integers">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the iframe.height attribute been set float integers value that it clientHeight is valid non-negative integers - Description: Check if the iframe.height attribute been set float integers value that it clientHeight is valid non-negative integers]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/iframe_height_value_float.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-10-iframe_height_value_negative" name="10-iframe_height_value_negative" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the iframe.height attribute been set negative integers value that it clientHeight is valid non-negative integers - Description: Check if the iframe.height attribute been set negative integers value that it clientHeight is valid non-negative integers">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the iframe.height attribute been set negative integers value that it clientHeight is valid non-negative integers - Description: Check if the iframe.height attribute been set negative integers value that it clientHeight is valid non-negative integers]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/iframe_height_value_negative.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-11-iframe_sandbox_allow-same-origin" name="11-iframe_sandbox_allow-same-origin" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: Check if iframe.sandbox attribute set 'allow-same-origin',then compare iframe.sandbox is 'allow-same-origin' - Description: Check if iframe.sandbox attribute set 'allow-same-origin',then compare iframe.sandbox is 'allow-same-origin'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if iframe.sandbox attribute set 'allow-same-origin',then compare iframe.sandbox is 'allow-same-origin' - Description: Check if iframe.sandbox attribute set 'allow-same-origin',then compare iframe.sandbox is 'allow-same-origin']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/iframe_sandbox_allow-same-origin.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-12-iframe_sandbox_example_allow-same-origin_allow-forms_allow-scripts" name="12-iframe_sandbox_example_allow-same-origin_allow-forms_allow-scripts" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: Check if iframe.sandbox attribute set 'allow-same-origin,allow-forms,allow-scripts',then compare HTMLIFrameElement.sandbox is 'allow-same-origin,allow-forms,allow-scripts' - Description: Check if iframe.sandbox attribute set 'allow-same-origin,allow-forms,allow-scripts',then compare HTMLIFrameElement.sandbox is 'allow-same-origin,allow-forms,allow-scripts'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if iframe.sandbox attribute set 'allow-same-origin,allow-forms,allow-scripts',then compare HTMLIFrameElement.sandbox is 'allow-same-origin,allow-forms,allow-scripts' - Description: Check if iframe.sandbox attribute set 'allow-same-origin,allow-forms,allow-scripts',then compare HTMLIFrameElement.sandbox is 'allow-same-origin,allow-forms,allow-scripts']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/iframe_sandbox_example_allow-same-origin_allow-forms_allow-scripts.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-13-iframe_sandbox_value_allow_scripts" name="13-iframe_sandbox_value_allow_scripts" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the iframe.sandbox return allow-scripts that it been set value same name - Description: Check if the iframe.sandbox return allow-scripts that it been set value same name">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the iframe.sandbox return allow-scripts that it been set value same name - Description: Check if the iframe.sandbox return allow-scripts that it been set value same name]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/iframe_sandbox_value_allow_scripts.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-14-iframe_sandbox_value_allow_top_navigation" name="14-iframe_sandbox_value_allow_top_navigation" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the iframe.sandbox return allow-top-navigation that it been set value same name - Description: Check if the iframe.sandbox return allow-top-navigation that it been set value same name">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the iframe.sandbox return allow-top-navigation that it been set value same name - Description: Check if the iframe.sandbox return allow-top-navigation that it been set value same name]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/iframe_sandbox_value_allow_top_navigation.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-15-iframe_src_value_string" name="15-iframe_src_value_string" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the iframe.src attribute must reflect the respective content attributes of the same name - Description: Check if the iframe.src attribute must reflect the respective content attributes of the same name">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the iframe.src attribute must reflect the respective content attributes of the same name - Description: Check if the iframe.src attribute must reflect the respective content attributes of the same name]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/iframe_src_value_string.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-16-iframe_srcdoc_quotes_escaped" name="16-iframe_srcdoc_quotes_escaped" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the attribute srcdoc of iframe,srcdoc quotes have to be escaped - Description: Check if the attribute srcdoc of iframe,srcdoc quotes have to be escaped">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the attribute srcdoc of iframe,srcdoc quotes have to be escaped - Description: Check if the attribute srcdoc of iframe,srcdoc quotes have to be escaped]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/iframe_srcdoc_quotes_escaped.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-17-iframe_srcdoc_src_bind" name="17-iframe_srcdoc_src_bind" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: Check if src attribute and the srcdoc attribute are both specified together, the srcdoc attribute takes priority - Description: Check if src attribute and the srcdoc attribute are both specified together, the srcdoc attribute takes priority">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if src attribute and the srcdoc attribute are both specified together, the srcdoc attribute takes priority - Description: Check if src attribute and the srcdoc attribute are both specified together, the srcdoc attribute takes priority]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/iframe_srcdoc_src_bind.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-18-iframe_width_value_float" name="18-iframe_width_value_float" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the iframe.width attribute been set float value that it clientWidth is valid non-negative integers - Description: Check if the iframe.width attribute been set float value that it clientWidth is valid non-negative integers">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the iframe.width attribute been set float value that it clientWidth is valid non-negative integers - Description: Check if the iframe.width attribute been set float value that it clientWidth is valid non-negative integers]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/iframe_width_value_float.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-19-iframe_width_value_negative" name="19-iframe_width_value_negative" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the iframe.width attribute been set negative integers value that it clientWidth is valid non-negative integers - Description: Check if the iframe.width attribute been set negative integers value that it clientWidth is valid non-negative integers">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the iframe.width attribute been set negative integers value that it clientWidth is valid non-negative integers - Description: Check if the iframe.width attribute been set negative integers value that it clientWidth is valid non-negative integers]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/iframe_width_value_negative.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-1A-attri_default_block_script_exec" name="1A-attri_default_block_script_exec" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: Block script execution inside iframe with sandbox attribute - Description: Block script execution inside iframe with sandbox attribute">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Block script execution inside iframe with sandbox attribute - Description: Block script execution inside iframe with sandbox attribute]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/w3c/sandbox_005.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-1B-attri_format_return" name="1B-attri_format_return" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: value of sandbox attribute must be an unordered set of unique space-separated tokens. Return tag - Description: value of sandbox attribute must be an unordered set of unique space-separated tokens. Return tag">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: value of sandbox attribute must be an unordered set of unique space-separated tokens. Return tag - Description: value of sandbox attribute must be an unordered set of unique space-separated tokens. Return tag]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/w3c/sandbox_013.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-1C-attri_format_tab" name="1C-attri_format_tab" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: value of sandbox attribute must be an unordered set of unique space-separated tokens. Tab tag - Description: value of sandbox attribute must be an unordered set of unique space-separated tokens. Tab tag">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: value of sandbox attribute must be an unordered set of unique space-separated tokens. Tab tag - Description: value of sandbox attribute must be an unordered set of unique space-separated tokens. Tab tag]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/w3c/sandbox_014.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-1D-attri_format_ios_space" name="1D-attri_format_ios_space" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: value of sandbox attribute must be an unordered set of unique space-separated tokens. Ios space tag - Description: value of sandbox attribute must be an unordered set of unique space-separated tokens. Ios space tag">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: value of sandbox attribute must be an unordered set of unique space-separated tokens. Ios space tag - Description: value of sandbox attribute must be an unordered set of unique space-separated tokens. Ios space tag]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/w3c/sandbox_015.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-1E-attri_format_ios_return" name="1E-attri_format_ios_return" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: value of sandbox attribute must be an unordered set of unique space-separated tokens. Ios return tag - Description: value of sandbox attribute must be an unordered set of unique space-separated tokens. Ios return tag">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: value of sandbox attribute must be an unordered set of unique space-separated tokens. Ios return tag - Description: value of sandbox attribute must be an unordered set of unique space-separated tokens. Ios return tag]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/w3c/sandbox_016.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-1F-attri_format_ios_12" name="1F-attri_format_ios_12" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: value of sandbox attribute must be an unordered set of unique space-separated tokens. Ios specialtag 10 - Description: value of sandbox attribute must be an unordered set of unique space-separated tokens. Ios specialtag 10">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: value of sandbox attribute must be an unordered set of unique space-separated tokens. Ios specialtag 10 - Description: value of sandbox attribute must be an unordered set of unique space-separated tokens. Ios specialtag 10]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/w3c/sandbox_017.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-1G-attri_format_ios_10" name="1G-attri_format_ios_10" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: value of sandbox attribute must be an unordered set of unique space-separated tokens. Ios special tag 10 - Description: value of sandbox attribute must be an unordered set of unique space-separated tokens. Ios special tag 10">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: value of sandbox attribute must be an unordered set of unique space-separated tokens. Ios special tag 10 - Description: value of sandbox attribute must be an unordered set of unique space-separated tokens. Ios special tag 10]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/w3c/sandbox_018.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-1H-attri_format_ios_tab" name="1H-attri_format_ios_tab" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: value of sandbox attribute must be an unordered set of unique space-separated tokens. Ios tab tag - Description: value of sandbox attribute must be an unordered set of unique space-separated tokens. Ios tab tag">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: value of sandbox attribute must be an unordered set of unique space-separated tokens. Ios tab tag - Description: value of sandbox attribute must be an unordered set of unique space-separated tokens. Ios tab tag]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/w3c/sandbox_019.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-1I-attri_allow-same-origin_cookie" name="1I-attri_allow-same-origin_cookie" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: document.cookie access is allowed inside iframe with sandbox='allow-same-origin. - Description: document.cookie access is allowed inside iframe with sandbox='allow-same-origin.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: document.cookie access is allowed inside iframe with sandbox='allow-same-origin. - Description: document.cookie access is allowed inside iframe with sandbox='allow-same-origin.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/w3c/sandbox_024.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-1J-attri_allow-same-origin_child_content" name="1J-attri_allow-same-origin_child_content" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: Allow parent content to access sandbox child iframe content when sandbox='allow-same-origin' - Description: Allow parent content to access sandbox child iframe content when sandbox='allow-same-origin'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Allow parent content to access sandbox child iframe content when sandbox='allow-same-origin' - Description: Allow parent content to access sandbox child iframe content when sandbox='allow-same-origin']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/w3c/sandbox_025.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-1K-attri_allow-same-origin_storage" name="1K-attri_allow-same-origin_storage" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: Allow localStorage and sessionStorage access inside iframe with sandbox='allow-same-origin allow-scripts' - Description: Allow localStorage and sessionStorage access inside iframe with sandbox='allow-same-origin allow-scripts'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Allow localStorage and sessionStorage access inside iframe with sandbox='allow-same-origin allow-scripts' - Description: Allow localStorage and sessionStorage access inside iframe with sandbox='allow-same-origin allow-scripts']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/w3c/sandbox_026.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-1L-attri_default_block_cookie" name="1L-attri_default_block_cookie" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: Block document.cookie inside iframe with the sandbox attribute - Description: Block document.cookie inside iframe with the sandbox attribute">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Block document.cookie inside iframe with the sandbox attribute - Description: Block document.cookie inside iframe with the sandbox attribute]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/w3c/sandbox_029.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-1M-attri_default_block_storage" name="1M-attri_default_block_storage" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: Block localStorage and sessionStorage inside iframe with the sandbox attribute - Description: Block localStorage and sessionStorage inside iframe with the sandbox attribute">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Block localStorage and sessionStorage inside iframe with the sandbox attribute - Description: Block localStorage and sessionStorage inside iframe with the sandbox attribute]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/w3c/sandbox_031.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-10-1N-attri_default_block_XMLHttpRequest" name="1N-attri_default_block_XMLHttpRequest" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sandbox-html5-tests" status="designed" type="compliance" purpose="Objective: Block XMLHttpRequest in an iframe with the sandbox attribute - Description: Block XMLHttpRequest in an iframe with the sandbox attribute">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Block XMLHttpRequest in an iframe with the sandbox attribute - Description: Block XMLHttpRequest in an iframe with the sandbox attribute]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sandbox-html5-tests/sandbox/w3c/sandbox_032.htm</test_script_entry>
+                </description>
+            </testcase>
+        </set>
+    </suite>
+</test_definition>

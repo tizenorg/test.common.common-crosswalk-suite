@@ -1,0 +1,430 @@
+<?xml version="1.0"?>
+<test_definition>
+    <suite launcher="xwalk" name="00-common/E0-crosswalk">
+        <set name="common/crosswalk/deviceapi/tct-download-tizen-tests">
+            <testcase id="00-E0-01-0B-01-DownloadManager_start_exist" name="01-DownloadManager_start_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-download-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if DownloadManager::start() method exists - Description: Check if DownloadManager::start() method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DownloadManager::start() method exists - Description: Check if DownloadManager::start() method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-download-tizen-tests/download/DownloadManager_start_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0B-02-DownloadManager_cancel_exist" name="02-DownloadManager_cancel_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-download-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if DownloadManager::cancel() method exists - Description: Check if DownloadManager::cancel() method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DownloadManager::cancel() method exists - Description: Check if DownloadManager::cancel() method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-download-tizen-tests/download/DownloadManager_cancel_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0B-03-DownloadManager_pause_exist" name="03-DownloadManager_pause_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-download-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if DownloadManager::pause() method exists - Description: Check if DownloadManager::pause() method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DownloadManager::pause() method exists - Description: Check if DownloadManager::pause() method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-download-tizen-tests/download/DownloadManager_pause_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0B-04-DownloadManager_resume_exist" name="04-DownloadManager_resume_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-download-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if DownloadManager::resume() method exists - Description: Check if DownloadManager::resume() method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DownloadManager::resume() method exists - Description: Check if DownloadManager::resume() method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-download-tizen-tests/download/DownloadManager_resume_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0B-05-DownloadManager_getState_exist" name="05-DownloadManager_getState_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-download-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if DownloadManager::getState() method exists - Description: Check if DownloadManager::getState() method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DownloadManager::getState() method exists - Description: Check if DownloadManager::getState() method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-download-tizen-tests/download/DownloadManager_getState_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0B-06-DownloadManager_getState_using" name="06-DownloadManager_getState_using" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-download-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if DownloadManager::getState() method returns proper value - Description: Check if DownloadManager::getState() method returns proper value" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DownloadManager::getState() method returns proper value - Description: Check if DownloadManager::getState() method returns proper value]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-download-tizen-tests/download/DownloadManager_getState_using.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0B-07-DownloadCallback_onprogress" name="07-DownloadCallback_onprogress" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-download-tizen-tests" status="designed" type="compliance" purpose="Objective: Test whether the type of each argument is correct for DownloadCallback::onprogress callback - Description: Test whether the type of each argument is correct for DownloadCallback::onprogress callback" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test whether the type of each argument is correct for DownloadCallback::onprogress callback - Description: Test whether the type of each argument is correct for DownloadCallback::onprogress callback]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-download-tizen-tests/download/DownloadCallback_onprogress.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0B-08-DownloadRequest_destination_attribute" name="08-DownloadRequest_destination_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-download-tizen-tests" status="designed" type="compliance" purpose="Objective: Check attribute DownloadRequest::destination existence and type - Description: Check attribute DownloadRequest::destination existence and type">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check attribute DownloadRequest::destination existence and type - Description: Check attribute DownloadRequest::destination existence and type]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-download-tizen-tests/download/DownloadRequest_destination_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0B-09-DownloadRequest_fileName_attribute" name="09-DownloadRequest_fileName_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-download-tizen-tests" status="designed" type="compliance" purpose="Objective: Check attribute DownloadRequest::fileName existence and type - Description: Check attribute DownloadRequest::fileName existence and type">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check attribute DownloadRequest::fileName existence and type - Description: Check attribute DownloadRequest::fileName existence and type]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-download-tizen-tests/download/DownloadRequest_fileName_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0B-0A-DownloadManager_cancel" name="0A-DownloadManager_cancel" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-download-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if DownloadManager::cancel() method works - Description: Check if DownloadManager::cancel() method works" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DownloadManager::cancel() method works - Description: Check if DownloadManager::cancel() method works]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-download-tizen-tests/download/DownloadManager_cancel.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0B-0B-DownloadManager_getState" name="0B-DownloadManager_getState" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-download-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if DownloadManager::getState() method works - Description: Check if DownloadManager::getState() method works" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DownloadManager::getState() method works - Description: Check if DownloadManager::getState() method works]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-download-tizen-tests/download/DownloadManager_getState.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0B-0C-DownloadManager_pause" name="0C-DownloadManager_pause" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-download-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if DownloadManager::pause() method works - Description: Check if DownloadManager::pause() method works" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DownloadManager::pause() method works - Description: Check if DownloadManager::pause() method works]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-download-tizen-tests/download/DownloadManager_pause.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0B-0D-DownloadManager_resume" name="0D-DownloadManager_resume" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-download-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if DownloadManager::resume() method works - Description: Check if DownloadManager::resume() method works" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DownloadManager::resume() method works - Description: Check if DownloadManager::resume() method works]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-download-tizen-tests/download/DownloadManager_resume.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0B-0E-DownloadManager_start" name="0E-DownloadManager_start" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-download-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if DownloadManager::start() method with downloadRequest non-optional argument works - Description: Check if DownloadManager::start() method with downloadRequest non-optional argument works">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DownloadManager::start() method with downloadRequest non-optional argument works - Description: Check if DownloadManager::start() method with downloadRequest non-optional argument works]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-download-tizen-tests/download/DownloadManager_start.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0B-0F-DownloadManagerObject_download_exists" name="0F-DownloadManagerObject_download_exists" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-download-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if tizen namespace contains download object and DownloadManagerObject interface is not available - Description: Check if tizen namespace contains download object and DownloadManagerObject interface is not available">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if tizen namespace contains download object and DownloadManagerObject interface is not available - Description: Check if tizen namespace contains download object and DownloadManagerObject interface is not available]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-download-tizen-tests/download/DownloadManagerObject_download_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0B-0G-DownloadRequest_url_attribute" name="0G-DownloadRequest_url_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-download-tizen-tests" status="designed" type="compliance" purpose="Objective: Check attribute DownloadRequest::url existence and type - Description: Check attribute DownloadRequest::url existence and type">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check attribute DownloadRequest::url existence and type - Description: Check attribute DownloadRequest::url existence and type]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-download-tizen-tests/download/DownloadRequest_url_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0B-0H-DownloadManager_start_with_extra_argument" name="0H-DownloadManager_start_with_extra_argument" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-download-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if DownloadManager::start() method works when extra argument is given - Description: Check if DownloadManager::start() method works when extra argument is given">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DownloadManager::start() method works when extra argument is given - Description: Check if DownloadManager::start() method works when extra argument is given]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-download-tizen-tests/download/DownloadManager_start_with_extra_argument.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0B-0I-DownloadManager_getDownloadRequest_exist" name="0I-DownloadManager_getDownloadRequest_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-download-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if DownloadManager::getDownloadRequest() method exists - Description: Check if DownloadManager::getDownloadRequest() method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DownloadManager::getDownloadRequest() method exists - Description: Check if DownloadManager::getDownloadRequest() method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-download-tizen-tests/download/DownloadManager_getDownloadRequest_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0B-0J-DownloadManager_getMIMEType_exist" name="0J-DownloadManager_getMIMEType_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-download-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if DownloadManager::getMIMEType() method exists - Description: Check if DownloadManager::getMIMEType() method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DownloadManager::getMIMEType() method exists - Description: Check if DownloadManager::getMIMEType() method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-download-tizen-tests/download/DownloadManager_getMIMEType_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0B-0K-DownloadManager_setListener_exist" name="0K-DownloadManager_setListener_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-download-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if DownloadManager::setListener() method exists - Description: Check if DownloadManager::setListener() method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DownloadManager::setListener() method exists - Description: Check if DownloadManager::setListener() method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-download-tizen-tests/download/DownloadManager_setListener_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0B-0L-DownloadManager_getDownloadRequest" name="0L-DownloadManager_getDownloadRequest" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-download-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if DownloadManager::getDownloadRequest() method works - Description: Check if DownloadManager::getDownloadRequest() method works" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DownloadManager::getDownloadRequest() method works - Description: Check if DownloadManager::getDownloadRequest() method works]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-download-tizen-tests/download/DownloadManager_getDownloadRequest.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0B-0M-DownloadManager_getMIMEType" name="0M-DownloadManager_getMIMEType" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-download-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if DownloadManager::getMIMEType() method works - Description: Check if DownloadManager::getMIMEType() method works" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DownloadManager::getMIMEType() method works - Description: Check if DownloadManager::getMIMEType() method works]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-download-tizen-tests/download/DownloadManager_getMIMEType.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0B-0N-DownloadManager_setListener" name="0N-DownloadManager_setListener" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-download-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if DownloadManager::setListener() method works - Description: Check if DownloadManager::setListener() method works" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DownloadManager::setListener() method works - Description: Check if DownloadManager::setListener() method works]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-download-tizen-tests/download/DownloadManager_setListener.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0B-0O-DownloadManager_setListener_null" name="0O-DownloadManager_setListener_null" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-download-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if DownloadManager::setListener() method throw an TypeMismatchError when downloadId and downloadCallback are null - Description: Check if DownloadManager::setListener() method throw an TypeMismatchError when downloadId and downloadCallback are null">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DownloadManager::setListener() method throw an TypeMismatchError when downloadId and downloadCallback are null - Description: Check if DownloadManager::setListener() method throw an TypeMismatchError when downloadId and downloadCallback are null]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-download-tizen-tests/download/DownloadManager_setListener_null.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0B-0P-DownloadRequest_extend" name="0P-DownloadRequest_extend" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-download-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if DownloadRequest object can have new attribute added - Description: Check if DownloadRequest object can have new attribute added">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DownloadRequest object can have new attribute added - Description: Check if DownloadRequest object can have new attribute added]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-download-tizen-tests/download/DownloadRequest_extend.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0B-0Q-DownloadRequest_constructor" name="0Q-DownloadRequest_constructor" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-download-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if DownloadRequest constructor sets attributes according to arguments given - Description: Check if DownloadRequest constructor sets attributes according to arguments given">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DownloadRequest constructor sets attributes according to arguments given - Description: Check if DownloadRequest constructor sets attributes according to arguments given]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-download-tizen-tests/download/DownloadRequest_constructor.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0B-0R-DownloadRequest_exist" name="0R-DownloadRequest_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-download-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if DownloadRequest constructor exists - Description: Check if DownloadRequest constructor exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DownloadRequest constructor exists - Description: Check if DownloadRequest constructor exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-download-tizen-tests/download/DownloadRequest_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0B-0S-DownloadManager_setListener_downloadCallback_invalid_cb" name="0S-DownloadManager_setListener_downloadCallback_invalid_cb" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-download-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if DownloadManager::setListener() method throws exception given wrong downloadCallback - Description: Check if DownloadManager::setListener() method throws exception given wrong downloadCallback" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DownloadManager::setListener() method throws exception given wrong downloadCallback - Description: Check if DownloadManager::setListener() method throws exception given wrong downloadCallback]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-download-tizen-tests/download/DownloadManager_setListener_downloadCallback_invalid_cb.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0B-0T-DownloadManager_setListener_downloadCallback_TypeMismatch" name="0T-DownloadManager_setListener_downloadCallback_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-download-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if DownloadManager::setListener() method throws exception for wrong type of downloadCallback - Description: Check if DownloadManager::setListener() method throws exception for wrong type of downloadCallback" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DownloadManager::setListener() method throws exception for wrong type of downloadCallback - Description: Check if DownloadManager::setListener() method throws exception for wrong type of downloadCallback]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-download-tizen-tests/download/DownloadManager_setListener_downloadCallback_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0B-0U-DownloadManager_setListener_missarg" name="0U-DownloadManager_setListener_missarg" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-download-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if DownloadManager::setListener() method with missing non-optional argument throws exception - Description: Check if DownloadManager::setListener() method with missing non-optional argument throws exception">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DownloadManager::setListener() method with missing non-optional argument throws exception - Description: Check if DownloadManager::setListener() method with missing non-optional argument throws exception]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-download-tizen-tests/download/DownloadManager_setListener_missarg.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0B-0V-DownloadManager_start_missarg" name="0V-DownloadManager_start_missarg" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-download-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if DownloadManager::start() method with mandatory argument missing works - Description: Check if DownloadManager::start() method with mandatory argument missing works">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DownloadManager::start() method with mandatory argument missing works - Description: Check if DownloadManager::start() method with mandatory argument missing works]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-download-tizen-tests/download/DownloadManager_start_missarg.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0B-0W-DownloadManager_extend" name="0W-DownloadManager_extend" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-download-tizen-tests" status="designed" type="compliance" purpose="Objective: Test whether the DownloadManager object can have new attribute added - Description: Test whether the DownloadManager object can have new attribute added">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test whether the DownloadManager object can have new attribute added - Description: Test whether the DownloadManager object can have new attribute added]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-download-tizen-tests/download/DownloadManager_extend.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0B-0X-DownloadCallback_notexist" name="0X-DownloadCallback_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-download-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if DownloadCallback is NoInterfaceObject and not visible - Description: Check if DownloadCallback is NoInterfaceObject and not visible">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DownloadCallback is NoInterfaceObject and not visible - Description: Check if DownloadCallback is NoInterfaceObject and not visible]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-download-tizen-tests/download/DownloadCallback_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0B-0Y-DownloadManager_notexist" name="0Y-DownloadManager_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-download-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if DownloadManager is NoInterfaceObject and not visible - Description: Check if DownloadManager is NoInterfaceObject and not visible">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DownloadManager is NoInterfaceObject and not visible - Description: Check if DownloadManager is NoInterfaceObject and not visible]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-download-tizen-tests/download/DownloadManager_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0B-0Z-DownloadManager_in_tizen" name="0Z-DownloadManager_in_tizen" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-download-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if tizen namespace contains download - Description: Check if tizen namespace contains download">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if tizen namespace contains download - Description: Check if tizen namespace contains download]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-download-tizen-tests/download/DownloadManager_in_tizen.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0B-10-DownloadManager_start_downloadCallback_invalid_cb" name="10-DownloadManager_start_downloadCallback_invalid_cb" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-download-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if DownloadManager::start() method throws exception when giving invalid listener - Description: Check if DownloadManager::start() method throws exception when giving invalid listener" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DownloadManager::start() method throws exception when giving invalid listener - Description: Check if DownloadManager::start() method throws exception when giving invalid listener]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-download-tizen-tests/download/DownloadManager_start_downloadCallback_invalid_cb.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0B-11-DownloadManager_start_downloadRequest_invalid_obj" name="11-DownloadManager_start_downloadRequest_invalid_obj" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-download-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if DownloadManager::start() method throws exception given wrong downloadRequest - Description: Check if DownloadManager::start() method throws exception given wrong downloadRequest" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DownloadManager::start() method throws exception given wrong downloadRequest - Description: Check if DownloadManager::start() method throws exception given wrong downloadRequest]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-download-tizen-tests/download/DownloadManager_start_downloadRequest_invalid_obj.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0B-12-DownloadManager_start_with_downloadCallback" name="12-DownloadManager_start_with_downloadCallback" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-download-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if DownloadManager::start() method with downloadCallback optional argument works - Description: Check if DownloadManager::start() method with downloadCallback optional argument works" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DownloadManager::start() method with downloadCallback optional argument works - Description: Check if DownloadManager::start() method with downloadCallback optional argument works]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-download-tizen-tests/download/DownloadManager_start_with_downloadCallback.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0B-13-DownloadManager_start_downloadRequest_TypeMismatch" name="13-DownloadManager_start_downloadRequest_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-download-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if DownloadManager::start() method throws exception for wrong type of downloadRequest - Description: Check if DownloadManager::start() method throws exception for wrong type of downloadRequest" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DownloadManager::start() method throws exception for wrong type of downloadRequest - Description: Check if DownloadManager::start() method throws exception for wrong type of downloadRequest]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-download-tizen-tests/download/DownloadManager_start_downloadRequest_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0B-14-DownloadManager_start_downloadCallback_TypeMismatch" name="14-DownloadManager_start_downloadCallback_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-download-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if DownloadManager::start() method throws exception for wrong type of downloadCallback - Description: Check if DownloadManager::start() method throws exception for wrong type of downloadCallback" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DownloadManager::start() method throws exception for wrong type of downloadCallback - Description: Check if DownloadManager::start() method throws exception for wrong type of downloadCallback]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-download-tizen-tests/download/DownloadManager_start_downloadCallback_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0B-15-DownloadCallback_onpaused" name="15-DownloadCallback_onpaused" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-download-tizen-tests" status="designed" type="compliance" purpose="Objective: Test whether the type of each argument is correct for DownloadCallback::onpaused callback - Description: Test whether the type of each argument is correct for DownloadCallback::onpaused callback" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test whether the type of each argument is correct for DownloadCallback::onpaused callback - Description: Test whether the type of each argument is correct for DownloadCallback::onpaused callback]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-download-tizen-tests/download/DownloadCallback_onpaused.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0B-16-DownloadCallback_oncanceled" name="16-DownloadCallback_oncanceled" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-download-tizen-tests" status="designed" type="compliance" purpose="Objective: Test whether the type of each argument is correct for DownloadCallback::oncanceled callback - Description: Test whether the type of each argument is correct for DownloadCallback::oncanceled callback" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test whether the type of each argument is correct for DownloadCallback::oncanceled callback - Description: Test whether the type of each argument is correct for DownloadCallback::oncanceled callback]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-download-tizen-tests/download/DownloadCallback_oncanceled.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0B-17-DownloadCallback_oncompleted" name="17-DownloadCallback_oncompleted" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-download-tizen-tests" status="designed" type="compliance" purpose="Objective: Test whether the type of each argument is correct for DownloadCallback::oncompleted callback - Description: Test whether the type of each argument is correct for DownloadCallback::oncompleted callback" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test whether the type of each argument is correct for DownloadCallback::oncompleted callback - Description: Test whether the type of each argument is correct for DownloadCallback::oncompleted callback]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-download-tizen-tests/download/DownloadCallback_oncompleted.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0B-18-DownloadCallback_onfailed" name="18-DownloadCallback_onfailed" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-download-tizen-tests" status="designed" type="compliance" purpose="Objective: Test whether the type of each argument is correct for DownloadCallback::onfailed callback - Description: Test whether the type of each argument is correct for DownloadCallback::onfailed callback" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test whether the type of each argument is correct for DownloadCallback::onfailed callback - Description: Test whether the type of each argument is correct for DownloadCallback::onfailed callback]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-download-tizen-tests/download/DownloadCallback_onfailed.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0B-19-DownloadRequest_networkType_attribute" name="19-DownloadRequest_networkType_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-download-tizen-tests" status="designed" type="compliance" purpose="Objective: Check attribute DownloadRequest::networkType existence and possible values - Description: Check attribute DownloadRequest::networkType existence and possible values">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check attribute DownloadRequest::networkType existence and possible values - Description: Check attribute DownloadRequest::networkType existence and possible values]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-download-tizen-tests/download/DownloadRequest_networkType_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0B-1A-DownloadRequest_httpHeader_attribute" name="1A-DownloadRequest_httpHeader_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-download-tizen-tests" status="designed" type="compliance" purpose="Objective: Check attribute DownloadRequest::httpHeader existence and type - Description: Check attribute DownloadRequest::httpHeader existence and type">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check attribute DownloadRequest::httpHeader existence and type - Description: Check attribute DownloadRequest::httpHeader existence and type]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-download-tizen-tests/download/DownloadRequest_httpHeader_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0B-1B-DownloadManagerObject_notexist" name="1B-DownloadManagerObject_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-download-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if DownloadManagerObject is NoInterfaceObject and not visible - Description: Check if DownloadManagerObject is NoInterfaceObject and not visible">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DownloadManagerObject is NoInterfaceObject and not visible - Description: Check if DownloadManagerObject is NoInterfaceObject and not visible]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-download-tizen-tests/download/DownloadManagerObject_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+        </set>
+    </suite>
+</test_definition>

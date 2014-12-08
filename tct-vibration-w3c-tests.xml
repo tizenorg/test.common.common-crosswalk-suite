@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<test_definition>
+    <suite launcher="xwalk" name="00-common/E0-crosswalk">
+        <set name="common/crosswalk/commonapi/tct-vibration-w3c-tests">
+            <testcase id="00-E0-00-1E-01-api-is-present" name="01-api-is-present" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-vibration-w3c-tests" status="designed" type="compliance" purpose="Objective: Check that the vibrate() method is present - Description: Check that the vibrate() method is present">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check that the vibrate() method is present - Description: Check that the vibrate() method is present]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-vibration-w3c-tests/vibration/w3c/api-is-present.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1E-02-silent-ignore" name="02-silent-ignore" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-vibration-w3c-tests" status="designed" type="compliance" purpose="Objective: If the device does not provide a vibration mechanism, or it is disabled, the user agent must silently ignore any invocations of the vibrate() method - Description: If the device does not provide a vibration mechanism, or it is disabled, the user agent must silently ignore any invocations of the vibrate() method">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: If the device does not provide a vibration mechanism, or it is disabled, the user agent must silently ignore any invocations of the vibrate() method - Description: If the device does not provide a vibration mechanism, or it is disabled, the user agent must silently ignore any invocations of the vibrate() method]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-vibration-w3c-tests/vibration/w3c/silent-ignore.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1E-03-miss-pattern-argument" name="03-miss-pattern-argument" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-vibration-w3c-tests" status="designed" type="compliance" purpose="Objective: Test checks that vibrate throws a TypeError, when miss pattern argument - Description: Test checks that vibrate throws a TypeError, when miss pattern argument">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test checks that vibrate throws a TypeError, when miss pattern argument - Description: Test checks that vibrate throws a TypeError, when miss pattern argument]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-vibration-w3c-tests/vibration/w3c/invalid-values.html?total_num=8&amp;locator_key=id&amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1E-04-pattern-undefined-argument" name="04-pattern-undefined-argument" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-vibration-w3c-tests" status="designed" type="compliance" purpose="Objective: Test checks that vibrate take no effect, when set pattern of undefined argument - Description: Test checks that vibrate take no effect, when set pattern of undefined argument">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test checks that vibrate take no effect, when set pattern of undefined argument - Description: Test checks that vibrate take no effect, when set pattern of undefined argument]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-vibration-w3c-tests/vibration/w3c/invalid-values.html?total_num=8&amp;locator_key=id&amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1E-05-pattern-null-argument" name="05-pattern-null-argument" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-vibration-w3c-tests" status="designed" type="compliance" purpose="Objective: Test checks that vibrate take no effect, when set pattern of null argument - Description: Test checks that vibrate take no effect, when set pattern of null argument">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test checks that vibrate take no effect, when set pattern of null argument - Description: Test checks that vibrate take no effect, when set pattern of null argument]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-vibration-w3c-tests/vibration/w3c/invalid-values.html?total_num=8&amp;locator_key=id&amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1E-06-pattern-empty-string-argument" name="06-pattern-empty-string-argument" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-vibration-w3c-tests" status="designed" type="compliance" purpose="Objective: Test checks that vibrate take no effect, when set pattern of empty string argument - Description: Test checks that vibrate take no effect, when set pattern of empty string argument">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test checks that vibrate take no effect, when set pattern of empty string argument - Description: Test checks that vibrate take no effect, when set pattern of empty string argument]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-vibration-w3c-tests/vibration/w3c/invalid-values.html?total_num=8&amp;locator_key=id&amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1E-07-pattern-string-argument" name="07-pattern-string-argument" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-vibration-w3c-tests" status="designed" type="compliance" purpose="Objective: Test checks that vibrate take no effect, when set pattern of string argument - Description: Test checks that vibrate take no effect, when set pattern of string argument">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test checks that vibrate take no effect, when set pattern of string argument - Description: Test checks that vibrate take no effect, when set pattern of string argument]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-vibration-w3c-tests/vibration/w3c/invalid-values.html?total_num=8&amp;locator_key=id&amp;value=5</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1E-08-pattern-String-instance-argument" name="08-pattern-String-instance-argument" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-vibration-w3c-tests" status="designed" type="compliance" purpose="Objective: Test checks that vibrate take no effect, when set pattern of String instance argument - Description: Test checks that vibrate take no effect, when set pattern of String instance argument">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test checks that vibrate take no effect, when set pattern of String instance argument - Description: Test checks that vibrate take no effect, when set pattern of String instance argument]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-vibration-w3c-tests/vibration/w3c/invalid-values.html?total_num=8&amp;locator_key=id&amp;value=6</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1E-09-pattern-NaN-argument" name="09-pattern-NaN-argument" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-vibration-w3c-tests" status="designed" type="compliance" purpose="Objective: Test checks that vibrate take no effect, when set pattern of NaN argument - Description: Test checks that vibrate take no effect, when set pattern of NaN argument">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test checks that vibrate take no effect, when set pattern of NaN argument - Description: Test checks that vibrate take no effect, when set pattern of NaN argument]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-vibration-w3c-tests/vibration/w3c/invalid-values.html?total_num=8&amp;locator_key=id&amp;value=7</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1E-0A-pattern-brace-argument" name="0A-pattern-brace-argument" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-vibration-w3c-tests" status="designed" type="compliance" purpose="Objective: Test checks that vibrate take no effect, when set pattern of {} argument - Description: Test checks that vibrate take no effect, when set pattern of {} argument">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test checks that vibrate take no effect, when set pattern of {} argument - Description: Test checks that vibrate take no effect, when set pattern of {} argument]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-vibration-w3c-tests/vibration/w3c/invalid-values.html?total_num=8&amp;locator_key=id&amp;value=8</test_script_entry>
+                </description>
+            </testcase>
+        </set>
+    </suite>
+</test_definition>

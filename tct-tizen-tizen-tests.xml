@@ -1,0 +1,718 @@
+<?xml version="1.0"?>
+<test_definition>
+    <suite launcher="xwalk" name="00-common/E0-crosswalk">
+        <set name="common/crosswalk/deviceapi/tct-tizen-tizen-tests">
+            <testcase id="00-E0-01-0T-01-AbstractFilter_notexist" name="01-AbstractFilter_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Tizen.AbstractFilter - integration test - Description: Tizen.AbstractFilter - integration test">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Tizen.AbstractFilter - integration test - Description: Tizen.AbstractFilter - integration test]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/AbstractFilter_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-02-AttributeFilter_attributeName_attribute" name="02-AttributeFilter_attributeName_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if attributeName equals to the value that is set when create AttributeFilter - Description: Check if attributeName equals to the value that is set when create AttributeFilter">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attributeName equals to the value that is set when create AttributeFilter - Description: Check if attributeName equals to the value that is set when create AttributeFilter]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/AttributeFilter_attributeName_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-03-AttributeFilter_constructor" name="03-AttributeFilter_constructor" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if AttributeFilter constructor is correct - Description: Check if AttributeFilter constructor is correct">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if AttributeFilter constructor is correct - Description: Check if AttributeFilter constructor is correct]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/AttributeFilter_constructor.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-04-AttributeFilter_exist" name="04-AttributeFilter_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if AttributeFilter constructor create object properly - Description: Check if AttributeFilter constructor create object properly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if AttributeFilter constructor create object properly - Description: Check if AttributeFilter constructor create object properly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/AttributeFilter_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-05-AttributeFilter_extend" name="05-AttributeFilter_extend" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if AttributeFilter constructor can be extended - Description: Check if AttributeFilter constructor can be extended">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if AttributeFilter constructor can be extended - Description: Check if AttributeFilter constructor can be extended]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/AttributeFilter_extend.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-06-AttributeFilter_matchFlag_attribute" name="06-AttributeFilter_matchFlag_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if matchFlag equals to the value that is set when create AttributeFilter - Description: Check if matchFlag equals to the value that is set when create AttributeFilter">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if matchFlag equals to the value that is set when create AttributeFilter - Description: Check if matchFlag equals to the value that is set when create AttributeFilter]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/AttributeFilter_matchFlag_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-07-AttributeFilter_matchValue_attribute" name="07-AttributeFilter_matchValue_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if matchValue equals to the value that is set when create AttributeFilter - Description: Check if matchValue equals to the value that is set when create AttributeFilter">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if matchValue equals to the value that is set when create AttributeFilter - Description: Check if matchValue equals to the value that is set when create AttributeFilter]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/AttributeFilter_matchValue_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-08-AttributeRangeFilter_attributeName_attribute" name="08-AttributeRangeFilter_attributeName_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if attribute AttributeRangeFilter.attributeName exists - Description: Check if attribute AttributeRangeFilter.attributeName exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute AttributeRangeFilter.attributeName exists - Description: Check if attribute AttributeRangeFilter.attributeName exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/AttributeRangeFilter_attributeName_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-09-AttributeRangeFilter_constructor_min" name="09-AttributeRangeFilter_constructor_min" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if AttributeRangeFilter can be created successfully when creat without initialValue and endValue parameters - Description: Check if AttributeRangeFilter can be created successfully when creat without initialValue and endValue parameters">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if AttributeRangeFilter can be created successfully when creat without initialValue and endValue parameters - Description: Check if AttributeRangeFilter can be created successfully when creat without initialValue and endValue parameters]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/AttributeRangeFilter_constructor_min.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-0A-AttributeRangeFilter_constructor_successful" name="0A-AttributeRangeFilter_constructor_successful" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if attributeName equals to the value that is set when create AttributeRangeFilter - Description: Check if attributeName equals to the value that is set when create AttributeRangeFilter">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attributeName equals to the value that is set when create AttributeRangeFilter - Description: Check if attributeName equals to the value that is set when create AttributeRangeFilter]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/AttributeRangeFilter_constructor_successful.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-0B-AttributeRangeFilter_endValue_attribute" name="0B-AttributeRangeFilter_endValue_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if endValue equals to the value that is set when create AttributeRangeFilter - Description: Check if endValue equals to the value that is set when create AttributeRangeFilter">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if endValue equals to the value that is set when create AttributeRangeFilter - Description: Check if endValue equals to the value that is set when create AttributeRangeFilter]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/AttributeRangeFilter_endValue_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-0C-AttributeRangeFilter_exist" name="0C-AttributeRangeFilter_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if AttributeRangeFilter exists - Description: Check if AttributeRangeFilter exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if AttributeRangeFilter exists - Description: Check if AttributeRangeFilter exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/AttributeRangeFilter_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-0D-AttributeRangeFilter_extend" name="0D-AttributeRangeFilter_extend" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if AttributeRangeFilter can be extended - Description: Check if AttributeRangeFilter can be extended">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if AttributeRangeFilter can be extended - Description: Check if AttributeRangeFilter can be extended]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/AttributeRangeFilter_extend.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-0E-AttributeRangeFilter_initialValue_attribute" name="0E-AttributeRangeFilter_initialValue_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if initialValue equals to the value that is set when create AttributeRangeFilter - Description: Check if initialValue equals to the value that is set when create AttributeRangeFilter">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if initialValue equals to the value that is set when create AttributeRangeFilter - Description: Check if initialValue equals to the value that is set when create AttributeRangeFilter]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/AttributeRangeFilter_initialValue_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-0F-CompositeFilterType_enum_INTERSECTION" name="0F-CompositeFilterType_enum_INTERSECTION" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Test CompositeFilterType with type INTERSECTION - Description: Test CompositeFilterType with type INTERSECTION">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test CompositeFilterType with type INTERSECTION - Description: Test CompositeFilterType with type INTERSECTION]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/CompositeFilterType_enum_INTERSECTION.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-0G-CompositeFilterType_enum_UNION" name="0G-CompositeFilterType_enum_UNION" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Test CompositeFilterType with type UNION - Description: Test CompositeFilterType with type UNION">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test CompositeFilterType with type UNION - Description: Test CompositeFilterType with type UNION]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/CompositeFilterType_enum_UNION.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-0H-CompositeFilter_constructor" name="0H-CompositeFilter_constructor" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if CompositeFilter can be create successfully - Description: Check if CompositeFilter can be create successfully">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if CompositeFilter can be create successfully - Description: Check if CompositeFilter can be create successfully]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/CompositeFilter_constructor.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-0I-CompositeFilter_exist" name="0I-CompositeFilter_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if CompositeFilter constructor exists - Description: Check if CompositeFilter constructor exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if CompositeFilter constructor exists - Description: Check if CompositeFilter constructor exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/CompositeFilter_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-0J-CompositeFilter_extend" name="0J-CompositeFilter_extend" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if CompositeFilter can be extend - Description: Check if CompositeFilter can be extend">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if CompositeFilter can be extend - Description: Check if CompositeFilter can be extend]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/CompositeFilter_extend.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-0K-CompositeFilter_filters_attribute" name="0K-CompositeFilter_filters_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if filters equals to the value that is set when create CompositeFilter - Description: Check if filters equals to the value that is set when create CompositeFilter">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if filters equals to the value that is set when create CompositeFilter - Description: Check if filters equals to the value that is set when create CompositeFilter]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/CompositeFilter_filters_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-0L-CompositeFilter_type_attribute" name="0L-CompositeFilter_type_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if type equals to the value that is set when create CompositeFilter - Description: Check if type equals to the value that is set when create CompositeFilter">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if type equals to the value that is set when create CompositeFilter - Description: Check if type equals to the value that is set when create CompositeFilter]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/CompositeFilter_type_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-0M-ErrorCallback_notexist" name="0M-ErrorCallback_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if ErrorCallback not exists - Description: Check if ErrorCallback not exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ErrorCallback not exists - Description: Check if ErrorCallback not exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/ErrorCallback_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-0N-FilterMatchFlag_enum_CONTAINS" name="0N-FilterMatchFlag_enum_CONTAINS" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: FilterMatchFlag constructor works with CONTAINS - Description: FilterMatchFlag constructor works with CONTAINS">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: FilterMatchFlag constructor works with CONTAINS - Description: FilterMatchFlag constructor works with CONTAINS]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/FilterMatchFlag_enum_CONTAINS.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-0O-FilterMatchFlag_enum_ENDSWITH" name="0O-FilterMatchFlag_enum_ENDSWITH" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: FilterMatchFlag constructor works with ENDSWITH - Description: FilterMatchFlag constructor works with ENDSWITH">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: FilterMatchFlag constructor works with ENDSWITH - Description: FilterMatchFlag constructor works with ENDSWITH]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/FilterMatchFlag_enum_ENDSWITH.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-0P-FilterMatchFlag_enum_EXACTLY" name="0P-FilterMatchFlag_enum_EXACTLY" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: FilterMatchFlag constructor works with EXACTLY - Description: FilterMatchFlag constructor works with EXACTLY">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: FilterMatchFlag constructor works with EXACTLY - Description: FilterMatchFlag constructor works with EXACTLY]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/FilterMatchFlag_enum_EXACTLY.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-0Q-FilterMatchFlag_enum_FULLSTRING" name="0Q-FilterMatchFlag_enum_FULLSTRING" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: FilterMatchFlag constructor works with FULLSTRING - Description: FilterMatchFlag constructor works with FULLSTRING">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: FilterMatchFlag constructor works with FULLSTRING - Description: FilterMatchFlag constructor works with FULLSTRING]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/FilterMatchFlag_enum_FULLSTRING.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-0R-FilterMatchFlag_enum_STARTSWITH" name="0R-FilterMatchFlag_enum_STARTSWITH" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: FilterMatchFlag constructor works with STARTSWITH - Description: FilterMatchFlag constructor works with STARTSWITH">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: FilterMatchFlag constructor works with STARTSWITH - Description: FilterMatchFlag constructor works with STARTSWITH]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/FilterMatchFlag_enum_STARTSWITH.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-0S-FitlerMatchFlag_enum_EXISTS" name="0S-FitlerMatchFlag_enum_EXISTS" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: FilterMatchFlag constructor works with EXISTS - Description: FilterMatchFlag constructor works with EXISTS">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: FilterMatchFlag constructor works with EXISTS - Description: FilterMatchFlag constructor works with EXISTS]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/FitlerMatchFlag_enum_EXISTS.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-0T-SimpleCoordinates_constructor_successful" name="0T-SimpleCoordinates_constructor_successful" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if latitude and longitude equals to the values that is set when create SimpleCoordinates - Description: Check if latitude and longitude equals to the values that is set when create SimpleCoordinates">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if latitude and longitude equals to the values that is set when create SimpleCoordinates - Description: Check if latitude and longitude equals to the values that is set when create SimpleCoordinates]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/SimpleCoordinates_constructor_successful.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-0U-SimpleCoordinates_exist" name="0U-SimpleCoordinates_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if SimpleCoordinates constructor exists - Description: Check if SimpleCoordinates constructor exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if SimpleCoordinates constructor exists - Description: Check if SimpleCoordinates constructor exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/SimpleCoordinates_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-0V-SimpleCoordinates_extend" name="0V-SimpleCoordinates_extend" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Tizen.SimpleCoordinates - integration test - Description: Tizen.SimpleCoordinates - integration test">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Tizen.SimpleCoordinates - integration test - Description: Tizen.SimpleCoordinates - integration test]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/SimpleCoordinates_extend.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-0W-SimpleCoordinates_latitude_attribute" name="0W-SimpleCoordinates_latitude_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if latitude equals to the value that is set when create SimpleCoordinates - Description: Check if latitude equals to the value that is set when create SimpleCoordinates">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if latitude equals to the value that is set when create SimpleCoordinates - Description: Check if latitude equals to the value that is set when create SimpleCoordinates]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/SimpleCoordinates_latitude_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-0X-SimpleCoordinates_longitude_attribute" name="0X-SimpleCoordinates_longitude_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if longitude equals to the value that is set when create SimpleCoordinates - Description: Check if longitude equals to the value that is set when create SimpleCoordinates">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if longitude equals to the value that is set when create SimpleCoordinates - Description: Check if longitude equals to the value that is set when create SimpleCoordinates]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/SimpleCoordinates_longitude_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-0Y-SortModeOrder_enum_ASC" name="0Y-SortModeOrder_enum_ASC" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: SortMode constructor with ASC - Description: SortMode constructor with ASC">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: SortMode constructor with ASC - Description: SortMode constructor with ASC]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/SortModeOrder_enum_ASC.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-0Z-SortModeOrder_enum_DESC" name="0Z-SortModeOrder_enum_DESC" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: SortMode constructor with DESC - Description: SortMode constructor with DESC">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: SortMode constructor with DESC - Description: SortMode constructor with DESC]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/SortModeOrder_enum_DESC.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-10-SortMode_attributeName_attribute" name="10-SortMode_attributeName_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if attributeName equals to the value that is set when create SortMode - Description: Check if attributeName equals to the value that is set when create SortMode">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attributeName equals to the value that is set when create SortMode - Description: Check if attributeName equals to the value that is set when create SortMode]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/SortMode_attributeName_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-11-SortMode_constructor" name="11-SortMode_constructor" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if SortMode constructor is correct - Description: Check if SortMode constructor is correct">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if SortMode constructor is correct - Description: Check if SortMode constructor is correct]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/SortMode_constructor.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-12-SortMode_exist" name="12-SortMode_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if SortMode constructor exists - Description: Check if SortMode constructor exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if SortMode constructor exists - Description: Check if SortMode constructor exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/SortMode_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-13-SortMode_extend" name="13-SortMode_extend" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if SortMode object can be extended - Description: Check if SortMode object can be extended">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if SortMode object can be extended - Description: Check if SortMode object can be extended]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/SortMode_extend.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-14-SortMode_order_attribute" name="14-SortMode_order_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if order attribute equals to the value that is set when create SortMode - Description: Check if order attribute equals to the value that is set when create SortMode">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if order attribute equals to the value that is set when create SortMode - Description: Check if order attribute equals to the value that is set when create SortMode]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/SortMode_order_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-15-SuccessCallback_notexist" name="15-SuccessCallback_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if SuccessCallback not exists - Description: Check if SuccessCallback not exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if SuccessCallback not exists - Description: Check if SuccessCallback not exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/SuccessCallback_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-16-Tizen_extend" name="16-Tizen_extend" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if Tizen object can be extended - Description: Check if Tizen object can be extended">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Tizen object can be extended - Description: Check if Tizen object can be extended]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/Tizen_extend.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-17-Tizen_managerobject" name="17-Tizen_managerobject" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if tizen exists - Description: Check if tizen exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if tizen exists - Description: Check if tizen exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/Tizen_managerobject.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-18-Tizen_notexist" name="18-Tizen_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if tizen not exists - Description: Check if tizen not exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if tizen not exists - Description: Check if tizen not exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/Tizen_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-19-WebAPIError_code_attribute" name="19-WebAPIError_code_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if WebAPIError.code existence - Description: Check if WebAPIError.code existence">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if WebAPIError.code existence - Description: Check if WebAPIError.code existence]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/WebAPIError_code_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-1A-WebAPIError_extend" name="1A-WebAPIError_extend" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if WebAPIError can be extended - Description: Check if WebAPIError can be extended">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if WebAPIError can be extended - Description: Check if WebAPIError can be extended]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/WebAPIError_extend.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-1B-WebAPIError_message_attribute" name="1B-WebAPIError_message_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if WebAPIError.message existence - Description: Check if WebAPIError.message existence">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if WebAPIError.message existence - Description: Check if WebAPIError.message existence]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/WebAPIError_message_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-1C-WebAPIError_name_attribute" name="1C-WebAPIError_name_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if WebAPIError.name existence - Description: Check if WebAPIError.name existence">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if WebAPIError.name existence - Description: Check if WebAPIError.name existence]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/WebAPIError_name_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-1D-WebAPIError_notexist" name="1D-WebAPIError_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if WebAPIError exists - Description: Check if WebAPIError exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if WebAPIError exists - Description: Check if WebAPIError exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/WebAPIError_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-1E-WebAPIException_code_attribute" name="1E-WebAPIException_code_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check WebAPIException.code attribute: type, value and read-only (for NotFoundError) - Description: Check WebAPIException.code attribute: type, value and read-only (for NotFoundError)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check WebAPIException.code attribute: type, value and read-only (for NotFoundError) - Description: Check WebAPIException.code attribute: type, value and read-only (for NotFoundError)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/WebAPIException_code_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-1F-WebAPIException_const_ABORT_ERR" name="1F-WebAPIException_const_ABORT_ERR" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if ABORT_ERR equals to the value that is set in WebAPIException - Description: Check if ABORT_ERR equals to the value that is set in WebAPIException">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ABORT_ERR equals to the value that is set in WebAPIException - Description: Check if ABORT_ERR equals to the value that is set in WebAPIException]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/WebAPIException_const_ABORT_ERR.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-1G-WebAPIException_const_DATA_CLONE_ERR" name="1G-WebAPIException_const_DATA_CLONE_ERR" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if DATA_CLONE_ERR equals to the value that is set in WebAPIException - Description: Check if DATA_CLONE_ERR equals to the value that is set in WebAPIException">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DATA_CLONE_ERR equals to the value that is set in WebAPIException - Description: Check if DATA_CLONE_ERR equals to the value that is set in WebAPIException]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/WebAPIException_const_DATA_CLONE_ERR.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-1H-WebAPIException_const_DOMSTRING_SIZE_ERR" name="1H-WebAPIException_const_DOMSTRING_SIZE_ERR" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if DOMSTRING_SIZE_ERR equals to the value that is set in WebAPIException - Description: Check if DOMSTRING_SIZE_ERR equals to the value that is set in WebAPIException">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DOMSTRING_SIZE_ERR equals to the value that is set in WebAPIException - Description: Check if DOMSTRING_SIZE_ERR equals to the value that is set in WebAPIException]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/WebAPIException_const_DOMSTRING_SIZE_ERR.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-1I-WebAPIException_const_HIERARCHY_REQUEST_ERR" name="1I-WebAPIException_const_HIERARCHY_REQUEST_ERR" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if HIERARCHY_REQUEST_ERR equals to the value that is set in WebAPIException - Description: Check if HIERARCHY_REQUEST_ERR equals to the value that is set in WebAPIException">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if HIERARCHY_REQUEST_ERR equals to the value that is set in WebAPIException - Description: Check if HIERARCHY_REQUEST_ERR equals to the value that is set in WebAPIException]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/WebAPIException_const_HIERARCHY_REQUEST_ERR.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-1J-WebAPIException_const_INDEX_SIZE_ERR" name="1J-WebAPIException_const_INDEX_SIZE_ERR" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if INDEX_SIZE_ERR equals to the value that is set in WebAPIException - Description: Check if INDEX_SIZE_ERR equals to the value that is set in WebAPIException">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if INDEX_SIZE_ERR equals to the value that is set in WebAPIException - Description: Check if INDEX_SIZE_ERR equals to the value that is set in WebAPIException]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/WebAPIException_const_INDEX_SIZE_ERR.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-1K-WebAPIException_const_INUSE_ATTRIBUTE_ERR" name="1K-WebAPIException_const_INUSE_ATTRIBUTE_ERR" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if INUSE_ATTRIBUTE_ERR equals to the value that is set in WebAPIException - Description: Check if INUSE_ATTRIBUTE_ERR equals to the value that is set in WebAPIException">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if INUSE_ATTRIBUTE_ERR equals to the value that is set in WebAPIException - Description: Check if INUSE_ATTRIBUTE_ERR equals to the value that is set in WebAPIException]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/WebAPIException_const_INUSE_ATTRIBUTE_ERR.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-1L-WebAPIException_const_INVALID_ACCESS_ERR" name="1L-WebAPIException_const_INVALID_ACCESS_ERR" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if INVALID_ACCESS_ERR equals to the value that is set in WebAPIException - Description: Check if INVALID_ACCESS_ERR equals to the value that is set in WebAPIException">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if INVALID_ACCESS_ERR equals to the value that is set in WebAPIException - Description: Check if INVALID_ACCESS_ERR equals to the value that is set in WebAPIException]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/WebAPIException_const_INVALID_ACCESS_ERR.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-1M-WebAPIException_const_INVALID_CHARACTER_ERR" name="1M-WebAPIException_const_INVALID_CHARACTER_ERR" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if INVALID_CHARACTER_ERR equals to the value that is set in WebAPIException - Description: Check if INVALID_CHARACTER_ERR equals to the value that is set in WebAPIException">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if INVALID_CHARACTER_ERR equals to the value that is set in WebAPIException - Description: Check if INVALID_CHARACTER_ERR equals to the value that is set in WebAPIException]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/WebAPIException_const_INVALID_CHARACTER_ERR.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-1N-WebAPIException_const_INVALID_MODIFICATION_ERR" name="1N-WebAPIException_const_INVALID_MODIFICATION_ERR" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if INVALID_MODIFICATION_ERR equals to the value that is set in WebAPIException - Description: Check if INVALID_MODIFICATION_ERR equals to the value that is set in WebAPIException">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if INVALID_MODIFICATION_ERR equals to the value that is set in WebAPIException - Description: Check if INVALID_MODIFICATION_ERR equals to the value that is set in WebAPIException]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/WebAPIException_const_INVALID_MODIFICATION_ERR.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-1O-WebAPIException_const_INVALID_NODE_TYPE_ERR" name="1O-WebAPIException_const_INVALID_NODE_TYPE_ERR" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if INVALID_NODE_TYPE_ERR equals to the value that is set in WebAPIException - Description: Check if INVALID_NODE_TYPE_ERR equals to the value that is set in WebAPIException">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if INVALID_NODE_TYPE_ERR equals to the value that is set in WebAPIException - Description: Check if INVALID_NODE_TYPE_ERR equals to the value that is set in WebAPIException]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/WebAPIException_const_INVALID_NODE_TYPE_ERR.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-1P-WebAPIException_const_INVALID_STATE_ERR" name="1P-WebAPIException_const_INVALID_STATE_ERR" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if INVALID_STATE_ERR equals to the value that is set in WebAPIException - Description: Check if INVALID_STATE_ERR equals to the value that is set in WebAPIException">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if INVALID_STATE_ERR equals to the value that is set in WebAPIException - Description: Check if INVALID_STATE_ERR equals to the value that is set in WebAPIException]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/WebAPIException_const_INVALID_STATE_ERR.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-1Q-WebAPIException_const_NAMESPACE_ERR" name="1Q-WebAPIException_const_NAMESPACE_ERR" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if NAMESPACE_ERR equals to the value that is set in WebAPIException - Description: Check if NAMESPACE_ERR equals to the value that is set in WebAPIException">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NAMESPACE_ERR equals to the value that is set in WebAPIException - Description: Check if NAMESPACE_ERR equals to the value that is set in WebAPIException]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/WebAPIException_const_NAMESPACE_ERR.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-1R-WebAPIException_const_NETWORK_ERR" name="1R-WebAPIException_const_NETWORK_ERR" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if NETWORK_ERR equals to the value that is set in WebAPIException - Description: Check if NETWORK_ERR equals to the value that is set in WebAPIException">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NETWORK_ERR equals to the value that is set in WebAPIException - Description: Check if NETWORK_ERR equals to the value that is set in WebAPIException]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/WebAPIException_const_NETWORK_ERR.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-1S-WebAPIException_const_NOT_FOUND_ERR" name="1S-WebAPIException_const_NOT_FOUND_ERR" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if NOT_FOUND_ERR equals to the value that is set in WebAPIException - Description: Check if NOT_FOUND_ERR equals to the value that is set in WebAPIException">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NOT_FOUND_ERR equals to the value that is set in WebAPIException - Description: Check if NOT_FOUND_ERR equals to the value that is set in WebAPIException]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/WebAPIException_const_NOT_FOUND_ERR.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-1T-WebAPIException_const_NOT_SUPPORTED_ERR" name="1T-WebAPIException_const_NOT_SUPPORTED_ERR" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if NOT_SUPPORTED_ERR equals to the value that is set in WebAPIException - Description: Check if NOT_SUPPORTED_ERR equals to the value that is set in WebAPIException">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NOT_SUPPORTED_ERR equals to the value that is set in WebAPIException - Description: Check if NOT_SUPPORTED_ERR equals to the value that is set in WebAPIException]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/WebAPIException_const_NOT_SUPPORTED_ERR.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-1U-WebAPIException_const_NO_DATA_ALLOWED_ERR" name="1U-WebAPIException_const_NO_DATA_ALLOWED_ERR" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if NO_DATA_ALLOWED_ERR equals to the value that is set in WebAPIException - Description: Check if NO_DATA_ALLOWED_ERR equals to the value that is set in WebAPIException">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NO_DATA_ALLOWED_ERR equals to the value that is set in WebAPIException - Description: Check if NO_DATA_ALLOWED_ERR equals to the value that is set in WebAPIException]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/WebAPIException_const_NO_DATA_ALLOWED_ERR.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-1V-WebAPIException_const_NO_MODIFICATION_ALLOWED_ERR" name="1V-WebAPIException_const_NO_MODIFICATION_ALLOWED_ERR" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if NO_MODIFICATION_ALLOWED_ERR equals to the value that is set in WebAPIException - Description: Check if NO_MODIFICATION_ALLOWED_ERR equals to the value that is set in WebAPIException">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NO_MODIFICATION_ALLOWED_ERR equals to the value that is set in WebAPIException - Description: Check if NO_MODIFICATION_ALLOWED_ERR equals to the value that is set in WebAPIException]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/WebAPIException_const_NO_MODIFICATION_ALLOWED_ERR.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-1W-WebAPIException_const_QUOTA_EXCEEDED_ERR" name="1W-WebAPIException_const_QUOTA_EXCEEDED_ERR" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if QUOTA_EXCEEDED_ERR equals to the value that is set in WebAPIException - Description: Check if QUOTA_EXCEEDED_ERR equals to the value that is set in WebAPIException">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if QUOTA_EXCEEDED_ERR equals to the value that is set in WebAPIException - Description: Check if QUOTA_EXCEEDED_ERR equals to the value that is set in WebAPIException]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/WebAPIException_const_QUOTA_EXCEEDED_ERR.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-1X-WebAPIException_const_SECURITY_ERR" name="1X-WebAPIException_const_SECURITY_ERR" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if SECURITY_ERR equals to the value that is set in WebAPIException - Description: Check if SECURITY_ERR equals to the value that is set in WebAPIException">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if SECURITY_ERR equals to the value that is set in WebAPIException - Description: Check if SECURITY_ERR equals to the value that is set in WebAPIException]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/WebAPIException_const_SECURITY_ERR.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-1Y-WebAPIException_const_SYNTAX_ERR" name="1Y-WebAPIException_const_SYNTAX_ERR" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if SYNTAX_ERR equals to the value that is set in WebAPIException - Description: Check if SYNTAX_ERR equals to the value that is set in WebAPIException">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if SYNTAX_ERR equals to the value that is set in WebAPIException - Description: Check if SYNTAX_ERR equals to the value that is set in WebAPIException]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/WebAPIException_const_SYNTAX_ERR.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-1Z-WebAPIException_const_TIMEOUT_ERR" name="1Z-WebAPIException_const_TIMEOUT_ERR" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if TIMEOUT_ERR equals to the value that is set in WebAPIException - Description: Check if TIMEOUT_ERR equals to the value that is set in WebAPIException">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if TIMEOUT_ERR equals to the value that is set in WebAPIException - Description: Check if TIMEOUT_ERR equals to the value that is set in WebAPIException]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/WebAPIException_const_TIMEOUT_ERR.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-20-WebAPIException_const_TYPE_MISMATCH_ERR" name="20-WebAPIException_const_TYPE_MISMATCH_ERR" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if TYPE_MISMATCH_ERR equals to the value that is set in WebAPIException - Description: Check if TYPE_MISMATCH_ERR equals to the value that is set in WebAPIException">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if TYPE_MISMATCH_ERR equals to the value that is set in WebAPIException - Description: Check if TYPE_MISMATCH_ERR equals to the value that is set in WebAPIException]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/WebAPIException_const_TYPE_MISMATCH_ERR.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-21-WebAPIException_const_URL_MISMATCH_ERR" name="21-WebAPIException_const_URL_MISMATCH_ERR" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if URL_MISMATCH_ERR equals to the value that is set in WebAPIException - Description: Check if URL_MISMATCH_ERR equals to the value that is set in WebAPIException">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if URL_MISMATCH_ERR equals to the value that is set in WebAPIException - Description: Check if URL_MISMATCH_ERR equals to the value that is set in WebAPIException]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/WebAPIException_const_URL_MISMATCH_ERR.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-22-WebAPIException_const_VALIDATION_ERR" name="22-WebAPIException_const_VALIDATION_ERR" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if VALIDATION_ERR equals to the value that is set in WebAPIException - Description: Check if VALIDATION_ERR equals to the value that is set in WebAPIException">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if VALIDATION_ERR equals to the value that is set in WebAPIException - Description: Check if VALIDATION_ERR equals to the value that is set in WebAPIException]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/WebAPIException_const_VALIDATION_ERR.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-23-WebAPIException_const_WRONG_DOCUMENT_ERR" name="23-WebAPIException_const_WRONG_DOCUMENT_ERR" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if WRONG_DOCUMENT_ERR equals to the value that is set in WebAPIException - Description: Check if WRONG_DOCUMENT_ERR equals to the value that is set in WebAPIException">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if WRONG_DOCUMENT_ERR equals to the value that is set in WebAPIException - Description: Check if WRONG_DOCUMENT_ERR equals to the value that is set in WebAPIException]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/WebAPIException_const_WRONG_DOCUMENT_ERR.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-24-WebAPIException_extend" name="24-WebAPIException_extend" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if WebAPIException can be extended - Description: Check if WebAPIException can be extended">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if WebAPIException can be extended - Description: Check if WebAPIException can be extended]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/WebAPIException_extend.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-25-WebAPIException_message_attribute" name="25-WebAPIException_message_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check WebAPIException.message attribute: type and read-only for NotFoundError - Description: Check WebAPIException.message attribute: type and read-only for NotFoundError">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check WebAPIException.message attribute: type and read-only for NotFoundError - Description: Check WebAPIException.message attribute: type and read-only for NotFoundError]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/WebAPIException_message_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-26-WebAPIException_name_attribute" name="26-WebAPIException_name_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check WebAPIException.name attribute: type, value and read-only (for NotFoundError) - Description: Check WebAPIException.name attribute: type, value and read-only (for NotFoundError)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check WebAPIException.name attribute: type, value and read-only (for NotFoundError) - Description: Check WebAPIException.name attribute: type, value and read-only (for NotFoundError)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/WebAPIException_name_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0T-27-WebAPIException_notexist" name="27-WebAPIException_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-tizen-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if WebAPIException not exists - Description: Check if WebAPIException not exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if WebAPIException not exists - Description: Check if WebAPIException not exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-tizen-tizen-tests/tizen/WebAPIException_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+        </set>
+    </suite>
+</test_definition>

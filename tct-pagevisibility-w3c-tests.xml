@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<test_definition>
+    <suite launcher="xwalk" name="00-common/E0-crosswalk">
+        <set name="common/crosswalk/commonapi/tct-pagevisibility-w3c-tests">
+            <testcase id="00-E0-00-0Z-01-test_attributes_exist_1" name="01-test_attributes_exist_1" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-pagevisibility-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if document.hidden is defined and not null - Description: Check if document.hidden is defined and not null">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if document.hidden is defined and not null - Description: Check if document.hidden is defined and not null]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-pagevisibility-w3c-tests/pagevisibility/w3c/test_attributes_exist.html?total_num=4&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0Z-02-test_attributes_exist_2" name="02-test_attributes_exist_2" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-pagevisibility-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if document.visibilityState is defined and not null - Description: Check if document.visibilityState is defined and not null">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if document.visibilityState is defined and not null - Description: Check if document.visibilityState is defined and not null]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-pagevisibility-w3c-tests/pagevisibility/w3c/test_attributes_exist.html?total_num=4&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0Z-03-test_child_document_4" name="03-test_child_document_4" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-pagevisibility-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if document.hidden is defined for frame with no style attribute - Description: Check if document.hidden is defined for frame with no style attribute">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if document.hidden is defined for frame with no style attribute - Description: Check if document.hidden is defined for frame with no style attribute]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-pagevisibility-w3c-tests/pagevisibility/w3c/test_child_document.html?total_num=14&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0Z-04-test_child_document_5" name="04-test_child_document_5" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-pagevisibility-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if document.visibilityState is defined for frame with no style attribute - Description: Check if document.visibilityState is defined for frame with no style attribute">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if document.visibilityState is defined for frame with no style attribute - Description: Check if document.visibilityState is defined for frame with no style attribute]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-pagevisibility-w3c-tests/pagevisibility/w3c/test_child_document.html?total_num=14&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0Z-05-test_child_document_6" name="05-test_child_document_6" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-pagevisibility-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if document.visibilityState for frame with no style attribute that is equals to visible - Description: Check if document.visibilityState for frame with no style attribute that is equals to visible">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if document.visibilityState for frame with no style attribute that is equals to visible - Description: Check if document.visibilityState for frame with no style attribute that is equals to visible]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-pagevisibility-w3c-tests/pagevisibility/w3c/test_child_document.html?total_num=14&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0Z-06-test_child_document_8" name="06-test_child_document_8" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-pagevisibility-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if document.hidden is defined for frame with 'display:none' style - Description: Check if document.hidden is defined for frame with 'display:none' style">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if document.hidden is defined for frame with 'display:none' style - Description: Check if document.hidden is defined for frame with 'display:none' style]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-pagevisibility-w3c-tests/pagevisibility/w3c/test_child_document.html?total_num=14&amp;amp;locator_key=id&amp;amp;value=8</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0Z-07-test_child_document_9" name="07-test_child_document_9" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-pagevisibility-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if document.visibilityState is defined for frame with 'display:none' style - Description: Check if document.visibilityState is defined for frame with 'display:none' style">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if document.visibilityState is defined for frame with 'display:none' style - Description: Check if document.visibilityState is defined for frame with 'display:none' style]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-pagevisibility-w3c-tests/pagevisibility/w3c/test_child_document.html?total_num=14&amp;amp;locator_key=id&amp;amp;value=9</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0Z-08-test_child_document_10" name="08-test_child_document_10" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-pagevisibility-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if document.visibilityState for frame with 'display:none' style that is equals to visible - Description: Check if document.visibilityState for frame with 'display:none' style that is equals to visible">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if document.visibilityState for frame with 'display:none' style that is equals to visible - Description: Check if document.visibilityState for frame with 'display:none' style that is equals to visible]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-pagevisibility-w3c-tests/pagevisibility/w3c/test_child_document.html?total_num=14&amp;amp;locator_key=id&amp;amp;value=10</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0Z-09-test_child_document_12" name="09-test_child_document_12" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-pagevisibility-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if document.hidden is defined for frame with 'visibility:hidden' style - Description: Check if document.hidden is defined for frame with 'visibility:hidden' style">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if document.hidden is defined for frame with 'visibility:hidden' style - Description: Check if document.hidden is defined for frame with 'visibility:hidden' style]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-pagevisibility-w3c-tests/pagevisibility/w3c/test_child_document.html?total_num=14&amp;amp;locator_key=id&amp;amp;value=12</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0Z-0A-test_child_document_13" name="0A-test_child_document_13" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-pagevisibility-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if document.visibilityState is defined for frame with 'visibility:hidden' style - Description: Check if document.visibilityState is defined for frame with 'visibility:hidden' style">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if document.visibilityState is defined for frame with 'visibility:hidden' style - Description: Check if document.visibilityState is defined for frame with 'visibility:hidden' style]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-pagevisibility-w3c-tests/pagevisibility/w3c/test_child_document.html?total_num=14&amp;amp;locator_key=id&amp;amp;value=13</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0Z-0B-test_child_document_14" name="0B-test_child_document_14" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-pagevisibility-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if document.visibilityState for frame with 'visibility:hidden' style that is equals to visible - Description: Check if document.visibilityState for frame with 'visibility:hidden' style that is equals to visible">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if document.visibilityState for frame with 'visibility:hidden' style that is equals to visible - Description: Check if document.visibilityState for frame with 'visibility:hidden' style that is equals to visible]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-pagevisibility-w3c-tests/pagevisibility/w3c/test_child_document.html?total_num=14&amp;amp;locator_key=id&amp;amp;value=14</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0Z-0C-test_default_view_3" name="0C-test_default_view_3" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-pagevisibility-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if windowless subdocument generated for test has a null default view - Description: Check if windowless subdocument generated for test has a null default view">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if windowless subdocument generated for test has a null default view - Description: Check if windowless subdocument generated for test has a null default view]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-pagevisibility-w3c-tests/pagevisibility/w3c/test_default_view.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0Z-0D-test_default_view_4" name="0D-test_default_view_4" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-pagevisibility-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if document.hidden is definedwindowless subdocument - Description: Check if document.hidden is definedwindowless subdocument">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if document.hidden is definedwindowless subdocument - Description: Check if document.hidden is definedwindowless subdocument]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-pagevisibility-w3c-tests/pagevisibility/w3c/test_default_view.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0Z-0E-test_default_view_5" name="0E-test_default_view_5" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-pagevisibility-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if document.visibilityState is definedwindowless subdocument - Description: Check if document.visibilityState is definedwindowless subdocument">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if document.visibilityState is definedwindowless subdocument - Description: Check if document.visibilityState is definedwindowless subdocument]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-pagevisibility-w3c-tests/pagevisibility/w3c/test_default_view.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0Z-0F-test_default_view_6" name="0F-test_default_view_6" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-pagevisibility-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if hidden is equals to true for windowless subdocuments with a null default view - Description: Check if hidden is equals to true for windowless subdocuments with a null default view">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if hidden is equals to true for windowless subdocuments with a null default view - Description: Check if hidden is equals to true for windowless subdocuments with a null default view]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-pagevisibility-w3c-tests/pagevisibility/w3c/test_default_view.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0Z-0G-test_default_view_7" name="0G-test_default_view_7" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-pagevisibility-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if visibilityState is equals to hidden for windowless subdocuments with a null default view - Description: Check if visibilityState is equals to hidden for windowless subdocuments with a null default view">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if visibilityState is equals to hidden for windowless subdocuments with a null default view - Description: Check if visibilityState is equals to hidden for windowless subdocuments with a null default view]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-pagevisibility-w3c-tests/pagevisibility/w3c/test_default_view.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0Z-0H-test_read_only_3" name="0H-test_read_only_3" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-pagevisibility-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if document.hidden is readonly - Description: Check if document.hidden is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if document.hidden is readonly - Description: Check if document.hidden is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-pagevisibility-w3c-tests/pagevisibility/w3c/test_read_only.html?total_num=4&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0Z-0I-test_read_only_4" name="0I-test_read_only_4" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-pagevisibility-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if document.visibilityState is readonly - Description: Check if document.visibilityState is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if document.visibilityState is readonly - Description: Check if document.visibilityState is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-pagevisibility-w3c-tests/pagevisibility/w3c/test_read_only.html?total_num=4&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+        </set>
+    </suite>
+</test_definition>

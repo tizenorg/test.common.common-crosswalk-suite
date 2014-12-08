@@ -1,0 +1,439 @@
+<?xml version="1.0"?>
+<test_definition>
+    <suite launcher="xwalk" name="00-common/E0-crosswalk">
+        <set name="common/crosswalk/commonapi/tct-filewriterapi-w3c-tests">
+            <testcase id="00-E0-00-0J-01-FileSaver_abort_exist" name="01-FileSaver_abort_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filewriterapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileSaver.abort exists - Description: Check if FileSaver.abort exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileSaver.abort exists - Description: Check if FileSaver.abort exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FileSaver_abort_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0J-02-FileWriter_abort_normal" name="02-FileWriter_abort_normal" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filewriterapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileSaver.abort method is normal - Description: Check if FileSaver.abort method is normal">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileSaver.abort method is normal - Description: Check if FileSaver.abort method is normal]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FileWriter_abort_normal.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0J-03-Blob_append_blob_size" name="03-Blob_append_blob_size" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filewriterapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the Blob append an exist blob, then compare its value with blob.Size which is 4 - Description: Check if the Blob append an exist blob, then compare its value with blob.Size which is 4">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the Blob append an exist blob, then compare its value with blob.Size which is 4 - Description: Check if the Blob append an exist blob, then compare its value with blob.Size which is 4]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/Blob_append_blob_size.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0J-04-FileSaver_DONE_exist" name="04-FileSaver_DONE_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filewriterapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileSaver.DONE exists - Description: Check if FileSaver.DONE exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileSaver.DONE exists - Description: Check if FileSaver.DONE exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FileSaver_DONE_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0J-05-FileSaver_error_exist" name="05-FileSaver_error_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filewriterapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileSaver.error exists - Description: Check if FileSaver.error exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileSaver.error exists - Description: Check if FileSaver.error exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FileSaver_error_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0J-06-FileSaver_INIT_exist" name="06-FileSaver_INIT_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filewriterapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileSaver.INIT exists - Description: Check if FileSaver.INIT exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileSaver.INIT exists - Description: Check if FileSaver.INIT exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FileSaver_INIT_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0J-07-FileWriterSync_length_normal" name="07-FileWriterSync_length_normal" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filewriterapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileWriterSync.length attribute is normal - Description: Check if FileWriterSync.length attribute is normal">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileWriterSync.length attribute is normal - Description: Check if FileWriterSync.length attribute is normal]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FileWriterSync_length_normal.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0J-08-FileSaver_onabort_exist" name="08-FileSaver_onabort_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filewriterapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileSaver.onabort exists - Description: Check if FileSaver.onabort exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileSaver.onabort exists - Description: Check if FileSaver.onabort exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FileSaver_onabort_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0J-09-FileSaver_onerror_exist" name="09-FileSaver_onerror_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filewriterapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileSaver.onerror attribute exists - Description: Check if FileSaver.onerror attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileSaver.onerror attribute exists - Description: Check if FileSaver.onerror attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FileSaver_onerror_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0J-0A-FileSaver_onprogress_exist" name="0A-FileSaver_onprogress_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filewriterapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileSaver.onprogress attribute exists - Description: Check if FileSaver.onprogress attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileSaver.onprogress attribute exists - Description: Check if FileSaver.onprogress attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FileSaver_onprogress_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0J-0B-FileSaver_onwrite_exist" name="0B-FileSaver_onwrite_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filewriterapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileSaver.onwrite attribute exists - Description: Check if FileSaver.onwrite attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileSaver.onwrite attribute exists - Description: Check if FileSaver.onwrite attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FileSaver_onwrite_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0J-0C-FileSaver_onwriteend_exist" name="0C-FileSaver_onwriteend_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filewriterapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileSaver.onwriteend attribute exists - Description: Check if FileSaver.onwriteend attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileSaver.onwriteend attribute exists - Description: Check if FileSaver.onwriteend attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FileSaver_onwriteend_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0J-0D-FileSaver_onwritestart_exist" name="0D-FileSaver_onwritestart_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filewriterapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileSaver.onwritestart attribute exists - Description: Check if FileSaver.onwritestart attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileSaver.onwritestart attribute exists - Description: Check if FileSaver.onwritestart attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FileSaver_onwritestart_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0J-0E-FileWriterSync_position_normal" name="0E-FileWriterSync_position_normal" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filewriterapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileWriterSync.position attribute is normal - Description: Check if FileWriterSync.position attribute is normal">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileWriterSync.position attribute is normal - Description: Check if FileWriterSync.position attribute is normal]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FileWriterSync_position_normal.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0J-0F-FileSaver_readyState_exist" name="0F-FileSaver_readyState_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filewriterapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileSaver.readyState attribute exists - Description: Check if FileSaver.readyState attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileSaver.readyState attribute exists - Description: Check if FileSaver.readyState attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FileSaver_readyState_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0J-0G-FileWriterSync_seek_normal" name="0G-FileWriterSync_seek_normal" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filewriterapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileWriterSync.seek method is normal - Description: Check if FileWriterSync.seek method is normal">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileWriterSync.seek method is normal - Description: Check if FileWriterSync.seek method is normal]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FileWriterSync_seek_normal.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0J-0H-FileWriter_seek_normal" name="0H-FileWriter_seek_normal" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filewriterapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileSaver.seek method is normal - Description: Check if FileSaver.seek method is normal">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileSaver.seek method is normal - Description: Check if FileSaver.seek method is normal]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FileWriter_seek_normal.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0J-0I-FileWriterSync_truncate_normal" name="0I-FileWriterSync_truncate_normal" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filewriterapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileWriterSync.truncate method is normal - Description: Check if FileWriterSync.truncate method is normal">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileWriterSync.truncate method is normal - Description: Check if FileWriterSync.truncate method is normal]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FileWriterSync_truncate_normal.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0J-0J-FileWriter_truncate_normal" name="0J-FileWriter_truncate_normal" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filewriterapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileWriter.truncate method is normal - Description: Check if FileWriter.truncate method is normal">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileWriter.truncate method is normal - Description: Check if FileWriter.truncate method is normal]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FileWriter_truncate_normal.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0J-0K-FileWriterSync_write_normal" name="0K-FileWriterSync_write_normal" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filewriterapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileWriterSync.write method is normal - Description: Check if FileWriterSync.write method is normal">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileWriterSync.write method is normal - Description: Check if FileWriterSync.write method is normal]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FileWriterSync_write_normal.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0J-0L-FileWriter_write_normal" name="0L-FileWriter_write_normal" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filewriterapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileWriter.write method is normal - Description: Check if FileWriter.write method is normal">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileWriter.write method is normal - Description: Check if FileWriter.write method is normal]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FileWriter_write_normal.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0J-0M-FileSaver_WRITING_exist" name="0M-FileSaver_WRITING_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filewriterapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileSaver.WRITING exists - Description: Check if FileSaver.WRITING exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileSaver.WRITING exists - Description: Check if FileSaver.WRITING exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FileSaver_WRITING_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0J-0N-Blob_constructor_visible_in_window" name="0N-Blob_constructor_visible_in_window" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filewriterapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if Blob constructor must be visible when the script's global object is a Window object - Description: Check if Blob constructor must be visible when the script's global object is a Window object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Blob constructor must be visible when the script's global object is a Window object - Description: Check if Blob constructor must be visible when the script's global object is a Window object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/Blob_constructor_visible_in_window.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0J-0O-Blob_getBlob_string_type" name="0O-Blob_getBlob_string_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filewriterapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if Blob() method set 'text/plain', then compare blob.type is 'text/plain' - Description: Check if Blob() method set 'text/plain', then compare blob.type is 'text/plain'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Blob() method set 'text/plain', then compare blob.type is 'text/plain' - Description: Check if Blob() method set 'text/plain', then compare blob.type is 'text/plain']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/Blob_getBlob_string_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0J-0P-FileSaver_const_DONE_type" name="0P-FileSaver_const_DONE_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filewriterapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the type of const DONE is number - Description: Check if the type of const DONE is number">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the type of const DONE is number - Description: Check if the type of const DONE is number]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FileSaver_const_DONE_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0J-0Q-FileSaver_const_INIT_type" name="0Q-FileSaver_const_INIT_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filewriterapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the type of const INIT is number - Description: Check if the type of const INIT is number">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the type of const INIT is number - Description: Check if the type of const INIT is number]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FileSaver_const_INIT_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0J-0R-FileSaver_error_type" name="0R-FileSaver_error_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filewriterapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the type of FileSaver.error is DOMError - Description: Check if the type of FileSaver.error is DOMError">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the type of FileSaver.error is DOMError - Description: Check if the type of FileSaver.error is DOMError]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FileSaver_error_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0J-0S-FileSaver_onabort_event_type" name="0S-FileSaver_onabort_event_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filewriterapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Ckeck if the event type of FileSaver.onabort is abort - Description: Ckeck if the event type of FileSaver.onabort is abort">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Ckeck if the event type of FileSaver.onabort is abort - Description: Ckeck if the event type of FileSaver.onabort is abort]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FileSaver_onabort_event_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0J-0T-FileWriter_length_normal" name="0T-FileWriter_length_normal" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filewriterapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the value of FileWriter.length attribute is normal - Description: Check if the value of FileWriter.length attribute is normal">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the value of FileWriter.length attribute is normal - Description: Check if the value of FileWriter.length attribute is normal]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FileWriter_length_normal.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0J-0U-FileWriter_position_normal" name="0U-FileWriter_position_normal" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filewriterapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the value of FileWriter.position attribute is normal - Description: Check if the value of FileWriter.position attribute is normal">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the value of FileWriter.position attribute is normal - Description: Check if the value of FileWriter.position attribute is normal]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FileWriter_position_normal.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0J-0V-FW_FileError_code_readonly" name="0V-FW_FileError_code_readonly" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filewriterapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FW_FileError.code attribute is readonly - Description: Check if FW_FileError.code attribute is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FW_FileError.code attribute is readonly - Description: Check if FW_FileError.code attribute is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FW_FileError_code_readonly.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0J-0W-FW_FileError_code_type" name="0W-FW_FileError_code_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filewriterapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileError.code attribute is type number - Description: Check if FileError.code attribute is type number">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileError.code attribute is type number - Description: Check if FileError.code attribute is type number]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FW_FileError_code_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0J-0X-FW_FileError_const_ABORT_ERR" name="0X-FW_FileError_const_ABORT_ERR" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filewriterapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the const FileError.ABORT_ERR is equal 3 in FileWriter module - Description: Check if the const FileError.ABORT_ERR is equal 3 in FileWriter module">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the const FileError.ABORT_ERR is equal 3 in FileWriter module - Description: Check if the const FileError.ABORT_ERR is equal 3 in FileWriter module]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FW_FileError_const_ABORT_ERR.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0J-0Y-FW_FileError_const_ABORT_ERR_type" name="0Y-FW_FileError_const_ABORT_ERR_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filewriterapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the type of FileError.ABORT_ERR is number in FileWriter module - Description: Check if the type of FileError.ABORT_ERR is number in FileWriter module">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the type of FileError.ABORT_ERR is number in FileWriter module - Description: Check if the type of FileError.ABORT_ERR is number in FileWriter module]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FW_FileError_const_ABORT_ERR_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0J-0Z-FW_FileError_const_ENCODING_ERR" name="0Z-FW_FileError_const_ENCODING_ERR" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filewriterapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the const FileError.ENCODING_ERR is equal 5 in FileWriter module - Description: Check if the const FileError.ENCODING_ERR is equal 5 in FileWriter module">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the const FileError.ENCODING_ERR is equal 5 in FileWriter module - Description: Check if the const FileError.ENCODING_ERR is equal 5 in FileWriter module]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FW_FileError_const_ENCODING_ERR.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0J-10-FW_FileError_const_ENCODING_ERR_type" name="10-FW_FileError_const_ENCODING_ERR_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filewriterapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the type of FileError.ENCODING_ERR is numberin in FileWriter module - Description: Check if the type of FileError.ENCODING_ERR is numberin in FileWriter module">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the type of FileError.ENCODING_ERR is numberin in FileWriter module - Description: Check if the type of FileError.ENCODING_ERR is numberin in FileWriter module]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FW_FileError_const_ENCODING_ERR_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0J-11-FW_FileError_const_INVALID_STATE_ERR" name="11-FW_FileError_const_INVALID_STATE_ERR" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filewriterapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the const FileError.INVALID_STATE_ERR is equal 7 in FileWriter module - Description: Check if the const FileError.INVALID_STATE_ERR is equal 7 in FileWriter module">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the const FileError.INVALID_STATE_ERR is equal 7 in FileWriter module - Description: Check if the const FileError.INVALID_STATE_ERR is equal 7 in FileWriter module]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FW_FileError_const_INVALID_STATE_ERR.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0J-12-FW_FileError_const_INVALID_STATE_ERR_type" name="12-FW_FileError_const_INVALID_STATE_ERR_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filewriterapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the type of FileError.INVALID_STATE_ERR is number in FileWriter module - Description: Check if the type of FileError.INVALID_STATE_ERR is number in FileWriter module">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the type of FileError.INVALID_STATE_ERR is number in FileWriter module - Description: Check if the type of FileError.INVALID_STATE_ERR is number in FileWriter module]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FW_FileError_const_INVALID_STATE_ERR_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0J-13-FW_FileError_const_NO_MODIFICATION_ALLOWED_ERR" name="13-FW_FileError_const_NO_MODIFICATION_ALLOWED_ERR" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filewriterapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the const FileError.NO_MODIFICATION_ALLOWED_ERR is equal 6 in FileWriter module - Description: Check if the const FileError.NO_MODIFICATION_ALLOWED_ERR is equal 6 in FileWriter module">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the const FileError.NO_MODIFICATION_ALLOWED_ERR is equal 6 in FileWriter module - Description: Check if the const FileError.NO_MODIFICATION_ALLOWED_ERR is equal 6 in FileWriter module]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FW_FileError_const_NO_MODIFICATION_ALLOWED_ERR.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0J-14-FW_FileError_const_NO_MODIFICATION_ALLOWED_ERR_type" name="14-FW_FileError_const_NO_MODIFICATION_ALLOWED_ERR_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filewriterapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the type of FileError.NO_MODIFICATION_ALLOWED_ERR is number in FileWriter module - Description: Check if the type of FileError.NO_MODIFICATION_ALLOWED_ERR is number in FileWriter module">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the type of FileError.NO_MODIFICATION_ALLOWED_ERR is number in FileWriter module - Description: Check if the type of FileError.NO_MODIFICATION_ALLOWED_ERR is number in FileWriter module]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FW_FileError_const_NO_MODIFICATION_ALLOWED_ERR_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0J-15-FW_FileError_const_NOT_FOUND_ERR" name="15-FW_FileError_const_NOT_FOUND_ERR" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filewriterapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the const FileError.NOT_FOUND_ERR is equal 1 in FileWriter module - Description: Check if the const FileError.NOT_FOUND_ERR is equal 1 in FileWriter module">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the const FileError.NOT_FOUND_ERR is equal 1 in FileWriter module - Description: Check if the const FileError.NOT_FOUND_ERR is equal 1 in FileWriter module]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FW_FileError_const_NOT_FOUND_ERR.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0J-16-FW_FileError_const_NOT_FOUND_ERR_type" name="16-FW_FileError_const_NOT_FOUND_ERR_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filewriterapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the type of FileError.NOT_FOUND_ERR is number in FileWriter module - Description: Check if the type of FileError.NOT_FOUND_ERR is number in FileWriter module">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the type of FileError.NOT_FOUND_ERR is number in FileWriter module - Description: Check if the type of FileError.NOT_FOUND_ERR is number in FileWriter module]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FW_FileError_const_NOT_FOUND_ERR_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0J-17-FW_FileError_const_NOT_READABLE_ERR" name="17-FW_FileError_const_NOT_READABLE_ERR" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filewriterapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the const FileError.NOT_READABLE_ERR is equal 4 in FileWriter module - Description: Check if the const FileError.NOT_READABLE_ERR is equal 4 in FileWriter module">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the const FileError.NOT_READABLE_ERR is equal 4 in FileWriter module - Description: Check if the const FileError.NOT_READABLE_ERR is equal 4 in FileWriter module]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FW_FileError_const_NOT_READABLE_ERR.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0J-18-FW_FileError_const_NOT_READABLE_ERR_type" name="18-FW_FileError_const_NOT_READABLE_ERR_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filewriterapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the type of FileError.NOT_READABLE_ERR is number in FileWriter module - Description: Check if the type of FileError.NOT_READABLE_ERR is number in FileWriter module">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the type of FileError.NOT_READABLE_ERR is number in FileWriter module - Description: Check if the type of FileError.NOT_READABLE_ERR is number in FileWriter module]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FW_FileError_const_NOT_READABLE_ERR_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0J-19-FW_FileError_const_SECURITY_ERR" name="19-FW_FileError_const_SECURITY_ERR" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filewriterapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the const FileError.SECURITY_ERR is equal 2 in FileWriter module - Description: Check if the const FileError.SECURITY_ERR is equal 2 in FileWriter module">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the const FileError.SECURITY_ERR is equal 2 in FileWriter module - Description: Check if the const FileError.SECURITY_ERR is equal 2 in FileWriter module]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FW_FileError_const_SECURITY_ERR.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0J-1A-FW_FileError_const_SECURITY_ERR_type" name="1A-FW_FileError_const_SECURITY_ERR_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filewriterapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the type of FileError.SECURITY_ERR is number in FileWriter module - Description: Check if the type of FileError.SECURITY_ERR is number in FileWriter module">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the type of FileError.SECURITY_ERR is number in FileWriter module - Description: Check if the type of FileError.SECURITY_ERR is number in FileWriter module]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FW_FileError_const_SECURITY_ERR_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0J-1B-FW_FileError_const_SYNTAX_ERR" name="1B-FW_FileError_const_SYNTAX_ERR" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filewriterapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the const FileError.SYNTAX_ERR is equal 8 in FileWriter module - Description: Check if the const FileError.SYNTAX_ERR is equal 8 in FileWriter module">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the const FileError.SYNTAX_ERR is equal 8 in FileWriter module - Description: Check if the const FileError.SYNTAX_ERR is equal 8 in FileWriter module]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FW_FileError_const_SYNTAX_ERR.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0J-1C-FW_FileError_const_SYNTAX_ERR_type" name="1C-FW_FileError_const_SYNTAX_ERR_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filewriterapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the type of FileError.SYNTAX_ERR is number in FileWriter module - Description: Check if the type of FileError.SYNTAX_ERR is number in FileWriter module">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the type of FileError.SYNTAX_ERR is number in FileWriter module - Description: Check if the type of FileError.SYNTAX_ERR is number in FileWriter module]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FW_FileError_const_SYNTAX_ERR_type.html</test_script_entry>
+                </description>
+            </testcase>
+        </set>
+    </suite>
+</test_definition>

@@ -1,0 +1,295 @@
+<?xml version="1.0"?>
+<test_definition>
+    <suite launcher="xwalk" name="00-common/E0-crosswalk">
+        <set name="common/crosswalk/commonapi/webapi-input-html5-tests">
+            <testcase id="00-E0-00-22-01-email-support" name="01-email-support" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-input-html5-tests" status="designed" type="compliance" purpose="Objective: Test checks that email type supported on input element - Description: Test checks that email type supported on input element">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test checks that email type supported on input element - Description: Test checks that email type supported on input element]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-input-html5-tests/input/w3c/semantics/forms/the-input-element/email.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-22-02-email-multiple-attribute" name="02-email-multiple-attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-input-html5-tests" status="designed" type="compliance" purpose="Objective: Test checks that multiple attribute supported for input element type attribute is in the E-mail state - Description: Test checks that multiple attribute supported for input element type attribute is in the E-mail state">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test checks that multiple attribute supported for input element type attribute is in the E-mail state - Description: Test checks that multiple attribute supported for input element type attribute is in the E-mail state]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-input-html5-tests/input/w3c/semantics/forms/the-input-element/email.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-22-03-email-value-empty-string" name="03-email-value-empty-string" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-input-html5-tests" status="designed" type="compliance" purpose="Objective: Test checks that user agents should allow the user to set the value to the empty string when the multiple attribute is not specified on the element - Description: Test checks that user agents should allow the user to set the value to the empty string when the multiple attribute is not specified on the element">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test checks that user agents should allow the user to set the value to the empty string when the multiple attribute is not specified on the element - Description: Test checks that user agents should allow the user to set the value to the empty string when the multiple attribute is not specified on the element]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-input-html5-tests/input/w3c/semantics/forms/the-input-element/email.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-22-04-email-not-allow-insert-LF" name="04-email-not-allow-insert-LF" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-input-html5-tests" status="designed" type="compliance" purpose="Objective: Test checks that user agents must not allow users to insert LF character into the value when the multiple attribute is not specified on the element - Description: Test checks that user agents must not allow users to insert LF character into the value when the multiple attribute is not specified on the element">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test checks that user agents must not allow users to insert LF character into the value when the multiple attribute is not specified on the element - Description: Test checks that user agents must not allow users to insert LF character into the value when the multiple attribute is not specified on the element]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-input-html5-tests/input/w3c/semantics/forms/the-input-element/email.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-22-05-email-not-allow-insert-CR" name="05-email-not-allow-insert-CR" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-input-html5-tests" status="designed" type="compliance" purpose="Objective: Test checks that user agents must not allow users to insert CR character into the value when the multiple attribute is not specified on the element - Description: Test checks that user agents must not allow users to insert CR character into the value when the multiple attribute is not specified on the element">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test checks that user agents must not allow users to insert CR character into the value when the multiple attribute is not specified on the element - Description: Test checks that user agents must not allow users to insert CR character into the value when the multiple attribute is not specified on the element]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-input-html5-tests/input/w3c/semantics/forms/the-input-element/email.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-22-06-email-value-not-empty" name="06-email-value-not-empty" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-input-html5-tests" status="designed" type="compliance" purpose="Objective: Test checks that the value attribute must have a value that is a single valid e-mail address if specified and not empty - Description: Test checks that the value attribute must have a value that is a single valid e-mail address if specified and not empty">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test checks that the value attribute must have a value that is a single valid e-mail address if specified and not empty - Description: Test checks that the value attribute must have a value that is a single valid e-mail address if specified and not empty]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-input-html5-tests/input/w3c/semantics/forms/the-input-element/email.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-22-07-email-multiple-attribute-specified-values" name="07-email-multiple-attribute-specified-values" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-input-html5-tests" status="designed" type="compliance" purpose="Objective: Test checks that the element values are the result of splitting on commas the element value when the multiple attribute is specified on the element - Description: Test checks that the element values are the result of splitting on commas the element value when the multiple attribute is specified on the element">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test checks that the element values are the result of splitting on commas the element value when the multiple attribute is specified on the element - Description: Test checks that the element values are the result of splitting on commas the element value when the multiple attribute is specified on the element]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-input-html5-tests/input/w3c/semantics/forms/the-input-element/email.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-22-08-email-multiple-attribute-removed" name="08-email-multiple-attribute-removed" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-input-html5-tests" status="designed" type="compliance" purpose="Objective: Test checks that the user agent must run the value sanitization algorithm when the multiple attribute is removed and the multiple attribute is NOT specified on the element - Description: Test checks that the user agent must run the value sanitization algorithm when the multiple attribute is removed and the multiple attribute is NOT specified on the element">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test checks that the user agent must run the value sanitization algorithm when the multiple attribute is removed and the multiple attribute is NOT specified on the element - Description: Test checks that the user agent must run the value sanitization algorithm when the multiple attribute is removed and the multiple attribute is NOT specified on the element]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-input-html5-tests/input/w3c/semantics/forms/the-input-element/email.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=8</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-22-09-email-multiple-not-allow-insert-commas" name="09-email-multiple-not-allow-insert-commas" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-input-html5-tests" status="designed" type="compliance" purpose="Objective: Test checks that user agents must not allow users to set any individual value to a string containing commas when the multiple attribute is specified on the element - Description: Test checks that user agents must not allow users to set any individual value to a string containing commas when the multiple attribute is specified on the element">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test checks that user agents must not allow users to set any individual value to a string containing commas when the multiple attribute is specified on the element - Description: Test checks that user agents must not allow users to set any individual value to a string containing commas when the multiple attribute is specified on the element]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-input-html5-tests/input/w3c/semantics/forms/the-input-element/email.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=9</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-22-0A-email-multiple-not-allow-insert-LF" name="0A-email-multiple-not-allow-insert-LF" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-input-html5-tests" status="designed" type="compliance" purpose="Objective: Test checks that user agents must not allow users to set any individual value to a string containing LF characters when the multiple attribute is specified on the element - Description: Test checks that user agents must not allow users to set any individual value to a string containing LF characters when the multiple attribute is specified on the element">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test checks that user agents must not allow users to set any individual value to a string containing LF characters when the multiple attribute is specified on the element - Description: Test checks that user agents must not allow users to set any individual value to a string containing LF characters when the multiple attribute is specified on the element]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-input-html5-tests/input/w3c/semantics/forms/the-input-element/email.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=10</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-22-0B-email-multiple-not-allow-insert-CR" name="0B-email-multiple-not-allow-insert-CR" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-input-html5-tests" status="designed" type="compliance" purpose="Objective: Test checks that user agents must not allow users to set any individual value to a string containing CR characters when the multiple attribute is specified on the element - Description: Test checks that user agents must not allow users to set any individual value to a string containing CR characters when the multiple attribute is specified on the element">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test checks that user agents must not allow users to set any individual value to a string containing CR characters when the multiple attribute is specified on the element - Description: Test checks that user agents must not allow users to set any individual value to a string containing CR characters when the multiple attribute is specified on the element]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-input-html5-tests/input/w3c/semantics/forms/the-input-element/email.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=11</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-22-0C-email-change-value-1" name="0C-email-change-value-1" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-input-html5-tests" status="designed" type="compliance" purpose="Objective: Test checks that the user agent must let latest values be a copy of the element values whenever the user changes the element values - Description: Test checks that the user agent must let latest values be a copy of the element values whenever the user changes the element values">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test checks that the user agent must let latest values be a copy of the element values whenever the user changes the element values - Description: Test checks that the user agent must let latest values be a copy of the element values whenever the user changes the element values]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-input-html5-tests/input/w3c/semantics/forms/the-input-element/email.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=12</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-22-0D-email-change-value-2" name="0D-email-change-value-2" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-input-html5-tests" status="designed" type="compliance" purpose="Objective: Test checks that the user agent must strip leading and trailing whitespace from each value in latest values whenever the user changes the element values - Description: Test checks that the user agent must strip leading and trailing whitespace from each value in latest values whenever the user changes the element values">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test checks that the user agent must strip leading and trailing whitespace from each value in latest values whenever the user changes the element values - Description: Test checks that the user agent must strip leading and trailing whitespace from each value in latest values whenever the user changes the element values]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-input-html5-tests/input/w3c/semantics/forms/the-input-element/email.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=13</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-22-0E-email-change-value-3" name="0E-email-change-value-3" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-input-html5-tests" status="designed" type="compliance" purpose="Objective: Test checks that the user agent must let the element value be the result of concatenating all the values in latest values, separating each value from the next by a single commas character, maintaining the list order - Description: Test checks that the user agent must let the element value be the result of concatenating all the values in latest values, separating each value from the next by a single commas character, maintaining the list order">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test checks that the user agent must let the element value be the result of concatenating all the values in latest values, separating each value from the next by a single commas character, maintaining the list order - Description: Test checks that the user agent must let the element value be the result of concatenating all the values in latest values, separating each value from the next by a single commas character, maintaining the list order]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-input-html5-tests/input/w3c/semantics/forms/the-input-element/email.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=14</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-22-0F-email-set-multiple-values-1" name="0F-email-set-multiple-values-1" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-input-html5-tests" status="designed" type="compliance" purpose="Objective: Test checks that the user agent must run the value sanitization algorithm when the multiple attribute is set 1 - Description: Test checks that the user agent must run the value sanitization algorithm when the multiple attribute is set 1">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test checks that the user agent must run the value sanitization algorithm when the multiple attribute is set 1 - Description: Test checks that the user agent must run the value sanitization algorithm when the multiple attribute is set 1]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-input-html5-tests/input/w3c/semantics/forms/the-input-element/email.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=15</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-22-0G-email-set-multiple-values-2" name="0G-email-set-multiple-values-2" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-input-html5-tests" status="designed" type="compliance" purpose="Objective: Test checks that the user agent must run the value sanitization algorithm when the multiple attribute is set 2 - Description: Test checks that the user agent must run the value sanitization algorithm when the multiple attribute is set 2">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test checks that the user agent must run the value sanitization algorithm when the multiple attribute is set 2 - Description: Test checks that the user agent must run the value sanitization algorithm when the multiple attribute is set 2]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-input-html5-tests/input/w3c/semantics/forms/the-input-element/email.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=16</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-22-0H-tel-not allow-insert-LF" name="0H-tel-not allow-insert-LF" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-input-html5-tests" status="designed" type="compliance" purpose="Objective: Test checks that user agents must not allow users to insert LF character into the value - Description: Test checks that user agents must not allow users to insert LF character into the value">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test checks that user agents must not allow users to insert LF character into the value - Description: Test checks that user agents must not allow users to insert LF character into the value]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-input-html5-tests/input/w3c/semantics/forms/the-input-element/telephone.html?total_num=13&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-22-0I-tel-not allow-insert-CR" name="0I-tel-not allow-insert-CR" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-input-html5-tests" status="designed" type="compliance" purpose="Objective: Test checks that user agents must not allow users to insert CR character into the value - Description: Test checks that user agents must not allow users to insert CR character into the value">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test checks that user agents must not allow users to insert CR character into the value - Description: Test checks that user agents must not allow users to insert CR character into the value]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-input-html5-tests/input/w3c/semantics/forms/the-input-element/telephone.html?total_num=13&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-22-0J-tel-value-1" name="0J-tel-value-1" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-input-html5-tests" status="designed" type="compliance" purpose="Objective: Test checks that the value attribute must have a value that contains no LF characters if specified - Description: Test checks that the value attribute must have a value that contains no LF characters if specified">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test checks that the value attribute must have a value that contains no LF characters if specified - Description: Test checks that the value attribute must have a value that contains no LF characters if specified]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-input-html5-tests/input/w3c/semantics/forms/the-input-element/telephone.html?total_num=13&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-22-0K-tel-value-2" name="0K-tel-value-2" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-input-html5-tests" status="designed" type="compliance" purpose="Objective: Test checks that the value attribute must have a value that contains no CR characters if specified - Description: Test checks that the value attribute must have a value that contains no CR characters if specified">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test checks that the value attribute must have a value that contains no CR characters if specified - Description: Test checks that the value attribute must have a value that contains no CR characters if specified]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-input-html5-tests/input/w3c/semantics/forms/the-input-element/telephone.html?total_num=13&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-22-0L-tel-value-3" name="0L-tel-value-3" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-input-html5-tests" status="designed" type="compliance" purpose="Objective: Test checks that the value sanitization algorithm is as follows: Strip line breaks from the value - Description: Test checks that the value sanitization algorithm is as follows: Strip line breaks from the value">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test checks that the value sanitization algorithm is as follows: Strip line breaks from the value - Description: Test checks that the value sanitization algorithm is as follows: Strip line breaks from the value]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-input-html5-tests/input/w3c/semantics/forms/the-input-element/telephone.html?total_num=13&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-22-0M-tel-value-4" name="0M-tel-value-4" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-input-html5-tests" status="designed" type="compliance" purpose="Objective: Test checks that element can accept the phone number with plus sign - Description: Test checks that element can accept the phone number with plus sign">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test checks that element can accept the phone number with plus sign - Description: Test checks that element can accept the phone number with plus sign]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-input-html5-tests/input/w3c/semantics/forms/the-input-element/telephone.html?total_num=13&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-22-0N-tel-value-5" name="0N-tel-value-5" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-input-html5-tests" status="designed" type="compliance" purpose="Objective: Test checks that element can accept the phone number with hash mark - Description: Test checks that element can accept the phone number with hash mark">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test checks that element can accept the phone number with hash mark - Description: Test checks that element can accept the phone number with hash mark]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-input-html5-tests/input/w3c/semantics/forms/the-input-element/telephone.html?total_num=13&amp;amp;locator_key=id&amp;amp;value=8</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-22-0O-tel-value-6" name="0O-tel-value-6" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-input-html5-tests" status="designed" type="compliance" purpose="Objective: Test checks that element can accept the phone number with hyphen - Description: Test checks that element can accept the phone number with hyphen">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test checks that element can accept the phone number with hyphen - Description: Test checks that element can accept the phone number with hyphen]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-input-html5-tests/input/w3c/semantics/forms/the-input-element/telephone.html?total_num=13&amp;amp;locator_key=id&amp;amp;value=9</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-22-0P-tel-value-7" name="0P-tel-value-7" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-input-html5-tests" status="designed" type="compliance" purpose="Objective: Test checks that element can accept the phone number with dots - Description: Test checks that element can accept the phone number with dots">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test checks that element can accept the phone number with dots - Description: Test checks that element can accept the phone number with dots]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-input-html5-tests/input/w3c/semantics/forms/the-input-element/telephone.html?total_num=13&amp;amp;locator_key=id&amp;amp;value=10</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-22-0Q-tel-value-8" name="0Q-tel-value-8" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-input-html5-tests" status="designed" type="compliance" purpose="Objective: Test checks that element can accept the phone number with whitespace - Description: Test checks that element can accept the phone number with whitespace">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test checks that element can accept the phone number with whitespace - Description: Test checks that element can accept the phone number with whitespace]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-input-html5-tests/input/w3c/semantics/forms/the-input-element/telephone.html?total_num=13&amp;amp;locator_key=id&amp;amp;value=11</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-22-0R-tel-value-9" name="0R-tel-value-9" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-input-html5-tests" status="designed" type="compliance" purpose="Objective: Test checks that element can accept the phone number with leading and following whitespaces - Description: Test checks that element can accept the phone number with leading and following whitespaces">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test checks that element can accept the phone number with leading and following whitespaces - Description: Test checks that element can accept the phone number with leading and following whitespaces]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-input-html5-tests/input/w3c/semantics/forms/the-input-element/telephone.html?total_num=13&amp;amp;locator_key=id&amp;amp;value=12</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-22-0S-tel-value-10" name="0S-tel-value-10" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-input-html5-tests" status="designed" type="compliance" purpose="Objective: Test checks that element can accept the phone number with parentheses - Description: Test checks that element can accept the phone number with parentheses">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test checks that element can accept the phone number with parentheses - Description: Test checks that element can accept the phone number with parentheses]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-input-html5-tests/input/w3c/semantics/forms/the-input-element/telephone.html?total_num=13&amp;amp;locator_key=id&amp;amp;value=13</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-22-0T-url-support" name="0T-url-support" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-input-html5-tests" status="designed" type="compliance" purpose="Objective: Test checks that url type supported on input element - Description: Test checks that url type supported on input element">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test checks that url type supported on input element - Description: Test checks that url type supported on input element]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-input-html5-tests/input/w3c/semantics/forms/the-input-element/url.html?total_num=4&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-22-0U-url-not-allow-insert-LF-CR" name="0U-url-not-allow-insert-LF-CR" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-input-html5-tests" status="designed" type="compliance" purpose="Objective: Test checks that the value must not allow users to insert LF or CR characters into the value - Description: Test checks that the value must not allow users to insert LF or CR characters into the value">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test checks that the value must not allow users to insert LF or CR characters into the value - Description: Test checks that the value must not allow users to insert LF or CR characters into the value]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-input-html5-tests/input/w3c/semantics/forms/the-input-element/url.html?total_num=4&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-22-0V-url-value-1" name="0V-url-value-1" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-input-html5-tests" status="designed" type="compliance" purpose="Objective: Test checks that the value sanitization algorithm is as follows: Strip line breaks from the value - Description: Test checks that the value sanitization algorithm is as follows: Strip line breaks from the value">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test checks that the value sanitization algorithm is as follows: Strip line breaks from the value - Description: Test checks that the value sanitization algorithm is as follows: Strip line breaks from the value]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-input-html5-tests/input/w3c/semantics/forms/the-input-element/url.html?total_num=4&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-22-0W-url-value-2" name="0W-url-value-2" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-input-html5-tests" status="designed" type="compliance" purpose="Objective: Test checks that the value sanitization algorithm is as follows: Strip leading and trailing whitespace from the value - Description: Test checks that the value sanitization algorithm is as follows: Strip leading and trailing whitespace from the value">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test checks that the value sanitization algorithm is as follows: Strip leading and trailing whitespace from the value - Description: Test checks that the value sanitization algorithm is as follows: Strip leading and trailing whitespace from the value]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-input-html5-tests/input/w3c/semantics/forms/the-input-element/url.html?total_num=4&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+        </set>
+    </suite>
+</test_definition>

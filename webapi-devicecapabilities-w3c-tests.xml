@@ -1,0 +1,619 @@
+<?xml version="1.0"?>
+<test_definition>
+    <suite launcher="xwalk" name="00-common/E0-crosswalk">
+        <set name="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests">
+            <testcase id="00-E0-00-1X-01-Navigator_system" name="01-Navigator_system" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the Navigator system attribute must not be null - Description: Check if the Navigator system attribute must not be null">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the Navigator system attribute must not be null - Description: Check if the Navigator system attribute must not be null]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/Navigator_system.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-02-DeviceCapabilities_getAVCodecs" name="02-DeviceCapabilities_getAVCodecs" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if getAVCodecs method of DeviceCapabilities can work properly - Description: Check if getAVCodecs method of DeviceCapabilities can work properly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if getAVCodecs method of DeviceCapabilities can work properly - Description: Check if getAVCodecs method of DeviceCapabilities can work properly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/DeviceCapabilities_getAVCodecs.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-03-DeviceCapabilities_getCPUInfo" name="03-DeviceCapabilities_getCPUInfo" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if getCPUInfo method of DeviceCapabilities can work properly - Description: Check if getCPUInfo method of DeviceCapabilities can work properly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if getCPUInfo method of DeviceCapabilities can work properly - Description: Check if getCPUInfo method of DeviceCapabilities can work properly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/DeviceCapabilities_getCPUInfo.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-04-DeviceCapabilities_getDisplayInfo" name="04-DeviceCapabilities_getDisplayInfo" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if getDisplayInfo method of DeviceCapabilities can work properly - Description: Check if getDisplayInfo method of DeviceCapabilities can work properly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if getDisplayInfo method of DeviceCapabilities can work properly - Description: Check if getDisplayInfo method of DeviceCapabilities can work properly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/DeviceCapabilities_getDisplayInfo.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-05-DeviceCapabilities_getMemoryInfo" name="05-DeviceCapabilities_getMemoryInfo" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if getMemoryInfo method of DeviceCapabilities can work properly - Description: Check if getMemoryInfo method of DeviceCapabilities can work properly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if getMemoryInfo method of DeviceCapabilities can work properly - Description: Check if getMemoryInfo method of DeviceCapabilities can work properly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/DeviceCapabilities_getMemoryInfo.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-06-DeviceCapabilities_getStorageInfo" name="06-DeviceCapabilities_getStorageInfo" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if getStorageInfo method of DeviceCapabilities can work properly - Description: Check if getStorageInfo method of DeviceCapabilities can work properly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if getStorageInfo method of DeviceCapabilities can work properly - Description: Check if getStorageInfo method of DeviceCapabilities can work properly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/DeviceCapabilities_getStorageInfo.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-07-SystemCPU_numOfProcessors" name="07-SystemCPU_numOfProcessors" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the impelmentation of SystemCPU numOfProcessors attribute is valid - Description: Check if the impelmentation of SystemCPU numOfProcessors attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the impelmentation of SystemCPU numOfProcessors attribute is valid - Description: Check if the impelmentation of SystemCPU numOfProcessors attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/SystemCPU_numOfProcessors.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-08-SystemCPU_archName" name="08-SystemCPU_archName" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the impelmentation of SystemCPU archName attribute is valid - Description: Check if the impelmentation of SystemCPU archName attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the impelmentation of SystemCPU archName attribute is valid - Description: Check if the impelmentation of SystemCPU archName attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/SystemCPU_archName.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-09-SystemCPU_load" name="09-SystemCPU_load" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the impelmentation of SystemCPU load attribute is valid - Description: Check if the impelmentation of SystemCPU load attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the impelmentation of SystemCPU load attribute is valid - Description: Check if the impelmentation of SystemCPU load attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/SystemCPU_load.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-0A-SystemCPU_load_range" name="0A-SystemCPU_load_range" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the cpu load is between 0 and 1 - Description: Check if the cpu load is between 0 and 1">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the cpu load is between 0 and 1 - Description: Check if the cpu load is between 0 and 1]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/SystemCPU_load_range.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-0B-SystemMemory_capacity" name="0B-SystemMemory_capacity" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of  SystemMemory capacity attribute is valid - Description: Check if the implementation of  SystemMemory capacity attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of  SystemMemory capacity attribute is valid - Description: Check if the implementation of  SystemMemory capacity attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/SystemMemory_capacity.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-0C-SystemMemory_availCapacity" name="0C-SystemMemory_availCapacity" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the impelmentation of SystemMemory availCapacity attribute is valid - Description: Check if the impelmentation of SystemMemory availCapacity attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the impelmentation of SystemMemory availCapacity attribute is valid - Description: Check if the impelmentation of SystemMemory availCapacity attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/SystemMemory_availCapacity.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-0D-SystemMemory_capacity_availCapacity" name="0D-SystemMemory_capacity_availCapacity" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if availCapacity must not be greater than capacity - Description: Check if availCapacity must not be greater than capacity">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if availCapacity must not be greater than capacity - Description: Check if availCapacity must not be greater than capacity]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/SystemMemory_capacity_availCapacity.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-0E-SystemStorage_storages" name="0E-SystemStorage_storages" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the SystemStorage storages attribute must not be null when getStorageInfo method is invoked - Description: Check if the SystemStorage storages attribute must not be null when getStorageInfo method is invoked">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the SystemStorage storages attribute must not be null when getStorageInfo method is invoked - Description: Check if the SystemStorage storages attribute must not be null when getStorageInfo method is invoked]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/SystemStorage_storages.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-0F-StorageUnit_id" name="0F-StorageUnit_id" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of StorageUnit id attribute is valid - Description: Check if the implementation of StorageUnit id attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of StorageUnit id attribute is valid - Description: Check if the implementation of StorageUnit id attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/StorageUnit_id.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-0G-StorageUnit_name" name="0G-StorageUnit_name" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of StorageUnit name attribute is valid - Description: Check if the implementation of StorageUnit name attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of StorageUnit name attribute is valid - Description: Check if the implementation of StorageUnit name attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/StorageUnit_name.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-0H-StorageUnit_type" name="0H-StorageUnit_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of StorageUnit type attribute is valid - Description: Check if the implementation of StorageUnit type attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of StorageUnit type attribute is valid - Description: Check if the implementation of StorageUnit type attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/StorageUnit_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-0I-StorageUnit_capacity" name="0I-StorageUnit_capacity" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of StorageUnit capacity attribute is valid - Description: Check if the implementation of StorageUnit capacity attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of StorageUnit capacity attribute is valid - Description: Check if the implementation of StorageUnit capacity attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/StorageUnit_capacity.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-0J-SystemDisplay_displays" name="0J-SystemDisplay_displays" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the SystemDisplay displays attribute must not be null when getDisplayInfo method is invoked - Description: Check if the SystemDisplay displays attribute must not be null when getDisplayInfo method is invoked">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the SystemDisplay displays attribute must not be null when getDisplayInfo method is invoked - Description: Check if the SystemDisplay displays attribute must not be null when getDisplayInfo method is invoked]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/SystemDisplay_displays.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-0K-DisplayUnit_id" name="0K-DisplayUnit_id" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of DisplayUnit id attribute is valid - Description: Check if the implementation of DisplayUnit id attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of DisplayUnit id attribute is valid - Description: Check if the implementation of DisplayUnit id attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/DisplayUnit_id.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-0L-DisplayUnit_name" name="0L-DisplayUnit_name" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of  DisplayUnit name attribute is valid - Description: Check if the implementation of  DisplayUnit name attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of  DisplayUnit name attribute is valid - Description: Check if the implementation of  DisplayUnit name attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/DisplayUnit_name.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-0M-DisplayUnit_primary" name="0M-DisplayUnit_primary" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of  DisplayUnit primary attribute is valid - Description: Check if the implementation of  DisplayUnit primary attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of  DisplayUnit primary attribute is valid - Description: Check if the implementation of  DisplayUnit primary attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/DisplayUnit_primary.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-0N-DisplayUnit_external" name="0N-DisplayUnit_external" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of  DisplayUnit external attribute is valid - Description: Check if the implementation of  DisplayUnit external attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of  DisplayUnit external attribute is valid - Description: Check if the implementation of  DisplayUnit external attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/DisplayUnit_external.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-0O-DisplayUnit_deviceXDPI" name="0O-DisplayUnit_deviceXDPI" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of  DisplayUnit deviceXDPI attribute is valid - Description: Check if the implementation of  DisplayUnit deviceXDPI attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of  DisplayUnit deviceXDPI attribute is valid - Description: Check if the implementation of  DisplayUnit deviceXDPI attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/DisplayUnit_deviceXDPI.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-0P-DisplayUnit_deviceYDPI" name="0P-DisplayUnit_deviceYDPI" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of  DisplayUnit deviceYDPI attribute is valid - Description: Check if the implementation of  DisplayUnit deviceYDPI attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of  DisplayUnit deviceYDPI attribute is valid - Description: Check if the implementation of  DisplayUnit deviceYDPI attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/DisplayUnit_deviceYDPI.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-0Q-DisplayUnit_availWidth" name="0Q-DisplayUnit_availWidth" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of  DisplayUnit availWidth attribute is valid - Description: Check if the implementation of  DisplayUnit availWidth attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of  DisplayUnit availWidth attribute is valid - Description: Check if the implementation of  DisplayUnit availWidth attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/DisplayUnit_availWidth.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-0R-DisplayUnit_availHeight" name="0R-DisplayUnit_availHeight" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of  DisplayUnit availHeight attribute is valid - Description: Check if the implementation of  DisplayUnit availHeight attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of  DisplayUnit availHeight attribute is valid - Description: Check if the implementation of  DisplayUnit availHeight attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/DisplayUnit_availHeight.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-0S-DisplayUnit_width" name="0S-DisplayUnit_width" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of  DisplayUnit width attribute is valid - Description: Check if the implementation of  DisplayUnit width attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of  DisplayUnit width attribute is valid - Description: Check if the implementation of  DisplayUnit width attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/DisplayUnit_width.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-0T-DisplayUnit_height" name="0T-DisplayUnit_height" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of  DisplayUnit height attribute is valid - Description: Check if the implementation of  DisplayUnit height attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of  DisplayUnit height attribute is valid - Description: Check if the implementation of  DisplayUnit height attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/DisplayUnit_height.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-0U-DisplayUnit_colorDepth" name="0U-DisplayUnit_colorDepth" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of  DisplayUnit colorDepth attribute is valid - Description: Check if the implementation of  DisplayUnit colorDepth attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of  DisplayUnit colorDepth attribute is valid - Description: Check if the implementation of  DisplayUnit colorDepth attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/DisplayUnit_colorDepth.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-0V-DisplayUnit_pixelDepth" name="0V-DisplayUnit_pixelDepth" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of  DisplayUnit pixelDepth attribute is valid - Description: Check if the implementation of  DisplayUnit pixelDepth attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of  DisplayUnit pixelDepth attribute is valid - Description: Check if the implementation of  DisplayUnit pixelDepth attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/DisplayUnit_pixelDepth.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-0W-DisplayUnit_availHeight_height" name="0W-DisplayUnit_availHeight_height" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the DisplayUnit availHeight attribute must not be greater than height - Description: Check if the DisplayUnit availHeight attribute must not be greater than height">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the DisplayUnit availHeight attribute must not be greater than height - Description: Check if the DisplayUnit availHeight attribute must not be greater than height]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/DisplayUnit_availHeight_height.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-0X-DisplayUnit_availWidth_width" name="0X-DisplayUnit_availWidth_width" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the DisplayUnit availWidth attribute must not be greater than width - Description: Check if the DisplayUnit availWidth attribute must not be greater than width">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the DisplayUnit availWidth attribute must not be greater than width - Description: Check if the DisplayUnit availWidth attribute must not be greater than width]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/DisplayUnit_availWidth_width.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-0Y-SystemAVCodecs_audioCodecs" name="0Y-SystemAVCodecs_audioCodecs" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the SystemAVCodecs audioCodecs attribute must not be null when getAVCodecs method is invoked - Description: Check if the SystemAVCodecs audioCodecs attribute must not be null when getAVCodecs method is invoked">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the SystemAVCodecs audioCodecs attribute must not be null when getAVCodecs method is invoked - Description: Check if the SystemAVCodecs audioCodecs attribute must not be null when getAVCodecs method is invoked]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/SystemAVCodecs_audioCodecs.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-0Z-SystemAVCodecs_videoCodecs" name="0Z-SystemAVCodecs_videoCodecs" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the SystemAVCodecs videoCodecs attribute must not be null when getAVCodecs method is invoked - Description: Check if the SystemAVCodecs videoCodecs attribute must not be null when getAVCodecs method is invoked">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the SystemAVCodecs videoCodecs attribute must not be null when getAVCodecs method is invoked - Description: Check if the SystemAVCodecs videoCodecs attribute must not be null when getAVCodecs method is invoked]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/SystemAVCodecs_videoCodecs.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-10-AudioCodec_format" name="10-AudioCodec_format" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of AudioCodec format attribute is valid - Description: Check if the implementation of AudioCodec format attribute is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of AudioCodec format attribute is valid - Description: Check if the implementation of AudioCodec format attribute is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/AudioCodec_format.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-11-VideoCodec_format" name="11-VideoCodec_format" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of VideoCodec format attribute is vaild - Description: Check if the implementation of VideoCodec format attribute is vaild">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of VideoCodec format attribute is vaild - Description: Check if the implementation of VideoCodec format attribute is vaild]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/VideoCodec_format.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-12-VideoCodec_hwAccel" name="12-VideoCodec_hwAccel" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of VideoCodec hwAccel attribute is vaild - Description: Check if the implementation of VideoCodec hwAccel attribute is vaild">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of VideoCodec hwAccel attribute is vaild - Description: Check if the implementation of VideoCodec hwAccel attribute is vaild]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/VideoCodec_hwAccel.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-13-VideoCodec_encode" name="13-VideoCodec_encode" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the implementation of VideoCodec encode attribute is vaild - Description: Check if the implementation of VideoCodec encode attribute is vaild">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the implementation of VideoCodec encode attribute is vaild - Description: Check if the implementation of VideoCodec encode attribute is vaild]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/VideoCodec_encode.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-14-Navigator_system_attribute" name="14-Navigator_system_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute Navigator.system exists and typeof object - Description: Check if the readonly attribute Navigator.system exists and typeof object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute Navigator.system exists and typeof object - Description: Check if the readonly attribute Navigator.system exists and typeof object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/Navigator_system_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-15-DeviceCapabilities_getCPUInfo_method" name="15-DeviceCapabilities_getCPUInfo_method" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the DeviceCapabilities.getCPUInfo exists and typeof function - Description: Check if the DeviceCapabilities.getCPUInfo exists and typeof function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the DeviceCapabilities.getCPUInfo exists and typeof function - Description: Check if the DeviceCapabilities.getCPUInfo exists and typeof function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/DeviceCapabilities_methods.html?total_num=5&amp;locator_key=id&amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-16-DeviceCapabilities_getMemoryInfo_method" name="16-DeviceCapabilities_getMemoryInfo_method" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the DeviceCapabilities.getMemoryInfo exists and typeof function - Description: Check if the DeviceCapabilities.getMemoryInfo exists and typeof function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the DeviceCapabilities.getMemoryInfo exists and typeof function - Description: Check if the DeviceCapabilities.getMemoryInfo exists and typeof function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/DeviceCapabilities_methods.html?total_num=5&amp;locator_key=id&amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-17-DeviceCapabilities_getStorageInfo_method" name="17-DeviceCapabilities_getStorageInfo_method" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the DeviceCapabilities.getStorageInfo exists and typeof function - Description: Check if the DeviceCapabilities.getStorageInfo exists and typeof function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the DeviceCapabilities.getStorageInfo exists and typeof function - Description: Check if the DeviceCapabilities.getStorageInfo exists and typeof function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/DeviceCapabilities_methods.html?total_num=5&amp;locator_key=id&amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-18-DeviceCapabilities_getDisplayInfo_method" name="18-DeviceCapabilities_getDisplayInfo_method" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the DeviceCapabilities.getDisplayInfo exists and typeof function - Description: Check if the DeviceCapabilities.getDisplayInfo exists and typeof function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the DeviceCapabilities.getDisplayInfo exists and typeof function - Description: Check if the DeviceCapabilities.getDisplayInfo exists and typeof function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/DeviceCapabilities_methods.html?total_num=5&amp;locator_key=id&amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-19-DeviceCapabilities_getAVCodecs_method" name="19-DeviceCapabilities_getAVCodecs_method" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the DeviceCapabilities.getAVCodecs exists and typeof function - Description: Check if the DeviceCapabilities.getAVCodecs exists and typeof function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the DeviceCapabilities.getAVCodecs exists and typeof function - Description: Check if the DeviceCapabilities.getAVCodecs exists and typeof function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/DeviceCapabilities_methods.html?total_num=5&amp;locator_key=id&amp;value=5</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-1A-SystemCPU_archName_attribute" name="1A-SystemCPU_archName_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute SystemCPU.archName exists and typeof string - Description: Check if the readonly attribute SystemCPU.archName exists and typeof string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute SystemCPU.archName exists and typeof string - Description: Check if the readonly attribute SystemCPU.archName exists and typeof string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/SystemCPU_archName_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-1B-SystemCPU_load_attribute" name="1B-SystemCPU_load_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute SystemCPU.load exists and typeof number - Description: Check if the readonly attribute SystemCPU.load exists and typeof number">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute SystemCPU.load exists and typeof number - Description: Check if the readonly attribute SystemCPU.load exists and typeof number]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/SystemCPU_load_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-1C-SystemCPU_numOfProcessors_attribute" name="1C-SystemCPU_numOfProcessors_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute SystemCPU.numOfProcessors exists and typeof number - Description: Check if the readonly attribute SystemCPU.numOfProcessors exists and typeof number">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute SystemCPU.numOfProcessors exists and typeof number - Description: Check if the readonly attribute SystemCPU.numOfProcessors exists and typeof number]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/SystemCPU_numOfProcessors_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-1D-SystemMemory_availCapacity_attribute" name="1D-SystemMemory_availCapacity_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute SystemMemory.availCapacity exists and typeof number - Description: Check if the readonly attribute SystemMemory.availCapacity exists and typeof number">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute SystemMemory.availCapacity exists and typeof number - Description: Check if the readonly attribute SystemMemory.availCapacity exists and typeof number]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/SystemMemory_availCapacity_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-1E-SystemMemory_capacity_attribute" name="1E-SystemMemory_capacity_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute SystemMemory.capacity exists and typeof number - Description: Check if the readonly attribute SystemMemory.capacity exists and typeof number">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute SystemMemory.capacity exists and typeof number - Description: Check if the readonly attribute SystemMemory.capacity exists and typeof number]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/SystemMemory_capacity_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-1F-SystemStorage_storages_attribute" name="1F-SystemStorage_storages_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute SystemStorage.storages exists and typeof object - Description: Check if the readonly attribute SystemStorage.storages exists and typeof object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute SystemStorage.storages exists and typeof object - Description: Check if the readonly attribute SystemStorage.storages exists and typeof object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/SystemStorage_storages_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-1G-StorageUnit_capacity_attribute" name="1G-StorageUnit_capacity_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute StorageUnit.capacity exists and typeof number - Description: Check if the readonly attribute StorageUnit.capacity exists and typeof number">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute StorageUnit.capacity exists and typeof number - Description: Check if the readonly attribute StorageUnit.capacity exists and typeof number]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/StorageUnit_capacity_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-1H-StorageUnit_id_attribute" name="1H-StorageUnit_id_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute StorageUnit.id exists and typeof string - Description: Check if the readonly attribute StorageUnit.id exists and typeof string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute StorageUnit.id exists and typeof string - Description: Check if the readonly attribute StorageUnit.id exists and typeof string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/StorageUnit_id_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-1I-StorageUnit_name_attribute" name="1I-StorageUnit_name_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute StorageUnit.name exists and typeof string - Description: Check if the readonly attribute StorageUnit.name exists and typeof string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute StorageUnit.name exists and typeof string - Description: Check if the readonly attribute StorageUnit.name exists and typeof string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/StorageUnit_name_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-1J-StorageUnit_type_attribute" name="1J-StorageUnit_type_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute StorageUnit.type exists and typeof string - Description: Check if the readonly attribute StorageUnit.type exists and typeof string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute StorageUnit.type exists and typeof string - Description: Check if the readonly attribute StorageUnit.type exists and typeof string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/StorageUnit_type_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-1K-SystemDisplay_displays_attribute" name="1K-SystemDisplay_displays_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute SystemDisplay.displays exists and typeof object - Description: Check if the readonly attribute SystemDisplay.displays exists and typeof object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute SystemDisplay.displays exists and typeof object - Description: Check if the readonly attribute SystemDisplay.displays exists and typeof object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/SystemDisplay_displays_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-1L-DisplayUnit_deviceXDPI_attribute" name="1L-DisplayUnit_deviceXDPI_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute DisplayUnit.deviceXDPI exists and typeof number - Description: Check if the readonly attribute DisplayUnit.deviceXDPI exists and typeof number">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute DisplayUnit.deviceXDPI exists and typeof number - Description: Check if the readonly attribute DisplayUnit.deviceXDPI exists and typeof number]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/DisplayUnit_deviceXDPI_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-1M-DisplayUnit_deviceYDPI_attribute" name="1M-DisplayUnit_deviceYDPI_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute DisplayUnit.deviceYDPI exists and typeof number - Description: Check if the readonly attribute DisplayUnit.deviceYDPI exists and typeof number">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute DisplayUnit.deviceYDPI exists and typeof number - Description: Check if the readonly attribute DisplayUnit.deviceYDPI exists and typeof number]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/DisplayUnit_deviceYDPI_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-1N-DisplayUnit_external_attribute" name="1N-DisplayUnit_external_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute DisplayUnit.external exists and typeof boolean - Description: Check if the readonly attribute DisplayUnit.external exists and typeof boolean">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute DisplayUnit.external exists and typeof boolean - Description: Check if the readonly attribute DisplayUnit.external exists and typeof boolean]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/DisplayUnit_external_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-1O-DisplayUnit_id_attribute" name="1O-DisplayUnit_id_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute DisplayUnit.id exists and typeof string - Description: Check if the readonly attribute DisplayUnit.id exists and typeof string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute DisplayUnit.id exists and typeof string - Description: Check if the readonly attribute DisplayUnit.id exists and typeof string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/DisplayUnit_id_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-1P-DisplayUnit_name_attribute" name="1P-DisplayUnit_name_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute DisplayUnit.name exists and typeof string - Description: Check if the readonly attribute DisplayUnit.name exists and typeof string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute DisplayUnit.name exists and typeof string - Description: Check if the readonly attribute DisplayUnit.name exists and typeof string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/DisplayUnit_name_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-1Q-DisplayUnit_primary_attribute" name="1Q-DisplayUnit_primary_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute DisplayUnit.primary exists and typeof boolean - Description: Check if the readonly attribute DisplayUnit.primary exists and typeof boolean">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute DisplayUnit.primary exists and typeof boolean - Description: Check if the readonly attribute DisplayUnit.primary exists and typeof boolean]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/DisplayUnit_primary_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-1R-SystemAVCodecs_audioCodecs_attribute" name="1R-SystemAVCodecs_audioCodecs_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute SystemAVCodecs.audioCodecs exists and typeof object - Description: Check if the readonly attribute SystemAVCodecs.audioCodecs exists and typeof object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute SystemAVCodecs.audioCodecs exists and typeof object - Description: Check if the readonly attribute SystemAVCodecs.audioCodecs exists and typeof object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/SystemAVCodecs_audioCodecs_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-1S-SystemAVCodecs_videoCodecs_attribute" name="1S-SystemAVCodecs_videoCodecs_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute SystemAVCodecs.videoCodecs exists and typeof object - Description: Check if the readonly attribute SystemAVCodecs.videoCodecs exists and typeof object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute SystemAVCodecs.videoCodecs exists and typeof object - Description: Check if the readonly attribute SystemAVCodecs.videoCodecs exists and typeof object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/SystemAVCodecs_videoCodecs_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-1T-AudioCodec_format_attribute" name="1T-AudioCodec_format_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute AudioCodec.format exists and typeof string - Description: Check if the readonly attribute AudioCodec.format exists and typeof string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute AudioCodec.format exists and typeof string - Description: Check if the readonly attribute AudioCodec.format exists and typeof string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/AudioCodec_format_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-1U-VideoCodec_encode_attribute" name="1U-VideoCodec_encode_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute VideoCodec.encode exists and typeof boolean - Description: Check if the readonly attribute VideoCodec.encode exists and typeof boolean">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute VideoCodec.encode exists and typeof boolean - Description: Check if the readonly attribute VideoCodec.encode exists and typeof boolean]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/VideoCodec_encode_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-1V-VideoCodec_format_attribute" name="1V-VideoCodec_format_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute VideoCodec.format exists and typeof string - Description: Check if the readonly attribute VideoCodec.format exists and typeof string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute VideoCodec.format exists and typeof string - Description: Check if the readonly attribute VideoCodec.format exists and typeof string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/VideoCodec_format_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1X-1W-VideoCodec_hwAccel_attribute" name="1W-VideoCodec_hwAccel_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-devicecapabilities-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute VideoCodec.hwAccel exists and typeof boolean - Description: Check if the readonly attribute VideoCodec.hwAccel exists and typeof boolean">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute VideoCodec.hwAccel exists and typeof boolean - Description: Check if the readonly attribute VideoCodec.hwAccel exists and typeof boolean]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-devicecapabilities-w3c-tests/devicecapabilities/VideoCodec_hwAccel_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+        </set>
+    </suite>
+</test_definition>

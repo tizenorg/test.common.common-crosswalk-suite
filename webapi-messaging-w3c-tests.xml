@@ -1,0 +1,1447 @@
+<?xml version="1.0"?>
+<test_definition>
+    <suite launcher="xwalk" name="00-common/E0-crosswalk">
+        <set name="common/crosswalk/commonapi/webapi-messaging-w3c-tests">
+            <testcase id="00-E0-00-23-01-Conversation_conversationID" name="01-Conversation_conversationID" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the conversationID attribute of conversation is valid - Description: Check if the conversationID attribute of conversation is valid">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the conversationID attribute of conversation is valid - Description: Check if the conversationID attribute of conversation is valid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/Conversation.html?total_num=10&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-02-Conversation_type_participants" name="02-Conversation_type_participants" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the type of Conversation is participants if the conversation is defined as the set of messages exchanged among the same set of parties - Description: Check if the type of Conversation is participants if the conversation is defined as the set of messages exchanged among the same set of parties">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the type of Conversation is participants if the conversation is defined as the set of messages exchanged among the same set of parties - Description: Check if the type of Conversation is participants if the conversation is defined as the set of messages exchanged among the same set of parties]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/Conversation.html?total_num=10&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-03-Conversation_type_subject" name="03-Conversation_type_subject" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the type of Conversation is subject if the conversation is defined as the set of messages with the same subject - Description: Check if the type of Conversation is subject if the conversation is defined as the set of messages with the same subject">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the type of Conversation is subject if the conversation is defined as the set of messages with the same subject - Description: Check if the type of Conversation is subject if the conversation is defined as the set of messages with the same subject]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/Conversation.html?total_num=10&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-04-Conversation_participants" name="04-Conversation_participants" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the participants of Conversation is an array containing the participants in the conversation - Description: Check if the participants of Conversation is an array containing the participants in the conversation">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the participants of Conversation is an array containing the participants in the conversation - Description: Check if the participants of Conversation is an array containing the participants in the conversation]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/Conversation.html?total_num=10&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-05-Conversation_subject" name="05-Conversation_subject" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the subject of Conversation is the subject of the conversation - Description: Check if the subject of Conversation is the subject of the conversation">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the subject of Conversation is the subject of the conversation - Description: Check if the subject of Conversation is the subject of the conversation]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/Conversation.html?total_num=10&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-06-Conversation_messageTypes" name="06-Conversation_messageTypes" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the messageTypes of Conversation is an array contining the different types of messages included in the conversation - Description: Check if the messageTypes of Conversation is an array contining the different types of messages included in the conversation">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the messageTypes of Conversation is an array contining the different types of messages included in the conversation - Description: Check if the messageTypes of Conversation is an array contining the different types of messages included in the conversation]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/Conversation.html?total_num=10&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-07-Conversation_messageCount" name="07-Conversation_messageCount" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the messageCount of Conversation is the number of messages in the conversation - Description: Check if the messageCount of Conversation is the number of messages in the conversation">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the messageCount of Conversation is the number of messages in the conversation - Description: Check if the messageCount of Conversation is the number of messages in the conversation]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/Conversation.html?total_num=10&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-08-Conversation_unreadCount" name="08-Conversation_unreadCount" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the unreadCount of Conversation is the number of unread messages in the conversation - Description: Check if the unreadCount of Conversation is the number of unread messages in the conversation">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the unreadCount of Conversation is the number of unread messages in the conversation - Description: Check if the unreadCount of Conversation is the number of unread messages in the conversation]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/Conversation.html?total_num=10&amp;amp;locator_key=id&amp;amp;value=8</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-09-Conversation_lastMessageID" name="09-Conversation_lastMessageID" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the lastMessageID of Conversation is the identifier of the message in the conversation with the most recent timestamp - Description: Check if the lastMessageID of Conversation is the identifier of the message in the conversation with the most recent timestamp">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the lastMessageID of Conversation is the identifier of the message in the conversation with the most recent timestamp - Description: Check if the lastMessageID of Conversation is the identifier of the message in the conversation with the most recent timestamp]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/Conversation.html?total_num=10&amp;amp;locator_key=id&amp;amp;value=9</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-0A-Conversation_cursor" name="0A-Conversation_cursor" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the cursor of Conversation return the MessageCursor to access the message in this conversation - Description: Check if the cursor of Conversation return the MessageCursor to access the message in this conversation">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the cursor of Conversation return the MessageCursor to access the message in this conversation - Description: Check if the cursor of Conversation return the MessageCursor to access the message in this conversation]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/Conversation.html?total_num=10&amp;amp;locator_key=id&amp;amp;value=10</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-0B-MessagingCursor_element" name="0B-MessagingCursor_element" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the element of MessagingCursor is the currently accessed element - Description: Check if the element of MessagingCursor is the currently accessed element">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the element of MessagingCursor is the currently accessed element - Description: Check if the element of MessagingCursor is the currently accessed element]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MessagingCursor.html?total_num=3&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-0C-MessagingCursor_next" name="0C-MessagingCursor_next" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the next method of MessagingCursor can access to the next element - Description: Check if the next method of MessagingCursor can access to the next element">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the next method of MessagingCursor can access to the next element - Description: Check if the next method of MessagingCursor can access to the next element]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MessagingCursor.html?total_num=3&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-0D-MessagingCursor_previous" name="0D-MessagingCursor_previous" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the previous method of MessagingCursor can access to the previous element - Description: Check if the previous method of MessagingCursor can access to the previous element">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the previous method of MessagingCursor can access to the previous element - Description: Check if the previous method of MessagingCursor can access to the previous element]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MessagingCursor.html?total_num=3&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-0E-MessagingManager_findConversations" name="0E-MessagingManager_findConversations" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the findConversations method of message can return a conversation object - Description: Check if the findConversations method of message can return a conversation object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the findConversations method of message can return a conversation object - Description: Check if the findConversations method of message can return a conversation object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MessagingManager_method_conversation.html?total_num=4&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-0F-MessagingManager_markConversationRead_true" name="0F-MessagingManager_markConversationRead_true" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the markConversationRead method of message can change conversation status - Description: Check if the markConversationRead method of message can change conversation status">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the markConversationRead method of message can change conversation status - Description: Check if the markConversationRead method of message can change conversation status]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MessagingManager_method_conversation.html?total_num=4&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-0G-MessagingManager_markConversationRead" name="0G-MessagingManager_markConversationRead" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the markConversationRead method of message which has three params can change conversation status successful - Description: Check if the markConversationRead method of message which has three params can change conversation status successful">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the markConversationRead method of message which has three params can change conversation status successful - Description: Check if the markConversationRead method of message which has three params can change conversation status successful]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MessagingManager_method_conversation.html?total_num=4&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-0H-MessagingManager_deleteConversation" name="0H-MessagingManager_deleteConversation" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the deleteConversation method of message can delete the conversation by the conversationID - Description: Check if the deleteConversation method of message can delete the conversation by the conversationID">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the deleteConversation method of message can delete the conversation by the conversationID - Description: Check if the deleteConversation method of message can delete the conversation by the conversationID]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MessagingManager_method_conversation.html?total_num=4&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-0I-MessagingManager_findMessages" name="0I-MessagingManager_findMessages" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the findMessages methos of message can return a MessagingCursor object - Description: Check if the findMessages methos of message can return a MessagingCursor object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the findMessages methos of message can return a MessagingCursor object - Description: Check if the findMessages methos of message can return a MessagingCursor object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MessagingManager_method_message.html?total_num=5&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-0J-MessagingManager_getMessage" name="0J-MessagingManager_getMessage" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the getMessage method of message can return a message object - Description: Check if the getMessage method of message can return a message object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the getMessage method of message can return a message object - Description: Check if the getMessage method of message can return a message object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MessagingManager_method_message.html?total_num=5&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-0K-MessagingManager_markMessageRead_false" name="0K-MessagingManager_markMessageRead_false" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the markMessageRead of message can change message status - Description: Check if the markMessageRead of message can change message status">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the markMessageRead of message can change message status - Description: Check if the markMessageRead of message can change message status]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MessagingManager_method_message.html?total_num=5&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-0L-MessagingManager_markMessageRead_true" name="0L-MessagingManager_markMessageRead_true" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the markMessageRead of message which has three params can change message status - Description: Check if the markMessageRead of message which has three params can change message status">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the markMessageRead of message which has three params can change message status - Description: Check if the markMessageRead of message which has three params can change message status]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MessagingManager_method_message.html?total_num=5&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-0M-MessagingManager_deleteMessage" name="0M-MessagingManager_deleteMessage" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the deleteMessage of message can delete the message by messageID - Description: Check if the deleteMessage of message can delete the message by messageID">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the deleteMessage of message can delete the message by messageID - Description: Check if the deleteMessage of message can delete the message by messageID]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MessagingManager_method_message.html?total_num=5&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-0N-MmsManager_type" name="0N-MmsManager_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the type attribute is the type of the messaging service manager - Description: Check if the type attribute is the type of the messaging service manager">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the type attribute is the type of the messaging service manager - Description: Check if the type attribute is the type of the messaging service manager]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-0O-MmsManager_serviceIDs" name="0O-MmsManager_serviceIDs" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the serviceIDs attribute is the identifier of the different services for this type of messaging service - Description: Check if the serviceIDs attribute is the identifier of the different services for this type of messaging service">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the serviceIDs attribute is the identifier of the different services for this type of messaging service - Description: Check if the serviceIDs attribute is the identifier of the different services for this type of messaging service]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-0P-MmsManager_getFetchMode" name="0P-MmsManager_getFetchMode" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the getFetchMode method requests to retrieve the fetch mode associated to a specific service - Description: Check if the getFetchMode method requests to retrieve the fetch mode associated to a specific service">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the getFetchMode method requests to retrieve the fetch mode associated to a specific service - Description: Check if the getFetchMode method requests to retrieve the fetch mode associated to a specific service]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-0Q-MmsManager_setFetchMode" name="0Q-MmsManager_setFetchMode" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the setFetchMode method request to the messaging system to set the MMS message fetch mode for the service - Description: Check if the setFetchMode method request to the messaging system to set the MMS message fetch mode for the service">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the setFetchMode method request to the messaging system to set the MMS message fetch mode for the service - Description: Check if the setFetchMode method request to the messaging system to set the MMS message fetch mode for the service]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-0R-MmsManager_send" name="0R-MmsManager_send" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the send method of mmsManager can send a MMS message successfully - Description: Check if the send method of mmsManager can send a MMS message successfully">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the send method of mmsManager can send a MMS message successfully - Description: Check if the send method of mmsManager can send a MMS message successfully]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-0S-MmsManager_fetch" name="0S-MmsManager_fetch" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the fetch method requests to fetch an MMS message with identifier equal to the indicated in the messageID parameter - Description: Check if the fetch method requests to fetch an MMS message with identifier equal to the indicated in the messageID parameter">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the fetch method requests to fetch an MMS message with identifier equal to the indicated in the messageID parameter - Description: Check if the fetch method requests to fetch an MMS message with identifier equal to the indicated in the messageID parameter]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-0T-MmsManager_clear" name="0T-MmsManager_clear" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the clear method of mmsManager delete all the messages associated to the messaging service - Description: Check if the clear method of mmsManager delete all the messages associated to the messaging service">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the clear method of mmsManager delete all the messages associated to the messaging service - Description: Check if the clear method of mmsManager delete all the messages associated to the messaging service]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-0U-MmsManager_sent_event" name="0U-MmsManager_sent_event" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if set up the sent event successful for mmsManager using the type sent - Description: Check if set up the sent event successful for mmsManager using the type sent">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if set up the sent event successful for mmsManager using the type sent - Description: Check if set up the sent event successful for mmsManager using the type sent]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager_sent.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-0V-MmsManager_deliverysuccess_event" name="0V-MmsManager_deliverysuccess_event" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if set up the deliverysuccess event successful for mmsManager using the type deliverysuccess - Description: Check if set up the deliverysuccess event successful for mmsManager using the type deliverysuccess">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if set up the deliverysuccess event successful for mmsManager using the type deliverysuccess - Description: Check if set up the deliverysuccess event successful for mmsManager using the type deliverysuccess]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager_deliverysuccess.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-0W-MmsManager_deliveryfailure_event" name="0W-MmsManager_deliveryfailure_event" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if set up the deliveryfailure event successful for mmsManager using the type deliveryfailure - Description: Check if set up the deliveryfailure event successful for mmsManager using the type deliveryfailure">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if set up the deliveryfailure event successful for mmsManager using the type deliveryfailure - Description: Check if set up the deliveryfailure event successful for mmsManager using the type deliveryfailure]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager_deliveryerror.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-0X-MmsManager_readsuccess_event" name="0X-MmsManager_readsuccess_event" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if set up the readsuccess event successful for mmsManager using the type readsuccess - Description: Check if set up the readsuccess event successful for mmsManager using the type readsuccess">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if set up the readsuccess event successful for mmsManager using the type readsuccess - Description: Check if set up the readsuccess event successful for mmsManager using the type readsuccess]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager_readsuccess.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-0Y-MmsManager_readerror_event" name="0Y-MmsManager_readerror_event" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if set up the readerror event successful for mmsManager using the type readerror - Description: Check if set up the readerror event successful for mmsManager using the type readerror">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if set up the readerror event successful for mmsManager using the type readerror - Description: Check if set up the readerror event successful for mmsManager using the type readerror]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager_readerror.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-0Z-MmsManager_onsent" name="0Z-MmsManager_onsent" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if onsent event can be fired when a new message is sent using this messaging service manager - Description: Check if onsent event can be fired when a new message is sent using this messaging service manager">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if onsent event can be fired when a new message is sent using this messaging service manager - Description: Check if onsent event can be fired when a new message is sent using this messaging service manager]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager_onsent.html?total_num=1&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-10-MmsManager_ondeliverysuccess" name="10-MmsManager_ondeliverysuccess" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if ondeliverysuccess event can be fired when a new succesful delivery report is received on this messaging service manager - Description: Check if ondeliverysuccess event can be fired when a new succesful delivery report is received on this messaging service manager">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ondeliverysuccess event can be fired when a new succesful delivery report is received on this messaging service manager - Description: Check if ondeliverysuccess event can be fired when a new succesful delivery report is received on this messaging service manager]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager_ondeliverysuccess.html?total_num=1&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-11-MmsManager_ondeliveryfailure" name="11-MmsManager_ondeliveryfailure" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if ondeliveryfailure event can be fired when a new failure delivery report is received on this messaging service manager - Description: Check if ondeliveryfailure event can be fired when a new failure delivery report is received on this messaging service manager">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ondeliveryfailure event can be fired when a new failure delivery report is received on this messaging service manager - Description: Check if ondeliveryfailure event can be fired when a new failure delivery report is received on this messaging service manager]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager_ondeliveryerror.html?total_num=1&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-12-MmsManager_onreadsuccess" name="12-MmsManager_onreadsuccess" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if onreadsuccess event can be fired when a new succesful read report is received on this messaging service manager - Description: Check if onreadsuccess event can be fired when a new succesful read report is received on this messaging service manager">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if onreadsuccess event can be fired when a new succesful read report is received on this messaging service manager - Description: Check if onreadsuccess event can be fired when a new succesful read report is received on this messaging service manager]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager_onreadsuccess.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-13-MmsManager_onreaderror" name="13-MmsManager_onreaderror" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if onreaderror event can be fired when a new failure read report is received on this messaging service manager - Description: Check if onreaderror event can be fired when a new failure read report is received on this messaging service manager">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if onreaderror event can be fired when a new failure read report is received on this messaging service manager - Description: Check if onreaderror event can be fired when a new failure read report is received on this messaging service manager]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager_onreaderror.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-14-MmsMessage_messageID" name="14-MmsMessage_messageID" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the messageID of MmsMessage is the identifier of the message - Description: Check if the messageID of MmsMessage is the identifier of the message">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the messageID of MmsMessage is the identifier of the message - Description: Check if the messageID of MmsMessage is the identifier of the message]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-15-MmsMessage_type" name="15-MmsMessage_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the type of MmsMessage is the type of message - Description: Check if the type of MmsMessage is the type of message">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the type of MmsMessage is the type of message - Description: Check if the type of MmsMessage is the type of message]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-16-MmsMessage_serviceID" name="16-MmsMessage_serviceID" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the serviceID of MmsMessage is the messaging service id used to send / receive this message - Description: Check if the serviceID of MmsMessage is the messaging service id used to send / receive this message">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the serviceID of MmsMessage is the messaging service id used to send / receive this message - Description: Check if the serviceID of MmsMessage is the messaging service id used to send / receive this message]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-17-MmsMessage_from" name="17-MmsMessage_from" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the from of MmsMessage is the sender of the message - Description: Check if the from of MmsMessage is the sender of the message">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the from of MmsMessage is the sender of the message - Description: Check if the from of MmsMessage is the sender of the message]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-18-MmsMessage_timestamp" name="18-MmsMessage_timestamp" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the timestamp of MmsMessage is the time the message reached the Multimedia Message Center - Description: Check if the timestamp of MmsMessage is the time the message reached the Multimedia Message Center">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the timestamp of MmsMessage is the time the message reached the Multimedia Message Center - Description: Check if the timestamp of MmsMessage is the time the message reached the Multimedia Message Center]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-19-MmsMessage_expiry" name="19-MmsMessage_expiry" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the expiry of MmsMessage is the number of seconds the message will be stored in the Multimedia Messaging Service Center and thus available for download - Description: Check if the expiry of MmsMessage is the number of seconds the message will be stored in the Multimedia Messaging Service Center and thus available for download">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the expiry of MmsMessage is the number of seconds the message will be stored in the Multimedia Messaging Service Center and thus available for download - Description: Check if the expiry of MmsMessage is the number of seconds the message will be stored in the Multimedia Messaging Service Center and thus available for download]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-1A-MmsMessage_read_true" name="1A-MmsMessage_read_true" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the read of MmsMessage is type of boolean - Description: Check if the read of MmsMessage is type of boolean">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the read of MmsMessage is type of boolean - Description: Check if the read of MmsMessage is type of boolean]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-1B-MmsMessage_read_false" name="1B-MmsMessage_read_false" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the read of MmsMessage is false if the message has not been marked as read - Description: Check if the read of MmsMessage is false if the message has not been marked as read">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the read of MmsMessage is false if the message has not been marked as read - Description: Check if the read of MmsMessage is false if the message has not been marked as read]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=8</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-1C-MmsMessage_to" name="1C-MmsMessage_to" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the to of MmsMessage is an array containing the recipient(s) included in the To field of the MMS message - Description: Check if the to of MmsMessage is an array containing the recipient(s) included in the To field of the MMS message">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the to of MmsMessage is an array containing the recipient(s) included in the To field of the MMS message - Description: Check if the to of MmsMessage is an array containing the recipient(s) included in the To field of the MMS message]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=9</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-1D-MmsMessage_cc" name="1D-MmsMessage_cc" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the cc of MmsMessage is an array containing the recipient(s) included in the Cc field of the MMS message - Description: Check if the cc of MmsMessage is an array containing the recipient(s) included in the Cc field of the MMS message">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the cc of MmsMessage is an array containing the recipient(s) included in the Cc field of the MMS message - Description: Check if the cc of MmsMessage is an array containing the recipient(s) included in the Cc field of the MMS message]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=10</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-1E-MmsMessage_bcc" name="1E-MmsMessage_bcc" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the bcc of MmsMessage is an array containing the recipient(s) included in the Bcc field of the MMS message - Description: Check if the bcc of MmsMessage is an array containing the recipient(s) included in the Bcc field of the MMS message">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the bcc of MmsMessage is an array containing the recipient(s) included in the Bcc field of the MMS message - Description: Check if the bcc of MmsMessage is an array containing the recipient(s) included in the Bcc field of the MMS message]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=11</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-1F-MmsMessage_subject" name="1F-MmsMessage_subject" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the subject of MmsMessage is the subject of the MMS message - Description: Check if the subject of MmsMessage is the subject of the MMS message">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the subject of MmsMessage is the subject of the MMS message - Description: Check if the subject of MmsMessage is the subject of the MMS message]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=12</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-1G-MmsMessage_smil" name="1G-MmsMessage_smil" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the smil of MmsMessage is the SMIL - Description: Check if the smil of MmsMessage is the SMIL">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the smil of MmsMessage is the SMIL - Description: Check if the smil of MmsMessage is the SMIL]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=13</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-1H-MmsMessage_attachments" name="1H-MmsMessage_attachments" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the attachments of MmsMessage is the set of attachments of the MMS message - Description: Check if the attachments of MmsMessage is the set of attachments of the MMS message">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the attachments of MmsMessage is the set of attachments of the MMS message - Description: Check if the attachments of MmsMessage is the set of attachments of the MMS message]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=14</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-1I-MmsMessage_state" name="1I-MmsMessage_state" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the state of MmsMessage is in the states of MmsState - Description: Check if the state of MmsMessage is in the states of MmsState">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the state of MmsMessage is in the states of MmsState - Description: Check if the state of MmsMessage is in the states of MmsState]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=15</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-1J-MmsMessage_deliveryInfo" name="1J-MmsMessage_deliveryInfo" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the deliveryInfo of MmsMessage is an array with each of the items indicating the delivery status - Description: Check if the deliveryInfo of MmsMessage is an array with each of the items indicating the delivery status">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the deliveryInfo of MmsMessage is an array with each of the items indicating the delivery status - Description: Check if the deliveryInfo of MmsMessage is an array with each of the items indicating the delivery status]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=16</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-1K-SmsManager_type" name="1K-SmsManager_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the type attribute is the type of the messaging service manager - Description: Check if the type attribute is the type of the messaging service manager">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the type attribute is the type of the messaging service manager - Description: Check if the type attribute is the type of the messaging service manager]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsManager.html?total_num=6&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-1L-SmsManager_serviceIDs" name="1L-SmsManager_serviceIDs" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the serviceIDs attribute is the identifier of the different services for this type of messaging service - Description: Check if the serviceIDs attribute is the identifier of the different services for this type of messaging service">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the serviceIDs attribute is the identifier of the different services for this type of messaging service - Description: Check if the serviceIDs attribute is the identifier of the different services for this type of messaging service]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsManager.html?total_num=6&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-1M-SmsManager_sent_event" name="1M-SmsManager_sent_event" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if set up the sent event successful for SmsManager using the type sent - Description: Check if set up the sent event successful for SmsManager using the type sent">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if set up the sent event successful for SmsManager using the type sent - Description: Check if set up the sent event successful for SmsManager using the type sent]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsManager_sent.html?total_num=1&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-1N-SmsManager_deliverysuccess_event" name="1N-SmsManager_deliverysuccess_event" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if set up the deliverysuccess event successful for SmsManager using the type deliverysuccess - Description: Check if set up the deliverysuccess event successful for SmsManager using the type deliverysuccess">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if set up the deliverysuccess event successful for SmsManager using the type deliverysuccess - Description: Check if set up the deliverysuccess event successful for SmsManager using the type deliverysuccess]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsManager_deliverysuccess.html?total_num=1&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-1O-SmsManager_deliveryfailure_event" name="1O-SmsManager_deliveryfailure_event" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if set up the deliveryfailure event successful for SmsManager using the type deliveryfailure - Description: Check if set up the deliveryfailure event successful for SmsManager using the type deliveryfailure">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if set up the deliveryfailure event successful for SmsManager using the type deliveryfailure - Description: Check if set up the deliveryfailure event successful for SmsManager using the type deliveryfailure]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsManager_deliveryerror.html?total_num=1&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-1P-SmsManager_onsent" name="1P-SmsManager_onsent" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if onsent event can be fired when a new message is sent using this messaging service manager - Description: Check if onsent event can be fired when a new message is sent using this messaging service manager">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if onsent event can be fired when a new message is sent using this messaging service manager - Description: Check if onsent event can be fired when a new message is sent using this messaging service manager]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsManager_onsent.html?total_num=1&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-1Q-SmsManager_ondeliverysuccess" name="1Q-SmsManager_ondeliverysuccess" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if ondeliverysuccess event can be fired when a new succesful delivery report is received on this messaging service manager - Description: Check if ondeliverysuccess event can be fired when a new succesful delivery report is received on this messaging service manager">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ondeliverysuccess event can be fired when a new succesful delivery report is received on this messaging service manager - Description: Check if ondeliverysuccess event can be fired when a new succesful delivery report is received on this messaging service manager]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsManager_ondeliverysuccess.html?total_num=1&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-1R-SmsManager_ondeliveryfailure" name="1R-SmsManager_ondeliveryfailure" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if ondeliveryfailure event can be fired when a new failure delivery report is received on this messaging service manager - Description: Check if ondeliveryfailure event can be fired when a new failure delivery report is received on this messaging service manager">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ondeliveryfailure event can be fired when a new failure delivery report is received on this messaging service manager - Description: Check if ondeliveryfailure event can be fired when a new failure delivery report is received on this messaging service manager]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsManager_ondeliveryerror.html?total_num=1&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-1S-SmsManager_SmsSegmentInfo_segments" name="1S-SmsManager_SmsSegmentInfo_segments" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the segments of SmsSegmentInfo is the total number of SMS segments needed to send the input string - Description: Check if the segments of SmsSegmentInfo is the total number of SMS segments needed to send the input string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the segments of SmsSegmentInfo is the total number of SMS segments needed to send the input string - Description: Check if the segments of SmsSegmentInfo is the total number of SMS segments needed to send the input string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsManager.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-1T-SmsManager_SmsSegmentInfo_charsPerSegment" name="1T-SmsManager_SmsSegmentInfo_charsPerSegment" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the charsPerSegment of SmsSegmentInfo is the number of characters available per SMS segment as per the encoding to be used to send the SMS message - Description: Check if the charsPerSegment of SmsSegmentInfo is the number of characters available per SMS segment as per the encoding to be used to send the SMS message">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the charsPerSegment of SmsSegmentInfo is the number of characters available per SMS segment as per the encoding to be used to send the SMS message - Description: Check if the charsPerSegment of SmsSegmentInfo is the number of characters available per SMS segment as per the encoding to be used to send the SMS message]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsManager.html?total_num=6&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-1U-SmsManager_SmsSegmentInfo_charsAvailableInLastSegment" name="1U-SmsManager_SmsSegmentInfo_charsAvailableInLastSegment" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the charsAvailableInLastSegment of SmsSegmentInfo is the maximum number of available characters in the last segment needed to send the input string - Description: Check if the charsAvailableInLastSegment of SmsSegmentInfo is the maximum number of available characters in the last segment needed to send the input string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the charsAvailableInLastSegment of SmsSegmentInfo is the maximum number of available characters in the last segment needed to send the input string - Description: Check if the charsAvailableInLastSegment of SmsSegmentInfo is the maximum number of available characters in the last segment needed to send the input string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsManager.html?total_num=6&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-1V-SmsManager_send" name="1V-SmsManager_send" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the send method of SmsManager can send a message successfully - Description: Check if the send method of SmsManager can send a message successfully">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the send method of SmsManager can send a message successfully - Description: Check if the send method of SmsManager can send a message successfully]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsManager_send.html?total_num=1&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-1W-SmsManager_clear" name="1W-SmsManager_clear" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the clear method of SmsManager delete all the messages associated to the messaging service - Description: Check if the clear method of SmsManager delete all the messages associated to the messaging service">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the clear method of SmsManager delete all the messages associated to the messaging service - Description: Check if the clear method of SmsManager delete all the messages associated to the messaging service]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsManager.html?total_num=6&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-1X-SmsMessage_messageID" name="1X-SmsMessage_messageID" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the messageID of SmsMessage is the identifier of the message - Description: Check if the messageID of SmsMessage is the identifier of the message">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the messageID of SmsMessage is the identifier of the message - Description: Check if the messageID of SmsMessage is the identifier of the message]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsMessage.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-1Y-SmsMessage_type" name="1Y-SmsMessage_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the type of SmsMessage is the type of message - Description: Check if the type of SmsMessage is the type of message">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the type of SmsMessage is the type of message - Description: Check if the type of SmsMessage is the type of message]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsMessage.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-1Z-SmsMessage_serviceID" name="1Z-SmsMessage_serviceID" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the serviceID of SmsMessage is the messaging service id used to send / receive this message - Description: Check if the serviceID of SmsMessage is the messaging service id used to send / receive this message">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the serviceID of SmsMessage is the messaging service id used to send / receive this message - Description: Check if the serviceID of SmsMessage is the messaging service id used to send / receive this message]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsMessage.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-20-SmsMessage_from" name="20-SmsMessage_from" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the from of SmsMessage is the sender of the message - Description: Check if the from of SmsMessage is the sender of the message">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the from of SmsMessage is the sender of the message - Description: Check if the from of SmsMessage is the sender of the message]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsMessage.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-21-SmsMessage_timestamp" name="21-SmsMessage_timestamp" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the timestamp of SmsMessage is the time the message reached the Short Message Center - Description: Check if the timestamp of SmsMessage is the time the message reached the Short Message Center">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the timestamp of SmsMessage is the time the message reached the Short Message Center - Description: Check if the timestamp of SmsMessage is the time the message reached the Short Message Center]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsMessage.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-22-SmsMessage_read_true" name="22-SmsMessage_read_true" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the read of SmsMessage is exit! - Description: Check if the read of SmsMessage is exit!">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the read of SmsMessage is exit! - Description: Check if the read of SmsMessage is exit!]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsMessage.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-23-SmsMessage_read_false" name="23-SmsMessage_read_false" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the read of SmsMessage is type of boolean - Description: Check if the read of SmsMessage is type of boolean">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the read of SmsMessage is type of boolean - Description: Check if the read of SmsMessage is type of boolean]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsMessage.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-24-SmsMessage_to" name="24-SmsMessage_to" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the to of SmsMessage is the recipient of the message - Description: Check if the to of SmsMessage is the recipient of the message">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the to of SmsMessage is the recipient of the message - Description: Check if the to of SmsMessage is the recipient of the message]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsMessage.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=8</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-25-SmsMessage_body" name="25-SmsMessage_body" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the body of SmsMessage is the text of the SMS message - Description: Check if the body of SmsMessage is the text of the SMS message">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the body of SmsMessage is the text of the SMS message - Description: Check if the body of SmsMessage is the text of the SMS message]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsMessage.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=9</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-26-SmsMessage_state" name="26-SmsMessage_state" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the state of SmsMessage is in the states of SmsState - Description: Check if the state of SmsMessage is in the states of SmsState">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the state of SmsMessage is in the states of SmsState - Description: Check if the state of SmsMessage is in the states of SmsState]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsMessage.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=10</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-27-SmsMessage_deliveryStatus" name="27-SmsMessage_deliveryStatus" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the deliveryStatus of SmsMessage is in the states of DeliveryStatus - Description: Check if the deliveryStatus of SmsMessage is in the states of DeliveryStatus">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the deliveryStatus of SmsMessage is in the states of DeliveryStatus - Description: Check if the deliveryStatus of SmsMessage is in the states of DeliveryStatus]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsMessage.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=11</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-28-SmsMessage_deliveryTimestamp_normal" name="28-SmsMessage_deliveryTimestamp_normal" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the deliveryTimestamp of SmsMessage for sent messages the delivery date as reported in the TP-Discharge-Time (TP DT) parameter included in the SMS-STATUS-REPORT Protocol Data Unit - Description: Check if the deliveryTimestamp of SmsMessage for sent messages the delivery date as reported in the TP-Discharge-Time (TP DT) parameter included in the SMS-STATUS-REPORT Protocol Data Unit">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the deliveryTimestamp of SmsMessage for sent messages the delivery date as reported in the TP-Discharge-Time (TP DT) parameter included in the SMS-STATUS-REPORT Protocol Data Unit - Description: Check if the deliveryTimestamp of SmsMessage for sent messages the delivery date as reported in the TP-Discharge-Time (TP DT) parameter included in the SMS-STATUS-REPORT Protocol Data Unit]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsMessage.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=12</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-29-SmsMessage_deliveryTimestamp_null_1" name="29-SmsMessage_deliveryTimestamp_null_1" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the deliveryTimestamp of SmsMessage is exit  - Description: Check if the deliveryTimestamp of SmsMessage is exit ">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the deliveryTimestamp of SmsMessage is exit  - Description: Check if the deliveryTimestamp of SmsMessage is exit ]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsMessage.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=13</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-2A-SmsMessage_deliveryTimestamp_null_2" name="2A-SmsMessage_deliveryTimestamp_null_2" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the deliveryTimestamp of SmsMessage is null if there is no positive knowledge about the delivery of the message - Description: Check if the deliveryTimestamp of SmsMessage is null if there is no positive knowledge about the delivery of the message">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the deliveryTimestamp of SmsMessage is null if there is no positive knowledge about the delivery of the message - Description: Check if the deliveryTimestamp of SmsMessage is null if there is no positive knowledge about the delivery of the message]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsMessage.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=14</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-2B-SmsMessage_messageClass" name="2B-SmsMessage_messageClass" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the messageClass of SmsMessage is in the states of MessageClass - Description: Check if the messageClass of SmsMessage is in the states of MessageClass">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the messageClass of SmsMessage is in the states of MessageClass - Description: Check if the messageClass of SmsMessage is in the states of MessageClass]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsMessage.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=15</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-2C-SmsManager_send_zero" name="2C-SmsManager_send_zero" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the send method of SmsManager which has no param can not work normally - Description: Check if the send method of SmsManager which has no param can not work normally" onload_delay="20">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the send method of SmsManager which has no param can not work normally - Description: Check if the send method of SmsManager which has no param can not work normally]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/Messaging_method_reverse.html?total_num=14&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-2D-SmsManager_send_one" name="2D-SmsManager_send_one" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the send method of SmsManager which has one param can not work normally - Description: Check if the send method of SmsManager which has one param can not work normally" onload_delay="20">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the send method of SmsManager which has one param can not work normally - Description: Check if the send method of SmsManager which has one param can not work normally]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/Messaging_method_reverse.html?total_num=14&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-2E-SmsManager_segmentInfo_zero" name="2E-SmsManager_segmentInfo_zero" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the segmentInfo method of SmsManager which has no params can not work normally - Description: Check if the segmentInfo method of SmsManager which has no params can not work normally" onload_delay="20">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the segmentInfo method of SmsManager which has no params can not work normally - Description: Check if the segmentInfo method of SmsManager which has no params can not work normally]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/Messaging_method_reverse.html?total_num=14&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-2F-MmsManager_send_zero" name="2F-MmsManager_send_zero" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the send method of MmsManager which has no params can not work normally - Description: Check if the send method of MmsManager which has no params can not work normally" onload_delay="20">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the send method of MmsManager which has no params can not work normally - Description: Check if the send method of MmsManager which has no params can not work normally]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/Messaging_method_reverse.html?total_num=14&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-2G-MmsManager_fetch_zero" name="2G-MmsManager_fetch_zero" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the fetch method of MmsManager which has no params can not work normally - Description: Check if the fetch method of MmsManager which has no params can not work normally" onload_delay="20">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the fetch method of MmsManager which has no params can not work normally - Description: Check if the fetch method of MmsManager which has no params can not work normally]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/Messaging_method_reverse.html?total_num=14&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-2H-findConversations_one" name="2H-findConversations_one" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the findConversations method which has only one params can not work normally - Description: Check if the findConversations method which has only one params can not work normally">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the findConversations method which has only one params can not work normally - Description: Check if the findConversations method which has only one params can not work normally]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/Messaging_method_reverse.html?total_num=14&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-2I-markConversationRead_one" name="2I-markConversationRead_one" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: CCheck if the markConversationRead method which has only one params can not work normally - Description: CCheck if the markConversationRead method which has only one params can not work normally">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: CCheck if the markConversationRead method which has only one params can not work normally - Description: CCheck if the markConversationRead method which has only one params can not work normally]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/Messaging_method_reverse.html?total_num=14&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-2J-deleteConversation_zero" name="2J-deleteConversation_zero" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the deleteConversation method which has no params can not work normally - Description: Check if the deleteConversation method which has no params can not work normally">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the deleteConversation method which has no params can not work normally - Description: Check if the deleteConversation method which has no params can not work normally]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/Messaging_method_reverse.html?total_num=14&amp;amp;locator_key=id&amp;amp;value=8</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-2K-findMessages_one" name="2K-findMessages_one" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the findMessages method which has only one params can not work normally - Description: Check if the findMessages method which has only one params can not work normally">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the findMessages method which has only one params can not work normally - Description: Check if the findMessages method which has only one params can not work normally]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/Messaging_method_reverse.html?total_num=14&amp;amp;locator_key=id&amp;amp;value=9</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-2L-markMessageRead_one" name="2L-markMessageRead_one" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the markMessageRead method which has only one params can not work normally. - Description: Check if the markMessageRead method which has only one params can not work normally.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the markMessageRead method which has only one params can not work normally. - Description: Check if the markMessageRead method which has only one params can not work normally.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/Messaging_method_reverse.html?total_num=14&amp;amp;locator_key=id&amp;amp;value=10</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-2M-getMessage_zero" name="2M-getMessage_zero" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the getMessage method which has no params can not work normally - Description: Check if the getMessage method which has no params can not work normally">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the getMessage method which has no params can not work normally - Description: Check if the getMessage method which has no params can not work normally]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/Messaging_method_reverse.html?total_num=14&amp;amp;locator_key=id&amp;amp;value=11</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-2N-deleteMessage_zero" name="2N-deleteMessage_zero" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the deleteMessage method which has no params can not work normally - Description: Check if the deleteMessage method which has no params can not work normally">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the deleteMessage method which has no params can not work normally - Description: Check if the deleteMessage method which has no params can not work normally]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/Messaging_method_reverse.html?total_num=14&amp;amp;locator_key=id&amp;amp;value=12</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-2O-SmsManager_send_type" name="2O-SmsManager_send_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the send method of SmsManager which has wrong type params can not work normally - Description: Check if the send method of SmsManager which has wrong type params can not work normally">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the send method of SmsManager which has wrong type params can not work normally - Description: Check if the send method of SmsManager which has wrong type params can not work normally]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/Messaging_method_reverse.html?total_num=14&amp;amp;locator_key=id&amp;amp;value=13</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-2P-MmsManager_send_type" name="2P-MmsManager_send_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the send method of MmsManager which has wrong type params can not work normally - Description: Check if the send method of MmsManager which has wrong type params can not work normally">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the send method of MmsManager which has wrong type params can not work normally - Description: Check if the send method of MmsManager which has wrong type params can not work normally]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/Messaging_method_reverse.html?total_num=14&amp;amp;locator_key=id&amp;amp;value=14</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-2Q-MessagingManager_sms_basic" name="2Q-MessagingManager_sms_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute sms of MessagingManager exists and type of object - Description: Check if the readonly attribute sms of MessagingManager exists and type of object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute sms of MessagingManager exists and type of object - Description: Check if the readonly attribute sms of MessagingManager exists and type of object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MessagingManager_basic.html?total_num=9&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-2R-MessagingManager_mms_basic" name="2R-MessagingManager_mms_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute mms of MessagingManager exists and type of object - Description: Check if the readonly attribute mms of MessagingManager exists and type of object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute mms of MessagingManager exists and type of object - Description: Check if the readonly attribute mms of MessagingManager exists and type of object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MessagingManager_basic.html?total_num=9&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-2S-MessagingManager_findMessages_basic" name="2S-MessagingManager_findMessages_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the findMessages function of MessagingManager exists and type of function - Description: Check if the findMessages function of MessagingManager exists and type of function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the findMessages function of MessagingManager exists and type of function - Description: Check if the findMessages function of MessagingManager exists and type of function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MessagingManager_basic.html?total_num=9&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-2T-MessagingManager_findConversations_basic" name="2T-MessagingManager_findConversations_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the findConversations function of MessagingManager exists and type of function - Description: Check if the findConversations function of MessagingManager exists and type of function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the findConversations function of MessagingManager exists and type of function - Description: Check if the findConversations function of MessagingManager exists and type of function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MessagingManager_basic.html?total_num=9&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-2U-MessagingManager_getMessage_basic" name="2U-MessagingManager_getMessage_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the getMessage function of MessagingManager exists and type of function - Description: Check if the getMessage function of MessagingManager exists and type of function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the getMessage function of MessagingManager exists and type of function - Description: Check if the getMessage function of MessagingManager exists and type of function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MessagingManager_basic.html?total_num=9&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-2V-MessagingManager_deleteMessage_basic" name="2V-MessagingManager_deleteMessage_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the deleteMessage function of MessagingManager exists and type of function - Description: Check if the deleteMessage function of MessagingManager exists and type of function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the deleteMessage function of MessagingManager exists and type of function - Description: Check if the deleteMessage function of MessagingManager exists and type of function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MessagingManager_basic.html?total_num=9&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-2W-MessagingManager_deleteConversation_basic" name="2W-MessagingManager_deleteConversation_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the deleteConversation function of MessagingManager exists and type of function - Description: Check if the deleteConversation function of MessagingManager exists and type of function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the deleteConversation function of MessagingManager exists and type of function - Description: Check if the deleteConversation function of MessagingManager exists and type of function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MessagingManager_basic.html?total_num=9&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-2X-MessagingManager_markMessageRead_basic" name="2X-MessagingManager_markMessageRead_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the markMessageRead function of MessagingManager exists and type of function - Description: Check if the markMessageRead function of MessagingManager exists and type of function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the markMessageRead function of MessagingManager exists and type of function - Description: Check if the markMessageRead function of MessagingManager exists and type of function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MessagingManager_basic.html?total_num=9&amp;amp;locator_key=id&amp;amp;value=8</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-2Y-MessagingManager_markConversationRead_basic" name="2Y-MessagingManager_markConversationRead_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the markConversationRead function of MessagingManager exists and type of function - Description: Check if the markConversationRead function of MessagingManager exists and type of function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the markConversationRead function of MessagingManager exists and type of function - Description: Check if the markConversationRead function of MessagingManager exists and type of function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MessagingManager_basic.html?total_num=9&amp;amp;locator_key=id&amp;amp;value=9</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-2Z-SmsManager_type_basic" name="2Z-SmsManager_type_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute type of SmsManager exists and type of string - Description: Check if the readonly attribute type of SmsManager exists and type of string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute type of SmsManager exists and type of string - Description: Check if the readonly attribute type of SmsManager exists and type of string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsManager_basic.html?total_num=11&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-30-SmsManager_serviceIDs_basic" name="30-SmsManager_serviceIDs_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute serviceIDs of SmsManager exists and type of array - Description: Check if the readonly attribute serviceIDs of SmsManager exists and type of array">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute serviceIDs of SmsManager exists and type of array - Description: Check if the readonly attribute serviceIDs of SmsManager exists and type of array]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsManager_basic.html?total_num=11&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-31-SmsManager_onreceived_basic" name="31-SmsManager_onreceived_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the onreceived event of SmsManager exists - Description: Check if the onreceived event of SmsManager exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the onreceived event of SmsManager exists - Description: Check if the onreceived event of SmsManager exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsManager_basic.html?total_num=11&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-32-SmsManager_onsent_basic" name="32-SmsManager_onsent_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the onsent event of SmsManager exists - Description: Check if the onsent event of SmsManager exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the onsent event of SmsManager exists - Description: Check if the onsent event of SmsManager exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsManager_basic.html?total_num=11&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-33-SmsManager_ondeliverysuccess_basic" name="33-SmsManager_ondeliverysuccess_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the ondeliverysuccess event of SmsManager exists - Description: Check if the ondeliverysuccess event of SmsManager exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the ondeliverysuccess event of SmsManager exists - Description: Check if the ondeliverysuccess event of SmsManager exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsManager_basic.html?total_num=11&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-34-SmsManager_ondeliveryerror_basic" name="34-SmsManager_ondeliveryerror_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the ondeliveryerror event of SmsManager exists - Description: Check if the ondeliveryerror event of SmsManager exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the ondeliveryerror event of SmsManager exists - Description: Check if the ondeliveryerror event of SmsManager exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsManager_basic.html?total_num=11&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-35-SmsManager_onserviceadded_basic" name="35-SmsManager_onserviceadded_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the onserviceadded event of SmsManager exists - Description: Check if the onserviceadded event of SmsManager exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the onserviceadded event of SmsManager exists - Description: Check if the onserviceadded event of SmsManager exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsManager_basic.html?total_num=11&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-36-SmsManager_onserviceremoved_basic" name="36-SmsManager_onserviceremoved_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the onserviceremoved event of SmsManager exists - Description: Check if the onserviceremoved event of SmsManager exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the onserviceremoved event of SmsManager exists - Description: Check if the onserviceremoved event of SmsManager exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsManager_basic.html?total_num=11&amp;amp;locator_key=id&amp;amp;value=8</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-37-SmsManager_segmentInfo_basic" name="37-SmsManager_segmentInfo_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the segmentInfo function of SmsManager exists and type of function - Description: Check if the segmentInfo function of SmsManager exists and type of function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the segmentInfo function of SmsManager exists and type of function - Description: Check if the segmentInfo function of SmsManager exists and type of function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsManager_basic.html?total_num=11&amp;amp;locator_key=id&amp;amp;value=9</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-38-SmsManager_send_basic" name="38-SmsManager_send_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the send function of SmsManager exists and type of function - Description: Check if the send function of SmsManager exists and type of function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the send function of SmsManager exists and type of function - Description: Check if the send function of SmsManager exists and type of function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsManager_basic.html?total_num=11&amp;amp;locator_key=id&amp;amp;value=10</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-39-SmsManager_clear_basic" name="39-SmsManager_clear_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the clear function of SmsManager exists and type of function - Description: Check if the clear function of SmsManager exists and type of function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the clear function of SmsManager exists and type of function - Description: Check if the clear function of SmsManager exists and type of function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsManager_basic.html?total_num=11&amp;amp;locator_key=id&amp;amp;value=11</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-3A-MmsManager_type_basic" name="3A-MmsManager_type_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute type of MmsManager is exists and type of string - Description: Check if the readonly attribute type of MmsManager is exists and type of string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute type of MmsManager is exists and type of string - Description: Check if the readonly attribute type of MmsManager is exists and type of string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-3B-MmsManager_serviceIDs_basic" name="3B-MmsManager_serviceIDs_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute serviceIDs of MmsManager exists and type of array - Description: Check if the readonly attribute serviceIDs of MmsManager exists and type of array">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute serviceIDs of MmsManager exists and type of array - Description: Check if the readonly attribute serviceIDs of MmsManager exists and type of array]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-3C-MmsManager_onreceived_basic" name="3C-MmsManager_onreceived_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the onreceived event of MmsManager is exists - Description: Check if the onreceived event of MmsManager is exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the onreceived event of MmsManager is exists - Description: Check if the onreceived event of MmsManager is exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-3D-MmsManager_onsent_basic" name="3D-MmsManager_onsent_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the onsent event of MmsManager is exists - Description: Check if the onsent event of MmsManager is exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the onsent event of MmsManager is exists - Description: Check if the onsent event of MmsManager is exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-3E-MmsManager_ondeliverysuccess_basic" name="3E-MmsManager_ondeliverysuccess_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the ondeliverysuccess event of MmsManager is exists - Description: Check if the ondeliverysuccess event of MmsManager is exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the ondeliverysuccess event of MmsManager is exists - Description: Check if the ondeliverysuccess event of MmsManager is exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-3F-MmsManager_ondeliveryerror_basic" name="3F-MmsManager_ondeliveryerror_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the ondeliveryerror event of MmsManager is exists - Description: Check if the ondeliveryerror event of MmsManager is exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the ondeliveryerror event of MmsManager is exists - Description: Check if the ondeliveryerror event of MmsManager is exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-3G-MmsManager_onreadsuccess_basic" name="3G-MmsManager_onreadsuccess_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the onreadsuccess event of MmsManager is exists - Description: Check if the onreadsuccess event of MmsManager is exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the onreadsuccess event of MmsManager is exists - Description: Check if the onreadsuccess event of MmsManager is exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-3H-MmsManager_onreaderror_basic" name="3H-MmsManager_onreaderror_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the onreaderror event of MmsManager is exists - Description: Check if the onreaderror event of MmsManager is exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the onreaderror event of MmsManager is exists - Description: Check if the onreaderror event of MmsManager is exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=8</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-3I-MmsManager_onserviceadded_basic" name="3I-MmsManager_onserviceadded_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the onserviceadded event of MmsManager is exists - Description: Check if the onserviceadded event of MmsManager is exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the onserviceadded event of MmsManager is exists - Description: Check if the onserviceadded event of MmsManager is exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=9</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-3J-MmsManager_onserviceremoved_basic" name="3J-MmsManager_onserviceremoved_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the onserviceremoved event of MmsManager is exists - Description: Check if the onserviceremoved event of MmsManager is exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the onserviceremoved event of MmsManager is exists - Description: Check if the onserviceremoved event of MmsManager is exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=10</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-3K-MmsManager_getFetchMode_basic" name="3K-MmsManager_getFetchMode_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the getFetchMode function of MmsManager exists and type of function - Description: Check if the getFetchMode function of MmsManager exists and type of function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the getFetchMode function of MmsManager exists and type of function - Description: Check if the getFetchMode function of MmsManager exists and type of function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=11</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-3L-MmsManager_setFetchMode_basic" name="3L-MmsManager_setFetchMode_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the setFetchMode function of MmsManager exists and type of function - Description: Check if the setFetchMode function of MmsManager exists and type of function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the setFetchMode function of MmsManager exists and type of function - Description: Check if the setFetchMode function of MmsManager exists and type of function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=12</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-3M-MmsManager_send_basic" name="3M-MmsManager_send_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the send function of MmsManager exists and type of function - Description: Check if the send function of MmsManager exists and type of function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the send function of MmsManager exists and type of function - Description: Check if the send function of MmsManager exists and type of function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=13</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-3N-MmsManager_fetch_basic" name="3N-MmsManager_fetch_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the fetch function of MmsManager exists and type of function - Description: Check if the fetch function of MmsManager exists and type of function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the fetch function of MmsManager exists and type of function - Description: Check if the fetch function of MmsManager exists and type of function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=14</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-3O-MmsManager_clear_basic" name="3O-MmsManager_clear_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the clear function of MmsManager exists and type of function - Description: Check if the clear function of MmsManager exists and type of function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the clear function of MmsManager exists and type of function - Description: Check if the clear function of MmsManager exists and type of function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=15</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-3P-SmsMessage_messageID_basic" name="3P-SmsMessage_messageID_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute messageID of SmsMessage exists and type of string - Description: Check if the readonly attribute messageID of SmsMessage exists and type of string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute messageID of SmsMessage exists and type of string - Description: Check if the readonly attribute messageID of SmsMessage exists and type of string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsMessage_basic.html?total_num=12&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-3Q-SmsMessage_type_basic" name="3Q-SmsMessage_type_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute type of SmsMessage exists and type of string - Description: Check if the readonly attribute type of SmsMessage exists and type of string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute type of SmsMessage exists and type of string - Description: Check if the readonly attribute type of SmsMessage exists and type of string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsMessage_basic.html?total_num=12&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-3R-SmsMessage_serviceID_basic" name="3R-SmsMessage_serviceID_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute serviceID of SmsMessage exists and type of string - Description: Check if the readonly attribute serviceID of SmsMessage exists and type of string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute serviceID of SmsMessage exists and type of string - Description: Check if the readonly attribute serviceID of SmsMessage exists and type of string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsMessage_basic.html?total_num=12&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-3S-SmsMessage_from_basic" name="3S-SmsMessage_from_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute from of SmsMessage exists and type of string - Description: Check if the readonly attribute from of SmsMessage exists and type of string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute from of SmsMessage exists and type of string - Description: Check if the readonly attribute from of SmsMessage exists and type of string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsMessage_basic.html?total_num=12&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-3T-SmsMessage_timestamp_basic" name="3T-SmsMessage_timestamp_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute timestamp of SmsMessage exists and type of Date - Description: Check if the readonly attribute timestamp of SmsMessage exists and type of Date">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute timestamp of SmsMessage exists and type of Date - Description: Check if the readonly attribute timestamp of SmsMessage exists and type of Date]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsMessage_basic.html?total_num=12&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-3U-SmsMessage_read_basic" name="3U-SmsMessage_read_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute read of SmsMessage exists and type of boolean - Description: Check if the readonly attribute read of SmsMessage exists and type of boolean">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute read of SmsMessage exists and type of boolean - Description: Check if the readonly attribute read of SmsMessage exists and type of boolean]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsMessage_basic.html?total_num=12&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-3V-SmsMessage_to_basic" name="3V-SmsMessage_to_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute to of SmsMessage exists and type of string - Description: Check if the readonly attribute to of SmsMessage exists and type of string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute to of SmsMessage exists and type of string - Description: Check if the readonly attribute to of SmsMessage exists and type of string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsMessage_basic.html?total_num=12&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-3W-SmsMessage_body_basic" name="3W-SmsMessage_body_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute body of SmsMessage exists and type of String - Description: Check if the readonly attribute body of SmsMessage exists and type of String">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute body of SmsMessage exists and type of String - Description: Check if the readonly attribute body of SmsMessage exists and type of String]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsMessage_basic.html?total_num=12&amp;amp;locator_key=id&amp;amp;value=8</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-3X-SmsMessage_state_basic" name="3X-SmsMessage_state_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute state of SmsMessage exists and type of String - Description: Check if the readonly attribute state of SmsMessage exists and type of String">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute state of SmsMessage exists and type of String - Description: Check if the readonly attribute state of SmsMessage exists and type of String]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsMessage_basic.html?total_num=12&amp;amp;locator_key=id&amp;amp;value=9</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-3Y-SmsMessage_deliveryStatus_basic" name="3Y-SmsMessage_deliveryStatus_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute deliveryStatus of SmsMessage exists and type of String - Description: Check if the readonly attribute deliveryStatus of SmsMessage exists and type of String">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute deliveryStatus of SmsMessage exists and type of String - Description: Check if the readonly attribute deliveryStatus of SmsMessage exists and type of String]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsMessage_basic.html?total_num=12&amp;amp;locator_key=id&amp;amp;value=10</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-3Z-SmsMessage_deliveryTimestamp_basic" name="3Z-SmsMessage_deliveryTimestamp_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute deliveryTimestamp of SmsMessage exists and type of String - Description: Check if the readonly attribute deliveryTimestamp of SmsMessage exists and type of String">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute deliveryTimestamp of SmsMessage exists and type of String - Description: Check if the readonly attribute deliveryTimestamp of SmsMessage exists and type of String]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsMessage_basic.html?total_num=12&amp;amp;locator_key=id&amp;amp;value=11</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-40-SmsMessage_messageClass_basic" name="40-SmsMessage_messageClass_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute messageClass of SmsMessage exists and type of String - Description: Check if the readonly attribute messageClass of SmsMessage exists and type of String">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute messageClass of SmsMessage exists and type of String - Description: Check if the readonly attribute messageClass of SmsMessage exists and type of String]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsMessage_basic.html?total_num=12&amp;amp;locator_key=id&amp;amp;value=12</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-41-MmsMessage_messageID_basic" name="41-MmsMessage_messageID_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute messageID of MmsMessage exists and type of String - Description: Check if the readonly attribute messageID of MmsMessage exists and type of String">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute messageID of MmsMessage exists and type of String - Description: Check if the readonly attribute messageID of MmsMessage exists and type of String]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage_basic.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-42-MmsMessage_type_basic" name="42-MmsMessage_type_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute type of MmsMessage exists and type of String - Description: Check if the readonly attribute type of MmsMessage exists and type of String">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute type of MmsMessage exists and type of String - Description: Check if the readonly attribute type of MmsMessage exists and type of String]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage_basic.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-43-MmsMessage_serviceID_basic" name="43-MmsMessage_serviceID_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute serviceID of MmsMessage exists and type of String - Description: Check if the readonly attribute serviceID of MmsMessage exists and type of String">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute serviceID of MmsMessage exists and type of String - Description: Check if the readonly attribute serviceID of MmsMessage exists and type of String]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage_basic.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-44-MmsMessage_from_basic" name="44-MmsMessage_from_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute from of MmsMessage exists and type of String - Description: Check if the readonly attribute from of MmsMessage exists and type of String">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute from of MmsMessage exists and type of String - Description: Check if the readonly attribute from of MmsMessage exists and type of String]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage_basic.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-45-MmsMessage_timestamp_basic" name="45-MmsMessage_timestamp_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute timestamp of MmsMessage exists and type of date - Description: Check if the readonly attribute timestamp of MmsMessage exists and type of date">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute timestamp of MmsMessage exists and type of date - Description: Check if the readonly attribute timestamp of MmsMessage exists and type of date]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage_basic.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-46-MmsMessage_read_basic" name="46-MmsMessage_read_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute read of MmsMessage exists and type of boolean - Description: Check if the readonly attribute read of MmsMessage exists and type of boolean">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute read of MmsMessage exists and type of boolean - Description: Check if the readonly attribute read of MmsMessage exists and type of boolean]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage_basic.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-47-MmsMessage_to_basic" name="47-MmsMessage_to_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute to of MmsMessage exists and type of array - Description: Check if the readonly attribute to of MmsMessage exists and type of array">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute to of MmsMessage exists and type of array - Description: Check if the readonly attribute to of MmsMessage exists and type of array]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage_basic.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-48-MmsMessage_expiry_basic" name="48-MmsMessage_expiry_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute expiry of MmsMessage exists and type of String - Description: Check if the readonly attribute expiry of MmsMessage exists and type of String">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute expiry of MmsMessage exists and type of String - Description: Check if the readonly attribute expiry of MmsMessage exists and type of String]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage_basic.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=8</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-49-MmsMessage_cc_basic" name="49-MmsMessage_cc_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute cc of MmsMessage exists and type of array - Description: Check if the readonly attribute cc of MmsMessage exists and type of array">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute cc of MmsMessage exists and type of array - Description: Check if the readonly attribute cc of MmsMessage exists and type of array]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage_basic.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=9</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-4A-MmsMessage_bcc_basic" name="4A-MmsMessage_bcc_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute bcc of MmsMessage exists and type of array - Description: Check if the readonly attribute bcc of MmsMessage exists and type of array">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute bcc of MmsMessage exists and type of array - Description: Check if the readonly attribute bcc of MmsMessage exists and type of array]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage_basic.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=10</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-4B-MmsMessage_subject_basic" name="4B-MmsMessage_subject_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute subject of MmsMessage exists and type of String - Description: Check if the readonly attribute subject of MmsMessage exists and type of String">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute subject of MmsMessage exists and type of String - Description: Check if the readonly attribute subject of MmsMessage exists and type of String]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage_basic.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=11</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-4C-MmsMessage_smil_basic" name="4C-MmsMessage_smil_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute smil of MmsMessage exists and type of String - Description: Check if the readonly attribute smil of MmsMessage exists and type of String">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute smil of MmsMessage exists and type of String - Description: Check if the readonly attribute smil of MmsMessage exists and type of String]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage_basic.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=12</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-4D-MmsMessage_attachments_basic" name="4D-MmsMessage_attachments_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute attachments of MmsMessage exists and type of array - Description: Check if the readonly attribute attachments of MmsMessage exists and type of array">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute attachments of MmsMessage exists and type of array - Description: Check if the readonly attribute attachments of MmsMessage exists and type of array]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage_basic.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=13</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-4E-MmsMessage_state_basic" name="4E-MmsMessage_state_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute state of MmsMessage exists and type of String - Description: Check if the readonly attribute state of MmsMessage exists and type of String">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute state of MmsMessage exists and type of String - Description: Check if the readonly attribute state of MmsMessage exists and type of String]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage_basic.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=14</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-4F-MmsMessage_deliveryInfo_basic" name="4F-MmsMessage_deliveryInfo_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute deliveryInfo of MmsMessage exists and type of array - Description: Check if the readonly attribute deliveryInfo of MmsMessage exists and type of array">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute deliveryInfo of MmsMessage exists and type of array - Description: Check if the readonly attribute deliveryInfo of MmsMessage exists and type of array]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage_basic.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=15</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-23-4G-MmsMessage_readReportRequested_basic" name="4G-MmsMessage_readReportRequested_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-messaging-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute readReportRequested of MmsMessage exists and type of boolean - Description: Check if the readonly attribute readReportRequested of MmsMessage exists and type of boolean">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute readReportRequested of MmsMessage exists and type of boolean - Description: Check if the readonly attribute readReportRequested of MmsMessage exists and type of boolean]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage_basic.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=16</test_script_entry>
+                </description>
+            </testcase>
+        </set>
+    </suite>
+</test_definition>

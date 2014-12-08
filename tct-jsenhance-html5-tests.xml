@@ -1,0 +1,448 @@
+<?xml version="1.0"?>
+<test_definition>
+    <suite launcher="xwalk" name="00-common/E0-crosswalk">
+        <set name="common/crosswalk/commonapi/tct-jsenhance-html5-tests">
+            <testcase id="00-E0-00-0S-01-document_getElementsByClassName_exists" name="01-document_getElementsByClassName_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-jsenhance-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the document object has getElementsByClassName method - Description: Check if the document object has getElementsByClassName method">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the document object has getElementsByClassName method - Description: Check if the document object has getElementsByClassName method]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-jsenhance-html5-tests/jsenhance/document_getElementsByClassName_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0S-02-element_classList_exists" name="02-element_classList_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-jsenhance-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the Element has classList attribute - Description: Check if the Element has classList attribute">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the Element has classList attribute - Description: Check if the Element has classList attribute]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-jsenhance-html5-tests/jsenhance/element_classList_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0S-03-element_matchesSelector_exists" name="03-element_matchesSelector_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-jsenhance-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the Element has matchesSelector attribute - Description: Check if the Element has matchesSelector attribute">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the Element has matchesSelector attribute - Description: Check if the Element has matchesSelector attribute]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-jsenhance-html5-tests/jsenhance/element_matchesSelector_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0S-04-script_async_exists" name="04-script_async_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-jsenhance-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the script element has async attribute - Description: Check if the script element has async attribute">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the script element has async attribute - Description: Check if the script element has async attribute]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-jsenhance-html5-tests/jsenhance/script_async_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0S-05-script_defer_exists" name="05-script_defer_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-jsenhance-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the script element has defer attribute - Description: Check if the script element has defer attribute">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the script element has defer attribute - Description: Check if the script element has defer attribute]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-jsenhance-html5-tests/jsenhance/script_defer_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0S-06-window_hashchange_event_exists" name="06-window_hashchange_event_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-jsenhance-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the window has hashchange event - Description: Check if the window has hashchange event">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the window has hashchange event - Description: Check if the window has hashchange event]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-jsenhance-html5-tests/jsenhance/window_hashchange_event_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0S-07-document_getElementsByClassName_argument_blank" name="07-document_getElementsByClassName_argument_blank" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-jsenhance-html5-tests" status="designed" type="compliance" purpose="Objective: Check if document.getElementsByClassName attribute argument set blank partition ,then compare document.getElementsByClassName.length is 1 - Description: Check if document.getElementsByClassName attribute argument set blank partition ,then compare document.getElementsByClassName.length is 1">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if document.getElementsByClassName attribute argument set blank partition ,then compare document.getElementsByClassName.length is 1 - Description: Check if document.getElementsByClassName attribute argument set blank partition ,then compare document.getElementsByClassName.length is 1]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-jsenhance-html5-tests/jsenhance/w3c/Document.getElementsByClassName-null-undef.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0S-08-element_classList_add" name="08-element_classList_add" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-jsenhance-html5-tests" status="designed" type="compliance" purpose="Objective: Check if element.classList.add method set 'd3',then compare document.classList.length is 3 - Description: Check if element.classList.add method set 'd3',then compare document.classList.length is 3">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.classList.add method set 'd3',then compare document.classList.length is 3 - Description: Check if element.classList.add method set 'd3',then compare document.classList.length is 3]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-jsenhance-html5-tests/jsenhance/element_classList_add.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0S-09-element_classList_add_case_sensitive" name="09-element_classList_add_case_sensitive" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-jsenhance-html5-tests" status="designed" type="compliance" purpose="Objective: Check if element.classList.add method set 'D3',then compare document.classList.item should not be 'd3' - Description: Check if element.classList.add method set 'D3',then compare document.classList.item should not be 'd3'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.classList.add method set 'D3',then compare document.classList.item should not be 'd3' - Description: Check if element.classList.add method set 'D3',then compare document.classList.item should not be 'd3']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-jsenhance-html5-tests/jsenhance/element_classList_add_case_sensitive.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0S-0A-element_classList_add_empty_string" name="0A-element_classList_add_empty_string" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-jsenhance-html5-tests" status="designed" type="compliance" purpose="Objective: Check if element.classList.add method set empty stirng,then throw SYNTAX_ERR exception - Description: Check if element.classList.add method set empty stirng,then throw SYNTAX_ERR exception">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.classList.add method set empty stirng,then throw SYNTAX_ERR exception - Description: Check if element.classList.add method set empty stirng,then throw SYNTAX_ERR exception]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-jsenhance-html5-tests/jsenhance/element_classList_add_empty_string.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0S-0B-element_classList_add_space_characters" name="0B-element_classList_add_space_characters" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-jsenhance-html5-tests" status="designed" type="compliance" purpose="Objective: Check if element.classList.add method set space characters,then throw INVALID_CHARACTER_ERR exception - Description: Check if element.classList.add method set space characters,then throw INVALID_CHARACTER_ERR exception">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.classList.add method set space characters,then throw INVALID_CHARACTER_ERR exception - Description: Check if element.classList.add method set space characters,then throw INVALID_CHARACTER_ERR exception]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-jsenhance-html5-tests/jsenhance/element_classList_add_space_characters.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0S-0C-element_classList_add_type" name="0C-element_classList_add_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-jsenhance-html5-tests" status="designed" type="compliance" purpose="Objective: Check if element.classList.add method is of type function - Description: Check if element.classList.add method is of type function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.classList.add method is of type function - Description: Check if element.classList.add method is of type function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-jsenhance-html5-tests/jsenhance/element_classList_add_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0S-0D-element_classList_contains" name="0D-element_classList_contains" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-jsenhance-html5-tests" status="designed" type="compliance" purpose="Objective: Check if element.classList.contains method set 'd1',then compare document.classList.contains is true - Description: Check if element.classList.contains method set 'd1',then compare document.classList.contains is true">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.classList.contains method set 'd1',then compare document.classList.contains is true - Description: Check if element.classList.contains method set 'd1',then compare document.classList.contains is true]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-jsenhance-html5-tests/jsenhance/element_classList_contains.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0S-0E-element_classList_contains_case_sensitive" name="0E-element_classList_contains_case_sensitive" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-jsenhance-html5-tests" status="designed" type="compliance" purpose="Objective: Check if element.classList.contains method set 'D1',then compare document.classList.contains is false - Description: Check if element.classList.contains method set 'D1',then compare document.classList.contains is false">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.classList.contains method set 'D1',then compare document.classList.contains is false - Description: Check if element.classList.contains method set 'D1',then compare document.classList.contains is false]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-jsenhance-html5-tests/jsenhance/element_classList_contains_case_sensitive.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0S-0F-element_classList_contains_empty_string" name="0F-element_classList_contains_empty_string" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-jsenhance-html5-tests" status="designed" type="compliance" purpose="Objective: Check if element.classList.contains method set empty string,then throw SYNTAX_ERR exception - Description: Check if element.classList.contains method set empty string,then throw SYNTAX_ERR exception">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.classList.contains method set empty string,then throw SYNTAX_ERR exception - Description: Check if element.classList.contains method set empty string,then throw SYNTAX_ERR exception]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-jsenhance-html5-tests/jsenhance/element_classList_contains_empty_string.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0S-0G-element_classList_contains_return_type" name="0G-element_classList_contains_return_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-jsenhance-html5-tests" status="designed" type="compliance" purpose="Objective: Check if element.classList.contains method return value is of type boolean - Description: Check if element.classList.contains method return value is of type boolean">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.classList.contains method return value is of type boolean - Description: Check if element.classList.contains method return value is of type boolean]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-jsenhance-html5-tests/jsenhance/element_classList_contains_return_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0S-0H-element_classList_contains_space_characters" name="0H-element_classList_contains_space_characters" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-jsenhance-html5-tests" status="designed" type="compliance" purpose="Objective: Check if element.classList.contains method set space characters,then throw INVALID_CHARACTER_ERR exception - Description: Check if element.classList.contains method set space characters,then throw INVALID_CHARACTER_ERR exception">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.classList.contains method set space characters,then throw INVALID_CHARACTER_ERR exception - Description: Check if element.classList.contains method set space characters,then throw INVALID_CHARACTER_ERR exception]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-jsenhance-html5-tests/jsenhance/element_classList_contains_space_characters.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0S-0I-element_classList_contains_type" name="0I-element_classList_contains_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-jsenhance-html5-tests" status="designed" type="compliance" purpose="Objective: Check if element.classList.contains method is of type function - Description: Check if element.classList.contains method is of type function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.classList.contains method is of type function - Description: Check if element.classList.contains method is of type function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-jsenhance-html5-tests/jsenhance/element_classList_contains_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0S-0J-element_classList_item" name="0J-element_classList_item" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-jsenhance-html5-tests" status="designed" type="compliance" purpose="Objective: Check if element.classList.item method set 0,then compare document.classList.item is 'd1' - Description: Check if element.classList.item method set 0,then compare document.classList.item is 'd1'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.classList.item method set 0,then compare document.classList.item is 'd1' - Description: Check if element.classList.item method set 0,then compare document.classList.item is 'd1']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-jsenhance-html5-tests/jsenhance/element_classList_item.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0S-0K-element_classList_item_lower" name="0K-element_classList_item_lower" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-jsenhance-html5-tests" status="designed" type="compliance" purpose="Objective: Check if element.classList.item method less than the number of tokens,then compare document.classList.item is null - Description: Check if element.classList.item method less than the number of tokens,then compare document.classList.item is null">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.classList.item method less than the number of tokens,then compare document.classList.item is null - Description: Check if element.classList.item method less than the number of tokens,then compare document.classList.item is null]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-jsenhance-html5-tests/jsenhance/element_classList_item_lower.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0S-0L-element_classList_item_return_type" name="0L-element_classList_item_return_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-jsenhance-html5-tests" status="designed" type="compliance" purpose="Objective: Check if element.classList.item method return value is of type string - Description: Check if element.classList.item method return value is of type string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.classList.item method return value is of type string - Description: Check if element.classList.item method return value is of type string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-jsenhance-html5-tests/jsenhance/element_classList_item_return_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0S-0M-element_classList_item_type" name="0M-element_classList_item_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-jsenhance-html5-tests" status="designed" type="compliance" purpose="Objective: Check if element.classList.item method is of type function - Description: Check if element.classList.item method is of type function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.classList.item method is of type function - Description: Check if element.classList.item method is of type function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-jsenhance-html5-tests/jsenhance/element_classList_item_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0S-0N-element_classList_item_upper" name="0N-element_classList_item_upper" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-jsenhance-html5-tests" status="designed" type="compliance" purpose="Objective: Check if element.classList.item method greater than the number of tokens,then compare document.classList.item is null - Description: Check if element.classList.item method greater than the number of tokens,then compare document.classList.item is null">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.classList.item method greater than the number of tokens,then compare document.classList.item is null - Description: Check if element.classList.item method greater than the number of tokens,then compare document.classList.item is null]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-jsenhance-html5-tests/jsenhance/element_classList_item_upper.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0S-0O-element_classList_length" name="0O-element_classList_length" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-jsenhance-html5-tests" status="designed" type="compliance" purpose="Objective: Check if element.classList.length attrbute compare document.classList.length is 2 - Description: Check if element.classList.length attrbute compare document.classList.length is 2">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.classList.length attrbute compare document.classList.length is 2 - Description: Check if element.classList.length attrbute compare document.classList.length is 2]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-jsenhance-html5-tests/jsenhance/element_classList_length.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0S-0P-element_classList_length_readonly" name="0P-element_classList_length_readonly" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-jsenhance-html5-tests" status="designed" type="compliance" purpose="Objective: Check if element.classList.length attrbute is readonly - Description: Check if element.classList.length attrbute is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.classList.length attrbute is readonly - Description: Check if element.classList.length attrbute is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-jsenhance-html5-tests/jsenhance/element_classList_length_readonly.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0S-0Q-element_classList_length_type" name="0Q-element_classList_length_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-jsenhance-html5-tests" status="designed" type="compliance" purpose="Objective: Check if element.classList.length attrbute is of type number - Description: Check if element.classList.length attrbute is of type number">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.classList.length attrbute is of type number - Description: Check if element.classList.length attrbute is of type number]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-jsenhance-html5-tests/jsenhance/element_classList_length_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0S-0R-element_classList_remove" name="0R-element_classList_remove" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-jsenhance-html5-tests" status="designed" type="compliance" purpose="Objective: Check if element.classList.remove method set 'd2',then compare document.classList.length is 1 - Description: Check if element.classList.remove method set 'd2',then compare document.classList.length is 1">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.classList.remove method set 'd2',then compare document.classList.length is 1 - Description: Check if element.classList.remove method set 'd2',then compare document.classList.length is 1]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-jsenhance-html5-tests/jsenhance/element_classList_remove.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0S-0S-element_classList_remove_empty_string" name="0S-element_classList_remove_empty_string" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-jsenhance-html5-tests" status="designed" type="compliance" purpose="Objective: Check if element.classList.remove method empty string,then throw SYNTAX_ERR exception - Description: Check if element.classList.remove method empty string,then throw SYNTAX_ERR exception">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.classList.remove method empty string,then throw SYNTAX_ERR exception - Description: Check if element.classList.remove method empty string,then throw SYNTAX_ERR exception]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-jsenhance-html5-tests/jsenhance/element_classList_remove_empty_string.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0S-0T-element_classList_remove_space_characters" name="0T-element_classList_remove_space_characters" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-jsenhance-html5-tests" status="designed" type="compliance" purpose="Objective: Check if element.classList.remove method space characters,then throw INVALID_CHARACTER_ERR exception - Description: Check if element.classList.remove method space characters,then throw INVALID_CHARACTER_ERR exception">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.classList.remove method space characters,then throw INVALID_CHARACTER_ERR exception - Description: Check if element.classList.remove method space characters,then throw INVALID_CHARACTER_ERR exception]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-jsenhance-html5-tests/jsenhance/element_classList_remove_space_characters.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0S-0U-element_classList_remove_type" name="0U-element_classList_remove_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-jsenhance-html5-tests" status="designed" type="compliance" purpose="Objective: Check if element.classList.remove method is of type function - Description: Check if element.classList.remove method is of type function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.classList.remove method is of type function - Description: Check if element.classList.remove method is of type function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-jsenhance-html5-tests/jsenhance/element_classList_remove_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0S-0V-element_classList_stringifier" name="0V-element_classList_stringifier" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-jsenhance-html5-tests" status="designed" type="compliance" purpose="Objective: Check if a DOMTokenList object must stringify to the value of the DOMTokenList object's underlying string - Description: Check if a DOMTokenList object must stringify to the value of the DOMTokenList object's underlying string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if a DOMTokenList object must stringify to the value of the DOMTokenList object's underlying string - Description: Check if a DOMTokenList object must stringify to the value of the DOMTokenList object's underlying string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-jsenhance-html5-tests/jsenhance/element_classList_stringifier.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0S-0W-element_classList_toggle" name="0W-element_classList_toggle" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-jsenhance-html5-tests" status="designed" type="compliance" purpose="Objective: Check if element.classList.toggle method set remove 'd2' and add 'd3',then compare document.classList.length is 2 - Description: Check if element.classList.toggle method set remove 'd2' and add 'd3',then compare document.classList.length is 2">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.classList.toggle method set remove 'd2' and add 'd3',then compare document.classList.length is 2 - Description: Check if element.classList.toggle method set remove 'd2' and add 'd3',then compare document.classList.length is 2]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-jsenhance-html5-tests/jsenhance/element_classList_toggle.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0S-0X-element_classList_toggle_case_sensitive" name="0X-element_classList_toggle_case_sensitive" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-jsenhance-html5-tests" status="designed" type="compliance" purpose="Objective: Check if element.classList.toggle method set add 'D2' and add 'd3',then compare element.classList.length is 4 - Description: Check if element.classList.toggle method set add 'D2' and add 'd3',then compare element.classList.length is 4">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.classList.toggle method set add 'D2' and add 'd3',then compare element.classList.length is 4 - Description: Check if element.classList.toggle method set add 'D2' and add 'd3',then compare element.classList.length is 4]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-jsenhance-html5-tests/jsenhance/element_classList_toggle_case_sensitive.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0S-0Y-element_classList_toggle_empty_string" name="0Y-element_classList_toggle_empty_string" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-jsenhance-html5-tests" status="designed" type="compliance" purpose="Objective: Check if element.classList.toggle method set empty string,then throw SYNTAX_ERR exception - Description: Check if element.classList.toggle method set empty string,then throw SYNTAX_ERR exception">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.classList.toggle method set empty string,then throw SYNTAX_ERR exception - Description: Check if element.classList.toggle method set empty string,then throw SYNTAX_ERR exception]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-jsenhance-html5-tests/jsenhance/element_classList_toggle_empty_string.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0S-0Z-element_classList_toggle_space_characters" name="0Z-element_classList_toggle_space_characters" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-jsenhance-html5-tests" status="designed" type="compliance" purpose="Objective: Check if element.classList.toggle method set space characters,then throw INVALID_CHARACTER_ERR exception - Description: Check if element.classList.toggle method set space characters,then throw INVALID_CHARACTER_ERR exception">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.classList.toggle method set space characters,then throw INVALID_CHARACTER_ERR exception - Description: Check if element.classList.toggle method set space characters,then throw INVALID_CHARACTER_ERR exception]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-jsenhance-html5-tests/jsenhance/element_classList_toggle_space_characters.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0S-10-element_classList_toggle_type" name="10-element_classList_toggle_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-jsenhance-html5-tests" status="designed" type="compliance" purpose="Objective: Check if element.classList.toggle method is of type function - Description: Check if element.classList.toggle method is of type function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.classList.toggle method is of type function - Description: Check if element.classList.toggle method is of type function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-jsenhance-html5-tests/jsenhance/element_classList_toggle_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0S-11-element_classList_add_exists" name="11-element_classList_add_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-jsenhance-html5-tests" status="designed" type="compliance" purpose="Objective: Check if element.classList.add method exists - Description: Check if element.classList.add method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.classList.add method exists - Description: Check if element.classList.add method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-jsenhance-html5-tests/jsenhance/element_classList_add_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0S-12-element_classList_item_exists" name="12-element_classList_item_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-jsenhance-html5-tests" status="designed" type="compliance" purpose="Objective: Check if element.classList.item method exists - Description: Check if element.classList.item method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.classList.item method exists - Description: Check if element.classList.item method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-jsenhance-html5-tests/jsenhance/element_classList_item_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0S-13-element_classList_length_exists" name="13-element_classList_length_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-jsenhance-html5-tests" status="designed" type="compliance" purpose="Objective: Check if element.classList.length attrbute exists - Description: Check if element.classList.length attrbute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.classList.length attrbute exists - Description: Check if element.classList.length attrbute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-jsenhance-html5-tests/jsenhance/element_classList_length_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0S-14-element_classList_remove_exists" name="14-element_classList_remove_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-jsenhance-html5-tests" status="designed" type="compliance" purpose="Objective: Check if element.classList.remove method exists - Description: Check if element.classList.remove method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.classList.remove method exists - Description: Check if element.classList.remove method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-jsenhance-html5-tests/jsenhance/element_classList_remove_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0S-15-element_classList_toggle_exists" name="15-element_classList_toggle_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-jsenhance-html5-tests" status="designed" type="compliance" purpose="Objective: Check if element.classList.toggle method exists - Description: Check if element.classList.toggle method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.classList.toggle method exists - Description: Check if element.classList.toggle method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-jsenhance-html5-tests/jsenhance/element_classList_toggle_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0S-16-element_classList_contains_exists" name="16-element_classList_contains_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-jsenhance-html5-tests" status="designed" type="compliance" purpose="Objective: Check if element.classList.contains method exists - Description: Check if element.classList.contains method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.classList.contains method exists - Description: Check if element.classList.contains method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-jsenhance-html5-tests/jsenhance/element_classList_contains_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0S-17-window_hashchange_initHashChangeEvent_type" name="17-window_hashchange_initHashChangeEvent_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-jsenhance-html5-tests" status="designed" type="compliance" purpose="Objective: Check if window.hashchange.initHashChangeEvent is of type function - Description: Check if window.hashchange.initHashChangeEvent is of type function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if window.hashchange.initHashChangeEvent is of type function - Description: Check if window.hashchange.initHashChangeEvent is of type function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-jsenhance-html5-tests/jsenhance/window_hashchange_initHashChangeEvent_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0S-18-window_hashchange_newURL" name="18-window_hashchange_newURL" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-jsenhance-html5-tests" status="designed" type="compliance" purpose="Objective: Check if change location.hash,then compare window.hashchange.newURL is 'window_hashchange_newURL.html#test' - Description: Check if change location.hash,then compare window.hashchange.newURL is 'window_hashchange_newURL.html#test'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if change location.hash,then compare window.hashchange.newURL is 'window_hashchange_newURL.html#test' - Description: Check if change location.hash,then compare window.hashchange.newURL is 'window_hashchange_newURL.html#test']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-jsenhance-html5-tests/jsenhance/window_hashchange_newURL.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0S-19-window_hashchange_newURL_readonly" name="19-window_hashchange_newURL_readonly" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-jsenhance-html5-tests" status="designed" type="compliance" purpose="Objective: Check if window.hashchange.newURL attrbute is readonly - Description: Check if window.hashchange.newURL attrbute is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if window.hashchange.newURL attrbute is readonly - Description: Check if window.hashchange.newURL attrbute is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-jsenhance-html5-tests/jsenhance/window_hashchange_newURL_readonly.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0S-1A-window_hashchange_newURL_type" name="1A-window_hashchange_newURL_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-jsenhance-html5-tests" status="designed" type="compliance" purpose="Objective: Check if window.hashchange.newURL attrbute is of type string - Description: Check if window.hashchange.newURL attrbute is of type string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if window.hashchange.newURL attrbute is of type string - Description: Check if window.hashchange.newURL attrbute is of type string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-jsenhance-html5-tests/jsenhance/window_hashchange_newURL_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0S-1B-window_hashchange_oldURL" name="1B-window_hashchange_oldURL" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-jsenhance-html5-tests" status="designed" type="compliance" purpose="Objective: Check if change location.hash,then compare window.hashchange.oldURL is 'window_hashchange_oldURL.html' - Description: Check if change location.hash,then compare window.hashchange.oldURL is 'window_hashchange_oldURL.html'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if change location.hash,then compare window.hashchange.oldURL is 'window_hashchange_oldURL.html' - Description: Check if change location.hash,then compare window.hashchange.oldURL is 'window_hashchange_oldURL.html']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-jsenhance-html5-tests/jsenhance/window_hashchange_oldURL.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0S-1C-window_hashchange_oldURL_readonly" name="1C-window_hashchange_oldURL_readonly" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-jsenhance-html5-tests" status="designed" type="compliance" purpose="Objective: Check if window.hashchange.oldURL attrbute is readonly - Description: Check if window.hashchange.oldURL attrbute is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if window.hashchange.oldURL attrbute is readonly - Description: Check if window.hashchange.oldURL attrbute is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-jsenhance-html5-tests/jsenhance/window_hashchange_oldURL_readonly.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0S-1D-window_hashchange_oldURL_type" name="1D-window_hashchange_oldURL_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-jsenhance-html5-tests" status="designed" type="compliance" purpose="Objective: Check if window.hashchange.oldURL attrbute is of type string - Description: Check if window.hashchange.oldURL attrbute is of type string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if window.hashchange.oldURL attrbute is of type string - Description: Check if window.hashchange.oldURL attrbute is of type string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-jsenhance-html5-tests/jsenhance/window_hashchange_oldURL_type.html</test_script_entry>
+                </description>
+            </testcase>
+        </set>
+    </suite>
+</test_definition>

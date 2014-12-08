@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<test_definition>
+    <suite launcher="xwalk" name="00-common/E0-crosswalk">
+        <set name="common/crosswalk/commonapi/tct-browserstate-html5-tests">
+            <testcase id="00-E0-00-08-01-navigator_onLine_exists" name="01-navigator_onLine_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-browserstate-html5-tests" status="designed" type="compliance" purpose="Objective: Check if NavigatorOnLine.onLine attribute exists - Description: Check if NavigatorOnLine.onLine attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NavigatorOnLine.onLine attribute exists - Description: Check if NavigatorOnLine.onLine attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-browserstate-html5-tests/browserstate/navigator_onLine_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-08-02-navigator_onLine_readonly" name="02-navigator_onLine_readonly" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-browserstate-html5-tests" status="designed" type="compliance" purpose="Objective: Check if NavigatorOnLine.onLine attribute is readonly - Description: Check if NavigatorOnLine.onLine attribute is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NavigatorOnLine.onLine attribute is readonly - Description: Check if NavigatorOnLine.onLine attribute is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-browserstate-html5-tests/browserstate/navigator_onLine_readonly.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-08-03-navigator_onLine_type" name="03-navigator_onLine_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-browserstate-html5-tests" status="designed" type="compliance" purpose="Objective: Check if NavigatorOnLine.onLine attribute is of type boolean - Description: Check if NavigatorOnLine.onLine attribute is of type boolean">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NavigatorOnLine.onLine attribute is of type boolean - Description: Check if NavigatorOnLine.onLine attribute is of type boolean]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-browserstate-html5-tests/browserstate/navigator_onLine_type.html</test_script_entry>
+                </description>
+            </testcase>
+        </set>
+    </suite>
+</test_definition>

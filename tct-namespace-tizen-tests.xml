@@ -1,0 +1,232 @@
+<?xml version="1.0"?>
+<test_definition>
+    <suite launcher="xwalk" name="00-common/E0-crosswalk">
+        <set name="common/crosswalk/deviceapi/tct-namespace-tizen-tests">
+            <testcase id="00-E0-01-0H-01-Alarm_AlarmManagerObject" name="01-Alarm_AlarmManagerObject" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-namespace-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if tizen.alarm exists - Description: Check if tizen.alarm exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if tizen.alarm exists - Description: Check if tizen.alarm exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-namespace-tizen-tests/namespace/Alarm_AlarmManagerObject.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0H-02-Application_ApplicationManagerObject" name="02-Application_ApplicationManagerObject" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-namespace-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if tizen.application exists - Description: Check if tizen.application exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if tizen.application exists - Description: Check if tizen.application exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-namespace-tizen-tests/namespace/Application_ApplicationManagerObject.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0H-03-Bluetooth_BluetoothManagerObject" name="03-Bluetooth_BluetoothManagerObject" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-namespace-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if tizen.bluetooth exists - Description: Check if tizen.bluetooth exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if tizen.bluetooth exists - Description: Check if tizen.bluetooth exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-namespace-tizen-tests/namespace/Bluetooth_BluetoothManagerObject.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0H-04-Bookmark_BookmarkManagerObject" name="04-Bookmark_BookmarkManagerObject" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-namespace-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if tizen.bookmark exists - Description: Check if tizen.bookmark exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if tizen.bookmark exists - Description: Check if tizen.bookmark exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-namespace-tizen-tests/namespace/Bookmark_BookmarkManagerObject.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0H-05-Calendar_CalendarManagerObject" name="05-Calendar_CalendarManagerObject" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-namespace-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if tizen.calendar exists - Description: Check if tizen.calendar exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if tizen.calendar exists - Description: Check if tizen.calendar exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-namespace-tizen-tests/namespace/Calendar_CalendarManagerObject.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0H-06-Callhistory_CallHistoryObject" name="06-Callhistory_CallHistoryObject" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-namespace-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if tizen.callhistory exists - Description: Check if tizen.callhistory exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if tizen.callhistory exists - Description: Check if tizen.callhistory exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-namespace-tizen-tests/namespace/Callhistory_CallHistoryObject.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0H-07-Contact_ContactManagerObject" name="07-Contact_ContactManagerObject" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-namespace-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if tizen.contact exists - Description: Check if tizen.contact exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if tizen.contact exists - Description: Check if tizen.contact exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-namespace-tizen-tests/namespace/Contact_ContactManagerObject.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0H-08-Content_ContentManagerObject" name="08-Content_ContentManagerObject" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-namespace-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if tizen.content exists - Description: Check if tizen.content exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if tizen.content exists - Description: Check if tizen.content exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-namespace-tizen-tests/namespace/Content_ContentManagerObject.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0H-09-DataControl_DataControlManagerObject" name="09-DataControl_DataControlManagerObject" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-namespace-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if tizen.datacontrol exists - Description: Check if tizen.datacontrol exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if tizen.datacontrol exists - Description: Check if tizen.datacontrol exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-namespace-tizen-tests/namespace/DataControl_DataControlManagerObject.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0H-0A-DataSync_DataSynchronizationManagerObject" name="0A-DataSync_DataSynchronizationManagerObject" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-namespace-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if tizen.datasync exists - Description: Check if tizen.datasync exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if tizen.datasync exists - Description: Check if tizen.datasync exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-namespace-tizen-tests/namespace/DataSync_DataSynchronizationManagerObject.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0H-0B-Download_DownloadManagerObject" name="0B-Download_DownloadManagerObject" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-namespace-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if tizen.download exists - Description: Check if tizen.download exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if tizen.download exists - Description: Check if tizen.download exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-namespace-tizen-tests/namespace/Download_DownloadManagerObject.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0H-0C-Filesystem_FileSystemManagerObject" name="0C-Filesystem_FileSystemManagerObject" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-namespace-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if tizen.filesystem exists - Description: Check if tizen.filesystem exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if tizen.filesystem exists - Description: Check if tizen.filesystem exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-namespace-tizen-tests/namespace/Filesystem_FileSystemManagerObject.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0H-0D-MessagePort_MessagePortManagerObject" name="0D-MessagePort_MessagePortManagerObject" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-namespace-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if tizen.messageport exists - Description: Check if tizen.messageport exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if tizen.messageport exists - Description: Check if tizen.messageport exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-namespace-tizen-tests/namespace/MessagePort_MessagePortManagerObject.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0H-0E-Messaging_MessageManagerObject" name="0E-Messaging_MessageManagerObject" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-namespace-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if tizen.messaging exists - Description: Check if tizen.messaging exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if tizen.messaging exists - Description: Check if tizen.messaging exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-namespace-tizen-tests/namespace/Messaging_MessageManagerObject.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0H-0F-NFC_NFCManagerObject" name="0F-NFC_NFCManagerObject" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-namespace-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if tizen.nfc exists - Description: Check if tizen.nfc exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if tizen.nfc exists - Description: Check if tizen.nfc exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-namespace-tizen-tests/namespace/NFC_NFCManagerObject.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0H-0G-NetworkBearerSelection_NetworkBearerSelectionObject" name="0G-NetworkBearerSelection_NetworkBearerSelectionObject" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-namespace-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if tizen.networkbearerselection exists - Description: Check if tizen.networkbearerselection exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if tizen.networkbearerselection exists - Description: Check if tizen.networkbearerselection exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-namespace-tizen-tests/namespace/NetworkBearerSelection_NetworkBearerSelectionObject.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0H-0H-Notification_NotificationObject" name="0H-Notification_NotificationObject" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-namespace-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if tizen.notification exists - Description: Check if tizen.notification exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if tizen.notification exists - Description: Check if tizen.notification exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-namespace-tizen-tests/namespace/Notification_NotificationObject.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0H-0I-Package_PackageManagerObject" name="0I-Package_PackageManagerObject" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-namespace-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if tizen.package exists - Description: Check if tizen.package exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if tizen.package exists - Description: Check if tizen.package exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-namespace-tizen-tests/namespace/Package_PackageManagerObject.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0H-0J-Power_PowerManagerObject" name="0J-Power_PowerManagerObject" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-namespace-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if tizen.power exists - Description: Check if tizen.power exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if tizen.power exists - Description: Check if tizen.power exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-namespace-tizen-tests/namespace/Power_PowerManagerObject.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0H-0K-Push_PushManagerObject" name="0K-Push_PushManagerObject" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-namespace-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if tizen.push exists - Description: Check if tizen.push exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if tizen.push exists - Description: Check if tizen.push exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-namespace-tizen-tests/namespace/Push_PushManagerObject.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0H-0L-SecureElement_SEServiceManagerObject" name="0L-SecureElement_SEServiceManagerObject" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-namespace-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if tizen.seService exists - Description: Check if tizen.seService exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if tizen.seService exists - Description: Check if tizen.seService exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-namespace-tizen-tests/namespace/SecureElement_SEServiceManagerObject.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0H-0M-SystemInfo_SystemInfoObject" name="0M-SystemInfo_SystemInfoObject" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-namespace-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if tizen.systeminfo exists - Description: Check if tizen.systeminfo exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if tizen.systeminfo exists - Description: Check if tizen.systeminfo exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-namespace-tizen-tests/namespace/SystemInfo_SystemInfoObject.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0H-0N-SystemSetting_SystemSettingObject" name="0N-SystemSetting_SystemSettingObject" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-namespace-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if tizen.systemsetting exists - Description: Check if tizen.systemsetting exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if tizen.systemsetting exists - Description: Check if tizen.systemsetting exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-namespace-tizen-tests/namespace/SystemSetting_SystemSettingObject.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0H-0O-Time_TimeManagerObject" name="0O-Time_TimeManagerObject" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-namespace-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if tizen.time exists - Description: Check if tizen.time exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if tizen.time exists - Description: Check if tizen.time exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-namespace-tizen-tests/namespace/Time_TimeManagerObject.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0H-0P-Tizen_TizenObject" name="0P-Tizen_TizenObject" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-namespace-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if tizen.exists - Description: Check if tizen.exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if tizen.exists - Description: Check if tizen.exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-namespace-tizen-tests/namespace/Tizen_TizenObject.html</test_script_entry>
+                </description>
+            </testcase>
+        </set>
+    </suite>
+</test_definition>

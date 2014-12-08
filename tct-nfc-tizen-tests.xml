@@ -1,0 +1,889 @@
+<?xml version="1.0"?>
+<test_definition>
+    <suite launcher="xwalk" name="00-common/E0-crosswalk">
+        <set name="common/crosswalk/deviceapi/tct-nfc-tizen-tests">
+            <testcase id="00-E0-01-0J-01-NDEFMessage_toByte_exists" name="01-NDEFMessage_toByte_exists" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if method NDEFMessage::toByte() exists - Description: Check if method NDEFMessage::toByte() exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if method NDEFMessage::toByte() exists - Description: Check if method NDEFMessage::toByte() exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NDEFMessage_toByte_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-02-NFCManager_getDefaultAdapter_exists" name="02-NFCManager_getDefaultAdapter_exists" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if method NFCAdapter::getDefaultAdapter() exists - Description: Check if method NFCAdapter::getDefaultAdapter() exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if method NFCAdapter::getDefaultAdapter() exists - Description: Check if method NFCAdapter::getDefaultAdapter() exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NFCManager_getDefaultAdapter_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-03-ByteArraySuccessCallback_notexist" name="03-ByteArraySuccessCallback_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if interface ByteArraySuccessCallback exists, it should not. - Description: Check if interface ByteArraySuccessCallback exists, it should not.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if interface ByteArraySuccessCallback exists, it should not. - Description: Check if interface ByteArraySuccessCallback exists, it should not.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/ByteArraySuccessCallback_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-04-NDEFMessageReadCallback_notexist" name="04-NDEFMessageReadCallback_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if interface NDEFMessageReadCallback exists, it should not. - Description: Check if interface NDEFMessageReadCallback exists, it should not.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if interface NDEFMessageReadCallback exists, it should not. - Description: Check if interface NDEFMessageReadCallback exists, it should not.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NDEFMessageReadCallback_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-05-NDEFMessage_constructor" name="05-NDEFMessage_constructor" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if NDEFMessage constructor works without arguments - Description: Check if NDEFMessage constructor works without arguments">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NDEFMessage constructor works without arguments - Description: Check if NDEFMessage constructor works without arguments]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NDEFMessage_constructor.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-06-NDEFMessage_constructor_rawData" name="06-NDEFMessage_constructor_rawData" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if NDEFMessage constructor works with rawData - Description: Check if NDEFMessage constructor works with rawData">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NDEFMessage constructor works with rawData - Description: Check if NDEFMessage constructor works with rawData]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NDEFMessage_constructor_rawData.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-07-NDEFMessage_constructor_records" name="07-NDEFMessage_constructor_records" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check NDEFMessage constructor with NDEF records array - Description: Check NDEFMessage constructor with NDEF records array">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check NDEFMessage constructor with NDEF records array - Description: Check NDEFMessage constructor with NDEF records array]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NDEFMessage_constructor_records.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-08-NDEFMessage_exist" name="08-NDEFMessage_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if NDEFMessage exists - Description: Check if NDEFMessage exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NDEFMessage exists - Description: Check if NDEFMessage exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NDEFMessage_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-09-NDEFMessage_extend" name="09-NDEFMessage_extend" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if instance of interface NDEFMessage can be extended with new property - Description: Check if instance of interface NDEFMessage can be extended with new property">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if instance of interface NDEFMessage can be extended with new property - Description: Check if instance of interface NDEFMessage can be extended with new property]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NDEFMessage_extend.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-0A-NDEFMessage_recordCount_attribute" name="0A-NDEFMessage_recordCount_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if attribute NDEFMessage::recordCount exists, has type Number and is readonly - Description: Check if attribute NDEFMessage::recordCount exists, has type Number and is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute NDEFMessage::recordCount exists, has type Number and is readonly - Description: Check if attribute NDEFMessage::recordCount exists, has type Number and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NDEFMessage_recordCount_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-0B-NDEFMessage_records_attribute" name="0B-NDEFMessage_records_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if attribute records of NDEFMessage exists, has type Array, can be overwritten - Description: Check if attribute records of NDEFMessage exists, has type Array, can be overwritten">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute records of NDEFMessage exists, has type Array, can be overwritten - Description: Check if attribute records of NDEFMessage exists, has type Array, can be overwritten]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NDEFMessage_records_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-0C-NDEFMessage_toByte" name="0C-NDEFMessage_toByte" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check whether NDEFMessage:toByte() returns correct byte array of the NDEF message - Description: Check whether NDEFMessage:toByte() returns correct byte array of the NDEF message">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check whether NDEFMessage:toByte() returns correct byte array of the NDEF message - Description: Check whether NDEFMessage:toByte() returns correct byte array of the NDEF message]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NDEFMessage_toByte.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-0D-NDEFMessage_toByte_empty" name="0D-NDEFMessage_toByte_empty" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check whether NDEFMessage::toByte() returns empty array for empty NDEF message - Description: Check whether NDEFMessage::toByte() returns empty array for empty NDEF message">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check whether NDEFMessage::toByte() returns empty array for empty NDEF message - Description: Check whether NDEFMessage::toByte() returns empty array for empty NDEF message]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NDEFMessage_toByte_empty.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-0E-NDEFMessage_toByte_extra_argument" name="0E-NDEFMessage_toByte_extra_argument" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if method toByte of NDEFMessage accepts extra argument - Description: Check if method toByte of NDEFMessage accepts extra argument">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if method toByte of NDEFMessage accepts extra argument - Description: Check if method toByte of NDEFMessage accepts extra argument]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NDEFMessage_toByte_extra_argument.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-0F-NDEFRecordMedia_constructor" name="0F-NDEFRecordMedia_constructor" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if NDEFRecordMedia constructor works - Description: Check if NDEFRecordMedia constructor works">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NDEFRecordMedia constructor works - Description: Check if NDEFRecordMedia constructor works]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NDEFRecordMedia_constructor.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-0G-NDEFRecordMedia_exist" name="0G-NDEFRecordMedia_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if NDEFRecordMedia exists - Description: Check if NDEFRecordMedia exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NDEFRecordMedia exists - Description: Check if NDEFRecordMedia exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NDEFRecordMedia_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-0H-NDEFRecordMedia_extend" name="0H-NDEFRecordMedia_extend" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if instance of interface NDEFRecordMedia can be extended with new property - Description: Check if instance of interface NDEFRecordMedia can be extended with new property">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if instance of interface NDEFRecordMedia can be extended with new property - Description: Check if instance of interface NDEFRecordMedia can be extended with new property]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NDEFRecordMedia_extend.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-0I-NDEFRecordMedia_id_attribute" name="0I-NDEFRecordMedia_id_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if attribute id of NDEFRecordMedia exists, has type Array and is readonly - Description: Check if attribute id of NDEFRecordMedia exists, has type Array and is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute id of NDEFRecordMedia exists, has type Array and is readonly - Description: Check if attribute id of NDEFRecordMedia exists, has type Array and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NDEFRecordMedia_id_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-0J-NDEFRecordMedia_mimeType_attribute" name="0J-NDEFRecordMedia_mimeType_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if attribute mimeType of NDEFRecordMedia exists, has type DOMString and is readonly - Description: Check if attribute mimeType of NDEFRecordMedia exists, has type DOMString and is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute mimeType of NDEFRecordMedia exists, has type DOMString and is readonly - Description: Check if attribute mimeType of NDEFRecordMedia exists, has type DOMString and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NDEFRecordMedia_mimeType_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-0K-NDEFRecordMedia_payload_attribute" name="0K-NDEFRecordMedia_payload_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if attribute payload of NDEFRecordMedia exists, has type Array and is readonly - Description: Check if attribute payload of NDEFRecordMedia exists, has type Array and is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute payload of NDEFRecordMedia exists, has type Array and is readonly - Description: Check if attribute payload of NDEFRecordMedia exists, has type Array and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NDEFRecordMedia_payload_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-0L-NDEFRecordMedia_tnf_attribute" name="0L-NDEFRecordMedia_tnf_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if attribute tnf of NDEFRecordMedia exists, has type short and is readonly - Description: Check if attribute tnf of NDEFRecordMedia exists, has type short and is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute tnf of NDEFRecordMedia exists, has type short and is readonly - Description: Check if attribute tnf of NDEFRecordMedia exists, has type short and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NDEFRecordMedia_tnf_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-0M-NDEFRecordMedia_type_attribute" name="0M-NDEFRecordMedia_type_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if attribute type of NDEFRecordMedia exists, has type Array and is readonly - Description: Check if attribute type of NDEFRecordMedia exists, has type Array and is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute type of NDEFRecordMedia exists, has type Array and is readonly - Description: Check if attribute type of NDEFRecordMedia exists, has type Array and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NDEFRecordMedia_type_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-0N-NDEFRecordText_constructor" name="0N-NDEFRecordText_constructor" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if NDEFRecordText constructor works - Description: Check if NDEFRecordText constructor works">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NDEFRecordText constructor works - Description: Check if NDEFRecordText constructor works]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NDEFRecordText_constructor.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-0O-NDEFRecordText_constructor_encoding_UTF16" name="0O-NDEFRecordText_constructor_encoding_UTF16" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if NDEFRecordText constructor called with UTF16 encoding works - Description: Check if NDEFRecordText constructor called with UTF16 encoding works">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NDEFRecordText constructor called with UTF16 encoding works - Description: Check if NDEFRecordText constructor called with UTF16 encoding works]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NDEFRecordText_constructor_encoding_UTF16.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-0P-NDEFRecordText_constructor_encoding_UTF8" name="0P-NDEFRecordText_constructor_encoding_UTF8" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if NDEFRecordText constructor called with UTF8 encoding works - Description: Check if NDEFRecordText constructor called with UTF8 encoding works">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NDEFRecordText constructor called with UTF8 encoding works - Description: Check if NDEFRecordText constructor called with UTF8 encoding works]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NDEFRecordText_constructor_encoding_UTF8.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-0Q-NDEFRecordText_encoding_attribute" name="0Q-NDEFRecordText_encoding_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if attribute encoding of NDEFRecordText exists, has type NDEFRecordTextEncoding and is readonly - Description: Check if attribute encoding of NDEFRecordText exists, has type NDEFRecordTextEncoding and is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute encoding of NDEFRecordText exists, has type NDEFRecordTextEncoding and is readonly - Description: Check if attribute encoding of NDEFRecordText exists, has type NDEFRecordTextEncoding and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NDEFRecordText_encoding_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-0R-NDEFRecordText_exist" name="0R-NDEFRecordText_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if NDEFRecordText exists - Description: Check if NDEFRecordText exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NDEFRecordText exists - Description: Check if NDEFRecordText exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NDEFRecordText_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-0S-NDEFRecordText_extend" name="0S-NDEFRecordText_extend" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if instance of interface NDEFRecordText can be extended with new property - Description: Check if instance of interface NDEFRecordText can be extended with new property">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if instance of interface NDEFRecordText can be extended with new property - Description: Check if instance of interface NDEFRecordText can be extended with new property]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NDEFRecordText_extend.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-0T-NDEFRecordText_id_attribute" name="0T-NDEFRecordText_id_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if attribute id of NDEFRecordText exists, has type Array and is readonly - Description: Check if attribute id of NDEFRecordText exists, has type Array and is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute id of NDEFRecordText exists, has type Array and is readonly - Description: Check if attribute id of NDEFRecordText exists, has type Array and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NDEFRecordText_id_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-0U-NDEFRecordText_languageCode_attribute" name="0U-NDEFRecordText_languageCode_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if attribute languageCode of NDEFRecordText exists, has type DOMString and is readonly - Description: Check if attribute languageCode of NDEFRecordText exists, has type DOMString and is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute languageCode of NDEFRecordText exists, has type DOMString and is readonly - Description: Check if attribute languageCode of NDEFRecordText exists, has type DOMString and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NDEFRecordText_languageCode_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-0V-NDEFRecordText_payload_attribute" name="0V-NDEFRecordText_payload_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if attribute payload of NDEFRecordText exists, has type Array and is readonly - Description: Check if attribute payload of NDEFRecordText exists, has type Array and is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute payload of NDEFRecordText exists, has type Array and is readonly - Description: Check if attribute payload of NDEFRecordText exists, has type Array and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NDEFRecordText_payload_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-0W-NDEFRecordText_text_attribute" name="0W-NDEFRecordText_text_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if attribute text of NDEFRecordText exists, has type DOMString and is readonly - Description: Check if attribute text of NDEFRecordText exists, has type DOMString and is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute text of NDEFRecordText exists, has type DOMString and is readonly - Description: Check if attribute text of NDEFRecordText exists, has type DOMString and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NDEFRecordText_text_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-0X-NDEFRecordText_tnf_attribute" name="0X-NDEFRecordText_tnf_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if attribute tnf of NDEFRecordText exists, has type short and is readonly - Description: Check if attribute tnf of NDEFRecordText exists, has type short and is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute tnf of NDEFRecordText exists, has type short and is readonly - Description: Check if attribute tnf of NDEFRecordText exists, has type short and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NDEFRecordText_tnf_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-0Y-NDEFRecordText_type_attribute" name="0Y-NDEFRecordText_type_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if attribute type of NDEFRecordText exists, has type Array and is readonly - Description: Check if attribute type of NDEFRecordText exists, has type Array and is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute type of NDEFRecordText exists, has type Array and is readonly - Description: Check if attribute type of NDEFRecordText exists, has type Array and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NDEFRecordText_type_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-0Z-NDEFRecordURI_constructor" name="0Z-NDEFRecordURI_constructor" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if NDEFRecordURI constructor works - Description: Check if NDEFRecordURI constructor works">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NDEFRecordURI constructor works - Description: Check if NDEFRecordURI constructor works]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NDEFRecordURI_constructor.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-10-NDEFRecordURI_exist" name="10-NDEFRecordURI_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if NDEFRecordURI exists - Description: Check if NDEFRecordURI exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NDEFRecordURI exists - Description: Check if NDEFRecordURI exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NDEFRecordURI_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-11-NDEFRecordURI_extend" name="11-NDEFRecordURI_extend" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if instance of interface NDEFRecordURI can be extended with new property - Description: Check if instance of interface NDEFRecordURI can be extended with new property">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if instance of interface NDEFRecordURI can be extended with new property - Description: Check if instance of interface NDEFRecordURI can be extended with new property]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NDEFRecordURI_extend.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-12-NDEFRecordURI_id_attribute" name="12-NDEFRecordURI_id_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if attribute id of NDEFRecordURI exists, has type Array and is readonly - Description: Check if attribute id of NDEFRecordURI exists, has type Array and is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute id of NDEFRecordURI exists, has type Array and is readonly - Description: Check if attribute id of NDEFRecordURI exists, has type Array and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NDEFRecordURI_id_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-13-NDEFRecordURI_payload_attribute" name="13-NDEFRecordURI_payload_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if attribute payload of NDEFRecordURI exists, has type Array and is readonly - Description: Check if attribute payload of NDEFRecordURI exists, has type Array and is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute payload of NDEFRecordURI exists, has type Array and is readonly - Description: Check if attribute payload of NDEFRecordURI exists, has type Array and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NDEFRecordURI_payload_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-14-NDEFRecordURI_tnf_attribute" name="14-NDEFRecordURI_tnf_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if attribute tnf of NDEFRecordURI exists, has type short and is readonly - Description: Check if attribute tnf of NDEFRecordURI exists, has type short and is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute tnf of NDEFRecordURI exists, has type short and is readonly - Description: Check if attribute tnf of NDEFRecordURI exists, has type short and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NDEFRecordURI_tnf_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-15-NDEFRecordURI_type_attribute" name="15-NDEFRecordURI_type_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if attribute type of NDEFRecordURI exists, has type Array and is readonly - Description: Check if attribute type of NDEFRecordURI exists, has type Array and is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute type of NDEFRecordURI exists, has type Array and is readonly - Description: Check if attribute type of NDEFRecordURI exists, has type Array and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NDEFRecordURI_type_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-16-NDEFRecordURI_uri_attribute" name="16-NDEFRecordURI_uri_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if attribute uri of NDEFRecordURI exists, has type DOMString and is readonly - Description: Check if attribute uri of NDEFRecordURI exists, has type DOMString and is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute uri of NDEFRecordURI exists, has type DOMString and is readonly - Description: Check if attribute uri of NDEFRecordURI exists, has type DOMString and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NDEFRecordURI_uri_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-17-NDEFRecord_constructor" name="17-NDEFRecord_constructor" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if NDEFRecord constructor works - Description: Check if NDEFRecord constructor works">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NDEFRecord constructor works - Description: Check if NDEFRecord constructor works]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NDEFRecord_constructor.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-18-NDEFRecord_constructor_raw_data" name="18-NDEFRecord_constructor_raw_data" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if new tizen.NDEFRecord(raw_data) works - Description: Check if new tizen.NDEFRecord(raw_data) works">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if new tizen.NDEFRecord(raw_data) works - Description: Check if new tizen.NDEFRecord(raw_data) works]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NDEFRecord_constructor_raw_data.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-19-NDEFRecord_constructor_tnf" name="19-NDEFRecord_constructor_tnf" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check NDEFRecord constructor with all parameters - Description: Check NDEFRecord constructor with all parameters">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check NDEFRecord constructor with all parameters - Description: Check NDEFRecord constructor with all parameters]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NDEFRecord_constructor_tnf.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-1A-NDEFRecord_constructor_tnf_with_id" name="1A-NDEFRecord_constructor_tnf_with_id" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check NDEFRecord constructor with only mandatory parameters - Description: Check NDEFRecord constructor with only mandatory parameters">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check NDEFRecord constructor with only mandatory parameters - Description: Check NDEFRecord constructor with only mandatory parameters]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NDEFRecord_constructor_tnf_with_id.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-1B-NDEFRecord_exist" name="1B-NDEFRecord_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if NDEFRecord exists - Description: Check if NDEFRecord exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NDEFRecord exists - Description: Check if NDEFRecord exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NDEFRecord_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-1C-NDEFRecord_extend" name="1C-NDEFRecord_extend" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if instance of interface NDEFRecord can be extended with new property - Description: Check if instance of interface NDEFRecord can be extended with new property">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if instance of interface NDEFRecord can be extended with new property - Description: Check if instance of interface NDEFRecord can be extended with new property]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NDEFRecord_extend.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-1D-NDEFRecord_id_attribute" name="1D-NDEFRecord_id_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if attribute id of NDEFRecord exists, has type Array and is readonly - Description: Check if attribute id of NDEFRecord exists, has type Array and is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute id of NDEFRecord exists, has type Array and is readonly - Description: Check if attribute id of NDEFRecord exists, has type Array and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NDEFRecord_id_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-1E-NDEFRecord_payload_attribute" name="1E-NDEFRecord_payload_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if attribute payload of NDEFRecord exists, has type Array and is readonly - Description: Check if attribute payload of NDEFRecord exists, has type Array and is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute payload of NDEFRecord exists, has type Array and is readonly - Description: Check if attribute payload of NDEFRecord exists, has type Array and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NDEFRecord_payload_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-1F-NDEFRecord_tnf_attribute" name="1F-NDEFRecord_tnf_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if attribute tnf of NDEFRecord exists, has type short and is readonly - Description: Check if attribute tnf of NDEFRecord exists, has type short and is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute tnf of NDEFRecord exists, has type short and is readonly - Description: Check if attribute tnf of NDEFRecord exists, has type short and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NDEFRecord_tnf_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-1G-NDEFRecord_type_attribute" name="1G-NDEFRecord_type_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if attribute type of NDEFRecord exists, has type Array and is readonly - Description: Check if attribute type of NDEFRecord exists, has type Array and is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute type of NDEFRecord exists, has type Array and is readonly - Description: Check if attribute type of NDEFRecord exists, has type Array and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NDEFRecord_type_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-1H-NFCAdapter_extend" name="1H-NFCAdapter_extend" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if instance of interface NFCAdapter can be extended with new property - Description: Check if instance of interface NFCAdapter can be extended with new property">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if instance of interface NFCAdapter can be extended with new property - Description: Check if instance of interface NFCAdapter can be extended with new property]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NFCAdapter_extend.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-1I-NFCAdapter_getCachedMessage" name="1I-NFCAdapter_getCachedMessage" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if method getCachedMessage of NFCAdapter works - Description: Check if method getCachedMessage of NFCAdapter works">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if method getCachedMessage of NFCAdapter works - Description: Check if method getCachedMessage of NFCAdapter works]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NFCAdapter_getCachedMessage.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-1J-NFCAdapter_getCachedMessage_extra_argument" name="1J-NFCAdapter_getCachedMessage_extra_argument" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if method getCachedMessage of NFCAdapter accepts extra argument - Description: Check if method getCachedMessage of NFCAdapter accepts extra argument">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if method getCachedMessage of NFCAdapter accepts extra argument - Description: Check if method getCachedMessage of NFCAdapter accepts extra argument]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NFCAdapter_getCachedMessage_extra_argument.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-1K-NFCAdapter_notexist" name="1K-NFCAdapter_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if interface NFCAdapter exists, it should not. - Description: Check if interface NFCAdapter exists, it should not.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if interface NFCAdapter exists, it should not. - Description: Check if interface NFCAdapter exists, it should not.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NFCAdapter_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-1L-NFCAdapter_powered_attribute" name="1L-NFCAdapter_powered_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if attribute powered of NFCAdapter exists, has type Boolean and is readonly - Description: Check if attribute powered of NFCAdapter exists, has type Boolean and is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute powered of NFCAdapter exists, has type Boolean and is readonly - Description: Check if attribute powered of NFCAdapter exists, has type Boolean and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NFCAdapter_powered_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-1M-NFCAdapter_setPeerListener_detectCallback_TypeMismatch" name="1M-NFCAdapter_setPeerListener_detectCallback_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if NFCAdapter::setPeerListener throws exception when given wrong detectCallback - Description: Check if NFCAdapter::setPeerListener throws exception when given wrong detectCallback">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NFCAdapter::setPeerListener throws exception when given wrong detectCallback - Description: Check if NFCAdapter::setPeerListener throws exception when given wrong detectCallback]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NFCAdapter_setPeerListener_detectCallback_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-1N-NFCAdapter_setPeerListener_detectCallback_invalid_cb" name="1N-NFCAdapter_setPeerListener_detectCallback_invalid_cb" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check verification of detectCallback by NFCAdapter::setPeerListener() - Description: Check verification of detectCallback by NFCAdapter::setPeerListener()" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check verification of detectCallback by NFCAdapter::setPeerListener() - Description: Check verification of detectCallback by NFCAdapter::setPeerListener()]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NFCAdapter_setPeerListener_detectCallback_invalid_cb.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-1O-NFCAdapter_setPeerListener_missarg" name="1O-NFCAdapter_setPeerListener_missarg" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if adapter.setPeerListener() throws an exception when called without argument - Description: Check if adapter.setPeerListener() throws an exception when called without argument">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if adapter.setPeerListener() throws an exception when called without argument - Description: Check if adapter.setPeerListener() throws an exception when called without argument]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NFCAdapter_setPeerListener_missarg.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-1P-NFCAdapter_setPowered_errorCallback_TypeMismatch" name="1P-NFCAdapter_setPowered_errorCallback_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check NFCAdapter.setPowered() argument errorCallback conversions exception - Description: Check NFCAdapter.setPowered() argument errorCallback conversions exception">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check NFCAdapter.setPowered() argument errorCallback conversions exception - Description: Check NFCAdapter.setPowered() argument errorCallback conversions exception]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NFCAdapter_setPowered_errorCallback_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-1Q-NFCAdapter_setPowered_errorCallback_invalid_cb" name="1Q-NFCAdapter_setPowered_errorCallback_invalid_cb" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check NFCAdapter::setPowered() argument errorCallback validation - object with onerror property - Description: Check NFCAdapter::setPowered() argument errorCallback validation - object with onerror property" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check NFCAdapter::setPowered() argument errorCallback validation - object with onerror property - Description: Check NFCAdapter::setPowered() argument errorCallback validation - object with onerror property]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NFCAdapter_setPowered_errorCallback_invalid_cb.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-1R-NFCAdapter_setPowered_successCallback_TypeMismatch" name="1R-NFCAdapter_setPowered_successCallback_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check NFCAdapter.setPowered() argument successCallback conversions exception - Description: Check NFCAdapter.setPowered() argument successCallback conversions exception">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check NFCAdapter.setPowered() argument successCallback conversions exception - Description: Check NFCAdapter.setPowered() argument successCallback conversions exception]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NFCAdapter_setPowered_successCallback_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-1S-NFCAdapter_setPowered_successCallback_invalid_cb" name="1S-NFCAdapter_setPowered_successCallback_invalid_cb" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check NFCAdapter::setPowered() argument successCallback validation - object with onerror property - Description: Check NFCAdapter::setPowered() argument successCallback validation - object with onerror property" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check NFCAdapter::setPowered() argument successCallback validation - object with onerror property - Description: Check NFCAdapter::setPowered() argument successCallback validation - object with onerror property]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NFCAdapter_setPowered_successCallback_invalid_cb.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-1T-NFCAdapter_setPowered_without_errorCallback" name="1T-NFCAdapter_setPowered_without_errorCallback" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check NFCAdapter::setPowered() optional argument errorCallback - call without it - Description: Check NFCAdapter::setPowered() optional argument errorCallback - call without it" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check NFCAdapter::setPowered() optional argument errorCallback - call without it - Description: Check NFCAdapter::setPowered() optional argument errorCallback - call without it]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NFCAdapter_setPowered_without_errorCallback.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-1U-NFCAdapter_setPowered_without_successCallback" name="1U-NFCAdapter_setPowered_without_successCallback" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check NFCAdapter::setPowered() optional argument without successCallback - call without it - Description: Check NFCAdapter::setPowered() optional argument without successCallback - call without it" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check NFCAdapter::setPowered() optional argument without successCallback - call without it - Description: Check NFCAdapter::setPowered() optional argument without successCallback - call without it]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NFCAdapter_setPowered_without_successCallback.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-1V-NFCAdapter_setTagListener_detectCallback_TypeMismatch" name="1V-NFCAdapter_setTagListener_detectCallback_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if NFCAdapter::setTagListener throws exception when given wrong detectCallback - Description: Check if NFCAdapter::setTagListener throws exception when given wrong detectCallback">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NFCAdapter::setTagListener throws exception when given wrong detectCallback - Description: Check if NFCAdapter::setTagListener throws exception when given wrong detectCallback]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NFCAdapter_setTagListener_detectCallback_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-1W-NFCAdapter_setTagListener_detectCallback_invalid_cb" name="1W-NFCAdapter_setTagListener_detectCallback_invalid_cb" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check verification of detectCallback by NFCAdapter::setTagListener() - Description: Check verification of detectCallback by NFCAdapter::setTagListener()" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check verification of detectCallback by NFCAdapter::setTagListener() - Description: Check verification of detectCallback by NFCAdapter::setTagListener()]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NFCAdapter_setTagListener_detectCallback_invalid_cb.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-1X-NFCAdapter_setTagListener_missarg" name="1X-NFCAdapter_setTagListener_missarg" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if adapter.setTagListener() throws an exception - Description: Check if adapter.setTagListener() throws an exception">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if adapter.setTagListener() throws an exception - Description: Check if adapter.setTagListener() throws an exception]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NFCAdapter_setTagListener_missarg.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-1Y-NFCAdapter_setTagListener_tagFilter_TypeMismatch" name="1Y-NFCAdapter_setTagListener_tagFilter_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if TypeMismatchError is thrown when NFCAdapter::setTagListener() is given wrong tagFilter - Description: Check if TypeMismatchError is thrown when NFCAdapter::setTagListener() is given wrong tagFilter" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if TypeMismatchError is thrown when NFCAdapter::setTagListener() is given wrong tagFilter - Description: Check if TypeMismatchError is thrown when NFCAdapter::setTagListener() is given wrong tagFilter]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NFCAdapter_setTagListener_tagFilter_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-1Z-NFCAdapter_unsetPeerListener_extra_argument" name="1Z-NFCAdapter_unsetPeerListener_extra_argument" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if method unsetPeerListener of NFCAdapter accepts extra argument - Description: Check if method unsetPeerListener of NFCAdapter accepts extra argument">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if method unsetPeerListener of NFCAdapter accepts extra argument - Description: Check if method unsetPeerListener of NFCAdapter accepts extra argument]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NFCAdapter_unsetPeerListener_extra_argument.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-20-NFCAdapter_unsetTagListener_extra_argument" name="20-NFCAdapter_unsetTagListener_extra_argument" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if method unsetTagListener of NFCAdapter accepts extra argument - Description: Check if method unsetTagListener of NFCAdapter accepts extra argument">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if method unsetTagListener of NFCAdapter accepts extra argument - Description: Check if method unsetTagListener of NFCAdapter accepts extra argument]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NFCAdapter_unsetTagListener_extra_argument.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-21-NFCManagerObject_notexist" name="21-NFCManagerObject_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if interface NFCManagerObject exists, it should not. - Description: Check if interface NFCManagerObject exists, it should not.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if interface NFCManagerObject exists, it should not. - Description: Check if interface NFCManagerObject exists, it should not.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NFCManagerObject_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-22-NFCManager_NFC_RECORD_TNF_EMPTY_const" name="22-NFCManager_NFC_RECORD_TNF_EMPTY_const" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if NFCManager has constant NFC_RECORD_TNF_EMPTY and its value is 0 - Description: Check if NFCManager has constant NFC_RECORD_TNF_EMPTY and its value is 0">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NFCManager has constant NFC_RECORD_TNF_EMPTY and its value is 0 - Description: Check if NFCManager has constant NFC_RECORD_TNF_EMPTY and its value is 0]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NFCManager_NFC_RECORD_TNF_EMPTY_const.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-23-NFCManager_NFC_RECORD_TNF_EXTERNAL_RTD_const" name="23-NFCManager_NFC_RECORD_TNF_EXTERNAL_RTD_const" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if NFCManager has constant NFC_RECORD_TNF_EXTERNAL_RTD and its value is 4 - Description: Check if NFCManager has constant NFC_RECORD_TNF_EXTERNAL_RTD and its value is 4">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NFCManager has constant NFC_RECORD_TNF_EXTERNAL_RTD and its value is 4 - Description: Check if NFCManager has constant NFC_RECORD_TNF_EXTERNAL_RTD and its value is 4]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NFCManager_NFC_RECORD_TNF_EXTERNAL_RTD_const.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-24-NFCManager_NFC_RECORD_TNF_MIME_MEDIA_const" name="24-NFCManager_NFC_RECORD_TNF_MIME_MEDIA_const" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if NFCManager has constant NFC_RECORD_TNF_MIME_MEDIA and its value is 2 - Description: Check if NFCManager has constant NFC_RECORD_TNF_MIME_MEDIA and its value is 2">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NFCManager has constant NFC_RECORD_TNF_MIME_MEDIA and its value is 2 - Description: Check if NFCManager has constant NFC_RECORD_TNF_MIME_MEDIA and its value is 2]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NFCManager_NFC_RECORD_TNF_MIME_MEDIA_const.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-25-NFCManager_NFC_RECORD_TNF_UNCHANGED_const" name="25-NFCManager_NFC_RECORD_TNF_UNCHANGED_const" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if NFCManager has constant NFC_RECORD_TNF_UNCHANGED and its value is 6 - Description: Check if NFCManager has constant NFC_RECORD_TNF_UNCHANGED and its value is 6">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NFCManager has constant NFC_RECORD_TNF_UNCHANGED and its value is 6 - Description: Check if NFCManager has constant NFC_RECORD_TNF_UNCHANGED and its value is 6]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NFCManager_NFC_RECORD_TNF_UNCHANGED_const.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-26-NFCManager_NFC_RECORD_TNF_UNKNOWN_const" name="26-NFCManager_NFC_RECORD_TNF_UNKNOWN_const" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if NFCManager has constant NFC_RECORD_TNF_UNKNOWN and its value is 5 - Description: Check if NFCManager has constant NFC_RECORD_TNF_UNKNOWN and its value is 5">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NFCManager has constant NFC_RECORD_TNF_UNKNOWN and its value is 5 - Description: Check if NFCManager has constant NFC_RECORD_TNF_UNKNOWN and its value is 5]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NFCManager_NFC_RECORD_TNF_UNKNOWN_const.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-27-NFCManager_NFC_RECORD_TNF_URI_const" name="27-NFCManager_NFC_RECORD_TNF_URI_const" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if NFCManager has constant NFC_RECORD_TNF_URI and its value is 3 - Description: Check if NFCManager has constant NFC_RECORD_TNF_URI and its value is 3">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NFCManager has constant NFC_RECORD_TNF_URI and its value is 3 - Description: Check if NFCManager has constant NFC_RECORD_TNF_URI and its value is 3]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NFCManager_NFC_RECORD_TNF_URI_const.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-28-NFCManager_NFC_RECORD_TNF_WELL_KNOWN_const" name="28-NFCManager_NFC_RECORD_TNF_WELL_KNOWN_const" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if NFCManager has constant NFC_RECORD_TNF_WELL_KNOWN and its value is 1 - Description: Check if NFCManager has constant NFC_RECORD_TNF_WELL_KNOWN and its value is 1">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NFCManager has constant NFC_RECORD_TNF_WELL_KNOWN and its value is 1 - Description: Check if NFCManager has constant NFC_RECORD_TNF_WELL_KNOWN and its value is 1]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NFCManager_NFC_RECORD_TNF_WELL_KNOWN_const.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-29-NFCManager_extend" name="29-NFCManager_extend" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Test whether the NFCManager object can have new properties added - Description: Test whether the NFCManager object can have new properties added">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test whether the NFCManager object can have new properties added - Description: Test whether the NFCManager object can have new properties added]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NFCManager_extend.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-2A-NFCManager_getDefaultAdapter" name="2A-NFCManager_getDefaultAdapter" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if NFCManager::getDefaultAdapter() method returns object - Description: Check if NFCManager::getDefaultAdapter() method returns object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NFCManager::getDefaultAdapter() method returns object - Description: Check if NFCManager::getDefaultAdapter() method returns object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NFCManager_getDefaultAdapter.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-2B-NFCManager_getDefaultAdapter_extra_argument" name="2B-NFCManager_getDefaultAdapter_extra_argument" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if method getDefaultAdapter of NFCManager accepts extra argument - Description: Check if method getDefaultAdapter of NFCManager accepts extra argument">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if method getDefaultAdapter of NFCManager accepts extra argument - Description: Check if method getDefaultAdapter of NFCManager accepts extra argument]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NFCManager_getDefaultAdapter_extra_argument.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-2C-NFCManager_notexist" name="2C-NFCManager_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if interface NFCManager exists, it should not. - Description: Check if interface NFCManager exists, it should not.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if interface NFCManager exists, it should not. - Description: Check if interface NFCManager exists, it should not.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NFCManager_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-2D-NFCPeerDetectCallback_notexist" name="2D-NFCPeerDetectCallback_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if interface NFCPeerDetectCallback exists, it should not. - Description: Check if interface NFCPeerDetectCallback exists, it should not.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if interface NFCPeerDetectCallback exists, it should not. - Description: Check if interface NFCPeerDetectCallback exists, it should not.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NFCPeerDetectCallback_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-2E-NFCPeer_notexist" name="2E-NFCPeer_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if interface NFCPeer exists, it should not. - Description: Check if interface NFCPeer exists, it should not.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if interface NFCPeer exists, it should not. - Description: Check if interface NFCPeer exists, it should not.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NFCPeer_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-2F-NFCTagDetectCallback_notexist" name="2F-NFCTagDetectCallback_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if interface NFCTagDetectCallback exists, it should not. - Description: Check if interface NFCTagDetectCallback exists, it should not.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if interface NFCTagDetectCallback exists, it should not. - Description: Check if interface NFCTagDetectCallback exists, it should not.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NFCTagDetectCallback_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-2G-NFCTag_notexist" name="2G-NFCTag_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if interface NFCTag exists, it should not. - Description: Check if interface NFCTag exists, it should not.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if interface NFCTag exists, it should not. - Description: Check if interface NFCTag exists, it should not.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NFCTag_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-2H-Tizen_nfc_exist" name="2H-Tizen_nfc_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if Tizen implements interface NFCManagerObject and has attribute nfc - Description: Check if Tizen implements interface NFCManagerObject and has attribute nfc">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Tizen implements interface NFCManagerObject and has attribute nfc - Description: Check if Tizen implements interface NFCManagerObject and has attribute nfc]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/Tizen_nfc_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-2I-NFCManager_setExclusiveMode" name="2I-NFCManager_setExclusiveMode" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if NFCManager::setExclusiveMode() method can be executed - Description: Check if NFCManager::setExclusiveMode() method can be executed">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NFCManager::setExclusiveMode() method can be executed - Description: Check if NFCManager::setExclusiveMode() method can be executed]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NFCManager_setExclusiveMode.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-2J-NFCManager_setExclusiveMode_exist" name="2J-NFCManager_setExclusiveMode_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if NFCManager object has method setExclusiveMode() - Description: Check if NFCManager object has method setExclusiveMode()">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NFCManager object has method setExclusiveMode() - Description: Check if NFCManager object has method setExclusiveMode()]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NFCManager_setExclusiveMode_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-2K-NFCAdapter_getCachedMessage_exist" name="2K-NFCAdapter_getCachedMessage_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if method NFCAdapter::getCachedMessage() exists - Description: Check if method NFCAdapter::getCachedMessage() exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if method NFCAdapter::getCachedMessage() exists - Description: Check if method NFCAdapter::getCachedMessage() exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NFCAdapter_getCachedMessage_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-2L-NFCAdapter_setPeerListener_exist" name="2L-NFCAdapter_setPeerListener_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if method NFCAdapter::setPeerListener() exists - Description: Check if method NFCAdapter::setPeerListener() exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if method NFCAdapter::setPeerListener() exists - Description: Check if method NFCAdapter::setPeerListener() exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NFCAdapter_setPeerListener_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-2M-NFCAdapter_setPowered_exist" name="2M-NFCAdapter_setPowered_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if method NFCAdapter::setPowered() exists - Description: Check if method NFCAdapter::setPowered() exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if method NFCAdapter::setPowered() exists - Description: Check if method NFCAdapter::setPowered() exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NFCAdapter_setPowered_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-2N-NFCAdapter_setTagListener_exist" name="2N-NFCAdapter_setTagListener_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if NFCAdapter::setTagListener() method exists - Description: Check if NFCAdapter::setTagListener() method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NFCAdapter::setTagListener() method exists - Description: Check if NFCAdapter::setTagListener() method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NFCAdapter_setTagListener_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-2O-NFCAdapter_unsetPeerListener_exist" name="2O-NFCAdapter_unsetPeerListener_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if method NFCAdapter::unsetPeerListener() exists - Description: Check if method NFCAdapter::unsetPeerListener() exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if method NFCAdapter::unsetPeerListener() exists - Description: Check if method NFCAdapter::unsetPeerListener() exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NFCAdapter_unsetPeerListener_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-2P-NFCAdapter_unsetTagListener_exist" name="2P-NFCAdapter_unsetTagListener_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if method NFCAdapter::unsetTagListener() method exists - Description: Check if method NFCAdapter::unsetTagListener() method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if method NFCAdapter::unsetTagListener() method exists - Description: Check if method NFCAdapter::unsetTagListener() method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NFCAdapter_unsetTagListener_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0J-2Q-NDEFMessage_toByte_TypeMismatch" name="2Q-NDEFMessage_toByte_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-nfc-tizen-tests" status="designed" type="compliance" purpose="Objective: Check whether NDEFMessage:toByte() throws exception when NDEFMessage.records contains invalid object - Description: Check whether NDEFMessage:toByte() throws exception when NDEFMessage.records contains invalid object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check whether NDEFMessage:toByte() throws exception when NDEFMessage.records contains invalid object - Description: Check whether NDEFMessage:toByte() throws exception when NDEFMessage.records contains invalid object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-nfc-tizen-tests/nfc/NDEFMessage_toByte_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+        </set>
+    </suite>
+</test_definition>

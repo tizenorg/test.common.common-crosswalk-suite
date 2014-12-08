@@ -1,0 +1,457 @@
+<?xml version="1.0"?>
+<test_definition>
+    <suite launcher="xwalk" name="00-common/E0-crosswalk">
+        <set name="common/crosswalk/commonapi/webapi-nfc-w3c-tests">
+            <testcase id="00-E0-00-26-01-Navigator_nfc_attribute" name="01-Navigator_nfc_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-nfc-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if Navigator have nfc attribute with proper type and is readonly - Description: Check if Navigator have nfc attribute with proper type and is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Navigator have nfc attribute with proper type and is readonly - Description: Check if Navigator have nfc attribute with proper type and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-nfc-w3c-tests/nfc/Navigator_nfc_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-26-02-NDEFMessage_constructor_bytes" name="02-NDEFMessage_constructor_bytes" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-nfc-w3c-tests" status="designed" type="compliance" purpose="Objective: Check NDEFMessage constructor works with byte array - Description: Check NDEFMessage constructor works with byte array">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check NDEFMessage constructor works with byte array - Description: Check NDEFMessage constructor works with byte array]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-nfc-w3c-tests/nfc/NDEFMessage_constructor_bytes.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-26-03-NDEFMessage_constructor_records" name="03-NDEFMessage_constructor_records" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-nfc-w3c-tests" status="designed" type="compliance" purpose="Objective: Check NDEFMessage constructor works with NDEF records array - Description: Check NDEFMessage constructor works with NDEF records array">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check NDEFMessage constructor works with NDEF records array - Description: Check NDEFMessage constructor works with NDEF records array]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-nfc-w3c-tests/nfc/NDEFMessage_constructor_records.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-26-04-NDEFMessage_getBytes" name="04-NDEFMessage_getBytes" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-nfc-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if NDEFMessage::getBytes() exists - Description: Check if NDEFMessage::getBytes() exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NDEFMessage::getBytes() exists - Description: Check if NDEFMessage::getBytes() exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-nfc-w3c-tests/nfc/NDEFMessage_getBytes.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-26-05-NDEFMessage_records_attribute" name="05-NDEFMessage_records_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-nfc-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if attribute records of NDEFMessage exists, has type Array and is readonly - Description: Check if attribute records of NDEFMessage exists, has type Array and is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute records of NDEFMessage exists, has type Array and is readonly - Description: Check if attribute records of NDEFMessage exists, has type Array and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-nfc-w3c-tests/nfc/NDEFMessage_records_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-26-06-NDEFRecord_constructor_tnf" name="06-NDEFRecord_constructor_tnf" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-nfc-w3c-tests" status="designed" type="compliance" purpose="Objective: Check NDEFRecord constructor works with byte tnf parameter - Description: Check NDEFRecord constructor works with byte tnf parameter">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check NDEFRecord constructor works with byte tnf parameter - Description: Check NDEFRecord constructor works with byte tnf parameter]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-nfc-w3c-tests/nfc/NDEFRecord_constructor_tnf.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-26-07-NDEFRecord_constructor_tnf_type" name="07-NDEFRecord_constructor_tnf_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-nfc-w3c-tests" status="designed" type="compliance" purpose="Objective: Check NDEFRecord constructor works with byte tnf, DOMString type parameters - Description: Check NDEFRecord constructor works with byte tnf, DOMString type parameters">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check NDEFRecord constructor works with byte tnf, DOMString type parameters - Description: Check NDEFRecord constructor works with byte tnf, DOMString type parameters]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-nfc-w3c-tests/nfc/NDEFRecord_constructor_tnf_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-26-08-NDEFRecord_constructor_tnf_type_payload" name="08-NDEFRecord_constructor_tnf_type_payload" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-nfc-w3c-tests" status="designed" type="compliance" purpose="Objective: Check NDEFRecord constructor works with byte tnf, DOMString type, byte [] payload parameters - Description: Check NDEFRecord constructor works with byte tnf, DOMString type, byte [] payload parameters">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check NDEFRecord constructor works with byte tnf, DOMString type, byte [] payload parameters - Description: Check NDEFRecord constructor works with byte tnf, DOMString type, byte [] payload parameters]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-nfc-w3c-tests/nfc/NDEFRecord_constructor_tnf_type_payload.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-26-09-NDEFRecord_constructor_tnf_type_payload_id" name="09-NDEFRecord_constructor_tnf_type_payload_id" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-nfc-w3c-tests" status="designed" type="compliance" purpose="Objective: Check NDEFRecord constructor works with byte tnf, DOMString type, byte [] payload, DOMString id parameters - Description: Check NDEFRecord constructor works with byte tnf, DOMString type, byte [] payload, DOMString id parameters">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check NDEFRecord constructor works with byte tnf, DOMString type, byte [] payload, DOMString id parameters - Description: Check NDEFRecord constructor works with byte tnf, DOMString type, byte [] payload, DOMString id parameters]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-nfc-w3c-tests/nfc/NDEFRecord_constructor_tnf_type_payload_id.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-26-0A-NDEFRecord_getPayload" name="0A-NDEFRecord_getPayload" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-nfc-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if method NDEFRecord::getPayload() exists - Description: Check if method NDEFRecord::getPayload() exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if method NDEFRecord::getPayload() exists - Description: Check if method NDEFRecord::getPayload() exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-nfc-w3c-tests/nfc/NDEFRecord_getPayload.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-26-0B-NDEFRecord_id_attribute" name="0B-NDEFRecord_id_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-nfc-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if NDEFRecord have id attribute with proper id and is readonly - Description: Check if NDEFRecord have id attribute with proper id and is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NDEFRecord have id attribute with proper id and is readonly - Description: Check if NDEFRecord have id attribute with proper id and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-nfc-w3c-tests/nfc/NDEFRecord_id_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-26-0C-NDEFRecordMedia_constructor" name="0C-NDEFRecordMedia_constructor" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-nfc-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if NDEFRecordMedia constructor works - Description: Check if NDEFRecordMedia constructor works">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NDEFRecordMedia constructor works - Description: Check if NDEFRecordMedia constructor works]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-nfc-w3c-tests/nfc/NDEFRecordMedia_constructor.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-26-0D-NDEFRecordMedia_mimeType_attribute" name="0D-NDEFRecordMedia_mimeType_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-nfc-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if NDEFRecordMedia have mimeType attribute with proper type and is readonly - Description: Check if NDEFRecordMedia have mimeType attribute with proper type and is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NDEFRecordMedia have mimeType attribute with proper type and is readonly - Description: Check if NDEFRecordMedia have mimeType attribute with proper type and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-nfc-w3c-tests/nfc/NDEFRecordMedia_mimeType_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-26-0E-NDEFRecord_recordType_attribute" name="0E-NDEFRecord_recordType_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-nfc-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if NDEFRecord have recordType attribute with proper type and is readonly - Description: Check if NDEFRecord have recordType attribute with proper type and is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NDEFRecord have recordType attribute with proper type and is readonly - Description: Check if NDEFRecord have recordType attribute with proper type and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-nfc-w3c-tests/nfc/NDEFRecord_recordType_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-26-0F-NDEFRecord_tnf_attribute" name="0F-NDEFRecord_tnf_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-nfc-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if NDEFRecord have tnf attribute with proper type and is readonly - Description: Check if NDEFRecord have tnf attribute with proper type and is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NDEFRecord have tnf attribute with proper type and is readonly - Description: Check if NDEFRecord have tnf attribute with proper type and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-nfc-w3c-tests/nfc/NDEFRecord_tnf_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-26-0G-NDEFRecord_type_attribute" name="0G-NDEFRecord_type_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-nfc-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if NDEFRecord have type attribute with proper type and is readonly - Description: Check if NDEFRecord have type attribute with proper type and is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NDEFRecord have type attribute with proper type and is readonly - Description: Check if NDEFRecord have type attribute with proper type and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-nfc-w3c-tests/nfc/NDEFRecord_type_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-26-0H-NDEFRecordSmartPoster_action_attribute" name="0H-NDEFRecordSmartPoster_action_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-nfc-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if attribute action of NDEFRecordSmartPoster exists, has proper type and is readonly - Description: Check if attribute action of NDEFRecordSmartPoster exists, has proper type and is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute action of NDEFRecordSmartPoster exists, has proper type and is readonly - Description: Check if attribute action of NDEFRecordSmartPoster exists, has proper type and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-nfc-w3c-tests/nfc/NDEFRecordSmartPoster_action_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-26-0I-NDEFRecordSmartPoster_constructor_uri" name="0I-NDEFRecordSmartPoster_constructor_uri" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-nfc-w3c-tests" status="designed" type="compliance" purpose="Objective: Check NDEFRecordSmartPoster constructor works with DOMString uri parameter - Description: Check NDEFRecordSmartPoster constructor works with DOMString uri parameter">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check NDEFRecordSmartPoster constructor works with DOMString uri parameter - Description: Check NDEFRecordSmartPoster constructor works with DOMString uri parameter]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-nfc-w3c-tests/nfc/NDEFRecordSmartPoster_constructor_uri.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-26-0J-NDEFRecordSmartPoster_constructor_uri_titles" name="0J-NDEFRecordSmartPoster_constructor_uri_titles" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-nfc-w3c-tests" status="designed" type="compliance" purpose="Objective: Check NDEFRecordSmartPoster constructor works with DOMString uri, NDEFRecordText［］titles parameters - Description: Check NDEFRecordSmartPoster constructor works with DOMString uri, NDEFRecordText［］titles parameters">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check NDEFRecordSmartPoster constructor works with DOMString uri, NDEFRecordText［］titles parameters - Description: Check NDEFRecordSmartPoster constructor works with DOMString uri, NDEFRecordText［］titles parameters]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-nfc-w3c-tests/nfc/NDEFRecordSmartPoster_constructor_uri_titles.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-26-0K-NDEFRecordSmartPoster_constructor_uri_titles_action" name="0K-NDEFRecordSmartPoster_constructor_uri_titles_action" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-nfc-w3c-tests" status="designed" type="compliance" purpose="Objective: Check NDEFRecordSmartPoster constructor works with DOMString uri, NDEFRecordText［］titles, DOMString action parameters - Description: Check NDEFRecordSmartPoster constructor works with DOMString uri, NDEFRecordText［］titles, DOMString action parameters">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check NDEFRecordSmartPoster constructor works with DOMString uri, NDEFRecordText［］titles, DOMString action parameters - Description: Check NDEFRecordSmartPoster constructor works with DOMString uri, NDEFRecordText［］titles, DOMString action parameters]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-nfc-w3c-tests/nfc/NDEFRecordSmartPoster_constructor_uri_titles_action.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-26-0L-NDEFRecordSmartPoster_constructor_uri_titles_action_icons" name="0L-NDEFRecordSmartPoster_constructor_uri_titles_action_icons" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-nfc-w3c-tests" status="designed" type="compliance" purpose="Objective: Check NDEFRecordSmartPoster constructor works with DOMString uri, NDEFRecordText［］titles, DOMString action, NDEFRecordMedia［］icons parameters - Description: Check NDEFRecordSmartPoster constructor works with DOMString uri, NDEFRecordText［］titles, DOMString action, NDEFRecordMedia［］icons parameters">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check NDEFRecordSmartPoster constructor works with DOMString uri, NDEFRecordText［］titles, DOMString action, NDEFRecordMedia［］icons parameters - Description: Check NDEFRecordSmartPoster constructor works with DOMString uri, NDEFRecordText［］titles, DOMString action, NDEFRecordMedia［］icons parameters]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-nfc-w3c-tests/nfc/NDEFRecordSmartPoster_constructor_uri_titles_action_icons.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-26-0M-NDEFRecordSmartPoster_constructor_uri_titles_action_icons_targetSize" name="0M-NDEFRecordSmartPoster_constructor_uri_titles_action_icons_targetSize" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-nfc-w3c-tests" status="designed" type="compliance" purpose="Objective: Check NDEFRecordSmartPoster constructor works with DOMString uri, NDEFRecordText［］titles, DOMString action, NDEFRecordMedia［］icons, unsigned long targetSize parameters - Description: Check NDEFRecordSmartPoster constructor works with DOMString uri, NDEFRecordText［］titles, DOMString action, NDEFRecordMedia［］icons, unsigned long targetSize parameters">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check NDEFRecordSmartPoster constructor works with DOMString uri, NDEFRecordText［］titles, DOMString action, NDEFRecordMedia［］icons, unsigned long targetSize parameters - Description: Check NDEFRecordSmartPoster constructor works with DOMString uri, NDEFRecordText［］titles, DOMString action, NDEFRecordMedia［］icons, unsigned long targetSize parameters]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-nfc-w3c-tests/nfc/NDEFRecordSmartPoster_constructor_uri_titles_action_icons_targetSize.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-26-0N-NDEFRecordSmartPoster_constructor_uri_titles_action_icons_targetSize_targetMIME" name="0N-NDEFRecordSmartPoster_constructor_uri_titles_action_icons_targetSize_targetMIME" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-nfc-w3c-tests" status="designed" type="compliance" purpose="Objective: Check NDEFRecordSmartPoster constructor works with DOMString uri, NDEFRecordText［］titles, DOMString action, NDEFRecordMedia［］icons, unsigned long targetSize, DOMString targetMIME parameters - Description: Check NDEFRecordSmartPoster constructor works with DOMString uri, NDEFRecordText［］titles, DOMString action, NDEFRecordMedia［］icons, unsigned long targetSize, DOMString targetMIME parameters">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check NDEFRecordSmartPoster constructor works with DOMString uri, NDEFRecordText［］titles, DOMString action, NDEFRecordMedia［］icons, unsigned long targetSize, DOMString targetMIME parameters - Description: Check NDEFRecordSmartPoster constructor works with DOMString uri, NDEFRecordText［］titles, DOMString action, NDEFRecordMedia［］icons, unsigned long targetSize, DOMString targetMIME parameters]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-nfc-w3c-tests/nfc/NDEFRecordSmartPoster_constructor_uri_titles_action_icons_targetSize_targetMIME.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-26-0O-NDEFRecordSmartPoster_icons_attribute" name="0O-NDEFRecordSmartPoster_icons_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-nfc-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if attribute icons of NDEFRecordSmartPoster exists, has proper type and is readonly - Description: Check if attribute icons of NDEFRecordSmartPoster exists, has proper type and is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute icons of NDEFRecordSmartPoster exists, has proper type and is readonly - Description: Check if attribute icons of NDEFRecordSmartPoster exists, has proper type and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-nfc-w3c-tests/nfc/NDEFRecordSmartPoster_icons_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-26-0P-NDEFRecordSmartPoster_targetMIME_attribute" name="0P-NDEFRecordSmartPoster_targetMIME_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-nfc-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if attribute targetMIME of NDEFRecordSmartPoster exists, has proper type and is readonly - Description: Check if attribute targetMIME of NDEFRecordSmartPoster exists, has proper type and is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute targetMIME of NDEFRecordSmartPoster exists, has proper type and is readonly - Description: Check if attribute targetMIME of NDEFRecordSmartPoster exists, has proper type and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-nfc-w3c-tests/nfc/NDEFRecordSmartPoster_targetMIME_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-26-0Q-NDEFRecordSmartPoster_targetSize_attribute" name="0Q-NDEFRecordSmartPoster_targetSize_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-nfc-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if attribute targetSize of NDEFRecordSmartPoster exists, has proper type and is readonly - Description: Check if attribute targetSize of NDEFRecordSmartPoster exists, has proper type and is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute targetSize of NDEFRecordSmartPoster exists, has proper type and is readonly - Description: Check if attribute targetSize of NDEFRecordSmartPoster exists, has proper type and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-nfc-w3c-tests/nfc/NDEFRecordSmartPoster_targetSize_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-26-0R-NDEFRecordSmartPoster_titles_attribute" name="0R-NDEFRecordSmartPoster_titles_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-nfc-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if attribute titles of NDEFRecordSmartPoster exists, has type object and is readonly - Description: Check if attribute titles of NDEFRecordSmartPoster exists, has type object and is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute titles of NDEFRecordSmartPoster exists, has type object and is readonly - Description: Check if attribute titles of NDEFRecordSmartPoster exists, has type object and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-nfc-w3c-tests/nfc/NDEFRecordSmartPoster_titles_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-26-0S-NDEFRecordSmartPoster_uri_attribute" name="0S-NDEFRecordSmartPoster_uri_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-nfc-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if attribute uri of NDEFRecordSmartPoster exists, has type DOMString and is readonly - Description: Check if attribute uri of NDEFRecordSmartPoster exists, has type DOMString and is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute uri of NDEFRecordSmartPoster exists, has type DOMString and is readonly - Description: Check if attribute uri of NDEFRecordSmartPoster exists, has type DOMString and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-nfc-w3c-tests/nfc/NDEFRecordSmartPoster_uri_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-26-0T-NDEFRecordText_constructor_text" name="0T-NDEFRecordText_constructor_text" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-nfc-w3c-tests" status="designed" type="compliance" purpose="Objective: Check NDEFRecordText constructor works with DOMString text parameter - Description: Check NDEFRecordText constructor works with DOMString text parameter">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check NDEFRecordText constructor works with DOMString text parameter - Description: Check NDEFRecordText constructor works with DOMString text parameter]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-nfc-w3c-tests/nfc/NDEFRecordText_constructor_text.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-26-0U-NDEFRecordText_constructor_text_languageCode" name="0U-NDEFRecordText_constructor_text_languageCode" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-nfc-w3c-tests" status="designed" type="compliance" purpose="Objective: Check NDEFRecordText constructor works with DOMString text, DOMString languageCode parameters - Description: Check NDEFRecordText constructor works with DOMString text, DOMString languageCode parameters">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check NDEFRecordText constructor works with DOMString text, DOMString languageCode parameters - Description: Check NDEFRecordText constructor works with DOMString text, DOMString languageCode parameters]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-nfc-w3c-tests/nfc/NDEFRecordText_constructor_text_languageCode.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-26-0V-NDEFRecordText_constructor_text_languageCode_encoding" name="0V-NDEFRecordText_constructor_text_languageCode_encoding" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-nfc-w3c-tests" status="designed" type="compliance" purpose="Objective: Check NDEFRecordText constructor works with DOMString text, DOMString languageCode, DOMString encoding parameters - Description: Check NDEFRecordText constructor works with DOMString text, DOMString languageCode, DOMString encoding parameters">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check NDEFRecordText constructor works with DOMString text, DOMString languageCode, DOMString encoding parameters - Description: Check NDEFRecordText constructor works with DOMString text, DOMString languageCode, DOMString encoding parameters]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-nfc-w3c-tests/nfc/NDEFRecordText_constructor_text_languageCode_encoding.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-26-0W-NDEFRecordText_encoding_attribute" name="0W-NDEFRecordText_encoding_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-nfc-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if attribute encoding of NDEFRecordText exists, has type DOMString and is readonly - Description: Check if attribute encoding of NDEFRecordText exists, has type DOMString and is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute encoding of NDEFRecordText exists, has type DOMString and is readonly - Description: Check if attribute encoding of NDEFRecordText exists, has type DOMString and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-nfc-w3c-tests/nfc/NDEFRecordText_encoding_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-26-0X-NDEFRecordText_languageCode_attribute" name="0X-NDEFRecordText_languageCode_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-nfc-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if attribute languageCode of NDEFRecordText exists, has type DOMString and is readonly - Description: Check if attribute languageCode of NDEFRecordText exists, has type DOMString and is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute languageCode of NDEFRecordText exists, has type DOMString and is readonly - Description: Check if attribute languageCode of NDEFRecordText exists, has type DOMString and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-nfc-w3c-tests/nfc/NDEFRecordText_languageCode_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-26-0Y-NDEFRecordText_text_attribute" name="0Y-NDEFRecordText_text_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-nfc-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if attribute text of NDEFRecordText exists, has type DOMString and is readonly - Description: Check if attribute text of NDEFRecordText exists, has type DOMString and is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if attribute text of NDEFRecordText exists, has type DOMString and is readonly - Description: Check if attribute text of NDEFRecordText exists, has type DOMString and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-nfc-w3c-tests/nfc/NDEFRecordText_text_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-26-0Z-NDEFRecordURI_constructor" name="0Z-NDEFRecordURI_constructor" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-nfc-w3c-tests" status="designed" type="compliance" purpose="Objective: Check NDEFRecordURI constructor works - Description: Check NDEFRecordURI constructor works">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check NDEFRecordURI constructor works - Description: Check NDEFRecordURI constructor works]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-nfc-w3c-tests/nfc/NDEFRecordURI_constructor.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-26-10-NDEFRecordURI_uri_attribute" name="10-NDEFRecordURI_uri_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-nfc-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if NDEFRecordURI have uri attribute with proper type and is readonly - Description: Check if NDEFRecordURI have uri attribute with proper type and is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NDEFRecordURI have uri attribute with proper type and is readonly - Description: Check if NDEFRecordURI have uri attribute with proper type and is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-nfc-w3c-tests/nfc/NDEFRecordURI_uri_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-26-11-NFCManager_onpeerfound_attribute" name="11-NFCManager_onpeerfound_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-nfc-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if NFCManager have onpeerfound attribute with proper type - Description: Check if NFCManager have onpeerfound attribute with proper type">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NFCManager have onpeerfound attribute with proper type - Description: Check if NFCManager have onpeerfound attribute with proper type]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-nfc-w3c-tests/nfc/NFCManager_onpeerfound_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-26-12-NFCManager_onpeerlost_attribute" name="12-NFCManager_onpeerlost_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-nfc-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if NFCManager have onpeerlost attribute with proper type - Description: Check if NFCManager have onpeerlost attribute with proper type">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NFCManager have onpeerlost attribute with proper type - Description: Check if NFCManager have onpeerlost attribute with proper type]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-nfc-w3c-tests/nfc/NFCManager_onpeerlost_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-26-13-NFCManager_onpollstart_attribute" name="13-NFCManager_onpollstart_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-nfc-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if NFCManager have onpollstart attribute with proper type - Description: Check if NFCManager have onpollstart attribute with proper type">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NFCManager have onpollstart attribute with proper type - Description: Check if NFCManager have onpollstart attribute with proper type]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-nfc-w3c-tests/nfc/NFCManager_onpollstart_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-26-14-NFCManager_onpollstop_attribute" name="14-NFCManager_onpollstop_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-nfc-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if NFCManager have onpollstop attribute with proper type - Description: Check if NFCManager have onpollstop attribute with proper type">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NFCManager have onpollstop attribute with proper type - Description: Check if NFCManager have onpollstop attribute with proper type]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-nfc-w3c-tests/nfc/NFCManager_onpollstop_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-26-15-NFCManager_onpoweroff_attribute" name="15-NFCManager_onpoweroff_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-nfc-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if NFCManager have onpoweroff attribute with proper type - Description: Check if NFCManager have onpoweroff attribute with proper type">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NFCManager have onpoweroff attribute with proper type - Description: Check if NFCManager have onpoweroff attribute with proper type]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-nfc-w3c-tests/nfc/NFCManager_onpoweroff_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-26-16-NFCManager_onpoweron_attribute" name="16-NFCManager_onpoweron_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-nfc-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if NFCManager have onpoweron attribute with proper type - Description: Check if NFCManager have onpoweron attribute with proper type">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NFCManager have onpoweron attribute with proper type - Description: Check if NFCManager have onpoweron attribute with proper type]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-nfc-w3c-tests/nfc/NFCManager_onpoweron_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-26-17-NFCManager_ontagfound_attribute" name="17-NFCManager_ontagfound_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-nfc-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if NFCManager have ontagfound attribute with proper type - Description: Check if NFCManager have ontagfound attribute with proper type">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NFCManager have ontagfound attribute with proper type - Description: Check if NFCManager have ontagfound attribute with proper type]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-nfc-w3c-tests/nfc/NFCManager_ontagfound_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-26-18-NFCManager_ontaglost_attribute" name="18-NFCManager_ontaglost_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-nfc-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if NFCManager have ontaglost attribute with proper type - Description: Check if NFCManager have ontaglost attribute with proper type">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NFCManager have ontaglost attribute with proper type - Description: Check if NFCManager have ontaglost attribute with proper type]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-nfc-w3c-tests/nfc/NFCManager_ontaglost_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-26-19-NFCManager_polling_attribute" name="19-NFCManager_polling_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-nfc-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if NFCManager have polling attribute with proper type - Description: Check if NFCManager have polling attribute with proper type">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NFCManager have polling attribute with proper type - Description: Check if NFCManager have polling attribute with proper type]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-nfc-w3c-tests/nfc/NFCManager_polling_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-26-1A-NFCManager_powered_attribute" name="1A-NFCManager_powered_attribute" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-nfc-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if NFCManager have powered attribute with proper type - Description: Check if NFCManager have powered attribute with proper type">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NFCManager have powered attribute with proper type - Description: Check if NFCManager have powered attribute with proper type]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-nfc-w3c-tests/nfc/NFCManager_powered_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-26-1B-NFCManager_powerOff" name="1B-NFCManager_powerOff" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-nfc-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if method NFCManager::powerOff() exists - Description: Check if method NFCManager::powerOff() exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if method NFCManager::powerOff() exists - Description: Check if method NFCManager::powerOff() exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-nfc-w3c-tests/nfc/NFCManager_powerOff.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-26-1C-NFCManager_powerOn" name="1C-NFCManager_powerOn" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-nfc-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if method NFCManager::powerOn() exists - Description: Check if method NFCManager::powerOn() exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if method NFCManager::powerOn() exists - Description: Check if method NFCManager::powerOn() exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-nfc-w3c-tests/nfc/NFCManager_powerOn.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-26-1D-NFCManager_startPoll" name="1D-NFCManager_startPoll" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-nfc-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if method NFCManager::startPoll() exists - Description: Check if method NFCManager::startPoll() exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if method NFCManager::startPoll() exists - Description: Check if method NFCManager::startPoll() exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-nfc-w3c-tests/nfc/NFCManager_startPoll.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-26-1E-NFCManager_stopPoll" name="1E-NFCManager_stopPoll" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-nfc-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if method NFCManager::stopPoll() exists - Description: Check if method NFCManager::stopPoll() exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if method NFCManager::stopPoll() exists - Description: Check if method NFCManager::stopPoll() exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-nfc-w3c-tests/nfc/NFCManager_stopPoll.html</test_script_entry>
+                </description>
+            </testcase>
+        </set>
+    </suite>
+</test_definition>

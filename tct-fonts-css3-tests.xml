@@ -1,0 +1,736 @@
+<?xml version="1.0"?>
+<test_definition>
+    <suite launcher="xwalk" name="00-common/E0-crosswalk">
+        <set name="common/crosswalk/commonapi/tct-fonts-css3-tests">
+            <testcase id="00-E0-00-0L-01-CSS3DF_font-family" name="01-CSS3DF_font-family" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the element font-family exists - Description: Check if the element font-family exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the element font-family exists - Description: Check if the element font-family exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/CSS3DF_font-family.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-02-CSS3DF_font-kerning_normal" name="02-CSS3DF_font-kerning_normal" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the font-kerning can be given normal value - Description: Check if the font-kerning can be given normal value">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the font-kerning can be given normal value - Description: Check if the font-kerning can be given normal value]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/CSS3DF_font-kerning_normal.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-03-CSS3DF_font-variant_normal" name="03-CSS3DF_font-variant_normal" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the font-variant can be given normal value - Description: Check if the font-variant can be given normal value">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the font-variant can be given normal value - Description: Check if the font-variant can be given normal value]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/CSS3DF_font-variant_normal.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-04-CSS3DF_font-variant-ligatures_normal" name="04-CSS3DF_font-variant-ligatures_normal" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the font-variant-ligatures can be given normal value - Description: Check if the font-variant-ligatures can be given normal value">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the font-variant-ligatures can be given normal value - Description: Check if the font-variant-ligatures can be given normal value]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/CSS3DF_font-variant-ligatures_normal.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-05-CSS3DF_font-kerning_initial_value" name="05-CSS3DF_font-kerning_initial_value" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the initial value of font-kerning is auto - Description: Check if the initial value of font-kerning is auto">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the initial value of font-kerning is auto - Description: Check if the initial value of font-kerning is auto]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/CSS3DF_initial_value.html?total_num=5&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-06-CSS3DF_font-style_initial_value" name="06-CSS3DF_font-style_initial_value" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the initial value of font-style is normal - Description: Check if the initial value of font-style is normal">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the initial value of font-style is normal - Description: Check if the initial value of font-style is normal]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/CSS3DF_initial_value.html?total_num=5&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-07-CSS3DF_font-variant_initial_value" name="07-CSS3DF_font-variant_initial_value" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the initial value of font-variant is normal - Description: Check if the initial value of font-variant is normal">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the initial value of font-variant is normal - Description: Check if the initial value of font-variant is normal]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/CSS3DF_initial_value.html?total_num=5&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-08-CSS3DF_font-variant-ligatures_initial_value" name="08-CSS3DF_font-variant-ligatures_initial_value" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the initial value of font-variant-ligatures is normal - Description: Check if the initial value of font-variant-ligatures is normal">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the initial value of font-variant-ligatures is normal - Description: Check if the initial value of font-variant-ligatures is normal]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/CSS3DF_initial_value.html?total_num=5&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-09-CSS3DF_font-weight_initial_value" name="09-CSS3DF_font-weight_initial_value" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the initial value of font-weight is normal - Description: Check if the initial value of font-weight is normal">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the initial value of font-weight is normal - Description: Check if the initial value of font-weight is normal]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/CSS3DF_initial_value.html?total_num=5&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-0A-CSS3DF_font-kerning_auto" name="0A-CSS3DF_font-kerning_auto" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the font-kerning value can be given auto - Description: Check if the font-kerning value can be given auto">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the font-kerning value can be given auto - Description: Check if the font-kerning value can be given auto]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/CSS3DF_font-kerning_auto.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-0B-CSS3DF_font-kerning_none" name="0B-CSS3DF_font-kerning_none" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the font-kerning value can be given none - Description: Check if the font-kerning value can be given none">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the font-kerning value can be given none - Description: Check if the font-kerning value can be given none]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/CSS3DF_font-kerning_none.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-0C-font-001" name="0C-font-001" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the 'font' shorthand property accepts and sets font-size and font-family - Description: Check if the 'font' shorthand property accepts and sets font-size and font-family">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the 'font' shorthand property accepts and sets font-size and font-family - Description: Check if the 'font' shorthand property accepts and sets font-size and font-family]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-001.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-0D-font-004" name="0D-font-004" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the 'font' shorthand property accepts and sets font-weight, font-size and font-family - Description: Check if the 'font' shorthand property accepts and sets font-weight, font-size and font-family">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the 'font' shorthand property accepts and sets font-weight, font-size and font-family - Description: Check if the 'font' shorthand property accepts and sets font-weight, font-size and font-family]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-004.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-0E-font-017" name="0E-font-017" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the 'font' shorthand property accepts and sets font-size, line-height and font-family - Description: Check if the 'font' shorthand property accepts and sets font-size, line-height and font-family">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the 'font' shorthand property accepts and sets font-size, line-height and font-family - Description: Check if the 'font' shorthand property accepts and sets font-size, line-height and font-family]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-017.xht</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-0F-font-020" name="0F-font-020" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the 'font' shorthand property accepts and sets font-weight, font-size, line-height and font-family - Description: Check if the 'font' shorthand property accepts and sets font-weight, font-size, line-height and font-family">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the 'font' shorthand property accepts and sets font-weight, font-size, line-height and font-family - Description: Check if the 'font' shorthand property accepts and sets font-weight, font-size, line-height and font-family]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-020.xht</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-0G-font-family-007" name="0G-font-family-007" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the 'font-family' property set to 'inherit' inherits its value from the parent element's value - Description: Check if the 'font-family' property set to 'inherit' inherits its value from the parent element's value">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the 'font-family' property set to 'inherit' inherits its value from the parent element's value - Description: Check if the 'font-family' property set to 'inherit' inherits its value from the parent element's value]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-family-007.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-0H-font-size-006" name="0H-font-size-006" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the 'font-size' property sets a nominal length value in pixels - Description: Check if the 'font-size' property sets a nominal length value in pixels">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the 'font-size' property sets a nominal length value in pixels - Description: Check if the 'font-size' property sets a nominal length value in pixels]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-size-006.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-0I-font-size-007" name="0I-font-size-007" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the 'font-size' property sets a positive nominal length value in pixels - Description: Check if the 'font-size' property sets a positive nominal length value in pixels">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the 'font-size' property sets a positive nominal length value in pixels - Description: Check if the 'font-size' property sets a positive nominal length value in pixels]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-size-007.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-0J-font-size-094" name="0J-font-size-094" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the font-size is 100% in visual - Description: Check if the font-size is 100% in visual">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the font-size is 100% in visual - Description: Check if the font-size is 100% in visual]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-size-094.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-0K-font-size-095" name="0K-font-size-095" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the font-size is 100% in visual when the font-size property set as +100% - Description: Check if the font-size is 100% in visual when the font-size property set as +100%">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the font-size is 100% in visual when the font-size property set as +100% - Description: Check if the font-size is 100% in visual when the font-size property set as +100%]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-size-095.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-0L-font-size-112" name="0L-font-size-112" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the font-size inherits its value from its parent in visual when the font-size property set as the keyword inherit - Description: Check if the font-size inherits its value from its parent in visual when the font-size property set as the keyword inherit">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the font-size inherits its value from its parent in visual when the font-size property set as the keyword inherit - Description: Check if the font-size inherits its value from its parent in visual when the font-size property set as the keyword inherit]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-size-112.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-0M-font-size-applies-to-001" name="0M-font-size-applies-to-001" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the font-size applies to 'display: inline' elements in visual - Description: Check if the font-size applies to 'display: inline' elements in visual">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the font-size applies to 'display: inline' elements in visual - Description: Check if the font-size applies to 'display: inline' elements in visual]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-size-applies-to-001.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-0N-font-size-applies-to-002" name="0N-font-size-applies-to-002" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the font-size applies to 'display: block' elements in visual - Description: Check if the font-size applies to 'display: block' elements in visual">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the font-size applies to 'display: block' elements in visual - Description: Check if the font-size applies to 'display: block' elements in visual]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-size-applies-to-002.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-0O-font-size-applies-to-017" name="0O-font-size-applies-to-017" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the font-size applies to 'display: inherit' elements in visual - Description: Check if the font-size applies to 'display: inherit' elements in visual">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the font-size applies to 'display: inherit' elements in visual - Description: Check if the font-size applies to 'display: inherit' elements in visual]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-size-applies-to-017.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-0P-font-weight-001" name="0P-font-weight-001" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the font-weight renders the font to normal weight in visual when the font-weight property set to 'normal' - Description: Check if the font-weight renders the font to normal weight in visual when the font-weight property set to 'normal'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the font-weight renders the font to normal weight in visual when the font-weight property set to 'normal' - Description: Check if the font-weight renders the font to normal weight in visual when the font-weight property set to 'normal']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-weight-001.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-0Q-font-applies-to-001" name="0Q-font-applies-to-001" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the 'font' property applies to 'display: inline' elements - Description: Check if the 'font' property applies to 'display: inline' elements">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the 'font' property applies to 'display: inline' elements - Description: Check if the 'font' property applies to 'display: inline' elements]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-applies-to-001.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-0R-font-applies-to-002" name="0R-font-applies-to-002" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the 'font' property applies to 'display: block' elements - Description: Check if the 'font' property applies to 'display: block' elements">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the 'font' property applies to 'display: block' elements - Description: Check if the 'font' property applies to 'display: block' elements]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-applies-to-002.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-0S-font-applies-to-017" name="0S-font-applies-to-017" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the 'font' property applies to 'display: inherit' elements - Description: Check if the 'font' property applies to 'display: inherit' elements">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the 'font' property applies to 'display: inherit' elements - Description: Check if the 'font' property applies to 'display: inherit' elements]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-applies-to-017.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-0T-font-family-009" name="0T-font-family-009" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the 'font-family' property set the value 'Ahem' - Description: Check if the 'font-family' property set the value 'Ahem'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the 'font-family' property set the value 'Ahem' - Description: Check if the 'font-family' property set the value 'Ahem']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-family-009.xht</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-0U-font-family-applies-to-001" name="0U-font-family-applies-to-001" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the 'font-family' property applies to 'display: inline' elements - Description: Check if the 'font-family' property applies to 'display: inline' elements">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the 'font-family' property applies to 'display: inline' elements - Description: Check if the 'font-family' property applies to 'display: inline' elements]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-family-applies-to-001.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-0V-font-family-applies-to-002" name="0V-font-family-applies-to-002" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the 'font-family' property applies to 'display: block' elements - Description: Check if the 'font-family' property applies to 'display: block' elements">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the 'font-family' property applies to 'display: block' elements - Description: Check if the 'font-family' property applies to 'display: block' elements]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-family-applies-to-002.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-0W-font-family-applies-to-016" name="0W-font-family-applies-to-016" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the 'font-family' property applies to 'display: none' elements - Description: Check if the 'font-family' property applies to 'display: none' elements">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the 'font-family' property applies to 'display: none' elements - Description: Check if the 'font-family' property applies to 'display: none' elements]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-family-applies-to-016.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-0X-font-family-applies-to-017" name="0X-font-family-applies-to-017" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the 'font-family' property applies to 'display: inherit' elements - Description: Check if the 'font-family' property applies to 'display: inherit' elements">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the 'font-family' property applies to 'display: inherit' elements - Description: Check if the 'font-family' property applies to 'display: inherit' elements]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-family-applies-to-017.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-0Y-fonts-010" name="0Y-fonts-010" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if font inherits the pre element in visual - Description: Check if font inherits the pre element in visual">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if font inherits the pre element in visual - Description: Check if font inherits the pre element in visual]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/fonts-010.xht</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-0Z-fonts-011" name="0Z-fonts-011" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if font have correct bidirection in visual - Description: Check if font have correct bidirection in visual">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if font have correct bidirection in visual - Description: Check if font have correct bidirection in visual]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/fonts-011.xht</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-10-font-size-120" name="10-font-size-120" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the font-size inherits its value from its parent in visual - Description: Check if the font-size inherits its value from its parent in visual">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the font-size inherits its value from its parent in visual - Description: Check if the font-size inherits its value from its parent in visual]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-size-120.xht</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-11-font-003" name="11-font-003" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the 'font' shorthand property accepts and sets font-variant, font-size and font-family - Description: Check if the 'font' shorthand property accepts and sets font-variant, font-size and font-family">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the 'font' shorthand property accepts and sets font-variant, font-size and font-family - Description: Check if the 'font' shorthand property accepts and sets font-variant, font-size and font-family]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-003.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-12-font-033" name="12-font-033" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the 'font' property set to 'caption' correctly uses the system setting - Description: Check if the 'font' property set to 'caption' correctly uses the system setting">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the 'font' property set to 'caption' correctly uses the system setting - Description: Check if the 'font' property set to 'caption' correctly uses the system setting]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-033.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-13-font-034" name="13-font-034" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the 'font' property set to 'icon' correctly uses the system setting - Description: Check if the 'font' property set to 'icon' correctly uses the system setting">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the 'font' property set to 'icon' correctly uses the system setting - Description: Check if the 'font' property set to 'icon' correctly uses the system setting]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-034.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-14-font-035" name="14-font-035" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the 'font' property set to 'menu' correctly uses the system setting - Description: Check if the 'font' property set to 'menu' correctly uses the system setting">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the 'font' property set to 'menu' correctly uses the system setting - Description: Check if the 'font' property set to 'menu' correctly uses the system setting]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-035.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-15-font-036" name="15-font-036" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the 'font' property set to 'message-box' correctly uses the system setting - Description: Check if the 'font' property set to 'message-box' correctly uses the system setting">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the 'font' property set to 'message-box' correctly uses the system setting - Description: Check if the 'font' property set to 'message-box' correctly uses the system setting]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-036.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-16-font-037" name="16-font-037" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the 'font' property set to 'small-caption' correctly uses the system setting - Description: Check if the 'font' property set to 'small-caption' correctly uses the system setting">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the 'font' property set to 'small-caption' correctly uses the system setting - Description: Check if the 'font' property set to 'small-caption' correctly uses the system setting]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-037.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-17-font-038" name="17-font-038" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the 'font' property set to 'status-bar' correctly uses the system setting - Description: Check if the 'font' property set to 'status-bar' correctly uses the system setting">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the 'font' property set to 'status-bar' correctly uses the system setting - Description: Check if the 'font' property set to 'status-bar' correctly uses the system setting]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-038.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-18-font-family-008" name="18-font-family-008" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the font-family names must not contain unescaped parentheses or unescaped curly braces - Description: Check if the font-family names must not contain unescaped parentheses or unescaped curly braces">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the font-family names must not contain unescaped parentheses or unescaped curly braces - Description: Check if the font-family names must not contain unescaped parentheses or unescaped curly braces]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-family-008.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-19-font-family-invalid-characters-002" name="19-font-family-invalid-characters-002" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the Invalid characters is in font family names - Description: Check if the Invalid characters is in font family names">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the Invalid characters is in font family names - Description: Check if the Invalid characters is in font family names]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-family-invalid-characters-002.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-1A-font-family-rule-001" name="1A-font-family-rule-001" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the default font family varies and depends on user agent - Description: Check if the default font family varies and depends on user agent">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the default font family varies and depends on user agent - Description: Check if the default font family varies and depends on user agent]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-family-rule-001.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-1B-font-family-valid-characters-001" name="1B-font-family-valid-characters-001" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the 'font-family' sets valid characters - Description: Check if the 'font-family' sets valid characters">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the 'font-family' sets valid characters - Description: Check if the 'font-family' sets valid characters]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-family-valid-characters-001.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-1C-font-family-valid-characters-002" name="1C-font-family-valid-characters-002" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the font family names must be identifiers - Description: Check if the font family names must be identifiers">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the font family names must be identifiers - Description: Check if the font family names must be identifiers]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-family-valid-characters-002.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-1D-font-matching-rule-009" name="1D-font-matching-rule-009" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the invalid font weight values are set to the default weight of 400 - Description: Check if the invalid font weight values are set to the default weight of 400">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the invalid font weight values are set to the default weight of 400 - Description: Check if the invalid font weight values are set to the default weight of 400]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-matching-rule-009.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-1E-font-size-001" name="1E-font-size-001" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the 'font-size' property sets a minimum minus one length value in pixels is invalid, such 'font-size' declaration should be ignored, then the 'font-size' property value can be determined by computed font-size of containers and from cascade mechanisms (user, author, user agent) - Description: Check if the 'font-size' property sets a minimum minus one length value in pixels is invalid, such 'font-size' declaration should be ignored, then the 'font-size' property value can be determined by computed font-size of containers and from cascade mechanisms (user, author, user agent)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the 'font-size' property sets a minimum minus one length value in pixels is invalid, such 'font-size' declaration should be ignored, then the 'font-size' property value can be determined by computed font-size of containers and from cascade mechanisms (user, author, user agent) - Description: Check if the 'font-size' property sets a minimum minus one length value in pixels is invalid, such 'font-size' declaration should be ignored, then the 'font-size' property value can be determined by computed font-size of containers and from cascade mechanisms (user, author, user agent)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-size-001.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-1F-font-size-002" name="1F-font-size-002" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the 'font-size' property sets a minimum length value in pixels - Description: Check if the 'font-size' property sets a minimum length value in pixels">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the 'font-size' property sets a minimum length value in pixels - Description: Check if the 'font-size' property sets a minimum length value in pixels]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-size-002.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-1G-font-size-004" name="1G-font-size-004" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the 'font-size' property sets a negative zero length value in pixels - Description: Check if the 'font-size' property sets a negative zero length value in pixels">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the 'font-size' property sets a negative zero length value in pixels - Description: Check if the 'font-size' property sets a negative zero length value in pixels]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-size-004.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-1H-font-size-005" name="1H-font-size-005" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the 'font-size' property sets a positive zero length value in pixels - Description: Check if the 'font-size' property sets a positive zero length value in pixels">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the 'font-size' property sets a positive zero length value in pixels - Description: Check if the 'font-size' property sets a positive zero length value in pixels]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-size-005.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-1I-font-size-089" name="1I-font-size-089" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the font-size is invalid and the value will be ignored in visual when the font-size property set as -1% - Description: Check if the font-size is invalid and the value will be ignored in visual when the font-size property set as -1%">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the font-size is invalid and the value will be ignored in visual when the font-size property set as -1% - Description: Check if the font-size is invalid and the value will be ignored in visual when the font-size property set as -1%]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-size-089.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-1J-font-size-090" name="1J-font-size-090" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the font-size can be set as 0% - Description: Check if the font-size can be set as 0%">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the font-size can be set as 0% - Description: Check if the font-size can be set as 0%]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-size-090.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-1K-font-size-092" name="1K-font-size-092" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the font-size is 0 in visual when the font-size property set as -0% - Description: Check if the font-size is 0 in visual when the font-size property set as -0%">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the font-size is 0 in visual when the font-size property set as -0% - Description: Check if the font-size is 0 in visual when the font-size property set as -0%]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-size-092.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-1L-font-size-093" name="1L-font-size-093" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the font-size is 0 in visual when the font-size property set as +0% - Description: Check if the font-size is 0 in visual when the font-size property set as +0%">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the font-size is 0 in visual when the font-size property set as +0% - Description: Check if the font-size is 0 in visual when the font-size property set as +0%]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-size-093.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-1M-font-size-100" name="1M-font-size-100" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the font-size is 0 in visual when the font-size property set as -0 - Description: Check if the font-size is 0 in visual when the font-size property set as -0">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the font-size is 0 in visual when the font-size property set as -0 - Description: Check if the font-size is 0 in visual when the font-size property set as -0]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-size-100.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-1N-font-size-101" name="1N-font-size-101" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the font-size can be set as 0 - Description: Check if the font-size can be set as 0">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the font-size can be set as 0 - Description: Check if the font-size can be set as 0]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-size-101.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-1O-font-size-102" name="1O-font-size-102" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the font-size is 0 in visual when the font-size property set as +0 - Description: Check if the font-size is 0 in visual when the font-size property set as +0">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the font-size is 0 in visual when the font-size property set as +0 - Description: Check if the font-size is 0 in visual when the font-size property set as +0]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-size-102.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-1P-font-size-applies-to-016" name="1P-font-size-applies-to-016" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the font-size applies to 'display: none' elements in visual - Description: Check if the font-size applies to 'display: none' elements in visual">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the font-size applies to 'display: none' elements in visual - Description: Check if the font-size applies to 'display: none' elements in visual]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-size-applies-to-016.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-1Q-font-style-applies-to-001" name="1Q-font-style-applies-to-001" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the font-style applies to 'display: inline' elements in visual - Description: Check if the font-style applies to 'display: inline' elements in visual">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the font-style applies to 'display: inline' elements in visual - Description: Check if the font-style applies to 'display: inline' elements in visual]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-style-applies-to-001.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-1R-font-style-applies-to-002" name="1R-font-style-applies-to-002" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the font-style applies to 'display: block' elements in visual - Description: Check if the font-style applies to 'display: block' elements in visual">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the font-style applies to 'display: block' elements in visual - Description: Check if the font-style applies to 'display: block' elements in visual]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-style-applies-to-002.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-1S-font-style-applies-to-016" name="1S-font-style-applies-to-016" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the font-style applies to 'display: none' elements in visual - Description: Check if the font-style applies to 'display: none' elements in visual">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the font-style applies to 'display: none' elements in visual - Description: Check if the font-style applies to 'display: none' elements in visual]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-style-applies-to-016.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-1T-font-style-applies-to-017" name="1T-font-style-applies-to-017" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the font-style applies to 'display: inherit' elements in visual - Description: Check if the font-style applies to 'display: inherit' elements in visual">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the font-style applies to 'display: inherit' elements in visual - Description: Check if the font-style applies to 'display: inherit' elements in visual]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-style-applies-to-017.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-1U-font-variant-001" name="1U-font-variant-001" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the font-variant renders the typical characters for text in visual when the font-variant property set to 'normal' - Description: Check if the font-variant renders the typical characters for text in visual when the font-variant property set to 'normal'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the font-variant renders the typical characters for text in visual when the font-variant property set to 'normal' - Description: Check if the font-variant renders the typical characters for text in visual when the font-variant property set to 'normal']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-variant-001.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-1V-font-variant-applies-to-001" name="1V-font-variant-applies-to-001" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the font-variant applies to 'display: inline' elements in visual - Description: Check if the font-variant applies to 'display: inline' elements in visual">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the font-variant applies to 'display: inline' elements in visual - Description: Check if the font-variant applies to 'display: inline' elements in visual]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-variant-applies-to-001.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-1W-font-variant-applies-to-002" name="1W-font-variant-applies-to-002" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the font-variant applies to 'display: block' elements in visual - Description: Check if the font-variant applies to 'display: block' elements in visual">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the font-variant applies to 'display: block' elements in visual - Description: Check if the font-variant applies to 'display: block' elements in visual]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-variant-applies-to-002.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-1X-font-variant-applies-to-016" name="1X-font-variant-applies-to-016" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the font-variant applies to 'display: none' elements in visual - Description: Check if the font-variant applies to 'display: none' elements in visual">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the font-variant applies to 'display: none' elements in visual - Description: Check if the font-variant applies to 'display: none' elements in visual]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-variant-applies-to-016.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-1Y-font-variant-applies-to-017" name="1Y-font-variant-applies-to-017" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the font-variant applies to 'display: inherit' elements in visual - Description: Check if the font-variant applies to 'display: inherit' elements in visual">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the font-variant applies to 'display: inherit' elements in visual - Description: Check if the font-variant applies to 'display: inherit' elements in visual]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-variant-applies-to-017.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-1Z-font-weight-applies-to-001" name="1Z-font-weight-applies-to-001" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the font-weight applies to 'display: inline' elements in visual - Description: Check if the font-weight applies to 'display: inline' elements in visual">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the font-weight applies to 'display: inline' elements in visual - Description: Check if the font-weight applies to 'display: inline' elements in visual]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-weight-applies-to-001.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-20-font-weight-applies-to-002" name="20-font-weight-applies-to-002" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the font-weight applies to 'display: block' elements in visual - Description: Check if the font-weight applies to 'display: block' elements in visual">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the font-weight applies to 'display: block' elements in visual - Description: Check if the font-weight applies to 'display: block' elements in visual]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-weight-applies-to-002.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-21-font-weight-applies-to-016" name="21-font-weight-applies-to-016" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the font-weight applies to 'display: none' elements in visual - Description: Check if the font-weight applies to 'display: none' elements in visual">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the font-weight applies to 'display: none' elements in visual - Description: Check if the font-weight applies to 'display: none' elements in visual]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-weight-applies-to-016.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-22-font-weight-applies-to-017" name="22-font-weight-applies-to-017" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the font-weight applies to 'display: inherit' elements in visual - Description: Check if the font-weight applies to 'display: inherit' elements in visual">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the font-weight applies to 'display: inherit' elements in visual - Description: Check if the font-weight applies to 'display: inherit' elements in visual]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-weight-applies-to-017.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-23-font-weight-rule-001" name="23-font-weight-rule-001" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the font-weight property of 'normal' corresponds to the weight value '400' in visual - Description: Check if the font-weight property of 'normal' corresponds to the weight value '400' in visual">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the font-weight property of 'normal' corresponds to the weight value '400' in visual - Description: Check if the font-weight property of 'normal' corresponds to the weight value '400' in visual]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-weight-rule-001.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-24-font-weight-rule-003" name="24-font-weight-rule-003" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the font-weight child elements inherit their parent's actual font weight in visual - Description: Check if the font-weight child elements inherit their parent's actual font weight in visual">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the font-weight child elements inherit their parent's actual font weight in visual - Description: Check if the font-weight child elements inherit their parent's actual font weight in visual]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-weight-rule-003.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-25-font-weight-rule-004" name="25-font-weight-rule-004" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the font-weight value 'bolder' selects the next darker weight compared to its parent's weight in visual - Description: Check if the font-weight value 'bolder' selects the next darker weight compared to its parent's weight in visual">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the font-weight value 'bolder' selects the next darker weight compared to its parent's weight in visual - Description: Check if the font-weight value 'bolder' selects the next darker weight compared to its parent's weight in visual]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-weight-rule-004.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-26-font-weight-rule-005" name="26-font-weight-rule-005" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the font-weight value 'bolder' does not increase the value of font weight in visual when the parent values is already set at 900 - Description: Check if the font-weight value 'bolder' does not increase the value of font weight in visual when the parent values is already set at 900">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the font-weight value 'bolder' does not increase the value of font weight in visual when the parent values is already set at 900 - Description: Check if the font-weight value 'bolder' does not increase the value of font weight in visual when the parent values is already set at 900]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-weight-rule-005.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-27-font-weight-rule-006" name="27-font-weight-rule-006" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the font-weight value 'lighter' selects the next lighter weight in visual - Description: Check if the font-weight value 'lighter' selects the next lighter weight in visual">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the font-weight value 'lighter' selects the next lighter weight in visual - Description: Check if the font-weight value 'lighter' selects the next lighter weight in visual]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-weight-rule-006.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-28-font-weight-rule-007" name="28-font-weight-rule-007" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the font-weight value 'lighter' selects the next lighter weight compared to its parent's weight in visual - Description: Check if the font-weight value 'lighter' selects the next lighter weight compared to its parent's weight in visual">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the font-weight value 'lighter' selects the next lighter weight compared to its parent's weight in visual - Description: Check if the font-weight value 'lighter' selects the next lighter weight compared to its parent's weight in visual]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-weight-rule-007.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0L-29-font-weight-rule-008" name="29-font-weight-rule-008" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-fonts-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the font-weight property of 'bold' corresponds to the weight value '700' in visual - Description: Check if the font-weight property of 'bold' corresponds to the weight value '700' in visual">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the font-weight property of 'bold' corresponds to the weight value '700' in visual - Description: Check if the font-weight property of 'bold' corresponds to the weight value '700' in visual]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-fonts-css3-tests/fonts/csswg/font-weight-rule-008.htm</test_script_entry>
+                </description>
+            </testcase>
+        </set>
+    </suite>
+</test_definition>

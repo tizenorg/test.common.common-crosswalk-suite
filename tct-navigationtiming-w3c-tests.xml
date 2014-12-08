@@ -1,0 +1,412 @@
+<?xml version="1.0"?>
+<test_definition>
+    <suite launcher="xwalk" name="00-common/E0-crosswalk">
+        <set name="common/crosswalk/commonapi/tct-navigationtiming-w3c-tests">
+            <testcase id="00-E0-00-0W-01-test_performance_attributes_exist_in_object" name="01-test_performance_attributes_exist_in_object" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-navigationtiming-w3c-tests" status="designed" type="compliance" purpose="Objective: This test validates that the window.performance object exists in an object element. (But it does not validate the values are whether correct) - Description: This test validates that the window.performance object exists in an object element. (But it does not validate the values are whether correct)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: This test validates that the window.performance object exists in an object element. (But it does not validate the values are whether correct) - Description: This test validates that the window.performance object exists in an object element. (But it does not validate the values are whether correct)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-navigationtiming-w3c-tests/navigationtiming/w3c/test_performance_attributes_exist_in_object.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0W-02-test_document_readiness_exist" name="02-test_document_readiness_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-navigationtiming-w3c-tests" status="designed" type="compliance" purpose="Objective: This test validates the loading, interactive and complete document.readyState states are available during a navigation. - Description: This test validates the loading, interactive and complete document.readyState states are available during a navigation.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: This test validates the loading, interactive and complete document.readyState states are available during a navigation. - Description: This test validates the loading, interactive and complete document.readyState states are available during a navigation.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-navigationtiming-w3c-tests/navigationtiming/w3c/test_document_readiness_exist.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0W-03-test_navigation_exist" name="03-test_navigation_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-navigationtiming-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the window.performance.navigation is defined - Description: Check if the window.performance.navigation is defined">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the window.performance.navigation is defined - Description: Check if the window.performance.navigation is defined]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-navigationtiming-w3c-tests/navigationtiming/w3c/test_performance_attributes_exist.htm?total_num=3&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0W-04-test_navigation_type_exist" name="04-test_navigation_type_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-navigationtiming-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the window.performance.navigation.type is defined - Description: Check if the window.performance.navigation.type is defined">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the window.performance.navigation.type is defined - Description: Check if the window.performance.navigation.type is defined]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-navigationtiming-w3c-tests/navigationtiming/w3c/test_navigation_attributes_exist.htm?total_num=8&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0W-05-test_navigation_redirectCount_exist" name="05-test_navigation_redirectCount_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-navigationtiming-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the window.performance.navigation.redirectCount is defined - Description: Check if the window.performance.navigation.redirectCount is defined">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the window.performance.navigation.redirectCount is defined - Description: Check if the window.performance.navigation.redirectCount is defined]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-navigationtiming-w3c-tests/navigationtiming/w3c/test_navigation_attributes_exist.htm?total_num=8&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0W-06-test_navigation_TYPE_NAVIGATE_exist" name="06-test_navigation_TYPE_NAVIGATE_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-navigationtiming-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the window.performance.navigation.TYPE_NAVIGATE is defined - Description: Check if the window.performance.navigation.TYPE_NAVIGATE is defined">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the window.performance.navigation.TYPE_NAVIGATE is defined - Description: Check if the window.performance.navigation.TYPE_NAVIGATE is defined]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-navigationtiming-w3c-tests/navigationtiming/w3c/test_navigation_attributes_exist.htm?total_num=8&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0W-07-test_navigation_TYPE_RELOAD_exist" name="07-test_navigation_TYPE_RELOAD_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-navigationtiming-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the window.performance.navigation.TYPE_RELOAD is defined - Description: Check if the window.performance.navigation.TYPE_RELOAD is defined">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the window.performance.navigation.TYPE_RELOAD is defined - Description: Check if the window.performance.navigation.TYPE_RELOAD is defined]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-navigationtiming-w3c-tests/navigationtiming/w3c/test_navigation_attributes_exist.htm?total_num=8&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0W-08-test_navigation_TYPE_BACK_FORWARD_exist" name="08-test_navigation_TYPE_BACK_FORWARD_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-navigationtiming-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the window.performance.navigation.TYPE_BACK_FORWARD is defined - Description: Check if the window.performance.navigation.TYPE_BACK_FORWARD is defined">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the window.performance.navigation.TYPE_BACK_FORWARD is defined - Description: Check if the window.performance.navigation.TYPE_BACK_FORWARD is defined]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-navigationtiming-w3c-tests/navigationtiming/w3c/test_navigation_attributes_exist.htm?total_num=8&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0W-09-test_navigation_TYPE_RESERVED_exist" name="09-test_navigation_TYPE_RESERVED_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-navigationtiming-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the window.performance.navigation.TYPE_RESERVED is defined - Description: Check if the window.performance.navigation.TYPE_RESERVED is defined">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the window.performance.navigation.TYPE_RESERVED is defined - Description: Check if the window.performance.navigation.TYPE_RESERVED is defined]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-navigationtiming-w3c-tests/navigationtiming/w3c/test_navigation_attributes_exist.htm?total_num=8&amp;amp;locator_key=id&amp;amp;value=8</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0W-0A-test_navigation_type_backforward" name="0A-test_navigation_type_backforward" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-navigationtiming-w3c-tests" status="designed" type="compliance" purpose="Objective: This test validates the value of window.performance.navigation.type with a forward and back navigation. - Description: This test validates the value of window.performance.navigation.type with a forward and back navigation.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: This test validates the value of window.performance.navigation.type with a forward and back navigation. - Description: This test validates the value of window.performance.navigation.type with a forward and back navigation.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-navigationtiming-w3c-tests/navigationtiming/w3c/test_navigation_type_backforward.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0W-0B-test_readwrite" name="0B-test_readwrite" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-navigationtiming-w3c-tests" status="designed" type="compliance" purpose="Objective: This test validates that the window.performance object is read/write. - Description: This test validates that the window.performance object is read/write.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: This test validates that the window.performance object is read/write. - Description: This test validates that the window.performance object is read/write.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-navigationtiming-w3c-tests/navigationtiming/w3c/test_readwrite.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0W-0C-test_performance_exist" name="0C-test_performance_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-navigationtiming-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the window.performance is defined - Description: Check if the window.performance is defined">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the window.performance is defined - Description: Check if the window.performance is defined]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-navigationtiming-w3c-tests/navigationtiming/w3c/test_performance_attributes_exist.htm?total_num=3&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0W-0D-test_timing_exist" name="0D-test_timing_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-navigationtiming-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the window.performance.timing is defined - Description: Check if the window.performance.timing is defined">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the window.performance.timing is defined - Description: Check if the window.performance.timing is defined]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-navigationtiming-w3c-tests/navigationtiming/w3c/test_performance_attributes_exist.htm?total_num=3&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0W-0E-test_timing_connectEnd_exist" name="0E-test_timing_connectEnd_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-navigationtiming-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the window.performance.timing.connectEnd is defined - Description: Check if the window.performance.timing.connectEnd is defined">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the window.performance.timing.connectEnd is defined - Description: Check if the window.performance.timing.connectEnd is defined]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-navigationtiming-w3c-tests/navigationtiming/w3c/test_timing_attributes_exist.htm?total_num=23&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0W-0F-test_timing_connectStart_exist" name="0F-test_timing_connectStart_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-navigationtiming-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the window.performance.timing.connectStart is defined - Description: Check if the window.performance.timing.connectStart is defined">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the window.performance.timing.connectStart is defined - Description: Check if the window.performance.timing.connectStart is defined]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-navigationtiming-w3c-tests/navigationtiming/w3c/test_timing_attributes_exist.htm?total_num=23&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0W-0G-test_timing_domComplete_exist" name="0G-test_timing_domComplete_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-navigationtiming-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the window.performance.timing.domComplete is defined - Description: Check if the window.performance.timing.domComplete is defined">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the window.performance.timing.domComplete is defined - Description: Check if the window.performance.timing.domComplete is defined]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-navigationtiming-w3c-tests/navigationtiming/w3c/test_timing_attributes_exist.htm?total_num=23&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0W-0H-test_timing_domContentLoadedEventEnd_exist" name="0H-test_timing_domContentLoadedEventEnd_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-navigationtiming-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the window.performance.timing.domContentLoadedEventEnd is defined - Description: Check if the window.performance.timing.domContentLoadedEventEnd is defined">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the window.performance.timing.domContentLoadedEventEnd is defined - Description: Check if the window.performance.timing.domContentLoadedEventEnd is defined]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-navigationtiming-w3c-tests/navigationtiming/w3c/test_timing_attributes_exist.htm?total_num=23&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0W-0I-test_timing_domContentLoadedEventStart_exist" name="0I-test_timing_domContentLoadedEventStart_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-navigationtiming-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the window.performance.timing.domContentLoadedEventStart is defined - Description: Check if the window.performance.timing.domContentLoadedEventStart is defined">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the window.performance.timing.domContentLoadedEventStart is defined - Description: Check if the window.performance.timing.domContentLoadedEventStart is defined]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-navigationtiming-w3c-tests/navigationtiming/w3c/test_timing_attributes_exist.htm?total_num=23&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0W-0J-test_timing_domInteractive_exist" name="0J-test_timing_domInteractive_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-navigationtiming-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the window.performance.timing.domInteractive is defined - Description: Check if the window.performance.timing.domInteractive is defined">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the window.performance.timing.domInteractive is defined - Description: Check if the window.performance.timing.domInteractive is defined]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-navigationtiming-w3c-tests/navigationtiming/w3c/test_timing_attributes_exist.htm?total_num=23&amp;amp;locator_key=id&amp;amp;value=8</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0W-0K-test_timing_domLoading_exist" name="0K-test_timing_domLoading_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-navigationtiming-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the window.performance.timing.domLoading is defined - Description: Check if the window.performance.timing.domLoading is defined">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the window.performance.timing.domLoading is defined - Description: Check if the window.performance.timing.domLoading is defined]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-navigationtiming-w3c-tests/navigationtiming/w3c/test_timing_attributes_exist.htm?total_num=23&amp;amp;locator_key=id&amp;amp;value=9</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0W-0L-test_timing_domainLookupEnd_exist" name="0L-test_timing_domainLookupEnd_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-navigationtiming-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the window.performance.timing.domainLookupEnd is defined - Description: Check if the window.performance.timing.domainLookupEnd is defined">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the window.performance.timing.domainLookupEnd is defined - Description: Check if the window.performance.timing.domainLookupEnd is defined]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-navigationtiming-w3c-tests/navigationtiming/w3c/test_timing_attributes_exist.htm?total_num=23&amp;amp;locator_key=id&amp;amp;value=10</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0W-0M-test_timing_domainLookupStart_exist" name="0M-test_timing_domainLookupStart_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-navigationtiming-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the window.performance.timing.domainLookupStart is defined - Description: Check if the window.performance.timing.domainLookupStart is defined">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the window.performance.timing.domainLookupStart is defined - Description: Check if the window.performance.timing.domainLookupStart is defined]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-navigationtiming-w3c-tests/navigationtiming/w3c/test_timing_attributes_exist.htm?total_num=23&amp;amp;locator_key=id&amp;amp;value=11</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0W-0N-test_timing_fetchStart_exist" name="0N-test_timing_fetchStart_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-navigationtiming-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the window.performance.timing.fetchStart is defined - Description: Check if the window.performance.timing.fetchStart is defined">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the window.performance.timing.fetchStart is defined - Description: Check if the window.performance.timing.fetchStart is defined]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-navigationtiming-w3c-tests/navigationtiming/w3c/test_timing_attributes_exist.htm?total_num=23&amp;amp;locator_key=id&amp;amp;value=12</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0W-0O-test_timing_loadEventEnd_exist" name="0O-test_timing_loadEventEnd_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-navigationtiming-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the window.performance.timing.loadEventEnd is defined - Description: Check if the window.performance.timing.loadEventEnd is defined">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the window.performance.timing.loadEventEnd is defined - Description: Check if the window.performance.timing.loadEventEnd is defined]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-navigationtiming-w3c-tests/navigationtiming/w3c/test_timing_attributes_exist.htm?total_num=23&amp;amp;locator_key=id&amp;amp;value=13</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0W-0P-test_timing_loadEventStart_exist" name="0P-test_timing_loadEventStart_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-navigationtiming-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the window.performance.timing.loadEventStart is defined - Description: Check if the window.performance.timing.loadEventStart is defined">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the window.performance.timing.loadEventStart is defined - Description: Check if the window.performance.timing.loadEventStart is defined]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-navigationtiming-w3c-tests/navigationtiming/w3c/test_timing_attributes_exist.htm?total_num=23&amp;amp;locator_key=id&amp;amp;value=14</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0W-0Q-test_timing_navigationStart_exist" name="0Q-test_timing_navigationStart_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-navigationtiming-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the window.performance.timing.navigationStart is defined - Description: Check if the window.performance.timing.navigationStart is defined">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the window.performance.timing.navigationStart is defined - Description: Check if the window.performance.timing.navigationStart is defined]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-navigationtiming-w3c-tests/navigationtiming/w3c/test_timing_attributes_exist.htm?total_num=23&amp;amp;locator_key=id&amp;amp;value=15</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0W-0R-test_timing_redirectEnd_exist" name="0R-test_timing_redirectEnd_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-navigationtiming-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the window.performance.timing.redirectEnd is defined - Description: Check if the window.performance.timing.redirectEnd is defined">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the window.performance.timing.redirectEnd is defined - Description: Check if the window.performance.timing.redirectEnd is defined]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-navigationtiming-w3c-tests/navigationtiming/w3c/test_timing_attributes_exist.htm?total_num=23&amp;amp;locator_key=id&amp;amp;value=16</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0W-0S-test_timing_redirectStart_exist" name="0S-test_timing_redirectStart_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-navigationtiming-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the window.performance.timing.redirectStart is defined - Description: Check if the window.performance.timing.redirectStart is defined">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the window.performance.timing.redirectStart is defined - Description: Check if the window.performance.timing.redirectStart is defined]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-navigationtiming-w3c-tests/navigationtiming/w3c/test_timing_attributes_exist.htm?total_num=23&amp;amp;locator_key=id&amp;amp;value=17</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0W-0T-test_timing_requestStart_exist" name="0T-test_timing_requestStart_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-navigationtiming-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the window.performance.timing.requestStart is defined - Description: Check if the window.performance.timing.requestStart is defined">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the window.performance.timing.requestStart is defined - Description: Check if the window.performance.timing.requestStart is defined]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-navigationtiming-w3c-tests/navigationtiming/w3c/test_timing_attributes_exist.htm?total_num=23&amp;amp;locator_key=id&amp;amp;value=18</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0W-0U-test_timing_responseEnd_exist" name="0U-test_timing_responseEnd_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-navigationtiming-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the window.performance.timing.responseEnd is defined - Description: Check if the window.performance.timing.responseEnd is defined">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the window.performance.timing.responseEnd is defined - Description: Check if the window.performance.timing.responseEnd is defined]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-navigationtiming-w3c-tests/navigationtiming/w3c/test_timing_attributes_exist.htm?total_num=23&amp;amp;locator_key=id&amp;amp;value=19</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0W-0V-test_timing_responseStart_exist" name="0V-test_timing_responseStart_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-navigationtiming-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the window.performance.timing.responseStart is defined - Description: Check if the window.performance.timing.responseStart is defined">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the window.performance.timing.responseStart is defined - Description: Check if the window.performance.timing.responseStart is defined]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-navigationtiming-w3c-tests/navigationtiming/w3c/test_timing_attributes_exist.htm?total_num=23&amp;amp;locator_key=id&amp;amp;value=20</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0W-0W-test_timing_unloadEventEnd_exist" name="0W-test_timing_unloadEventEnd_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-navigationtiming-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the window.performance.timing.unloadEventEnd is defined - Description: Check if the window.performance.timing.unloadEventEnd is defined">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the window.performance.timing.unloadEventEnd is defined - Description: Check if the window.performance.timing.unloadEventEnd is defined]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-navigationtiming-w3c-tests/navigationtiming/w3c/test_timing_attributes_exist.htm?total_num=23&amp;amp;locator_key=id&amp;amp;value=21</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0W-0X-test_timing_unloadEventStart_exist" name="0X-test_timing_unloadEventStart_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-navigationtiming-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the window.performance.timing.unloadEventStart is defined - Description: Check if the window.performance.timing.unloadEventStart is defined">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the window.performance.timing.unloadEventStart is defined - Description: Check if the window.performance.timing.unloadEventStart is defined]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-navigationtiming-w3c-tests/navigationtiming/w3c/test_timing_attributes_exist.htm?total_num=23&amp;amp;locator_key=id&amp;amp;value=22</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0W-0Y-test_timing_secureConnectionStart_exist" name="0Y-test_timing_secureConnectionStart_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-navigationtiming-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the window.performance.timing.secureConnectionStart is defined - Description: Check if the window.performance.timing.secureConnectionStart is defined">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the window.performance.timing.secureConnectionStart is defined - Description: Check if the window.performance.timing.secureConnectionStart is defined]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-navigationtiming-w3c-tests/navigationtiming/w3c/test_timing_attributes_exist.htm?total_num=23&amp;amp;locator_key=id&amp;amp;value=23</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0W-0Z-test_unique_performance_objects" name="0Z-test_unique_performance_objects" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-navigationtiming-w3c-tests" status="designed" type="compliance" purpose="Objective: This test validates that each window has a unique window.performance object. - Description: This test validates that each window has a unique window.performance object.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: This test validates that each window has a unique window.performance object. - Description: This test validates that each window has a unique window.performance object.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-navigationtiming-w3c-tests/navigationtiming/w3c/test_unique_performance_objects.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0W-10-test_navigationtiming_attributes_type" name="10-test_navigationtiming_attributes_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-navigationtiming-w3c-tests" status="designed" type="compliance" purpose="Objective: This test validates the types of the attributes in the window.performance.navigation and window.performance.timing. - Description: This test validates the types of the attributes in the window.performance.navigation and window.performance.timing.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: This test validates the types of the attributes in the window.performance.navigation and window.performance.timing. - Description: This test validates the types of the attributes in the window.performance.navigation and window.performance.timing.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-navigationtiming-w3c-tests/navigationtiming/test_navigationtiming_attributes_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0W-11-test_timing_attributes_order" name="11-test_timing_attributes_order" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-navigationtiming-w3c-tests" status="designed" type="compliance" purpose="Objective: This test validates the ordering of the window.performance.timing attributes. - Description: This test validates the ordering of the window.performance.timing attributes.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: This test validates the ordering of the window.performance.timing attributes. - Description: This test validates the ordering of the window.performance.timing attributes.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-navigationtiming-w3c-tests/navigationtiming/w3c/test_timing_attributes_order.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0W-12-test_document_open" name="12-test_document_open" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-navigationtiming-w3c-tests" status="designed" type="compliance" purpose="Objective: This test validates window.performance.timing remains constant when a document is replaced using document.open. - Description: This test validates window.performance.timing remains constant when a document is replaced using document.open.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: This test validates window.performance.timing remains constant when a document is replaced using document.open. - Description: This test validates window.performance.timing remains constant when a document is replaced using document.open.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-navigationtiming-w3c-tests/navigationtiming/w3c/test_document_open.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0W-13-test_timing_client_redirect" name="13-test_timing_client_redirect" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-navigationtiming-w3c-tests" status="designed" type="compliance" purpose="Objective: This test validates the values of the window.navigation.redirectCount and the window.performance.timing.redirectStart/End times on a client side redirect. - Description: This test validates the values of the window.navigation.redirectCount and the window.performance.timing.redirectStart/End times on a client side redirect.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: This test validates the values of the window.navigation.redirectCount and the window.performance.timing.redirectStart/End times on a client side redirect. - Description: This test validates the values of the window.navigation.redirectCount and the window.performance.timing.redirectStart/End times on a client side redirect.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-navigationtiming-w3c-tests/navigationtiming/w3c/test_timing_client_redirect.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0W-14-test_timing_server_redirect" name="14-test_timing_server_redirect" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-navigationtiming-w3c-tests" status="designed" type="compliance" purpose="Objective: This test validates the values of the window.navigation.redirectCount and the window.performance.timing.redirectStart/End times for a same-origin server side redirect navigation. - Description: This test validates the values of the window.navigation.redirectCount and the window.performance.timing.redirectStart/End times for a same-origin server side redirect navigation.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: This test validates the values of the window.navigation.redirectCount and the window.performance.timing.redirectStart/End times for a same-origin server side redirect navigation. - Description: This test validates the values of the window.navigation.redirectCount and the window.performance.timing.redirectStart/End times for a same-origin server side redirect navigation.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-navigationtiming-w3c-tests/navigationtiming/w3c/test_timing_server_redirect.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0W-15-test_navigate_within_document" name="15-test_navigate_within_document" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-navigationtiming-w3c-tests" status="designed" type="compliance" purpose="Objective: This test validates that all of the window.performance.timing attributes remain unchanged after an in document navigation (URL fragment change). - Description: This test validates that all of the window.performance.timing attributes remain unchanged after an in document navigation (URL fragment change).">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: This test validates that all of the window.performance.timing attributes remain unchanged after an in document navigation (URL fragment change). - Description: This test validates that all of the window.performance.timing attributes remain unchanged after an in document navigation (URL fragment change).]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-navigationtiming-w3c-tests/navigationtiming/w3c/test_navigate_within_document.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0W-16-test_navigation_redirectCount_none" name="16-test_navigation_redirectCount_none" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-navigationtiming-w3c-tests" status="designed" type="compliance" purpose="Objective: This test validates that the value of the window.performance.navigation.redirectCount attribute, as well as the window.performance.timing.redirectStart and redirectEnd attributes on a non-redirected navigation. - Description: This test validates that the value of the window.performance.navigation.redirectCount attribute, as well as the window.performance.timing.redirectStart and redirectEnd attributes on a non-redirected navigation.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: This test validates that the value of the window.performance.navigation.redirectCount attribute, as well as the window.performance.timing.redirectStart and redirectEnd attributes on a non-redirected navigation. - Description: This test validates that the value of the window.performance.navigation.redirectCount attribute, as well as the window.performance.timing.redirectStart and redirectEnd attributes on a non-redirected navigation.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-navigationtiming-w3c-tests/navigationtiming/w3c/test_navigation_redirectCount_none.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0W-17-test_navigation_type_reload" name="17-test_navigation_type_reload" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-navigationtiming-w3c-tests" status="designed" type="compliance" purpose="Objective: This test validates the value of window.performance.navigation.type and the values of window.performance.timing.* with a reloaded navigation. - Description: This test validates the value of window.performance.navigation.type and the values of window.performance.timing.* with a reloaded navigation.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: This test validates the value of window.performance.navigation.type and the values of window.performance.timing.* with a reloaded navigation. - Description: This test validates the value of window.performance.navigation.type and the values of window.performance.timing.* with a reloaded navigation.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-navigationtiming-w3c-tests/navigationtiming/w3c/test_navigation_type_reload.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0W-18-test_no_previous_document" name="18-test_no_previous_document" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-navigationtiming-w3c-tests" status="designed" type="compliance" purpose="Objective: This test validates the unload event times are 0 when there is no previous document. - Description: This test validates the unload event times are 0 when there is no previous document.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: This test validates the unload event times are 0 when there is no previous document. - Description: This test validates the unload event times are 0 when there is no previous document.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-navigationtiming-w3c-tests/navigationtiming/w3c/test_no_previous_document.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0W-19-test_timing_reload" name="19-test_timing_reload" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-navigationtiming-w3c-tests" status="designed" type="compliance" purpose="Objective: This test validates that the window.performance.timing attributes change when a page is reloaded. - Description: This test validates that the window.performance.timing attributes change when a page is reloaded.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: This test validates that the window.performance.timing attributes change when a page is reloaded. - Description: This test validates that the window.performance.timing attributes change when a page is reloaded.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-navigationtiming-w3c-tests/navigationtiming/w3c/test_timing_reload.htm</test_script_entry>
+                </description>
+            </testcase>
+        </set>
+    </suite>
+</test_definition>

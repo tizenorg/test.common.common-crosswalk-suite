@@ -1,0 +1,223 @@
+<?xml version="1.0"?>
+<test_definition>
+    <suite launcher="xwalk" name="00-common/E0-crosswalk">
+        <set name="common/crosswalk/deviceapi/tct-networkbearerselection-tizen-tests">
+            <testcase id="00-E0-01-0I-01-NetworkBearerSelectionObject_notexist" name="01-NetworkBearerSelectionObject_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-networkbearerselection-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if interface NetworkBearerSelectionObject exists, it should not - Description: Check if interface NetworkBearerSelectionObject exists, it should not">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if interface NetworkBearerSelectionObject exists, it should not - Description: Check if interface NetworkBearerSelectionObject exists, it should not]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-networkbearerselection-tizen-tests/networkbearerselection/NetworkBearerSelectionObject_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0I-02-NetworkBearerSelection_extend" name="02-NetworkBearerSelection_extend" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-networkbearerselection-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if NetworkBearerSelection instance can have new properties added - Description: Check if NetworkBearerSelection instance can have new properties added">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NetworkBearerSelection instance can have new properties added - Description: Check if NetworkBearerSelection instance can have new properties added]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-networkbearerselection-tizen-tests/networkbearerselection/NetworkBearerSelection_extend.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0I-03-NetworkBearerSelection_in_tizen" name="03-NetworkBearerSelection_in_tizen" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-networkbearerselection-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if Tizen namespace contains networkbearerselection - Description: Check if Tizen namespace contains networkbearerselection">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Tizen namespace contains networkbearerselection - Description: Check if Tizen namespace contains networkbearerselection]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-networkbearerselection-tizen-tests/networkbearerselection/NetworkBearerSelection_in_tizen.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0I-04-NetworkBearerSelection_notexist" name="04-NetworkBearerSelection_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-networkbearerselection-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if interface NetworkBearerSelection exists, it should not - Description: Check if interface NetworkBearerSelection exists, it should not">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if interface NetworkBearerSelection exists, it should not - Description: Check if interface NetworkBearerSelection exists, it should not]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-networkbearerselection-tizen-tests/networkbearerselection/NetworkBearerSelection_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0I-05-NetworkBearerSelection_releaseRouteToHost" name="05-NetworkBearerSelection_releaseRouteToHost" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-networkbearerselection-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if NetworkBearerSelection::releaseRouteToHost() method called with only mandatory arguments does what it should - Description: Check if NetworkBearerSelection::releaseRouteToHost() method called with only mandatory arguments does what it should" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NetworkBearerSelection::releaseRouteToHost() method called with only mandatory arguments does what it should - Description: Check if NetworkBearerSelection::releaseRouteToHost() method called with only mandatory arguments does what it should]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-networkbearerselection-tizen-tests/networkbearerselection/NetworkBearerSelection_releaseRouteToHost.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0I-06-NetworkBearerSelection_releaseRouteToHost_errorCallback_TypeMismatch" name="06-NetworkBearerSelection_releaseRouteToHost_errorCallback_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-networkbearerselection-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if NetworkBearerSelection::releaseRouteToHost() throws exception when errorCallback is incorrect - Description: Check if NetworkBearerSelection::releaseRouteToHost() throws exception when errorCallback is incorrect" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NetworkBearerSelection::releaseRouteToHost() throws exception when errorCallback is incorrect - Description: Check if NetworkBearerSelection::releaseRouteToHost() throws exception when errorCallback is incorrect]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-networkbearerselection-tizen-tests/networkbearerselection/NetworkBearerSelection_releaseRouteToHost_errorCallback_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0I-07-NetworkBearerSelection_releaseRouteToHost_errorCallback_invalid_cb" name="07-NetworkBearerSelection_releaseRouteToHost_errorCallback_invalid_cb" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-networkbearerselection-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if NetworkBearerSelection::releaseRouteToHost() throws exception when errorCallback is invalid - Description: Check if NetworkBearerSelection::releaseRouteToHost() throws exception when errorCallback is invalid" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NetworkBearerSelection::releaseRouteToHost() throws exception when errorCallback is invalid - Description: Check if NetworkBearerSelection::releaseRouteToHost() throws exception when errorCallback is invalid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-networkbearerselection-tizen-tests/networkbearerselection/NetworkBearerSelection_releaseRouteToHost_errorCallback_invalid_cb.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0I-08-NetworkBearerSelection_releaseRouteToHost_exist" name="08-NetworkBearerSelection_releaseRouteToHost_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-networkbearerselection-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if NetworkBearerSelection::releaseRouteToHost() method exists - Description: Check if NetworkBearerSelection::releaseRouteToHost() method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NetworkBearerSelection::releaseRouteToHost() method exists - Description: Check if NetworkBearerSelection::releaseRouteToHost() method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-networkbearerselection-tizen-tests/networkbearerselection/NetworkBearerSelection_releaseRouteToHost_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0I-09-NetworkBearerSelection_releaseRouteToHost_missarg" name="09-NetworkBearerSelection_releaseRouteToHost_missarg" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-networkbearerselection-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if NetworkBearerSelection::releaseRouteToHost() method called with missing mandatory argument throws an exception - Description: Check if NetworkBearerSelection::releaseRouteToHost() method called with missing mandatory argument throws an exception">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NetworkBearerSelection::releaseRouteToHost() method called with missing mandatory argument throws an exception - Description: Check if NetworkBearerSelection::releaseRouteToHost() method called with missing mandatory argument throws an exception]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-networkbearerselection-tizen-tests/networkbearerselection/NetworkBearerSelection_releaseRouteToHost_missarg.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0I-0A-NetworkBearerSelection_releaseRouteToHost_networkType_TypeMismatch" name="0A-NetworkBearerSelection_releaseRouteToHost_networkType_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-networkbearerselection-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if NetworkBearerSelection::releaseRouteToHost() throws exception when networkType is incorrect - Description: Check if NetworkBearerSelection::releaseRouteToHost() throws exception when networkType is incorrect" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NetworkBearerSelection::releaseRouteToHost() throws exception when networkType is incorrect - Description: Check if NetworkBearerSelection::releaseRouteToHost() throws exception when networkType is incorrect]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-networkbearerselection-tizen-tests/networkbearerselection/NetworkBearerSelection_releaseRouteToHost_networkType_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0I-0B-NetworkBearerSelection_releaseRouteToHost_successCallback_TypeMismatch" name="0B-NetworkBearerSelection_releaseRouteToHost_successCallback_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-networkbearerselection-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if NetworkBearerSelection::releaseRouteToHost() throws exception when successCallback is incorrect - Description: Check if NetworkBearerSelection::releaseRouteToHost() throws exception when successCallback is incorrect">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NetworkBearerSelection::releaseRouteToHost() throws exception when successCallback is incorrect - Description: Check if NetworkBearerSelection::releaseRouteToHost() throws exception when successCallback is incorrect]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-networkbearerselection-tizen-tests/networkbearerselection/NetworkBearerSelection_releaseRouteToHost_successCallback_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0I-0C-NetworkBearerSelection_releaseRouteToHost_successCallback_invalid_cb" name="0C-NetworkBearerSelection_releaseRouteToHost_successCallback_invalid_cb" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-networkbearerselection-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if NetworkBearerSelection::releaseRouteToHost() throws exception when successCallback is invalid - Description: Check if NetworkBearerSelection::releaseRouteToHost() throws exception when successCallback is invalid" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NetworkBearerSelection::releaseRouteToHost() throws exception when successCallback is invalid - Description: Check if NetworkBearerSelection::releaseRouteToHost() throws exception when successCallback is invalid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-networkbearerselection-tizen-tests/networkbearerselection/NetworkBearerSelection_releaseRouteToHost_successCallback_invalid_cb.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0I-0D-NetworkBearerSelection_releaseRouteToHost_with_errorCallback" name="0D-NetworkBearerSelection_releaseRouteToHost_with_errorCallback" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-networkbearerselection-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if NetworkBearerSelection::releaseRouteToHost() called with optional errorCallback works as expected - Description: Check if NetworkBearerSelection::releaseRouteToHost() called with optional errorCallback works as expected" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NetworkBearerSelection::releaseRouteToHost() called with optional errorCallback works as expected - Description: Check if NetworkBearerSelection::releaseRouteToHost() called with optional errorCallback works as expected]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-networkbearerselection-tizen-tests/networkbearerselection/NetworkBearerSelection_releaseRouteToHost_with_errorCallback.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0I-0E-NetworkBearerSelection_requestRouteToHost" name="0E-NetworkBearerSelection_requestRouteToHost" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-networkbearerselection-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if NetworkBearerSelection::requestRouteToHost() method called with only mandatory arguments does what it should - Description: Check if NetworkBearerSelection::requestRouteToHost() method called with only mandatory arguments does what it should" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NetworkBearerSelection::requestRouteToHost() method called with only mandatory arguments does what it should - Description: Check if NetworkBearerSelection::requestRouteToHost() method called with only mandatory arguments does what it should]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-networkbearerselection-tizen-tests/networkbearerselection/NetworkBearerSelection_requestRouteToHost.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0I-0F-NetworkBearerSelection_requestRouteToHost_errorCallback_TypeMismatch" name="0F-NetworkBearerSelection_requestRouteToHost_errorCallback_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-networkbearerselection-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if NetworkBearerSelection::requestRouteToHost() throws exception when errorCallback is incorrect - Description: Check if NetworkBearerSelection::requestRouteToHost() throws exception when errorCallback is incorrect" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NetworkBearerSelection::requestRouteToHost() throws exception when errorCallback is incorrect - Description: Check if NetworkBearerSelection::requestRouteToHost() throws exception when errorCallback is incorrect]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-networkbearerselection-tizen-tests/networkbearerselection/NetworkBearerSelection_requestRouteToHost_errorCallback_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0I-0G-NetworkBearerSelection_requestRouteToHost_errorCallback_invalid_cb" name="0G-NetworkBearerSelection_requestRouteToHost_errorCallback_invalid_cb" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-networkbearerselection-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if NetworkBearerSelection::requestRouteToHost() throws exception when errorCallback is invalid - Description: Check if NetworkBearerSelection::requestRouteToHost() throws exception when errorCallback is invalid" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NetworkBearerSelection::requestRouteToHost() throws exception when errorCallback is invalid - Description: Check if NetworkBearerSelection::requestRouteToHost() throws exception when errorCallback is invalid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-networkbearerselection-tizen-tests/networkbearerselection/NetworkBearerSelection_requestRouteToHost_errorCallback_invalid_cb.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0I-0H-NetworkBearerSelection_requestRouteToHost_exist" name="0H-NetworkBearerSelection_requestRouteToHost_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-networkbearerselection-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if NetworkBearerSelection::requestRouteToHost() method exists - Description: Check if NetworkBearerSelection::requestRouteToHost() method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NetworkBearerSelection::requestRouteToHost() method exists - Description: Check if NetworkBearerSelection::requestRouteToHost() method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-networkbearerselection-tizen-tests/networkbearerselection/NetworkBearerSelection_requestRouteToHost_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0I-0I-NetworkBearerSelection_requestRouteToHost_missarg" name="0I-NetworkBearerSelection_requestRouteToHost_missarg" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-networkbearerselection-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if NetworkBearerSelection::requestRouteToHost() method called with missing mandatory argument throws an exception - Description: Check if NetworkBearerSelection::requestRouteToHost() method called with missing mandatory argument throws an exception">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NetworkBearerSelection::requestRouteToHost() method called with missing mandatory argument throws an exception - Description: Check if NetworkBearerSelection::requestRouteToHost() method called with missing mandatory argument throws an exception]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-networkbearerselection-tizen-tests/networkbearerselection/NetworkBearerSelection_requestRouteToHost_missarg.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0I-0J-NetworkBearerSelection_requestRouteToHost_networkType_TypeMismatch" name="0J-NetworkBearerSelection_requestRouteToHost_networkType_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-networkbearerselection-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if NetworkBearerSelection::requestRouteToHost() throws exception when networkType is incorrect - Description: Check if NetworkBearerSelection::requestRouteToHost() throws exception when networkType is incorrect" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NetworkBearerSelection::requestRouteToHost() throws exception when networkType is incorrect - Description: Check if NetworkBearerSelection::requestRouteToHost() throws exception when networkType is incorrect]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-networkbearerselection-tizen-tests/networkbearerselection/NetworkBearerSelection_requestRouteToHost_networkType_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0I-0K-NetworkBearerSelection_requestRouteToHost_successCallback_TypeMismatch" name="0K-NetworkBearerSelection_requestRouteToHost_successCallback_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-networkbearerselection-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if NetworkBearerSelection::requestRouteToHost() throws exception when successCallback is incorrect - Description: Check if NetworkBearerSelection::requestRouteToHost() throws exception when successCallback is incorrect">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NetworkBearerSelection::requestRouteToHost() throws exception when successCallback is incorrect - Description: Check if NetworkBearerSelection::requestRouteToHost() throws exception when successCallback is incorrect]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-networkbearerselection-tizen-tests/networkbearerselection/NetworkBearerSelection_requestRouteToHost_successCallback_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0I-0L-NetworkBearerSelection_requestRouteToHost_successCallback_invalid_cb" name="0L-NetworkBearerSelection_requestRouteToHost_successCallback_invalid_cb" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-networkbearerselection-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if NetworkBearerSelection::requestRouteToHost() throws exception when successCallback is invalid - Description: Check if NetworkBearerSelection::requestRouteToHost() throws exception when successCallback is invalid" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NetworkBearerSelection::requestRouteToHost() throws exception when successCallback is invalid - Description: Check if NetworkBearerSelection::requestRouteToHost() throws exception when successCallback is invalid]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-networkbearerselection-tizen-tests/networkbearerselection/NetworkBearerSelection_requestRouteToHost_successCallback_invalid_cb.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0I-0M-NetworkBearerSelection_requestRouteToHost_with_errorCallback" name="0M-NetworkBearerSelection_requestRouteToHost_with_errorCallback" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-networkbearerselection-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if NetworkBearerSelection::requestRouteToHost() called with optional errorCallback works as expected - Description: Check if NetworkBearerSelection::requestRouteToHost() called with optional errorCallback works as expected" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NetworkBearerSelection::requestRouteToHost() called with optional errorCallback works as expected - Description: Check if NetworkBearerSelection::requestRouteToHost() called with optional errorCallback works as expected]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-networkbearerselection-tizen-tests/networkbearerselection/NetworkBearerSelection_requestRouteToHost_with_errorCallback.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0I-0N-NetworkSuccessCallback_notexist" name="0N-NetworkSuccessCallback_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-networkbearerselection-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if interface NetworkSuccessCallback exists, it should not. - Description: Check if interface NetworkSuccessCallback exists, it should not.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if interface NetworkSuccessCallback exists, it should not. - Description: Check if interface NetworkSuccessCallback exists, it should not.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-networkbearerselection-tizen-tests/networkbearerselection/NetworkSuccessCallback_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-0I-0O-NetworkSuccessCallback_onsuccess" name="0O-NetworkSuccessCallback_onsuccess" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-networkbearerselection-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if NetworkSuccessCallback::onsuccess is called - Description: Check if NetworkSuccessCallback::onsuccess is called" onload_delay="90">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if NetworkSuccessCallback::onsuccess is called - Description: Check if NetworkSuccessCallback::onsuccess is called]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-networkbearerselection-tizen-tests/networkbearerselection/NetworkSuccessCallback_onsuccess.html</test_script_entry>
+                </description>
+            </testcase>
+        </set>
+    </suite>
+</test_definition>

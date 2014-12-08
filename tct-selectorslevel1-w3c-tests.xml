@@ -1,0 +1,655 @@
+<?xml version="1.0"?>
+<test_definition>
+    <suite launcher="xwalk" name="00-common/E0-crosswalk">
+        <set name="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests">
+            <testcase id="00-E0-00-13-01-selectors1_documentfragment_queryselectorall_exists" name="01-selectors1_documentfragment_queryselectorall_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if DocumentFragment.querySelectorAll() method exists - Description: Check if DocumentFragment.querySelectorAll() method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DocumentFragment.querySelectorAll() method exists - Description: Check if DocumentFragment.querySelectorAll() method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/selectors1_documentfragment_queryselectorall_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-02-selectors1_documentfragment_queryselector_exists" name="02-selectors1_documentfragment_queryselector_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if DocumentFragment.querySelector() method exists - Description: Check if DocumentFragment.querySelector() method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DocumentFragment.querySelector() method exists - Description: Check if DocumentFragment.querySelector() method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/selectors1_documentfragment_queryselector_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-03-selectors1_document_queryselectorall_exists" name="03-selectors1_document_queryselectorall_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if document.querySelectorAll() method exists - Description: Check if document.querySelectorAll() method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if document.querySelectorAll() method exists - Description: Check if document.querySelectorAll() method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/selectors1_document_queryselectorall_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-04-selectors1_document_queryselector_exists" name="04-selectors1_document_queryselector_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if document.querySelector() method exists - Description: Check if document.querySelector() method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if document.querySelector() method exists - Description: Check if document.querySelector() method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/selectors1_document_queryselector_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-05-selectors1_element_queryselectorall_exists" name="05-selectors1_element_queryselectorall_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if element.querySelectorAll() method exists - Description: Check if element.querySelectorAll() method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.querySelectorAll() method exists - Description: Check if element.querySelectorAll() method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/selectors1_element_queryselectorall_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-06-selectors1_element_queryselector_exists" name="06-selectors1_element_queryselector_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if element.querySelector() method exists - Description: Check if element.querySelector() method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.querySelector() method exists - Description: Check if element.querySelector() method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/selectors1_element_queryselector_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-07-selectors1_documentfragment_queryselector_return_first" name="07-selectors1_documentfragment_queryselector_return_first" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if DocumentFragment.querySelector() method must return the first matching Element node within the subtrees of the context node - Description: Check if DocumentFragment.querySelector() method must return the first matching Element node within the subtrees of the context node">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DocumentFragment.querySelector() method must return the first matching Element node within the subtrees of the context node - Description: Check if DocumentFragment.querySelector() method must return the first matching Element node within the subtrees of the context node]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/selectors1_documentfragment_queryselector_return_first.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-08-selectors1_document_queryselector_return_null" name="08-selectors1_document_queryselector_return_null" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if document.querySelector() method return null if there is no matching Element - Description: Check if document.querySelector() method return null if there is no matching Element">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if document.querySelector() method return null if there is no matching Element - Description: Check if document.querySelector() method return null if there is no matching Element]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/selectors1_document_queryselector_return_null.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-09-selectors1_element_queryselector_return_first" name="09-selectors1_element_queryselector_return_first" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if element.querySelector() method must return the first matching Element node within the subtrees of the context node - Description: Check if element.querySelector() method must return the first matching Element node within the subtrees of the context node">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.querySelector() method must return the first matching Element node within the subtrees of the context node - Description: Check if element.querySelector() method must return the first matching Element node within the subtrees of the context node]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/selectors1_element_queryselector_return_first.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-0A-selectors1_document_queryselector_type" name="0A-selectors1_document_queryselector_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if document.querySelector() method is of type function - Description: Check if document.querySelector() method is of type function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if document.querySelector() method is of type function - Description: Check if document.querySelector() method is of type function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-0B-selectors1_document_queryselectorall_type" name="0B-selectors1_document_queryselectorall_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if document.querySelectorAll() method is of type function - Description: Check if document.querySelectorAll() method is of type function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if document.querySelectorAll() method is of type function - Description: Check if document.querySelectorAll() method is of type function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-0C-selectors1_document_queryselectorall_return_nodelist" name="0C-selectors1_document_queryselectorall_return_nodelist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if document.querySelectorAll() method return a NodeList containing all of the matching Element nodes within the subtrees of the context node - Description: Check if document.querySelectorAll() method return a NodeList containing all of the matching Element nodes within the subtrees of the context node">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if document.querySelectorAll() method return a NodeList containing all of the matching Element nodes within the subtrees of the context node - Description: Check if document.querySelectorAll() method return a NodeList containing all of the matching Element nodes within the subtrees of the context node]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-0D-selectors1_documentfragment_queryselector_type" name="0D-selectors1_documentfragment_queryselector_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if DocumentFragment.querySelector() method is of type function - Description: Check if DocumentFragment.querySelector() method is of type function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DocumentFragment.querySelector() method is of type function - Description: Check if DocumentFragment.querySelector() method is of type function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=7</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-0E-selectors1_documentfragment_queryselectorall_type" name="0E-selectors1_documentfragment_queryselectorall_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if DocumentFragment.querySelectorAll() method is of type function - Description: Check if DocumentFragment.querySelectorAll() method is of type function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DocumentFragment.querySelectorAll() method is of type function - Description: Check if DocumentFragment.querySelectorAll() method is of type function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=8</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-0F-selectors1_documentfragment_queryselectorall_return_nodelist" name="0F-selectors1_documentfragment_queryselectorall_return_nodelist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if DocumentFragment.querySelectorAll() method return a NodeList containing all of the matching Element nodes within the subtrees of the context node, in document order - Description: Check if DocumentFragment.querySelectorAll() method return a NodeList containing all of the matching Element nodes within the subtrees of the context node, in document order">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DocumentFragment.querySelectorAll() method return a NodeList containing all of the matching Element nodes within the subtrees of the context node, in document order - Description: Check if DocumentFragment.querySelectorAll() method return a NodeList containing all of the matching Element nodes within the subtrees of the context node, in document order]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=9</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-0G-selectors1_element_queryselector_type" name="0G-selectors1_element_queryselector_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if element.querySelector() method is of type function - Description: Check if element.querySelector() method is of type function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.querySelector() method is of type function - Description: Check if element.querySelector() method is of type function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=10</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-0H-selectors1_element_queryselectorall_type" name="0H-selectors1_element_queryselectorall_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if element.querySelectorAll() method is of type function - Description: Check if element.querySelectorAll() method is of type function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.querySelectorAll() method is of type function - Description: Check if element.querySelectorAll() method is of type function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=11</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-0I-selectors1_element_queryselectorall_return_nodelist" name="0I-selectors1_element_queryselectorall_return_nodelist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if element.querySelectorAll() method must return a NodeList containing all of the matching Element nodes within the subtrees of the context node, in document order - Description: Check if element.querySelectorAll() method must return a NodeList containing all of the matching Element nodes within the subtrees of the context node, in document order">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.querySelectorAll() method must return a NodeList containing all of the matching Element nodes within the subtrees of the context node, in document order - Description: Check if element.querySelectorAll() method must return a NodeList containing all of the matching Element nodes within the subtrees of the context node, in document order]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=12</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-0J-selectors1_document_queryselectorall_argument_null" name="0J-selectors1_document_queryselectorall_argument_null" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if document.querySelectorAll() method with argument of null that return object type of NodeList - Description: Check if document.querySelectorAll() method with argument of null that return object type of NodeList">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if document.querySelectorAll() method with argument of null that return object type of NodeList - Description: Check if document.querySelectorAll() method with argument of null that return object type of NodeList]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=13</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-0K-selectors1_document_queryselector_argument_null" name="0K-selectors1_document_queryselector_argument_null" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if document.querySelector() method with argument of null that must return null - Description: Check if document.querySelector() method with argument of null that must return null">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if document.querySelector() method with argument of null that must return null - Description: Check if document.querySelector() method with argument of null that must return null]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=16</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-0L-selectors1_documentfragment_queryselectorall_argument_null" name="0L-selectors1_documentfragment_queryselectorall_argument_null" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if DocumentFragment.querySelectorAll() method with argument of null that return object type of NodeList - Description: Check if DocumentFragment.querySelectorAll() method with argument of null that return object type of NodeList">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DocumentFragment.querySelectorAll() method with argument of null that return object type of NodeList - Description: Check if DocumentFragment.querySelectorAll() method with argument of null that return object type of NodeList]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=27</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-0M-selectors1_documentfragment_queryselector_argument_null" name="0M-selectors1_documentfragment_queryselector_argument_null" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if DocumentFragment.querySelector() method with argument of null that must return null - Description: Check if DocumentFragment.querySelector() method with argument of null that must return null">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DocumentFragment.querySelector() method with argument of null that must return null - Description: Check if DocumentFragment.querySelector() method with argument of null that must return null]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=30</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-0N-selectors1_element_queryselectorall_argument_null" name="0N-selectors1_element_queryselectorall_argument_null" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if element.querySelectorAll() method with argument of null that return object type of NodeList - Description: Check if element.querySelectorAll() method with argument of null that return object type of NodeList">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.querySelectorAll() method with argument of null that return object type of NodeList - Description: Check if element.querySelectorAll() method with argument of null that return object type of NodeList]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=34</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-0O-selectors1_element_queryselector_argument_null" name="0O-selectors1_element_queryselector_argument_null" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if element.querySelector() method with argument of null that must return null - Description: Check if element.querySelector() method with argument of null that must return null">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.querySelector() method with argument of null that must return null - Description: Check if element.querySelector() method with argument of null that must return null]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=37</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-0P-selectors1_document_queryselectorall_return_empty_nodelist" name="0P-selectors1_document_queryselectorall_return_empty_nodelist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if document.querySelectorAll() method must return an empty NodeList if there are no matching nodes - Description: Check if document.querySelectorAll() method must return an empty NodeList if there are no matching nodes">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if document.querySelectorAll() method must return an empty NodeList if there are no matching nodes - Description: Check if document.querySelectorAll() method must return an empty NodeList if there are no matching nodes]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=50</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-0Q-selectors1_documentfragment_queryselectorall_return_empty_nodelist" name="0Q-selectors1_documentfragment_queryselectorall_return_empty_nodelist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if DocumentFragment.querySelectorAll() method must return an empty NodeList if there are no matching Element nodes - Description: Check if DocumentFragment.querySelectorAll() method must return an empty NodeList if there are no matching Element nodes">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DocumentFragment.querySelectorAll() method must return an empty NodeList if there are no matching Element nodes - Description: Check if DocumentFragment.querySelectorAll() method must return an empty NodeList if there are no matching Element nodes]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=178</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-0R-selectors1_element_queryselectorall_return_empty_nodelist" name="0R-selectors1_element_queryselectorall_return_empty_nodelist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if element.querySelectorAll() method return an empty NodeList if there are no matching nodes - Description: Check if element.querySelectorAll() method return an empty NodeList if there are no matching nodes">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.querySelectorAll() method return an empty NodeList if there are no matching nodes - Description: Check if element.querySelectorAll() method return an empty NodeList if there are no matching nodes]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=242</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-0S-selectors1_document_queryselectorall_argument_tag" name="0S-selectors1_document_queryselectorall_argument_tag" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if document.querySelectorAll() method with argument of tag name should return the expected number of matches - Description: Check if document.querySelectorAll() method with argument of tag name should return the expected number of matches">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if document.querySelectorAll() method with argument of tag name should return the expected number of matches - Description: Check if document.querySelectorAll() method with argument of tag name should return the expected number of matches]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=305</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-0T-selectors1_document_queryselector_argument_tag" name="0T-selectors1_document_queryselector_argument_tag" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if document.querySelector() method must match element with specified tag - Description: Check if document.querySelector() method must match element with specified tag">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if document.querySelector() method must match element with specified tag - Description: Check if document.querySelector() method must match element with specified tag]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=306</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-0U-selectors1_document_queryselectorall_argument_class" name="0U-selectors1_document_queryselectorall_argument_class" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if document.querySelectorAll() method with argument of class name should return the expected number of matches - Description: Check if document.querySelectorAll() method with argument of class name should return the expected number of matches">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if document.querySelectorAll() method with argument of class name should return the expected number of matches - Description: Check if document.querySelectorAll() method with argument of class name should return the expected number of matches]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=409</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-0V-selectors1_document_queryselector_argument_class" name="0V-selectors1_document_queryselector_argument_class" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if document.querySelector() method must match element with specified class - Description: Check if document.querySelector() method must match element with specified class">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if document.querySelector() method must match element with specified class - Description: Check if document.querySelector() method must match element with specified class]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=410</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-0W-selectors1_document_queryselectorall_argument_id" name="0W-selectors1_document_queryselectorall_argument_id" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if document.querySelectorAll() method with argument of id name should return the expected number of matches - Description: Check if document.querySelectorAll() method with argument of id name should return the expected number of matches">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if document.querySelectorAll() method with argument of id name should return the expected number of matches - Description: Check if document.querySelectorAll() method with argument of id name should return the expected number of matches]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=425</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-0X-selectors1_document_queryselector_argument_id" name="0X-selectors1_document_queryselector_argument_id" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if document.querySelector() method must match element with specified id - Description: Check if document.querySelector() method must match element with specified id">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if document.querySelector() method must match element with specified id - Description: Check if document.querySelector() method must match element with specified id]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=426</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-0Y-selectors1_document_queryselector_return_first" name="0Y-selectors1_document_queryselector_return_first" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if document.querySelector() method must return the first matching Element node within the subtrees of the context node - Description: Check if document.querySelector() method must return the first matching Element node within the subtrees of the context node">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if document.querySelector() method must return the first matching Element node within the subtrees of the context node - Description: Check if document.querySelector() method must return the first matching Element node within the subtrees of the context node]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=430</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-0Z-selectors1_document_queryselectorall_argument_tag_id" name="0Z-selectors1_document_queryselectorall_argument_tag_id" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if document.querySelectorAll() method with argument of element's tag name and id that must return a NodeList containing all of the matching Element nodes - Description: Check if document.querySelectorAll() method with argument of element's tag name and id that must return a NodeList containing all of the matching Element nodes">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if document.querySelectorAll() method with argument of element's tag name and id that must return a NodeList containing all of the matching Element nodes - Description: Check if document.querySelectorAll() method with argument of element's tag name and id that must return a NodeList containing all of the matching Element nodes]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=473</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-10-selectors1_document_queryselector_argument_tag_id" name="10-selectors1_document_queryselector_argument_tag_id" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if document.querySelector() method with argument of element's tag name and id that must return the first matching Element node - Description: Check if document.querySelector() method with argument of element's tag name and id that must return the first matching Element node">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if document.querySelector() method with argument of element's tag name and id that must return the first matching Element node - Description: Check if document.querySelector() method with argument of element's tag name and id that must return the first matching Element node]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=474</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-11-selectors1_document_queryselectorall_argument_tag_tag" name="11-selectors1_document_queryselectorall_argument_tag_tag" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if document.querySelectorAll() method with argument of element's 2 tags name that must return a NodeList containing all of the matching Element nodes - Description: Check if document.querySelectorAll() method with argument of element's 2 tags name that must return a NodeList containing all of the matching Element nodes">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if document.querySelectorAll() method with argument of element's 2 tags name that must return a NodeList containing all of the matching Element nodes - Description: Check if document.querySelectorAll() method with argument of element's 2 tags name that must return a NodeList containing all of the matching Element nodes]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=475</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-12-selectors1_document_queryselector_argument_tag_tag" name="12-selectors1_document_queryselector_argument_tag_tag" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if document.querySelector() method with argument of element's 2 tags name that must return the first matching Element node - Description: Check if document.querySelector() method with argument of element's 2 tags name that must return the first matching Element node">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if document.querySelector() method with argument of element's 2 tags name that must return the first matching Element node - Description: Check if document.querySelector() method with argument of element's 2 tags name that must return the first matching Element node]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=476</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-13-selectors1_document_queryselectorall_argument_tag_class" name="13-selectors1_document_queryselectorall_argument_tag_class" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if document.querySelectorAll() method with argument of element's tag name and classname that must return a NodeList containing all of the matching Element nodes - Description: Check if document.querySelectorAll() method with argument of element's tag name and classname that must return a NodeList containing all of the matching Element nodes">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if document.querySelectorAll() method with argument of element's tag name and classname that must return a NodeList containing all of the matching Element nodes - Description: Check if document.querySelectorAll() method with argument of element's tag name and classname that must return a NodeList containing all of the matching Element nodes]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=477</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-14-selectors1_document_queryselector_argument_tag_class" name="14-selectors1_document_queryselector_argument_tag_class" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if document.querySelector() method with argument of element's tag name and classname that must return the first matching Element node - Description: Check if document.querySelector() method with argument of element's tag name and classname that must return the first matching Element node">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if document.querySelector() method with argument of element's tag name and classname that must return the first matching Element node - Description: Check if document.querySelector() method with argument of element's tag name and classname that must return the first matching Element node]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=478</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-15-selectors1_document_queryselectorall_argument_class_id" name="15-selectors1_document_queryselectorall_argument_class_id" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if document.querySelectorAll() method with argument of element's classname and id that must return a NodeList containing all of the matching Element nodes - Description: Check if document.querySelectorAll() method with argument of element's classname and id that must return a NodeList containing all of the matching Element nodes">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if document.querySelectorAll() method with argument of element's classname and id that must return a NodeList containing all of the matching Element nodes - Description: Check if document.querySelectorAll() method with argument of element's classname and id that must return a NodeList containing all of the matching Element nodes]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=483</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-16-selectors1_document_queryselector_argument_class_id" name="16-selectors1_document_queryselector_argument_class_id" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if document.querySelector() method with argument of element's classname and id that must return the first matching Element node - Description: Check if document.querySelector() method with argument of element's classname and id that must return the first matching Element node">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if document.querySelector() method with argument of element's classname and id that must return the first matching Element node - Description: Check if document.querySelector() method with argument of element's classname and id that must return the first matching Element node]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=484</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-17-selectors1_documentfragment_queryselectorall_argument_tag" name="17-selectors1_documentfragment_queryselectorall_argument_tag" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if documentfragment.querySelectorAll() method with argument of tag name should return the expected number of matches - Description: Check if documentfragment.querySelectorAll() method with argument of tag name should return the expected number of matches">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if documentfragment.querySelectorAll() method with argument of tag name should return the expected number of matches - Description: Check if documentfragment.querySelectorAll() method with argument of tag name should return the expected number of matches]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=745</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-18-selectors1_documentfragment_queryselector_argument_tag" name="18-selectors1_documentfragment_queryselector_argument_tag" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if documentfragment.querySelector() method must match element with specified tag - Description: Check if documentfragment.querySelector() method must match element with specified tag">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if documentfragment.querySelector() method must match element with specified tag - Description: Check if documentfragment.querySelector() method must match element with specified tag]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=746</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-19-selectors1_documentfragment_queryselectorall_argument_class" name="19-selectors1_documentfragment_queryselectorall_argument_class" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if documentfragment.querySelectorAll() method with argument of class name should return the expected number of matches - Description: Check if documentfragment.querySelectorAll() method with argument of class name should return the expected number of matches">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if documentfragment.querySelectorAll() method with argument of class name should return the expected number of matches - Description: Check if documentfragment.querySelectorAll() method with argument of class name should return the expected number of matches]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=851</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-1A-selectors1_documentfragment_queryselector_argument_class" name="1A-selectors1_documentfragment_queryselector_argument_class" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if documentfragment.querySelector() method must match element with specified class - Description: Check if documentfragment.querySelector() method must match element with specified class">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if documentfragment.querySelector() method must match element with specified class - Description: Check if documentfragment.querySelector() method must match element with specified class]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=852</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-1B-selectors1_documentfragment_queryselectorall_argument_id" name="1B-selectors1_documentfragment_queryselectorall_argument_id" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if documentfragment.querySelectorAll() method with argument of id name should return the expected number of matches - Description: Check if documentfragment.querySelectorAll() method with argument of id name should return the expected number of matches">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if documentfragment.querySelectorAll() method with argument of id name should return the expected number of matches - Description: Check if documentfragment.querySelectorAll() method with argument of id name should return the expected number of matches]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=867</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-1C-selectors1_documentfragment_queryselector_argument_id" name="1C-selectors1_documentfragment_queryselector_argument_id" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if documentfragment.querySelector() method must match element with specified id - Description: Check if documentfragment.querySelector() method must match element with specified id">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if documentfragment.querySelector() method must match element with specified id - Description: Check if documentfragment.querySelector() method must match element with specified id]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=868</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-1D-selectors1_documentfragment_queryselectorall_argument_tag_id" name="1D-selectors1_documentfragment_queryselectorall_argument_tag_id" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if DocumentFragment.querySelectorAll() method with argument of tag name and id that return a NodeList containing all of the matching Element nodes - Description: Check if DocumentFragment.querySelectorAll() method with argument of tag name and id that return a NodeList containing all of the matching Element nodes">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DocumentFragment.querySelectorAll() method with argument of tag name and id that return a NodeList containing all of the matching Element nodes - Description: Check if DocumentFragment.querySelectorAll() method with argument of tag name and id that return a NodeList containing all of the matching Element nodes]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=913</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-1E-selectors1_documentfragment_queryselector_argument_tag_id" name="1E-selectors1_documentfragment_queryselector_argument_tag_id" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if DocumentFragment.querySelector() method with argument of element's tag name and id that return the first matching Element node - Description: Check if DocumentFragment.querySelector() method with argument of element's tag name and id that return the first matching Element node">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DocumentFragment.querySelector() method with argument of element's tag name and id that return the first matching Element node - Description: Check if DocumentFragment.querySelector() method with argument of element's tag name and id that return the first matching Element node]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=914</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-1F-selectors1_documentfragment_queryselectorall_argument_tag_tag" name="1F-selectors1_documentfragment_queryselectorall_argument_tag_tag" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if DocumentFragment.querySelectorAll() method with argument of 2 tags name that return a NodeList containing all of the matching Element nodes - Description: Check if DocumentFragment.querySelectorAll() method with argument of 2 tags name that return a NodeList containing all of the matching Element nodes">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DocumentFragment.querySelectorAll() method with argument of 2 tags name that return a NodeList containing all of the matching Element nodes - Description: Check if DocumentFragment.querySelectorAll() method with argument of 2 tags name that return a NodeList containing all of the matching Element nodes]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=915</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-1G-selectors1_documentfragment_queryselector_argument_tag_tag" name="1G-selectors1_documentfragment_queryselector_argument_tag_tag" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if DocumentFragment.querySelector() method with argument of element's 2 tags name that return the first matching Element node - Description: Check if DocumentFragment.querySelector() method with argument of element's 2 tags name that return the first matching Element node">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DocumentFragment.querySelector() method with argument of element's 2 tags name that return the first matching Element node - Description: Check if DocumentFragment.querySelector() method with argument of element's 2 tags name that return the first matching Element node]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=916</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-1H-selectors1_documentfragment_queryselectorall_argument_tag_class" name="1H-selectors1_documentfragment_queryselectorall_argument_tag_class" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if DocumentFragment.querySelectorAll() method with argument of tag name and classname that return a NodeList containing all of the matching Element nodes - Description: Check if DocumentFragment.querySelectorAll() method with argument of tag name and classname that return a NodeList containing all of the matching Element nodes">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DocumentFragment.querySelectorAll() method with argument of tag name and classname that return a NodeList containing all of the matching Element nodes - Description: Check if DocumentFragment.querySelectorAll() method with argument of tag name and classname that return a NodeList containing all of the matching Element nodes]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=917</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-1I-selectors1_documentfragment_queryselector_argument_tag_class" name="1I-selectors1_documentfragment_queryselector_argument_tag_class" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if DocumentFragment.querySelector() method with argument of element's tag name and classname that return the first matching Element node - Description: Check if DocumentFragment.querySelector() method with argument of element's tag name and classname that return the first matching Element node">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DocumentFragment.querySelector() method with argument of element's tag name and classname that return the first matching Element node - Description: Check if DocumentFragment.querySelector() method with argument of element's tag name and classname that return the first matching Element node]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=918</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-1J-selectors1_documentfragment_queryselectorall_argument_class_id" name="1J-selectors1_documentfragment_queryselectorall_argument_class_id" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if DocumentFragment.querySelectorAll() method with argument of classname and id that return a NodeList containing all of the matching Element nodes - Description: Check if DocumentFragment.querySelectorAll() method with argument of classname and id that return a NodeList containing all of the matching Element nodes">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DocumentFragment.querySelectorAll() method with argument of classname and id that return a NodeList containing all of the matching Element nodes - Description: Check if DocumentFragment.querySelectorAll() method with argument of classname and id that return a NodeList containing all of the matching Element nodes]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=923</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-1K-selectors1_documentfragment_queryselector_argument_class_id" name="1K-selectors1_documentfragment_queryselector_argument_class_id" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if DocumentFragment.querySelector() method with argument of element's classname and id that return the first matching Element node with argument of element class - Description: Check if DocumentFragment.querySelector() method with argument of element's classname and id that return the first matching Element node with argument of element class">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DocumentFragment.querySelector() method with argument of element's classname and id that return the first matching Element node with argument of element class - Description: Check if DocumentFragment.querySelector() method with argument of element's classname and id that return the first matching Element node with argument of element class]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=924</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-1L-selectors1_element_queryselectorall_argument_tag" name="1L-selectors1_element_queryselectorall_argument_tag" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if element.querySelectorAll() method with argument of tag name should return the expected number of matches - Description: Check if element.querySelectorAll() method with argument of tag name should return the expected number of matches">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.querySelectorAll() method with argument of tag name should return the expected number of matches - Description: Check if element.querySelectorAll() method with argument of tag name should return the expected number of matches]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=965</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-1M-selectors1_element_queryselector_argument_tag" name="1M-selectors1_element_queryselector_argument_tag" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if element.querySelector() method must match element with specified tag - Description: Check if element.querySelector() method must match element with specified tag">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.querySelector() method must match element with specified tag - Description: Check if element.querySelector() method must match element with specified tag]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=966</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-1N-selectors1_element_queryselectorall_argument_class" name="1N-selectors1_element_queryselectorall_argument_class" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if element.querySelectorAll() method with argument of class name should return the expected number of matches - Description: Check if element.querySelectorAll() method with argument of class name should return the expected number of matches">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.querySelectorAll() method with argument of class name should return the expected number of matches - Description: Check if element.querySelectorAll() method with argument of class name should return the expected number of matches]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=1071</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-1O-selectors1_element_queryselector_argument_class" name="1O-selectors1_element_queryselector_argument_class" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if element.querySelector() method must match element with specified class - Description: Check if element.querySelector() method must match element with specified class">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.querySelector() method must match element with specified class - Description: Check if element.querySelector() method must match element with specified class]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=1072</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-1P-selectors1_element_queryselectorall_argument_id" name="1P-selectors1_element_queryselectorall_argument_id" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if element.querySelectorAll() method with argument of id name should return the expected number of matches - Description: Check if element.querySelectorAll() method with argument of id name should return the expected number of matches">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.querySelectorAll() method with argument of id name should return the expected number of matches - Description: Check if element.querySelectorAll() method with argument of id name should return the expected number of matches]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=1087</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-1Q-selectors1_element_queryselector_argument_id" name="1Q-selectors1_element_queryselector_argument_id" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if element.querySelector() method must match element with specified id - Description: Check if element.querySelector() method must match element with specified id">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.querySelector() method must match element with specified id - Description: Check if element.querySelector() method must match element with specified id]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=1088</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-1R-selectors1_element_queryselectorall_argument_tag_id" name="1R-selectors1_element_queryselectorall_argument_tag_id" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if element.querySelectorAll() method with argument of element's tag name and id that must return a NodeList containing all of the matching Element nodes - Description: Check if element.querySelectorAll() method with argument of element's tag name and id that must return a NodeList containing all of the matching Element nodes">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.querySelectorAll() method with argument of element's tag name and id that must return a NodeList containing all of the matching Element nodes - Description: Check if element.querySelectorAll() method with argument of element's tag name and id that must return a NodeList containing all of the matching Element nodes]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=1135</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-1S-selectors1_element_queryselector_argument_tag_id" name="1S-selectors1_element_queryselector_argument_tag_id" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if element.querySelector() method with argument of element's tag name and id that must return the first matching Element node - Description: Check if element.querySelector() method with argument of element's tag name and id that must return the first matching Element node">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.querySelector() method with argument of element's tag name and id that must return the first matching Element node - Description: Check if element.querySelector() method with argument of element's tag name and id that must return the first matching Element node]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=1136</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-1T-selectors1_element_queryselectorall_argument_tag_tag" name="1T-selectors1_element_queryselectorall_argument_tag_tag" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if element.querySelectorAll() method with argument of element's 2 tags name that must return a NodeList containing all of the matching Element nodes - Description: Check if element.querySelectorAll() method with argument of element's 2 tags name that must return a NodeList containing all of the matching Element nodes">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.querySelectorAll() method with argument of element's 2 tags name that must return a NodeList containing all of the matching Element nodes - Description: Check if element.querySelectorAll() method with argument of element's 2 tags name that must return a NodeList containing all of the matching Element nodes]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=1137</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-1U-selectors1_element_queryselector_argument_tag_tag" name="1U-selectors1_element_queryselector_argument_tag_tag" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if element.querySelector() method with argument of element's 2 tags name that must return the first matching Element node - Description: Check if element.querySelector() method with argument of element's 2 tags name that must return the first matching Element node">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.querySelector() method with argument of element's 2 tags name that must return the first matching Element node - Description: Check if element.querySelector() method with argument of element's 2 tags name that must return the first matching Element node]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=1138</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-1V-selectors1_element_queryselectorall_argument_tag_class" name="1V-selectors1_element_queryselectorall_argument_tag_class" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if element.querySelectorAll() method with argument of element's tag name and classname that must return a NodeList containing all of the matching Element nodes - Description: Check if element.querySelectorAll() method with argument of element's tag name and classname that must return a NodeList containing all of the matching Element nodes">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.querySelectorAll() method with argument of element's tag name and classname that must return a NodeList containing all of the matching Element nodes - Description: Check if element.querySelectorAll() method with argument of element's tag name and classname that must return a NodeList containing all of the matching Element nodes]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=1139</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-1W-selectors1_element_queryselector_argument_tag_class" name="1W-selectors1_element_queryselector_argument_tag_class" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if element.querySelector() method with argument of element's tag name and classname that must return the first matching Element node - Description: Check if element.querySelector() method with argument of element's tag name and classname that must return the first matching Element node">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.querySelector() method with argument of element's tag name and classname that must return the first matching Element node - Description: Check if element.querySelector() method with argument of element's tag name and classname that must return the first matching Element node]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=1140</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-1X-selectors1_element_queryselectorall_argument_class_id" name="1X-selectors1_element_queryselectorall_argument_class_id" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if element.querySelectorAll() method with argument of element's classname and id that must return a NodeList containing all of the matching Element nodes - Description: Check if element.querySelectorAll() method with argument of element's classname and id that must return a NodeList containing all of the matching Element nodes">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.querySelectorAll() method with argument of element's classname and id that must return a NodeList containing all of the matching Element nodes - Description: Check if element.querySelectorAll() method with argument of element's classname and id that must return a NodeList containing all of the matching Element nodes]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=1145</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-1Y-selectors1_element_queryselector_argument_class_id" name="1Y-selectors1_element_queryselector_argument_class_id" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if element.querySelector() method with argument of element's classname and id that must return the first matching Element node - Description: Check if element.querySelector() method with argument of element's classname and id that must return the first matching Element node">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.querySelector() method with argument of element's classname and id that must return the first matching Element node - Description: Check if element.querySelector() method with argument of element's classname and id that must return the first matching Element node]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=1146</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-1Z-selectors1_documentfragment_queryselector_return_null" name="1Z-selectors1_documentfragment_queryselector_return_null" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if DocumentFragment.querySelector() method return null if there is no matching Element - Description: Check if DocumentFragment.querySelector() method return null if there is no matching Element">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DocumentFragment.querySelector() method return null if there is no matching Element - Description: Check if DocumentFragment.querySelector() method return null if there is no matching Element]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/selectors1_documentfragment_queryselector_return_null.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-13-20-selectors1_element_queryselector_return_null" name="20-selectors1_element_queryselector_return_null" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-selectorslevel1-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if element.querySelector() method return null if there is no matching Element - Description: Check if element.querySelector() method return null if there is no matching Element">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if element.querySelector() method return null if there is no matching Element - Description: Check if element.querySelector() method return null if there is no matching Element]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/selectors1_element_queryselector_return_null.html</test_script_entry>
+                </description>
+            </testcase>
+        </set>
+    </suite>
+</test_definition>

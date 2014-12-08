@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<test_definition>
+    <suite launcher="xwalk" name="00-common/E0-crosswalk">
+        <set name="common/crosswalk/commonapi/tct-mediacapture-w3c-tests">
+            <testcase id="00-E0-00-0T-01-HTMLInputElement_exist" name="01-HTMLInputElement_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-mediacapture-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the interface HTMLInputElement exists - Description: Check if the interface HTMLInputElement exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the interface HTMLInputElement exists - Description: Check if the interface HTMLInputElement exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-mediacapture-w3c-tests/mediacapture/HTMLInputElement_attribute.html?total_num=4&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0T-02-HTMLInputElement_type" name="02-HTMLInputElement_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-mediacapture-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the type of HTMLInputElement is object - Description: Check if the type of HTMLInputElement is object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the type of HTMLInputElement is object - Description: Check if the type of HTMLInputElement is object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-mediacapture-w3c-tests/mediacapture/HTMLInputElement_attribute.html?total_num=4&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0T-03-HTMLInputElement_capture_exist" name="03-HTMLInputElement_capture_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-mediacapture-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the attribute capture exists - Description: Check if the attribute capture exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the attribute capture exists - Description: Check if the attribute capture exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-mediacapture-w3c-tests/mediacapture/HTMLInputElement_attribute.html?total_num=4&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0T-04-HTMLInputElement_capture_type" name="04-HTMLInputElement_capture_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-mediacapture-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the type of HTMLInputElement.capture is boolean - Description: Check if the type of HTMLInputElement.capture is boolean">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the type of HTMLInputElement.capture is boolean - Description: Check if the type of HTMLInputElement.capture is boolean]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-mediacapture-w3c-tests/mediacapture/HTMLInputElement_attribute.html?total_num=4&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+        </set>
+    </suite>
+</test_definition>

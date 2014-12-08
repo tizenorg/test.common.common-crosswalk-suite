@@ -1,0 +1,520 @@
+<?xml version="1.0"?>
+<test_definition>
+    <suite launcher="xwalk" name="00-common/E0-crosswalk">
+        <set name="common/crosswalk/deviceapi/tct-alarm-tizen-tests">
+            <testcase id="00-E0-01-00-01-AlarmAbsolute_constructor_date" name="01-AlarmAbsolute_constructor_date" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-alarm-tizen-tests" status="designed" type="compliance" purpose="Objective: Test whether the constructor with date parameter are supported - Description: Test whether the constructor with date parameter are supported">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test whether the constructor with date parameter are supported - Description: Test whether the constructor with date parameter are supported]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-alarm-tizen-tests/alarm/AlarmAbsolute_constructor_date.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-00-02-AlarmAbsolute_constructor_date_daysOfTheWeek" name="02-AlarmAbsolute_constructor_date_daysOfTheWeek" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-alarm-tizen-tests" status="designed" type="compliance" purpose="Objective: Test whether the constructor with date parameter and day of the week parameter are supported - Description: Test whether the constructor with date parameter and day of the week parameter are supported">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test whether the constructor with date parameter and day of the week parameter are supported - Description: Test whether the constructor with date parameter and day of the week parameter are supported]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-alarm-tizen-tests/alarm/AlarmAbsolute_constructor_date_daysOfTheWeek.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-00-03-AlarmAbsolute_constructor_date_period" name="03-AlarmAbsolute_constructor_date_period" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-alarm-tizen-tests" status="designed" type="compliance" purpose="Objective: Test whether the constructor with date parameter and period parameter are supported - Description: Test whether the constructor with date parameter and period parameter are supported">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test whether the constructor with date parameter and period parameter are supported - Description: Test whether the constructor with date parameter and period parameter are supported]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-alarm-tizen-tests/alarm/AlarmAbsolute_constructor_date_period.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-00-04-AlarmAbsolute_date_attribute" name="04-AlarmAbsolute_date_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-alarm-tizen-tests" status="designed" type="compliance" purpose="Objective: Check AlarmAbsolute for date attribute - Description: Check AlarmAbsolute for date attribute">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check AlarmAbsolute for date attribute - Description: Check AlarmAbsolute for date attribute]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-alarm-tizen-tests/alarm/AlarmAbsolute_date_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-00-05-AlarmAbsolute_daysOfTheWeek_attribute" name="05-AlarmAbsolute_daysOfTheWeek_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-alarm-tizen-tests" status="designed" type="compliance" purpose="Objective: Check AlarmAbsolute for daysOfTheWeek attribute - Description: Check AlarmAbsolute for daysOfTheWeek attribute">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check AlarmAbsolute for daysOfTheWeek attribute - Description: Check AlarmAbsolute for daysOfTheWeek attribute]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-alarm-tizen-tests/alarm/AlarmAbsolute_daysOfTheWeek_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-00-06-AlarmAbsolute_exist" name="06-AlarmAbsolute_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-alarm-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if AlarmAbsolute exist - Description: Check if AlarmAbsolute exist">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if AlarmAbsolute exist - Description: Check if AlarmAbsolute exist]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-alarm-tizen-tests/alarm/AlarmAbsolute_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-00-07-AlarmAbsolute_extend" name="07-AlarmAbsolute_extend" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-alarm-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if AlarmAbsolute possible extend - Description: Check if AlarmAbsolute possible extend">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if AlarmAbsolute possible extend - Description: Check if AlarmAbsolute possible extend]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-alarm-tizen-tests/alarm/AlarmAbsolute_extend.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-00-08-AlarmAbsolute_getNextScheduledDate" name="08-AlarmAbsolute_getNextScheduledDate" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-alarm-tizen-tests" status="designed" type="compliance" purpose="Objective: Check using getNextScheduledDate method - Description: Check using getNextScheduledDate method">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check using getNextScheduledDate method - Description: Check using getNextScheduledDate method]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-alarm-tizen-tests/alarm/AlarmAbsolute_getNextScheduledDate.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-00-09-AlarmAbsolute_getNextScheduledDate_exist" name="09-AlarmAbsolute_getNextScheduledDate_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-alarm-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if method getNextScheduledDate exists - Description: Check if method getNextScheduledDate exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if method getNextScheduledDate exists - Description: Check if method getNextScheduledDate exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-alarm-tizen-tests/alarm/AlarmAbsolute_getNextScheduledDate_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-00-0A-AlarmAbsolute_getNextScheduledDate_extra_argument" name="0A-AlarmAbsolute_getNextScheduledDate_extra_argument" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-alarm-tizen-tests" status="designed" type="compliance" purpose="Objective: Check using getNextScheduledDate method with extra argument - Description: Check using getNextScheduledDate method with extra argument">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check using getNextScheduledDate method with extra argument - Description: Check using getNextScheduledDate method with extra argument]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-alarm-tizen-tests/alarm/AlarmAbsolute_getNextScheduledDate_extra_argument.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-00-0B-AlarmAbsolute_getNextScheduledDate_return_null" name="0B-AlarmAbsolute_getNextScheduledDate_return_null" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-alarm-tizen-tests" status="designed" type="compliance" purpose="Objective: Check using getNextScheduledDate method for null return - Description: Check using getNextScheduledDate method for null return">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check using getNextScheduledDate method for null return - Description: Check using getNextScheduledDate method for null return]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-alarm-tizen-tests/alarm/AlarmAbsolute_getNextScheduledDate_return_null.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-00-0C-AlarmAbsolute_period_attribute" name="0C-AlarmAbsolute_period_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-alarm-tizen-tests" status="designed" type="compliance" purpose="Objective: Check AlarmAbsolute for period attribute - Description: Check AlarmAbsolute for period attribute">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check AlarmAbsolute for period attribute - Description: Check AlarmAbsolute for period attribute]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-alarm-tizen-tests/alarm/AlarmAbsolute_period_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-00-0D-AlarmManagerObject_notexist" name="0D-AlarmManagerObject_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-alarm-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if AlarmManagerObject not exist - Description: Check if AlarmManagerObject not exist">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if AlarmManagerObject not exist - Description: Check if AlarmManagerObject not exist]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-alarm-tizen-tests/alarm/AlarmManagerObject_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-00-0E-AlarmManager_PERIOD_DAY_const" name="0E-AlarmManager_PERIOD_DAY_const" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-alarm-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if PERIOD_DAY is constant - Description: Check if PERIOD_DAY is constant">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if PERIOD_DAY is constant - Description: Check if PERIOD_DAY is constant]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-alarm-tizen-tests/alarm/AlarmManager_PERIOD_DAY_const.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-00-0F-AlarmManager_PERIOD_HOUR_const" name="0F-AlarmManager_PERIOD_HOUR_const" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-alarm-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if PERIOD_HOUR is constant - Description: Check if PERIOD_HOUR is constant">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if PERIOD_HOUR is constant - Description: Check if PERIOD_HOUR is constant]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-alarm-tizen-tests/alarm/AlarmManager_PERIOD_HOUR_const.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-00-0G-AlarmManager_PERIOD_MINUTE_const" name="0G-AlarmManager_PERIOD_MINUTE_const" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-alarm-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if PERIOD_MINUTE is constant - Description: Check if PERIOD_MINUTE is constant">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if PERIOD_MINUTE is constant - Description: Check if PERIOD_MINUTE is constant]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-alarm-tizen-tests/alarm/AlarmManager_PERIOD_MINUTE_const.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-00-0H-AlarmManager_PERIOD_WEEK_const" name="0H-AlarmManager_PERIOD_WEEK_const" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-alarm-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if PERIOD_WEEK is constant - Description: Check if PERIOD_WEEK is constant">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if PERIOD_WEEK is constant - Description: Check if PERIOD_WEEK is constant]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-alarm-tizen-tests/alarm/AlarmManager_PERIOD_WEEK_const.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-00-0I-AlarmManager_add_absolute_alarm" name="0I-AlarmManager_add_absolute_alarm" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-alarm-tizen-tests" status="designed" type="compliance" purpose="Objective: Check using add method (with non-optional arguments) in AlarmManager interface to add absolute alarm - Description: Check using add method (with non-optional arguments) in AlarmManager interface to add absolute alarm">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check using add method (with non-optional arguments) in AlarmManager interface to add absolute alarm - Description: Check using add method (with non-optional arguments) in AlarmManager interface to add absolute alarm]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-alarm-tizen-tests/alarm/AlarmManager_add_absolute_alarm.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-00-0J-AlarmManager_add_absolute_alarm_with_appControl" name="0J-AlarmManager_add_absolute_alarm_with_appControl" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-alarm-tizen-tests" status="designed" type="compliance" purpose="Objective: Check using add method (with optional argument) in AlarmManager interface to add absolute alarm - Description: Check using add method (with optional argument) in AlarmManager interface to add absolute alarm">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check using add method (with optional argument) in AlarmManager interface to add absolute alarm - Description: Check using add method (with optional argument) in AlarmManager interface to add absolute alarm]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-alarm-tizen-tests/alarm/AlarmManager_add_absolute_alarm_with_appControl.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-00-0K-AlarmManager_add_alarm_TypeMismatch" name="0K-AlarmManager_add_alarm_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-alarm-tizen-tests" status="designed" type="compliance" purpose="Objective: Check argument 'alarm' type conversion - Description: Check argument 'alarm' type conversion">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check argument 'alarm' type conversion - Description: Check argument 'alarm' type conversion]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-alarm-tizen-tests/alarm/AlarmManager_add_alarm_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-00-0L-AlarmManager_add_appControl_TypeMismatch" name="0L-AlarmManager_add_appControl_TypeMismatch" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-alarm-tizen-tests" status="designed" type="compliance" purpose="Objective: Check argument 'appControl' type conversion - Description: Check argument 'appControl' type conversion">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check argument 'appControl' type conversion - Description: Check argument 'appControl' type conversion]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-alarm-tizen-tests/alarm/AlarmManager_add_appControl_TypeMismatch.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-00-0M-AlarmManager_add_appControl_invalid" name="0M-AlarmManager_add_appControl_invalid" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-alarm-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if an exception was thrown when a wrong appControl was passed - Description: Check if an exception was thrown when a wrong appControl was passed">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if an exception was thrown when a wrong appControl was passed - Description: Check if an exception was thrown when a wrong appControl was passed]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-alarm-tizen-tests/alarm/AlarmManager_add_appControl_invalid.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-00-0N-AlarmManager_add_appControl_invalid_obj" name="0N-AlarmManager_add_appControl_invalid_obj" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-alarm-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if an exception was thrown when a fake system object was passed - Description: Check if an exception was thrown when a fake system object was passed">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if an exception was thrown when a fake system object was passed - Description: Check if an exception was thrown when a fake system object was passed]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-alarm-tizen-tests/alarm/AlarmManager_add_appControl_invalid_obj.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-00-0O-AlarmManager_add_exist" name="0O-AlarmManager_add_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-alarm-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if method add exists - Description: Check if method add exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if method add exists - Description: Check if method add exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-alarm-tizen-tests/alarm/AlarmManager_add_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-00-0P-AlarmManager_add_missarg" name="0P-AlarmManager_add_missarg" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-alarm-tizen-tests" status="designed" type="compliance" purpose="Objective: Check with missing non-optional argument - Description: Check with missing non-optional argument">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check with missing non-optional argument - Description: Check with missing non-optional argument]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-alarm-tizen-tests/alarm/AlarmManager_add_missarg.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-00-0Q-AlarmManager_add_relative_alarm" name="0Q-AlarmManager_add_relative_alarm" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-alarm-tizen-tests" status="designed" type="compliance" purpose="Objective: Check using add method (with non-optional arguments) in AlarmManager interface to add relative alarm - Description: Check using add method (with non-optional arguments) in AlarmManager interface to add relative alarm">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check using add method (with non-optional arguments) in AlarmManager interface to add relative alarm - Description: Check using add method (with non-optional arguments) in AlarmManager interface to add relative alarm]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-alarm-tizen-tests/alarm/AlarmManager_add_relative_alarm.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-00-0R-AlarmManager_add_relative_alarm_with_appControl" name="0R-AlarmManager_add_relative_alarm_with_appControl" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-alarm-tizen-tests" status="designed" type="compliance" purpose="Objective: Check using add method (with optional argument) in AlarmManager interface to add relative alarm - Description: Check using add method (with optional argument) in AlarmManager interface to add relative alarm">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check using add method (with optional argument) in AlarmManager interface to add relative alarm - Description: Check using add method (with optional argument) in AlarmManager interface to add relative alarm]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-alarm-tizen-tests/alarm/AlarmManager_add_relative_alarm_with_appControl.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-00-0S-AlarmManager_extend" name="0S-AlarmManager_extend" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-alarm-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if AlarmManager possible extend - Description: Check if AlarmManager possible extend">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if AlarmManager possible extend - Description: Check if AlarmManager possible extend]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-alarm-tizen-tests/alarm/AlarmManager_extend.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-00-0T-AlarmManager_get" name="0T-AlarmManager_get" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-alarm-tizen-tests" status="designed" type="compliance" purpose="Objective: Check using get method in AlarmManager interface to get alarm - Description: Check using get method in AlarmManager interface to get alarm">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check using get method in AlarmManager interface to get alarm - Description: Check using get method in AlarmManager interface to get alarm]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-alarm-tizen-tests/alarm/AlarmManager_get.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-00-0U-AlarmManager_getAll" name="0U-AlarmManager_getAll" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-alarm-tizen-tests" status="designed" type="compliance" purpose="Objective: Check using getAll method in AlarmManager interface to get all alarms - Description: Check using getAll method in AlarmManager interface to get all alarms">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check using getAll method in AlarmManager interface to get all alarms - Description: Check using getAll method in AlarmManager interface to get all alarms]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-alarm-tizen-tests/alarm/AlarmManager_getAll.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-00-0V-AlarmManager_getAll_exist" name="0V-AlarmManager_getAll_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-alarm-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if method getAll exists - Description: Check if method getAll exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if method getAll exists - Description: Check if method getAll exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-alarm-tizen-tests/alarm/AlarmManager_getAll_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-00-0W-AlarmManager_getAll_extra_argument" name="0W-AlarmManager_getAll_extra_argument" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-alarm-tizen-tests" status="designed" type="compliance" purpose="Objective: Check using getAll withe extra argument to get all alarms - Description: Check using getAll withe extra argument to get all alarms">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check using getAll withe extra argument to get all alarms - Description: Check using getAll withe extra argument to get all alarms]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-alarm-tizen-tests/alarm/AlarmManager_getAll_extra_argument.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-00-0X-AlarmManager_get_AlarmRelative" name="0X-AlarmManager_get_AlarmRelative" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-alarm-tizen-tests" status="designed" type="compliance" purpose="Objective: Check using get method in AlarmManager interface to get AlarmRelative - Description: Check using get method in AlarmManager interface to get AlarmRelative">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check using get method in AlarmManager interface to get AlarmRelative - Description: Check using get method in AlarmManager interface to get AlarmRelative]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-alarm-tizen-tests/alarm/AlarmManager_get_AlarmRelative.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-00-0Y-AlarmManager_get_exist" name="0Y-AlarmManager_get_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-alarm-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if method get exists - Description: Check if method get exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if method get exists - Description: Check if method get exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-alarm-tizen-tests/alarm/AlarmManager_get_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-00-0Z-AlarmManager_in_tizen" name="0Z-AlarmManager_in_tizen" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-alarm-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if AlarmManager exist in tizen - Description: Check if AlarmManager exist in tizen">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if AlarmManager exist in tizen - Description: Check if AlarmManager exist in tizen]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-alarm-tizen-tests/alarm/AlarmManager_in_tizen.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-00-10-AlarmManager_notexist" name="10-AlarmManager_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-alarm-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if AlarmManager notexist - Description: Check if AlarmManager notexist">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if AlarmManager notexist - Description: Check if AlarmManager notexist]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-alarm-tizen-tests/alarm/AlarmManager_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-00-11-AlarmManager_removeAll" name="11-AlarmManager_removeAll" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-alarm-tizen-tests" status="designed" type="compliance" purpose="Objective: Check using removeAll method in AlarmManager interface to remove all alarms - Description: Check using removeAll method in AlarmManager interface to remove all alarms">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check using removeAll method in AlarmManager interface to remove all alarms - Description: Check using removeAll method in AlarmManager interface to remove all alarms]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-alarm-tizen-tests/alarm/AlarmManager_removeAll.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-00-12-AlarmManager_removeAll_exist" name="12-AlarmManager_removeAll_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-alarm-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if method removeAll exists - Description: Check if method removeAll exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if method removeAll exists - Description: Check if method removeAll exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-alarm-tizen-tests/alarm/AlarmManager_removeAll_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-00-13-AlarmManager_removeAll_extra_argument" name="13-AlarmManager_removeAll_extra_argument" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-alarm-tizen-tests" status="designed" type="compliance" purpose="Objective: Check using removeAll with extra argument to remove all alarms - Description: Check using removeAll with extra argument to remove all alarms">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check using removeAll with extra argument to remove all alarms - Description: Check using removeAll with extra argument to remove all alarms]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-alarm-tizen-tests/alarm/AlarmManager_removeAll_extra_argument.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-00-14-AlarmManager_remove_absolute_alarm" name="14-AlarmManager_remove_absolute_alarm" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-alarm-tizen-tests" status="designed" type="compliance" purpose="Objective: Check using remove method in AlarmManager interface to remove absolute alarm - Description: Check using remove method in AlarmManager interface to remove absolute alarm">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check using remove method in AlarmManager interface to remove absolute alarm - Description: Check using remove method in AlarmManager interface to remove absolute alarm]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-alarm-tizen-tests/alarm/AlarmManager_remove_absolute_alarm.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-00-15-AlarmManager_remove_exist" name="15-AlarmManager_remove_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-alarm-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if method remove exists - Description: Check if method remove exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if method remove exists - Description: Check if method remove exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-alarm-tizen-tests/alarm/AlarmManager_remove_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-00-16-AlarmManager_remove_relative_alarm" name="16-AlarmManager_remove_relative_alarm" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-alarm-tizen-tests" status="designed" type="compliance" purpose="Objective: Check using remove method in AlarmManager interface to remove relative alarm - Description: Check using remove method in AlarmManager interface to remove relative alarm">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check using remove method in AlarmManager interface to remove relative alarm - Description: Check using remove method in AlarmManager interface to remove relative alarm]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-alarm-tizen-tests/alarm/AlarmManager_remove_relative_alarm.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-00-17-AlarmRelative_constructor_delay" name="17-AlarmRelative_constructor_delay" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-alarm-tizen-tests" status="designed" type="compliance" purpose="Objective: Test whether the constructor with delay parameter are supported - Description: Test whether the constructor with delay parameter are supported">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test whether the constructor with delay parameter are supported - Description: Test whether the constructor with delay parameter are supported]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-alarm-tizen-tests/alarm/AlarmRelative_constructor_delay.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-00-18-AlarmRelative_constructor_delay_convert" name="18-AlarmRelative_constructor_delay_convert" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-alarm-tizen-tests" status="designed" type="compliance" purpose="Objective: Check conversion of delay parameter of AlarmRelative constructor - Description: Check conversion of delay parameter of AlarmRelative constructor">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check conversion of delay parameter of AlarmRelative constructor - Description: Check conversion of delay parameter of AlarmRelative constructor]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-alarm-tizen-tests/alarm/AlarmRelative_constructor_delay_convert.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-00-19-AlarmRelative_constructor_delay_period" name="19-AlarmRelative_constructor_delay_period" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-alarm-tizen-tests" status="designed" type="compliance" purpose="Objective: Test whether the constructor with delay parameter and period parameter are supported - Description: Test whether the constructor with delay parameter and period parameter are supported">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test whether the constructor with delay parameter and period parameter are supported - Description: Test whether the constructor with delay parameter and period parameter are supported]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-alarm-tizen-tests/alarm/AlarmRelative_constructor_delay_period.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-00-1A-AlarmRelative_constructor_period_convert" name="1A-AlarmRelative_constructor_period_convert" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-alarm-tizen-tests" status="designed" type="compliance" purpose="Objective: Check conversion of period parameter of AlarmRelative constructor - Description: Check conversion of period parameter of AlarmRelative constructor">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check conversion of period parameter of AlarmRelative constructor - Description: Check conversion of period parameter of AlarmRelative constructor]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-alarm-tizen-tests/alarm/AlarmRelative_constructor_period_convert.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-00-1B-AlarmRelative_delay_attribute" name="1B-AlarmRelative_delay_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-alarm-tizen-tests" status="designed" type="compliance" purpose="Objective: Check delay attribute in AlarmRelative - Description: Check delay attribute in AlarmRelative">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check delay attribute in AlarmRelative - Description: Check delay attribute in AlarmRelative]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-alarm-tizen-tests/alarm/AlarmRelative_delay_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-00-1C-AlarmRelative_exist" name="1C-AlarmRelative_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-alarm-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if AlarmRelative exist - Description: Check if AlarmRelative exist">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if AlarmRelative exist - Description: Check if AlarmRelative exist]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-alarm-tizen-tests/alarm/AlarmRelative_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-00-1D-AlarmRelative_extend" name="1D-AlarmRelative_extend" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-alarm-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if AlarmRelative possible extend - Description: Check if AlarmRelative possible extend">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if AlarmRelative possible extend - Description: Check if AlarmRelative possible extend]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-alarm-tizen-tests/alarm/AlarmRelative_extend.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-00-1E-AlarmRelative_getRemainingSeconds" name="1E-AlarmRelative_getRemainingSeconds" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-alarm-tizen-tests" status="designed" type="compliance" purpose="Objective: Check using getRemainingSeconds method - Description: Check using getRemainingSeconds method">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check using getRemainingSeconds method - Description: Check using getRemainingSeconds method]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-alarm-tizen-tests/alarm/AlarmRelative_getRemainingSeconds.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-00-1F-AlarmRelative_getRemainingSeconds_exist" name="1F-AlarmRelative_getRemainingSeconds_exist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-alarm-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if method getRemainingSeconds exists - Description: Check if method getRemainingSeconds exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if method getRemainingSeconds exists - Description: Check if method getRemainingSeconds exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-alarm-tizen-tests/alarm/AlarmRelative_getRemainingSeconds_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-00-1G-AlarmRelative_getRemainingSeconds_extra_argument" name="1G-AlarmRelative_getRemainingSeconds_extra_argument" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-alarm-tizen-tests" status="designed" type="compliance" purpose="Objective: Check using getRemainingSeconds with extra argument - Description: Check using getRemainingSeconds with extra argument">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check using getRemainingSeconds with extra argument - Description: Check using getRemainingSeconds with extra argument]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-alarm-tizen-tests/alarm/AlarmRelative_getRemainingSeconds_extra_argument.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-00-1H-AlarmRelative_getRemainingSeconds_return_null" name="1H-AlarmRelative_getRemainingSeconds_return_null" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-alarm-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if method AlarmRelative::getRemainingSeconds() return null for already fired alarm - Description: Check if method AlarmRelative::getRemainingSeconds() return null for already fired alarm" onload_delay="30">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if method AlarmRelative::getRemainingSeconds() return null for already fired alarm - Description: Check if method AlarmRelative::getRemainingSeconds() return null for already fired alarm]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-alarm-tizen-tests/alarm/AlarmRelative_getRemainingSeconds_return_null.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-00-1I-AlarmRelative_period_attribute" name="1I-AlarmRelative_period_attribute" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-alarm-tizen-tests" status="designed" type="compliance" purpose="Objective: Check period attribute in AlarmRelative - Description: Check period attribute in AlarmRelative">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check period attribute in AlarmRelative - Description: Check period attribute in AlarmRelative]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-alarm-tizen-tests/alarm/AlarmRelative_period_attribute.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-00-1J-Alarm_id_attribute_absolute_alarm" name="1J-Alarm_id_attribute_absolute_alarm" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-alarm-tizen-tests" status="designed" type="compliance" purpose="Objective: Check Alarm.id attribute of AlarmAbsolute - Description: Check Alarm.id attribute of AlarmAbsolute">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check Alarm.id attribute of AlarmAbsolute - Description: Check Alarm.id attribute of AlarmAbsolute]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-alarm-tizen-tests/alarm/Alarm_id_attribute_absolute_alarm.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-00-1K-Alarm_id_attribute_relative_alarm" name="1K-Alarm_id_attribute_relative_alarm" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-alarm-tizen-tests" status="designed" type="compliance" purpose="Objective: Check Alarm.id attribute of AlarmRelative - Description: Check Alarm.id attribute of AlarmRelative">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check Alarm.id attribute of AlarmRelative - Description: Check Alarm.id attribute of AlarmRelative]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-alarm-tizen-tests/alarm/Alarm_id_attribute_relative_alarm.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-01-00-1L-Alarm_notexist" name="1L-Alarm_notexist" priority="P0" execution_type="auto" component="common/crosswalk/deviceapi/tct-alarm-tizen-tests" status="designed" type="compliance" purpose="Objective: Check if Alarm notexist - Description: Check if Alarm notexist">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Alarm notexist - Description: Check if Alarm notexist]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-alarm-tizen-tests/alarm/Alarm_notexist.html</test_script_entry>
+                </description>
+            </testcase>
+        </set>
+    </suite>
+</test_definition>

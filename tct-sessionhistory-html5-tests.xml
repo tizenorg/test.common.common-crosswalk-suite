@@ -1,0 +1,1375 @@
+<?xml version="1.0"?>
+<test_definition>
+    <suite launcher="xwalk" name="00-common/E0-crosswalk">
+        <set name="common/crosswalk/commonapi/tct-sessionhistory-html5-tests">
+            <testcase id="00-E0-00-15-01-history_back_exists" name="01-history_back_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if history.back method exists - Description: Check if history.back method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if history.back method exists - Description: Check if history.back method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/history_back_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-02-history_forward_exists" name="02-history_forward_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if history.forward method exists - Description: Check if history.forward method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if history.forward method exists - Description: Check if history.forward method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/history_forward_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-03-history_length_exists" name="03-history_length_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if history.length attribute exists - Description: Check if history.length attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if history.length attribute exists - Description: Check if history.length attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/history_length_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-04-history_pushState_basic" name="04-history_pushState_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the location.href is '002.html' when history.pushstate method is set to '002.html' - Description: Check if the location.href is '002.html' when history.pushstate method is set to '002.html'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the location.href is '002.html' when history.pushstate method is set to '002.html' - Description: Check if the location.href is '002.html' when history.pushstate method is set to '002.html']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/history_pushState_basic.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-05-history_pushState_exists" name="05-history_pushState_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if history.pushState method exists - Description: Check if history.pushState method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if history.pushState method exists - Description: Check if history.pushState method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/history_pushState_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-06-history_replaceState_basic" name="06-history_replaceState_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the location.href is '002.html' when history.replaceState method param url set '002.html' - Description: Check if the location.href is '002.html' when history.replaceState method param url set '002.html'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the location.href is '002.html' when history.replaceState method param url set '002.html' - Description: Check if the location.href is '002.html' when history.replaceState method param url set '002.html']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/history_replaceState_basic.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-07-history_replaceState_exists" name="07-history_replaceState_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if history.replaceState method exists - Description: Check if history.replaceState method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if history.replaceState method exists - Description: Check if history.replaceState method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/history_replaceState_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-08-history_state_exists" name="08-history_state_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if history.state attribute exists - Description: Check if history.state attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if history.state attribute exists - Description: Check if history.state attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/history_state_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-09-location_document_hostname_exists" name="09-location_document_hostname_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if location.hostname exists - Description: Check if location.hostname exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if location.hostname exists - Description: Check if location.hostname exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/location_document_hostname_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-0A-location_document_protocol_exists" name="0A-location_document_protocol_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if location.protocol attribute exists - Description: Check if location.protocol attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if location.protocol attribute exists - Description: Check if location.protocol attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/location_document_protocol_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-0B-location_document_search_exists" name="0B-location_document_search_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if location.search attribute exists - Description: Check if location.search attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if location.search attribute exists - Description: Check if location.search attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/location_document_search_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-0C-location_window_assign_basic" name="0C-location_window_assign_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the location.href is '002.html' when location.assign is '002.html' - Description: Check if the location.href is '002.html' when location.assign is '002.html'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the location.href is '002.html' when location.assign is '002.html' - Description: Check if the location.href is '002.html' when location.assign is '002.html']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/location_window_assign_basic.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-0D-location_window_assign_exists" name="0D-location_window_assign_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if location.assign method exists - Description: Check if location.assign method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if location.assign method exists - Description: Check if location.assign method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/location_window_assign_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-0E-location_window_hash_exists" name="0E-location_window_hash_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if Location.hash attribute exists - Description: Check if Location.hash attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Location.hash attribute exists - Description: Check if Location.hash attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/location_window_hash_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-0F-location_window_host_exists" name="0F-location_window_host_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if Location.host attribute exists - Description: Check if Location.host attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Location.host attribute exists - Description: Check if Location.host attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/location_window_host_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-0G-location_window_href_exists" name="0G-location_window_href_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if Location.href attribute exists - Description: Check if Location.href attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Location.href attribute exists - Description: Check if Location.href attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/location_window_href_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-0H-location_window_pathname_exists" name="0H-location_window_pathname_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if Location.pathname attribute exists - Description: Check if Location.pathname attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Location.pathname attribute exists - Description: Check if Location.pathname attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/location_window_pathname_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-0I-location_window_port_exists" name="0I-location_window_port_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if Location.port attribute exists - Description: Check if Location.port attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Location.port attribute exists - Description: Check if Location.port attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/location_window_port_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-0J-location_window_replace_basic" name="0J-location_window_replace_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the location.href is 'id=1' when location.replace method is set to 'id=1' - Description: Check if the location.href is 'id=1' when location.replace method is set to 'id=1'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the location.href is 'id=1' when location.replace method is set to 'id=1' - Description: Check if the location.href is 'id=1' when location.replace method is set to 'id=1']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/location_window_replace_basic.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-0K-location_window_replace_exists" name="0K-location_window_replace_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if location.replace method exists - Description: Check if location.replace method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if location.replace method exists - Description: Check if location.replace method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/location_window_replace_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-0L-history_length_update_when_setting_location_hash" name="0L-history_length_update_when_setting_location_hash" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: history.length should update when setting location.hash - Description: history.length should update when setting location.hash">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: history.length should update when setting location.hash - Description: history.length should update when setting location.hash]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/001.html?total_num=40&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-0M-history_pushState_exist_within_iframes" name="0M-history_pushState_exist_within_iframes" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: history.pushState must exist within iframes - Description: history.pushState must exist within iframes">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: history.pushState must exist within iframes - Description: history.pushState must exist within iframes]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/001.html?total_num=40&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-0N-history_state_initial_be_null" name="0N-history_state_initial_be_null" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: initial history.state should be null - Description: initial history.state should be null">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: initial history.state should be null - Description: initial history.state should be null]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/001.html?total_num=40&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-0O-history_length_when_pushing_state" name="0O-history_length_when_pushing_state" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: history.length should update when pushing a state - Description: history.length should update when pushing a state">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: history.length should update when pushing a state - Description: history.length should update when pushing a state]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/001.html?total_num=40&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-0P-history_state_update_after_state_pushed" name="0P-history_state_update_after_state_pushed" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: history.state should update after a state is pushed - Description: history.state should update after a state is pushed">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: history.state should update after a state is pushed - Description: history.state should update after a state is pushed]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/001.html?total_num=40&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-0Q-history_length_not_decrease_after_going_back" name="0Q-history_length_not_decrease_after_going_back" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: history.length should not decrease after going back - Description: history.length should not decrease after going back">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: history.length should not decrease after going back - Description: history.length should not decrease after going back]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/001.html?total_num=40&amp;amp;locator_key=id&amp;amp;value=8</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-0R-history_traversed_must_traverse_pushed_states" name="0R-history_traversed_must_traverse_pushed_states" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: traversing history must traverse pushed states - Description: traversing history must traverse pushed states">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: traversing history must traverse pushed states - Description: traversing history must traverse pushed states]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/001.html?total_num=40&amp;amp;locator_key=id&amp;amp;value=9</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-0S-history_traversed_must_traverse_hash_changes" name="0S-history_traversed_must_traverse_hash_changes" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: traversing history must also traverse hash changes - Description: traversing history must also traverse hash changes">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: traversing history must also traverse hash changes - Description: traversing history must also traverse hash changes]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/001.html?total_num=40&amp;amp;locator_key=id&amp;amp;value=10</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-0T-history_pushState_arguments_with_invalid_URLs" name="0T-history_pushState_arguments_with_invalid_URLs" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: pushState must not be allowed to create invalid URLs - Description: pushState must not be allowed to create invalid URLs">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: pushState must not be allowed to create invalid URLs - Description: pushState must not be allowed to create invalid URLs]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/001.html?total_num=40&amp;amp;locator_key=id&amp;amp;value=11</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-0U-history_pushState_arguments_with_cross-origin_URLs" name="0U-history_pushState_arguments_with_cross-origin_URLs" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: pushState must not be allowed to create cross-origin URLs - Description: pushState must not be allowed to create cross-origin URLs">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: pushState must not be allowed to create cross-origin URLs - Description: pushState must not be allowed to create cross-origin URLs]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/001.html?total_num=40&amp;amp;locator_key=id&amp;amp;value=12</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-0V-history_pushState_arguments_with_about_colon_blank" name="0V-history_pushState_arguments_with_about_colon_blank" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: pushState must not be allowed to create cross-origin URLs (about:blank) - Description: pushState must not be allowed to create cross-origin URLs (about:blank)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: pushState must not be allowed to create cross-origin URLs (about:blank) - Description: pushState must not be allowed to create cross-origin URLs (about:blank)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/001.html?total_num=40&amp;amp;locator_key=id&amp;amp;value=13</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-0W-history_pushState_arguments_with_data_colon_URI" name="0W-history_pushState_arguments_with_data_colon_URI" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: pushState must not be allowed to create cross-origin URLs (data:URI) - Description: pushState must not be allowed to create cross-origin URLs (data:URI)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: pushState must not be allowed to create cross-origin URLs (data:URI) - Description: pushState must not be allowed to create cross-origin URLs (data:URI)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/001.html?total_num=40&amp;amp;locator_key=id&amp;amp;value=14</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-0X-history_security_errors_test_pushState_with_URL" name="0X-history_security_errors_test_pushState_with_URL" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: security errors are expected to be thrown in the context of the document that owns the history object, pushState with URL - Description: security errors are expected to be thrown in the context of the document that owns the history object, pushState with URL">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: security errors are expected to be thrown in the context of the document that owns the history object, pushState with URL - Description: security errors are expected to be thrown in the context of the document that owns the history object, pushState with URL]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/001.html?total_num=40&amp;amp;locator_key=id&amp;amp;value=15</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-0Y-Location_hash_change_part_one" name="0Y-Location_hash_change_part_one" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: location.hash must be allowed to change (part 1) - Description: location.hash must be allowed to change (part 1)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: location.hash must be allowed to change (part 1) - Description: location.hash must be allowed to change (part 1)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/001.html?total_num=40&amp;amp;locator_key=id&amp;amp;value=16</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-0Z-Location_hash_change_part_two" name="0Z-Location_hash_change_part_two" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: location.hash must be allowed to change (part 2) - Description: location.hash must be allowed to change (part 2)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: location.hash must be allowed to change (part 2) - Description: location.hash must be allowed to change (part 2)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/001.html?total_num=40&amp;amp;locator_key=id&amp;amp;value=17</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-10-history_pushState_not_alter_with_no_URL_arguments" name="10-history_pushState_not_alter_with_no_URL_arguments" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: pushState must not alter location.hash when no URL is provided - Description: pushState must not alter location.hash when no URL is provided">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: pushState must not alter location.hash when no URL is provided - Description: pushState must not alter location.hash when no URL is provided]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/001.html?total_num=40&amp;amp;locator_key=id&amp;amp;value=18</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-11-history_pushState_remove_history" name="11-history_pushState_remove_history" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: pushState must remove all history after the current state - Description: pushState must remove all history after the current state">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: pushState must remove all history after the current state - Description: pushState must remove all history after the current state]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/001.html?total_num=40&amp;amp;locator_key=id&amp;amp;value=19</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-12-history_pushState_able_to_set_location_hash" name="12-history_pushState_able_to_set_location_hash" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: pushState must be able to set location.hash - Description: pushState must be able to set location.hash">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: pushState must be able to set location.hash - Description: pushState must be able to set location.hash]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/001.html?total_num=40&amp;amp;locator_key=id&amp;amp;value=20</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-13-history_pushState_not_fire_hashchange_event" name="13-history_pushState_not_fire_hashchange_event" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: pushState must not fire hashchange events - Description: pushState must not fire hashchange events">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: pushState must not fire hashchange events - Description: pushState must not fire hashchange events]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/001.html?total_num=40&amp;amp;locator_key=id&amp;amp;value=22</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-14-history_pushState_able_to_set_location_pathname" name="14-history_pushState_able_to_set_location_pathname" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: pushState must be able to set location.pathname - Description: pushState must be able to set location.pathname">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: pushState must be able to set location.pathname - Description: pushState must be able to set location.pathname]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/001.html?total_num=40&amp;amp;locator_key=id&amp;amp;value=23</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-15-history_pushState_able_to_set_absolute_URLs" name="15-history_pushState_able_to_set_absolute_URLs" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: pushState must be able to set absolute URLs to the same host - Description: pushState must be able to set absolute URLs to the same host">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: pushState must be able to set absolute URLs to the same host - Description: pushState must be able to set absolute URLs to the same host]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/001.html?total_num=40&amp;amp;locator_key=id&amp;amp;value=24</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-16-history_pushState_not_able_to_use_function_as_data" name="16-history_pushState_not_able_to_use_function_as_data" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: pushState must not be able to use a function as data - Description: pushState must not be able to use a function as data">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: pushState must not be able to use a function as data - Description: pushState must not be able to use a function as data]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/001.html?total_num=40&amp;amp;locator_key=id&amp;amp;value=25</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-17-history_pushState_not_able_to_use_DOM_node_as_data" name="17-history_pushState_not_able_to_use_DOM_node_as_data" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: pushState must not be able to use a DOM node as data - Description: pushState must not be able to use a DOM node as data">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: pushState must not be able to use a DOM node as data - Description: pushState must not be able to use a DOM node as data]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/001.html?total_num=40&amp;amp;locator_key=id&amp;amp;value=26</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-18-history_pushState_not_able_to_use_error_object_as_data" name="18-history_pushState_not_able_to_use_error_object_as_data" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: pushState must not be able to use an error object as data - Description: pushState must not be able to use an error object as data">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: pushState must not be able to use an error object as data - Description: pushState must not be able to use an error object as data]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/001.html?total_num=40&amp;amp;locator_key=id&amp;amp;value=27</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-19-history_security_errors_test_pushState_with_empty" name="19-history_security_errors_test_pushState_with_empty" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: security errors are expected to be thrown in the context of the document that owns the history object, pushState with empty - Description: security errors are expected to be thrown in the context of the document that owns the history object, pushState with empty">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: security errors are expected to be thrown in the context of the document that owns the history object, pushState with empty - Description: security errors are expected to be thrown in the context of the document that owns the history object, pushState with empty]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/001.html?total_num=40&amp;amp;locator_key=id&amp;amp;value=28</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-1A-history_pushState_able_to_make_structured_clones" name="1A-history_pushState_able_to_make_structured_clones" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: pushState must be able to make structured clones of complex objects - Description: pushState must be able to make structured clones of complex objects">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: pushState must be able to make structured clones of complex objects - Description: pushState must be able to make structured clones of complex objects]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/001.html?total_num=40&amp;amp;locator_key=id&amp;amp;value=29</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-1B-history_state_reference_a_clone" name="1B-history_state_reference_a_clone" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: history.state should also reference a clone of the original object - Description: history.state should also reference a clone of the original object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: history.state should also reference a clone of the original object - Description: history.state should also reference a clone of the original object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/001.html?total_num=40&amp;amp;locator_key=id&amp;amp;value=30</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-1C-history_state_reference_a_clone_not_reference_original" name="1C-history_state_reference_a_clone_not_reference_original" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: history.state should be a clone of the original object, not a reference to it - Description: history.state should be a clone of the original object, not a reference to it">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: history.state should be a clone of the original object, not a reference to it - Description: history.state should be a clone of the original object, not a reference to it]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/001.html?total_num=40&amp;amp;locator_key=id&amp;amp;value=31</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-1D-PopStateEvent_fired_when_navigation_occurs" name="1D-PopStateEvent_fired_when_navigation_occurs" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: popstate event should fire when navigation occurs - Description: popstate event should fire when navigation occurs">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: popstate event should fire when navigation occurs - Description: popstate event should fire when navigation occurs]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/001.html?total_num=40&amp;amp;locator_key=id&amp;amp;value=32</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-1E-PopStateEvent_pass_the_state_data" name="1E-PopStateEvent_pass_the_state_data" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: popstate event should pass the state data - Description: popstate event should pass the state data">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: popstate event should pass the state data - Description: popstate event should pass the state data]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/001.html?total_num=40&amp;amp;locator_key=id&amp;amp;value=33</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-1F-PopStateEvent_state_data_cope" name="1F-PopStateEvent_state_data_cope" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: state data should cope with circular object references - Description: state data should cope with circular object references">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: state data should cope with circular object references - Description: state data should cope with circular object references]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/001.html?total_num=40&amp;amp;locator_key=id&amp;amp;value=34</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-1G-PopStateEvent_state_data_be_clone" name="1G-PopStateEvent_state_data_be_clone" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: state data should be a clone of the original object, not a reference to it - Description: state data should be a clone of the original object, not a reference to it">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: state data should be a clone of the original object, not a reference to it - Description: state data should be a clone of the original object, not a reference to it]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/001.html?total_num=40&amp;amp;locator_key=id&amp;amp;value=35</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-1H-PopStateEvent_get_history_state_be_a_clone" name="1H-PopStateEvent_get_history_state_be_a_clone" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: popstate event history.state should also reference a clone of the original object - Description: popstate event history.state should also reference a clone of the original object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: popstate event history.state should also reference a clone of the original object - Description: popstate event history.state should also reference a clone of the original object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/001.html?total_num=40&amp;amp;locator_key=id&amp;amp;value=36</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-1I-PopStateEvent_get_history_state_be_a_clone_not_reference_original" name="1I-PopStateEvent_get_history_state_be_a_clone_not_reference_original" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: popstate event history.state should be a clone of the original object, not a reference to it - Description: popstate event history.state should be a clone of the original object, not a reference to it">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: popstate event history.state should be a clone of the original object, not a reference to it - Description: popstate event history.state should be a clone of the original object, not a reference to it]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/001.html?total_num=40&amp;amp;locator_key=id&amp;amp;value=37</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-1J-history_pushState_not_load_new_URL" name="1J-history_pushState_not_load_new_URL" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: pushState should not actually load the new URL - Description: pushState should not actually load the new URL">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: pushState should not actually load the new URL - Description: pushState should not actually load the new URL]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/001.html?total_num=40&amp;amp;locator_key=id&amp;amp;value=39</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-1K-history_pushState_reloading_a_pushed_state" name="1K-history_pushState_reloading_a_pushed_state" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: reloading a pushed state should actually load the new URL - Description: reloading a pushed state should actually load the new URL">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: reloading a pushed state should actually load the new URL - Description: reloading a pushed state should actually load the new URL]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/001.html?total_num=40&amp;amp;locator_key=id&amp;amp;value=40</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-1L-history_replaceState_exist_within_iframes" name="1L-history_replaceState_exist_within_iframes" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: history.replaceState must exist within iframes - Description: history.replaceState must exist within iframes">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: history.replaceState must exist within iframes - Description: history.replaceState must exist within iframes]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/002.html?total_num=38&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-1M-history_length_not_update_replacing_state_with_no_URL" name="1M-history_length_not_update_replacing_state_with_no_URL" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: history.length should not update when replacing a state with no URL - Description: history.length should not update when replacing a state with no URL">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: history.length should not update when replacing a state with no URL - Description: history.length should not update when replacing a state with no URL]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/002.html?total_num=38&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-1N-history_replaceState_without_URL" name="1N-history_replaceState_without_URL" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: hash should not change when replaceState is called without a URL - Description: hash should not change when replaceState is called without a URL">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: hash should not change when replaceState is called without a URL - Description: hash should not change when replaceState is called without a URL]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/002.html?total_num=38&amp;amp;locator_key=id&amp;amp;value=8</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-1O-history_replaceState_with_a_URL_length_no_update" name="1O-history_replaceState_with_a_URL_length_no_update" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: history.length should not update when replacing a state with a URL - Description: history.length should not update when replacing a state with a URL">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: history.length should not update when replacing a state with a URL - Description: history.length should not update when replacing a state with a URL]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/002.html?total_num=38&amp;amp;locator_key=id&amp;amp;value=9</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-1P-history_replaceState_with_a_URL_hash_change" name="1P-history_replaceState_with_a_URL_hash_change" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: hash should change when replaceState is called with a URL - Description: hash should change when replaceState is called with a URL">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: hash should change when replaceState is called with a URL - Description: hash should change when replaceState is called with a URL]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/002.html?total_num=38&amp;amp;locator_key=id&amp;amp;value=10</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-1Q-history_replaceState_replace_existing_state" name="1Q-history_replaceState_replace_existing_state" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: replaceState must replace the existing state and not add an extra one - Description: replaceState must replace the existing state and not add an extra one">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: replaceState must replace the existing state and not add an extra one - Description: replaceState must replace the existing state and not add an extra one]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/002.html?total_num=38&amp;amp;locator_key=id&amp;amp;value=11</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-1R-history_replaceState_not_altering_forward_history" name="1R-history_replaceState_not_altering_forward_history" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: replaceState must replace the existing state without altering the forward history - Description: replaceState must replace the existing state without altering the forward history">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: replaceState must replace the existing state without altering the forward history - Description: replaceState must replace the existing state without altering the forward history]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/002.html?total_num=38&amp;amp;locator_key=id&amp;amp;value=12</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-1S-history_replaceState_not_allowed_to_create_invalid_URLs" name="1S-history_replaceState_not_allowed_to_create_invalid_URLs" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: replaceState must not be allowed to create invalid URLs - Description: replaceState must not be allowed to create invalid URLs">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: replaceState must not be allowed to create invalid URLs - Description: replaceState must not be allowed to create invalid URLs]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/002.html?total_num=38&amp;amp;locator_key=id&amp;amp;value=13</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-1T-history_replaceState_not_allowed_create_cross-origin_URLs" name="1T-history_replaceState_not_allowed_create_cross-origin_URLs" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: replaceState must not be allowed to create cross-origin URLs - Description: replaceState must not be allowed to create cross-origin URLs">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: replaceState must not be allowed to create cross-origin URLs - Description: replaceState must not be allowed to create cross-origin URLs]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/002.html?total_num=38&amp;amp;locator_key=id&amp;amp;value=14</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-1U-history_replaceState_not_allowed_to_create_about_colon_blank" name="1U-history_replaceState_not_allowed_to_create_about_colon_blank" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: replaceState must not be allowed to create cross-origin URLs (about:blank) - Description: replaceState must not be allowed to create cross-origin URLs (about:blank)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: replaceState must not be allowed to create cross-origin URLs (about:blank) - Description: replaceState must not be allowed to create cross-origin URLs (about:blank)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/002.html?total_num=38&amp;amp;locator_key=id&amp;amp;value=15</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-1V-history_replaceState_not_allowed_to_create_data_colon_URI" name="1V-history_replaceState_not_allowed_to_create_data_colon_URI" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: replaceState must not be allowed to create cross-origin URLs (data:URI) - Description: replaceState must not be allowed to create cross-origin URLs (data:URI)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: replaceState must not be allowed to create cross-origin URLs (data:URI) - Description: replaceState must not be allowed to create cross-origin URLs (data:URI)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/002.html?total_num=38&amp;amp;locator_key=id&amp;amp;value=16</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-1W-history_security_errors_test_replaceState_with_URL" name="1W-history_security_errors_test_replaceState_with_URL" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: security errors are expected to be thrown in the context of the document that owns the history object, replaceState with URL - Description: security errors are expected to be thrown in the context of the document that owns the history object, replaceState with URL">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: security errors are expected to be thrown in the context of the document that owns the history object, replaceState with URL - Description: security errors are expected to be thrown in the context of the document that owns the history object, replaceState with URL]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/002.html?total_num=38&amp;amp;locator_key=id&amp;amp;value=17</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-1X-history_replaceState_able_to_set_location_pathname" name="1X-history_replaceState_able_to_set_location_pathname" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: replaceState must be able to set location.pathname - Description: replaceState must be able to set location.pathname">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: replaceState must be able to set location.pathname - Description: replaceState must be able to set location.pathname]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/002.html?total_num=38&amp;amp;locator_key=id&amp;amp;value=18</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-1Y-history_replaceState_able_to_set_absolute_URLs" name="1Y-history_replaceState_able_to_set_absolute_URLs" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: replaceState must be able to set absolute URLs to the same host - Description: replaceState must be able to set absolute URLs to the same host">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: replaceState must be able to set absolute URLs to the same host - Description: replaceState must be able to set absolute URLs to the same host]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/002.html?total_num=38&amp;amp;locator_key=id&amp;amp;value=19</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-1Z-history_replaceState_not_remove_tasks_queued" name="1Z-history_replaceState_not_remove_tasks_queued" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: replaceState must not remove any tasks queued by the history traversal task source - Description: replaceState must not remove any tasks queued by the history traversal task source">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: replaceState must not remove any tasks queued by the history traversal task source - Description: replaceState must not remove any tasks queued by the history traversal task source]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/002.html?total_num=38&amp;amp;locator_key=id&amp;amp;value=20</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-20-history_traversal_task_source" name="20-history_traversal_task_source" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: go must queue a task with the history traversal task source (run asynchronously) - Description: go must queue a task with the history traversal task source (run asynchronously)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: go must queue a task with the history traversal task source (run asynchronously) - Description: go must queue a task with the history traversal task source (run asynchronously)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/002.html?total_num=38&amp;amp;locator_key=id&amp;amp;value=21</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-21-history_replaceState_not_fire_hashchange_event" name="21-history_replaceState_not_fire_hashchange_event" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: replaceState must not fire hashchange events - Description: replaceState must not fire hashchange events">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: replaceState must not fire hashchange events - Description: replaceState must not fire hashchange events]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/002.html?total_num=38&amp;amp;locator_key=id&amp;amp;value=22</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-22-history_replaceState_arguments_with_a_function" name="22-history_replaceState_arguments_with_a_function" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: replaceState must not be able to use a function as data - Description: replaceState must not be able to use a function as data">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: replaceState must not be able to use a function as data - Description: replaceState must not be able to use a function as data]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/002.html?total_num=38&amp;amp;locator_key=id&amp;amp;value=23</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-23-history_replaceState_arguments_with_a_DOM" name="23-history_replaceState_arguments_with_a_DOM" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: replaceState must not be able to use a DOM node as data - Description: replaceState must not be able to use a DOM node as data">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: replaceState must not be able to use a DOM node as data - Description: replaceState must not be able to use a DOM node as data]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/002.html?total_num=38&amp;amp;locator_key=id&amp;amp;value=24</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-24-history_replaceState_arguments_with_a_error_object" name="24-history_replaceState_arguments_with_a_error_object" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: replaceState must not be able to use an error object as data - Description: replaceState must not be able to use an error object as data">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: replaceState must not be able to use an error object as data - Description: replaceState must not be able to use an error object as data]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/002.html?total_num=38&amp;amp;locator_key=id&amp;amp;value=25</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-25-history_security_errors_test_replaceState_with_empty" name="25-history_security_errors_test_replaceState_with_empty" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: security errors are expected to be thrown in the context of the document that owns the history object, replaceState with empty - Description: security errors are expected to be thrown in the context of the document that owns the history object, replaceState with empty">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: security errors are expected to be thrown in the context of the document that owns the history object, replaceState with empty - Description: security errors are expected to be thrown in the context of the document that owns the history object, replaceState with empty]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/002.html?total_num=38&amp;amp;locator_key=id&amp;amp;value=26</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-26-history_replaceState_able_to_make_structured_clones" name="26-history_replaceState_able_to_make_structured_clones" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: replaceState must be able to make structured clones of complex objects - Description: replaceState must be able to make structured clones of complex objects">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: replaceState must be able to make structured clones of complex objects - Description: replaceState must be able to make structured clones of complex objects]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/002.html?total_num=38&amp;amp;locator_key=id&amp;amp;value=27</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-27-history_replaceState_not_load_new_URL" name="27-history_replaceState_not_load_new_URL" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: replaceState should not actually load the new URL - Description: replaceState should not actually load the new URL">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: replaceState should not actually load the new URL - Description: replaceState should not actually load the new URL]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/002.html?total_num=38&amp;amp;locator_key=id&amp;amp;value=37</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-28-history_replaceState_reloading_not_load_new_URL" name="28-history_replaceState_reloading_not_load_new_URL" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: reloading a replaced state should actually load the new URL - Description: reloading a replaced state should actually load the new URL">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: reloading a replaced state should actually load the new URL - Description: reloading a replaced state should actually load the new URL]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/002.html?total_num=38&amp;amp;locator_key=id&amp;amp;value=38</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-29-PopStateEvent_exists" name="29-PopStateEvent_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if PopStateEvent exists - Description: Check if PopStateEvent exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if PopStateEvent exists - Description: Check if PopStateEvent exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/003.html?total_num=8&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-2A-initPopStateEvent_instanceof_PopStateEvent" name="2A-initPopStateEvent_instanceof_PopStateEvent" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the document.createEvent instanceof of PopStateEvent - Description: Check if the document.createEvent instanceof of PopStateEvent">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the document.createEvent instanceof of PopStateEvent - Description: Check if the document.createEvent instanceof of PopStateEvent]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/003.html?total_num=8&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-2B-initPopStateEvent_property_Event" name="2B-initPopStateEvent_property_Event" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the document.createEvent instanceof of Event - Description: Check if the document.createEvent instanceof of Event">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the document.createEvent instanceof of Event - Description: Check if the document.createEvent instanceof of Event]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/003.html?total_num=8&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-2C-initPopStateEvent_dispatchable" name="2C-initPopStateEvent_dispatchable" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if initPopStateEvent can be dispatchable on the window object - Description: Check if initPopStateEvent can be dispatchable on the window object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if initPopStateEvent can be dispatchable on the window object - Description: Check if initPopStateEvent can be dispatchable on the window object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/003.html?total_num=8&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-2D-location_window_hash_basic" name="2D-location_window_hash_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if Location.hash fire hashchange event and get the correct data  - Description: Check if Location.hash fire hashchange event and get the correct data ">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Location.hash fire hashchange event and get the correct data  - Description: Check if Location.hash fire hashchange event and get the correct data ]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/004.html?total_num=4&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-2E-location_body_onpopstate" name="2E-location_body_onpopstate" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if body onpopstate register a listener for the popstate event - Description: Check if body onpopstate register a listener for the popstate event">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if body onpopstate register a listener for the popstate event - Description: Check if body onpopstate register a listener for the popstate event]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/005.html?total_num=3&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-2F-location_window_onpopstate" name="2F-location_window_onpopstate" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if window.onpopstate register a listener for the popstate event - Description: Check if window.onpopstate register a listener for the popstate event">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if window.onpopstate register a listener for the popstate event - Description: Check if window.onpopstate register a listener for the popstate event]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/005.html?total_num=3&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-2G-history_state_initial" name="2G-history_state_initial" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the value of history.state initialled to null - Description: Check if the value of history.state initialled to null">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the value of history.state initialled to null - Description: Check if the value of history.state initialled to null]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/006.html?total_num=6&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-2H-popstate_event_fire_after_onload" name="2H-popstate_event_fire_after_onload" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if popstate event fired after onload event - Description: Check if popstate event fired after onload event">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if popstate event fired after onload event - Description: Check if popstate event fired after onload event]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/006.html?total_num=6&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-2I-history_state_value_onload" name="2I-history_state_value_onload" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the value of history.state still be null on onload event occurs - Description: Check if the value of history.state still be null on onload event occurs">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the value of history.state still be null on onload event occurs - Description: Check if the value of history.state still be null on onload event occurs]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/006.html?total_num=6&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-2J-history_state_value_after_onload" name="2J-history_state_value_after_onload" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the value of history.state still be null after onload event occurs - Description: Check if the value of history.state still be null after onload event occurs">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the value of history.state still be null after onload event occurs - Description: Check if the value of history.state still be null after onload event occurs]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/006.html?total_num=6&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-2K-history_state_write" name="2K-history_state_write" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if writing to history.state should be silently ignored and not throw an error - Description: Check if writing to history.state should be silently ignored and not throw an error">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if writing to history.state should be silently ignored and not throw an error - Description: Check if writing to history.state should be silently ignored and not throw an error]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/006.html?total_num=6&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-2L-history_pushState_HTTP_Referer" name="2L-history_pushState_HTTP_Referer" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if HTTP Referer should use the pushed state - Description: Check if HTTP Referer should use the pushed state">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if HTTP Referer should use the pushed state - Description: Check if HTTP Referer should use the pushed state]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/009.html?total_num=4&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-2M-history_pushState_document_referrer" name="2M-history_pushState_document_referrer" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if document.referrer should use the pushed state - Description: Check if document.referrer should use the pushed state">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if document.referrer should use the pushed state - Description: Check if document.referrer should use the pushed state]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/009.html?total_num=4&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-2N-history_replaceState_HTTP_Referer" name="2N-history_replaceState_HTTP_Referer" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if HTTP Referer should use the replaced state - Description: Check if HTTP Referer should use the replaced state">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if HTTP Referer should use the replaced state - Description: Check if HTTP Referer should use the replaced state]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/009.html?total_num=4&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-2O-history_replaceState_document_referrer" name="2O-history_replaceState_document_referrer" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if document.referrer should use the replaced state - Description: Check if document.referrer should use the replaced state">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if document.referrer should use the replaced state - Description: Check if document.referrer should use the replaced state]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/009.html?total_num=4&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-2P-history_pushState_HTTP_Referer_2" name="2P-history_pushState_HTTP_Referer_2" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if HTTP Referer should use the pushed state before onload - Description: Check if HTTP Referer should use the pushed state before onload">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if HTTP Referer should use the pushed state before onload - Description: Check if HTTP Referer should use the pushed state before onload]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/010.html?total_num=4&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-2Q-history_pushState_document_referrer_2" name="2Q-history_pushState_document_referrer_2" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if document.referrer should use the pushed state before onload - Description: Check if document.referrer should use the pushed state before onload">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if document.referrer should use the pushed state before onload - Description: Check if document.referrer should use the pushed state before onload]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/010.html?total_num=4&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-2R-history_replaceState_HTTP_Referer_2" name="2R-history_replaceState_HTTP_Referer_2" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if HTTP Referer should use the replaced state before onload - Description: Check if HTTP Referer should use the replaced state before onload">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if HTTP Referer should use the replaced state before onload - Description: Check if HTTP Referer should use the replaced state before onload]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/010.html?total_num=4&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-2S-history_replaceState_document_referrer_2" name="2S-history_replaceState_document_referrer_2" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if document.referrer should use the replaced state before onload - Description: Check if document.referrer should use the replaced state before onload">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if document.referrer should use the replaced state before onload - Description: Check if document.referrer should use the replaced state before onload]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/010.html?total_num=4&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-2T-history_pushState_set_location_state" name="2T-history_pushState_set_location_state" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if history.pushState can be set the location state - Description: Check if history.pushState can be set the location state">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if history.pushState can be set the location state - Description: Check if history.pushState can be set the location state]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/011.html?total_num=3&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-2U-history_pushState_reflecte" name="2U-history_pushState_reflecte" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the pushed location can be reflected immediately - Description: Check if the pushed location can be reflected immediately">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the pushed location can be reflected immediately - Description: Check if the pushed location can be reflected immediately]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/011.html?total_num=3&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-2V-history_pushState_retained_later" name="2V-history_pushState_retained_later" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the pushed location retained after the page has loaded - Description: Check if the pushed location retained after the page has loaded">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the pushed location retained after the page has loaded - Description: Check if the pushed location retained after the page has loaded]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/011.html?total_num=3&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-2W-history_replaceState_set_location_state" name="2W-history_replaceState_set_location_state" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if history.replaceState can be set the location state - Description: Check if history.replaceState can be set the location state">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if history.replaceState can be set the location state - Description: Check if history.replaceState can be set the location state]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/012.html?total_num=3&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-2X-history_replaceState_reflecte" name="2X-history_replaceState_reflecte" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the replaced location can be reflected immediately - Description: Check if the replaced location can be reflected immediately">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the replaced location can be reflected immediately - Description: Check if the replaced location can be reflected immediately]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/012.html?total_num=3&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-2Y-history_replaceState_retained_later" name="2Y-history_replaceState_retained_later" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the replaced location retained after the page has loaded - Description: Check if the replaced location retained after the page has loaded">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the replaced location retained after the page has loaded - Description: Check if the replaced location retained after the page has loaded]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/012.html?total_num=3&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-2Z-history_go_exists" name="2Z-history_go_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if history.go method exists - Description: Check if history.go method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if history.go method exists - Description: Check if history.go method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/history_go_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-30-history_pushState_type" name="30-history_pushState_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the type of window.history.pushState is function - Description: Check if the type of window.history.pushState is function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the type of window.history.pushState is function - Description: Check if the type of window.history.pushState is function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/history_pushState_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-31-history_replaceState_type" name="31-history_replaceState_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the type of window.history.replaceState is function - Description: Check if the type of window.history.replaceState is function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the type of window.history.replaceState is function - Description: Check if the type of window.history.replaceState is function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/history_replaceState_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-32-location_document_reload_exists" name="32-location_document_reload_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if location.reload method exists - Description: Check if location.reload method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if location.reload method exists - Description: Check if location.reload method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/location_document_reload_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-33-history_pushState_url_null" name="33-history_pushState_url_null" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if history.pushState method param url set null,then compare location.href is '001.html' - Description: Check if history.pushState method param url set null,then compare location.href is '001.html'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if history.pushState method param url set null,then compare location.href is '001.html' - Description: Check if history.pushState method param url set null,then compare location.href is '001.html']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/history_pushState_url_null.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-34-history_replaceState_url_null" name="34-history_replaceState_url_null" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if history.replacestate method param url set null,then compare location.href is '001.html' - Description: Check if history.replacestate method param url set null,then compare location.href is '001.html'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if history.replacestate method param url set null,then compare location.href is '001.html' - Description: Check if history.replacestate method param url set null,then compare location.href is '001.html']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/history_replaceState_url_null.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-35-history_go_no_argument" name="35-history_go_no_argument" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if History.go method not set,then compare Location.href is '001.html' - Description: Check if History.go method not set,then compare Location.href is '001.html'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if History.go method not set,then compare Location.href is '001.html' - Description: Check if History.go method not set,then compare Location.href is '001.html']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/history_go_no_argument.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-36-history_go_outOfRange" name="36-history_go_outOfRange" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if History.go method set 10000 out of range navigates will do nothing - Description: Check if History.go method set 10000 out of range navigates will do nothing">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if History.go method set 10000 out of range navigates will do nothing - Description: Check if History.go method set 10000 out of range navigates will do nothing]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/history_go_outOfRange.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-37-history_go_zero" name="37-history_go_zero" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if History.go method set 0,then compare Location.href is '001.html' - Description: Check if History.go method set 0,then compare Location.href is '001.html'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if History.go method set 0,then compare Location.href is '001.html' - Description: Check if History.go method set 0,then compare Location.href is '001.html']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/history_go_zero.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-38-history_back_type" name="38-history_back_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if history.back method is of type function - Description: Check if history.back method is of type function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if history.back method is of type function - Description: Check if history.back method is of type function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/history_back_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-39-history_forward_type" name="39-history_forward_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if history.forward is of type function - Description: Check if history.forward is of type function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if history.forward is of type function - Description: Check if history.forward is of type function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/history_forward_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-3A-history_go_type" name="3A-history_go_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if history.go method is of type function - Description: Check if history.go method is of type function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if history.go method is of type function - Description: Check if history.go method is of type function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/history_go_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-3B-history_length_type" name="3B-history_length_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if history.length attribute is of type number - Description: Check if history.length attribute is of type number">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if history.length attribute is of type number - Description: Check if history.length attribute is of type number]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/history_length_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-3C-location_document_hostname_type" name="3C-location_document_hostname_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if location.hostname is of type string - Description: Check if location.hostname is of type string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if location.hostname is of type string - Description: Check if location.hostname is of type string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/location_document_hostname_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-3D-location_document_protocol_type" name="3D-location_document_protocol_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if location.protocol is of type string - Description: Check if location.protocol is of type string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if location.protocol is of type string - Description: Check if location.protocol is of type string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/location_document_protocol_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-3E-location_document_reload_type" name="3E-location_document_reload_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if location.reload method is if type function - Description: Check if location.reload method is if type function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if location.reload method is if type function - Description: Check if location.reload method is if type function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/location_document_reload_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-3F-location_document_search_type" name="3F-location_document_search_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if location.search attribute is of type string - Description: Check if location.search attribute is of type string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if location.search attribute is of type string - Description: Check if location.search attribute is of type string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/location_document_search_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-3G-location_window_assign_type" name="3G-location_window_assign_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if Location.assign attribute is of type function - Description: Check if Location.assign attribute is of type function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Location.assign attribute is of type function - Description: Check if Location.assign attribute is of type function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/location_window_assign_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-3H-location_window_host_type" name="3H-location_window_host_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if Location.host attribute is of type string - Description: Check if Location.host attribute is of type string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Location.host attribute is of type string - Description: Check if Location.host attribute is of type string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/location_window_host_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-3I-location_window_href_type" name="3I-location_window_href_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if Location.href attribute is of type string - Description: Check if Location.href attribute is of type string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Location.href attribute is of type string - Description: Check if Location.href attribute is of type string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/location_window_href_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-3J-location_window_pathname_type" name="3J-location_window_pathname_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if Location.pathname attribute is of type string - Description: Check if Location.pathname attribute is of type string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Location.pathname attribute is of type string - Description: Check if Location.pathname attribute is of type string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/location_window_pathname_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-3K-location_window_port_type" name="3K-location_window_port_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if Location.port attribute is of type string - Description: Check if Location.port attribute is of type string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Location.port attribute is of type string - Description: Check if Location.port attribute is of type string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/location_window_port_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-3L-location_window_replace_type" name="3L-location_window_replace_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if location.replace method is of type function - Description: Check if location.replace method is of type function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if location.replace method is of type function - Description: Check if location.replace method is of type function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/location_window_replace_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-3M-history_length_readonly" name="3M-history_length_readonly" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if history.length attribute set history.length+10.then compare history.length is history.leng+10 - Description: Check if history.length attribute set history.length+10.then compare history.length is history.leng+10">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if history.length attribute set history.length+10.then compare history.length is history.leng+10 - Description: Check if history.length attribute set history.length+10.then compare history.length is history.leng+10]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/history_length_readonly.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-3N-history_state_readonly" name="3N-history_state_readonly" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if history.state attribute is readonly - Description: Check if history.state attribute is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if history.state attribute is readonly - Description: Check if history.state attribute is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/history_state_readonly.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-3O-location_document_hostname_assign" name="3O-location_document_hostname_assign" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if location.hostname attribute calling location.assign,then compare location.hostname - Description: Check if location.hostname attribute calling location.assign,then compare location.hostname">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if location.hostname attribute calling location.assign,then compare location.hostname - Description: Check if location.hostname attribute calling location.assign,then compare location.hostname]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/location_document_hostname_assign.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-3P-location_document_hostname_default_value" name="3P-location_document_hostname_default_value" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if location.hostname attribute default value should not ne null - Description: Check if location.hostname attribute default value should not ne null">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if location.hostname attribute default value should not ne null - Description: Check if location.hostname attribute default value should not ne null]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/location_document_hostname_default_value.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-3Q-location_document_protocol_assign" name="3Q-location_document_protocol_assign" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if location.protocol attribute calling location.assign,then compare location.protocol - Description: Check if location.protocol attribute calling location.assign,then compare location.protocol">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if location.protocol attribute calling location.assign,then compare location.protocol - Description: Check if location.protocol attribute calling location.assign,then compare location.protocol]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/location_document_protocol_assign.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-3R-location_document_search_assign" name="3R-location_document_search_assign" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if location.search attribute calling location.assign,then compare location.search - Description: Check if location.search attribute calling location.assign,then compare location.search">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if location.search attribute calling location.assign,then compare location.search - Description: Check if location.search attribute calling location.assign,then compare location.search]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/location_document_search_assign.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-3S-location_window_hash_default_value" name="3S-location_window_hash_default_value" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if Location.hash attribute not set,then compare Location.hash is '' - Description: Check if Location.hash attribute not set,then compare Location.hash is ''">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Location.hash attribute not set,then compare Location.hash is '' - Description: Check if Location.hash attribute not set,then compare Location.hash is '']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/location_window_hash_default_value.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-3T-location_window_hash_empty_string" name="3T-location_window_hash_empty_string" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if Location.hash attribute set 'test hash' then set empty string,finally compare is Location.hash is '' - Description: Check if Location.hash attribute set 'test hash' then set empty string,finally compare is Location.hash is ''">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Location.hash attribute set 'test hash' then set empty string,finally compare is Location.hash is '' - Description: Check if Location.hash attribute set 'test hash' then set empty string,finally compare is Location.hash is '']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/location_window_hash_empty_string.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-3U-location_window_hash_null" name="3U-location_window_hash_null" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if Location.hash attribute set null,then compare Location.hash is '#null' - Description: Check if Location.hash attribute set null,then compare Location.hash is '#null'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Location.hash attribute set null,then compare Location.hash is '#null' - Description: Check if Location.hash attribute set null,then compare Location.hash is '#null']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/location_window_hash_null.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-3V-location_window_hash_random" name="3V-location_window_hash_random" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if Location.hash attribute set random,then compare Location.hash is '#'+random - Description: Check if Location.hash attribute set random,then compare Location.hash is '#'+random">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Location.hash attribute set random,then compare Location.hash is '#'+random - Description: Check if Location.hash attribute set random,then compare Location.hash is '#'+random]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/location_window_hash_random.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-3W-location_window_host_assign" name="3W-location_window_host_assign" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if Location.host attribute calling assign method,then compare now host is after host - Description: Check if Location.host attribute calling assign method,then compare now host is after host">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Location.host attribute calling assign method,then compare now host is after host - Description: Check if Location.host attribute calling assign method,then compare now host is after host]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/location_window_host_assign.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-3X-location_window_href_default_value" name="3X-location_window_href_default_value" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if Location.href attribute,then compare location.href equals 'location_window_href_default_value.html' - Description: Check if Location.href attribute,then compare location.href equals 'location_window_href_default_value.html'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Location.href attribute,then compare location.href equals 'location_window_href_default_value.html' - Description: Check if Location.href attribute,then compare location.href equals 'location_window_href_default_value.html']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/location_window_href_default_value.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-3Y-location_window_pathname_assign" name="3Y-location_window_pathname_assign" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if location.pathname attribute calling location.assign,then compare location.pathname - Description: Check if location.pathname attribute calling location.assign,then compare location.pathname">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if location.pathname attribute calling location.assign,then compare location.pathname - Description: Check if location.pathname attribute calling location.assign,then compare location.pathname]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/location_window_pathname_assign.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-3Z-location_window_pathname_default_value" name="3Z-location_window_pathname_default_value" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if Location.pathname attribute default value is file name - Description: Check if Location.pathname attribute default value is file name">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Location.pathname attribute default value is file name - Description: Check if Location.pathname attribute default value is file name]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/location_window_pathname_default_value.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-40-location_window_port_assign" name="40-location_window_port_assign" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if Location.port attribute calling Location.assign,then compare location.port - Description: Check if Location.port attribute calling Location.assign,then compare location.port">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Location.port attribute calling Location.assign,then compare location.port - Description: Check if Location.port attribute calling Location.assign,then compare location.port]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/location_window_port_assign.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-41-location_window_host_href" name="41-location_window_host_href" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if location.host attribute,calling location.href,then compare location.host - Description: Check if location.host attribute,calling location.href,then compare location.host">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if location.host attribute,calling location.href,then compare location.host - Description: Check if location.host attribute,calling location.href,then compare location.host]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/location_host.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-42-location_window_href_basic" name="42-location_window_href_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if Location.href value equals to document.URL - Description: Check if Location.href value equals to document.URL">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Location.href value equals to document.URL - Description: Check if Location.href value equals to document.URL]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/location_href.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-43-location_window_pathname_href" name="43-location_window_pathname_href" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if Location.pathname attibute calling location.href,then compare location.pathname - Description: Check if Location.pathname attibute calling location.href,then compare location.pathname">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Location.pathname attibute calling location.href,then compare location.pathname - Description: Check if Location.pathname attibute calling location.href,then compare location.pathname]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/location_pathname.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-44-location_window_port_href" name="44-location_window_port_href" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if Location.port attribute calling location.href,then compare location.port - Description: Check if Location.port attribute calling location.href,then compare location.port">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Location.port attribute calling location.href,then compare location.port - Description: Check if Location.port attribute calling location.href,then compare location.port]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/location_port.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-45-location_document_search_href" name="45-location_document_search_href" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if location.search attribute calling location.href,then comapre location.search is '?test=a' - Description: Check if location.search attribute calling location.href,then comapre location.search is '?test=a'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if location.search attribute calling location.href,then comapre location.search is '?test=a' - Description: Check if location.search attribute calling location.href,then comapre location.search is '?test=a']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/location_search.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-46-location_document_hostname_href" name="46-location_document_hostname_href" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if location.hostname attribute calling location.href,then compare location.hostname - Description: Check if location.hostname attribute calling location.href,then compare location.hostname">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if location.hostname attribute calling location.href,then compare location.hostname - Description: Check if location.hostname attribute calling location.href,then compare location.hostname]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/location_hostname.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-47-location_document_protocol_href" name="47-location_document_protocol_href" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if location.protocol attribute calling location.href,then compare location.protocol - Description: Check if location.protocol attribute calling location.href,then compare location.protocol">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if location.protocol attribute calling location.href,then compare location.protocol - Description: Check if location.protocol attribute calling location.href,then compare location.protocol]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/location_protocol.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-15-48-location_hash" name="48-location_hash" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-sessionhistory-html5-tests" status="designed" type="compliance" purpose="Objective: Check if Location.hash attribute set '#x=1',then compare Location.hash is '#x=1' - Description: Check if Location.hash attribute set '#x=1',then compare Location.hash is '#x=1'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Location.hash attribute set '#x=1',then compare Location.hash is '#x=1' - Description: Check if Location.hash attribute set '#x=1',then compare Location.hash is '#x=1']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-sessionhistory-html5-tests/sessionhistory/w3c/location_hash.html</test_script_entry>
+                </description>
+            </testcase>
+        </set>
+    </suite>
+</test_definition>

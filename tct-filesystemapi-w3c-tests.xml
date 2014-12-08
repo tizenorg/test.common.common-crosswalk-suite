@@ -1,0 +1,493 @@
+<?xml version="1.0"?>
+<test_definition>
+    <suite launcher="xwalk" name="00-common/E0-crosswalk">
+        <set name="common/crosswalk/commonapi/tct-filesystemapi-w3c-tests">
+            <testcase id="00-E0-00-0I-01-DirectoryEntry_createReader_exist" name="01-DirectoryEntry_createReader_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filesystemapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if DirectoryEntry.createReader exists - Description: Check if DirectoryEntry.createReader exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DirectoryEntry.createReader exists - Description: Check if DirectoryEntry.createReader exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filesystemapi-w3c-tests/filesystemapi/DirectoryEntry_createReader_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0I-02-DirectoryEntry_getDirectory_exist" name="02-DirectoryEntry_getDirectory_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filesystemapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if DirectoryEntry.getDirectory exists - Description: Check if DirectoryEntry.getDirectory exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DirectoryEntry.getDirectory exists - Description: Check if DirectoryEntry.getDirectory exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filesystemapi-w3c-tests/filesystemapi/DirectoryEntry_getDirectory_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0I-03-DirectoryEntry_getFile_base" name="03-DirectoryEntry_getFile_base" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filesystemapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if getFile() has all valid arguments that expecting successCallback() to be invoke - Description: Check if getFile() has all valid arguments that expecting successCallback() to be invoke">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if getFile() has all valid arguments that expecting successCallback() to be invoke - Description: Check if getFile() has all valid arguments that expecting successCallback() to be invoke]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filesystemapi-w3c-tests/filesystemapi/DirectoryEntry_getFile_base.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0I-04-DirectoryEntry_getFile_exist" name="04-DirectoryEntry_getFile_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filesystemapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if DirectoryEntry.getFile exists - Description: Check if DirectoryEntry.getFile exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DirectoryEntry.getFile exists - Description: Check if DirectoryEntry.getFile exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filesystemapi-w3c-tests/filesystemapi/DirectoryEntry_getFile_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0I-05-DirectoryEntry_removeRecursively_exist" name="05-DirectoryEntry_removeRecursively_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filesystemapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if DirectoryEntry.removeRecursively exists - Description: Check if DirectoryEntry.removeRecursively exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DirectoryEntry.removeRecursively exists - Description: Check if DirectoryEntry.removeRecursively exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filesystemapi-w3c-tests/filesystemapi/DirectoryEntry_removeRecursively_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0I-06-DirectoryReader_readEntries_exist" name="06-DirectoryReader_readEntries_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filesystemapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if DirectoryReader.readEntries exists - Description: Check if DirectoryReader.readEntries exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DirectoryReader.readEntries exists - Description: Check if DirectoryReader.readEntries exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filesystemapi-w3c-tests/filesystemapi/DirectoryReader_readEntries_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0I-07-EntriesCallback_handleEvent_entries_type" name="07-EntriesCallback_handleEvent_entries_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filesystemapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the type of the parameter entries is Entry[] in EntryCallback interface - Description: Check if the type of the parameter entries is Entry[] in EntryCallback interface">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the type of the parameter entries is Entry[] in EntryCallback interface - Description: Check if the type of the parameter entries is Entry[] in EntryCallback interface]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filesystemapi-w3c-tests/filesystemapi/EntriesCallback_handleEvent_entries_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0I-08-EntriesCallback_handleEvent_exist" name="08-EntriesCallback_handleEvent_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filesystemapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if EntriesCallback.handleEvent exists - Description: Check if EntriesCallback.handleEvent exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if EntriesCallback.handleEvent exists - Description: Check if EntriesCallback.handleEvent exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filesystemapi-w3c-tests/filesystemapi/EntriesCallback_handleEvent_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0I-09-EntryCallback_handleEvent_entry_type" name="09-EntryCallback_handleEvent_entry_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filesystemapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the type of the parameter entry is Entry in EntryCallback interface - Description: Check if the type of the parameter entry is Entry in EntryCallback interface">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the type of the parameter entry is Entry in EntryCallback interface - Description: Check if the type of the parameter entry is Entry in EntryCallback interface]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filesystemapi-w3c-tests/filesystemapi/EntryCallback_handleEvent_entry_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0I-0A-EntryCallback_handleEvent_exist" name="0A-EntryCallback_handleEvent_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filesystemapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if EntryCallback.handleEvent exists - Description: Check if EntryCallback.handleEvent exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if EntryCallback.handleEvent exists - Description: Check if EntryCallback.handleEvent exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filesystemapi-w3c-tests/filesystemapi/EntryCallback_handleEvent_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0I-0B-Entry_copyTo_base" name="0B-Entry_copyTo_base" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filesystemapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if can copy a file to a different location on the file system - Description: Check if can copy a file to a different location on the file system">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if can copy a file to a different location on the file system - Description: Check if can copy a file to a different location on the file system]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filesystemapi-w3c-tests/filesystemapi/Entry_copyTo_base.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0I-0C-Entry_copyTo_exist" name="0C-Entry_copyTo_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filesystemapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if Entry.copyTo exists - Description: Check if Entry.copyTo exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Entry.copyTo exists - Description: Check if Entry.copyTo exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filesystemapi-w3c-tests/filesystemapi/Entry_copyTo_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0I-0D-Entry_filesystem_exist" name="0D-Entry_filesystem_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filesystemapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if Entry.filesystem exists - Description: Check if Entry.filesystem exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Entry.filesystem exists - Description: Check if Entry.filesystem exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filesystemapi-w3c-tests/filesystemapi/Entry_filesystem_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0I-0E-Entry_filesystem_readonly" name="0E-Entry_filesystem_readonly" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filesystemapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the Entry.filesystem attribute is readonly - Description: Check if the Entry.filesystem attribute is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the Entry.filesystem attribute is readonly - Description: Check if the Entry.filesystem attribute is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filesystemapi-w3c-tests/filesystemapi/Entry_filesystem_readonly.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0I-0F-Entry_filesystem_type" name="0F-Entry_filesystem_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filesystemapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the type of Entry.filesystem attribute is object - Description: Check if the type of Entry.filesystem attribute is object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the type of Entry.filesystem attribute is object - Description: Check if the type of Entry.filesystem attribute is object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filesystemapi-w3c-tests/filesystemapi/Entry_filesystem_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0I-0G-Entry_fullPath_exist" name="0G-Entry_fullPath_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filesystemapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if Entry.fullPath exists - Description: Check if Entry.fullPath exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Entry.fullPath exists - Description: Check if Entry.fullPath exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filesystemapi-w3c-tests/filesystemapi/Entry_fullPath_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0I-0H-Entry_fullPath_readonly" name="0H-Entry_fullPath_readonly" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filesystemapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the Entry.fullPath attribute is readonly - Description: Check if the Entry.fullPath attribute is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the Entry.fullPath attribute is readonly - Description: Check if the Entry.fullPath attribute is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filesystemapi-w3c-tests/filesystemapi/Entry_fullPath_readonly.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0I-0I-Entry_fullPath_type" name="0I-Entry_fullPath_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filesystemapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the type of Entry.fullPath is DOMString - Description: Check if the type of Entry.fullPath is DOMString">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the type of Entry.fullPath is DOMString - Description: Check if the type of Entry.fullPath is DOMString]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filesystemapi-w3c-tests/filesystemapi/Entry_fullPath_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0I-0J-Entry_getMetadata_exist" name="0J-Entry_getMetadata_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filesystemapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if Entry.getMetadata exists - Description: Check if Entry.getMetadata exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Entry.getMetadata exists - Description: Check if Entry.getMetadata exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filesystemapi-w3c-tests/filesystemapi/Entry_getMetadata_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0I-0K-Entry_getParent_exist" name="0K-Entry_getParent_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filesystemapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if Entry.getParent exists - Description: Check if Entry.getParent exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Entry.getParent exists - Description: Check if Entry.getParent exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filesystemapi-w3c-tests/filesystemapi/Entry_getParent_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0I-0L-Entry_isDirectory_exist" name="0L-Entry_isDirectory_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filesystemapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if Entry.isDirectory exists - Description: Check if Entry.isDirectory exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Entry.isDirectory exists - Description: Check if Entry.isDirectory exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filesystemapi-w3c-tests/filesystemapi/Entry_isDirectory_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0I-0M-Entry_isDirectory_false" name="0M-Entry_isDirectory_false" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filesystemapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the Entry is not a directory - Description: Check if the Entry is not a directory">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the Entry is not a directory - Description: Check if the Entry is not a directory]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filesystemapi-w3c-tests/filesystemapi/Entry_isDirectory_false.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0I-0N-Entry_isDirectory_readonly" name="0N-Entry_isDirectory_readonly" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filesystemapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the Entry.isDirectory attribute is readonly - Description: Check if the Entry.isDirectory attribute is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the Entry.isDirectory attribute is readonly - Description: Check if the Entry.isDirectory attribute is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filesystemapi-w3c-tests/filesystemapi/Entry_isDirectory_readonly.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0I-0O-Entry_isDirectory_true" name="0O-Entry_isDirectory_true" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filesystemapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the Entry is a directory - Description: Check if the Entry is a directory">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the Entry is a directory - Description: Check if the Entry is a directory]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filesystemapi-w3c-tests/filesystemapi/Entry_isDirectory_true.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0I-0P-Entry_isDirectory_type" name="0P-Entry_isDirectory_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filesystemapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the type of Entry.isDirectory attribute is boolean - Description: Check if the type of Entry.isDirectory attribute is boolean">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the type of Entry.isDirectory attribute is boolean - Description: Check if the type of Entry.isDirectory attribute is boolean]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filesystemapi-w3c-tests/filesystemapi/Entry_isDirectory_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0I-0Q-Entry_isFile_exist" name="0Q-Entry_isFile_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filesystemapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if Entry.isFile exists - Description: Check if Entry.isFile exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Entry.isFile exists - Description: Check if Entry.isFile exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filesystemapi-w3c-tests/filesystemapi/Entry_isFile_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0I-0R-Entry_isFile_false" name="0R-Entry_isFile_false" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filesystemapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the Entry is not a file - Description: Check if the Entry is not a file">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the Entry is not a file - Description: Check if the Entry is not a file]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filesystemapi-w3c-tests/filesystemapi/Entry_isFile_false.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0I-0S-Entry_isFile_readonly" name="0S-Entry_isFile_readonly" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filesystemapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the Entry.isFile attribute is readonly - Description: Check if the Entry.isFile attribute is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the Entry.isFile attribute is readonly - Description: Check if the Entry.isFile attribute is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filesystemapi-w3c-tests/filesystemapi/Entry_isFile_readonly.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0I-0T-Entry_isFile_true" name="0T-Entry_isFile_true" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filesystemapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the Entry is a file - Description: Check if the Entry is a file">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the Entry is a file - Description: Check if the Entry is a file]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filesystemapi-w3c-tests/filesystemapi/Entry_isFile_true.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0I-0U-Entry_isFile_type" name="0U-Entry_isFile_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filesystemapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the type of Entry.isFile attribute is boolean - Description: Check if the type of Entry.isFile attribute is boolean">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the type of Entry.isFile attribute is boolean - Description: Check if the type of Entry.isFile attribute is boolean]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filesystemapi-w3c-tests/filesystemapi/Entry_isFile_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0I-0V-Entry_moveTo_exist" name="0V-Entry_moveTo_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filesystemapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if Entry.moveTo exists - Description: Check if Entry.moveTo exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Entry.moveTo exists - Description: Check if Entry.moveTo exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filesystemapi-w3c-tests/filesystemapi/Entry_moveTo_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0I-0W-Entry_name_exist" name="0W-Entry_name_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filesystemapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if Entry.name exists - Description: Check if Entry.name exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Entry.name exists - Description: Check if Entry.name exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filesystemapi-w3c-tests/filesystemapi/Entry_name_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0I-0X-Entry_name_readonly" name="0X-Entry_name_readonly" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filesystemapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the type of Entry.name attribute is readonly - Description: Check if the type of Entry.name attribute is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the type of Entry.name attribute is readonly - Description: Check if the type of Entry.name attribute is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filesystemapi-w3c-tests/filesystemapi/Entry_name_readonly.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0I-0Y-Entry_name_type" name="0Y-Entry_name_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filesystemapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the type of Entry.name attribute is DOMString - Description: Check if the type of Entry.name attribute is DOMString">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the type of Entry.name attribute is DOMString - Description: Check if the type of Entry.name attribute is DOMString]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filesystemapi-w3c-tests/filesystemapi/Entry_name_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0I-0Z-Entry_remove_exist" name="0Z-Entry_remove_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filesystemapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if Entry.remove exists - Description: Check if Entry.remove exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Entry.remove exists - Description: Check if Entry.remove exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filesystemapi-w3c-tests/filesystemapi/Entry_remove_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0I-10-Entry_toURL_exist" name="10-Entry_toURL_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filesystemapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if Entry.toURL exists - Description: Check if Entry.toURL exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if Entry.toURL exists - Description: Check if Entry.toURL exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filesystemapi-w3c-tests/filesystemapi/Entry_toURL_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0I-11-FileCallback_handleEvent_exist" name="11-FileCallback_handleEvent_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filesystemapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileCallback.handleEvent exists - Description: Check if FileCallback.handleEvent exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileCallback.handleEvent exists - Description: Check if FileCallback.handleEvent exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filesystemapi-w3c-tests/filesystemapi/FileCallback_handleEvent_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0I-12-FileEntry_createWriter_exist" name="12-FileEntry_createWriter_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filesystemapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileEntry.createWriter exists - Description: Check if FileEntry.createWriter exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileEntry.createWriter exists - Description: Check if FileEntry.createWriter exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filesystemapi-w3c-tests/filesystemapi/FileEntry_createWriter_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0I-13-FileEntry_file_exist" name="13-FileEntry_file_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filesystemapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileEntry.file exists - Description: Check if FileEntry.file exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileEntry.file exists - Description: Check if FileEntry.file exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filesystemapi-w3c-tests/filesystemapi/FileEntry_file_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0I-14-FileSystem_name_base" name="14-FileSystem_name_base" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filesystemapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileSystem.name is the name of the file system - Description: Check if FileSystem.name is the name of the file system">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileSystem.name is the name of the file system - Description: Check if FileSystem.name is the name of the file system]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filesystemapi-w3c-tests/filesystemapi/FileSystem_name_base.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0I-15-FileSystem_name_exist" name="15-FileSystem_name_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filesystemapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileSystem.name exists - Description: Check if FileSystem.name exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileSystem.name exists - Description: Check if FileSystem.name exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filesystemapi-w3c-tests/filesystemapi/FileSystem_name_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0I-16-FileSystem_name_readonly" name="16-FileSystem_name_readonly" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filesystemapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the FileSystem.name attribute is readonly - Description: Check if the FileSystem.name attribute is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the FileSystem.name attribute is readonly - Description: Check if the FileSystem.name attribute is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filesystemapi-w3c-tests/filesystemapi/FileSystem_name_readonly.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0I-17-FileSystem_name_type" name="17-FileSystem_name_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filesystemapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the type of FileSystem.name is string - Description: Check if the type of FileSystem.name is string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the type of FileSystem.name is string - Description: Check if the type of FileSystem.name is string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filesystemapi-w3c-tests/filesystemapi/FileSystem_name_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0I-18-FileSystem_root_base" name="18-FileSystem_root_base" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filesystemapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileSystem.root is the root directory of the file system - Description: Check if FileSystem.root is the root directory of the file system">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileSystem.root is the root directory of the file system - Description: Check if FileSystem.root is the root directory of the file system]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filesystemapi-w3c-tests/filesystemapi/FileSystem_root_base.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0I-19-FileSystem_root_readonly" name="19-FileSystem_root_readonly" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filesystemapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the FileSystem.root attribute is readonly - Description: Check if the FileSystem.root attribute is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the FileSystem.root attribute is readonly - Description: Check if the FileSystem.root attribute is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filesystemapi-w3c-tests/filesystemapi/FileSystem_root_readonly.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0I-1A-FileSystem_root_type" name="1A-FileSystem_root_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filesystemapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the type of FileSystem.root is DirectoryEntry - Description: Check if the type of FileSystem.root is DirectoryEntry">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the type of FileSystem.root is DirectoryEntry - Description: Check if the type of FileSystem.root is DirectoryEntry]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filesystemapi-w3c-tests/filesystemapi/FileSystem_root_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0I-1B-FileWriterCallback_handleEvent_exist" name="1B-FileWriterCallback_handleEvent_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filesystemapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if FileWriterCallback.handleEvent exists - Description: Check if FileWriterCallback.handleEvent exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FileWriterCallback.handleEvent exists - Description: Check if FileWriterCallback.handleEvent exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filesystemapi-w3c-tests/filesystemapi/FileWriterCallback_handleEvent_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0I-1C-MetadataCallback_handleEvent_exist" name="1C-MetadataCallback_handleEvent_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filesystemapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if MetadataCallback.handleEvent exists - Description: Check if MetadataCallback.handleEvent exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if MetadataCallback.handleEvent exists - Description: Check if MetadataCallback.handleEvent exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filesystemapi-w3c-tests/filesystemapi/MetadataCallback_handleEvent_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0I-1D-MetadataCallback_handleEvent_metadata_type" name="1D-MetadataCallback_handleEvent_metadata_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filesystemapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the type of the parameter metadata is Metadata in MetadataCallback interface - Description: Check if the type of the parameter metadata is Metadata in MetadataCallback interface">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the type of the parameter metadata is Metadata in MetadataCallback interface - Description: Check if the type of the parameter metadata is Metadata in MetadataCallback interface]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filesystemapi-w3c-tests/filesystemapi/MetadataCallback_handleEvent_metadata_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0I-1E-Metadata_modificationTime" name="1E-Metadata_modificationTime" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filesystemapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute modificationTime of Metadata exists and type of date - Description: Check if the readonly attribute modificationTime of Metadata exists and type of date">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute modificationTime of Metadata exists and type of date - Description: Check if the readonly attribute modificationTime of Metadata exists and type of date]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filesystemapi-w3c-tests/filesystemapi/Metadata_modificationTime.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0I-1F-Metadata_size" name="1F-Metadata_size" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filesystemapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the readonly attribute size of Metadata exists and type of number - Description: Check if the readonly attribute size of Metadata exists and type of number">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the readonly attribute size of Metadata exists and type of number - Description: Check if the readonly attribute size of Metadata exists and type of number]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filesystemapi-w3c-tests/filesystemapi/Metadata_size.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0I-1G-VoidCallback_handleEvent_exists" name="1G-VoidCallback_handleEvent_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filesystemapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if VoidCallback.handleEvent exists - Description: Check if VoidCallback.handleEvent exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if VoidCallback.handleEvent exists - Description: Check if VoidCallback.handleEvent exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filesystemapi-w3c-tests/filesystemapi/VoidCallback_handleEvent_exists.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0I-1H-window_LocalFileSystem_requestFileSystem_base" name="1H-window_LocalFileSystem_requestFileSystem_base" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filesystemapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the requestFileSystem can give access to an origin-private filesystem - Description: Check if the requestFileSystem can give access to an origin-private filesystem">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the requestFileSystem can give access to an origin-private filesystem - Description: Check if the requestFileSystem can give access to an origin-private filesystem]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filesystemapi-w3c-tests/filesystemapi/window_LocalFileSystem_requestFileSystem_base.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0I-1I-window_LocalFileSystem_requestFileSystem_exist" name="1I-window_LocalFileSystem_requestFileSystem_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-filesystemapi-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the requestFileSystem exists - Description: Check if the requestFileSystem exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the requestFileSystem exists - Description: Check if the requestFileSystem exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-filesystemapi-w3c-tests/filesystemapi/window_LocalFileSystem_requestFileSystem_exist.html</test_script_entry>
+                </description>
+            </testcase>
+        </set>
+    </suite>
+</test_definition>

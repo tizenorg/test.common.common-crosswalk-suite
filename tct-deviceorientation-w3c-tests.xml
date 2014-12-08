@@ -1,0 +1,331 @@
+<?xml version="1.0"?>
+<test_definition>
+    <suite launcher="xwalk" name="00-common/E0-crosswalk">
+        <set name="common/crosswalk/commonapi/tct-deviceorientation-w3c-tests">
+            <testcase id="00-E0-00-0E-01-DeviceAcceleration_x_entry" name="01-DeviceAcceleration_x_entry" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-deviceorientation-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the DeviceAccelerationt.x attribute exists - Description: Check if the DeviceAccelerationt.x attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the DeviceAccelerationt.x attribute exists - Description: Check if the DeviceAccelerationt.x attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceAcceleration_attributes_test.html?total_num=6&amp;locator_key=id&amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0E-02-DeviceAcceleration_x_type" name="02-DeviceAcceleration_x_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-deviceorientation-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if DeviceAcceleration.x is type of double - Description: Check if DeviceAcceleration.x is type of double">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DeviceAcceleration.x is type of double - Description: Check if DeviceAcceleration.x is type of double]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceAcceleration_attributes_test.html?total_num=6&amp;locator_key=id&amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0E-03-DeviceAcceleration_y_entry" name="03-DeviceAcceleration_y_entry" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-deviceorientation-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the DeviceAccelerationt.y attribute exists - Description: Check if the DeviceAccelerationt.y attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the DeviceAccelerationt.y attribute exists - Description: Check if the DeviceAccelerationt.y attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceAcceleration_attributes_test.html?total_num=6&amp;locator_key=id&amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0E-04-DeviceAcceleration_y_type" name="04-DeviceAcceleration_y_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-deviceorientation-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if DeviceAcceleration.y is type of double - Description: Check if DeviceAcceleration.y is type of double">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DeviceAcceleration.y is type of double - Description: Check if DeviceAcceleration.y is type of double]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceAcceleration_attributes_test.html?total_num=6&amp;locator_key=id&amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0E-05-DeviceAcceleration_z_entry" name="05-DeviceAcceleration_z_entry" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-deviceorientation-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the DeviceAccelerationt.z attribute exists - Description: Check if the DeviceAccelerationt.z attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the DeviceAccelerationt.z attribute exists - Description: Check if the DeviceAccelerationt.z attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceAcceleration_attributes_test.html?total_num=6&amp;locator_key=id&amp;value=5</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0E-06-DeviceAcceleration_z_type" name="06-DeviceAcceleration_z_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-deviceorientation-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if DeviceAcceleration.z is type of double - Description: Check if DeviceAcceleration.z is type of double">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DeviceAcceleration.z is type of double - Description: Check if DeviceAcceleration.z is type of double]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceAcceleration_attributes_test.html?total_num=6&amp;locator_key=id&amp;value=6</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0E-07-DeviceMotionEvent_acceleration_entry" name="07-DeviceMotionEvent_acceleration_entry" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-deviceorientation-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the DeviceMotionEvent.acceleration method exists - Description: Check if the DeviceMotionEvent.acceleration method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the DeviceMotionEvent.acceleration method exists - Description: Check if the DeviceMotionEvent.acceleration method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceMotionEvent_attributes_test.html?total_num=7&amp;locator_key=id&amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0E-08-DeviceMotionEvent_acceleration_type" name="08-DeviceMotionEvent_acceleration_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-deviceorientation-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if DeviceMotionEvent.acceleration is type of DeviceAcceleration - Description: Check if DeviceMotionEvent.acceleration is type of DeviceAcceleration">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DeviceMotionEvent.acceleration is type of DeviceAcceleration - Description: Check if DeviceMotionEvent.acceleration is type of DeviceAcceleration]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceMotionEvent_attributes_test.html?total_num=7&amp;locator_key=id&amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0E-09-DeviceMotionEvent_accelerationincludinggravity_entry" name="09-DeviceMotionEvent_accelerationincludinggravity_entry" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-deviceorientation-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the DeviceMotionEvent.accelerationincludinggravity method exists - Description: Check if the DeviceMotionEvent.accelerationincludinggravity method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the DeviceMotionEvent.accelerationincludinggravity method exists - Description: Check if the DeviceMotionEvent.accelerationincludinggravity method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceMotionEvent_attributes_test.html?total_num=7&amp;locator_key=id&amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0E-0A-DeviceMotionEvent_accelerationIncludingGravity_type" name="0A-DeviceMotionEvent_accelerationIncludingGravity_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-deviceorientation-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if DeviceMotionEvent.accelerationIncludingGravity is type of DeviceAcceleration - Description: Check if DeviceMotionEvent.accelerationIncludingGravity is type of DeviceAcceleration">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DeviceMotionEvent.accelerationIncludingGravity is type of DeviceAcceleration - Description: Check if DeviceMotionEvent.accelerationIncludingGravity is type of DeviceAcceleration]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceMotionEvent_attributes_test.html?total_num=7&amp;locator_key=id&amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0E-0B-DeviceMotionEvent_interval_entry" name="0B-DeviceMotionEvent_interval_entry" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-deviceorientation-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the DeviceMotionEvent.interval attribute exists - Description: Check if the DeviceMotionEvent.interval attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the DeviceMotionEvent.interval attribute exists - Description: Check if the DeviceMotionEvent.interval attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceMotionEvent_attributes_test.html?total_num=7&amp;locator_key=id&amp;value=5</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0E-0C-DeviceMotionEvent_rotationrate_entry" name="0C-DeviceMotionEvent_rotationrate_entry" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-deviceorientation-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the DeviceMotionEvent.rotationRate attribute exists - Description: Check if the DeviceMotionEvent.rotationRate attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the DeviceMotionEvent.rotationRate attribute exists - Description: Check if the DeviceMotionEvent.rotationRate attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceMotionEvent_attributes_test.html?total_num=7&amp;locator_key=id&amp;value=6</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0E-0D-DeviceMotionEvent_rotationRate_type" name="0D-DeviceMotionEvent_rotationRate_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-deviceorientation-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if DeviceMotionEvent.rotationRate is type of DeviceRotationRate - Description: Check if DeviceMotionEvent.rotationRate is type of DeviceRotationRate">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DeviceMotionEvent.rotationRate is type of DeviceRotationRate - Description: Check if DeviceMotionEvent.rotationRate is type of DeviceRotationRate]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceMotionEvent_attributes_test.html?total_num=7&amp;locator_key=id&amp;value=7</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0E-0E-DeviceOrientationEvent_absolute_entry" name="0E-DeviceOrientationEvent_absolute_entry" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-deviceorientation-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the DeviceOrientationEvent.absolute attribute exists - Description: Check if the DeviceOrientationEvent.absolute attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the DeviceOrientationEvent.absolute attribute exists - Description: Check if the DeviceOrientationEvent.absolute attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceOrientationEvent_attributes_test.html?total_num=8&amp;locator_key=id&amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0E-0F-DeviceOrientationEvent_absolute_type" name="0F-DeviceOrientationEvent_absolute_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-deviceorientation-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if DeviceOrientationEvent.absolute is type of boolean - Description: Check if DeviceOrientationEvent.absolute is type of boolean">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DeviceOrientationEvent.absolute is type of boolean - Description: Check if DeviceOrientationEvent.absolute is type of boolean]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceOrientationEvent_attributes_test.html?total_num=8&amp;locator_key=id&amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0E-0G-DeviceOrientationEvent_alpha_entry" name="0G-DeviceOrientationEvent_alpha_entry" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-deviceorientation-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the DeviceOrientationEvent.alpha attribute exists - Description: Check if the DeviceOrientationEvent.alpha attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the DeviceOrientationEvent.alpha attribute exists - Description: Check if the DeviceOrientationEvent.alpha attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceOrientationEvent_attributes_test.html?total_num=8&amp;locator_key=id&amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0E-0H-DeviceOrientationEvent_alpha_type" name="0H-DeviceOrientationEvent_alpha_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-deviceorientation-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if DeviceOrientationEvent.alpha is type of double - Description: Check if DeviceOrientationEvent.alpha is type of double">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DeviceOrientationEvent.alpha is type of double - Description: Check if DeviceOrientationEvent.alpha is type of double]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceOrientationEvent_attributes_test.html?total_num=8&amp;locator_key=id&amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0E-0I-DeviceOrientationEvent_beta_entry" name="0I-DeviceOrientationEvent_beta_entry" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-deviceorientation-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the DeviceOrientationEvent.beta attribute exists - Description: Check if the DeviceOrientationEvent.beta attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the DeviceOrientationEvent.beta attribute exists - Description: Check if the DeviceOrientationEvent.beta attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceOrientationEvent_attributes_test.html?total_num=8&amp;locator_key=id&amp;value=5</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0E-0J-DeviceOrientationEvent_beta_type" name="0J-DeviceOrientationEvent_beta_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-deviceorientation-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if DeviceOrientationEvent.beta is type of double - Description: Check if DeviceOrientationEvent.beta is type of double">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DeviceOrientationEvent.beta is type of double - Description: Check if DeviceOrientationEvent.beta is type of double]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceOrientationEvent_attributes_test.html?total_num=8&amp;locator_key=id&amp;value=6</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0E-0K-DeviceOrientationEvent_gamma_entry" name="0K-DeviceOrientationEvent_gamma_entry" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-deviceorientation-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the DeviceOrientationEvent.gamma attribute exists - Description: Check if the DeviceOrientationEvent.gamma attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the DeviceOrientationEvent.gamma attribute exists - Description: Check if the DeviceOrientationEvent.gamma attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceOrientationEvent_attributes_test.html?total_num=8&amp;locator_key=id&amp;value=7</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0E-0L-DeviceOrientationEvent_gamma_type" name="0L-DeviceOrientationEvent_gamma_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-deviceorientation-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if DeviceOrientationEvent.gamma is type of double - Description: Check if DeviceOrientationEvent.gamma is type of double">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DeviceOrientationEvent.gamma is type of double - Description: Check if DeviceOrientationEvent.gamma is type of double]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceOrientationEvent_attributes_test.html?total_num=8&amp;locator_key=id&amp;value=8</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0E-0M-DeviceRotationRate_alpha_entry" name="0M-DeviceRotationRate_alpha_entry" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-deviceorientation-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the DeviceRotationRate.alpha attribute exists - Description: Check if the DeviceRotationRate.alpha attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the DeviceRotationRate.alpha attribute exists - Description: Check if the DeviceRotationRate.alpha attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceRotationRate_attributes_test.html?total_num=4&amp;locator_key=id&amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0E-0N-DeviceRotationRate_alpha_type" name="0N-DeviceRotationRate_alpha_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-deviceorientation-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if DeviceRotationRate.alpha is type of double - Description: Check if DeviceRotationRate.alpha is type of double">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DeviceRotationRate.alpha is type of double - Description: Check if DeviceRotationRate.alpha is type of double]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceRotationRate_attributes_test.html?total_num=4&amp;locator_key=id&amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0E-0O-DeviceRotationRate_beta_entry" name="0O-DeviceRotationRate_beta_entry" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-deviceorientation-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the DeviceRotationRate.beta attribute exists - Description: Check if the DeviceRotationRate.beta attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the DeviceRotationRate.beta attribute exists - Description: Check if the DeviceRotationRate.beta attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceRotationRate_attributes_test.html?total_num=4&amp;locator_key=id&amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0E-0P-DeviceRotationRate_gamma_entry" name="0P-DeviceRotationRate_gamma_entry" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-deviceorientation-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the DeviceRotationRate.gamma attribute exists - Description: Check if the DeviceRotationRate.gamma attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the DeviceRotationRate.gamma attribute exists - Description: Check if the DeviceRotationRate.gamma attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceRotationRate_attributes_test.html?total_num=4&amp;locator_key=id&amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0E-0Q-DeviceAcceleration_x_readonly" name="0Q-DeviceAcceleration_x_readonly" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-deviceorientation-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if DeviceAcceleration.x is readonly - Description: Check if DeviceAcceleration.x is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DeviceAcceleration.x is readonly - Description: Check if DeviceAcceleration.x is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceAcceleration_attributes_readonly.html?total_num=3&amp;locator_key=id&amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0E-0R-DeviceAcceleration_y_readonly" name="0R-DeviceAcceleration_y_readonly" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-deviceorientation-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if DeviceAcceleration.y is readonly - Description: Check if DeviceAcceleration.y is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DeviceAcceleration.y is readonly - Description: Check if DeviceAcceleration.y is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceAcceleration_attributes_readonly.html?total_num=3&amp;locator_key=id&amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0E-0S-DeviceAcceleration_z_readonly" name="0S-DeviceAcceleration_z_readonly" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-deviceorientation-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if DeviceAcceleration.z is readonly - Description: Check if DeviceAcceleration.z is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DeviceAcceleration.z is readonly - Description: Check if DeviceAcceleration.z is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceAcceleration_attributes_readonly.html?total_num=3&amp;locator_key=id&amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0E-0T-DeviceMotionEvent_accelerationIncludingGravity_readonly" name="0T-DeviceMotionEvent_accelerationIncludingGravity_readonly" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-deviceorientation-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if DeviceMotionEvent.accelerationIncludingGravity is readonly - Description: Check if DeviceMotionEvent.accelerationIncludingGravity is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DeviceMotionEvent.accelerationIncludingGravity is readonly - Description: Check if DeviceMotionEvent.accelerationIncludingGravity is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceMotionEvent_attributes_readonly.html?total_num=3&amp;locator_key=id&amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0E-0U-DeviceMotionEvent_acceleration_readonly" name="0U-DeviceMotionEvent_acceleration_readonly" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-deviceorientation-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if DeviceMotionEvent.acceleration is readonly - Description: Check if DeviceMotionEvent.acceleration is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DeviceMotionEvent.acceleration is readonly - Description: Check if DeviceMotionEvent.acceleration is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceMotionEvent_attributes_readonly.html?total_num=3&amp;locator_key=id&amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0E-0V-DeviceMotionEvent_rotationRate_readonly" name="0V-DeviceMotionEvent_rotationRate_readonly" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-deviceorientation-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if DeviceMotionEvent.rotationRate is readonly - Description: Check if DeviceMotionEvent.rotationRate is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DeviceMotionEvent.rotationRate is readonly - Description: Check if DeviceMotionEvent.rotationRate is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceMotionEvent_attributes_readonly.html?total_num=3&amp;locator_key=id&amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0E-0W-DeviceRotationRate_alpha_readonly" name="0W-DeviceRotationRate_alpha_readonly" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-deviceorientation-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if DeviceRotationRate.alpha is readonly - Description: Check if DeviceRotationRate.alpha is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DeviceRotationRate.alpha is readonly - Description: Check if DeviceRotationRate.alpha is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceRotationRate_attributes_basic.html?total_num=5&amp;locator_key=id&amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0E-0X-DeviceRotationRate_beta_type" name="0X-DeviceRotationRate_beta_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-deviceorientation-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if DeviceRotationRate.beta is type of double - Description: Check if DeviceRotationRate.beta is type of double">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DeviceRotationRate.beta is type of double - Description: Check if DeviceRotationRate.beta is type of double]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceRotationRate_attributes_basic.html?total_num=5&amp;locator_key=id&amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0E-0Y-DeviceRotationRate_beta_readonly" name="0Y-DeviceRotationRate_beta_readonly" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-deviceorientation-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if DeviceRotationRate.beta is readonly - Description: Check if DeviceRotationRate.beta is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DeviceRotationRate.beta is readonly - Description: Check if DeviceRotationRate.beta is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceRotationRate_attributes_basic.html?total_num=5&amp;locator_key=id&amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0E-0Z-DeviceRotationRate_gamma_type" name="0Z-DeviceRotationRate_gamma_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-deviceorientation-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if DeviceRotationRate.gamma is type of double - Description: Check if DeviceRotationRate.gamma is type of double">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DeviceRotationRate.gamma is type of double - Description: Check if DeviceRotationRate.gamma is type of double]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceRotationRate_attributes_basic.html?total_num=5&amp;locator_key=id&amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0E-10-DeviceRotationRate_gamma_readonly" name="10-DeviceRotationRate_gamma_readonly" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-deviceorientation-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if DeviceRotationRate.gamma is readonly - Description: Check if DeviceRotationRate.gamma is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if DeviceRotationRate.gamma is readonly - Description: Check if DeviceRotationRate.gamma is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceRotationRate_attributes_basic.html?total_num=5&amp;locator_key=id&amp;value=5</test_script_entry>
+                </description>
+            </testcase>
+        </set>
+    </suite>
+</test_definition>

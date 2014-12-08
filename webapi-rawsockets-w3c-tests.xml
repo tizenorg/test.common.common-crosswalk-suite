@@ -1,0 +1,835 @@
+<?xml version="1.0"?>
+<test_definition>
+    <suite launcher="xwalk" name="00-common/E0-crosswalk">
+        <set name="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests">
+            <testcase id="00-E0-00-2A-01-RawSockets_interface_basic_UDPSocket" name="01-RawSockets_interface_basic_UDPSocket" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: This test validates the UDPSocket exists - Description: This test validates the UDPSocket exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: This test validates the UDPSocket exists - Description: This test validates the UDPSocket exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/RawSockets_interface_basic.html?total_num=3&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-02-RawSockets_interface_basic_TCPSocket" name="02-RawSockets_interface_basic_TCPSocket" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: This test validates the TCPSocket exists - Description: This test validates the TCPSocket exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: This test validates the TCPSocket exists - Description: This test validates the TCPSocket exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/RawSockets_interface_basic.html?total_num=3&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-03-RawSockets_interface_basic_TCPServerSocket" name="03-RawSockets_interface_basic_TCPServerSocket" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: This test validates the TCPServerSocket exists - Description: This test validates the TCPServerSocket exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: This test validates the TCPServerSocket exists - Description: This test validates the TCPServerSocket exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/RawSockets_interface_basic.html?total_num=3&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-04-TCPServerSocket_localAddress_basic" name="04-TCPServerSocket_localAddress_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if readonly TCPServerSocket.localAddress exists and type of DOMString - Description: Check if readonly TCPServerSocket.localAddress exists and type of DOMString">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if readonly TCPServerSocket.localAddress exists and type of DOMString - Description: Check if readonly TCPServerSocket.localAddress exists and type of DOMString]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPServerSocket_interface_basic.html?total_num=8&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-05-TCPServerSocket_localPort_basic" name="05-TCPServerSocket_localPort_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if readonly TCPServerSocket.localPort exists and type of unsigned short - Description: Check if readonly TCPServerSocket.localPort exists and type of unsigned short">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if readonly TCPServerSocket.localPort exists and type of unsigned short - Description: Check if readonly TCPServerSocket.localPort exists and type of unsigned short]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPServerSocket_interface_basic.html?total_num=8&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-06-TCPServerSocket_readyState_basic" name="06-TCPServerSocket_readyState_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if readonly TCPServerSocket.readyState exists and type of enum - Description: Check if readonly TCPServerSocket.readyState exists and type of enum">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if readonly TCPServerSocket.readyState exists and type of enum - Description: Check if readonly TCPServerSocket.readyState exists and type of enum]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPServerSocket_interface_basic.html?total_num=8&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-07-TCPServerSocket_onconnect_basic" name="07-TCPServerSocket_onconnect_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if TCPServerSocket.onconnect exists and type of event - Description: Check if TCPServerSocket.onconnect exists and type of event">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if TCPServerSocket.onconnect exists and type of event - Description: Check if TCPServerSocket.onconnect exists and type of event]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPServerSocket_interface_basic.html?total_num=8&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-08-TCPServerSocket_onerror_basic" name="08-TCPServerSocket_onerror_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if TCPServerSocket.onerror exists and type of event - Description: Check if TCPServerSocket.onerror exists and type of event">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if TCPServerSocket.onerror exists and type of event - Description: Check if TCPServerSocket.onerror exists and type of event]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPServerSocket_interface_basic.html?total_num=8&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-09-TCPServerSocket_close_basic" name="09-TCPServerSocket_close_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if TCPServerSocket.close exists and type of function - Description: Check if TCPServerSocket.close exists and type of function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if TCPServerSocket.close exists and type of function - Description: Check if TCPServerSocket.close exists and type of function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPServerSocket_interface_basic.html?total_num=8&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-0A-TCPServerSocket_suspend_basic" name="0A-TCPServerSocket_suspend_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if TCPServerSocket.suspend exists and type of function - Description: Check if TCPServerSocket.suspend exists and type of function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if TCPServerSocket.suspend exists and type of function - Description: Check if TCPServerSocket.suspend exists and type of function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPServerSocket_interface_basic.html?total_num=8&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-0B-TCPServerSocket_resume_basic" name="0B-TCPServerSocket_resume_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if TCPServerSocket.resume exists and type of function - Description: Check if TCPServerSocket.resume exists and type of function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if TCPServerSocket.resume exists and type of function - Description: Check if TCPServerSocket.resume exists and type of function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPServerSocket_interface_basic.html?total_num=8&amp;amp;locator_key=id&amp;amp;value=8</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-0C-TCPSocket_remoteAddress_basic" name="0C-TCPSocket_remoteAddress_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if readonly TCPSocket.remoteAddress exists and type of DOMString - Description: Check if readonly TCPSocket.remoteAddress exists and type of DOMString">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if readonly TCPSocket.remoteAddress exists and type of DOMString - Description: Check if readonly TCPSocket.remoteAddress exists and type of DOMString]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPSocket_interface_basic.html?total_num=17&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-0D-TCPSocket_remotePort_basic" name="0D-TCPSocket_remotePort_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if readonly TCPSocket.remotePort exists and type of DOMString - Description: Check if readonly TCPSocket.remotePort exists and type of DOMString">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if readonly TCPSocket.remotePort exists and type of DOMString - Description: Check if readonly TCPSocket.remotePort exists and type of DOMString]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPSocket_interface_basic.html?total_num=17&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-0E-TCPSocket_localAddress_basic" name="0E-TCPSocket_localAddress_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if readonly TCPSocket.localAddress exists and type of DOMString - Description: Check if readonly TCPSocket.localAddress exists and type of DOMString">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if readonly TCPSocket.localAddress exists and type of DOMString - Description: Check if readonly TCPSocket.localAddress exists and type of DOMString]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPSocket_interface_basic.html?total_num=17&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-0F-TCPSocket_localPort_basic" name="0F-TCPSocket_localPort_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if readonly TCPSocket.localPort exists and type of unsigned short - Description: Check if readonly TCPSocket.localPort exists and type of unsigned short">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if readonly TCPSocket.localPort exists and type of unsigned short - Description: Check if readonly TCPSocket.localPort exists and type of unsigned short]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPSocket_interface_basic.html?total_num=17&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-0G-TCPSocket_bufferedAmount_basic" name="0G-TCPSocket_bufferedAmount_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if readonly TCPSocket.bufferedAmount exists and type of unsigned long - Description: Check if readonly TCPSocket.bufferedAmount exists and type of unsigned long">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if readonly TCPSocket.bufferedAmount exists and type of unsigned long - Description: Check if readonly TCPSocket.bufferedAmount exists and type of unsigned long]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPSocket_interface_basic.html?total_num=17&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-0H-TCPSocket_readyState_basic" name="0H-TCPSocket_readyState_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if readonly TCPSocket.readyState exists and type of enum - Description: Check if readonly TCPSocket.readyState exists and type of enum">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if readonly TCPSocket.readyState exists and type of enum - Description: Check if readonly TCPSocket.readyState exists and type of enum]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPSocket_interface_basic.html?total_num=17&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-0I-TCPSocket_ondrain_basic" name="0I-TCPSocket_ondrain_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if TCPSocket.ondrain exists and type of event - Description: Check if TCPSocket.ondrain exists and type of event">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if TCPSocket.ondrain exists and type of event - Description: Check if TCPSocket.ondrain exists and type of event]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPSocket_interface_basic.html?total_num=17&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-0J-TCPSocket_onopen_basic" name="0J-TCPSocket_onopen_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if TCPSocket.onopen exists and type of event - Description: Check if TCPSocket.onopen exists and type of event">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if TCPSocket.onopen exists and type of event - Description: Check if TCPSocket.onopen exists and type of event]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPSocket_interface_basic.html?total_num=17&amp;amp;locator_key=id&amp;amp;value=8</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-0K-TCPSocket_onclose_basic" name="0K-TCPSocket_onclose_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if TCPSocket.onclose exists and type of event - Description: Check if TCPSocket.onclose exists and type of event">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if TCPSocket.onclose exists and type of event - Description: Check if TCPSocket.onclose exists and type of event]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPSocket_interface_basic.html?total_num=17&amp;amp;locator_key=id&amp;amp;value=9</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-0L-TCPSocket_onhalfclose_basic" name="0L-TCPSocket_onhalfclose_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if TCPSocket.onhalfclose exists and type of event - Description: Check if TCPSocket.onhalfclose exists and type of event">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if TCPSocket.onhalfclose exists and type of event - Description: Check if TCPSocket.onhalfclose exists and type of event]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPSocket_interface_basic.html?total_num=17&amp;amp;locator_key=id&amp;amp;value=10</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-0M-TCPSocket_onerror_basic" name="0M-TCPSocket_onerror_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if TCPSocket.onerror exists and type of event - Description: Check if TCPSocket.onerror exists and type of event">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if TCPSocket.onerror exists and type of event - Description: Check if TCPSocket.onerror exists and type of event]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPSocket_interface_basic.html?total_num=17&amp;amp;locator_key=id&amp;amp;value=11</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-0N-TCPSocket_onmessage_basic" name="0N-TCPSocket_onmessage_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if TCPSocket.onmessage exists and type of event - Description: Check if TCPSocket.onmessage exists and type of event">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if TCPSocket.onmessage exists and type of event - Description: Check if TCPSocket.onmessage exists and type of event]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPSocket_interface_basic.html?total_num=17&amp;amp;locator_key=id&amp;amp;value=12</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-0O-TCPSocket_close_basic" name="0O-TCPSocket_close_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if TCPSocket.close exists and type of function - Description: Check if TCPSocket.close exists and type of function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if TCPSocket.close exists and type of function - Description: Check if TCPSocket.close exists and type of function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPSocket_interface_basic.html?total_num=17&amp;amp;locator_key=id&amp;amp;value=13</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-0P-TCPSocket_halfclose_basic" name="0P-TCPSocket_halfclose_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if TCPSocket.halfclose exists and type of function - Description: Check if TCPSocket.halfclose exists and type of function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if TCPSocket.halfclose exists and type of function - Description: Check if TCPSocket.halfclose exists and type of function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPSocket_interface_basic.html?total_num=17&amp;amp;locator_key=id&amp;amp;value=14</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-0Q-TCPSocket_suspend_basic" name="0Q-TCPSocket_suspend_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if TCPSocket.suspend exists and type of function - Description: Check if TCPSocket.suspend exists and type of function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if TCPSocket.suspend exists and type of function - Description: Check if TCPSocket.suspend exists and type of function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPSocket_interface_basic.html?total_num=17&amp;amp;locator_key=id&amp;amp;value=15</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-0R-TCPSocket_resume_basic" name="0R-TCPSocket_resume_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if TCPSocket.resume exists and type of function - Description: Check if TCPSocket.resume exists and type of function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if TCPSocket.resume exists and type of function - Description: Check if TCPSocket.resume exists and type of function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPSocket_interface_basic.html?total_num=17&amp;amp;locator_key=id&amp;amp;value=16</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-0S-TCPSocket_send_basic" name="0S-TCPSocket_send_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if TCPSocket.send exists and type of function - Description: Check if TCPSocket.send exists and type of function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if TCPSocket.send exists and type of function - Description: Check if TCPSocket.send exists and type of function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPSocket_interface_basic.html?total_num=17&amp;amp;locator_key=id&amp;amp;value=17</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-0T-UDPSocket_localAddress_basic" name="0T-UDPSocket_localAddress_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if readonly UDPSocket.localAddress exists and type of DOMString - Description: Check if readonly UDPSocket.localAddress exists and type of DOMString">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if readonly UDPSocket.localAddress exists and type of DOMString - Description: Check if readonly UDPSocket.localAddress exists and type of DOMString]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/UDPSocket_interface_basic.html?total_num=17&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-0U-UDPSocket_localPort_basic" name="0U-UDPSocket_localPort_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if readonly UDPSocket.localPort exists and type of unsigned short - Description: Check if readonly UDPSocket.localPort exists and type of unsigned short">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if readonly UDPSocket.localPort exists and type of unsigned short - Description: Check if readonly UDPSocket.localPort exists and type of unsigned short]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/UDPSocket_interface_basic.html?total_num=17&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-0V-UDPSocket_remoteAddress_basic" name="0V-UDPSocket_remoteAddress_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if readonly UDPSocket.remoteAddress exists and type of DOMString - Description: Check if readonly UDPSocket.remoteAddress exists and type of DOMString">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if readonly UDPSocket.remoteAddress exists and type of DOMString - Description: Check if readonly UDPSocket.remoteAddress exists and type of DOMString]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/UDPSocket_interface_basic.html?total_num=17&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-0W-UDPSocket_remotePort_basic" name="0W-UDPSocket_remotePort_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if readonly UDPSocket.remotePort exists and type of unsigned short - Description: Check if readonly UDPSocket.remotePort exists and type of unsigned short">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if readonly UDPSocket.remotePort exists and type of unsigned short - Description: Check if readonly UDPSocket.remotePort exists and type of unsigned short]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/UDPSocket_interface_basic.html?total_num=17&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-0X-UDPSocket_addressReuse_basic" name="0X-UDPSocket_addressReuse_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if readonly UDPSocket.addressReuse exists and type of boolean - Description: Check if readonly UDPSocket.addressReuse exists and type of boolean">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if readonly UDPSocket.addressReuse exists and type of boolean - Description: Check if readonly UDPSocket.addressReuse exists and type of boolean]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/UDPSocket_interface_basic.html?total_num=17&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-0Y-UDPSocket_loopback_basic" name="0Y-UDPSocket_loopback_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if readonly UDPSocket.loopback exists and type of boolean - Description: Check if readonly UDPSocket.loopback exists and type of boolean">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if readonly UDPSocket.loopback exists and type of boolean - Description: Check if readonly UDPSocket.loopback exists and type of boolean]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/UDPSocket_interface_basic.html?total_num=17&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-0Z-UDPSocket_bufferedAmount_basic" name="0Z-UDPSocket_bufferedAmount_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if readonly UDPSocket.bufferedAmount exists and type of unsigned long - Description: Check if readonly UDPSocket.bufferedAmount exists and type of unsigned long">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if readonly UDPSocket.bufferedAmount exists and type of unsigned long - Description: Check if readonly UDPSocket.bufferedAmount exists and type of unsigned long]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/UDPSocket_interface_basic.html?total_num=17&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-10-UDPSocket_readyState_basic" name="10-UDPSocket_readyState_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if readonly UDPSocket.readyState exists and type of enum - Description: Check if readonly UDPSocket.readyState exists and type of enum">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if readonly UDPSocket.readyState exists and type of enum - Description: Check if readonly UDPSocket.readyState exists and type of enum]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/UDPSocket_interface_basic.html?total_num=17&amp;amp;locator_key=id&amp;amp;value=8</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-11-UDPSocket_ondrain_basic" name="11-UDPSocket_ondrain_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if UDPSocket.ondrain exists and type of event - Description: Check if UDPSocket.ondrain exists and type of event">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if UDPSocket.ondrain exists and type of event - Description: Check if UDPSocket.ondrain exists and type of event]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/UDPSocket_interface_basic.html?total_num=17&amp;amp;locator_key=id&amp;amp;value=9</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-12-UDPSocket_onerror_basic" name="12-UDPSocket_onerror_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if UDPSocket.onerror exists and type of event - Description: Check if UDPSocket.onerror exists and type of event">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if UDPSocket.onerror exists and type of event - Description: Check if UDPSocket.onerror exists and type of event]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/UDPSocket_interface_basic.html?total_num=17&amp;amp;locator_key=id&amp;amp;value=10</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-13-UDPSocket_onmessage_basic" name="13-UDPSocket_onmessage_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if UDPSocket.onmessage exists and type of event - Description: Check if UDPSocket.onmessage exists and type of event">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if UDPSocket.onmessage exists and type of event - Description: Check if UDPSocket.onmessage exists and type of event]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/UDPSocket_interface_basic.html?total_num=17&amp;amp;locator_key=id&amp;amp;value=11</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-14-UDPSocket_close_basic" name="14-UDPSocket_close_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if UDPSocket.close exists and type of function - Description: Check if UDPSocket.close exists and type of function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if UDPSocket.close exists and type of function - Description: Check if UDPSocket.close exists and type of function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/UDPSocket_interface_basic.html?total_num=17&amp;amp;locator_key=id&amp;amp;value=12</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-15-UDPSocket_suspend_basic" name="15-UDPSocket_suspend_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if UDPSocket.suspend exists and type of function - Description: Check if UDPSocket.suspend exists and type of function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if UDPSocket.suspend exists and type of function - Description: Check if UDPSocket.suspend exists and type of function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/UDPSocket_interface_basic.html?total_num=17&amp;amp;locator_key=id&amp;amp;value=13</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-16-UDPSocket_resume_basic" name="16-UDPSocket_resume_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if UDPSocket.resume exists and type of function - Description: Check if UDPSocket.resume exists and type of function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if UDPSocket.resume exists and type of function - Description: Check if UDPSocket.resume exists and type of function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/UDPSocket_interface_basic.html?total_num=17&amp;amp;locator_key=id&amp;amp;value=14</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-17-UDPSocket_joinMulticastGroup_basic" name="17-UDPSocket_joinMulticastGroup_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if UDPSocket.joinMulticastGroup exists and type of function - Description: Check if UDPSocket.joinMulticastGroup exists and type of function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if UDPSocket.joinMulticastGroup exists and type of function - Description: Check if UDPSocket.joinMulticastGroup exists and type of function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/UDPSocket_interface_basic.html?total_num=17&amp;amp;locator_key=id&amp;amp;value=15</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-18-UDPSocket_leaveMulticastGroup_basic" name="18-UDPSocket_leaveMulticastGroup_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if UDPSocket.leaveMulticastGroup exists and type of function - Description: Check if UDPSocket.leaveMulticastGroup exists and type of function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if UDPSocket.leaveMulticastGroup exists and type of function - Description: Check if UDPSocket.leaveMulticastGroup exists and type of function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/UDPSocket_interface_basic.html?total_num=17&amp;amp;locator_key=id&amp;amp;value=16</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-19-UDPSocket_send_basic" name="19-UDPSocket_send_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if UDPSocket.send exists and type of function - Description: Check if UDPSocket.send exists and type of function">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if UDPSocket.send exists and type of function - Description: Check if UDPSocket.send exists and type of function]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/UDPSocket_interface_basic.html?total_num=17&amp;amp;locator_key=id&amp;amp;value=17</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-1A-TCPSocket_addressReuse_default" name="1A-TCPSocket_addressReuse_default" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the default value of TCPSocket.addressReuse is true - Description: Check if the default value of TCPSocket.addressReuse is true">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the default value of TCPSocket.addressReuse is true - Description: Check if the default value of TCPSocket.addressReuse is true]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPSocket_attribute.html?total_num=8&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-1B-TCPSocket_addressReuse_false" name="1B-TCPSocket_addressReuse_false" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the value of TCPSocket.addressReuse can be set by the options argument in the constructor - Description: Check if the value of TCPSocket.addressReuse can be set by the options argument in the constructor">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the value of TCPSocket.addressReuse can be set by the options argument in the constructor - Description: Check if the value of TCPSocket.addressReuse can be set by the options argument in the constructor]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPSocket_attribute.html?total_num=8&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-1C-TCPSocket_set_valid_localAddress" name="1C-TCPSocket_set_valid_localAddress" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if TCPSocket.localAddress can be set by the constructors options argument s valid localAddress member - Description: Check if TCPSocket.localAddress can be set by the constructors options argument s valid localAddress member">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if TCPSocket.localAddress can be set by the constructors options argument s valid localAddress member - Description: Check if TCPSocket.localAddress can be set by the constructors options argument s valid localAddress member]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPSocket_attribute.html?total_num=8&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-1D-TCPSocket_set_valid_localPort" name="1D-TCPSocket_set_valid_localPort" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if TCPSocket.localPort can be set by the constructors options arguments valid localPort member - Description: Check if TCPSocket.localPort can be set by the constructors options arguments valid localPort member">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if TCPSocket.localPort can be set by the constructors options arguments valid localPort member - Description: Check if TCPSocket.localPort can be set by the constructors options arguments valid localPort member]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPSocket_attribute.html?total_num=8&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-1E-TCPSocket_noDelay_default" name="1E-TCPSocket_noDelay_default" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the default value of TCPSocket.noDelay is true - Description: Check if the default value of TCPSocket.noDelay is true">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the default value of TCPSocket.noDelay is true - Description: Check if the default value of TCPSocket.noDelay is true]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPSocket_attribute.html?total_num=8&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-1F-TCPSocket_set_noDelay" name="1F-TCPSocket_set_noDelay" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if TCPSocket.noDelay can be set to false - Description: Check if TCPSocket.noDelay can be set to false">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if TCPSocket.noDelay can be set to false - Description: Check if TCPSocket.noDelay can be set to false]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPSocket_attribute.html?total_num=8&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-1G-TCPSocket_localAddress_exception" name="1G-TCPSocket_localAddress_exception" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if TCPSocket throw a DOM exception invoked with the constructors options arguments invalid localAddress member - Description: Check if TCPSocket throw a DOM exception invoked with the constructors options arguments invalid localAddress member">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if TCPSocket throw a DOM exception invoked with the constructors options arguments invalid localAddress member - Description: Check if TCPSocket throw a DOM exception invoked with the constructors options arguments invalid localAddress member]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPSocket_attribute.html?total_num=8&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-1H-TCPSocket_remoteAddress_exception" name="1H-TCPSocket_remoteAddress_exception" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if TCPSocket throw a DOM exception invoked with the constructors options arguments invalid remoteAddress member - Description: Check if TCPSocket throw a DOM exception invoked with the constructors options arguments invalid remoteAddress member">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if TCPSocket throw a DOM exception invoked with the constructors options arguments invalid remoteAddress member - Description: Check if TCPSocket throw a DOM exception invoked with the constructors options arguments invalid remoteAddress member]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPSocket_attribute.html?total_num=8&amp;amp;locator_key=id&amp;amp;value=8</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-1I-TCPSocket_onclose_with_close" name="1I-TCPSocket_onclose_with_close" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if set up the onclose event successful for TCPSocket using the type close - Description: Check if set up the onclose event successful for TCPSocket using the type close">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if set up the onclose event successful for TCPSocket using the type close - Description: Check if set up the onclose event successful for TCPSocket using the type close]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPSocket_event_close.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-1J-TCPSocket_onerror_with_error" name="1J-TCPSocket_onerror_with_error" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if set up the onerror event successful for TCPSocket using the type error - Description: Check if set up the onerror event successful for TCPSocket using the type error">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if set up the onerror event successful for TCPSocket using the type error - Description: Check if set up the onerror event successful for TCPSocket using the type error]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPSocket_event_error.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-1K-TCPSocket_onopen_with_open" name="1K-TCPSocket_onopen_with_open" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if set up the onopen event successful for TCPSocket using the type open - Description: Check if set up the onopen event successful for TCPSocket using the type open">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if set up the onopen event successful for TCPSocket using the type open - Description: Check if set up the onopen event successful for TCPSocket using the type open]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPSocket_event_open.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-1L-TCPSocket_onclose_event" name="1L-TCPSocket_onclose_event" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if onclose event can be fired when the connection to the server has been closed - Description: Check if onclose event can be fired when the connection to the server has been closed">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if onclose event can be fired when the connection to the server has been closed - Description: Check if onclose event can be fired when the connection to the server has been closed]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPSocket_event_onclose.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-1M-TCPSocket_localPort_absent" name="1M-TCPSocket_localPort_absent" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if bind the socket to an ephemeral local port decided by the system and set the localPort attribute to this port when localPort is absent - Description: Check if bind the socket to an ephemeral local port decided by the system and set the localPort attribute to this port when localPort is absent">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if bind the socket to an ephemeral local port decided by the system and set the localPort attribute to this port when localPort is absent - Description: Check if bind the socket to an ephemeral local port decided by the system and set the localPort attribute to this port when localPort is absent]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPSocket_localPort_absent.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-1N-TCPSocket_localAddress_absent" name="1N-TCPSocket_localAddress_absent" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if use the routing table to determine the local interface(s) that can be used to connect to the selected remoteAddress when localAddress is absent - Description: Check if use the routing table to determine the local interface(s) that can be used to connect to the selected remoteAddress when localAddress is absent">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if use the routing table to determine the local interface(s) that can be used to connect to the selected remoteAddress when localAddress is absent - Description: Check if use the routing table to determine the local interface(s) that can be used to connect to the selected remoteAddress when localAddress is absent]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPSocket_localAddress_absent.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-1O-TCPSocket_onerror_event" name="1O-TCPSocket_onerror_event" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if onerror event can be fired when there is an error - Description: Check if onerror event can be fired when there is an error">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if onerror event can be fired when there is an error - Description: Check if onerror event can be fired when there is an error]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPSocket_event_onerror.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-1P-TCPSocket_onopen_event" name="1P-TCPSocket_onopen_event" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if onopen event when the socket is open and the connection to the server has been established - Description: Check if onopen event when the socket is open and the connection to the server has been established">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if onopen event when the socket is open and the connection to the server has been established - Description: Check if onopen event when the socket is open and the connection to the server has been established]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPSocket_event_onopen.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-1Q-TCPSocket_readyState_opening" name="1Q-TCPSocket_readyState_opening" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the value of readyState is opening when the socket is in opening state - Description: Check if the value of readyState is opening when the socket is in opening state">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the value of readyState is opening when the socket is in opening state - Description: Check if the value of readyState is opening when the socket is in opening state]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPSocket_readystate_opening.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-1R-TCPSocket_readyState_open" name="1R-TCPSocket_readyState_open" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the value of readyState is open when the socket is in open state - Description: Check if the value of readyState is open when the socket is in open state">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the value of readyState is open when the socket is in open state - Description: Check if the value of readyState is open when the socket is in open state]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPSocket_readystate_open.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-1S-TCPSocket_readyState_closing" name="1S-TCPSocket_readyState_closing" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the value of readyState is closing when the socket is in closing state - Description: Check if the value of readyState is closing when the socket is in closing state">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the value of readyState is closing when the socket is in closing state - Description: Check if the value of readyState is closing when the socket is in closing state]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPSocket_readystate_closing.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-1T-TCPSocket_readyState_halfclosed" name="1T-TCPSocket_readyState_halfclosed" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the value of readyState is halfclosed when the socket is in halfclosed state - Description: Check if the value of readyState is halfclosed when the socket is in halfclosed state">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the value of readyState is halfclosed when the socket is in halfclosed state - Description: Check if the value of readyState is halfclosed when the socket is in halfclosed state]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPSocket_readystate_halfclosed.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-1U-TCPSocket_readyState_closed" name="1U-TCPSocket_readyState_closed" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the value of readyState is closed when the socket is in closed state - Description: Check if the value of readyState is closed when the socket is in closed state">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the value of readyState is closed when the socket is in closed state - Description: Check if the value of readyState is closed when the socket is in closed state]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPSocket_readystate_closed.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-1V-TCPSocket_suspend_method" name="1V-TCPSocket_suspend_method" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if pause reading incoming TCP data and invocations of the ondata handler until resume is called. - Description: Check if pause reading incoming TCP data and invocations of the ondata handler until resume is called.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if pause reading incoming TCP data and invocations of the ondata handler until resume is called. - Description: Check if pause reading incoming TCP data and invocations of the ondata handler until resume is called.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPSocket_method_suspend.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-1W-TCPSocket_close_method" name="1W-TCPSocket_close_method" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the value of readyState is closed after calling close method - Description: Check if the value of readyState is closed after calling close method">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the value of readyState is closed after calling close method - Description: Check if the value of readyState is closed after calling close method]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPSocket_method_close.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-1X-TCPSocket_halfclose_method" name="1X-TCPSocket_halfclose_method" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if can not send data but can receive data after calling halfclose method - Description: Check if can not send data but can receive data after calling halfclose method">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if can not send data but can receive data after calling halfclose method - Description: Check if can not send data but can receive data after calling halfclose method]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPSocket_method_halfclose.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-1Y-TCPSocket_resume_method" name="1Y-TCPSocket_resume_method" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if resume reading incoming TCP data and invoking ondata as usual after calling resume method - Description: Check if resume reading incoming TCP data and invoking ondata as usual after calling resume method">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if resume reading incoming TCP data and invoking ondata as usual after calling resume method - Description: Check if resume reading incoming TCP data and invoking ondata as usual after calling resume method]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPSocket_method_resume.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-1Z-TCPSocket_send_DOMString" name="1Z-TCPSocket_send_DOMString" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if can send DOMString using send method - Description: Check if can send DOMString using send method">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if can send DOMString using send method - Description: Check if can send DOMString using send method]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPSocket_method_send_DOMString.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-20-TCPSocket_send_Blob" name="20-TCPSocket_send_Blob" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if can send Blob object using send method - Description: Check if can send Blob object using send method">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if can send Blob object using send method - Description: Check if can send Blob object using send method]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPSocket_method_send_Blob.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-21-TCPSocket_send_ArrayBufferView" name="21-TCPSocket_send_ArrayBufferView" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if can send ArrayBufferView using send method - Description: Check if can send ArrayBufferView using send method">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if can send ArrayBufferView using send method - Description: Check if can send ArrayBufferView using send method]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPSocket_method_send_ArrayBufferView.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-22-TCPSocket_send_ArrayBuffer" name="22-TCPSocket_send_ArrayBuffer" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if can send ArrayBuffer using send method - Description: Check if can send ArrayBuffer using send method">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if can send ArrayBuffer using send method - Description: Check if can send ArrayBuffer using send method]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPSocket_method_send_ArrayBuffer.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-23-TCPSocket_bufferedAmount_zero" name="23-TCPSocket_bufferedAmount_zero" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the value of TCPSocket.bufferedAmount is zero without sending anything when connectted - Description: Check if the value of TCPSocket.bufferedAmount is zero without sending anything when connectted">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the value of TCPSocket.bufferedAmount is zero without sending anything when connectted - Description: Check if the value of TCPSocket.bufferedAmount is zero without sending anything when connectted]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPSocket_bufferedAmount_zero.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-24-TCPSocket_bufferedAmount_Blob" name="24-TCPSocket_bufferedAmount_Blob" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the value of TCPSocket.bufferedAmount is the number of bytes which have previously been buffered by calls to the send methods of this socket with Blob - Description: Check if the value of TCPSocket.bufferedAmount is the number of bytes which have previously been buffered by calls to the send methods of this socket with Blob">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the value of TCPSocket.bufferedAmount is the number of bytes which have previously been buffered by calls to the send methods of this socket with Blob - Description: Check if the value of TCPSocket.bufferedAmount is the number of bytes which have previously been buffered by calls to the send methods of this socket with Blob]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPSocket_bufferedAmount_Blob.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-25-TCPSocket_bufferedAmount_ArrayBufferView" name="25-TCPSocket_bufferedAmount_ArrayBufferView" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the value of TCPSocket.bufferedAmount is the number of bytes which have previously been buffered by calls to the send methods of this socket with ArrayBufferView - Description: Check if the value of TCPSocket.bufferedAmount is the number of bytes which have previously been buffered by calls to the send methods of this socket with ArrayBufferView">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the value of TCPSocket.bufferedAmount is the number of bytes which have previously been buffered by calls to the send methods of this socket with ArrayBufferView - Description: Check if the value of TCPSocket.bufferedAmount is the number of bytes which have previously been buffered by calls to the send methods of this socket with ArrayBufferView]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPSocket_bufferedAmount_ArrayBufferView.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-26-TCPSocket_bufferedAmount_ArrayBuffer" name="26-TCPSocket_bufferedAmount_ArrayBuffer" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the value of TCPSocket.bufferedAmount is the number of bytes which have previously been buffered by calls to the send methods of this socket with ArrayBuffer - Description: Check if the value of TCPSocket.bufferedAmount is the number of bytes which have previously been buffered by calls to the send methods of this socket with ArrayBuffer">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the value of TCPSocket.bufferedAmount is the number of bytes which have previously been buffered by calls to the send methods of this socket with ArrayBuffer - Description: Check if the value of TCPSocket.bufferedAmount is the number of bytes which have previously been buffered by calls to the send methods of this socket with ArrayBuffer]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPSocket_bufferedAmount_ArrayBuffer.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-27-TCPServerSocket_addressReuse_default" name="27-TCPServerSocket_addressReuse_default" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the default value of TCPServerSocket.addressReuse is true - Description: Check if the default value of TCPServerSocket.addressReuse is true">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the default value of TCPServerSocket.addressReuse is true - Description: Check if the default value of TCPServerSocket.addressReuse is true]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPServerSocket_attribute.html?total_num=4&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-28-TCPServerSocket_addressReuse_false" name="28-TCPServerSocket_addressReuse_false" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the value of TCPServerSocket.addressReuse can be set by the options argument in the constructor - Description: Check if the value of TCPServerSocket.addressReuse can be set by the options argument in the constructor">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the value of TCPServerSocket.addressReuse can be set by the options argument in the constructor - Description: Check if the value of TCPServerSocket.addressReuse can be set by the options argument in the constructor]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPServerSocket_attribute.html?total_num=4&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-29-TCPServerSocket_set_valid_localAddress" name="29-TCPServerSocket_set_valid_localAddress" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if TCPServerSocket.localAddress can be set by the constructors options arguments valid localAddress member - Description: Check if TCPServerSocket.localAddress can be set by the constructors options arguments valid localAddress member">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if TCPServerSocket.localAddress can be set by the constructors options arguments valid localAddress member - Description: Check if TCPServerSocket.localAddress can be set by the constructors options arguments valid localAddress member]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPServerSocket_attribute.html?total_num=4&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-2A-TCPServerSocket_set_valid_localPort" name="2A-TCPServerSocket_set_valid_localPort" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if TCPServerSocket.localPort can be set by the constructors options arguments valid localPort member - Description: Check if TCPServerSocket.localPort can be set by the constructors options arguments valid localPort member">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if TCPServerSocket.localPort can be set by the constructors options arguments valid localPort member - Description: Check if TCPServerSocket.localPort can be set by the constructors options arguments valid localPort member]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPServerSocket_attribute.html?total_num=4&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-2B-TCPServerSocket_onconnect_with_connect" name="2B-TCPServerSocket_onconnect_with_connect" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if set up the onconnect event successful for TCPServerSocket using the type connect - Description: Check if set up the onconnect event successful for TCPServerSocket using the type connect">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if set up the onconnect event successful for TCPServerSocket using the type connect - Description: Check if set up the onconnect event successful for TCPServerSocket using the type connect]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPServerSocket_event_connect.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-2C-TCPServerSocket_onopen_with_open" name="2C-TCPServerSocket_onopen_with_open" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if set up the onopen event successful for TCPServerSocket using the type open - Description: Check if set up the onopen event successful for TCPServerSocket using the type open">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if set up the onopen event successful for TCPServerSocket using the type open - Description: Check if set up the onopen event successful for TCPServerSocket using the type open]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPServerSocket_event_open.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-2D-TCPServerSocket_onconnect_event" name="2D-TCPServerSocket_onconnect_event" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if onconnect event can be fired when an incoming connection attempt on the specified port and address has been accepted - Description: Check if onconnect event can be fired when an incoming connection attempt on the specified port and address has been accepted">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if onconnect event can be fired when an incoming connection attempt on the specified port and address has been accepted - Description: Check if onconnect event can be fired when an incoming connection attempt on the specified port and address has been accepted]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPServerSocket_event_onconnect.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-2E-TCPServerSocket_onopen_event" name="2E-TCPServerSocket_onopen_event" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if onopen event can be fired when the socket is open and ready to receive connection attempts from clients - Description: Check if onopen event can be fired when the socket is open and ready to receive connection attempts from clients">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if onopen event can be fired when the socket is open and ready to receive connection attempts from clients - Description: Check if onopen event can be fired when the socket is open and ready to receive connection attempts from clients]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPServerSocket_event_onopen.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-2F-TCPServerSocket_readyState_open" name="2F-TCPServerSocket_readyState_open" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the value of readyState is open when the socket is in open state - Description: Check if the value of readyState is open when the socket is in open state">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the value of readyState is open when the socket is in open state - Description: Check if the value of readyState is open when the socket is in open state]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPServerSocket_readystate_open.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-2G-TCPServerSocket_readyState_opening" name="2G-TCPServerSocket_readyState_opening" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the value of readyState is opening when the socket is in opening state - Description: Check if the value of readyState is opening when the socket is in opening state">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the value of readyState is opening when the socket is in opening state - Description: Check if the value of readyState is opening when the socket is in opening state]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPServerSocket_readystate_opening.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-2H-TCPServerSocket_readyState_closed" name="2H-TCPServerSocket_readyState_closed" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the value of readyState is closed when the socket is in closed state - Description: Check if the value of readyState is closed when the socket is in closed state">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the value of readyState is closed when the socket is in closed state - Description: Check if the value of readyState is closed when the socket is in closed state]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPServerSocket_readystate_closed.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-2I-TCPServerSocket_close_method" name="2I-TCPServerSocket_close_method" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if close the TCP server socket after calling close method - Description: Check if close the TCP server socket after calling close method">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if close the TCP server socket after calling close method - Description: Check if close the TCP server socket after calling close method]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPServerSocket_method_close.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-2J-TCPServerSocket_suspend_method" name="2J-TCPServerSocket_suspend_method" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if pause listening for incoming connections and invocations after calling suspend method - Description: Check if pause listening for incoming connections and invocations after calling suspend method">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if pause listening for incoming connections and invocations after calling suspend method - Description: Check if pause listening for incoming connections and invocations after calling suspend method]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPServerSocket_method_suspend.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2A-2K-TCPServerSocket_resume_method" name="2K-TCPServerSocket_resume_method" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-rawsockets-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if resume listening for incoming connections and invocations after calling resume method - Description: Check if resume listening for incoming connections and invocations after calling resume method">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if resume listening for incoming connections and invocations after calling resume method - Description: Check if resume listening for incoming connections and invocations after calling resume method]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-rawsockets-w3c-tests/rawsockets/TCPServerSocket_method_resume.html</test_script_entry>
+                </description>
+            </testcase>
+        </set>
+    </suite>
+</test_definition>

@@ -1,0 +1,331 @@
+<?xml version="1.0"?>
+<test_definition>
+    <suite launcher="xwalk" name="00-common/E0-crosswalk">
+        <set name="common/crosswalk/commonapi/tct-appcache-html5-tests">
+            <testcase id="00-E0-00-04-01-appcache_abort_exist" name="01-appcache_abort_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-appcache-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the ApplicationCache.abort method exists - Description: Check if the ApplicationCache.abort method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the ApplicationCache.abort method exists - Description: Check if the ApplicationCache.abort method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-appcache-html5-tests/appcache/appcache_abort_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-04-02-appcache_CHECKING_exist" name="02-appcache_CHECKING_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-appcache-html5-tests" status="designed" type="compliance" purpose="Objective: Check if ApplicationCache.CHECKING exists - Description: Check if ApplicationCache.CHECKING exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ApplicationCache.CHECKING exists - Description: Check if ApplicationCache.CHECKING exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-appcache-html5-tests/appcache/appcache_CHECKING_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-04-03-appcache_DOWNLOADING_exist" name="03-appcache_DOWNLOADING_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-appcache-html5-tests" status="designed" type="compliance" purpose="Objective: Check if ApplicationCache.DOWNLOADING exists - Description: Check if ApplicationCache.DOWNLOADING exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ApplicationCache.DOWNLOADING exists - Description: Check if ApplicationCache.DOWNLOADING exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-appcache-html5-tests/appcache/appcache_DOWNLOADING_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-04-04-appcache_IDLE_exist" name="04-appcache_IDLE_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-appcache-html5-tests" status="designed" type="compliance" purpose="Objective: Check if ApplicationCache.IDLE exists - Description: Check if ApplicationCache.IDLE exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ApplicationCache.IDLE exists - Description: Check if ApplicationCache.IDLE exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-appcache-html5-tests/appcache/appcache_IDLE_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-04-05-appcache_OBSOLETE_exist" name="05-appcache_OBSOLETE_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-appcache-html5-tests" status="designed" type="compliance" purpose="Objective: Check if ApplicationCache.OBSOLETE exists - Description: Check if ApplicationCache.OBSOLETE exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ApplicationCache.OBSOLETE exists - Description: Check if ApplicationCache.OBSOLETE exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-appcache-html5-tests/appcache/appcache_OBSOLETE_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-04-06-appcache_oncached_exist" name="06-appcache_oncached_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-appcache-html5-tests" status="designed" type="compliance" purpose="Objective: Check if ApplicationCache.oncached method exists - Description: Check if ApplicationCache.oncached method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ApplicationCache.oncached method exists - Description: Check if ApplicationCache.oncached method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-appcache-html5-tests/appcache/appcache_oncached_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-04-07-appcache_onchecking_exist" name="07-appcache_onchecking_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-appcache-html5-tests" status="designed" type="compliance" purpose="Objective: Check if ApplicationCache.onchecking method exists - Description: Check if ApplicationCache.onchecking method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ApplicationCache.onchecking method exists - Description: Check if ApplicationCache.onchecking method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-appcache-html5-tests/appcache/appcache_onchecking_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-04-08-appcache_ondownloading_exist" name="08-appcache_ondownloading_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-appcache-html5-tests" status="designed" type="compliance" purpose="Objective: Check if ApplicationCache.ondownloading method exists - Description: Check if ApplicationCache.ondownloading method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ApplicationCache.ondownloading method exists - Description: Check if ApplicationCache.ondownloading method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-appcache-html5-tests/appcache/appcache_ondownloading_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-04-09-appcache_onerror_exist" name="09-appcache_onerror_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-appcache-html5-tests" status="designed" type="compliance" purpose="Objective: Check if ApplicationCache.onerror method exists - Description: Check if ApplicationCache.onerror method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ApplicationCache.onerror method exists - Description: Check if ApplicationCache.onerror method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-appcache-html5-tests/appcache/appcache_onerror_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-04-0A-appcache_onnoupdate_exist" name="0A-appcache_onnoupdate_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-appcache-html5-tests" status="designed" type="compliance" purpose="Objective: Check if ApplicationCache.onnoupdate method exists - Description: Check if ApplicationCache.onnoupdate method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ApplicationCache.onnoupdate method exists - Description: Check if ApplicationCache.onnoupdate method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-appcache-html5-tests/appcache/appcache_onnoupdate_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-04-0B-appcache_onobsolete_exist" name="0B-appcache_onobsolete_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-appcache-html5-tests" status="designed" type="compliance" purpose="Objective: Check if ApplicationCache.onobsolete method exists - Description: Check if ApplicationCache.onobsolete method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ApplicationCache.onobsolete method exists - Description: Check if ApplicationCache.onobsolete method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-appcache-html5-tests/appcache/appcache_onobsolete_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-04-0C-appcache_onprogress_exist" name="0C-appcache_onprogress_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-appcache-html5-tests" status="designed" type="compliance" purpose="Objective: Check if ApplicationCache.onprogress method exists - Description: Check if ApplicationCache.onprogress method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ApplicationCache.onprogress method exists - Description: Check if ApplicationCache.onprogress method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-appcache-html5-tests/appcache/appcache_onprogress_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-04-0D-appcache_onupdateready_exist" name="0D-appcache_onupdateready_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-appcache-html5-tests" status="designed" type="compliance" purpose="Objective: Check if ApplicationCache.onupdateready method exists - Description: Check if ApplicationCache.onupdateready method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ApplicationCache.onupdateready method exists - Description: Check if ApplicationCache.onupdateready method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-appcache-html5-tests/appcache/appcache_onupdateready_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-04-0E-appcache_status_exist" name="0E-appcache_status_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-appcache-html5-tests" status="designed" type="compliance" purpose="Objective: Check if ApplicationCache.status attribute exists - Description: Check if ApplicationCache.status attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ApplicationCache.status attribute exists - Description: Check if ApplicationCache.status attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-appcache-html5-tests/appcache/appcache_status_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-04-0F-appcache_swapCache_exist" name="0F-appcache_swapCache_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-appcache-html5-tests" status="designed" type="compliance" purpose="Objective: Check if ApplicationCache.swapCache method exists - Description: Check if ApplicationCache.swapCache method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ApplicationCache.swapCache method exists - Description: Check if ApplicationCache.swapCache method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-appcache-html5-tests/appcache/appcache_swapCache_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-04-0G-appcache_UNCACHED_exist" name="0G-appcache_UNCACHED_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-appcache-html5-tests" status="designed" type="compliance" purpose="Objective: Check if ApplicationCache.UNCACHED exists - Description: Check if ApplicationCache.UNCACHED exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ApplicationCache.UNCACHED exists - Description: Check if ApplicationCache.UNCACHED exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-appcache-html5-tests/appcache/appcache_UNCACHED_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-04-0H-appcache_UPDATEREADY_exist" name="0H-appcache_UPDATEREADY_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-appcache-html5-tests" status="designed" type="compliance" purpose="Objective: Check if ApplicationCache.UPDATEREADY exists - Description: Check if ApplicationCache.UPDATEREADY exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ApplicationCache.UPDATEREADY exists - Description: Check if ApplicationCache.UPDATEREADY exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-appcache-html5-tests/appcache/appcache_UPDATEREADY_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-04-0I-appcache_update_exist" name="0I-appcache_update_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-appcache-html5-tests" status="designed" type="compliance" purpose="Objective: Check if ApplicationCache.update method exists - Description: Check if ApplicationCache.update method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ApplicationCache.update method exists - Description: Check if ApplicationCache.update method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-appcache-html5-tests/appcache/appcache_update_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-04-0J-appcache_CHECKING_type" name="0J-appcache_CHECKING_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-appcache-html5-tests" status="designed" type="compliance" purpose="Objective: Check if appcache.CHECKING const is of type number - Description: Check if appcache.CHECKING const is of type number">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if appcache.CHECKING const is of type number - Description: Check if appcache.CHECKING const is of type number]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-appcache-html5-tests/appcache/appcache_CHECKING_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-04-0K-appcache_DOWNLOADING_type" name="0K-appcache_DOWNLOADING_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-appcache-html5-tests" status="designed" type="compliance" purpose="Objective: Check if appcache.DOWNLOADING const is of type number - Description: Check if appcache.DOWNLOADING const is of type number">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if appcache.DOWNLOADING const is of type number - Description: Check if appcache.DOWNLOADING const is of type number]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-appcache-html5-tests/appcache/appcache_DOWNLOADING_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-04-0L-appcache_IDLE_type" name="0L-appcache_IDLE_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-appcache-html5-tests" status="designed" type="compliance" purpose="Objective: Check if appcache.IDLE const is of type number - Description: Check if appcache.IDLE const is of type number">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if appcache.IDLE const is of type number - Description: Check if appcache.IDLE const is of type number]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-appcache-html5-tests/appcache/appcache_IDLE_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-04-0M-appcache_OBSOLETE_type" name="0M-appcache_OBSOLETE_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-appcache-html5-tests" status="designed" type="compliance" purpose="Objective: Check if appcache.OBSOLETE const is of type number - Description: Check if appcache.OBSOLETE const is of type number">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if appcache.OBSOLETE const is of type number - Description: Check if appcache.OBSOLETE const is of type number]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-appcache-html5-tests/appcache/appcache_OBSOLETE_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-04-0N-appcache_status_type" name="0N-appcache_status_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-appcache-html5-tests" status="designed" type="compliance" purpose="Objective: Check if ApplicationCache.status is of type number - Description: Check if ApplicationCache.status is of type number">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ApplicationCache.status is of type number - Description: Check if ApplicationCache.status is of type number]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-appcache-html5-tests/appcache/appcache_status_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-04-0O-appcache_UNCACHED_type" name="0O-appcache_UNCACHED_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-appcache-html5-tests" status="designed" type="compliance" purpose="Objective: Check if appcache.UNCACHED const is of type number - Description: Check if appcache.UNCACHED const is of type number">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if appcache.UNCACHED const is of type number - Description: Check if appcache.UNCACHED const is of type number]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-appcache-html5-tests/appcache/appcache_UNCACHED_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-04-0P-appcache_UPDATEREADY_type" name="0P-appcache_UPDATEREADY_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-appcache-html5-tests" status="designed" type="compliance" purpose="Objective: Check if appcache.UPDATEREADY const is of type number - Description: Check if appcache.UPDATEREADY const is of type number">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if appcache.UPDATEREADY const is of type number - Description: Check if appcache.UPDATEREADY const is of type number]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-appcache-html5-tests/appcache/appcache_UPDATEREADY_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-04-0Q-appcache_cache_in_window" name="0Q-appcache_cache_in_window" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-appcache-html5-tests" status="designed" type="compliance" purpose="Objective: Check if window.applicationCache returns the ApplicationCache object that applies to the active document of that Window - Description: Check if window.applicationCache returns the ApplicationCache object that applies to the active document of that Window">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if window.applicationCache returns the ApplicationCache object that applies to the active document of that Window - Description: Check if window.applicationCache returns the ApplicationCache object that applies to the active document of that Window]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-appcache-html5-tests/appcache/appcache_cache_in_window.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-04-0R-appcache_CHECKING_value" name="0R-appcache_CHECKING_value" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-appcache-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the value of constant appcache.CHECKING is 2 - Description: Check if the value of constant appcache.CHECKING is 2">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the value of constant appcache.CHECKING is 2 - Description: Check if the value of constant appcache.CHECKING is 2]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-appcache-html5-tests/appcache/appcache_CHECKING_value.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-04-0S-appcache_DOWNLOADING_value" name="0S-appcache_DOWNLOADING_value" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-appcache-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the value of constant appcache.DOWNLOADING is 3 - Description: Check if the value of constant appcache.DOWNLOADING is 3">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the value of constant appcache.DOWNLOADING is 3 - Description: Check if the value of constant appcache.DOWNLOADING is 3]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-appcache-html5-tests/appcache/appcache_DOWNLOADING_value.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-04-0T-appcache_IDLE_value" name="0T-appcache_IDLE_value" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-appcache-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the value of constant appcache.IDLE is 1 - Description: Check if the value of constant appcache.IDLE is 1">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the value of constant appcache.IDLE is 1 - Description: Check if the value of constant appcache.IDLE is 1]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-appcache-html5-tests/appcache/appcache_IDLE_value.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-04-0U-appcache_OBSOLETE_value" name="0U-appcache_OBSOLETE_value" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-appcache-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the value of constant appcache.OBSOLETE is 5 - Description: Check if the value of constant appcache.OBSOLETE is 5">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the value of constant appcache.OBSOLETE is 5 - Description: Check if the value of constant appcache.OBSOLETE is 5]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-appcache-html5-tests/appcache/appcache_OBSOLETE_value.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-04-0V-appcache_status_readonly" name="0V-appcache_status_readonly" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-appcache-html5-tests" status="designed" type="compliance" purpose="Objective: Check if appcache.status attribute is readonly - Description: Check if appcache.status attribute is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if appcache.status attribute is readonly - Description: Check if appcache.status attribute is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-appcache-html5-tests/appcache/appcache_status_readonly.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-04-0W-appcache_status_UNCACHED" name="0W-appcache_status_UNCACHED" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-appcache-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the value of appcache.status is applicationCache.UNCACHED - Description: Check if the value of appcache.status is applicationCache.UNCACHED">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the value of appcache.status is applicationCache.UNCACHED - Description: Check if the value of appcache.status is applicationCache.UNCACHED]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-appcache-html5-tests/appcache/appcache_status_UNCACHED.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-04-0X-appcache_swapCache_newcache_execption_InvalidStateError" name="0X-appcache_swapCache_newcache_execption_InvalidStateError" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-appcache-html5-tests" status="designed" type="compliance" purpose="Objective: Check if ApplicationCache.swapCache() throws InvalidStateError exception when there is no newer application cache - Description: Check if ApplicationCache.swapCache() throws InvalidStateError exception when there is no newer application cache">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ApplicationCache.swapCache() throws InvalidStateError exception when there is no newer application cache - Description: Check if ApplicationCache.swapCache() throws InvalidStateError exception when there is no newer application cache]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-appcache-html5-tests/appcache/appcache_swapCache_newcache_execption_InvalidStateError.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-04-0Y-appcache_UNCACHED_value" name="0Y-appcache_UNCACHED_value" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-appcache-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the value of constant appcache.UNCACHED is 0 - Description: Check if the value of constant appcache.UNCACHED is 0">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the value of constant appcache.UNCACHED is 0 - Description: Check if the value of constant appcache.UNCACHED is 0]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-appcache-html5-tests/appcache/appcache_UNCACHED_value.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-04-0Z-appcache_UPDATEREADY_value" name="0Z-appcache_UPDATEREADY_value" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-appcache-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the value of constant appcache.UPDATEREADY is 4 - Description: Check if the value of constant appcache.UPDATEREADY is 4">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the value of constant appcache.UPDATEREADY is 4 - Description: Check if the value of constant appcache.UPDATEREADY is 4]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-appcache-html5-tests/appcache/appcache_UPDATEREADY_value.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-04-10-appcache_update_nocache_execption_InvalidStateError" name="10-appcache_update_nocache_execption_InvalidStateError" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-appcache-html5-tests" status="designed" type="compliance" purpose="Objective: Check if ApplicationCache.update() method throws InvalidStateError exception when no application cache to update - Description: Check if ApplicationCache.update() method throws InvalidStateError exception when no application cache to update">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if ApplicationCache.update() method throws InvalidStateError exception when no application cache to update - Description: Check if ApplicationCache.update() method throws InvalidStateError exception when no application cache to update]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-appcache-html5-tests/appcache/appcache_update_nocache_execption_InvalidStateError.html</test_script_entry>
+                </description>
+            </testcase>
+        </set>
+    </suite>
+</test_definition>

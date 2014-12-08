@@ -1,0 +1,1330 @@
+<?xml version="1.0"?>
+<test_definition>
+    <suite launcher="xwalk" name="00-common/E0-crosswalk">
+        <set name="common/crosswalk/commonapi/tct-forms-html5-tests">
+            <testcase id="00-E0-00-0M-01-fieldset_checkValidity_method_check" name="01-fieldset_checkValidity_method_check" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the fieldset checkValidity API can return valid info normally - Description: Check if the fieldset checkValidity API can return valid info normally">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the fieldset checkValidity API can return valid info normally - Description: Check if the fieldset checkValidity API can return valid info normally]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/fieldset_checkValidity_method_check.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-02-fieldset_disabled_attribute_check" name="02-fieldset_disabled_attribute_check" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the fieldSet disabled attr can show fieldSet disabled info normally - Description: Check if the fieldSet disabled attr can show fieldSet disabled info normally">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the fieldSet disabled attr can show fieldSet disabled info normally - Description: Check if the fieldSet disabled attr can show fieldSet disabled info normally]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/fieldset_disabled_attribute_check.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-03-fieldset_elements_attribute_check" name="03-fieldset_elements_attribute_check" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the fieldSet elements object can show all fieldSet controllers normally - Description: Check if the fieldSet elements object can show all fieldSet controllers normally">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the fieldSet elements object can show all fieldSet controllers normally - Description: Check if the fieldSet elements object can show all fieldSet controllers normally]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/fieldset_elements_attribute_check.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-04-fieldset_form_attribute_check" name="04-fieldset_form_attribute_check" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the form attr can show fieldSet form elements info normally - Description: Check if the form attr can show fieldSet form elements info normally">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the form attr can show fieldSet form elements info normally - Description: Check if the form attr can show fieldSet form elements info normally]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/fieldset_form_attribute_check.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-05-fieldset_name_attribute_check" name="05-fieldset_name_attribute_check" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the name attr can show the FieldSet name info accurately - Description: Check if the name attr can show the FieldSet name info accurately">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the name attr can show the FieldSet name info accurately - Description: Check if the name attr can show the FieldSet name info accurately]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/fieldset_name_attribute_check.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-06-fieldset_setCustomValidity_method_check" name="06-fieldset_setCustomValidity_method_check" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the setCustomValidity API can set the validity of fieldSet accurately - Description: Check if the setCustomValidity API can set the validity of fieldSet accurately">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the setCustomValidity API can set the validity of fieldSet accurately - Description: Check if the setCustomValidity API can set the validity of fieldSet accurately]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/fieldset_setCustomValidity_method_check.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-07-fieldset_type_attribute_check" name="07-fieldset_type_attribute_check" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the type attr can show the fieldSet type accurately - Description: Check if the type attr can show the fieldSet type accurately">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the type attr can show the fieldSet type accurately - Description: Check if the type attr can show the fieldSet type accurately]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/fieldset_type_attribute_check.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-08-fieldset_validationMessage_attribute_check" name="08-fieldset_validationMessage_attribute_check" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the validationMessage attr can show validation message info accurately - Description: Check if the validationMessage attr can show validation message info accurately">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the validationMessage attr can show validation message info accurately - Description: Check if the validationMessage attr can show validation message info accurately]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/fieldset_validationMessage_attribute_check.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-09-fieldset_validity_attribute_check" name="09-fieldset_validity_attribute_check" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the fieldSet validity attr can show valid info normally - Description: Check if the fieldSet validity attr can show valid info normally">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the fieldSet validity attr can show valid info normally - Description: Check if the fieldSet validity attr can show valid info normally]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/fieldset_validity_attribute_check.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-0A-fieldset_willValidate_attribute_check" name="0A-fieldset_willValidate_attribute_check" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Chekc if the willValidate attr can show valid info normally - Description: Chekc if the willValidate attr can show valid info normally">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Chekc if the willValidate attr can show valid info normally - Description: Chekc if the willValidate attr can show valid info normally]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/fieldset_willValidate_attribute_check.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-0B-form_acceptCharset_attribute_check" name="0B-form_acceptCharset_attribute_check" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the form acceptCharset attr can show form info normally - Description: Check if the form acceptCharset attr can show form info normally">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the form acceptCharset attr can show form info normally - Description: Check if the form acceptCharset attr can show form info normally]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_acceptCharset_attribute_check.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-0C-form_action_attribute_check" name="0C-form_action_attribute_check" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the form action attr can show form info normally - Description: Check if the form action attr can show form info normally">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the form action attr can show form info normally - Description: Check if the form action attr can show form info normally]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_action_attribute_check.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-0D-form_autocomplete_attribute_check" name="0D-form_autocomplete_attribute_check" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the form autocomplete attr can show form info normally - Description: Check if the form autocomplete attr can show form info normally">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the form autocomplete attr can show form info normally - Description: Check if the form autocomplete attr can show form info normally]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_autocomplete_attribute_check.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-0E-form_checkValidity_method_check" name="0E-form_checkValidity_method_check" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the form checkValidity API can return valid info normally - Description: Check if the form checkValidity API can return valid info normally">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the form checkValidity API can return valid info normally - Description: Check if the form checkValidity API can return valid info normally]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_checkValidity_method_check.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-0F-form_elements_attribute_check" name="0F-form_elements_attribute_check" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the form elements can show form controllers normally - Description: Check if the form elements can show form controllers normally">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the form elements can show form controllers normally - Description: Check if the form elements can show form controllers normally]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_elements_attribute_check.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-0G-form_encoding_attribute_check" name="0G-form_encoding_attribute_check" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the form encoding attr can show form info normally - Description: Check if the form encoding attr can show form info normally">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the form encoding attr can show form info normally - Description: Check if the form encoding attr can show form info normally]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_encoding_attribute_check.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-0H-form_enctype_attribute_check" name="0H-form_enctype_attribute_check" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the form enctype attr can show form info normally. - Description: Check if the form enctype attr can show form info normally.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the form enctype attr can show form info normally. - Description: Check if the form enctype attr can show form info normally.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_enctype_attribute_check.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-0I-form_getter_index_check" name="0I-form_getter_index_check" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the getterIndex API can get the elements by index accurately - Description: Check if the getterIndex API can get the elements by index accurately">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the getterIndex API can get the elements by index accurately - Description: Check if the getterIndex API can get the elements by index accurately]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_getter_index_check.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-0J-form_getter_name_check" name="0J-form_getter_name_check" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the getterName can get the elements by name accurately - Description: Check if the getterName can get the elements by name accurately">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the getterName can get the elements by name accurately - Description: Check if the getterName can get the elements by name accurately]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_getter_name_check.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-0K-form_length_attribute_check" name="0K-form_length_attribute_check" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the form length attr can show the form controllers'length normally - Description: Check if the form length attr can show the form controllers'length normally">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the form length attr can show the form controllers'length normally - Description: Check if the form length attr can show the form controllers'length normally]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_length_attribute_check.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-0L-form_method_attribute_check" name="0L-form_method_attribute_check" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the form method attr can show form info normally - Description: Check if the form method attr can show form info normally">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the form method attr can show form info normally - Description: Check if the form method attr can show form info normally]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_method_attribute_check.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-0M-form_name_attribute_check" name="0M-form_name_attribute_check" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the form set the name attr can show form info normally - Description: Check if the form set the name attr can show form info normally">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the form set the name attr can show form info normally - Description: Check if the form set the name attr can show form info normally]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_name_attribute_check.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-0N-form_noValidate_attribute_check" name="0N-form_noValidate_attribute_check" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the form noValidate attr can show form info normally - Description: Check if the form noValidate attr can show form info normally">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the form noValidate attr can show form info normally - Description: Check if the form noValidate attr can show form info normally]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_noValidate_attribute_check.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-0O-form_reset_method_check" name="0O-form_reset_method_check" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the reset the API can reset the form contents normally - Description: Check if the reset the API can reset the form contents normally">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the reset the API can reset the form contents normally - Description: Check if the reset the API can reset the form contents normally]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_reset_method_check.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-0P-form_submit_method_check" name="0P-form_submit_method_check" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the form submit API can fire onsubmit event normally - Description: Check if the form submit API can fire onsubmit event normally">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the form submit API can fire onsubmit event normally - Description: Check if the form submit API can fire onsubmit event normally]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_submit_method_check.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-0Q-form_target_attribute_check" name="0Q-form_target_attribute_check" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the form target attr can show form info normally - Description: Check if the form target attr can show form info normally">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the form target attr can show form info normally - Description: Check if the form target attr can show form info normally]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_target_attribute_check.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-0R-label_control_attribute_check" name="0R-label_control_attribute_check" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the Label control can show label controllers normally - Description: Check if the Label control can show label controllers normally">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the Label control can show label controllers normally - Description: Check if the Label control can show label controllers normally]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/label_control_attribute_check.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-0S-label_form_attribute_check" name="0S-label_form_attribute_check" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the Label form attr can show Lable form elements info normallly - Description: Check if the Label form attr can show Lable form elements info normallly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the Label form attr can show Lable form elements info normallly - Description: Check if the Label form attr can show Lable form elements info normallly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/label_form_attribute_check.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-0T-label_htmlFor_attribute_check" name="0T-label_htmlFor_attribute_check" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the label htmlFor attr can affect the target elements - Description: Check if the label htmlFor attr can affect the target elements">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the label htmlFor attr can affect the target elements - Description: Check if the label htmlFor attr can affect the target elements]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/label_htmlFor_attribute_check.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-0U-legend_form_attribute_check" name="0U-legend_form_attribute_check" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the Legend form can show the form info normally - Description: Check if the Legend form can show the form info normally">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the Legend form can show the form info normally - Description: Check if the Legend form can show the form info normally]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/legend_form_attribute_check.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-0V-form_elements_interfaces_form" name="0V-form_elements_interfaces_form" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the form element exists - Description: Check if the form element exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the form element exists - Description: Check if the form element exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/w3c/form-elements-interfaces-01.html?total_num=3&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-0W-form_elements_interfaces_HTMLCollection" name="0W-form_elements_interfaces_HTMLCollection" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the HTMLCollection element implements the interface - Description: Check if the HTMLCollection element implements the interface">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the HTMLCollection element implements the interface - Description: Check if the HTMLCollection element implements the interface]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/w3c/form-elements-interfaces-01.html?total_num=3&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-0X-form_elements_matches_length" name="0X-form_elements_matches_length" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the length of form elements is 0 - Description: Check if the length of form elements is 0">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the length of form elements is 0 - Description: Check if the length of form elements is 0]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/w3c/form-elements-matches.html?total_num=2&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-0Y-form_elements_nameditem_return_RadioNodeList" name="0Y-form_elements_nameditem_return_RadioNodeList" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check form elements collection should return elements or RadioNodeLists - Description: Check form elements collection should return elements or RadioNodeLists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check form elements collection should return elements or RadioNodeLists - Description: Check form elements collection should return elements or RadioNodeLists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/w3c/form-elements-nameditem-01.html?total_num=3&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-0Z-form_elements_nameditem_fieldset" name="0Z-form_elements_nameditem_fieldset" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check form elements collection should include fieldsets - Description: Check form elements collection should include fieldsets">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check form elements collection should include fieldsets - Description: Check form elements collection should include fieldsets]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/w3c/form-elements-nameditem-01.html?total_num=3&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-10-form_elements_nameditem" name="10-form_elements_nameditem" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check form.elements should work correctly in the face of table syntax errors - Description: Check form.elements should work correctly in the face of table syntax errors">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check form.elements should work correctly in the face of table syntax errors - Description: Check form.elements should work correctly in the face of table syntax errors]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/w3c/form-elements-nameditem-02.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-11-fieldset_disabled_default_value" name="11-fieldset_disabled_default_value" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if fieldSet.disabled attribute return false it hasn't yet been set - Description: Check if fieldSet.disabled attribute return false it hasn't yet been set">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if fieldSet.disabled attribute return false it hasn't yet been set - Description: Check if fieldSet.disabled attribute return false it hasn't yet been set]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/fieldset_disabled_default_value.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-12-fieldset_disabled_value_empty_string" name="12-fieldset_disabled_value_empty_string" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if fieldset.disabled attribute return true it was set to empty string test - Description: Check if fieldset.disabled attribute return true it was set to empty string test">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if fieldset.disabled attribute return true it was set to empty string test - Description: Check if fieldset.disabled attribute return true it was set to empty string test]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/fieldset_disabled_value_empty_string.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-13-fieldset_elements_no_elements" name="13-fieldset_elements_no_elements" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if fieldset.elements length is 0 that FieldSet has no element - Description: Check if fieldset.elements length is 0 that FieldSet has no element">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if fieldset.elements length is 0 that FieldSet has no element - Description: Check if fieldset.elements length is 0 that FieldSet has no element]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/fieldset_elements_no_elements.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-14-fieldset_form_default_value" name="14-fieldset_form_default_value" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the fieldset.form attribute return null if there isn't form - Description: Check if the fieldset.form attribute return null if there isn't form">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the fieldset.form attribute return null if there isn't form - Description: Check if the fieldset.form attribute return null if there isn't form]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/fieldset_form_default_value.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-15-fieldset_form_return_HTMLFormElement" name="15-fieldset_form_return_HTMLFormElement" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the fieldset.form attribute return object HTMLFormElement - Description: Check if the fieldset.form attribute return object HTMLFormElement">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the fieldset.form attribute return object HTMLFormElement - Description: Check if the fieldset.form attribute return object HTMLFormElement]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/fieldset_form_return_HTMLFormElement.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-16-fieldset_name_default_value" name="16-fieldset_name_default_value" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the fieldset.name attribute return empty string it hasn't yet been set - Description: Check if the fieldset.name attribute return empty string it hasn't yet been set">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the fieldset.name attribute return empty string it hasn't yet been set - Description: Check if the fieldset.name attribute return empty string it hasn't yet been set]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/fieldset_name_default_value.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-17-fieldset_name_value_empty_string" name="17-fieldset_name_value_empty_string" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the fieldset.name attribute return empty string it was set to empty - Description: Check if the fieldset.name attribute return empty string it was set to empty">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the fieldset.name attribute return empty string it was set to empty - Description: Check if the fieldset.name attribute return empty string it was set to empty]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/fieldset_name_value_empty_string.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-18-fieldset_name_value_string" name="18-fieldset_name_value_string" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the fieldset.name attribute return string it was set to string - Description: Check if the fieldset.name attribute return string it was set to string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the fieldset.name attribute return string it was set to string - Description: Check if the fieldset.name attribute return string it was set to string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/fieldset_name_value_string.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-19-fieldset_setCustomValidity_input_argument_empty_string" name="19-fieldset_setCustomValidity_input_argument_empty_string" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if fieldset.setCustomValidity() method with empty string argument that validationMessage returns the value of the given message argument - Description: Check if fieldset.setCustomValidity() method with empty string argument that validationMessage returns the value of the given message argument">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if fieldset.setCustomValidity() method with empty string argument that validationMessage returns the value of the given message argument - Description: Check if fieldset.setCustomValidity() method with empty string argument that validationMessage returns the value of the given message argument]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/fieldset_setCustomValidity_input_argument_empty_string.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-1A-fieldset_type_default_value" name="1A-fieldset_type_default_value" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if fieldset.type attribute must return the string 'fieldset' - Description: Check if fieldset.type attribute must return the string 'fieldset'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if fieldset.type attribute must return the string 'fieldset' - Description: Check if fieldset.type attribute must return the string 'fieldset']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/fieldset_type_default_value.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-1B-fieldset_type_value_string" name="1B-fieldset_type_value_string" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if fieldset.type attribute return the string 'fieldset' when set string value to type - Description: Check if fieldset.type attribute return the string 'fieldset' when set string value to type">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if fieldset.type attribute return the string 'fieldset' when set string value to type - Description: Check if fieldset.type attribute return the string 'fieldset' when set string value to type]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/fieldset_type_value_string.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-1C-form_acceptCharset_attribute_type" name="1C-form_acceptCharset_attribute_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the form.acceptCharset attribute is of type string - Description: Check if the form.acceptCharset attribute is of type string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the form.acceptCharset attribute is of type string - Description: Check if the form.acceptCharset attribute is of type string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_acceptCharset_attribute_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-1D-form_acceptCharset_default_value" name="1D-form_acceptCharset_default_value" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the form.acceptCharset attribute return empty it hasn't yet been set - Description: Check if the form.acceptCharset attribute return empty it hasn't yet been set">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the form.acceptCharset attribute return empty it hasn't yet been set - Description: Check if the form.acceptCharset attribute return empty it hasn't yet been set]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_acceptCharset_default_value.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-1E-form_acceptCharset_value_empty_string" name="1E-form_acceptCharset_value_empty_string" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the form.acceptCharset attribute return empty string it was set to empty - Description: Check if the form.acceptCharset attribute return empty string it was set to empty">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the form.acceptCharset attribute return empty string it was set to empty - Description: Check if the form.acceptCharset attribute return empty string it was set to empty]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_acceptCharset_value_empty_string.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-1F-form_acceptCharset_value_string" name="1F-form_acceptCharset_value_string" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the form.acceptCharset attribute reflect the accept-charset content attribute - Description: Check if the form.acceptCharset attribute reflect the accept-charset content attribute">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the form.acceptCharset attribute reflect the accept-charset content attribute - Description: Check if the form.acceptCharset attribute reflect the accept-charset content attribute]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_acceptCharset_value_string.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-1G-form_action_attribute_missing" name="1G-form_action_attribute_missing" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if form.action attribute that on getting, when the content attribute is missing, it must be returned instead - Description: Check if form.action attribute that on getting, when the content attribute is missing, it must be returned instead">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if form.action attribute that on getting, when the content attribute is missing, it must be returned instead - Description: Check if form.action attribute that on getting, when the content attribute is missing, it must be returned instead]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_action_attribute_missing.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-1H-form_action_attribute_type" name="1H-form_action_attribute_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if form.action attribute is of type string - Description: Check if form.action attribute is of type string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if form.action attribute is of type string - Description: Check if form.action attribute is of type string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_action_attribute_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-1I-form_action_value_empty_string" name="1I-form_action_value_empty_string" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if form.action attribute that on getting, when the content attribute value is the empty string, it must be returned instead - Description: Check if form.action attribute that on getting, when the content attribute value is the empty string, it must be returned instead">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if form.action attribute that on getting, when the content attribute value is the empty string, it must be returned instead - Description: Check if form.action attribute that on getting, when the content attribute value is the empty string, it must be returned instead]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_action_value_empty_string.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-1J-form_action_value_string" name="1J-form_action_value_string" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if form.action attribute must reutn document's address that contains string null if it was set null - Description: Check if form.action attribute must reutn document's address that contains string null if it was set null">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if form.action attribute must reutn document's address that contains string null if it was set null - Description: Check if form.action attribute must reutn document's address that contains string null if it was set null]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_action_value_string.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-1K-form_autocomplete_value_off" name="1K-form_autocomplete_value_off" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if form.autocomplete that the off keyword maps to the off state - Description: Check if form.autocomplete that the off keyword maps to the off state">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if form.autocomplete that the off keyword maps to the off state - Description: Check if form.autocomplete that the off keyword maps to the off state]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_autocomplete_value_off.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-1L-form_autocomplete_value_on" name="1L-form_autocomplete_value_on" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if form.autocomplete that the on keyword maps to the on state - Description: Check if form.autocomplete that the on keyword maps to the on state">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if form.autocomplete that the on keyword maps to the on state - Description: Check if form.autocomplete that the on keyword maps to the on state]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_autocomplete_value_on.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-1M-form_checkValidity_customError_invalid" name="1M-form_checkValidity_customError_invalid" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if form checkValidity() method return false when the two passwords are not equal - Description: Check if form checkValidity() method return false when the two passwords are not equal">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if form checkValidity() method return false when the two passwords are not equal - Description: Check if form checkValidity() method return false when the two passwords are not equal]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_checkValidity_customError_invalid.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-1N-form_elements_attribute_type" name="1N-form_elements_attribute_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the form.elements is of type object - Description: Check if the form.elements is of type object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the form.elements is of type object - Description: Check if the form.elements is of type object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_elements_attribute_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-1O-form_elements_basic" name="1O-form_elements_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if form.elements length is 3 that form has 3 elements - Description: Check if form.elements length is 3 that form has 3 elements">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if form.elements length is 3 that form has 3 elements - Description: Check if form.elements length is 3 that form has 3 elements]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_elements_basic.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-1P-form_elements_no_elements" name="1P-form_elements_no_elements" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if form.elements length is 0 that form has no elements - Description: Check if form.elements length is 0 that form has no elements">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if form.elements length is 0 that form has no elements - Description: Check if form.elements length is 0 that form has no elements]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_elements_no_elements.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-1Q-form_encoding_attribute_type" name="1Q-form_encoding_attribute_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the form.encoding attribute is of type string - Description: Check if the form.encoding attribute is of type string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the form.encoding attribute is of type string - Description: Check if the form.encoding attribute is of type string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_encoding_attribute_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-1R-form_encoding_default_value" name="1R-form_encoding_default_value" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the form.encoding missing value default for the attribute is the application/x-www-form-urlencoded state - Description: Check if the form.encoding missing value default for the attribute is the application/x-www-form-urlencoded state">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the form.encoding missing value default for the attribute is the application/x-www-form-urlencoded state - Description: Check if the form.encoding missing value default for the attribute is the application/x-www-form-urlencoded state]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_encoding_default_value.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-1S-form_encoding_value_empty_string" name="1S-form_encoding_value_empty_string" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the form.encoding attribute is the application/x-www-form-urlencoded state if the enctype was set to empty string - Description: Check if the form.encoding attribute is the application/x-www-form-urlencoded state if the enctype was set to empty string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the form.encoding attribute is the application/x-www-form-urlencoded state if the enctype was set to empty string - Description: Check if the form.encoding attribute is the application/x-www-form-urlencoded state if the enctype was set to empty string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_encoding_value_empty_string.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-1T-form_encoding_value_multipart" name="1T-form_encoding_value_multipart" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the form.encoding attribute reflect the enctype content attribute - Description: Check if the form.encoding attribute reflect the enctype content attribute">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the form.encoding attribute reflect the enctype content attribute - Description: Check if the form.encoding attribute reflect the enctype content attribute]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_encoding_value_multipart.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-1U-form_enctype_default_value" name="1U-form_enctype_default_value" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the form.enctype return the conforming value associated with the state the attribute is in - Description: Check if the form.enctype return the conforming value associated with the state the attribute is in">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the form.enctype return the conforming value associated with the state the attribute is in - Description: Check if the form.enctype return the conforming value associated with the state the attribute is in]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_enctype_default_value.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-1V-form_enctype_value_empty_string" name="1V-form_enctype_value_empty_string" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the form.enctype missing value default for the attribute is the application/x-www-form-urlencoded state - Description: Check if the form.enctype missing value default for the attribute is the application/x-www-form-urlencoded state">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the form.enctype missing value default for the attribute is the application/x-www-form-urlencoded state - Description: Check if the form.enctype missing value default for the attribute is the application/x-www-form-urlencoded state]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_enctype_value_empty_string.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-1W-form_enctype_value_multipart" name="1W-form_enctype_value_multipart" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the form.enctype attribute reflect the enctype content attribute - Description: Check if the form.enctype attribute reflect the enctype content attribute">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the form.enctype attribute reflect the enctype content attribute - Description: Check if the form.enctype attribute reflect the enctype content attribute]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_enctype_value_multipart.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-1X-form_enctype_value_string" name="1X-form_enctype_value_string" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the form.enctype string value for the attribute is the application/x-www-form-urlencoded state - Description: Check if the form.enctype string value for the attribute is the application/x-www-form-urlencoded state">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the form.enctype string value for the attribute is the application/x-www-form-urlencoded state - Description: Check if the form.enctype string value for the attribute is the application/x-www-form-urlencoded state]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_enctype_value_string.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-1Y-form_enctype_value_text_plain" name="1Y-form_enctype_value_text_plain" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the form.enctype attribute must reflect the respective content attributes of the same name,the content is text/plain - Description: Check if the form.enctype attribute must reflect the respective content attributes of the same name,the content is text/plain">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the form.enctype attribute must reflect the respective content attributes of the same name,the content is text/plain - Description: Check if the form.enctype attribute must reflect the respective content attributes of the same name,the content is text/plain]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_enctype_value_text_plain.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-1Z-form_length_attribute_readonly" name="1Z-form_length_attribute_readonly" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the form.length attribute is readonly - Description: Check if the form.length attribute is readonly">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the form.length attribute is readonly - Description: Check if the form.length attribute is readonly]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_length_attribute_readonly.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-20-form_length_attribute_type" name="20-form_length_attribute_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the form.length is of type number - Description: Check if the form.length is of type number">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the form.length is of type number - Description: Check if the form.length is of type number]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_length_attribute_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-21-form_length_value_basic" name="21-form_length_value_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the form.length return 5 if it has 5 elements - Description: Check if the form.length return 5 if it has 5 elements">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the form.length return 5 if it has 5 elements - Description: Check if the form.length return 5 if it has 5 elements]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_length_value_basic.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-22-form_length_value_zero" name="22-form_length_value_zero" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the form.length return 0 if it has no elements - Description: Check if the form.length return 0 if it has no elements">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the form.length return 0 if it has no elements - Description: Check if the form.length return 0 if it has no elements]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_length_value_zero.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-23-form_method_default_value" name="23-form_method_default_value" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the form.method attribute return string get if is hasn't yet been set - Description: Check if the form.method attribute return string get if is hasn't yet been set">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the form.method attribute return string get if is hasn't yet been set - Description: Check if the form.method attribute return string get if is hasn't yet been set]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_method_default_value.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-24-form_method_empty_string" name="24-form_method_empty_string" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the form.method attribute return string get if is was set to empty string - Description: Check if the form.method attribute return string get if is was set to empty string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the form.method attribute return string get if is was set to empty string - Description: Check if the form.method attribute return string get if is was set to empty string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_method_empty_string.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-25-form_method_value_get" name="25-form_method_value_get" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the form.method attribute return string get if is was set to string get - Description: Check if the form.method attribute return string get if is was set to string get">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the form.method attribute return string get if is was set to string get - Description: Check if the form.method attribute return string get if is was set to string get]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_method_value_get.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-26-form_method_value_post" name="26-form_method_value_post" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the form.method attribute return string post if is was set to post - Description: Check if the form.method attribute return string post if is was set to post">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the form.method attribute return string post if is was set to post - Description: Check if the form.method attribute return string post if is was set to post]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_method_value_post.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-27-form_name_attribute_type" name="27-form_name_attribute_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the form.name attribute is of type string - Description: Check if the form.name attribute is of type string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the form.name attribute is of type string - Description: Check if the form.name attribute is of type string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_name_attribute_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-28-form_name_default_value" name="28-form_name_default_value" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the form.name attribute return empty string it hasn't yet been set - Description: Check if the form.name attribute return empty string it hasn't yet been set">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the form.name attribute return empty string it hasn't yet been set - Description: Check if the form.name attribute return empty string it hasn't yet been set]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_name_default_value.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-29-form_name_value_string" name="29-form_name_value_string" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the form.name attribute return string that the string was set - Description: Check if the form.name attribute return string that the string was set">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the form.name attribute return string that the string was set - Description: Check if the form.name attribute return string that the string was set]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_name_value_string.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-2A-form_noValidate_submit" name="2A-form_noValidate_submit" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the form element noValidate is true if the element is a submit button and the element's formnovalidate attribute is present - Description: Check if the form element noValidate is true if the element is a submit button and the element's formnovalidate attribute is present">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the form element noValidate is true if the element is a submit button and the element's formnovalidate attribute is present - Description: Check if the form element noValidate is true if the element is a submit button and the element's formnovalidate attribute is present]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_noValidate_submit.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-2B-form_noValidate_value_false" name="2B-form_noValidate_value_false" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the form noValidate is false if the attribute is not present - Description: Check if the form noValidate is false if the attribute is not present">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the form noValidate is false if the attribute is not present - Description: Check if the form noValidate is false if the attribute is not present]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_noValidate_value_false.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-2C-form_noValidate_value_true" name="2C-form_noValidate_value_true" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the form noValidate is true if the attribute is present - Description: Check if the form noValidate is true if the attribute is present">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the form noValidate is true if the attribute is present - Description: Check if the form noValidate is true if the attribute is present]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_noValidate_value_true.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-2D-form_submit_method_type" name="2D-form_submit_method_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the form.submit method is of type funtion - Description: Check if the form.submit method is of type funtion">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the form.submit method is of type funtion - Description: Check if the form.submit method is of type funtion]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_submit_method_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-2E-form_submit_onsubmit" name="2E-form_submit_onsubmit" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the form.submit() method that the onsubmit method be invoked - Description: Check if the form.submit() method that the onsubmit method be invoked">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the form.submit() method that the onsubmit method be invoked - Description: Check if the form.submit() method that the onsubmit method be invoked]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_submit_onsubmit.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-2F-form_target_default_value" name="2F-form_target_default_value" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the form.target attribute return the empty string if it hasn't been set - Description: Check if the form.target attribute return the empty string if it hasn't been set">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the form.target attribute return the empty string if it hasn't been set - Description: Check if the form.target attribute return the empty string if it hasn't been set]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_target_default_value.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-2G-form_target_value_blank" name="2G-form_target_value_blank" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the form.target attribute return the string blank if it was set to string blank - Description: Check if the form.target attribute return the string blank if it was set to string blank">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the form.target attribute return the string blank if it was set to string blank - Description: Check if the form.target attribute return the string blank if it was set to string blank]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_target_value_blank.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-2H-form_target_value_empty_string" name="2H-form_target_value_empty_string" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the form.target attribute return the empty string if it was set to empty string - Description: Check if the form.target attribute return the empty string if it was set to empty string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the form.target attribute return the empty string if it was set to empty string - Description: Check if the form.target attribute return the empty string if it was set to empty string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_target_value_empty_string.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-2I-form_target_value_iframe" name="2I-form_target_value_iframe" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the form.target attribute return the iframe's name if it was set to string of iframe's name - Description: Check if the form.target attribute return the iframe's name if it was set to string of iframe's name">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the form.target attribute return the iframe's name if it was set to string of iframe's name - Description: Check if the form.target attribute return the iframe's name if it was set to string of iframe's name]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_target_value_iframe.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-2J-form_target_value_parent" name="2J-form_target_value_parent" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the form.target attribute return the string parent if it was set to string parent - Description: Check if the form.target attribute return the string parent if it was set to string parent">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the form.target attribute return the string parent if it was set to string parent - Description: Check if the form.target attribute return the string parent if it was set to string parent]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_target_value_parent.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-2K-form_target_value_self" name="2K-form_target_value_self" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the form.target attribute return the string self if it was set to string self - Description: Check if the form.target attribute return the string self if it was set to string self">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the form.target attribute return the string self if it was set to string self - Description: Check if the form.target attribute return the string self if it was set to string self]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_target_value_self.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-2L-form_target_value_string" name="2L-form_target_value_string" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the form.target attribute return the content attribute of the same name - Description: Check if the form.target attribute return the content attribute of the same name">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the form.target attribute return the content attribute of the same name - Description: Check if the form.target attribute return the content attribute of the same name]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_target_value_string.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-2M-form_target_value_top" name="2M-form_target_value_top" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the form.target attribute return the string top if it was set to string top - Description: Check if the form.target attribute return the string top if it was set to string top">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the form.target attribute return the string top if it was set to string top - Description: Check if the form.target attribute return the string top if it was set to string top]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/form_target_value_top.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-2N-label_form_attribute_return_htmlformelement" name="2N-label_form_attribute_return_htmlformelement" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the label.form attribute return object HTMLFormElement - Description: Check if the label.form attribute return object HTMLFormElement">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the label.form attribute return object HTMLFormElement - Description: Check if the label.form attribute return object HTMLFormElement]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/label_form_attribute_return_htmlformelement.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-2O-label_form_attribute_type" name="2O-label_form_attribute_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the label.form attribute is of type object - Description: Check if the label.form attribute is of type object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the label.form attribute is of type object - Description: Check if the label.form attribute is of type object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/label_form_attribute_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-2P-label_htmlFor_attribute_type" name="2P-label_htmlFor_attribute_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the label.htmlFor atrribute is of type string - Description: Check if the label.htmlFor atrribute is of type string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the label.htmlFor atrribute is of type string - Description: Check if the label.htmlFor atrribute is of type string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/label_htmlFor_attribute_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-2Q-label_htmlFor_default_value" name="2Q-label_htmlFor_default_value" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the label.htmlFor atrribute return empty string if is hasn't yet been set - Description: Check if the label.htmlFor atrribute return empty string if is hasn't yet been set">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the label.htmlFor atrribute return empty string if is hasn't yet been set - Description: Check if the label.htmlFor atrribute return empty string if is hasn't yet been set]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/label_htmlFor_default_value.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-2R-label_htmlFor_value_empty_string" name="2R-label_htmlFor_value_empty_string" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the label.htmlFor atrribute return empty string if it was set empty string - Description: Check if the label.htmlFor atrribute return empty string if it was set empty string">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the label.htmlFor atrribute return empty string if it was set empty string - Description: Check if the label.htmlFor atrribute return empty string if it was set empty string]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/label_htmlFor_value_empty_string.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-2S-label_htmlFor_value_input" name="2S-label_htmlFor_value_input" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the label.htmlFor atrribute return input id if it was set the input id - Description: Check if the label.htmlFor atrribute return input id if it was set the input id">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the label.htmlFor atrribute return input id if it was set the input id - Description: Check if the label.htmlFor atrribute return input id if it was set the input id]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/label_htmlFor_value_input.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-2T-label_htmlFor_value_string" name="2T-label_htmlFor_value_string" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the label.htmlFor atrribute must reflect the for content attribute - Description: Check if the label.htmlFor atrribute must reflect the for content attribute">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the label.htmlFor atrribute must reflect the for content attribute - Description: Check if the label.htmlFor atrribute must reflect the for content attribute]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/label_htmlFor_value_string.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-2U-legend_form_attribute_type" name="2U-legend_form_attribute_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the legend.form attribute is of type object - Description: Check if the legend.form attribute is of type object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the legend.form attribute is of type object - Description: Check if the legend.form attribute is of type object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/legend_form_attribute_type.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-2V-legend_form_no_fieldset" name="2V-legend_form_no_fieldset" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the legend.form attribute return null if the legend has no fieldset element as its parent - Description: Check if the legend.form attribute return null if the legend has no fieldset element as its parent">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the legend.form attribute return null if the legend has no fieldset element as its parent - Description: Check if the legend.form attribute return null if the legend has no fieldset element as its parent]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/legend_form_no_fieldset.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-2W-legend_form_owner" name="2W-legend_form_owner" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the legend.form attribute return the form that id is 'testform' - Description: Check if the legend.form attribute return the form that id is 'testform'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the legend.form attribute return the form that id is 'testform' - Description: Check if the legend.form attribute return the form that id is 'testform']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/legend_form_owner.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-2X-legend_form_return_htmlformelement" name="2X-legend_form_return_htmlformelement" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the legend.form attribute return object HTMLFormElement - Description: Check if the legend.form attribute return object HTMLFormElement">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the legend.form attribute return object HTMLFormElement - Description: Check if the legend.form attribute return object HTMLFormElement]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/legend_form_return_htmlformelement.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-2Y-legend_form_value_null" name="2Y-legend_form_value_null" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the legend.form attribute return null if the legend has no form element as its parent - Description: Check if the legend.form attribute return null if the legend has no form element as its parent">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the legend.form attribute return null if the legend has no form element as its parent - Description: Check if the legend.form attribute return null if the legend has no form element as its parent]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/legend_form_value_null.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-2Z-label_control_button" name="2Z-label_control_button" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the label control attribute return button element that the button elements is a labelable form-associated element - Description: Check if the label control attribute return button element that the button elements is a labelable form-associated element">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the label control attribute return button element that the button elements is a labelable form-associated element - Description: Check if the label control attribute return button element that the button elements is a labelable form-associated element]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/w3c/the-label-element/labelable-elements.html?total_num=13&amp;locator_key=id&amp;value=5</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-30-label_control_hidden" name="30-label_control_hidden" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the label control attribute return null that the hidden elements is not a labelable form-associated element - Description: Check if the label control attribute return null that the hidden elements is not a labelable form-associated element">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the label control attribute return null that the hidden elements is not a labelable form-associated element - Description: Check if the label control attribute return null that the hidden elements is not a labelable form-associated element]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/w3c/the-label-element/labelable-elements.html?total_num=13&amp;locator_key=id&amp;value=6</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-31-label_control_input" name="31-label_control_input" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the label control attribute return input element that the input elements whose type attribute is not in the Hidden state is a labelable form-associated element - Description: Check if the label control attribute return input element that the input elements whose type attribute is not in the Hidden state is a labelable form-associated element">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the label control attribute return input element that the input elements whose type attribute is not in the Hidden state is a labelable form-associated element - Description: Check if the label control attribute return input element that the input elements whose type attribute is not in the Hidden state is a labelable form-associated element]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/w3c/the-label-element/labelable-elements.html?total_num=13&amp;locator_key=id&amp;value=7</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-32-label_control_keygen" name="32-label_control_keygen" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the label control attribute return keygen element that the keygen elements is a labelable form-associated element - Description: Check if the label control attribute return keygen element that the keygen elements is a labelable form-associated element">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the label control attribute return keygen element that the keygen elements is a labelable form-associated element - Description: Check if the label control attribute return keygen element that the keygen elements is a labelable form-associated element]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/w3c/the-label-element/labelable-elements.html?total_num=13&amp;locator_key=id&amp;value=8</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-33-label_control_meter" name="33-label_control_meter" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the label control attribute return meter element that the meter elements is a labelable form-associated element - Description: Check if the label control attribute return meter element that the meter elements is a labelable form-associated element">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the label control attribute return meter element that the meter elements is a labelable form-associated element - Description: Check if the label control attribute return meter element that the meter elements is a labelable form-associated element]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/w3c/the-label-element/labelable-elements.html?total_num=13&amp;locator_key=id&amp;value=9</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-34-label_control_no_for" name="34-label_control_no_for" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the label control attribute is the first descendant in tree order is the label element's labeled control if the for attribute is not specified - Description: Check if the label control attribute is the first descendant in tree order is the label element's labeled control if the for attribute is not specified">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the label control attribute is the first descendant in tree order is the label element's labeled control if the for attribute is not specified - Description: Check if the label control attribute is the first descendant in tree order is the label element's labeled control if the for attribute is not specified]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/w3c/the-label-element/label-attributes.html?total_num=11&amp;locator_key=id&amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-35-label_control_output" name="35-label_control_output" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the label control attribute return output element that the output elements is a labelable form-associated element - Description: Check if the label control attribute return output element that the output elements is a labelable form-associated element">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the label control attribute return output element that the output elements is a labelable form-associated element - Description: Check if the label control attribute return output element that the output elements is a labelable form-associated element]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/w3c/the-label-element/labelable-elements.html?total_num=13&amp;locator_key=id&amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-36-label_control_progress" name="36-label_control_progress" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the label control attribute return progress element that the progress elements is a labelable form-associated element - Description: Check if the label control attribute return progress element that the progress elements is a labelable form-associated element">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the label control attribute return progress element that the progress elements is a labelable form-associated element - Description: Check if the label control attribute return progress element that the progress elements is a labelable form-associated element]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/w3c/the-label-element/labelable-elements.html?total_num=13&amp;locator_key=id&amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-37-label_control_select" name="37-label_control_select" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the label control attribute select button element that the select elements is a labelable form-associated element - Description: Check if the label control attribute select button element that the select elements is a labelable form-associated element">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the label control attribute select button element that the select elements is a labelable form-associated element - Description: Check if the label control attribute select button element that the select elements is a labelable form-associated element]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/w3c/the-label-element/labelable-elements.html?total_num=13&amp;locator_key=id&amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-38-label_control_textarea" name="38-label_control_textarea" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the label control attribute return textarea element that the textarea elements is a labelable form-associated element - Description: Check if the label control attribute return textarea element that the textarea elements is a labelable form-associated element">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the label control attribute return textarea element that the textarea elements is a labelable form-associated element - Description: Check if the label control attribute return textarea element that the textarea elements is a labelable form-associated element]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/w3c/the-label-element/labelable-elements.html?total_num=13&amp;locator_key=id&amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-39-label_form_owner" name="39-label_form_owner" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the label.form attribute return the element's form owner - Description: Check if the label.form attribute return the element's form owner">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the label.form attribute return the element's form owner - Description: Check if the label.form attribute return the element's form owner]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/w3c/the-label-element/label-attributes.html?total_num=13&amp;locator_key=id&amp;value=10</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-3A-label_form_value_null" name="3A-label_form_value_null" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the label.form attribute return null if there isn't form owner - Description: Check if the label.form attribute return null if there isn't form owner">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the label.form attribute return null if there isn't form owner - Description: Check if the label.form attribute return null if there isn't form owner]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/w3c/the-label-element/label-attributes.html?total_num=13&amp;locator_key=id&amp;value=11</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-3B-fieldset_elements_type" name="3B-fieldset_elements_type" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if FieldSet elements attribute is of type object - Description: Check if FieldSet elements attribute is of type object">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if FieldSet elements attribute is of type object - Description: Check if FieldSet elements attribute is of type object]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/w3c/the-fieldset-element/HTMLFieldSetElement.html?total_num=4&amp;locator_key=id&amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-3C-fieldset_form_owner" name="3C-fieldset_form_owner" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the fieldset.form attribute return the element's form owner - Description: Check if the fieldset.form attribute return the element's form owner">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the fieldset.form attribute return the element's form owner - Description: Check if the fieldset.form attribute return the element's form owner]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/w3c/the-fieldset-element/HTMLFieldSetElement.html?total_num=4&amp;locator_key=id&amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-3D-fieldset_elements_basic" name="3D-fieldset_elements_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if fieldset.elements length is 3 that FieldSet has 3 elements - Description: Check if fieldset.elements length is 3 that FieldSet has 3 elements">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if fieldset.elements length is 3 that FieldSet has 3 elements - Description: Check if fieldset.elements length is 3 that FieldSet has 3 elements]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/w3c/the-fieldset-element/HTMLFieldSetElement.html?total_num=4&amp;locator_key=id&amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-3E-form_reset_method_no_argument" name="3E-form_reset_method_no_argument" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the form.reset() method can be called success with out argument - Description: Check if the form.reset() method can be called success with out argument">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the form.reset() method can be called success with out argument - Description: Check if the form.reset() method can be called success with out argument]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/w3c/resetting-a-form/reset-form.html?total_num=3&amp;locator_key=id&amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-3F-form_reset_method" name="3F-form_reset_method" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the form.reset() method can be called success that input value be empty - Description: Check if the form.reset() method can be called success that input value be empty">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the form.reset() method can be called success that input value be empty - Description: Check if the form.reset() method can be called success that input value be empty]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/w3c/resetting-a-form/reset-form.html?total_num=3&amp;locator_key=id&amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-3G-fieldset_input_customError_value_false" name="3G-fieldset_input_customError_value_false" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if fieldset input.validity.customError attribute return false when the two passwords are not equal - Description: Check if fieldset input.validity.customError attribute return false when the two passwords are not equal">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if fieldset input.validity.customError attribute return false when the two passwords are not equal - Description: Check if fieldset input.validity.customError attribute return false when the two passwords are not equal]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/w3c/submission/constraints/form-validation-validity-customError.html?total_num=8&amp;locator_key=id&amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-3H-fieldset_input_customError_value_true" name="3H-fieldset_input_customError_value_true" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if fieldset input.validity.customError attribute return true when the two passwords are equal - Description: Check if fieldset input.validity.customError attribute return true when the two passwords are equal">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if fieldset input.validity.customError attribute return true when the two passwords are equal - Description: Check if fieldset input.validity.customError attribute return true when the two passwords are equal]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/w3c/submission/constraints/form-validation-validity-customError.html?total_num=8&amp;locator_key=id&amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-3I-fieldset_checkValidity_input_false" name="3I-fieldset_checkValidity_input_false" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if input.checkValidity() method return false if the element does not satisfy its constraints - Description: Check if input.checkValidity() method return false if the element does not satisfy its constraints">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if input.checkValidity() method return false if the element does not satisfy its constraints - Description: Check if input.checkValidity() method return false if the element does not satisfy its constraints]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/w3c/submission/constraints/form-validation-checkValidity.html?total_num=121&amp;locator_key=id&amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-3J-fieldset_checkValidity_input_true" name="3J-fieldset_checkValidity_input_true" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if input.checkValidity() method return true if the element does satisfy its constraints - Description: Check if input.checkValidity() method return true if the element does satisfy its constraints">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if input.checkValidity() method return true if the element does satisfy its constraints - Description: Check if input.checkValidity() method return true if the element does satisfy its constraints]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/w3c/submission/constraints/form-validation-checkValidity.html?total_num=121&amp;locator_key=id&amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-3K-fieldset_checkValidity_textarea_false" name="3K-fieldset_checkValidity_textarea_false" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if textarea.checkValidity() method return false if the element does not satisfy its constraints - Description: Check if textarea.checkValidity() method return false if the element does not satisfy its constraints">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if textarea.checkValidity() method return false if the element does not satisfy its constraints - Description: Check if textarea.checkValidity() method return false if the element does not satisfy its constraints]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/w3c/submission/constraints/form-validation-checkValidity.html?total_num=121&amp;locator_key=id&amp;value=119</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-3L-fieldset_checkValidity_textarea_true" name="3L-fieldset_checkValidity_textarea_true" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if textarea.checkValidity() method return true if the element does satisfy its constraints - Description: Check if textarea.checkValidity() method return true if the element does satisfy its constraints">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if textarea.checkValidity() method return true if the element does satisfy its constraints - Description: Check if textarea.checkValidity() method return true if the element does satisfy its constraints]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/w3c/submission/constraints/form-validation-checkValidity.html?total_num=121&amp;locator_key=id&amp;value=121</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-3M-form_checkValidity_patternMismatch_invalid" name="3M-form_checkValidity_patternMismatch_invalid" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if form checkValidity() method return false when a control has a value that doesn't satisfy the pattern attribute,pattern is letter - Description: Check if form checkValidity() method return false when a control has a value that doesn't satisfy the pattern attribute,pattern is letter">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if form checkValidity() method return false when a control has a value that doesn't satisfy the pattern attribute,pattern is letter - Description: Check if form checkValidity() method return false when a control has a value that doesn't satisfy the pattern attribute,pattern is letter]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/w3c/submission/constraints/form-validation-checkValidity.html?total_num=121&amp;locator_key=id&amp;value=6</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-3N-form_checkValidity_typeMismatch_email_invalid" name="3N-form_checkValidity_typeMismatch_email_invalid" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if form checkValidity() method return false when a email control has a value that is not email string for the form control value attribute - Description: Check if form checkValidity() method return false when a email control has a value that is not email string for the form control value attribute">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if form checkValidity() method return false when a email control has a value that is not email string for the form control value attribute - Description: Check if form checkValidity() method return false when a email control has a value that is not email string for the form control value attribute]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/w3c/submission/constraints/form-validation-checkValidity.html?total_num=121&amp;locator_key=id&amp;value=50</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-3O-form_checkValidity_typeMismatch_url_invalid" name="3O-form_checkValidity_typeMismatch_url_invalid" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if form checkValidity() method return false when a url control has a value that is not url string for the form control value attribute - Description: Check if form checkValidity() method return false when a url control has a value that is not url string for the form control value attribute">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if form checkValidity() method return false when a url control has a value that is not url string for the form control value attribute - Description: Check if form checkValidity() method return false when a url control has a value that is not url string for the form control value attribute]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/w3c/submission/constraints/form-validation-checkValidity.html?total_num=121&amp;locator_key=id&amp;value=40</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-3P-form_checkValidity_valueMissing_invalid" name="3P-form_checkValidity_valueMissing_invalid" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if form checkValidity() method return false when a control has no value but has a required attribute - Description: Check if form checkValidity() method return false when a control has no value but has a required attribute">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if form checkValidity() method return false when a control has no value but has a required attribute - Description: Check if form checkValidity() method return false when a control has no value but has a required attribute]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/w3c/submission/constraints/form-validation-checkValidity.html?total_num=121&amp;locator_key=id&amp;value=8</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-3Q-fieldset_input_email_typeMismatch_value_true" name="3Q-fieldset_input_email_typeMismatch_value_true" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if fieldset input.validity.typeMismatch attribute return false when a email control has a value that is email string for the form control value attribute - Description: Check if fieldset input.validity.typeMismatch attribute return false when a email control has a value that is email string for the form control value attribute">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if fieldset input.validity.typeMismatch attribute return false when a email control has a value that is email string for the form control value attribute - Description: Check if fieldset input.validity.typeMismatch attribute return false when a email control has a value that is email string for the form control value attribute]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/w3c/submission/constraints/form-validation-checkValidity.html?total_num=121&amp;locator_key=id&amp;value=49</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-3R-fieldset_input_patternMismatch_letter_value_true" name="3R-fieldset_input_patternMismatch_letter_value_true" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if fieldset input.validity.patternMismatch attribute return false when a control has a value that doesn't satisfy the pattern attribute,pattern is letter - Description: Check if fieldset input.validity.patternMismatch attribute return false when a control has a value that doesn't satisfy the pattern attribute,pattern is letter">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if fieldset input.validity.patternMismatch attribute return false when a control has a value that doesn't satisfy the pattern attribute,pattern is letter - Description: Check if fieldset input.validity.patternMismatch attribute return false when a control has a value that doesn't satisfy the pattern attribute,pattern is letter]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/w3c/submission/constraints/form-validation-checkValidity.html?total_num=121&amp;locator_key=id&amp;value=5</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-3S-fieldset_input_rangeOverflow_value_true" name="3S-fieldset_input_rangeOverflow_value_true" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if fieldset input.validity.rangeOverflow attribute return false when a control has a value that is low for the max attribute - Description: Check if fieldset input.validity.rangeOverflow attribute return false when a control has a value that is low for the max attribute">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if fieldset input.validity.rangeOverflow attribute return false when a control has a value that is low for the max attribute - Description: Check if fieldset input.validity.rangeOverflow attribute return false when a control has a value that is low for the max attribute]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/w3c/submission/constraints/form-validation-checkValidity.html?total_num=121&amp;locator_key=id&amp;value=94</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-3T-fieldset_input_tooLong_value_true" name="3T-fieldset_input_tooLong_value_true" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if fieldset input.validity.tooLong attribute return false when a control has a value that is too short for the form control maxlength attribute - Description: Check if fieldset input.validity.tooLong attribute return false when a control has a value that is too short for the form control maxlength attribute">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if fieldset input.validity.tooLong attribute return false when a control has a value that is too short for the form control maxlength attribute - Description: Check if fieldset input.validity.tooLong attribute return false when a control has a value that is too short for the form control maxlength attribute]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/w3c/submission/constraints/form-validation-checkValidity.html?total_num=121&amp;locator_key=id&amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-3U-fieldset_input_url_typeMismatch_value_true" name="3U-fieldset_input_url_typeMismatch_value_true" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if fieldset input.validity.typeMismatch attribute return false when a url control has a value that is url string for the form control value attribute - Description: Check if fieldset input.validity.typeMismatch attribute return false when a url control has a value that is url string for the form control value attribute">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if fieldset input.validity.typeMismatch attribute return false when a url control has a value that is url string for the form control value attribute - Description: Check if fieldset input.validity.typeMismatch attribute return false when a url control has a value that is url string for the form control value attribute]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/w3c/submission/constraints/form-validation-checkValidity.html?total_num=121&amp;locator_key=id&amp;value=49</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-3V-fieldset_input_valid_value_false" name="3V-fieldset_input_valid_value_false" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if fieldset input.validity.valid attribute return false when the element's value has validity problems - Description: Check if fieldset input.validity.valid attribute return false when the element's value has validity problems">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if fieldset input.validity.valid attribute return false when the element's value has validity problems - Description: Check if fieldset input.validity.valid attribute return false when the element's value has validity problems]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/w3c/submission/constraints/form-validation-validity-valid.html?total_num=46&amp;locator_key=id&amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-3W-fieldset_input_valueMissing_value_true" name="3W-fieldset_input_valueMissing_value_true" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if fieldset input.validity.valueMissing attribute return true when a control has string value and has a required attribute - Description: Check if fieldset input.validity.valueMissing attribute return true when a control has string value and has a required attribute">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if fieldset input.validity.valueMissing attribute return true when a control has string value and has a required attribute - Description: Check if fieldset input.validity.valueMissing attribute return true when a control has string value and has a required attribute]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/w3c/submission/constraints/form-validation-checkValidity.html?total_num=121&amp;locator_key=id&amp;value=7</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-3X-fieldset_willValidate_button" name="3X-fieldset_willValidate_button" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the fieldset.willValidate attribute must return true that button is a candidate for constraint validation - Description: Check if the fieldset.willValidate attribute must return true that button is a candidate for constraint validation">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the fieldset.willValidate attribute must return true that button is a candidate for constraint validation - Description: Check if the fieldset.willValidate attribute must return true that button is a candidate for constraint validation]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/w3c/submission/constraints/form-validation-willValidate.html?total_num=71&amp;locator_key=id&amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-3Y-fieldset_willValidate_input" name="3Y-fieldset_willValidate_input" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the fieldset.willValidate attribute must return false that input is a candidate for constraint validation - Description: Check if the fieldset.willValidate attribute must return false that input is a candidate for constraint validation">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the fieldset.willValidate attribute must return false that input is a candidate for constraint validation - Description: Check if the fieldset.willValidate attribute must return false that input is a candidate for constraint validation]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/w3c/submission/constraints/form-validation-willValidate.html?total_num=71&amp;locator_key=id&amp;value=10</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-3Z-fieldset_willValidate_keygen" name="3Z-fieldset_willValidate_keygen" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the fieldset.willValidate attribute must return false that keygen is a barring it from constraint validation - Description: Check if the fieldset.willValidate attribute must return false that keygen is a barring it from constraint validation">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the fieldset.willValidate attribute must return false that keygen is a barring it from constraint validation - Description: Check if the fieldset.willValidate attribute must return false that keygen is a barring it from constraint validation]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/w3c/submission/constraints/form-validation-willValidate.html?total_num=71&amp;locator_key=id&amp;value=9</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-40-fieldset_willValidate_object" name="40-fieldset_willValidate_object" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the fieldset.willValidate attribute must return false that button is barring it from constraint validation - Description: Check if the fieldset.willValidate attribute must return false that button is barring it from constraint validation">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the fieldset.willValidate attribute must return false that button is barring it from constraint validation - Description: Check if the fieldset.willValidate attribute must return false that button is barring it from constraint validation]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/w3c/submission/constraints/form-validation-willValidate.html?total_num=71&amp;locator_key=id&amp;value=8</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-41-fieldset_willValidate_select" name="41-fieldset_willValidate_select" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the fieldset.willValidate attribute must return true that select is a candidate for constraint validation - Description: Check if the fieldset.willValidate attribute must return true that select is a candidate for constraint validation">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the fieldset.willValidate attribute must return true that select is a candidate for constraint validation - Description: Check if the fieldset.willValidate attribute must return true that select is a candidate for constraint validation]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/w3c/submission/constraints/form-validation-willValidate.html?total_num=71&amp;locator_key=id&amp;value=66</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-42-fieldset_willValidate_textarea" name="42-fieldset_willValidate_textarea" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if the fieldset.willValidate attribute must return true that textarea is a candidate for constraint validation - Description: Check if the fieldset.willValidate attribute must return true that textarea is a candidate for constraint validation">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the fieldset.willValidate attribute must return true that textarea is a candidate for constraint validation - Description: Check if the fieldset.willValidate attribute must return true that textarea is a candidate for constraint validation]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/w3c/submission/constraints/form-validation-willValidate.html?total_num=71&amp;locator_key=id&amp;value=69</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0M-43-fieldset_validationMessage_customError" name="43-fieldset_validationMessage_customError" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-forms-html5-tests" status="designed" type="compliance" purpose="Objective: Check if fieldset.validationMessage attribute returns given of the message by setCustomValidity - Description: Check if fieldset.validationMessage attribute returns given of the message by setCustomValidity">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if fieldset.validationMessage attribute returns given of the message by setCustomValidity - Description: Check if fieldset.validationMessage attribute returns given of the message by setCustomValidity]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-forms-html5-tests/forms/w3c/submission/constraints/form-validation-validity-customError.html?total_num=8&amp;locator_key=id&amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+        </set>
+    </suite>
+</test_definition>

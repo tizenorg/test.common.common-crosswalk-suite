@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<test_definition>
+    <suite launcher="xwalk" name="00-common/E0-crosswalk">
+        <set name="common/crosswalk/commonapi/tct-screenorientation-w3c-tests">
+            <testcase id="00-E0-00-11-01-Screen_exists" name="01-Screen_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-screenorientation-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the window.screen exists - Description: Check if the window.screen exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the window.screen exists - Description: Check if the window.screen exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-screenorientation-w3c-tests/screenorientation/Screen_attributes_tests.html?total_num=10&amp;locator_key=id&amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-11-02-ScreenOrientation_lock_exists" name="02-ScreenOrientation_lock_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-screenorientation-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if screen.orientation.lock() exists - Description: Check if screen.orientation.lock() exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if screen.orientation.lock() exists - Description: Check if screen.orientation.lock() exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-screenorientation-w3c-tests/screenorientation/Screen_attributes_tests.html?total_num=10&amp;locator_key=id&amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-11-03-ScreenOrientation_onchange_exists" name="03-ScreenOrientation_onchange_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-screenorientation-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if screen.orientation.onchange event exists - Description: Check if screen.orientation.onchange event exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if screen.orientation.onchange event exists - Description: Check if screen.orientation.onchange event exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-screenorientation-w3c-tests/screenorientation/Screen_attributes_tests.html?total_num=10&amp;locator_key=id&amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-11-04-Screen_orientation_exists" name="04-Screen_orientation_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-screenorientation-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if screen.orientation attribute exists - Description: Check if screen.orientation attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if screen.orientation attribute exists - Description: Check if screen.orientation attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-screenorientation-w3c-tests/screenorientation/Screen_attributes_tests.html?total_num=10&amp;locator_key=id&amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-11-05-ScreenOrientation_type_exists" name="05-ScreenOrientation_type_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-screenorientation-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if screen.orientation.type attribute exists - Description: Check if screen.orientation.type attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if screen.orientation.type attribute exists - Description: Check if screen.orientation.type attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-screenorientation-w3c-tests/screenorientation/Screen_attributes_tests.html?total_num=10&amp;locator_key=id&amp;value=5</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-11-06-ScreenOrientation_type_returns" name="06-ScreenOrientation_type_returns" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-screenorientation-w3c-tests" status="designed" type="compliance" purpose="Objective: Check that screen.orientation.type returns a String - Description: Check that screen.orientation.type returns a String">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check that screen.orientation.type returns a String - Description: Check that screen.orientation.type returns a String]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-screenorientation-w3c-tests/screenorientation/Screen_attributes_tests.html?total_num=10&amp;locator_key=id&amp;value=6</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-11-07-ScreenOrientation_angle_exists" name="07-ScreenOrientation_angle_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-screenorientation-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if screen.orientation.angle attribute exists - Description: Check if screen.orientation.angle attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if screen.orientation.angle attribute exists - Description: Check if screen.orientation.angle attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-screenorientation-w3c-tests/screenorientation/Screen_attributes_tests.html?total_num=10&amp;locator_key=id&amp;value=7</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-11-08-ScreenOrientation_angle_returns" name="08-ScreenOrientation_angle_returns" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-screenorientation-w3c-tests" status="designed" type="compliance" purpose="Objective: Check that screen.orientation.angle returns a Number - Description: Check that screen.orientation.angle returns a Number">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check that screen.orientation.angle returns a Number - Description: Check that screen.orientation.angle returns a Number]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-screenorientation-w3c-tests/screenorientation/Screen_attributes_tests.html?total_num=10&amp;locator_key=id&amp;value=8</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-11-09-ScreenOrientation_type_in_currentorientation" name="09-ScreenOrientation_type_in_currentorientation" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-screenorientation-w3c-tests" status="designed" type="compliance" purpose="Objective: Check that screen.orientation.type must be in current orientation - Description: Check that screen.orientation.type must be in current orientation">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check that screen.orientation.type must be in current orientation - Description: Check that screen.orientation.type must be in current orientation]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-screenorientation-w3c-tests/screenorientation/Screen_attributes_tests.html?total_num=10&amp;locator_key=id&amp;value=9</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-11-0A-ScreenOrientation_unlock_exists" name="0A-ScreenOrientation_unlock_exists" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-screenorientation-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if screen.orientation.unlock() exists - Description: Check if screen.orientation.unlock() exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if screen.orientation.unlock() exists - Description: Check if screen.orientation.unlock() exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-screenorientation-w3c-tests/screenorientation/Screen_attributes_tests.html?total_num=10&amp;locator_key=id&amp;value=10</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-11-0B-ScreenOrientation_lock_orientation_invalid" name="0B-ScreenOrientation_lock_orientation_invalid" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-screenorientation-w3c-tests" status="designed" type="compliance" purpose="Objective: Test checks that screen.lockOrientation(invalid) invoke error callback - Description: Test checks that screen.lockOrientation(invalid) invoke error callback">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test checks that screen.lockOrientation(invalid) invoke error callback - Description: Test checks that screen.lockOrientation(invalid) invoke error callback]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-screenorientation-w3c-tests/screenorientation/ScreenOrientation_lock_orientation_invalid.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-11-0C-ScreenOrientation_lock_orientation_null" name="0C-ScreenOrientation_lock_orientation_null" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-screenorientation-w3c-tests" status="designed" type="compliance" purpose="Objective: Test checks that screen.lockOrientation(null) invoke error callback - Description: Test checks that screen.lockOrientation(null) invoke error callback">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test checks that screen.lockOrientation(null) invoke error callback - Description: Test checks that screen.lockOrientation(null) invoke error callback]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-screenorientation-w3c-tests/screenorientation/ScreenOrientation_lock_orientation_null.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-11-0D-ScreenOrientation_onchange_basic" name="0D-ScreenOrientation_onchange_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-screenorientation-w3c-tests" status="designed" type="compliance" purpose="Objective: Test checks that window.onorientationchange is invoked when orientation changes - Description: Test checks that window.onorientationchange is invoked when orientation changes">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Test checks that window.onorientationchange is invoked when orientation changes - Description: Test checks that window.onorientationchange is invoked when orientation changes]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-screenorientation-w3c-tests/screenorientation/ScreenOrientation_onchange_basic.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-11-0E-lockOrientation-basic" name="0E-lockOrientation-basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-screenorientation-w3c-tests" status="designed" type="compliance" purpose="Objective: Basic screen.lockOrientation() and screen.unlockOrientation() testing - Description: Basic screen.lockOrientation() and screen.unlockOrientation() testing">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Basic screen.lockOrientation() and screen.unlockOrientation() testing - Description: Basic screen.lockOrientation() and screen.unlockOrientation() testing]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-screenorientation-w3c-tests/screenorientation/blink/lockOrientation-basic.html</test_script_entry>
+                </description>
+            </testcase>
+        </set>
+    </suite>
+</test_definition>

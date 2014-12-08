@@ -1,0 +1,556 @@
+<?xml version="1.0"?>
+<test_definition>
+    <suite launcher="xwalk" name="00-common/E0-crosswalk">
+        <set name="common/crosswalk/commonapi/tct-colors-css3-tests">
+            <testcase id="00-E0-00-0B-01-CSS3Colors_color_0F0_2" name="01-CSS3Colors_color_0F0_2" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the color is set to 'color:#0F0' - Description: Check if the color is set to 'color:#0F0'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the color is set to 'color:#0F0' - Description: Check if the color is set to 'color:#0F0']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_0F0_2.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-02-CSS3Colors_color_0f0_1" name="02-CSS3Colors_color_0f0_1" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the color is set to 'color:#0f0' - Description: Check if the color is set to 'color:#0f0'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the color is set to 'color:#0f0' - Description: Check if the color is set to 'color:#0f0']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_0f0_1.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-03-CSS3Colors_color_00FF00" name="03-CSS3Colors_color_00FF00" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the color is set to 'color:#00FF00' - Description: Check if the color is set to 'color:#00FF00'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the color is set to 'color:#00FF00' - Description: Check if the color is set to 'color:#00FF00']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_00FF00.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-04-CSS3Colors_color_rgb_0_255_0" name="04-CSS3Colors_color_rgb_0_255_0" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the color is set to 'color:rgb(0,255,0)' - Description: Check if the color is set to 'color:rgb(0,255,0)'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the color is set to 'color:rgb(0,255,0)' - Description: Check if the color is set to 'color:rgb(0,255,0)']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_rgb_0_255_0.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-05-CSS3Colors_color_rgb_0pct_100pct_0pct" name="05-CSS3Colors_color_rgb_0pct_100pct_0pct" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the color is set to 'color:rgb(0%,100%,0%)' - Description: Check if the color is set to 'color:rgb(0%,100%,0%)'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the color is set to 'color:rgb(0%,100%,0%)' - Description: Check if the color is set to 'color:rgb(0%,100%,0%)']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_rgb_0pct_100pct_0pct.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-06-CSS3Colors_color_blue" name="06-CSS3Colors_color_blue" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the color is set to 'color:blue' - Description: Check if the color is set to 'color:blue'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the color is set to 'color:blue' - Description: Check if the color is set to 'color:blue']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_blue.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-07-CSS3Colors_color_00F_2" name="07-CSS3Colors_color_00F_2" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the color is set to 'color:#00F' - Description: Check if the color is set to 'color:#00F'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the color is set to 'color:#00F' - Description: Check if the color is set to 'color:#00F']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_00F_2.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-08-CSS3Colors_color_00f_1" name="08-CSS3Colors_color_00f_1" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the color is set to 'color:#00f' - Description: Check if the color is set to 'color:#00f'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the color is set to 'color:#00f' - Description: Check if the color is set to 'color:#00f']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_00f_1.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-09-CSS3Colors_color_0000FF" name="09-CSS3Colors_color_0000FF" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the color is set to 'color:#0000FF' - Description: Check if the color is set to 'color:#0000FF'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the color is set to 'color:#0000FF' - Description: Check if the color is set to 'color:#0000FF']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_0000FF.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-0A-CSS3Colors_color_rgb_0_0_255" name="0A-CSS3Colors_color_rgb_0_0_255" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the color is set to 'color:rgb(0,0,255)' - Description: Check if the color is set to 'color:rgb(0,0,255)'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the color is set to 'color:rgb(0,0,255)' - Description: Check if the color is set to 'color:rgb(0,0,255)']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_rgb_0_0_255.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-0B-CSS3Colors_color_rgb_0pct_0pct_100pct" name="0B-CSS3Colors_color_rgb_0pct_0pct_100pct" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the color is set to 'color:rgb(0%,0%,100%)' - Description: Check if the color is set to 'color:rgb(0%,0%,100%)'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the color is set to 'color:rgb(0%,0%,100%)' - Description: Check if the color is set to 'color:rgb(0%,0%,100%)']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_rgb_0pct_0pct_100pct.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-0C-CSS3Colors_color_00ffff_1" name="0C-CSS3Colors_color_00ffff_1" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the color is set to 'color:#00ffff' - Description: Check if the color is set to 'color:#00ffff'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the color is set to 'color:#00ffff' - Description: Check if the color is set to 'color:#00ffff']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_00ffff_1.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-0D-CSS3Colors_color_00FFFF_2" name="0D-CSS3Colors_color_00FFFF_2" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the color is set to 'color:#00FFFF' - Description: Check if the color is set to 'color:#00FFFF'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the color is set to 'color:#00FFFF' - Description: Check if the color is set to 'color:#00FFFF']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_00FFFF_2.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-0E-CSS3Colors_color_0ff_1" name="0E-CSS3Colors_color_0ff_1" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the color is set to 'color:#0ff' - Description: Check if the color is set to 'color:#0ff'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the color is set to 'color:#0ff' - Description: Check if the color is set to 'color:#0ff']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_0ff_1.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-0F-CSS3Colors_color_0FF_2" name="0F-CSS3Colors_color_0FF_2" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the color is set to 'color:#0FF' - Description: Check if the color is set to 'color:#0FF'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the color is set to 'color:#0FF' - Description: Check if the color is set to 'color:#0FF']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_0FF_2.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-0G-CSS3Colors_color_rgb_0_255_255" name="0G-CSS3Colors_color_rgb_0_255_255" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the color is set to 'color:rgb(0,255,255)' - Description: Check if the color is set to 'color:rgb(0,255,255)'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the color is set to 'color:rgb(0,255,255)' - Description: Check if the color is set to 'color:rgb(0,255,255)']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_rgb_0_255_255.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-0H-CSS3Colors_color_rgb_0pct_100pct_100pct" name="0H-CSS3Colors_color_rgb_0pct_100pct_100pct" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the color is set to 'color:rgb(0%,100%,100%)' - Description: Check if the color is set to 'color:rgb(0%,100%,100%)'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the color is set to 'color:rgb(0%,100%,100%)' - Description: Check if the color is set to 'color:rgb(0%,100%,100%)']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_rgb_0pct_100pct_100pct.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-0I-CSS3Colors_color_CCFF00_2" name="0I-CSS3Colors_color_CCFF00_2" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the color is set to 'color:#CCFF00' - Description: Check if the color is set to 'color:#CCFF00'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the color is set to 'color:#CCFF00' - Description: Check if the color is set to 'color:#CCFF00']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_CCFF00_2.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-0J-CSS3Colors_color_CF0_2" name="0J-CSS3Colors_color_CF0_2" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the color is set to 'color:#CF0' - Description: Check if the color is set to 'color:#CF0'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the color is set to 'color:#CF0' - Description: Check if the color is set to 'color:#CF0']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_CF0_2.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-0K-CSS3Colors_color_cf0_1" name="0K-CSS3Colors_color_cf0_1" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the color is set to 'color:#cf0' - Description: Check if the color is set to 'color:#cf0'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the color is set to 'color:#cf0' - Description: Check if the color is set to 'color:#cf0']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_cf0_1.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-0L-CSS3Colors_color_ccff00_1" name="0L-CSS3Colors_color_ccff00_1" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the color is set to 'color:#ccff00' - Description: Check if the color is set to 'color:#ccff00'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the color is set to 'color:#ccff00' - Description: Check if the color is set to 'color:#ccff00']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_ccff00_1.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-0M-CSS3Colors_color_rgb_204_255_0" name="0M-CSS3Colors_color_rgb_204_255_0" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the color is set to 'color:rgb(204,255,0)' - Description: Check if the color is set to 'color:rgb(204,255,0)'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the color is set to 'color:rgb(204,255,0)' - Description: Check if the color is set to 'color:rgb(204,255,0)']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_rgb_204_255_0.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-0N-CSS3Colors_color_rgb_80pct_100pct_0pct" name="0N-CSS3Colors_color_rgb_80pct_100pct_0pct" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the color is set to 'color:rgb(80%,100%,0%)' - Description: Check if the color is set to 'color:rgb(80%,100%,0%)'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the color is set to 'color:rgb(80%,100%,0%)' - Description: Check if the color is set to 'color:rgb(80%,100%,0%)']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_rgb_80pct_100pct_0pct.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-0O-CSS3Colors_color_CCCC33_2" name="0O-CSS3Colors_color_CCCC33_2" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the color is set to 'color:#CCCC33' - Description: Check if the color is set to 'color:#CCCC33'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the color is set to 'color:#CCCC33' - Description: Check if the color is set to 'color:#CCCC33']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_CCCC33_2.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-0P-CSS3Colors_color_cccc33_1" name="0P-CSS3Colors_color_cccc33_1" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the color is set to 'color:#cccc33' - Description: Check if the color is set to 'color:#cccc33'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the color is set to 'color:#cccc33' - Description: Check if the color is set to 'color:#cccc33']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_cccc33_1.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-0Q-CSS3Colors_color_c30_1" name="0Q-CSS3Colors_color_c30_1" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the color is set to 'color:#c30' - Description: Check if the color is set to 'color:#c30'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the color is set to 'color:#c30' - Description: Check if the color is set to 'color:#c30']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_c30_1.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-0R-CSS3Colors_color_C30_2" name="0R-CSS3Colors_color_C30_2" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the color is set to 'color:#C30' - Description: Check if the color is set to 'color:#C30'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the color is set to 'color:#C30' - Description: Check if the color is set to 'color:#C30']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_C30_2.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-0S-CSS3Colors_color_rgb_204_204_51" name="0S-CSS3Colors_color_rgb_204_204_51" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the color is set to 'color:rgb(204,204,51)' - Description: Check if the color is set to 'color:rgb(204,204,51)'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the color is set to 'color:rgb(204,204,51)' - Description: Check if the color is set to 'color:rgb(204,204,51)']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_rgb_204_204_51.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-0T-CSS3Colors_color_rgb_80pct_80pct_20pct" name="0T-CSS3Colors_color_rgb_80pct_80pct_20pct" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the color is set to 'color:rgb(80%,80%,20%)' - Description: Check if the color is set to 'color:rgb(80%,80%,20%)'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the color is set to 'color:rgb(80%,80%,20%)' - Description: Check if the color is set to 'color:rgb(80%,80%,20%)']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_rgb_80pct_80pct_20pct.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-0U-CSS3Colors_color_FF00CC_2" name="0U-CSS3Colors_color_FF00CC_2" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the color is set to 'color:#FF00CC' - Description: Check if the color is set to 'color:#FF00CC'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the color is set to 'color:#FF00CC' - Description: Check if the color is set to 'color:#FF00CC']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_FF00CC_2.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-0V-CSS3Colors_color_F0C_2" name="0V-CSS3Colors_color_F0C_2" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the color is set to 'color:#F0C' - Description: Check if the color is set to 'color:#F0C'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the color is set to 'color:#F0C' - Description: Check if the color is set to 'color:#F0C']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_F0C_2.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-0W-CSS3Colors_color_ff00cc_1" name="0W-CSS3Colors_color_ff00cc_1" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the color is set to 'color:#ff00cc' - Description: Check if the color is set to 'color:#ff00cc'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the color is set to 'color:#ff00cc' - Description: Check if the color is set to 'color:#ff00cc']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_ff00cc_1.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-0X-CSS3Colors_color_f0c_1" name="0X-CSS3Colors_color_f0c_1" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the color is set to 'color:#f0c' - Description: Check if the color is set to 'color:#f0c'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the color is set to 'color:#f0c' - Description: Check if the color is set to 'color:#f0c']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_f0c_1.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-0Y-CSS3Colors_color_rgb_255_0_204" name="0Y-CSS3Colors_color_rgb_255_0_204" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the color is set to 'color:rgb(255,0,204)' - Description: Check if the color is set to 'color:rgb(255,0,204)'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the color is set to 'color:rgb(255,0,204)' - Description: Check if the color is set to 'color:rgb(255,0,204)']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_rgb_255_0_204.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-0Z-CSS3Colors_color_rgb_100pct_0pct_80pct" name="0Z-CSS3Colors_color_rgb_100pct_0pct_80pct" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the color is set to 'color:rgb(100%,0%,80%)' - Description: Check if the color is set to 'color:rgb(100%,0%,80%)'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the color is set to 'color:rgb(100%,0%,80%)' - Description: Check if the color is set to 'color:rgb(100%,0%,80%)']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_rgb_100pct_0pct_80pct.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-10-CSS3Colors_color_red" name="10-CSS3Colors_color_red" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the color is set to 'color:red' - Description: Check if the color is set to 'color:red'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the color is set to 'color:red' - Description: Check if the color is set to 'color:red']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_red.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-11-CSS3Colors_color_FF0000_2" name="11-CSS3Colors_color_FF0000_2" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the color is set to 'color:#FF0000' - Description: Check if the color is set to 'color:#FF0000'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the color is set to 'color:#FF0000' - Description: Check if the color is set to 'color:#FF0000']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_FF0000_2.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-12-CSS3Colors_color_ff0000_1" name="12-CSS3Colors_color_ff0000_1" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the color is set to 'color:#ff0000' - Description: Check if the color is set to 'color:#ff0000'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the color is set to 'color:#ff0000' - Description: Check if the color is set to 'color:#ff0000']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_ff0000_1.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-13-CSS3Colors_color_rgb_255_0_0" name="13-CSS3Colors_color_rgb_255_0_0" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the color is set to 'color:rgb(255,0,0)' - Description: Check if the color is set to 'color:rgb(255,0,0)'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the color is set to 'color:rgb(255,0,0)' - Description: Check if the color is set to 'color:rgb(255,0,0)']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_rgb_255_0_0.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-14-CSS3Colors_color_rgb_100pct_0pct_0pct" name="14-CSS3Colors_color_rgb_100pct_0pct_0pct" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the color is set to 'color:rgb(100%,0%,0%)' - Description: Check if the color is set to 'color:rgb(100%,0%,0%)'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the color is set to 'color:rgb(100%,0%,0%)' - Description: Check if the color is set to 'color:rgb(100%,0%,0%)']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_rgb_100pct_0pct_0pct.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-15-CSS3Colors_color_F00_2" name="15-CSS3Colors_color_F00_2" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the color is set to 'color:#F00' - Description: Check if the color is set to 'color:#F00'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the color is set to 'color:#F00' - Description: Check if the color is set to 'color:#F00']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_F00_2.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-16-CSS3Colors_color_f00_1" name="16-CSS3Colors_color_f00_1" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the color is set to 'color:#f00' - Description: Check if the color is set to 'color:#f00'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the color is set to 'color:#f00' - Description: Check if the color is set to 'color:#f00']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_f00_1.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-17-CSS3Colors_color_black" name="17-CSS3Colors_color_black" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the color is set to 'color:black' - Description: Check if the color is set to 'color:black'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the color is set to 'color:black' - Description: Check if the color is set to 'color:black']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_black.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-18-CSS3Colors_color_000000" name="18-CSS3Colors_color_000000" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the color is set to 'color:#000000' - Description: Check if the color is set to 'color:#000000'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the color is set to 'color:#000000' - Description: Check if the color is set to 'color:#000000']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_000000.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-19-CSS3Colors_color_rgb_0_0_0" name="19-CSS3Colors_color_rgb_0_0_0" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the color is set to 'color:rgb(0,0,0)' - Description: Check if the color is set to 'color:rgb(0,0,0)'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the color is set to 'color:rgb(0,0,0)' - Description: Check if the color is set to 'color:rgb(0,0,0)']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_rgb_0_0_0.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-1A-CSS3Colors_color_000" name="1A-CSS3Colors_color_000" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the color is set to 'color:#000' - Description: Check if the color is set to 'color:#000'">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the color is set to 'color:#000' - Description: Check if the color is set to 'color:#000']]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_000.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-1B-css3_colors_tests_entry9" name="1B-css3_colors_tests_entry9" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: To check that opacity is group opacity into elements (not boxes) - Description: To check that opacity is group opacity into elements (not boxes)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: To check that opacity is group opacity into elements (not boxes) - Description: To check that opacity is group opacity into elements (not boxes)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/csswg/t32-opacity-offscreen-multiple-boxes-1-c.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-1C-css3_colors_tests_entry10" name="1C-css3_colors_tests_entry10" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: To check that opacity is group opacity over elements (not boxes) - Description: To check that opacity is group opacity over elements (not boxes)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: To check that opacity is group opacity over elements (not boxes) - Description: To check that opacity is group opacity over elements (not boxes)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/csswg/t32-opacity-offscreen-multiple-boxes-2-c.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-1D-css3_colors_tests_entry31" name="1D-css3_colors_tests_entry31" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: Check that alpha components of rgba() colors less than 0 are treated to 0 - Description: Check that alpha components of rgba() colors less than 0 are treated to 0">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check that alpha components of rgba() colors less than 0 are treated to 0 - Description: Check that alpha components of rgba() colors less than 0 are treated to 0]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/csswg/t422-rgba-clamping-a0.0-b.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-1E-css3_colors_tests_entry34" name="1E-css3_colors_tests_entry34" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: Check that rgba() values produce correct colors - Description: Check that rgba() values produce correct colors">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check that rgba() values produce correct colors - Description: Check that rgba() values produce correct colors]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/csswg/t422-rgba-func-int-a.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-1F-css3_colors_tests_entry37" name="1F-css3_colors_tests_entry37" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: Check that whitespace is allowed within rgba() functions - Description: Check that whitespace is allowed within rgba() functions">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check that whitespace is allowed within rgba() functions - Description: Check that whitespace is allowed within rgba() functions]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/csswg/t422-rgba-func-whitespace-b.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-1G-css3_colors_tests_entry35" name="1G-css3_colors_tests_entry35" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: Check that rgba() values are only accepted when all integers or all percentages - Description: Check that rgba() values are only accepted when all integers or all percentages">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check that rgba() values are only accepted when all integers or all percentages - Description: Check that rgba() values are only accepted when all integers or all percentages]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/csswg/t422-rgba-func-no-mixed-f.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-1H-css3_colors_tests_entry41" name="1H-css3_colors_tests_entry41" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: Check that the 'transparent' color keyword makes colors white transparent - Description: Check that the 'transparent' color keyword makes colors white transparent">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check that the 'transparent' color keyword makes colors white transparent - Description: Check that the 'transparent' color keyword makes colors white transparent]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/csswg/t423-transparent-1-a.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-1I-css3_colors_tests_entry42" name="1I-css3_colors_tests_entry42" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: Check that the 'transparent' color keyword makes colors black transparent - Description: Check that the 'transparent' color keyword makes colors black transparent">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check that the 'transparent' color keyword makes colors black transparent - Description: Check that the 'transparent' color keyword makes colors black transparent]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/csswg/t423-transparent-2-a.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-1J-css3_colors_tests_entry45" name="1J-css3_colors_tests_entry45" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: Check that H values in hsl() colors was treated like angles, even if it is outside [0,360). - Description: Check that H values in hsl() colors was treated like angles, even if it is outside [0,360).">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check that H values in hsl() colors was treated like angles, even if it is outside [0,360). - Description: Check that H values in hsl() colors was treated like angles, even if it is outside [0,360).]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/csswg/t424-hsl-h-rotating-b.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-1K-css3_colors_tests_entry50" name="1K-css3_colors_tests_entry50" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: Check H values in hsla() colors should be treated like angles, even if it is outside [0,360) - Description: Check H values in hsla() colors should be treated like angles, even if it is outside [0,360)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check H values in hsla() colors should be treated like angles, even if it is outside [0,360) - Description: Check H values in hsla() colors should be treated like angles, even if it is outside [0,360)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/csswg/t425-hsla-h-rotating-b.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-1L-css3_colors_tests_entry16" name="1L-css3_colors_tests_entry16" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: To check that currentColor uses the color from the color property works at borders - Description: To check that currentColor uses the color from the color property works at borders">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: To check that currentColor uses the color from the color property works at borders - Description: To check that currentColor uses the color from the color property works at borders]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/csswg/t44-currentcolor-border-b.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-1M-css3_colors_tests_entry15" name="1M-css3_colors_tests_entry15" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: To check that currentColor uses the color from the color property works at boxes - Description: To check that currentColor uses the color from the color property works at boxes">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: To check that currentColor uses the color from the color property works at boxes - Description: To check that currentColor uses the color from the color property works at boxes]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/csswg/t44-currentcolor-background-b.htm</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-1N-CSS3Colors_color_hsl_hus_only_number" name="1N-CSS3Colors_color_hsl_hus_only_number" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: Check if in hsl(), the hus only a number value can be given - Description: Check if in hsl(), the hus only a number value can be given">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if in hsl(), the hus only a number value can be given - Description: Check if in hsl(), the hus only a number value can be given]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_hsl_hus_only_number.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-1O-CSS3Colors_color_hsl_value_with_space" name="1O-CSS3Colors_color_hsl_value_with_space" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: Check if hsl() can has space - Description: Check if hsl() can has space">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if hsl() can has space - Description: Check if hsl() can has space]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_hsl_value_with_space.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0B-1P-CSS3Colors_color_transprent_rgba_0_0_0_0" name="1P-CSS3Colors_color_transprent_rgba_0_0_0_0" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-colors-css3-tests" status="designed" type="compliance" purpose="Objective: Check if the color keyword transparent and color value rgba(0,0,0,0) have same effect - Description: Check if the color keyword transparent and color value rgba(0,0,0,0) have same effect">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the color keyword transparent and color value rgba(0,0,0,0) have same effect - Description: Check if the color keyword transparent and color value rgba(0,0,0,0) have same effect]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_transprent_rgba_0_0_0_0.html</test_script_entry>
+                </description>
+            </testcase>
+        </set>
+    </suite>
+</test_definition>

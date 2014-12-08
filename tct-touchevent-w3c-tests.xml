@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<test_definition>
+    <suite launcher="xwalk" name="00-common/E0-crosswalk">
+        <set name="common/crosswalk/commonapi/tct-touchevent-w3c-tests">
+            <testcase id="00-E0-00-1A-01-document_createTouch_exist" name="01-document_createTouch_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-touchevent-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if document.createtouch method is defined. - Description: Check if document.createtouch method is defined.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if document.createtouch method is defined. - Description: Check if document.createtouch method is defined.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-touchevent-w3c-tests/touchevent/document_createTouch_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1A-02-document_createTouchList_exist" name="02-document_createTouchList_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-touchevent-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if document.createtouchlist method is defined. - Description: Check if document.createtouchlist method is defined.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if document.createtouchlist method is defined. - Description: Check if document.createtouchlist method is defined.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-touchevent-w3c-tests/touchevent/document_createTouchList_exist.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1A-03-Touch_identifier_exist" name="03-Touch_identifier_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-touchevent-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the Touch.identifier attribute exists - Description: Check if the Touch.identifier attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the Touch.identifier attribute exists - Description: Check if the Touch.identifier attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-touchevent-w3c-tests/touchevent/Touch_attributes_exist.html?total_num=8&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1A-04-Touch_target_exist" name="04-Touch_target_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-touchevent-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the Touch.target attribute exists - Description: Check if the Touch.target attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the Touch.target attribute exists - Description: Check if the Touch.target attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-touchevent-w3c-tests/touchevent/Touch_attributes_exist.html?total_num=8&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1A-05-Touch_screenX_exist" name="05-Touch_screenX_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-touchevent-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the Touch.screenX attribute exists - Description: Check if the Touch.screenX attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the Touch.screenX attribute exists - Description: Check if the Touch.screenX attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-touchevent-w3c-tests/touchevent/Touch_attributes_exist.html?total_num=8&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1A-06-Touch_screenY_exist" name="06-Touch_screenY_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-touchevent-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the Touch.screenY attribute exists - Description: Check if the Touch.screenY attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the Touch.screenY attribute exists - Description: Check if the Touch.screenY attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-touchevent-w3c-tests/touchevent/Touch_attributes_exist.html?total_num=8&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1A-07-Touch_clientX_exist" name="07-Touch_clientX_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-touchevent-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the Touch.clientX attribute exists - Description: Check if the Touch.clientX attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the Touch.clientX attribute exists - Description: Check if the Touch.clientX attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-touchevent-w3c-tests/touchevent/Touch_attributes_exist.html?total_num=8&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1A-08-Touch_clientY_exist" name="08-Touch_clientY_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-touchevent-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the Touch.clientY attribute exists - Description: Check if the Touch.clientY attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the Touch.clientY attribute exists - Description: Check if the Touch.clientY attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-touchevent-w3c-tests/touchevent/Touch_attributes_exist.html?total_num=8&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1A-09-Touch_pageX_exist" name="09-Touch_pageX_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-touchevent-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the Touch.pageX attribute exists - Description: Check if the Touch.pageX attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the Touch.pageX attribute exists - Description: Check if the Touch.pageX attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-touchevent-w3c-tests/touchevent/Touch_attributes_exist.html?total_num=8&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1A-0A-Touch_pageY_exist" name="0A-Touch_pageY_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-touchevent-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the Touch.pageY attribute exists - Description: Check if the Touch.pageY attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the Touch.pageY attribute exists - Description: Check if the Touch.pageY attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-touchevent-w3c-tests/touchevent/Touch_attributes_exist.html?total_num=8&amp;amp;locator_key=id&amp;amp;value=8</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1A-0B-TouchList_item_exist" name="0B-TouchList_item_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-touchevent-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the TouchList.item method exists - Description: Check if the TouchList.item method exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the TouchList.item method exists - Description: Check if the TouchList.item method exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-touchevent-w3c-tests/touchevent/TouchList_attributes_exist.html?total_num=2&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1A-0C-TouchList_length_exist" name="0C-TouchList_length_exist" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-touchevent-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if the TouchList.length attribute exists - Description: Check if the TouchList.length attribute exists">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the TouchList.length attribute exists - Description: Check if the TouchList.length attribute exists]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-touchevent-w3c-tests/touchevent/TouchList_attributes_exist.html?total_num=2&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1A-0D-Touch_interface" name="0D-Touch_interface" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-touchevent-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if document.createTouch exists and creates a Touch object with requested properties - Description: Check if document.createTouch exists and creates a Touch object with requested properties">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if document.createTouch exists and creates a Touch object with requested properties - Description: Check if document.createTouch exists and creates a Touch object with requested properties]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-touchevent-w3c-tests/touchevent/w3c/create-touch-touchlist.html?total_num=73&amp;locator_key=id&amp;value=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1A-0E-document_createTouchList_null" name="0E-document_createTouchList_null" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-touchevent-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if document.createTouchList with arguments negative the length is default value - Description: Check if document.createTouchList with arguments negative the length is default value">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if document.createTouchList with arguments negative the length is default value - Description: Check if document.createTouchList with arguments negative the length is default value]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-touchevent-w3c-tests/touchevent/w3c/create-touch-touchlist.html?total_num=73&amp;locator_key=id&amp;value=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1A-0F-document_createTouchList_one_arguments" name="0F-document_createTouchList_one_arguments" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-touchevent-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if createTouchList length is one, when parameter be set to one Touch - Description: Check if createTouchList length is one, when parameter be set to one Touch">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if createTouchList length is one, when parameter be set to one Touch - Description: Check if createTouchList length is one, when parameter be set to one Touch]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-touchevent-w3c-tests/touchevent/w3c/create-touch-touchlist.html?total_num=73&amp;locator_key=id&amp;value=9</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-1A-0G-document_createTouchList_two_arguments" name="0G-document_createTouchList_two_arguments" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-touchevent-w3c-tests" status="designed" type="compliance" purpose="Objective: Check if createTouchList length is two, when parameter be set to two Touch - Description: Check if createTouchList length is two, when parameter be set to two Touch">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if createTouchList length is two, when parameter be set to two Touch - Description: Check if createTouchList length is two, when parameter be set to two Touch]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-touchevent-w3c-tests/touchevent/w3c/create-touch-touchlist.html?total_num=73&amp;locator_key=id&amp;value=33</test_script_entry>
+                </description>
+            </testcase>
+        </set>
+    </suite>
+</test_definition>

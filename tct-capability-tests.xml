@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<test_definition>
+    <suite launcher="xwalk" name="00-common/E0-crosswalk">
+        <set name="common/crosswalk/commonapi/tct-capability-tests">
+            <testcase id="00-E0-00-0A-01-caps_inputKeyboard" name="01-caps_inputKeyboard" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-capability-tests" status="designed" type="compliance" purpose="Objective: Check if inputKeyboard is supported on the device. - Description: Check if inputKeyboard is supported on the device.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if inputKeyboard is supported on the device. - Description: Check if inputKeyboard is supported on the device.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-capability-tests/capability/caps_inputKeyboard.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0A-02-caps_multiTouchCount" name="02-caps_multiTouchCount" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-capability-tests" status="designed" type="compliance" purpose="Objective: Check if multiTouchCount is supported on the device. - Description: Check if multiTouchCount is supported on the device.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if multiTouchCount is supported on the device. - Description: Check if multiTouchCount is supported on the device.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-capability-tests/capability/caps_multiTouchCount.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0A-03-caps_usbHost" name="03-caps_usbHost" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-capability-tests" status="designed" type="compliance" purpose="Objective: Check if usbHost is supported on the device. - Description: Check if usbHost is supported on the device.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if usbHost is supported on the device. - Description: Check if usbHost is supported on the device.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-capability-tests/capability/caps_usbHost.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0A-04-caps_screenSizeNormal" name="04-caps_screenSizeNormal" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-capability-tests" status="designed" type="compliance" purpose="Objective: Check if screenSizeNormal is supported on the device. - Description: Check if screenSizeNormal is supported on the device.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if screenSizeNormal is supported on the device. - Description: Check if screenSizeNormal is supported on the device.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-capability-tests/capability/caps_screenSizeNormal.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0A-05-caps_memorystorage" name="05-caps_memorystorage" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-capability-tests" status="designed" type="compliance" purpose="Objective: Check that a mobile device must have at least 1GB of storage. - Description: Check that a mobile device must have at least 1GB of storage.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check that a mobile device must have at least 1GB of storage. - Description: Check that a mobile device must have at least 1GB of storage.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-capability-tests/capability/caps_memorystorage.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0A-06-caps_networking" name="06-caps_networking" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-capability-tests" status="designed" type="compliance" purpose="Objective: Check if the device supports at least one form of data networking capability to access to the Internet. - Description: Check if the device supports at least one form of data networking capability to access to the Internet.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the device supports at least one form of data networking capability to access to the Internet. - Description: Check if the device supports at least one form of data networking capability to access to the Internet.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-capability-tests/capability/caps_networking.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0A-07-caps_displayresolution" name="07-caps_displayresolution" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-capability-tests" status="designed" type="compliance" purpose="Objective: Check if the device supports a display resolution of 480x800 (WVGA) or 720x1280 (HD), or a minimum resolution of 320x480 (HVGA). - Description: Check if the device supports a display resolution of 480x800 (WVGA) or 720x1280 (HD), or a minimum resolution of 320x480 (HVGA).">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the device supports a display resolution of 480x800 (WVGA) or 720x1280 (HD), or a minimum resolution of 320x480 (HVGA). - Description: Check if the device supports a display resolution of 480x800 (WVGA) or 720x1280 (HD), or a minimum resolution of 320x480 (HVGA).]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-capability-tests/capability/caps_displayresolution.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0A-08-unsupported_bluetooth" name="08-unsupported_bluetooth" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-capability-tests" status="designed" type="compliance" purpose="Objective: Check that if Bluetooth API is not supported on the device, it returns 'undefined' when being accessed - Description: Check that if Bluetooth API is not supported on the device, it returns 'undefined' when being accessed">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check that if Bluetooth API is not supported on the device, it returns 'undefined' when being accessed - Description: Check that if Bluetooth API is not supported on the device, it returns 'undefined' when being accessed]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-capability-tests/capability/unsupported_bluetooth.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0A-09-unsupported_nfc" name="09-unsupported_nfc" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-capability-tests" status="designed" type="compliance" purpose="Objective: Check that if NFC API is not supported on the device, it returns 'undefined' when being accessed - Description: Check that if NFC API is not supported on the device, it returns 'undefined' when being accessed">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check that if NFC API is not supported on the device, it returns 'undefined' when being accessed - Description: Check that if NFC API is not supported on the device, it returns 'undefined' when being accessed]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-capability-tests/capability/unsupported_nfc.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0A-0A-unsupported_callhistory" name="0A-unsupported_callhistory" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-capability-tests" status="designed" type="compliance" purpose="Objective: Check that if Callhistory API is not supported on the device, it returns 'undefined' when being accessed - Description: Check that if Callhistory API is not supported on the device, it returns 'undefined' when being accessed">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check that if Callhistory API is not supported on the device, it returns 'undefined' when being accessed - Description: Check that if Callhistory API is not supported on the device, it returns 'undefined' when being accessed]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-capability-tests/capability/unsupported_callhistory.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0A-0B-unsupported_networkbearerselection" name="0B-unsupported_networkbearerselection" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-capability-tests" status="designed" type="compliance" purpose="Objective: Check that if NetworkBearerSelection API is not supported on the device, it returns 'undefined' when being accessed - Description: Check that if NetworkBearerSelection API is not supported on the device, it returns 'undefined' when being accessed">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check that if NetworkBearerSelection API is not supported on the device, it returns 'undefined' when being accessed - Description: Check that if NetworkBearerSelection API is not supported on the device, it returns 'undefined' when being accessed]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-capability-tests/capability/unsupported_networkbearerselection.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0A-0C-unsupported_push" name="0C-unsupported_push" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-capability-tests" status="designed" type="compliance" purpose="Objective: Check that if Push API is not supported on the device, it returns 'undefined' when being accessed - Description: Check that if Push API is not supported on the device, it returns 'undefined' when being accessed">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check that if Push API is not supported on the device, it returns 'undefined' when being accessed - Description: Check that if Push API is not supported on the device, it returns 'undefined' when being accessed]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-capability-tests/capability/unsupported_push.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0A-0D-unsupported_secureelement" name="0D-unsupported_secureelement" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-capability-tests" status="designed" type="compliance" purpose="Objective: Check that if SecureElement API is not supported on the device, it returns 'undefined' when being accessed - Description: Check that if SecureElement API is not supported on the device, it returns 'undefined' when being accessed">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check that if SecureElement API is not supported on the device, it returns 'undefined' when being accessed - Description: Check that if SecureElement API is not supported on the device, it returns 'undefined' when being accessed]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-capability-tests/capability/unsupported_secureelement.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0A-0E-unsupported_messaging_mms" name="0E-unsupported_messaging_mms" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-capability-tests" status="designed" type="compliance" purpose="Objective: Check that if MMS is not supported on the device, it returns 'NotSupportedError' when being accessed - Description: Check that if MMS is not supported on the device, it returns 'NotSupportedError' when being accessed">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check that if MMS is not supported on the device, it returns 'NotSupportedError' when being accessed - Description: Check that if MMS is not supported on the device, it returns 'NotSupportedError' when being accessed]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-capability-tests/capability/unsupported_messaging_mms.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0A-0F-unsupported_messaging_sms" name="0F-unsupported_messaging_sms" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-capability-tests" status="designed" type="compliance" purpose="Objective: Check that if SMS is not supported on the device, it returns 'NotSupportedError' when being accessed - Description: Check that if SMS is not supported on the device, it returns 'NotSupportedError' when being accessed">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check that if SMS is not supported on the device, it returns 'NotSupportedError' when being accessed - Description: Check that if SMS is not supported on the device, it returns 'NotSupportedError' when being accessed]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-capability-tests/capability/unsupported_messaging_sms.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0A-0G-unsupported_download_cellular" name="0G-unsupported_download_cellular" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-capability-tests" status="designed" type="compliance" purpose="Objective: Check that if telephony is not supported on the device, it returns 'NotSupportedError' when being requested - Description: Check that if telephony is not supported on the device, it returns 'NotSupportedError' when being requested">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check that if telephony is not supported on the device, it returns 'NotSupportedError' when being requested - Description: Check that if telephony is not supported on the device, it returns 'NotSupportedError' when being requested]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-capability-tests/capability/unsupported_download_cellular.html</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-0A-0H-unsupported_download_wifi" name="0H-unsupported_download_wifi" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/tct-capability-tests" status="designed" type="compliance" purpose="Objective: Check that if WiFi is not supported on the device, it returns 'NotSupportedError' when being requested - Description: Check that if WiFi is not supported on the device, it returns 'NotSupportedError' when being requested">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check that if WiFi is not supported on the device, it returns 'NotSupportedError' when being requested - Description: Check that if WiFi is not supported on the device, it returns 'NotSupportedError' when being requested]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/tct-capability-tests/capability/unsupported_download_wifi.html</test_script_entry>
+                </description>
+            </testcase>
+        </set>
+    </suite>
+</test_definition>

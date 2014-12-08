@@ -1,0 +1,754 @@
+<?xml version="1.0"?>
+<test_definition>
+    <suite launcher="xwalk" name="00-common/E0-crosswalk">
+        <set name="common/crosswalk/commonapi/webapi-simd-nonw3c-tests">
+            <testcase id="00-E0-00-2D-01-float32x4_constructor" name="01-float32x4_constructor" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check float32x4 constructor (0, 2, 2) - Description: Check float32x4 constructor (0, 2, 2)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check float32x4 constructor (0, 2, 2) - Description: Check float32x4 constructor (0, 2, 2)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/ecmascript_simd/src/index.html?testNumber=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-02-float32x4_scalar_getters" name="02-float32x4_scalar_getters" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check float32x4 scalar getters (0, 4, 4) - Description: Check float32x4 scalar getters (0, 4, 4)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check float32x4 scalar getters (0, 4, 4) - Description: Check float32x4 scalar getters (0, 4, 4)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/ecmascript_simd/src/index.html?testNumber=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-03-float32x4_signMask_getter" name="03-float32x4_signMask_getter" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check float32x4 signMask getter (0, 3, 3) - Description: Check float32x4 signMask getter (0, 3, 3)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check float32x4 signMask getter (0, 3, 3) - Description: Check float32x4 signMask getter (0, 3, 3)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/ecmascript_simd/src/index.html?testNumber=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-04-float32x4_vector_getters" name="04-float32x4_vector_getters" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check float32x4 vector getters (0, 20, 20) - Description: Check float32x4 vector getters (0, 20, 20)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check float32x4 vector getters (0, 20, 20) - Description: Check float32x4 vector getters (0, 20, 20)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/ecmascript_simd/src/index.html?testNumber=4</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-05-float32x4_abs" name="05-float32x4_abs" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check float32x4 abs (0, 8, 8) - Description: Check float32x4 abs (0, 8, 8)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check float32x4 abs (0, 8, 8) - Description: Check float32x4 abs (0, 8, 8)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/ecmascript_simd/src/index.html?testNumber=5</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-06-float32x4_neg" name="06-float32x4_neg" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check float32x4 neg (0, 8, 8) - Description: Check float32x4 neg (0, 8, 8)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check float32x4 neg (0, 8, 8) - Description: Check float32x4 neg (0, 8, 8)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/ecmascript_simd/src/index.html?testNumber=6</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-07-float32x4_add" name="07-float32x4_add" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check float32x4 add (0, 4, 4) - Description: Check float32x4 add (0, 4, 4)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check float32x4 add (0, 4, 4) - Description: Check float32x4 add (0, 4, 4)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/ecmascript_simd/src/index.html?testNumber=7</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-08-float32x4_sub" name="08-float32x4_sub" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check float32x4 sub (0, 4, 4) - Description: Check float32x4 sub (0, 4, 4)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check float32x4 sub (0, 4, 4) - Description: Check float32x4 sub (0, 4, 4)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/ecmascript_simd/src/index.html?testNumber=8</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-09-float32x4_mul" name="09-float32x4_mul" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check float32x4 mul (0, 4, 4) - Description: Check float32x4 mul (0, 4, 4)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check float32x4 mul (0, 4, 4) - Description: Check float32x4 mul (0, 4, 4)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/ecmascript_simd/src/index.html?testNumber=9</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-0A-float32x4_div" name="0A-float32x4_div" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check float32x4 div (0, 4, 4) - Description: Check float32x4 div (0, 4, 4)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check float32x4 div (0, 4, 4) - Description: Check float32x4 div (0, 4, 4)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/ecmascript_simd/src/index.html?testNumber=10</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-0B-float32x4_clamp" name="0B-float32x4_clamp" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check float32x4 clamp (0, 4, 4) - Description: Check float32x4 clamp (0, 4, 4)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check float32x4 clamp (0, 4, 4) - Description: Check float32x4 clamp (0, 4, 4)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/ecmascript_simd/src/index.html?testNumber=11</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-0C-float32x4_min" name="0C-float32x4_min" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check float32x4 min (0, 4, 4) - Description: Check float32x4 min (0, 4, 4)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check float32x4 min (0, 4, 4) - Description: Check float32x4 min (0, 4, 4)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/ecmascript_simd/src/index.html?testNumber=12</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-0D-float32x4_max" name="0D-float32x4_max" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check float32x4 max (0, 4, 4) - Description: Check float32x4 max (0, 4, 4)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check float32x4 max (0, 4, 4) - Description: Check float32x4 max (0, 4, 4)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/ecmascript_simd/src/index.html?testNumber=13</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-0E-float32x4_reciprocal" name="0E-float32x4_reciprocal" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check float32x4 reciprocal (0, 4, 4) - Description: Check float32x4 reciprocal (0, 4, 4)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check float32x4 reciprocal (0, 4, 4) - Description: Check float32x4 reciprocal (0, 4, 4)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/ecmascript_simd/src/index.html?testNumber=14</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-0F-float32x4_reciprocal_sqrt" name="0F-float32x4_reciprocal_sqrt" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check float32x4 reciprocal sqrt (0, 4, 4) - Description: Check float32x4 reciprocal sqrt (0, 4, 4)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check float32x4 reciprocal sqrt (0, 4, 4) - Description: Check float32x4 reciprocal sqrt (0, 4, 4)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/ecmascript_simd/src/index.html?testNumber=15</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-0G-float32x4_scale" name="0G-float32x4_scale" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check float32x4 scale (0, 4, 4) - Description: Check float32x4 scale (0, 4, 4)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check float32x4 scale (0, 4, 4) - Description: Check float32x4 scale (0, 4, 4)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/ecmascript_simd/src/index.html?testNumber=16</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-0H-float32x4_sqrt" name="0H-float32x4_sqrt" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check float32x4 sqrt (0, 4, 4) - Description: Check float32x4 sqrt (0, 4, 4)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check float32x4 sqrt (0, 4, 4) - Description: Check float32x4 sqrt (0, 4, 4)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/ecmascript_simd/src/index.html?testNumber=17</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-0I-float32x4_shuffleMix" name="0I-float32x4_shuffleMix" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check float32x4 shuffleMix (0, 12, 12) - Description: Check float32x4 shuffleMix (0, 12, 12)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check float32x4 shuffleMix (0, 12, 12) - Description: Check float32x4 shuffleMix (0, 12, 12)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/ecmascript_simd/src/index.html?testNumber=18</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-0J-float32x4_withX" name="0J-float32x4_withX" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check float32x4 withX (0, 4, 4) - Description: Check float32x4 withX (0, 4, 4)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check float32x4 withX (0, 4, 4) - Description: Check float32x4 withX (0, 4, 4)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/ecmascript_simd/src/index.html?testNumber=19</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-0K-float32x4_withY" name="0K-float32x4_withY" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check float32x4 withY (0, 4, 4) - Description: Check float32x4 withY (0, 4, 4)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check float32x4 withY (0, 4, 4) - Description: Check float32x4 withY (0, 4, 4)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/ecmascript_simd/src/index.html?testNumber=20</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-0L-float32x4_withZ" name="0L-float32x4_withZ" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check float32x4 withZ (0, 4, 4) - Description: Check float32x4 withZ (0, 4, 4)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check float32x4 withZ (0, 4, 4) - Description: Check float32x4 withZ (0, 4, 4)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/ecmascript_simd/src/index.html?testNumber=21</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-0M-float32x4_withW" name="0M-float32x4_withW" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check float32x4 withW (0, 4, 4) - Description: Check float32x4 withW (0, 4, 4)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check float32x4 withW (0, 4, 4) - Description: Check float32x4 withW (0, 4, 4)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/ecmascript_simd/src/index.html?testNumber=22</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-0N-float32x4_int32x4_conversion" name="0N-float32x4_int32x4_conversion" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check float32x4 int32x4 conversion (0, 20, 20) - Description: Check float32x4 int32x4 conversion (0, 20, 20)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check float32x4 int32x4 conversion (0, 20, 20) - Description: Check float32x4 int32x4 conversion (0, 20, 20)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/ecmascript_simd/src/index.html?testNumber=23</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-0O-float32x4_comparisons" name="0O-float32x4_comparisons" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check float32x4 comparisons (0, 24, 24) - Description: Check float32x4 comparisons (0, 24, 24)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check float32x4 comparisons (0, 24, 24) - Description: Check float32x4 comparisons (0, 24, 24)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/ecmascript_simd/src/index.html?testNumber=24</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-0P-int32x4_select" name="0P-int32x4_select" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check int32x4 select (0, 4, 4) - Description: Check int32x4 select (0, 4, 4)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check int32x4 select (0, 4, 4) - Description: Check int32x4 select (0, 4, 4)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/ecmascript_simd/src/index.html?testNumber=25</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-0Q-int32x4_withX" name="0Q-int32x4_withX" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check int32x4 withX (0, 4, 4) - Description: Check int32x4 withX (0, 4, 4)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check int32x4 withX (0, 4, 4) - Description: Check int32x4 withX (0, 4, 4)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/ecmascript_simd/src/index.html?testNumber=26</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-0R-int32x4_withY" name="0R-int32x4_withY" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check int32x4 withY (0, 4, 4) - Description: Check int32x4 withY (0, 4, 4)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check int32x4 withY (0, 4, 4) - Description: Check int32x4 withY (0, 4, 4)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/ecmascript_simd/src/index.html?testNumber=27</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-0S-int32x4_withZ" name="0S-int32x4_withZ" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check int32x4 withZ (0, 4, 4) - Description: Check int32x4 withZ (0, 4, 4)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check int32x4 withZ (0, 4, 4) - Description: Check int32x4 withZ (0, 4, 4)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/ecmascript_simd/src/index.html?testNumber=28</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-0T-int32x4_withW" name="0T-int32x4_withW" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check int32x4 withW (0, 4, 4) - Description: Check int32x4 withW (0, 4, 4)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check int32x4 withW (0, 4, 4) - Description: Check int32x4 withW (0, 4, 4)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/ecmascript_simd/src/index.html?testNumber=29</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-0U-int32x4_withFlagX" name="0U-int32x4_withFlagX" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check int32x4 withFlagX (0, 12, 12) - Description: Check int32x4 withFlagX (0, 12, 12)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check int32x4 withFlagX (0, 12, 12) - Description: Check int32x4 withFlagX (0, 12, 12)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/ecmascript_simd/src/index.html?testNumber=30</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-0V-int32x4_withFlagY" name="0V-int32x4_withFlagY" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check int32x4 withFlagY (0, 12, 12) - Description: Check int32x4 withFlagY (0, 12, 12)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check int32x4 withFlagY (0, 12, 12) - Description: Check int32x4 withFlagY (0, 12, 12)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/ecmascript_simd/src/index.html?testNumber=31</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-0W-int32x4_withFlagZ" name="0W-int32x4_withFlagZ" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check int32x4 withFlagZ (0, 13, 13) - Description: Check int32x4 withFlagZ (0, 13, 13)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check int32x4 withFlagZ (0, 13, 13) - Description: Check int32x4 withFlagZ (0, 13, 13)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/ecmascript_simd/src/index.html?testNumber=32</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-0X-int32x4_withFlagW" name="0X-int32x4_withFlagW" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check int32x4 withFlagW (0, 12, 12) - Description: Check int32x4 withFlagW (0, 12, 12)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check int32x4 withFlagW (0, 12, 12) - Description: Check int32x4 withFlagW (0, 12, 12)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/ecmascript_simd/src/index.html?testNumber=33</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-0Y-int32x4_and" name="0Y-int32x4_and" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check int32x4 and (0, 20, 20) - Description: Check int32x4 and (0, 20, 20)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check int32x4 and (0, 20, 20) - Description: Check int32x4 and (0, 20, 20)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/ecmascript_simd/src/index.html?testNumber=34</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-0Z-int32x4_or" name="0Z-int32x4_or" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check int32x4 or (0, 8, 8) - Description: Check int32x4 or (0, 8, 8)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check int32x4 or (0, 8, 8) - Description: Check int32x4 or (0, 8, 8)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/ecmascript_simd/src/index.html?testNumber=35</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-10-int32x4_xor" name="10-int32x4_xor" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check int32x4 xor (0, 12, 12) - Description: Check int32x4 xor (0, 12, 12)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check int32x4 xor (0, 12, 12) - Description: Check int32x4 xor (0, 12, 12)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/ecmascript_simd/src/index.html?testNumber=36</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-11-int32x4_neg" name="11-int32x4_neg" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check int32x4 neg (0, 8, 8) - Description: Check int32x4 neg (0, 8, 8)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check int32x4 neg (0, 8, 8) - Description: Check int32x4 neg (0, 8, 8)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/ecmascript_simd/src/index.html?testNumber=37</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-12-int32x4_signMask_getter" name="12-int32x4_signMask_getter" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check int32x4 signMask getter (0, 3, 3) - Description: Check int32x4 signMask getter (0, 3, 3)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check int32x4 signMask getter (0, 3, 3) - Description: Check int32x4 signMask getter (0, 3, 3)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/ecmascript_simd/src/index.html?testNumber=38</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-13-int32x4_add" name="13-int32x4_add" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check int32x4 add (0, 4, 4) - Description: Check int32x4 add (0, 4, 4)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check int32x4 add (0, 4, 4) - Description: Check int32x4 add (0, 4, 4)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/ecmascript_simd/src/index.html?testNumber=39</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-14-int32x4_sub" name="14-int32x4_sub" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check int32x4 sub (0, 4, 4) - Description: Check int32x4 sub (0, 4, 4)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check int32x4 sub (0, 4, 4) - Description: Check int32x4 sub (0, 4, 4)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/ecmascript_simd/src/index.html?testNumber=40</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-15-int32x4_mul" name="15-int32x4_mul" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check int32x4 mul (0, 4, 4) - Description: Check int32x4 mul (0, 4, 4)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check int32x4 mul (0, 4, 4) - Description: Check int32x4 mul (0, 4, 4)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/ecmascript_simd/src/index.html?testNumber=41</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-16-Float32x4Array_simple" name="16-Float32x4Array_simple" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check float32x4Array simple (0, 12, 12) - Description: Check float32x4Array simple (0, 12, 12)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check float32x4Array simple (0, 12, 12) - Description: Check float32x4Array simple (0, 12, 12)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/ecmascript_simd/src/index.html?testNumber=42</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-17-Float32x4Array_set_and_get" name="17-Float32x4Array_set_and_get" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check float32x4Array set and get (0, 16, 16) - Description: Check float32x4Array set and get (0, 16, 16)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check float32x4Array set and get (0, 16, 16) - Description: Check float32x4Array set and get (0, 16, 16)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/ecmascript_simd/src/index.html?testNumber=43</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-18-Float32x4Array_swap" name="18-Float32x4Array_swap" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check float32x4Array swap (0, 16, 16) - Description: Check float32x4Array swap (0, 16, 16)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check float32x4Array swap (0, 16, 16) - Description: Check float32x4Array swap (0, 16, 16)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/ecmascript_simd/src/index.html?testNumber=44</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-19-Float32x4Array_copy" name="19-Float32x4Array_copy" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check float32x4Array copy (0, 24, 24) - Description: Check float32x4Array copy (0, 24, 24)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check float32x4Array copy (0, 24, 24) - Description: Check float32x4Array copy (0, 24, 24)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/ecmascript_simd/src/index.html?testNumber=45</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-1A-Float32Array_view_basic" name="1A-Float32Array_view_basic" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check Float32Array view basic (0, 12, 12) - Description: Check Float32Array view basic (0, 12, 12)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check Float32Array view basic (0, 12, 12) - Description: Check Float32Array view basic (0, 12, 12)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/ecmascript_simd/src/index.html?testNumber=46</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-1B-Float32Array_view_values" name="1B-Float32Array_view_values" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check Float32Array view values (0, 48, 48) - Description: Check Float32Array view values (0, 48, 48)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check Float32Array view values (0, 48, 48) - Description: Check Float32Array view values (0, 48, 48)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/ecmascript_simd/src/index.html?testNumber=47</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-1C-Float32x4Array_exceptions" name="1C-Float32x4Array_exceptions" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check float32x4Array exceptions (0, 4, 4) - Description: Check float32x4Array exceptions (0, 4, 4)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check float32x4Array exceptions (0, 4, 4) - Description: Check float32x4Array exceptions (0, 4, 4)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/ecmascript_simd/src/index.html?testNumber=48</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-1D-View_on_Float32x4Array" name="1D-View_on_Float32x4Array" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check view on float32x4Array (0, 34, 34) - Description: Check view on float32x4Array (0, 34, 34)">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check view on float32x4Array (0, 34, 34) - Description: Check view on float32x4Array (0, 34, 34)]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/ecmascript_simd/src/index.html?testNumber=49</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-1E-Float32x4_zero" name="1E-Float32x4_zero" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check if the zero function of float32x4 can change the parameter to 0.0. - Description: Check if the zero function of float32x4 can change the parameter to 0.0.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the zero function of float32x4 can change the parameter to 0.0. - Description: Check if the zero function of float32x4 can change the parameter to 0.0.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/float32x4.html?testNumber=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-1F-Float32x4_splat" name="1F-Float32x4_splat" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check if the splat function of float32x4 can change the parameter to specified value. - Description: Check if the splat function of float32x4 can change the parameter to specified value.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the splat function of float32x4 can change the parameter to specified value. - Description: Check if the splat function of float32x4 can change the parameter to specified value.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/float32x4.html?testNumber=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-1G-Float32x4_fromInt32x4" name="1G-Float32x4_fromInt32x4" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check if the fromInt32x4 method of float32x4 is valid. - Description: Check if the fromInt32x4 method of float32x4 is valid.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the fromInt32x4 method of float32x4 is valid. - Description: Check if the fromInt32x4 method of float32x4 is valid.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/float32x4.html?testNumber=5</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-1H-Float32x4_fromInt32x4Bits" name="1H-Float32x4_fromInt32x4Bits" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check if the fromInt32x4Bits method of float32x4 is valid. - Description: Check if the fromInt32x4Bits method of float32x4 is valid.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the fromInt32x4Bits method of float32x4 is valid. - Description: Check if the fromInt32x4Bits method of float32x4 is valid.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/float32x4.html?testNumber=6</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-1I-Float32x4_select" name="1I-Float32x4_select" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check if the select method of float32x4 is valid. - Description: Check if the select method of float32x4 is valid.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the select method of float32x4 is valid. - Description: Check if the select method of float32x4 is valid.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/float32x4.html?testNumber=7</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-1J-Int32x4_constructor" name="1J-Int32x4_constructor" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check if int32x4 object can be creat successful. - Description: Check if int32x4 object can be creat successful.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if int32x4 object can be creat successful. - Description: Check if int32x4 object can be creat successful.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/int32x4.html?testNumber=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-1K-Int32x4_getX" name="1K-Int32x4_getX" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check if the x value of int32x4 object can be got. - Description: Check if the x value of int32x4 object can be got.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the x value of int32x4 object can be got. - Description: Check if the x value of int32x4 object can be got.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/int32x4.html?testNumber=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-1L-Int32x4_getY" name="1L-Int32x4_getY" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check if the y value of int32x4 object can be got. - Description: Check if the y value of int32x4 object can be got.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the y value of int32x4 object can be got. - Description: Check if the y value of int32x4 object can be got.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/int32x4.html?testNumber=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-1M-Int32x4_getZ" name="1M-Int32x4_getZ" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check if the z value of int32x4 object can be got. - Description: Check if the z value of int32x4 object can be got.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the z value of int32x4 object can be got. - Description: Check if the z value of int32x4 object can be got.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/int32x4.html?testNumber=4</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-1N-Int32x4_getW" name="1N-Int32x4_getW" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check if the w value of int32x4 object can be got. - Description: Check if the w value of int32x4 object can be got.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the w value of int32x4 object can be got. - Description: Check if the w value of int32x4 object can be got.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/int32x4.html?testNumber=5</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-1O-Int32x4_bool" name="1O-Int32x4_bool" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check if the bool function of int32x4 can change the parameter to (-1, 0, -1, 0). - Description: Check if the bool function of int32x4 can change the parameter to (-1, 0, -1, 0).">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the bool function of int32x4 can change the parameter to (-1, 0, -1, 0). - Description: Check if the bool function of int32x4 can change the parameter to (-1, 0, -1, 0).]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/int32x4.html?testNumber=6</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-1P-Int32x4_splat" name="1P-Int32x4_splat" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check if the splat function of int32x4can change the parameter to specified value. - Description: Check if the splat function of int32x4can change the parameter to specified value.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the splat function of int32x4can change the parameter to specified value. - Description: Check if the splat function of int32x4can change the parameter to specified value.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/int32x4.html?testNumber=7</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-1Q-Int32x4_flagX" name="1Q-Int32x4_flagX" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check if the flagX of int32x4 object can be got and type of boolean. - Description: Check if the flagX of int32x4 object can be got and type of boolean.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the flagX of int32x4 object can be got and type of boolean. - Description: Check if the flagX of int32x4 object can be got and type of boolean.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/int32x4.html?testNumber=8</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-1R-Int32x4_flagY" name="1R-Int32x4_flagY" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check if the flagY of int32x4 object can be got and type of boolean. - Description: Check if the flagY of int32x4 object can be got and type of boolean.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the flagY of int32x4 object can be got and type of boolean. - Description: Check if the flagY of int32x4 object can be got and type of boolean.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/int32x4.html?testNumber=9</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-1S-Int32x4_flagZ" name="1S-Int32x4_flagZ" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check if the flagZ of int32x4 object can be got and type of boolean. - Description: Check if the flagZ of int32x4 object can be got and type of boolean.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the flagZ of int32x4 object can be got and type of boolean. - Description: Check if the flagZ of int32x4 object can be got and type of boolean.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/int32x4.html?testNumber=10</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-1T-Int32x4_flagW" name="1T-Int32x4_flagW" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check if the flagW of int32x4 object can be got and type of boolean. - Description: Check if the flagW of int32x4 object can be got and type of boolean.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the flagW of int32x4 object can be got and type of boolean. - Description: Check if the flagW of int32x4 object can be got and type of boolean.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/int32x4.html?testNumber=11</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-1U-Int32x4_fromFloat32x4" name="1U-Int32x4_fromFloat32x4" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check if the fromFloat32x4 method of int32x4 is valid. - Description: Check if the fromFloat32x4 method of int32x4 is valid.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the fromFloat32x4 method of int32x4 is valid. - Description: Check if the fromFloat32x4 method of int32x4 is valid.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/int32x4.html?testNumber=14</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-1V-Int32x4_fromFloat32x4Bits" name="1V-Int32x4_fromFloat32x4Bits" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check if the fromFloat32x4Bits method of int32x4 is valid. - Description: Check if the fromFloat32x4Bits method of int32x4 is valid.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the fromFloat32x4Bits method of int32x4 is valid. - Description: Check if the fromFloat32x4Bits method of int32x4 is valid.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/int32x4.html?testNumber=15</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-1W-float64x2_construct" name="1W-float64x2_construct" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check if float64x2 object can be creat successful. - Description: Check if float64x2 object can be creat successful.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if float64x2 object can be creat successful. - Description: Check if float64x2 object can be creat successful.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/float64x2.html?testNumber=1</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-1X-float64x2_zero" name="1X-float64x2_zero" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check if the zero function of float64x2 can change the parameter to 0.0. - Description: Check if the zero function of float64x2 can change the parameter to 0.0.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the zero function of float64x2 can change the parameter to 0.0. - Description: Check if the zero function of float64x2 can change the parameter to 0.0.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/float64x2.html?testNumber=2</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-1Y-float64x2_splat" name="1Y-float64x2_splat" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check if the splat function of float64x2 can change the parameter to specified value. - Description: Check if the splat function of float64x2 can change the parameter to specified value.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the splat function of float64x2 can change the parameter to specified value. - Description: Check if the splat function of float64x2 can change the parameter to specified value.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/float64x2.html?testNumber=3</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-1Z-float64x2_abs" name="1Z-float64x2_abs" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check if the abs method of float64x2 is valid. - Description: Check if the abs method of float64x2 is valid.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the abs method of float64x2 is valid. - Description: Check if the abs method of float64x2 is valid.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/float64x2.html?testNumber=8</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-20-float64x2_neg" name="20-float64x2_neg" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check if the neg method of float64x2 is valid. - Description: Check if the neg method of float64x2 is valid.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the neg method of float64x2 is valid. - Description: Check if the neg method of float64x2 is valid.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/float64x2.html?testNumber=9</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-21-float64x2_add" name="21-float64x2_add" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check if the add method of float64x2 is valid. - Description: Check if the add method of float64x2 is valid.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the add method of float64x2 is valid. - Description: Check if the add method of float64x2 is valid.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/float64x2.html?testNumber=10</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-22-float64x2_sub" name="22-float64x2_sub" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check if the sub method of float64x2 is valid. - Description: Check if the sub method of float64x2 is valid.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the sub method of float64x2 is valid. - Description: Check if the sub method of float64x2 is valid.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/float64x2.html?testNumber=11</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-23-float64x2_mul" name="23-float64x2_mul" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check if the mul method of float64x2 is valid. - Description: Check if the mul method of float64x2 is valid.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the mul method of float64x2 is valid. - Description: Check if the mul method of float64x2 is valid.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/float64x2.html?testNumber=12</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-24-float64x2_div" name="24-float64x2_div" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check if the div method of float64x2 is valid. - Description: Check if the div method of float64x2 is valid.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the div method of float64x2 is valid. - Description: Check if the div method of float64x2 is valid.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/float64x2.html?testNumber=13</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-25-float64x2_clamp" name="25-float64x2_clamp" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check if the clamp method of float64x2 is valid. - Description: Check if the clamp method of float64x2 is valid.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the clamp method of float64x2 is valid. - Description: Check if the clamp method of float64x2 is valid.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/float64x2.html?testNumber=14</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-26-float64x2_min" name="26-float64x2_min" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check if the min method of float64x2 is valid. - Description: Check if the min method of float64x2 is valid.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the min method of float64x2 is valid. - Description: Check if the min method of float64x2 is valid.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/float64x2.html?testNumber=15</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-27-float64x2_max" name="27-float64x2_max" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check if the max method of float64x2 is valid. - Description: Check if the max method of float64x2 is valid.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the max method of float64x2 is valid. - Description: Check if the max method of float64x2 is valid.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/float64x2.html?testNumber=16</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-28-float64x2_scale" name="28-float64x2_scale" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check if the scale method of float64x2 is valid. - Description: Check if the scale method of float64x2 is valid.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the scale method of float64x2 is valid. - Description: Check if the scale method of float64x2 is valid.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/float64x2.html?testNumber=19</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-29-float64x2_sqrt" name="29-float64x2_sqrt" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check if the sqrt method of float64x2 is valid. - Description: Check if the sqrt method of float64x2 is valid.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the sqrt method of float64x2 is valid. - Description: Check if the sqrt method of float64x2 is valid.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/float64x2.html?testNumber=20</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-2A-float64x2_withX" name="2A-float64x2_withX" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check if the withX method of float64x2 is valid. - Description: Check if the withX method of float64x2 is valid.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the withX method of float64x2 is valid. - Description: Check if the withX method of float64x2 is valid.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/float64x2.html?testNumber=23</test_script_entry>
+                </description>
+            </testcase>
+            <testcase id="00-E0-00-2D-2B-float64x2_withY" name="2B-float64x2_withY" priority="P0" execution_type="auto" component="common/crosswalk/commonapi/webapi-simd-nonw3c-tests" status="designed" type="compliance" purpose="Objective: Check if the withY method of float64x2 is valid. - Description: Check if the withY method of float64x2 is valid.">
+                <description>
+                    <pre_condition>
+                    <![CDATA[Objective: Check if the withY method of float64x2 is valid. - Description: Check if the withY method of float64x2 is valid.]]></pre_condition>
+                    <notes>
+                    <![CDATA[]]></notes>
+                    <test_script_entry>/opt/webapi-simd-nonw3c-tests/simd/float64x2.html?testNumber=24</test_script_entry>
+                </description>
+            </testcase>
+        </set>
+    </suite>
+</test_definition>
