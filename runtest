@@ -51,7 +51,7 @@ function install_widget () {
     if [[ -z $2 ]]; then
         echo 'test widget will be uncompressed and installed...'
         unzip -u $widgetzip -d $widgetinstdir
-        su - guest -c "export DBUS_SESSION_BUS_ADDRESS=\"unix:path=/run/user/9999/dbus/user_bus_socket\"; export XDG_RUNTIME_DIR=\"/run/user/9999\"; pkgcmd -i -t wgt -p -q $widgetwgt"
+        su - guest -c "export DBUS_SESSION_BUS_ADDRESS=\"unix:path=/run/user/9999/dbus/user_bus_socket\"; export XDG_RUNTIME_DIR=\"/run/user/9999\"; pkgcmd -i -t wgt -p $widgetwgt -q"
         widgetid=$(get_widgetid $1)
     fi
 }
